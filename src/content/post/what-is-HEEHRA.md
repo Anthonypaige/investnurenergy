@@ -1,14 +1,15 @@
 ---
 publishDate: 2023-09-27T00:00:00Z
-title: Alleviating Power Grid Strain
-excerpt: Join us as we explore innovative strategies to alleviate power grid strain, drawing parallels with the expansive growth and adaptability witnessed in the internet era.
-image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/HCE-2-cover-art.jpg?raw=true
-category: Energy Efficiency
+title: "What is the High-Efficiency Electric Home Rebate Act? (HEEHRA)"
+excerpt: "The High-Efficiency Electric Home Rebate Act (HEEHRA) is a groundbreaking piece of legislation that's part of the larger Inflation Reduction Act. It's designed to make energy-efficient home upgrades more accessible, especially for LMI households."
+image: "https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/EER-1-cover-art.jpg?raw=true"
+category: Energy Efficient Rebates
 tags:
-  - Power Grid
-  - Internet Era
-  - Energy Efficiency
+  - HEEHRA
+  - Energy Efficient
+  - Rebates
 ---
+
 
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
