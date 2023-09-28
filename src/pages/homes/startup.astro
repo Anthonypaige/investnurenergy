@@ -1,12 +1,11 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
-
 import Hero from '~/components/widgets/Hero.astro';
-//import CallToAction from '~/components/widgets/CallToAction.astro';
-
 import Features2 from '~/components/widgets/Features2.astro';
+import FeaturedArticles from '~/components/widgets/FeaturedArticles.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
 
+const featuredArticleSlugs = ['home-clean-energy-credit-guide', 'alleviating-grid-strain', 'hybrid-wind-solar-systems', 'overview-solar-water-heaters'];
 
 const metadata = {
   title: 'Startup Landing Page',
@@ -88,7 +87,11 @@ const metadata = {
     </Fragment>
   </Features2>
 
-  
+  <!-- Featured Articles Widget ******************* -->
+  <<FeaturedArticles 
+  title="Feature Articles" 
+  articleSlugs={['home-clean-energy-credit-guide', 'alleviating-grid-strain', 'hybrid-wind-solar-systems', 'overview-solar-water-heaters']} 
+  />
 
   <!-- FAQs Widget ******************* -->
 
