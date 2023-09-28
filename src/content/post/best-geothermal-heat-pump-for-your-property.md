@@ -1,15 +1,14 @@
 ---
 publishDate: 2023-09-27T00:00:00Z
-title: "Which Geothermal Heat Pump System Fits Your Property?"
-excerpt: "Explore the world of geothermal heat pump systems and find the perfect fit for your property. Our guide helps you navigate through the essential considerations, ensuring an energy-efficient solution tailored to your needs."
-image: "https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/Geo-3-cover%20art.jpg?raw=true"
+title: 'Which Geothermal Heat Pump System Fits Your Property?'
+excerpt: 'Explore the world of geothermal heat pump systems and find the perfect fit for your property. Our guide helps you navigate through the essential considerations, ensuring an energy-efficient solution tailored to your needs.'
+image: 'https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/Geo-3-cover%20art.jpg?raw=true'
 category: Clean Energy
 tags:
   - Geothermal Heat Pump
   - Property Fit
   - Energy Efficiency
 ---
-
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 

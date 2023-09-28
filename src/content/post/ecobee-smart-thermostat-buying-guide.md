@@ -1,15 +1,14 @@
 ---
 publishDate: 2023-09-27T00:00:00Z
-title: "Ecobee Smart Thermostats Buying Guide"
+title: 'Ecobee Smart Thermostats Buying Guide'
 excerpt: "Ecobee is the leading name in smart thermostats. This guide aims to simplify your buying options by breaking down Ecobee's unique features and capabilities."
-image: "https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/THRM-2-cover-art.png?raw=true"
+image: 'https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/THRM-2-cover-art.png?raw=true'
 category: Smart Thermostats
 tags:
   - Ecobee
   - Smart Thermostat
   - Buying Guide
 ---
-
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 

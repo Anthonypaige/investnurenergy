@@ -1,15 +1,14 @@
 ---
 publishDate: 2023-09-27T00:00:00Z
-title: "EV Charger Shopping Guide: A Heavily Incentivized Home Improvement"
-excerpt: "Our comprehensive guide helps you navigate the diverse options available, ensuring you make an informed decision that suits your needs and lifestyle."
-image: "https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/EER-3-cover-art.png?raw=true"
+title: 'EV Charger Shopping Guide: A Heavily Incentivized Home Improvement'
+excerpt: 'Our comprehensive guide helps you navigate the diverse options available, ensuring you make an informed decision that suits your needs and lifestyle.'
+image: 'https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/EER-3-cover-art.png?raw=true'
 category: Energy Efficient Rebates
 tags:
   - EV Charger
   - Home Improvement
   - Incentives
 ---
-
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 

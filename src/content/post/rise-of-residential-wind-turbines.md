@@ -1,15 +1,14 @@
 ---
 publishDate: 2023-09-27T00:00:00Z
-title: "Catching a Second Wind: The Rise of Residential Wind Turbines"
-excerpt: "Explore the resurgence of residential wind turbines as a viable alternative energy source. This article sheds light on the benefits and practical considerations of harnessing wind power in your home, paving the way for a sustainable future."
-image: "https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/WND-1-cover-art.jpg?raw=true"
+title: 'Catching a Second Wind: The Rise of Residential Wind Turbines'
+excerpt: 'Explore the resurgence of residential wind turbines as a viable alternative energy source. This article sheds light on the benefits and practical considerations of harnessing wind power in your home, paving the way for a sustainable future.'
+image: 'https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/WND-1-cover-art.jpg?raw=true'
 category: Clean Energy
 tags:
   - Wind Turbines
   - Residential Wind Power
   - Sustainable Energy
 ---
-
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 

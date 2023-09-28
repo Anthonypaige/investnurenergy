@@ -7,7 +7,7 @@ export const headerData = {
       links: [
         {
           text: 'Energy Efficient Home Upgrades',
-          href: getPermalink('/homes/energy-efficient-home-upgrades')
+          href: getPermalink('/homes/energy-efficient-home-upgrades'),
         },
         {
           text: 'Home Clean Energy Credit',
