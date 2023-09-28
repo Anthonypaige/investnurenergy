@@ -1,12 +1,11 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
-
 import Hero from '~/components/widgets/Hero.astro';
-//import CallToAction from '~/components/widgets/CallToAction.astro';
-
 import Features2 from '~/components/widgets/Features2.astro';
+import FeaturedArticles from '~/components/widgets/FeaturedArticles.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
 
+const featuredArticleSlugs = ['home-clean-energy-credit-guide', 'alleviating-grid-strain', 'hybrid-wind-solar-systems', 'overview-solar-water-heaters'];
 
 const metadata = {
   title: 'Startup Landing Page',
@@ -17,66 +16,54 @@ const metadata = {
   <!-- Hero Widget ******************* -->
 
   <Hero
-    tagline="Startup Web Demo"
-    actions={[
-      {
-        variant: 'primary',
-        target: '_blank',
-        text: 'Get templates',
-        href: 'https://github.com/onwidget/astrowind',
-        icon: 'tabler:download',
-      },
-      { text: 'Learn more', href: '#features' },
-    ]}
-  >
-    <Fragment slot="title">
-      Improve <span class="hidden sm:inline">the online presence of</span> your <span
-        class="text-accent dark:text-white highlight">Startup</span
-      > with Astrowind templates
-    </Fragment>
+  tagline="25C"
+  actions={[]}
+>
+  <Fragment slot="title">
+    The Energy Efficient Home Improvement Credit
+  </Fragment>
 
-    <Fragment slot="subtitle">
-      Step into the spotlight with <span class="font-semibold">Astrowind</span> templates, your pathway to fortifying
-      your startup's digital footprint, fostering credibility, and expanding your reach.
-    </Fragment>
+  <Fragment slot="subtitle">
+    Take Charge of Your Energy
+  </Fragment>
 
-    <Fragment slot="image">
-      <div class="relative h-0 pb-[56.25%]">
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/dsTXcSeAZq8"
-          title="YouTube video player"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"
-          allowfullscreen
-          class="absolute top-0 left-0 w-full h-full"
-        >
-        </iframe>
-      </div>
-    </Fragment>
-  </Hero>
+  <Fragment slot="image">
+    <div class="relative h-0 pb-[56.25%]">
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/dsTXcSeAZq8"
+        title="YouTube video player"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"
+        allowfullscreen
+        class="absolute top-0 left-0 w-full h-full"
+      >
+      </iframe>
+    </div>
+  </Fragment>
+</Hero>
 
   
   <!-- Features2 Widget ************** -->
 
   <Features2
-    title="What services do we provide?"
+    title="What is included in  The Energy Efficient Home Improvement Credit ?"
     subtitle="We offer a wide range of website templates that suit various industries and purposes such as business, portfolio, e-commerce, blog, etc."
     items={[
       {
-        title: 'Installation Instructions',
+        title: 'Heat Pumps',
         description:
           'Offer clear instructions on how to download the purchased templates and install them on various website platforms or content management systems.',
         icon: 'flat-color-icons:document',
       },
       {
-        title: 'Demo and Previews',
+        title: 'Water Heaters',
         description:
           'Provide interactive demos and previews that allow customers to see how their chosen template will look and function before making a purchase.',
         icon: 'flat-color-icons:template',
       },
       {
-        title: 'Technical Support',
+        title: 'Weatherization',
         description:
           'Providing customer support for any technical issues related to the templates or their implementation.',
         icon: 'flat-color-icons:voice-presentation',
@@ -88,7 +75,11 @@ const metadata = {
     </Fragment>
   </Features2>
 
-  
+  <!-- Featured Articles Widget ******************* -->
+<FeaturedArticles 
+title="Feature Articles" 
+articleSlugs={['home-energy-efficient-credit-guide', 'crafting-an-energy-efficient-strategy', 'biomass-boilers-explained' ,]} 
+/>
 
   <!-- FAQs Widget ******************* -->
 

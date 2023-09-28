@@ -1,0 +1,101 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import Header from '~/components/widgets/Header.astro';
+import Hero from '~/components/widgets/Hero2.astro';
+import FeaturedArticles from '~/components/widgets/FeaturedArticles.astro';
+import FAQs from '~/components/widgets/FAQs.astro';
+
+const metadata = {
+  title: 'Smart Energy Devices page',
+};
+---
+
+<Layout metadata={metadata}>
+  <Fragment slot="announcement"></Fragment>
+  <Fragment slot="header">
+    <Header
+      position="left"
+      links={[
+        { text: 'Services', href: '#' },
+        { text: 'Features', href: '#' },
+        { text: 'About', href: '#' },
+      ]}
+      actions={[
+        {
+          text: 'Download',
+          href: '#download',
+        },
+      ]}
+      isSticky
+      showToggleTheme
+    />
+  </Fragment>
+
+  
+ <!-- Hero Widget ******************* -->
+ 
+ <Hero
+ tagline="State-level Rebates"
+ actions={[]}
+>
+ <Fragment slot="title">
+   Smart Energy Devices 
+ </Fragment>
+
+ <Fragment slot="subtitle">
+   IOT Enabled Energy Savings 
+ </Fragment>
+
+ <Fragment slot="image">
+   <div class="relative h-0 pb-[56.25%]">
+     <iframe
+       width="560"
+       height="315"
+       src="https://www.youtube.com/embed/dsTXcSeAZq8"
+       title="YouTube video player"
+       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"
+       allowfullscreen
+       class="absolute top-0 left-0 w-full h-full"
+     >
+     </iframe>
+   </div>
+ </Fragment>
+</Hero>
+
+<!-- Featured Articles Widget ******************* -->
+<FeaturedArticles 
+  title="Feature Articles" 
+  articleSlugs={['iot-fueling-smart-energy-devices','guide-to-home-energy-monitoring','emporia-home-energy-monitoring-hems','sense-energy-monitoring-machine-learning']} 
+/>
+
+  <FAQs
+    title="Still have some doubts?"
+    items={[
+      {
+        title: 'What does this app do?',
+        description:
+          'This app provides a platform for you to easily browse, purchase, download, and use a wide range of website templates for your projects.',
+      },
+      {
+        title: 'How can this app solve my problem?',
+        description:
+          'This app streamlines the process of finding and implementing professional website designs, saving you time and effort in creating visually appealing and functional websites.',
+      },
+      {
+        title: 'Is it available for my device?',
+        description: `Our app is designed for compatibility across various devices and platforms, ensuring accessibility whether you're using a smartphone, tablet, or computer.`,
+      },
+      {
+        title: 'What makes this app different from others?',
+        description:
+          'Our app stands out for its user-friendly interface, extensive template collection, and seamless integration of the purchasing and downloading process, making it highly efficient.',
+      },
+      {
+        title: 'Are there any costs involved?',
+        description:
+          'While the app itself may be free to download, there may be costs associated with purchasing specific templates based on your preferences and project requirements.',
+      },
+    ]}
+  />
+
+</Layout>

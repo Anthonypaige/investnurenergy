@@ -6,20 +6,20 @@ export const headerData = {
       text: 'Homes',
       links: [
         {
-          text: 'SaaS',
-          href: getPermalink('/homes/saas'),
+          text: 'Energy Efficient Home Upgrades',
+          href: getPermalink('/homes/energy-efficient-home-upgrades')
         },
         {
-          text: 'Startup',
-          href: getPermalink('/homes/startup'),
+          text: 'Home Clean Energy Credit',
+          href: getPermalink('/homes/home-clean-energy-credit'),
         },
         {
-          text: 'Mobile App',
-          href: getPermalink('/homes/mobile-app'),
+          text: 'Smart Energy Devices',
+          href: getPermalink('/homes/smart-energy-devices'),
         },
         {
-          text: 'Personal',
-          href: getPermalink('/homes/personal'),
+          text: 'Home Energy Storage',
+          href: getPermalink('/homes/home-energy-storage'),
         },
       ],
     },
