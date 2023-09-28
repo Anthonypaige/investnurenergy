@@ -1,6 +1,6 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
-
+import FeaturedArticles from '~/components/widgets/FeaturedArticles.astro';
 import Hero from '~/components/widgets/Hero.astro';
 import Note from '~/components/widgets/Note.astro';
 import Features from '~/components/widgets/Features.astro';
@@ -94,7 +94,11 @@ const metadata = {
       },
     ]}
   />
-
+<!-- IIYE-main site Featured Articles Widget -->
+<FeaturedArticles 
+  title="<center>Featured Articles </center>" 
+  articleSlugs={['guide-to-inflation-reduction-act', 'mastering-time-of-use-rates', 'alleviating-grid-strain', 'electrical-panel-upgrade-credit']} 
+/>
  
   <!-- FAQs Widget ******************* -->
 

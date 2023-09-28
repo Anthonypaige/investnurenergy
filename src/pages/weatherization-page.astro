@@ -2,7 +2,7 @@
 import Layout from '~/layouts/PageLayout.astro';
 import Hero from '~/components/widgets/Hero.astro';
 import Features2 from '~/components/widgets/Features2.astro';
-
+import FeaturedArticles from '~/components/widgets/FeaturedArticles.astro';
 
 const metadata = {
   title: 'Water Heaters',
@@ -19,9 +19,14 @@ const metadata = {
     }}
   />
 
-  <!-- Features2 Widget ************** -->
-
-  <Features2
+  <!-- Weatherization (WTHR) Featured Articles Widget -->
+<FeaturedArticles 
+  title="<center>Featured Articles on Weatherization</center>" 
+  articleSlugs={['weatherization-energy-efficiency-guide', '5-diy-insulation-kits', 'foam-spray-insulation-shopping-guide']} 
+/>
+  
+<!-- Features2 Widget ************** -->
+<Features2
     title="Explore our diverse templates"
     subtitle="Discover our selection below to streamline and elevate your projects."
     columns={3}

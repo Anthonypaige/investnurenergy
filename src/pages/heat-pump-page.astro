@@ -2,7 +2,7 @@
 import Layout from '~/layouts/PageLayout.astro';
 import Hero from '~/components/widgets/Hero.astro';
 import Features2 from '~/components/widgets/Features2.astro';
-
+import FeaturedArticles from '~/components/widgets/FeaturedArticles.astro';
 
 const metadata = {
   title: 'Heat Pumps',
@@ -69,6 +69,11 @@ const metadata = {
       },
     ]}
   />
+<!-- Heat Pumps (HPQ) Featured Articles Widget -->
 
+<FeaturedArticles 
+  title="<center>Featured Articles on Heat Pumps</center>" 
+  articleSlugs={['whats-a-heat-pump', 'air-source-heat-pumps', 'ductless-mini-split-heat-pump']} 
+/>
 </Layout>
 

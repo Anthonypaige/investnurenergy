@@ -2,7 +2,7 @@
 import Layout from '~/layouts/PageLayout.astro';
 import Hero from '~/components/widgets/Hero.astro';
 import Features2 from '~/components/widgets/Features2.astro';
-
+import FeaturedArticles from '~/components/widgets/FeaturedArticles.astro';
 
 const metadata = {
   title: 'Water Heaters',
@@ -80,5 +80,10 @@ const metadata = {
       },
     ]}
   />
+<!-- Water Heaters (WTR) Featured Articles Widget -->
+<FeaturedArticles 
+  title="<center>Featured Articles on Water Heaters</center>" 
+  articleSlugs={['federal-water-heater-tax-incentives', 'overview-solar-water-heaters', 'heat-pump-water-heaters', 'tankless-water-heaters']} 
+/>
 
 </Layout>
