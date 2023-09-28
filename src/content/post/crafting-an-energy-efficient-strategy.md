@@ -1,15 +1,15 @@
 ---
-publishDate: 2023-08-06T00:00:00Z
-title: How to customize AstroWind template to suit your branding
-excerpt: Personalize AstroWind template for your brand. Our guide unlocks seamless customization steps for a unique online presence.
-image: https://images.unsplash.com/photo-1546984575-757f4f7c13cf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80
+publishDate: 2023-09-27T00:00:00Z
+title: Crafting an Energy Efficiency Strategy A Practical Approach
+excerpt: The key is to have a plan. This guide is designed to provide you with the essential information and insights you need to craft a practical and effective energy-saving strategy.
+image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/EEHU-2-cover-art.png?raw=true
+category: Energy Efficiency
 tags:
-  - astro
-  - tailwind css
-  - theme
-metadata:
-  canonical: https://astrowind.vercel.app/how-to-customize-astrowind-to-your-brand
+  - Energy Strategy
+  - Practical Approach
+  - Energy Saving
 ---
+
 
 ## Congue justo vulputate nascetur convallis varius orci fringilla nulla pharetr
 

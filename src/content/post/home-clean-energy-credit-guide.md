@@ -2,7 +2,7 @@
 publishDate: 2023-08-09T00:00:00Z
 title:  What is the Residential Clean Energy Credit?
 excerpt: The Residential Clean Energy Credit (25D) is more than just a tax incentive; it's a catalyst for change in the way we approach energy in our homes
-image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/HCE-1-cover-art.jpg?raw=true
+image: https://raw.githubusercontent.com/Anthonypaige/investnurenergy/main/public/images/cover-art/HCE-1-cover-art.jpg?token=GHSAT0AAAAAACIEYNMJTLKITWB7YJN3QFO2ZIU4IUA
 category: Clean Energy
 tags:
   - home energy storage
