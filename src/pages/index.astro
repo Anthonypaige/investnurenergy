@@ -4,7 +4,6 @@ import Layout from '~/layouts/PageLayout.astro';
 import Hero from '~/components/widgets/Hero.astro';
 import Note from '~/components/widgets/Note.astro';
 import Features from '~/components/widgets/Features.astro';
-import Features2 from '~/components/widgets/Features2.astro';
 import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
 
@@ -17,45 +16,33 @@ const metadata = {
 
 <Layout metadata={metadata}>
  
+  <!-- Hero Widget ******************* -->
   <Hero
-    tagline="Startup Web Demo"
-    actions={[
-      {
-        variant: 'primary',
-        target: '_blank',
-        text: 'Get templates',
-        href: 'https://github.com/onwidget/astrowind',
-        icon: 'tabler:download',
-      },
-      { text: 'Learn more', href: '#features' },
-    ]}
-  >
-    <Fragment slot="title">
-      Improve <span class="hidden sm:inline">the online presence of</span> your <span
-        class="text-accent dark:text-white highlight">Startup</span
-      > with Astrowind templates
-    </Fragment>
+  actions={[]}
+>
+  <Fragment slot="title">
+    The Inflation Reduction Act
+  </Fragment>
 
-    <Fragment slot="subtitle">
-      Step into the spotlight with <span class="font-semibold">Astrowind</span> templates, your pathway to fortifying
-      your startup's digital footprint, fostering credibility, and expanding your reach.
-    </Fragment>
+  <Fragment slot="subtitle">
+    Your Road Map to Energy Efficiency
+  </Fragment>
 
-    <Fragment slot="image">
-      <div class="relative h-0 pb-[56.25%]">
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/dsTXcSeAZq8"
-          title="YouTube video player"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"
-          allowfullscreen
-          class="absolute top-0 left-0 w-full h-full"
-        >
-        </iframe>
-      </div>
-    </Fragment>
-  </Hero>
+  <Fragment slot="image">
+    <div class="relative h-0 pb-[56.25%]">
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/dsTXcSeAZq8"
+        title="YouTube video player"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"
+        allowfullscreen
+        class="absolute top-0 left-0 w-full h-full"
+      >
+      </iframe>
+    </div>
+  </Fragment>
+</Hero>
 
   <!-- Note Widget ******************* -->
 
@@ -66,11 +53,11 @@ const metadata = {
   <Features
     id="features"
     tagline="Features"
-    title="What you get with AstroWind"
+    title="What is included in the Inflation Reduction Act?"
     subtitle="One of the most professional and comprehensive templates currently on the market. Most starred & forked Astro theme in 2022."
     items={[
       {
-        title: 'Astro + Tailwind CSS Integration',
+        title: 'Home Clean Energy Credit',
         description:
           'A seamless integration between two great frameworks that offer high productivity, performance and versatility.',
         icon: 'tabler:brand-tailwind',
@@ -109,70 +96,6 @@ const metadata = {
   />
 
  
-  <!-- Features2 Widget ************** -->
-
-  <Features2
-    title="Most used widgets"
-    subtitle="Provides frequently used components for building websites using Tailwind CSS"
-    tagline="Components"
-    items={[
-      {
-        title: 'Headers',
-        description: "Ever tried driving without GPS? Boom! That's why websites need headers for direction.",
-        icon: 'flat-color-icons:template',
-      },
-      {
-        title: 'Heros',
-        description:
-          "Picture a superhero landing – epic, right? That's the job of a Hero section, making grand entrances!",
-        icon: 'flat-color-icons:gallery',
-      },
-      {
-        title: 'Features',
-        description:
-          'Where websites strut their stuff and show off superpowers. No holding back on the bragging rights here!',
-        icon: 'flat-color-icons:approval',
-      },
-      {
-        title: 'Content',
-        description:
-          "Dive into the meat and potatoes of a site; without it, you'd just be window shopping. Content is king.",
-        icon: 'flat-color-icons:document',
-      },
-      {
-        title: 'Call-to-Action',
-        description:
-          'That enthusiastic friend who\'s always urging, "Do it! Do it!"? Yeah, that\'s this button nudging you towards adventure.',
-        icon: 'flat-color-icons:advertising',
-      },
-      {
-        title: 'Pricing',
-        description: 'Behold the dessert menu of the website world. Tempting choices await, can you resist?',
-        icon: 'flat-color-icons:currency-exchange',
-      },
-      {
-        title: 'Testimonial',
-        description: 'Step into the gossip corner! Here, other visitors spill the beans and share the juicy details.',
-        icon: 'flat-color-icons:voice-presentation',
-      },
-      {
-        title: 'Contact',
-        description:
-          'Like a digital mailbox, but faster! Drop a line, ask a question, or send a virtual high-five. Ding! Message in.',
-        icon: 'flat-color-icons:business-contact',
-      },
-      {
-        title: 'Footers',
-        description: "The footer's like the credits of a movie but sprinkled with easter eggs. Time to hunt!",
-        icon: 'flat-color-icons:database',
-      },
-    ]}
-  >
-    <Fragment slot="bg">
-      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
-    </Fragment>
-  </Features2>
-
   <!-- FAQs Widget ******************* -->
 
   <FAQs
