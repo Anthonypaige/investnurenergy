@@ -21,7 +21,7 @@ const {
   linkUrl = getBlogPermalink(),
   information = await Astro.slots.render("information"),
   articleSlugs = [],  // Changed from postIds to articleSlugs
-  centerTitle = true,  // Default value for new prop
+  centerTitle = false,  // Default value for new prop
 
   id,
   isDark = false,
