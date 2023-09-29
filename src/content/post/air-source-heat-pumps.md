@@ -5,9 +5,9 @@ excerpt: 'Discover the transformative power of air source heat pumps in revoluti
 image: 'https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/HPQ-2-cover-art.jpg?raw=true'
 category: Energy Efficiency
 tags:
-  - Air Source
+  - Energy Savings
   - Heat Pumps
-  - Home Comfort
+  - Ductless Mini Splits
 ---
 
 Heating and cooling systems are more than just amenities; they're essential to our daily lives, ensuring our homes remain comfortable year-round. Yet, these systems are also one of the largest energy consumers in American households, contributing to nearly 40% of the nation's total energy usage. This significant consumption underscores the urgent need for more energy-efficient alternatives.
