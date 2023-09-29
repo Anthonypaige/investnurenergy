@@ -98,7 +98,3 @@ The Inflation Reduction Act of 2022 opens doors to a more sustainable future, of
 Invest In Your Energy is here to guide you through these options, helping you navigate the complexities of the Act and make informed decisions that suit your needs. Together, we can leverage these incentives to create a more sustainable, energy-efficient home.
 
 ---
-
-
-
-

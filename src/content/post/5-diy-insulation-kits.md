@@ -18,78 +18,93 @@ Home insulation is not just a winter concern; it's a year-round strategy for imp
 ## **Garage Door Insulation Kits**
 
 ### **What They Offer**
+
 These kits come with pre-cut foam or fiberglass panels that not only regulate temperature but also reduce noise, making your garage a more comfortable workspace or storage area.
 
 ### **Cost and Savings**
+
 Prices generally range from $50 to $200. Properly insulating your garage door can lead to up to 20% energy savings, especially if your garage is attached to your home and shares walls.
 
 ### **Why Choose This**
+
 If your garage serves as a workspace or if it's attached to your home, insulating it can significantly impact your energy bills and comfort.
 
 ### **Popular Brands**
+
 Owens Corning and Matador offer reliable and easy-to-install kits. [Owens Corning on Amazon](https://www.amazon.com/), [Matador on Amazon](https://www.amazon.com/)
 
 ## **Window Shrinking Film Kits**
 
 ### **What They Offer**
+
 These kits include a plastic film and double-sided tape to seal drafty windows, effectively acting as a second layer of glazing.
 
 ### **Cost and Savings**
+
 Very affordable, these kits range from $5 to $20. They can save you up to $20 per window per year, which adds up quickly in homes with many windows.
 
 ### **Why Choose This**
+
 These are an excellent option for renters or those living in older homes with less efficient windows.
 
 ### **Popular Brands**
+
 Duck and 3M are trusted brands for window insulation. [Duck on Amazon](https://www.amazon.com/), [3M on Amazon](https://www.amazon.com/)
 
 ## **Spray Foam Insulation Kits**
 
 ### **What They Offer**
+
 These kits contain two-component foam that expands upon application, filling gaps and adding a layer of insulation where needed.
 
 ### **Cost and Savings**
+
 These kits can range from $50 to $600 depending on the coverage area. They can reduce your energy bills by up to 15%.
 
 ### **Why Choose This**
+
 Spray foam is versatile and can be used in various applications, from wall cavities to gaps around windows and doors.
 
 ### **Popular Brands**
+
 Great Stuff and Loctite are go-to brands for spray foam insulation. [Great Stuff on Amazon](https://www.amazon.com/), [Loctite on Amazon](https://www.amazon.com/)
 
 ## **Attic Door Insulation Covers**
 
 ### **What They Offer**
+
 These are insulating covers, often made from foam, foil, or fiberglass, designed to fit over your attic door or hatch.
 
 ### **Cost and Savings**
+
 These covers range from $30 to $100 and can save you up to 10% on your annual energy bills.
 
 ### **Why Choose This**
+
 If you live in a colder climate, insulating your attic door is a must to prevent heat loss.
 
 ### **Popular Brands**
+
 Owens Corning and Battic Door are reputable brands for attic door insulation. [Owens Corning on Amazon](https://www.amazon.com/), [Battic Door on Amazon](https://www.amazon.com/)
 
 ## **Water Heater Insulation Blankets**
 
 ### **What They Offer**
+
 These blankets are made of fiberglass or foil and are particularly useful for older water heaters that lack built-in insulation.
 
 ### **Cost and Savings**
+
 Prices range from $20 to $50. Insulating your water heater can save up to 9% on water heating costs.
 
 ### **Why Choose This**
+
 If you have an older water heater or are looking to maximize energy efficiency, this is a simple yet effective solution.
 
 ### **Popular Brands**
+
 Frost King and SmartJacket are reliable choices for water heater insulation. [Frost King on Amazon](https://www.amazon.com/), [SmartJacket on Amazon](https://www.amazon.com/)
 
 ## **Conclusion**
 
 Investing in DIY home insulation kits is a smart move for both your comfort and your wallet. With tailored solutions for various insulation needs, these kits not only make your home more energy-efficient but also offer substantial savings in the long run. Whether you're a renter, a homeowner, or someone looking to make a long-term investment in your property, there's a DIY insulation kit that's right for you.
-
-
-
-
-

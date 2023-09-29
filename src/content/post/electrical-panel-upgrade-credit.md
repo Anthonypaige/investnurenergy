@@ -65,6 +65,3 @@ The Act is expected to roll out by the end of 2023, and while the exact timeline
 ## **Conclusion**
 
 Electrical panel upgrades are more than just a home improvement project; they're an investment in our sustainable future. With the Inflation Reduction Act's support, homeowners can now make these upgrades more affordably, paving the way for a greener, more energy-efficient tomorrow.
-
-
-
