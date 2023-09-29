@@ -9,41 +9,58 @@ tags:
   - Smart Thermostat
   - Buying Guide
 ---
+If you're shopping for a smart thermostat, you'll likely encounter Ecobee—a market leader in smart home comfort. With models to fit various needs and budgets, Ecobee offers more than just temperature control; they provide a complete solution for home energy management. This guide aims to simplify your buying options by breaking down Ecobee's unique features and capabilities. Whether you're tech-savvy or just looking for a budget-friendly option, we'll help you find the Ecobee model that's right for you. Let's dive in.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+#### **Ecobee3 Lite: The Budget-Friendly Smart Thermostat**
 
-## Nostra torquent consequat volutpat aliquet neque
+The Ecobee3 Lite, priced at an affordable $140, is an Energy Star Certified smart thermostat that promises substantial energy savings. This user-friendly thermostat is designed for DIY installation and offers seamless integration with major smart home ecosystems, including Apple HomeKit. Additionally, it's Wi-Fi connected and compatible with all smart home systems.
 
-Lorem ipsum dolor sit amet consectetur adipiscing elit proin, aenean litora volutpat urna egestas magnis arcu non, cras ut cursus et sed morbi lectus. Integer faucibus sagittis eu nunc urna aliquet a laoreet torquent, suspendisse penatibus nulla sollicitudin congue rutrum dictum. Ornare mi habitasse fermentum phasellus dui et morbi litora sodales dictum id erat, nibh purus class ligula aenean lectus venenatis euismod cras torquent ac. Senectus sagittis conubia hendrerit at egestas porta venenatis nisi metus gravida tempor, aenean facilisis nisl ante facilisi lacus integer hac iaculis purus. Scelerisque libero torquent egestas curae tellus viverra inceptos imperdiet urna, porta suspendisse interdum primis odio morbi tempor commodo dictumst, suscipit ornare habitasse semper feugiat cras quisque lobortis.
+##### **Advanced Software Features**
 
-Iaculis arcu commodo dis proin vitae himenaeos, ante tristique potenti magna ligula, sagittis libero fermentum ullamcorper sociis. Sem eros non arcu natoque fringilla lacus vestibulum lacinia integer mus viverra in proin, sagittis fusce tortor erat enim rutrum vulputate curae laoreet class diam. Inceptos convallis ac nisi natoque nam quisque magnis ut nullam fringilla curae, luctus lacus purus habitant erat magna molestie class habitasse metus, nibh lobortis tortor curabitur neque phasellus feugiat netus morbi parturient. Neque malesuada mauris justo himenaeos pharetra, ullamcorper enim ligula a nulla consequat, eget vivamus velit ridiculus.
+While Ecobee's hardware is impressive, it's the advanced software features that truly add value. All models come equipped with eco+, a sophisticated software that enhances energy savings by learning your routine and suggesting modifications to your thermostat schedule for optimal energy efficiency. Here's what the Ecobee3 Lite, their base model, brings to the table:
 
-## Praesent tellus ad sapien erat or
+1.  **Time of Use**: This feature smartly adjusts your energy consumption based on the time of day, potentially saving you money by minimizing energy use during peak hours when energy costs are higher.
 
-- Quam orci nostra mi nulla, hac a.
+2.  **Adjust the Temperature for Humidity**: This feature fine-tunes the temperature based on the humidity level detected in your home, ensuring your home always feels like the temperature you've set on your thermostat.
 
-- Interdum iaculis quis tellus sociis orci nulla, quam rutrum conubia tortor primis.
+3.  **Schedule Assistant**: This feature tailors your thermostat's schedule based on your habits and preferences.
 
-- Non felis sem placerat aenean duis, ornare turpis nostra.
+4.  **Community Energy Savings**: Also known as Demand Response with affiliated utility providers. This feature makes minor temperature adjustments during times of peak energy demand in your community.
 
-- Habitasse duis sociis sagittis cursus, ante dictumst commodo.
+5.  **Smart Home & Away**: This intelligent feature employs geofencing or other techniques to discern whether you're home or away, adjusting your thermostat settings to conserve energy.
 
-Duis maecenas massa habitasse inceptos imperdiet scelerisque at condimentum ultrices, nam dui leo enim taciti varius cras habitant pretium rhoncus, ut hac euismod nostra metus sagittis mi aenean. Quam eleifend aliquet litora eget a tempor, ultricies integer vestibulum non felis sodales, eros diam massa libero iaculis.
+#### **Ecobee Smart Thermostat Enhanced: The Next Step Up**
 
-Nisl ligula ante magnis himenaeos pellentesque orci cras integer urna ut convallis, id phasellus libero est nunc ultrices eget blandit massa ac hac, morbi vulputate quisque tellus feugiat conubia luctus tincidunt curae fermentum. Venenatis dictumst tincidunt senectus vivamus duis dis sociis taciti porta primis, rhoncus ridiculus rutrum curae mattis ullamcorper ac sagittis nascetur curabitur erat, faucibus placerat vulputate eu at habitasse nulla nisl interdum. Varius turpis dignissim montes ac ante tristique quis parturient hendrerit faucibus, consequat auctor penatibus suspendisse rutrum erat nulla inceptos est justo, etiam mollis mauris facilisi cras sociosqu eu sapien sed.
+Priced at $189, the Smart Thermostat Enhanced model offers a host of advanced features not found in the Ecobee3 Lite.
 
-Blandit aptent conubia mollis mauris habitasse suspendisse torquent aenean, ac primis auctor congue cursus mi posuere molestie, velit elementum per feugiat libero dictumst phasellus. Convallis mollis taciti condimentum praesent id porttitor ac dictumst at, sed in eu eleifend vehicula fermentum lectus litora venenatis, gravida hac molestie cum sociosqu mus viverra torquent. Congue est fusce habitasse ridiculus integer suscipit platea volutpat, inceptos varius elementum pellentesque malesuada interdum magnis. Hac lacus eget enim purus massa commodo nec lectus natoque fames arcu, mattis class quam ut neque dui cras quis diam orci sed velit, erat morbi eros suscipit sagittis laoreet vivamus torquent nulla turpis.
+##### **Additional Features Over Ecobee3 Lite**
 
-Ridiculus velit suscipit consequat auctor interdum magna gravida dictumst libero ut habitasse, sollicitudin vehicula suspendisse leo erat tristique at platea sagittis proin dignissim, id ornare scelerisque et urna maecenas congue tincidunt dictum malesuada. Dui vulputate accumsan scelerisque ridiculus dictum quisque et nam hac, tempus ultricies curabitur proin netus diam vivamus. Vestibulum ante ac auctor mi urna risus lacinia vulputate justo orci sociis dui semper, commodo morbi enim vivamus neque sem pellentesque velit donec hac metus odio. Tempor ultrices himenaeos massa sollicitudin mus conubia scelerisque cubilia, nascetur potenti mauris convallis et lectus gravida egestas sociis, erat eros ultricies aptent congue tortor ornare.
+1.  **Larger Touchscreen**: A 50% larger display provides an intuitive user interface.
 
-Pretium aliquet sodales aliquam tincidunt litora lectus, erat dui nibh diam mus, sed hendrerit condimentum senectus arcu. Arcu a nibh auctor dapibus eros turpis tempus commodo, libero hendrerit dictum interdum mus class sed scelerisque, sapien dictumst enim magna molestie habitant donec. Fringilla dui sed curabitur commodo varius est vel, viverra primis habitant sapien montes mattis dignissim, gravida cubilia laoreet tempus aliquet senectus. Sociosqu purus praesent porttitor curae sollicitudin accumsan feugiat maecenas donec quis lacus, suscipit taciti convallis odio morbi eros nibh bibendum nunc orci. Magna cras nullam aliquam metus nibh sagittis facilisi tortor nec, mus varius curae ridiculus fames congue interdum erat urna, neque odio lobortis mi mattis diam cubilia arcu.
+2.  **Dual-Band Wi-Fi**: Offers more reliable connectivity.
 
-Laoreet fusce nec class porttitor mus proin aenean, velit vestibulum feugiat porta egestas sapien posuere, conubia nisi tempus varius hendrerit tortor. Congue aliquam scelerisque neque vivamus habitasse semper mauris pellentesque accumsan posuere, suspendisse lectus gravida erat sagittis arcu praesent mus ornare. Habitasse nibh nam morbi mollis senectus erat risus, cum sollicitudin class platea congue mattis venenatis, luctus aenean parturient hendrerit malesuada ante. Mus auctor tincidunt consequat massa tortor nulla luctus habitasse vestibulum quis velit, laoreet sagittis cum facilisi in sem tellus leo vulputate vehicula bibendum orci, felis nisl blandit lacus convallis congue turpis magna facilisis condimentum.
+3.  **Radar-Based Occupancy Sensor**: Enhances geofencing capabilities.
 
-Dictumst pellentesque urna donec sociis suscipit montes consequat, commodo quam habitasse senectus fringilla maecenas, inceptos magna tristique eu nullam nam. Maecenas orci nibh hac eu tristique ut penatibus ultrices ante, pellentesque cubilia pharetra dis facilisis aliquam praesent malesuada vivamus, commodo cras velit convallis molestie nec tellus augue. Etiam ut convallis risus id dapibus platea laoreet accumsan, habitant et aenean netus inceptos iaculis per, mauris curae at ligula odio ad eu. Mauris erat tempor interdum sapien commodo per nullam tortor, fusce facilisis vehicula egestas dui nulla conubia ut fames, fringilla et tincidunt penatibus facilisi at mollis.
+4.  **Security Hub Compatibility**: Allows the addition of window and door sensors with a monthly security service subscription.
 
-Fermentum sociosqu litora primis sollicitudin fusce diam consequat vehicula per lobortis et, viverra sodales magna rutrum sed mollis faucibus molestie purus montes est, risus nostra congue venenatis lectus enim torquent eros dis dapibus. Dui suscipit scelerisque massa ligula euismod accumsan augue, magna vel lacus ante nullam senectus commodo, viverra cubilia eros eget penatibus tempor. Mattis mauris hac felis semper dui sociis faucibus mollis ornare pretium aliquam velit nisl, quis litora sem at vel duis rutrum imperdiet natoque viverra himenaeos tempor.
+5.  **Pause When Open**: If a door or window is left open for 5 minutes, Ecobee will send you an alert and automatically pause your heating or cooling to prevent energy waste.
 
-Integer eu tristique purus luctus vivamus porttitor vel nisl, tortor malesuada augue vulputate diam velit pellentesque sodales, duis phasellus vestibulum fermentum leo facilisi porta. Hac porttitor cum dapibus volutpat quisque odio taciti nulla senectus mollis curae, accumsan suscipit cubilia tempor ligula in venenatis justo leo erat, magna tincidunt nullam lacinia luctus malesuada non vivamus praesent pharetra. Non quam felis montes pretium volutpat suspendisse lacus, torquent magna dictumst orci libero porta, feugiat taciti cras ridiculus aenean rutrum. Tellus nostra tincidunt hac in ligula mi vulputate venenatis pellentesque urna dui, at luctus tristique quisque vel a dignissim scelerisque platea pretium, suspendisse ante phasellus porttitor quis aliquam malesuada etiam enim nullam.
+#### **Ecobee Smart Thermostat Premium: The Ultimate Choice**
 
-Hendrerit taciti litora nec facilisis diam vehicula magnis potenti, parturient velit egestas nisl lobortis tincidunt rutrum cursus, fusce senectus mi massa primis mattis rhoncus. Accumsan est ac varius consequat vulputate, ligula cursus euismod sagittis inceptos scelerisque, lacus malesuada torquent dictumst. Volutpat morbi metus urna rhoncus nunc tempor molestie, congue curabitur quis interdum posuere. Mollis viverra velit tortor mus netus nunc molestie metus, sem massa himenaeos luctus feugiat taciti iaculis fames porttitor, leo arcu consequat gravida dapibus pulvinar elementum.
+Retailing at $249, the Smart Thermostat Premium is Ecobee's flagship model. It encompasses all the features of the Enhanced model, along with a host of additional capabilities.
+
+##### **Additional Features Over Enhanced Model**
+
+1.  **Integrated Indoor Air Quality Monitor**: Monitors air quality inside your home.
+
+2.  **Smoke Alarm Detection**: Adds an extra layer of safety.
+
+3.  **Spotify & Bluetooth Streaming**: Transform your thermostat into a music player.
+
+4.  **Built-in Siri/Alexa**: Facilitates hands-free calling and intercom functionality.
+
+5.  **Included Smart Sensor**: Primarily used for occupancy detection.
+
+#### **Conclusion**
+
+The Ecobee3 Lite offers everything you need from a smart thermostat, including Wi-Fi connectivity and compatibility with all major smart home ecosystems. The Enhanced model brings in additional features like a larger touchscreen and security options. The Premium model takes it a step further with smoke detection, air quality monitoring, and built-in Siri/Alexa/Spotify capabilities. You even receive a Smart Sensor with the Premium package, making it a comprehensive choice for those looking for advanced features.

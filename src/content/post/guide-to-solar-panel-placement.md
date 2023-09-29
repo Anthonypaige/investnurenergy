@@ -22,8 +22,6 @@ It’s important to note that this map gives a quick overview of peak sun hours 
 
 Not having the ideal amount of peak sun hours isn’t necessarily a deterrent for solar. New York may not look like an ideal region for solar, yet due to their high electricity rates and favorable state programs, they’re a great state to get solar in right now.
 
-
-
 #### **Scouting the Perfect Spot: Solar Panel Placement**
 
 Once you have your tanning times down, the next step is to scout the perfect location. Just as a sunbather would look for the ideal spot to soak up the sun, finding the right location for your solar panels is crucial. In the northern hemisphere, south-facing panels absorb the most sunlight. Southwest or southeast-facing panels produce around 8% less energy, while east or west-facing panels produce about 20% less energy than their south-facing counterparts. Interestingly, west-facing panels can sometimes be more efficient during peak demand hours, which is when you get your real production power.
@@ -44,8 +42,6 @@ When considering solar panel installation, solar companies often provide a Shade
 
 These numbers provide valuable insights into the potential efficiency of your solar panel system. By understanding Solar Access and TSRF, you can make informed decisions about your solar panel placement, ensuring that you make the most of your investment in solar energy. Whether you have an ideal roof for solar or need to explore other energy efficiency options, these tools and insights empower you to make the best choices for your unique situation.
 
-
-
 #### **Using the PV Watts Calculator: Your Guide to proper solar energy production**
 
 The [PV Watts calculator](https://pvwatts.nrel.gov/) is a valuable tool for assessing solar panel efficiency. Developed by the National Renewable Energy Laboratory (NREL), it provides tailored estimates of energy production based on your location, system specifications, and shading effects. Here's how it can assist you:
@@ -56,8 +52,6 @@ The [PV Watts calculator](https://pvwatts.nrel.gov/) is a valuable tool for asse
 - **User-Friendly Interface**: Experiment with different scenarios to see how changes affect energy production and savings.
 
 The PV Watts calculator helps you understand how your particular solar panel system might perform, ensuring you make the most of your unique situation. Whether solar is a perfect fit or only suitable for partial energy offset, this tool guides you towards informed decisions.
-
-
 
 ##### **Conclusion**
 
