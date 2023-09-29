@@ -18,17 +18,17 @@ Remember, these systems are not just about immediate benefits. They're a long-te
 
 \####** Horizontal Geothermal Heat Pump Systems: The Cost-Effective Solution for Large Plots**
 
-*   **Installation**: Installed about four to six feet underground, utilizing a network of pipes. This shallow installation makes it more accessible and less disruptive to the landscape.
-*   **Cost**: Lower upfront costs due to less intricate installation, making it an attractive option for budget-conscious homeowners.
-*   **Efficiency**: Enhanced efficiency with longer loops, leading to reduced energy bills. The larger your plot, the more you can save in the long run.
-*   **Suitability**: Ideal for properties with ample land, providing a balance between cost and performance.
+- **Installation**: Installed about four to six feet underground, utilizing a network of pipes. This shallow installation makes it more accessible and less disruptive to the landscape.
+- **Cost**: Lower upfront costs due to less intricate installation, making it an attractive option for budget-conscious homeowners.
+- **Efficiency**: Enhanced efficiency with longer loops, leading to reduced energy bills. The larger your plot, the more you can save in the long run.
+- **Suitability**: Ideal for properties with ample land, providing a balance between cost and performance.
 
 \####** Vertical Geothermal Heat Pump Systems: The Compact Solution for Smaller Properties**
 
-*   **Installation**: Requires drilling deep boreholes, up to 400 feet, for ground loop installation. This allows for more flexibility in areas with limited space.
-*   **Cost**: Higher initial cost due to specialized drilling equipment, but potential long-term savings can offset this investment.
-*   **Efficiency**: Less influenced by surface conditions; reliable even in regions with extreme weather. In areas with high geothermal gradient, drilling may not need to be as deep, potentially increasing efficiency.
-*   **Suitability**: Perfect for properties with limited land area, preserving aesthetics and maximizing the use of available space.
+- **Installation**: Requires drilling deep boreholes, up to 400 feet, for ground loop installation. This allows for more flexibility in areas with limited space.
+- **Cost**: Higher initial cost due to specialized drilling equipment, but potential long-term savings can offset this investment.
+- **Efficiency**: Less influenced by surface conditions; reliable even in regions with extreme weather. In areas with high geothermal gradient, drilling may not need to be as deep, potentially increasing efficiency.
+- **Suitability**: Perfect for properties with limited land area, preserving aesthetics and maximizing the use of available space.
 
 \####** Pond/Lake Geothermal Heat Pump Systems: Harnessing the Power of Water Bodies**
 
@@ -41,7 +41,7 @@ Suitability**: Requires access to a suitable body of water, making it an exclusi
 
 Installation**: Utilizes a large volume of clean water as a heat exchange medium, offering a unique approach to geothermal energy.
 -Cost**: Varies depending on water source and system design, but can provide significant energy savings.
-*Efficiency**: Highly efficient but requires significant clean water volume, making it a specialized solution.
+\*Efficiency**: Highly efficient but requires significant clean water volume, making it a specialized solution.
 Suitability**: Less common for residential use; best for those with access to abundant clean water, such as wells or rivers.
 
 \####**Hybrid Systems: Combining Different Geothermal Resources**

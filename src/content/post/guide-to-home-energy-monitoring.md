@@ -18,11 +18,11 @@ As we explore further, we'll see how these systems seamlessly integrate with sma
 
 With circuit-level monitoring (that covers your main appliances) or appliance-level monitoring systems, homeowners can gain detailed insights into individual appliance usage. This granular data provides a clear picture of how each appliance contributes to the overall energy consumption of the home.
 
-*   **Leveraging TOU (Time-of-Use) Rates**:
-    Time-of-Use rates are pricing plans that charge customers based on when they use electricity. HEMS can help homeowners identify peak usage times and energy-intensive appliances. By understanding when energy is most consumed, homeowners can shift their usage to off-peak hours, taking advantage of lower rates. This not only reduces the energy bill but also helps in reducing the load on the grid during peak times.
+- **Leveraging TOU (Time-of-Use) Rates**:
+  Time-of-Use rates are pricing plans that charge customers based on when they use electricity. HEMS can help homeowners identify peak usage times and energy-intensive appliances. By understanding when energy is most consumed, homeowners can shift their usage to off-peak hours, taking advantage of lower rates. This not only reduces the energy bill but also helps in reducing the load on the grid during peak times.
 
-*   **Playbook for Appliance Upgrades**:
-    Knowing which appliances are the most energy-intensive can guide homeowners in making decisions about upgrades. By replacing older, inefficient models with newer energy-saving ones, homeowners can achieve significant energy and cost savings. Once an appliance is upgraded, HEMS allows homeowners to monitor its performance and energy consumption. This provides real-time data on the return on investment, showing homeowners the tangible benefits of their energy-efficient upgrades.
+- **Playbook for Appliance Upgrades**:
+  Knowing which appliances are the most energy-intensive can guide homeowners in making decisions about upgrades. By replacing older, inefficient models with newer energy-saving ones, homeowners can achieve significant energy and cost savings. Once an appliance is upgraded, HEMS allows homeowners to monitor its performance and energy consumption. This provides real-time data on the return on investment, showing homeowners the tangible benefits of their energy-efficient upgrades.
 
 #### **Backup Solutions Tailored to Your Needs**:
 
@@ -30,18 +30,18 @@ HEMS provide invaluable data for sizing a home battery backup system. By identif
 
 #### **Solar Preparation and ROI Tracking**
 
-*   **Precise Solar System Sizing**: HEMS facilitate the precise sizing of a solar system by providing detailed insights into your home's energy usage patterns. This data is crucial in devising an effective solar offset plan, helping you avoid the pitfalls of over or under-sizing your solar setup.
+- **Precise Solar System Sizing**: HEMS facilitate the precise sizing of a solar system by providing detailed insights into your home's energy usage patterns. This data is crucial in devising an effective solar offset plan, helping you avoid the pitfalls of over or under-sizing your solar setup.
 
-*   **ROI Monitoring**: As utility prices continue to rise, tracking the ROI of your solar investment based on energy usage rather than the total bill amount becomes increasingly important. HEMS allow you to monitor your solar investment's ROI accurately by keeping a detailed record of your energy consumption and savings.
+- **ROI Monitoring**: As utility prices continue to rise, tracking the ROI of your solar investment based on energy usage rather than the total bill amount becomes increasingly important. HEMS allow you to monitor your solar investment's ROI accurately by keeping a detailed record of your energy consumption and savings.
 
 #### **Integration with Smart Plugs**
 
 Home Energy Monitoring Systems (HEMS) primarily focus on monitoring your home's energy usage. However, when paired with smart plugs, homeowners can not only monitor but also actively manage their energy consumption, ensuring a more efficient use of household devices.
 
-*   **Remote Control**: Smart plugs allow homeowners to remotely turn devices on or off, based on the insights provided by the HEMS. This can be especially useful for devices that are found to be energy hogs or are left on unintentionally.
-*   **Scheduled Operations**: Utilizing the data from the HEMS, smart plugs can be programmed to operate devices during off-peak hours, potentially saving on energy costs.
+- **Remote Control**: Smart plugs allow homeowners to remotely turn devices on or off, based on the insights provided by the HEMS. This can be especially useful for devices that are found to be energy hogs or are left on unintentionally.
+- **Scheduled Operations**: Utilizing the data from the HEMS, smart plugs can be programmed to operate devices during off-peak hours, potentially saving on energy costs.
 
-#### ***Sense and Emporia-***
+#### **_Sense and Emporia-_**
 
 When it comes to HEMS, two brands that have made a significant impact are Sense and Emporia. Both offer innovative technologies and customer-centric approaches, but their methods of energy monitoring differ significantly.
 

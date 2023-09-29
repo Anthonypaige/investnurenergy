@@ -73,4 +73,3 @@ In Conclusion the Energy-Efficient Home Improvement Credit (25C) is a fantastic 
 The "calendar year" stipulation offers additional benefits, such as purchasing two heat pumps in different calendar years to claim the full $2,000 credit on each. By planning wisely, homeowners can not only save money but also contribute to a more sustainable future.
 
 The 25C credit is more than just a financial incentive; it's a pathway to a more sustainable lifestyle. It covers a wide spectrum of energy-efficient improvements, from heat pumps and biomass systems to weatherization and exterior door upgrades. With strategic planning and a clear understanding of the available incentives, you can maximize your savings and make a positive impact on the environment.
-

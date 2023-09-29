@@ -20,13 +20,13 @@ The government recommends Level 2 chargers for their efficiency and reduced char
 
 When shopping for an EV charger, you might come across various comparison articles or tables. Understanding the features listed can help you make an informed decision. Here's what you need to know:
 
-*   **Max Power Output (Amps)**: The amp rating indicates the charger's maximum current output. A higher amp rating will result in faster charging. For example, a charger with 20% more amps should provide approximately 20% faster charging time.
+- **Max Power Output (Amps)**: The amp rating indicates the charger's maximum current output. A higher amp rating will result in faster charging. For example, a charger with 20% more amps should provide approximately 20% faster charging time.
 
-*   **Installation**: The most common plug types for home installations are NEMA 14-50 and NEMA 6-50. The NEMA 6-50 is less common and is often used for commercial applications. Hardwiring is another option and is often chosen for its potential for better integration with renewable energy systems, such as solar panels.
+- **Installation**: The most common plug types for home installations are NEMA 14-50 and NEMA 6-50. The NEMA 6-50 is less common and is often used for commercial applications. Hardwiring is another option and is often chosen for its potential for better integration with renewable energy systems, such as solar panels.
 
-*   **Chord Management**: Modern chargers offer various solutions for managing the charging cable. They can come with a wall mount, a separate holster, or a J-hook. Some even come with built-in chord management, providing a neat and organized charging environment.
+- **Chord Management**: Modern chargers offer various solutions for managing the charging cable. They can come with a wall mount, a separate holster, or a J-hook. Some even come with built-in chord management, providing a neat and organized charging environment.
 
-*   **Outdoor Rating**: NEMA 3R is the base rating suitable for most outdoor installations. NEMA 4 offers enhanced protection, and NEMA 4X/IP66 offers the highest protection against elements like dust and water, making it ideal for outdoor installations.
+- **Outdoor Rating**: NEMA 3R is the base rating suitable for most outdoor installations. NEMA 4 offers enhanced protection, and NEMA 4X/IP66 offers the highest protection against elements like dust and water, making it ideal for outdoor installations.
 
 #### **Base Level 2 Charging Options**
 

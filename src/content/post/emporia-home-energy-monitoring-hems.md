@@ -26,7 +26,7 @@ Beyond solar preparation, HEMS can serve as a 'playbook' for transitioning into 
 
 Emporia offers two options for Vue Energy Monitors with 50A sensors. The Gen 2 Vue with 8 50A monitoring sensors priced at $125 allows for specific usage or generation detail for eight individual circuits. This is the most popular option and is ideal for homeowners who want to monitor specific circuits, such as HVAC systems, water heaters, or electric vehicle chargers.
 
-For homes with more circuit breakers, the Gen 2 Vue with 16 50A monitoring sensors priced at $165  offers even more insight. This system provides detailed energy usage data for up to 16 individual circuits, allowing for a more comprehensive understanding of your home's energy consumption.
+For homes with more circuit breakers, the Gen 2 Vue with 16 50A monitoring sensors priced at $165 offers even more insight. This system provides detailed energy usage data for up to 16 individual circuits, allowing for a more comprehensive understanding of your home's energy consumption.
 
 #### **Smart Plugs**
 
@@ -34,9 +34,9 @@ Emporia's Smart Plugs are designed to monitor energy use and provide control ove
 
 With Emporia's Smart Plugs, you can:
 
-*   **Monitor**: Track the energy consumption of individual devices or appliances plugged into the Smart Plug.
-*   **Control**: Remotely turn devices on or off using the Emporia App, Amazon Alexa, or Google Home.
-*   **Schedule**: Set schedules for devices to turn on or off at specific times, enhancing energy efficiency.
+- **Monitor**: Track the energy consumption of individual devices or appliances plugged into the Smart Plug.
+- **Control**: Remotely turn devices on or off using the Emporia App, Amazon Alexa, or Google Home.
+- **Schedule**: Set schedules for devices to turn on or off at specific times, enhancing energy efficiency.
 
 #### **Comprehensive App**
 

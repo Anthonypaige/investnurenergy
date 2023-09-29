@@ -9,6 +9,7 @@ tags:
   - Energy Efficiency
   - Incentives
 ---
+
 Navigating the landscape of **State and Local Energy Efficiency Incentives** can be a complex task. From rebates to tax credits, each state offers a unique set of incentives designed to encourage energy-efficient upgrades. This comprehensive guide aims to demystify these incentives, helping you understand eligibility criteria, maximize benefits, and make informed decisions for a more energy-efficient home.
 
 #### **Where to Find Local Incentives**
@@ -33,29 +34,29 @@ Many of these incentives operate on a first-come, first-served basis. This means
 
 ##### **Items Not Covered Under Federal Incentives**
 
-*   **Smart Thermostats**: These devices are popular because they allow homeowners to control heating and cooling remotely, optimizing energy usage and reducing bills.
+- **Smart Thermostats**: These devices are popular because they allow homeowners to control heating and cooling remotely, optimizing energy usage and reducing bills.
 
-*   **LED Lighting**: Second in popularity, LED lights consume less electricity and have a longer lifespan compared to traditional bulbs, making them a cost-effective choice.
+- **LED Lighting**: Second in popularity, LED lights consume less electricity and have a longer lifespan compared to traditional bulbs, making them a cost-effective choice.
 
-*   **Home Energy Management Systems (HEMS)**
+- **Home Energy Management Systems (HEMS)**
 
-*   **Air Purifiers and Dehumidifiers**: These are popular in areas with air quality issues or high humidity levels.
+- **Air Purifiers and Dehumidifiers**: These are popular in areas with air quality issues or high humidity levels.
 
-*   **Pool Pumps**: Energy-efficient pool pumps can significantly reduce energy consumption, especially in states with warmer climates where pools are common.
+- **Pool Pumps**: Energy-efficient pool pumps can significantly reduce energy consumption, especially in states with warmer climates where pools are common.
 
-*   **Various ENERGY STAR Certified Appliances**: Including room air conditioners, refrigerators, and laundry devices.
+- **Various ENERGY STAR Certified Appliances**: Including room air conditioners, refrigerators, and laundry devices.
 
 ##### **Items Covered Federally and Popular at the State Level**
 
-*   **EV Chargers**: These are popular because they can often be stacked with federal incentives, making the installation of home charging stations more affordable.
+- **EV Chargers**: These are popular because they can often be stacked with federal incentives, making the installation of home charging stations more affordable.
 
-*   **Heat Pump Water Heaters**: These are energy-efficient alternatives to traditional water heaters and are popular due to their long-term cost savings.
+- **Heat Pump Water Heaters**: These are energy-efficient alternatives to traditional water heaters and are popular due to their long-term cost savings.
 
-*   **Ductless Mini Splits and Insulation Products and Services**: These offer both heating and cooling solutions and are popular for their versatility and efficiency.
+- **Ductless Mini Splits and Insulation Products and Services**: These offer both heating and cooling solutions and are popular for their versatility and efficiency.
 
-*   **Ducted Air Source Heat Pumps**: These are popular in colder climates for their efficient heating capabilities.
+- **Ducted Air Source Heat Pumps**: These are popular in colder climates for their efficient heating capabilities.
 
-*   **Battery Storage Technology**: Especially popular in states prone to blackouts, as they provide an emergency power supply.
+- **Battery Storage Technology**: Especially popular in states prone to blackouts, as they provide an emergency power supply.
 
 ##### **Conclusion**
 

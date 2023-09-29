@@ -53,4 +53,3 @@ For those interested in a dual-purpose solution, certain biomass boiler systems 
 ##### **Conclusion**
 
 Investing in a biomass boiler is a smart move for homeowners looking for a long-term, energy-efficient solution. With generous federal tax credits, high thermal efficiency rates, and the ability to use a variety of organic materials as fuel, biomass boilers offer a comprehensive approach to home heating. Whether you're new to the world of energy efficiency or looking to upgrade your current system, a biomass boiler could be the right fit for you.
-

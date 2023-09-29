@@ -36,11 +36,11 @@ The solar offset strategy, which involves a gradual approach rather than a sudde
 
 A solar offset strategy is a well-thought-out plan to gradually reduce your reliance on traditional energy sources, by incorporating solar energy solutions into your home setup. It's about understanding your energy consumption patterns and finding ways to offset this usage with solar energy production. Here, we guide you through the essential tools and steps to create a personalized solar offset strategy:
 
-*   **Understanding Your Energy Usage**: Before you dive into the solar world, it's crucial to have a clear understanding of your current energy consumption. Analyze your utility bills to gauge your monthly and annual energy usage. This data serves as a benchmark, helping you to set realistic goals for your solar offset strategy.
+- **Understanding Your Energy Usage**: Before you dive into the solar world, it's crucial to have a clear understanding of your current energy consumption. Analyze your utility bills to gauge your monthly and annual energy usage. This data serves as a benchmark, helping you to set realistic goals for your solar offset strategy.
 
-*   **Assessing Your Solar Potential**: Once you have a grasp of your energy needs, the next step is to evaluate the solar potential of your roof. The [Google Sunroof Project](https://sunroof.withgoogle.com/) is a great tool to start with. It provides insights into the amount of sunlight your roof receives, the potential size of the solar system you could install, and gives broad estimates of the costs and savings involved.
+- **Assessing Your Solar Potential**: Once you have a grasp of your energy needs, the next step is to evaluate the solar potential of your roof. The [Google Sunroof Project](https://sunroof.withgoogle.com/) is a great tool to start with. It provides insights into the amount of sunlight your roof receives, the potential size of the solar system you could install, and gives broad estimates of the costs and savings involved.
 
-*   **Tailoring Your Energy Production Estimates**: To further refine your strategy, utilize the [PV Watts calculator](https://pvwatts.nrel.gov/). This tool allows you to input specific details about your home and energy usage, offering customized energy production estimates. It helps you visualize how different factors can influence your solar offset, giving you a comprehensive view of your strategy.
+- **Tailoring Your Energy Production Estimates**: To further refine your strategy, utilize the [PV Watts calculator](https://pvwatts.nrel.gov/). This tool allows you to input specific details about your home and energy usage, offering customized energy production estimates. It helps you visualize how different factors can influence your solar offset, giving you a comprehensive view of your strategy.
 
 By integrating these tools and insights, you can craft a solar offset strategy that is perfectly tailored to your unique situation.
 

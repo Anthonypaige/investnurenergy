@@ -10,7 +10,6 @@ tags:
   - Energy Management
 ---
 
-
 **Smart energy devices** are at the core of modern energy efficiency and smart home technology. Often misunderstood as being "intelligent" on their own, the term "smart" refers to their ability to communicate with each other through the **Internet of Things (IoT)**, enhancing energy management and control. IoT is a network of interconnected devices that share information and work together to perform specific tasks. It's not the devices themselves that are smart, but rather the way they communicate and collaborate in the context of energy efficiency and smart home technology.
 
 In this article, we will delve into the world of smart energy devices, exploring how they communicate through IoT, their benefits, and their role in leading us towards a more energy-efficient future.
@@ -27,11 +26,11 @@ Additionally, certain smart thermostats have learning capabilities, meaning they
 
 **Home Energy Monitoring Systems (HEMS)** are devices that integrate inside your electrical panel, allowing communication with your home's energy source. They offer a comprehensive view of your home's energy consumption at three distinct levels: whole home, circuit, and appliance.
 
-*   **Whole-Home Level:** These systems are invaluable for understanding your overall energy consumption. This insight is essential if you're considering committing to solar energy or tracking the progress of your energy-efficient upgrades. With utility rates rising, you may not see savings in dollars right away, but you can monitor your progress in reducing energy usage.
+- **Whole-Home Level:** These systems are invaluable for understanding your overall energy consumption. This insight is essential if you're considering committing to solar energy or tracking the progress of your energy-efficient upgrades. With utility rates rising, you may not see savings in dollars right away, but you can monitor your progress in reducing energy usage.
 
-*   **Circuit Level:** Circuit level monitoring takes it a step further. By allowing monitoring at this level, you can identify inefficiencies in specific areas of your home, leading to targeted improvements. This comes in handy since most of your major appliance upgrades would have their own dedicated circuit.
+- **Circuit Level:** Circuit level monitoring takes it a step further. By allowing monitoring at this level, you can identify inefficiencies in specific areas of your home, leading to targeted improvements. This comes in handy since most of your major appliance upgrades would have their own dedicated circuit.
 
-*   **Appliance Level:** Appliance level monitoring allows you to analyze the energy usage of individual appliances, empowering you to make informed upgrade decisions. This can be achieved through Machine Learning, which is [the Sense way of appliance level monitoring](https://app.stackbit.com/studio/64d6608f12525200bdbe6a49#/blog/utility-provider-rebates-article/), or the addition of smart plugs, which is [the Emporia way of appliance level monitoring](https://app.stackbit.com/studio/64d6608f12525200bdbe6a49#/blog/electric-stove-article/).
+- **Appliance Level:** Appliance level monitoring allows you to analyze the energy usage of individual appliances, empowering you to make informed upgrade decisions. This can be achieved through Machine Learning, which is [the Sense way of appliance level monitoring](https://app.stackbit.com/studio/64d6608f12525200bdbe6a49#/blog/utility-provider-rebates-article/), or the addition of smart plugs, which is [the Emporia way of appliance level monitoring](https://app.stackbit.com/studio/64d6608f12525200bdbe6a49#/blog/electric-stove-article/).
 
 Want to dive deeper into how Home Energy Monitoring Systems can help you make smarter energy choices? [Check out our article on HEMS here](https://app.stackbit.com/studio/64d6608f12525200bdbe6a49#/blog/home-energy-monitoring/).
 

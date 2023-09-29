@@ -20,10 +20,10 @@ TOU rates fluctuate depending on the time of day, with electricity often being m
 
 More importantly, here's where solar storage comes into play. By storing excess solar energy produced during the day, you can use it during peak demand times, avoiding higher electricity costs. It's like having a reserve of minutes to use when regular call rates are high.
 
-If you want to check your enrollment in TOU rates and understand the difference in those rates, you can access your energy data through your utility provider's dedicated app or website. Compare the amount of energy used (measured in kWh) with the corresponding price differences during various times of the day, or you can visit the [Department of Energy's guide](<https://www.energy.gov/femp/demand-response-and-time-variable-pricing-programs#:~:text=Time%2Dvariable%20pricing%20(TVP\),for%20any%20given%20customer%20class>) to see what programs your utility provider offers.
+If you want to check your enrollment in TOU rates and understand the difference in those rates, you can access your energy data through your utility provider's dedicated app or website. Compare the amount of energy used (measured in kWh) with the corresponding price differences during various times of the day, or you can visit the [Department of Energy's guide](<https://www.energy.gov/femp/demand-response-and-time-variable-pricing-programs#:~:text=Time%2Dvariable%20pricing%20(TVP),for%20any%20given%20customer%20class>) to see what programs your utility provider offers.
 
 By mastering TOU rates and strategically using solar storage, you can optimize your energy usage and save money on your energy bills. Click here for
-[more information on mastering TOU rates](<https://app.stackbit.com/studio/64d6608f12525200bdbe6a49#/blog/navigating-the-energy-efficient-home-improvement-tax-credit-(25c\)-and-the-electrification-rebate-act:-a-guide-to-sustainable-living/>).
+[more information on mastering TOU rates](<https://app.stackbit.com/studio/64d6608f12525200bdbe6a49#/blog/navigating-the-energy-efficient-home-improvement-tax-credit-(25c)-and-the-electrification-rebate-act:-a-guide-to-sustainable-living/>).
 
 ![](/images/Rick%20Roll%20over%20minutes.jpg)
 

@@ -9,19 +9,20 @@ tags:
   - Power Stations
   - Home Energy Storage
 ---
+
 Bluetti has established itself as a global leader in the renewable energy sector, particularly renowned for its portable power stations. Recently, the company has expanded its portfolio to include home energy storage systems, offering a range of products that not only meet but exceed the requirements for the Residential Clean Energy Credit (25D) under the Inflation Reduction Act. In this article, we will explore the starter models from Bluetti, each boasting a capacity of over 3kWh, making them eligible for significant benefits under the aforementioned credit program.
 
 #### **Features All Bluetti Models Share**
 
-*   **Safety and Longevity**: Bluetti power stations are equipped with LiFePO4 battery cells, known for their safety, longevity, and high energy density. These systems promise a battery life cycle exceeding 3500 cycles to 80% capacity, ensuring years of reliable service.
+- **Safety and Longevity**: Bluetti power stations are equipped with LiFePO4 battery cells, known for their safety, longevity, and high energy density. These systems promise a battery life cycle exceeding 3500 cycles to 80% capacity, ensuring years of reliable service.
 
-*   **Flexible Charging Options**: Bluetti offers a variety of charging options, including AC, car, and solar, providing a versatile solution for different energy needs.
+- **Flexible Charging Options**: Bluetti offers a variety of charging options, including AC, car, and solar, providing a versatile solution for different energy needs.
 
-*   **User-Friendly Interfaces**: Bluetti power stations feature user-friendly interfaces, including smart touchscreens and app-based remote control capabilities, offering a seamless user experience.
+- **User-Friendly Interfaces**: Bluetti power stations feature user-friendly interfaces, including smart touchscreens and app-based remote control capabilities, offering a seamless user experience.
 
-*   **Compatibility with Solar Installations**: These systems are compatible with solar installations, facilitating a smooth integration with your existing solar power setup.
+- **Compatibility with Solar Installations**: These systems are compatible with solar installations, facilitating a smooth integration with your existing solar power setup.
 
-*   **Potential for Scalability**: Bluetti power stations offer the potential for scalability, allowing for future expansion as your energy needs grow.
+- **Potential for Scalability**: Bluetti power stations offer the potential for scalability, allowing for future expansion as your energy needs grow.
 
 Before we delve deeper into the specifics of each model, it's important to note that integrating these systems into your home may require a transfer switch and potentially an additional cord. While Bluetti offers a home integration kit priced around $620, we recommend exploring other potentially cost-effective alternatives. Always conduct thorough research before making a purchase, as market prices and components are subject to fluctuations.
 
@@ -30,7 +31,6 @@ Before we delve deeper into the specifics of each model, it's important to note 
 <iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=investinyoure-20&language=en_US&marketplace=amazon&region=US&placement=B0CCV9MB81&asins=B0CCV9MB81&linkId=3ca75eb0aed46ab0cd99dc253db4f17e&show_border=true&link_opens_in_new_window=true"></iframe>
 
 Priced at only $2600, the Bluetti AC300 + B300 system offers a lot. It is a versatile power station with a capacity of 3.07kWh. It comes with a 3000-Watt Pure Sine Wave inverter, allowing for an impressive 6 KW of Surge Power and 3KW of Continuous AC Output Power. The AC charging input is 3000W (with the addition of a 30A charging cable), allowing for a fairly good charging time of 1.5 hours. They have a DC/solar input of 2400W, which if used at that max would charge the system in a quick 2 hours.
-
 
 #### **Bluetti AC500+ B300S: Powering High-Demand Devices**
 

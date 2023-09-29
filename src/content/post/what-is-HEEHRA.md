@@ -22,19 +22,19 @@ The act covers a range of products and services focused on Home Climate and Hous
 
 ##### **Home Climate**
 
-  - **Heat Pump**: Heating and cooling are responsible for almost half of residential energy costs. Upgrading to a heat pump HVAC system, which produces three times the amount of energy it uses, can significantly reduce heating and cooling costs, making homes more comfortable year-round.
+- **Heat Pump**: Heating and cooling are responsible for almost half of residential energy costs. Upgrading to a heat pump HVAC system, which produces three times the amount of energy it uses, can significantly reduce heating and cooling costs, making homes more comfortable year-round.
 
-  - **Weatherization**: Insulation and Sealant improvements aid in the efficiency of the HVAC unit. Proper insulation helps keep homes warm in winter and cool in summer, cutting energy costs. Learn more about weatherization in our [comprehensive guide](link-to-your-weatherization-article).
+- **Weatherization**: Insulation and Sealant improvements aid in the efficiency of the HVAC unit. Proper insulation helps keep homes warm in winter and cool in summer, cutting energy costs. Learn more about weatherization in our [comprehensive guide](link-to-your-weatherization-article).
 
-  - **Ventilation**: Proper ventilation ensures healthy indoor air quality and aids in the efficiency of the HVAC unit, enhancing overall well-being.
+- **Ventilation**: Proper ventilation ensures healthy indoor air quality and aids in the efficiency of the HVAC unit, enhancing overall well-being.
 
 ##### - **Household Essential Appliances**:
 
-  - **Hot Water**: Heating water accounts for nearly 20% of residential energy costs.Heat Pump Water Heaters are three times more efficient, lowering water heating expenses.
+- **Hot Water**: Heating water accounts for nearly 20% of residential energy costs.Heat Pump Water Heaters are three times more efficient, lowering water heating expenses.
 
-  - **Laundry**: Heat Pump Clothes Dryers utilize the same heat pump technology as heat pumps and HPWHs, translating to savings on electricity bills.
+- **Laundry**: Heat Pump Clothes Dryers utilize the same heat pump technology as heat pumps and HPWHs, translating to savings on electricity bills.
 
-  - **Cooking**: Electric Stoves and Electric Cooktops offer efficient cooking, reducing energy consumption. Electric Stoves are at least twice as efficient as gas stoves and produce much less waste heat that can make your kitchen uncomfortable in the summer.
+- **Cooking**: Electric Stoves and Electric Cooktops offer efficient cooking, reducing energy consumption. Electric Stoves are at least twice as efficient as gas stoves and produce much less waste heat that can make your kitchen uncomfortable in the summer.
 
 These provisions collectively offer up to $14,000 for low-income households and up to $8,000 for moderate-income households. Many of these items can also be eligible for state rebates, allowing you to stack them. Check the [Database of State Incentives for Renewables & Efficiency](link to DSIRE.org) for your eligibility for state-level rebates. Heat pump technology is a significant part of these provisions; learn more at [WhatsAHeatPump.com](link-to-whatsaheatpump.com).
 

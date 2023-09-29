@@ -24,23 +24,23 @@ Energy arbitrage is a savvy strategy that can significantly reduce your electric
 
 Navigating the world of backup battery shopping often involves interpreting complex comparison tables. These tables, filled with technical terms and specifications, can be confusing, even if they use the same formats. The differences in terminology and inconsistent formats only add to the challenge. To assist you in this process, we've created a guide that simplifies these comparison tables. Check out our easy [breakdown here](https://app.stackbit.com/studio/64d6608f12525200bdbe6a49#/blog/portable-power-stations:-a-practical-solution-for-home-backup-batteries/) for a no-fuss way to understand backup battery comparison tables.
 
-***
+---
 
 #### **Versatile Backup Battery Systems: Portable and Modular Solutions for Every Need**
 
 Brands like **Jackery**, **Bluetti**, **Eco Flow**, and **Renogy** are revolutionizing the backup battery market with their versatile solutions. These units are designed to be both portable and modular, catering to a wide range of energy needs. Whether you're an outdoor enthusiast or a homeowner preparing for grid failures, these backup battery systems offer a tailored solution.
 
-*   **Designed for Flexibility**: All the units we cover are inherently modular and portable. Some are optimized for on-the-go activities like camping, while others are more geared towards home use but can still be taken on the road.
+- **Designed for Flexibility**: All the units we cover are inherently modular and portable. Some are optimized for on-the-go activities like camping, while others are more geared towards home use but can still be taken on the road.
 
-*   **Emergency Backup and Beyond**: These units are not just for emergencies. They can serve as your primary power source for outdoor activities, and they're reliable enough to provide essential power during grid failures.
+- **Emergency Backup and Beyond**: These units are not just for emergencies. They can serve as your primary power source for outdoor activities, and they're reliable enough to provide essential power during grid failures.
 
-*   **Smart Energy Management**: With the adoption of Time-of-Use (TOU) rates, these units allow for energy arbitrage. You can store energy when it's cheap and use it when prices are high, helping you save on utility bills.
+- **Smart Energy Management**: With the adoption of Time-of-Use (TOU) rates, these units allow for energy arbitrage. You can store energy when it's cheap and use it when prices are high, helping you save on utility bills.
 
-*   **Seamless Solar Integration**: These backup batteries can easily connect with solar panels, offering a clean energy solution that's perfect for both short-term and long-term use.
+- **Seamless Solar Integration**: These backup batteries can easily connect with solar panels, offering a clean energy solution that's perfect for both short-term and long-term use.
 
-*   **Expandable Systems**: One of the standout features of these units is their expandability. You can start small and add more units as your energy needs grow, making them a future-proof investment.
+- **Expandable Systems**: One of the standout features of these units is their expandability. You can start small and add more units as your energy needs grow, making them a future-proof investment.
 
-*   **User-Friendly Installation**: These units are designed for easy setup. Whether you're connecting them to a solar panel or integrating them into your home's energy system, the installation is straightforward and often doesn't require professional help.
+- **User-Friendly Installation**: These units are designed for easy setup. Whether you're connecting them to a solar panel or integrating them into your home's energy system, the installation is straightforward and often doesn't require professional help.
 
 By offering a 30% tax credit under the Inflation Reduction Act, these backup battery systems have become an even more attractive option. Here are the 2 brands leading the charge with versatile options deesigned to fit any need Eco Flow and Bluetti.
 

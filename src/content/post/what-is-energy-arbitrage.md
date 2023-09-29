@@ -9,6 +9,7 @@ tags:
   - TOU Rates
   - Backup Batteries
 ---
+
 As our electrical grid ages and struggles to meet modern energy demands, the importance of backup batteries has surged. These batteries are no longer just a convenience; they're a lifeline in emergencies, a bolster to your home's energy security, and a savvy financial investment in the era of Time-of-Use (TOU) rates. With TOU rates encouraging off-peak energy consumption, backup batteries also offer the opportunity for energy arbitrage—buying energy when it's cheap and using or selling it when prices soar. And with the added benefit of tax incentives through the Residential Clean Energy Credit, there's never been a better time to invest in a backup battery system.
 
 #### **Understanding Time-of-Use (TOU) Rates: The Key to Smart Energy Management**
@@ -23,8 +24,8 @@ The hours of demand differ across regions and time zones, but here's how an aver
 
 **Peak Demand Hours Example:**
 
-*   Summer: (June-September) typically between noon and 6 p.m.
-*   Non-Summer: (October-May) typically between 6 a.m. and 9 a.m., and again between 5 p.m. and 9 p.m.
+- Summer: (June-September) typically between noon and 6 p.m.
+- Non-Summer: (October-May) typically between 6 a.m. and 9 a.m., and again between 5 p.m. and 9 p.m.
 
 Want to know more about TOU rates and Demand Response Programs available to you? Check out the [Department of Energy's guide](https://www.energy.gov/femp/demand-response-and-time-variable-pricing-programs#:~:text=Time%2Dvariable%20pricing%20(TVP\),for%20any%20given%20customer%20class) to see what programs your utility provider offers.
 
@@ -44,10 +45,10 @@ When considering energy arbitrage, the battery size you choose will be crucial. 
 
 Our [Energy Arbitrage Savings Calculator](insert calculator) helps you understand how different battery sizes and Time-of-Use (TOU) rates can create savings. Here's how to use it:
 
-*   **Battery Usable Capacity**: Enter the usable capacity of your battery in kWh.
-*   **Peak and Off-Peak Rates**: Input your electricity rates during peak and off-peak hours in cents per kWh.
-*   **Summer and Non-Summer Peak Hours**: Enter the number of peak hours during summer and winter when you want to rely on your battery. This is a crucial step, as it determines the hours when you'll be using stored energy instead of drawing from the grid, maximizing your savings.
-*   **Average Consumption per Hour**: Enter your average energy consumption per hour in watts.
+- **Battery Usable Capacity**: Enter the usable capacity of your battery in kWh.
+- **Peak and Off-Peak Rates**: Input your electricity rates during peak and off-peak hours in cents per kWh.
+- **Summer and Non-Summer Peak Hours**: Enter the number of peak hours during summer and winter when you want to rely on your battery. This is a crucial step, as it determines the hours when you'll be using stored energy instead of drawing from the grid, maximizing your savings.
+- **Average Consumption per Hour**: Enter your average energy consumption per hour in watts.
 
 Click the "Calculate" button to see your total savings per year
 

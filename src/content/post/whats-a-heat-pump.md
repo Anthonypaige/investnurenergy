@@ -69,4 +69,3 @@ Geothermal heat pumps, also known as ground-source heat pumps, come with a highe
 These systems are highly efficient and can significantly reduce energy consumption and greenhouse gas emissions. With proper maintenance, they can last up to 50 years, far outlasting most traditional heating systems that last 10-15 years, thereby enhancing their long-term value.
 
 You can learn more about geothermal heat pumps in this [comprehensive guide](link to article).
-
