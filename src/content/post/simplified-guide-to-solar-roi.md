@@ -10,40 +10,72 @@ tags:
   - Informed Decisions
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Combine setting the stage and average family
+Link Pitfalls of Solar Loans
+explain calculator better
 
-## Nostra torquent consequat volutpat aliquet neque
+Understanding the financial benefits of switching to solar energy goes beyond just considering the upfront costs. It involves a comprehensive understanding of how these costs translate into savings over time. But how can you accurately calculate your Solar ROI?
 
-Lorem ipsum dolor sit amet consectetur adipiscing elit proin, aenean litora volutpat urna egestas magnis arcu non, cras ut cursus et sed morbi lectus. Integer faucibus sagittis eu nunc urna aliquet a laoreet torquent, suspendisse penatibus nulla sollicitudin congue rutrum dictum. Ornare mi habitasse fermentum phasellus dui et morbi litora sodales dictum id erat, nibh purus class ligula aenean lectus venenatis euismod cras torquent ac. Senectus sagittis conubia hendrerit at egestas porta venenatis nisi metus gravida tempor, aenean facilisis nisl ante facilisi lacus integer hac iaculis purus. Scelerisque libero torquent egestas curae tellus viverra inceptos imperdiet urna, porta suspendisse interdum primis odio morbi tempor commodo dictumst, suscipit ornare habitasse semper feugiat cras quisque lobortis.
+####**Setting the Stage: A Typical Household's Energy Consumption:**
 
-Iaculis arcu commodo dis proin vitae himenaeos, ante tristique potenti magna ligula, sagittis libero fermentum ullamcorper sociis. Sem eros non arcu natoque fringilla lacus vestibulum lacinia integer mus viverra in proin, sagittis fusce tortor erat enim rutrum vulputate curae laoreet class diam. Inceptos convallis ac nisi natoque nam quisque magnis ut nullam fringilla curae, luctus lacus purus habitant erat magna molestie class habitasse metus, nibh lobortis tortor curabitur neque phasellus feugiat netus morbi parturient. Neque malesuada mauris justo himenaeos pharetra, ullamcorper enim ligula a nulla consequat, eget vivamus velit ridiculus.
+Let's begin with a hypothetical scenario. Consider a home that consumes 12,000 kWh of energy annually and offsets 50% of their power needs with a 6KW solar system. This system can be easily quantified in 15 solar panels at 400 watts each. We'll use a price per watt cost of $3, resulting in a total cost of $18,000 for the 6KW 15-panel system. The homeowners currently pay $0.15 per kWh to their utility provider, and for the sake of this comparison, they do not have Time-of-Use (TOU) rates, a backup battery, net-metering, or feed-in tariffs. This scenario is purely theoretical, and everyone's data input will differ.
 
-## Praesent tellus ad sapien erat or
+####**The Starting Point-Understanding the TRUE Net System Cost:**
 
-- Quam orci nostra mi nulla, hac a.
+When it comes to solar investments, the TRUE net system cost is your starting point. This is the total out-of-pocket cost you incur, whether you opt for a cash purchase or a loan. To keep things simple and straightforward, you can calculate your TRUE net costs by multiplying your monthly payments by the number of months. This gives you a solid reference point for ROI calculations and for comparing solar loans. In this scenario, we're looking at two different TRUE net system costs to compare with solar: one cash price and the other a basic solar loan.
 
-- Interdum iaculis quis tellus sociis orci nulla, quam rutrum conubia tortor primis.
+####**Electricity Consumption Cost: The Price of Staying on the Grid**
 
-- Non felis sem placerat aenean duis, ornare turpis nostra.
+To calculate the ROI, you also need to factor in your current electricity consumption cost. This includes your monthly electricity bill and the expected annual increase in utility rates. On average, utility rates increase by about 3.5% annually due to inflation and grid maintenance. In this scenario, we're saying it's $0.15 per kWh being charged and consumes about 12,000 kWh of energy a year.
 
-- Habitasse duis sociis sagittis cursus, ante dictumst commodo.
+####**The Amount Offset: Your Solar Savings**
 
-Duis maecenas massa habitasse inceptos imperdiet scelerisque at condimentum ultrices, nam dui leo enim taciti varius cras habitant pretium rhoncus, ut hac euismod nostra metus sagittis mi aenean. Quam eleifend aliquet litora eget a tempor, ultricies integer vestibulum non felis sodales, eros diam massa libero iaculis.
+The amount offset is the electricity your solar panels produce that replaces your current electricity consumption. This figure is crucial in calculating your ROI as it represents the savings you make by switching to solar energy. In this scenario, we're offsetting 50%.
 
-Nisl ligula ante magnis himenaeos pellentesque orci cras integer urna ut convallis, id phasellus libero est nunc ultrices eget blandit massa ac hac, morbi vulputate quisque tellus feugiat conubia luctus tincidunt curae fermentum. Venenatis dictumst tincidunt senectus vivamus duis dis sociis taciti porta primis, rhoncus ridiculus rutrum curae mattis ullamcorper ac sagittis nascetur curabitur erat, faucibus placerat vulputate eu at habitasse nulla nisl interdum. Varius turpis dignissim montes ac ante tristique quis parturient hendrerit faucibus, consequat auctor penatibus suspendisse rutrum erat nulla inceptos est justo, etiam mollis mauris facilisi cras sociosqu eu sapien sed.
+####**Calculating Solar ROI: The Final Calculation**
 
-Blandit aptent conubia mollis mauris habitasse suspendisse torquent aenean, ac primis auctor congue cursus mi posuere molestie, velit elementum per feugiat libero dictumst phasellus. Convallis mollis taciti condimentum praesent id porttitor ac dictumst at, sed in eu eleifend vehicula fermentum lectus litora venenatis, gravida hac molestie cum sociosqu mus viverra torquent. Congue est fusce habitasse ridiculus integer suscipit platea volutpat, inceptos varius elementum pellentesque malesuada interdum magnis. Hac lacus eget enim purus massa commodo nec lectus natoque fames arcu, mattis class quam ut neque dui cras quis diam orci sed velit, erat morbi eros suscipit sagittis laoreet vivamus torquent nulla turpis.
+1.  Total Cost Without Solar Over 25 Years: If we factor in a 3.5% annual increase in utility rates, the total cost of electricity over 25 years would be approximately $70,109.74.
+2.  Total Cost With Solar Over 25 Years: Now, let's consider a scenario where you offset 50% of your electricity consumption with solar. The total cost of electricity over 25 years would be approximately $35,054.87.
+3.  TRUE Net System Cost Let's assume the total cost of your solar system, including installation, is $18,000. After applying the 30% federal tax credit, the TRUE net system cost would be $12,600.
 
-Ridiculus velit suscipit consequat auctor interdum magna gravida dictumst libero ut habitasse, sollicitudin vehicula suspendisse leo erat tristique at platea sagittis proin dignissim, id ornare scelerisque et urna maecenas congue tincidunt dictum malesuada. Dui vulputate accumsan scelerisque ridiculus dictum quisque et nam hac, tempus ultricies curabitur proin netus diam vivamus. Vestibulum ante ac auctor mi urna risus lacinia vulputate justo orci sociis dui semper, commodo morbi enim vivamus neque sem pellentesque velit donec hac metus odio. Tempor ultrices himenaeos massa sollicitudin mus conubia scelerisque cubilia, nascetur potenti mauris convallis et lectus gravida egestas sociis, erat eros ultricies aptent congue tortor ornare.
+Now, let's calculate the Solar ROI:
+Solar ROI = (Total Cost Without Solar - Total Cost With Solar - TRUE Net System Cost) / TRUE Net System Cost \* 100
 
-Pretium aliquet sodales aliquam tincidunt litora lectus, erat dui nibh diam mus, sed hendrerit condimentum senectus arcu. Arcu a nibh auctor dapibus eros turpis tempus commodo, libero hendrerit dictum interdum mus class sed scelerisque, sapien dictumst enim magna molestie habitant donec. Fringilla dui sed curabitur commodo varius est vel, viverra primis habitant sapien montes mattis dignissim, gravida cubilia laoreet tempus aliquet senectus. Sociosqu purus praesent porttitor curae sollicitudin accumsan feugiat maecenas donec quis lacus, suscipit taciti convallis odio morbi eros nibh bibendum nunc orci. Magna cras nullam aliquam metus nibh sagittis facilisi tortor nec, mus varius curae ridiculus fames congue interdum erat urna, neque odio lobortis mi mattis diam cubilia arcu.
+Solar ROI = ($70,109.74 - $35,054.87 - $12,600) / $12,600 \* 100
 
-Laoreet fusce nec class porttitor mus proin aenean, velit vestibulum feugiat porta egestas sapien posuere, conubia nisi tempus varius hendrerit tortor. Congue aliquam scelerisque neque vivamus habitasse semper mauris pellentesque accumsan posuere, suspendisse lectus gravida erat sagittis arcu praesent mus ornare. Habitasse nibh nam morbi mollis senectus erat risus, cum sollicitudin class platea congue mattis venenatis, luctus aenean parturient hendrerit malesuada ante. Mus auctor tincidunt consequat massa tortor nulla luctus habitasse vestibulum quis velit, laoreet sagittis cum facilisi in sem tellus leo vulputate vehicula bibendum orci, felis nisl blandit lacus convallis congue turpis magna facilisis condimentum.
+Solar ROI = 178.21%
 
-Dictumst pellentesque urna donec sociis suscipit montes consequat, commodo quam habitasse senectus fringilla maecenas, inceptos magna tristique eu nullam nam. Maecenas orci nibh hac eu tristique ut penatibus ultrices ante, pellentesque cubilia pharetra dis facilisis aliquam praesent malesuada vivamus, commodo cras velit convallis molestie nec tellus augue. Etiam ut convallis risus id dapibus platea laoreet accumsan, habitant et aenean netus inceptos iaculis per, mauris curae at ligula odio ad eu. Mauris erat tempor interdum sapien commodo per nullam tortor, fusce facilisis vehicula egestas dui nulla conubia ut fames, fringilla et tincidunt penatibus facilisi at mollis.
+So, in this example, considering the 30% federal tax credit, the Solar ROI would be 178.21%. This means that over 25 years, you would get a return of 178.21% on your initial investment of $12,600 (after tax credit). This is a simplified calculation and actual ROI may vary based on other factors such as maintenance costs, financing costs, net-metering, backup battery storage, and changes in utility rates.
 
-Fermentum sociosqu litora primis sollicitudin fusce diam consequat vehicula per lobortis et, viverra sodales magna rutrum sed mollis faucibus molestie purus montes est, risus nostra congue venenatis lectus enim torquent eros dis dapibus. Dui suscipit scelerisque massa ligula euismod accumsan augue, magna vel lacus ante nullam senectus commodo, viverra cubilia eros eget penatibus tempor. Mattis mauris hac felis semper dui sociis faucibus mollis ornare pretium aliquam velit nisl, quis litora sem at vel duis rutrum imperdiet natoque viverra himenaeos tempor.
+#####**Solar ROI with a Loan: Factoring in Interest Rates**
 
-Integer eu tristique purus luctus vivamus porttitor vel nisl, tortor malesuada augue vulputate diam velit pellentesque sodales, duis phasellus vestibulum fermentum leo facilisi porta. Hac porttitor cum dapibus volutpat quisque odio taciti nulla senectus mollis curae, accumsan suscipit cubilia tempor ligula in venenatis justo leo erat, magna tincidunt nullam lacinia luctus malesuada non vivamus praesent pharetra. Non quam felis montes pretium volutpat suspendisse lacus, torquent magna dictumst orci libero porta, feugiat taciti cras ridiculus aenean rutrum. Tellus nostra tincidunt hac in ligula mi vulputate venenatis pellentesque urna dui, at luctus tristique quisque vel a dignissim scelerisque platea pretium, suspendisse ante phasellus porttitor quis aliquam malesuada etiam enim nullam.
+Let's consider the same example but with a 5% interest rate over 25 years.
+Total Cost Without Solar Over 25 Years: Stays the same at $70,109.74.
+Total Cost With Solar Over 25 Years: Stays the same at $35,054.87.
 
-Hendrerit taciti litora nec facilisis diam vehicula magnis potenti, parturient velit egestas nisl lobortis tincidunt rutrum cursus, fusce senectus mi massa primis mattis rhoncus. Accumsan est ac varius consequat vulputate, ligula cursus euismod sagittis inceptos scelerisque, lacus malesuada torquent dictumst. Volutpat morbi metus urna rhoncus nunc tempor molestie, congue curabitur quis interdum posuere. Mollis viverra velit tortor mus netus nunc molestie metus, sem massa himenaeos luctus feugiat taciti iaculis fames porttitor, leo arcu consequat gravida dapibus pulvinar elementum.
+TRUE Net System Cost- keeping the same scenario, your system's cash price was $18,000, you're applying your 30% incentive to get a new system price of $12,600. Now you're financing the $12,600 at a 5% interest rate over 25 years, total repayment amount would be approximately $22,097.50, and would be your new TRUE net system cost.
+
+Now, let's calculate the Solar ROI:
+
+Solar ROI = (Total Cost Without Solar - Total Cost With 50% Solar offset - Loan Repayment Amount) / New TRUE Net System cost _ 100
+Solar ROI = ($70,109.74 - $35,054.87 - $22,097.50) / $22,097.50 _ 100
+Solar ROI = 58.64%
+
+So, in this example, considering the 30% federal tax credit and a 5% interest rate over 25 years, the Solar ROI would be 58.64%. This means that over 25 years, you would get a return of 58.64% on your initial investment of $22,097.50 (after tax credit and including the loan repayment).
+
+\#####**The Assumptions made for the “Average Family”**
+
+The figures used in our example align closely with national averages. The U.S. Energy Information Administration (EIA) reports that the average annual electricity consumption for a U.S. residential utility customer in 2021 was 10,632 kilowatt-hours (kWh), equating to about 886 kWh per month.
+When it comes to the cost of solar panels, the average price hovers around $3 per watt when you opt for a reputable company. As for the cost of electricity, the national average rate is $0.17 per kWh, as stated by the Federal Reserve Bank of St. Louis.
+
+These average figures are used to create a realistic scenario that many homeowners can identify with. However, remember that these are just averages. Your specific circumstances, such as your location, the size of your home, and your energy consumption habits, can significantly impact these numbers.
+
+That's why we recommend using our Solar ROI calculator. It allows you to input your specific details to get a more accurate estimate of your potential savings.
+
+####**Conclusion**
+
+Armed with the knowledge of how to calculate Solar ROI, we've simplified the process for you. On our website, we offer a user-friendly Solar ROI calculator. This tool allows you to input specific details such as the cost of your solar system, your average electricity bill, and any incentives or rebates you've received. The calculator then provides a personalized estimate of your Solar ROI, offering a clear snapshot of your potential savings.
+
+While our calculator is straightforward and provides a good starting point, it's important to note that it doesn't include all factors. State incentives, net-metering, and battery storage are not factored in, but they can significantly impact your Solar ROI. Also, keep in mind that some solar companies may include hidden dealer fees that aren't accounted for in this basic calculation.
+
+Now that you understand how to calculate your Solar ROI, you might be wondering how you can maximize it. In our next article,[Maximizing Your Solar ROI: A Guide to Controllable Factors](link to the article), we delve into the controllable factors that can help you get the most out of your solar investment.
