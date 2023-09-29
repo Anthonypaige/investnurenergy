@@ -1,129 +1,66 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
-import Hero from '~/components/widgets/Hero.astro';
-import Features2 from '~/components/widgets/Features2.astro';
+import HeroText from '~/components/widgets/HeroText.astro';
+import Content from '~/components/widgets/Content.astro';
 import FeaturedArticles from '~/components/widgets/FeaturedArticles.astro';
-import FAQs from '~/components/widgets/FAQs.astro';
+
 const metadata = {
-  title: 'Water Heaters',
+  title: 'Weatherize',
 };
 ---
 
 <Layout metadata={metadata}>
-  <!-- Hero Widget ******************* -->
+  <!-- HeroText Widget ******************* -->
 
-  <Hero
-    image={{
-      src: 'https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/hero-art/WTHR-hero-image.jpeg?raw=true',
-      alt: 'House showing air leaks',
-    }}
+  <HeroText
+    title=" Weatherization-The key is to Weatherize! "
+    subtitle="Your Home's Best Friend is Good Insulation."
   />
+<!-- HeroText Widget ******************* -->
 
-  <!-- Weatherization (WTHR) Featured Articles Widget -->
-<FeaturedArticles 
-  title="<center>Featured Articles on Weatherization</center>" 
-  articleSlugs={['weatherization-energy-efficiency-guide', '5-diy-insulation-kits', 'foam-spray-insulation-shopping-guide', 'whats-a-heat-pump']} 
-/>
   
-<!-- Features2 Widget ************** -->
-<Features2
-    title="Explore our diverse templates"
-    subtitle="Discover our selection below to streamline and elevate your projects."
-    columns={3}
+  <!-- Content Widget **************** -->
+
+  <Content
+    isReversed
+    title="Weatherize Today, Save Tomorrow.!"
     items={[
       {
-        title: 'Educational',
+        title: 'Energy Savings',
         description:
-          'By harmonizing instructional design and visual appeal, templates streamline content creation for varied materials, expediting development and cultivating engaging educational spaces.',
-        icon: 'tabler:school',
+          'By sealing gaps and insulating properly, you can significantly reduce energy consumption, lowering utility bills. The average household can save up to $350 per year through proper weatherization..',
       },
       {
-        title: 'Interior Design',
+        title: 'Comfort and Passive Survivability',
         description:
-          'Crafting functional, visually appealing spaces for residential and commercial use. Templates emphasize layout, colors, and furniture setups, offering a versatile toolkit for your design vision.',
-        icon: 'tabler:home-star',
+          'Well-insulated buildings retain a safe indoor temperature for longer in the event of energy disruptions.',
       },
       {
-        title: 'Photography',
-        description: `Empowering photographers, our templates facilitate captivating storytelling. With a keen focus on layout, galleries, and typography, they cater to both professionals and enthusiasts.`,
-        icon: 'tabler:photo',
-      },
-      {
-        title: 'E-commerce',
+        title: 'Health',
         description:
-          'Developing engaging online stores, our E-commerce templates ensure a dynamic presence to effectively showcase products. Ideal for startups or revamps.',
-        icon: 'tabler:shopping-cart',
-      },
-      {
-        title: 'Blog',
-        description:
-          'With attention to typography, these templates empower effective content presentation for writers at any stage, ensuring visually engaging and user-friendly blogs.',
-        icon: 'tabler:article',
-      },
-      {
-        title: 'Business',
-        description:
-          'Providing polished options for effective visual communication, these templates empower both startups and established companies for a professional brand presence.',
-        icon: 'tabler:building-store',
-      },
-      {
-        title: 'Branding',
-        description:
-          'Offering pre-designed elements for a consistent brand identity, including logos and marketing materials. Ideal for new ventures or revamps.',
-        icon: 'tabler:arrow-big-up-lines',
-      },
-      {
-        title: 'Medical',
-        description: `From presentations to patient forms, these tools enhance communication effectiveness for healthcare professionals. Ideal for medical practices and research pursuits.`,
-        icon: 'tabler:vaccine',
-      },
-      {
-        title: 'Fashion Design',
-        description:
-          'With attention to detail, customization, and contemporary design, they empower designers to showcase ideas cohesively. Ideal for all levels of designers.',
-        icon: 'tabler:tie',
+          'Improved indoor air quality by reducing outdoor pollutants benefits those with allergies or respiratory issues.',
       },
     ]}
-  />
-<!-- FAQs Widget ******************* -->
+    image={{
+      src: 'https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/hero-art/WTHR-hero-image.jpeg?raw=true',
+      alt: 'Thermal image showing air leaks in home',
+    }}
+  >
+    <Fragment slot="content">
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Building on modern foundations</h3>
+       Weatherization is a vital aspect of home maintenance that offers numerous benefits
+    </Fragment>
 
-<FAQs
-title="Frequently Asked Questions"
-items={[
-  {
-    title: 'What are landing page templates?',
-    description:
-      'Landing page templates are pre-designed web page layouts that are specifically created to serve as a foundation for building effective landing pages. These templates are designed to capture the attention of visitors and guide them towards a specific action or goal, such as signing up for a newsletter, making a purchase, or downloading a resource.',
-  },
-  {
-    title: 'Why should I use a template?',
-    description:
-      'Some of the advantages are that they provide a ready-to-use structure,  saving you significant time. Are designed with user-friendliness in mind and provide a cost-effective alternative, saving you money while still delivering a quality result.',
-  },
-  {
-    title: 'Can I preview templates before buying?',
-    description:
-      'Yes, the templates allow you to preview them before making a purchase. There is a "Demo" button associated with each template.',
-  },
-  {
-    title: 'Do I need technical skills to use a template?',
-    description:
-      'Advanced technical skills are not required to use a template, but having a basic understanding of web navigation and familiarity with using online tools can still be beneficial. If you have more specific customization needs, you might need to consult guides or reach out to customer support for assistance.',
-  },
-  {
-    title: 'Can I use the template on multiple websites?',
-    description:
-      'No, the template comes with a single-use license, meaning you can use the template on one website or project only. Using the template on additional websites would require purchasing additional licenses.',
-  },
-  {
-    title: 'What if I need help with customization?',
-    description:
-      "The templates provides a comprehensive step-by-step guide that walk you through the customization process. If you still have doubts, you can reach out to our customer support team. They can answer your questions, provide guidance on customization, and address any issues you're facing.",
-  },
-]}
->
-<Fragment slot="bg">
-  <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
-</Fragment>
-</FAQs>
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
+ <!-- Content Widget **************** -->
+
+ <!-- Weatherization (WTHR) Featured Articles Widget -->
+<FeaturedArticles 
+  title="<center>Featured Articles on Weatherization</center>" 
+  articleSlugs={['weatherization-energy-efficiency-guide', 'diy-insulation-kits', 'foam-spray-insulation-shopping-guide', 'whats-a-heat-pump']} 
+/>
+
 </Layout>

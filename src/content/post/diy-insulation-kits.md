@@ -1,6 +1,6 @@
 ---
 publishDate: 2023-09-27T00:00:00Z
-title: '5 Easy DIY Insulation Kits for Home Efficiency'
+title: 'Easy DIY Insulation Kits for Home Efficiency'
 excerpt: 'Uncover the secrets to a more energy-efficient home with our guide on DIY insulation kits. Learn about the top options available and how they can help you save on energy costs.'
 image: 'https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/WTHR-2-cover-art.jpg?raw=true'
 category: Energy Efficiency
