@@ -12,6 +12,7 @@ export interface Props extends Widget {
   linkUrl?: string | URL;
   information?: string;
   articleSlugs: string[];  // Changed from postIds to articleSlugs
+  centerTitle?: boolean;  // New prop for centering title
 }
 
 const {
@@ -20,6 +21,7 @@ const {
   linkUrl = getBlogPermalink(),
   information = await Astro.slots.render("information"),
   articleSlugs = [],  // Changed from postIds to articleSlugs
+  centerTitle = false,  // Default value for new prop
 
   id,
   isDark = false,
@@ -37,7 +39,7 @@ const posts = APP_BLOG.isEnabled ? await findPostsBySlugs(articleSlugs) : [];  /
         {title && (
           <div class="md:max-w-sm">
             <h2
-              class="text-3xl font-bold tracking-tight sm:text-4xl sm:leading-none group font-heading mb-2"
+              class={`text-3xl font-bold tracking-tight sm:text-4xl sm:leading-none group font-heading mb-2 ${centerTitle ? 'text-center' : ''}`}
               set:html={title}
             />
             {APP_BLOG.list.isEnabled && linkText && linkUrl && (
