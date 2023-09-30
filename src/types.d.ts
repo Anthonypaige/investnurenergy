@@ -280,7 +280,7 @@ export interface Content extends Headline, Widget {
 
 export interface InfoCard {
   title?: string;
-  subtitle?: string;
+  creditAmount: string;
   tagline?: string;
   cards?: Card[];
   id?: string;
