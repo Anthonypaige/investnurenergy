@@ -1,13 +1,13 @@
 ---
 publishDate: 2023-09-27T00:00:00Z
-title: Alleviating Power Grid Strain
-excerpt: Join us as we explore innovative strategies to alleviate power grid strain, drawing parallels with the expansive growth and adaptability witnessed in the internet era.
-image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/HCE-2-cover-art.jpg?raw=true
-category: Energy Efficiency
+title: Water Heaters Federal Incentives and Rebates
+excerpt: Water heating is a fundamental aspect of our daily routines, encompassing activities from refreshing morning showers to essential tasks like dishwashing.
+image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/WTR-1-cover-art.png?raw=true
+category: Water Heaters 
 tags:
-  - Power Grid
-  - Internet Era
-  - Energy Efficiency
+  - Heat Pump Water Heater
+  - Tankless Water Heater
+  - Solar Water Heater 
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.

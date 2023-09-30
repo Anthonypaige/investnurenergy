@@ -1,8 +1,8 @@
 ---
 publishDate: 2023-09-27T00:00:00Z
-title: Alleviating Power Grid Strain
-excerpt: Join us as we explore innovative strategies to alleviate power grid strain, drawing parallels with the expansive growth and adaptability witnessed in the internet era.
-image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/HCE-2-cover-art.jpg?raw=true
+title: Heat Pump Water Heaters- The model of efficiency
+excerpt: Heat pump water heaters (HPWHs) stand out not just for their efficiency but also for their innovative design and user-centric features.
+image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/WTR-2-cover-art.jpg?raw=true
 category: Energy Efficiency
 tags:
   - Power Grid
