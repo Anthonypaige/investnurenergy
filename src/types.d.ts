@@ -303,4 +303,5 @@ export interface Card {
   };
 }
 
+
 export interface Contact extends Headline, Form, Widget {}
