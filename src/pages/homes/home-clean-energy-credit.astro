@@ -8,14 +8,13 @@ import FAQs from '~/components/widgets/FAQs.astro';
 const featuredArticleSlugs = ['home-clean-energy-credit-guide', 'alleviating-grid-strain', 'hybrid-wind-solar-systems', 'overview-solar-water-heaters'];
 
 const metadata = {
-  title: 'Startup Landing Page',
+  title: 'Home Clean Energy Credit page',
 };
 ---
 
 <Layout metadata={metadata}>
   <!-- Hero Widget ******************* -->
   <Hero
-  tagline="25D"
   actions={[]}
 >
   <Fragment slot="title">
@@ -67,6 +66,12 @@ const metadata = {
       },
       {
         title: 'Wind Turbines',
+        description:
+          'Providing customer support for any technical issues related to the templates or their implementation.',
+        icon: 'flat-color-icons:voice-presentation',
+      },
+      {
+        title: 'Solar Water Heaters',
         description:
           'Providing customer support for any technical issues related to the templates or their implementation.',
         icon: 'flat-color-icons:voice-presentation',

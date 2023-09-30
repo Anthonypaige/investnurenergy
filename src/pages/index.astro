@@ -9,23 +9,22 @@ import FAQs from '~/components/widgets/FAQs.astro';
 
 
 const metadata = {
-  title: 'AstroWind — Free template for creating websites with Astro + Tailwind CSS',
+  title: 'Welcome to Invest in your Energy We are here to Unpack the Inflation Reduction Act',
   ignoreTitleTemplate: true,
 };
 ---
 
 <Layout metadata={metadata}>
  
-  <!-- Hero Widget ******************* -->
   <Hero
   actions={[]}
 >
   <Fragment slot="title">
-    The Inflation Reduction Act
+    We are here to Unpack The Inflation reduction Act
   </Fragment>
 
   <Fragment slot="subtitle">
-    Your Road Map to Energy Efficiency
+    Take Charge of Your Energy
   </Fragment>
 
   <Fragment slot="image">
@@ -42,8 +41,24 @@ const metadata = {
       </iframe>
     </div>
   </Fragment>
-</Hero>
 
+    <!-- Video -->
+    <Fragment slot="image">
+      <div class="relative h-0 pb-[56.25%]">
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/dsTXcSeAZq8"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"
+          allowfullscreen
+          class="absolute top-0 left-0 w-full h-full"
+        >
+        </iframe>
+      </div>
+    </Fragment>
+  </Hero>
+  
   <!-- Note Widget ******************* -->
 
   <Note />
