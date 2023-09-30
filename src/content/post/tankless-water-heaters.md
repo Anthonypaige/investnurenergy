@@ -1,11 +1,11 @@
 ---
 publishDate: 2023-09-27T00:00:00Z
-title: Tankless Water Heaters are compact efficiency 
+title: Tankless Water Heaters are compact efficiency
 excerpt: Bid farewell to the constant energy drain of maintaining a hot water tank. Tankless water heaters deliver hot water precisely when you need it,
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/WTR-3-cover-art.png?raw=true
 category: Energy Efficiency
 tags:
-  - On-demand hot water 
+  - On-demand hot water
   - Tankless
   - Energy Savings
 ---

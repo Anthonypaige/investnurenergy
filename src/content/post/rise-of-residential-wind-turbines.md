@@ -18,7 +18,7 @@ Residential wind turbines function similarly to commercial ones but on a smaller
 
 #### **Merging Wind Power with Your Home's Electrical Grid**
 
-Integrating residential wind turbines with a home's power system can reduce dependence on fossil fuels, lower energy bills, and assist in grid independence. Proper installation and connection enable wind-generated electricity to power various home appliances, and excess energy can be stored in a battery. This integration represents a step towards a more sustainable and resilient energy future. Learn more about energy storage at  [Home Energy Storage](http://localhost:4322/homes/home-energy-storage).
+Integrating residential wind turbines with a home's power system can reduce dependence on fossil fuels, lower energy bills, and assist in grid independence. Proper installation and connection enable wind-generated electricity to power various home appliances, and excess energy can be stored in a battery. This integration represents a step towards a more sustainable and resilient energy future. Learn more about energy storage at [Home Energy Storage](http://localhost:4322/homes/home-energy-storage).
 
 ![](/images/wind%20battery.png)
 
