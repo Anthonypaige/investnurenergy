@@ -278,4 +278,29 @@ export interface Content extends Headline, Widget {
   callToAction?: CallToAction;
 }
 
+export interface InfoCard {
+  title?: string;
+  subtitle?: string;
+  tagline?: string;
+  cards?: Card[];
+  id?: string;
+  isDark?: boolean;
+  classes?: {
+    container?: string;
+  };
+  bg?: string;
+}
+
+export interface Card {
+  title: string;
+  taxCode: string;
+  creditAmount: string;
+  verifiedEnergySavings: string;
+  callToAction?: {
+    target: string;
+    text: string;
+    href: string;
+  };
+}
+
 export interface Contact extends Headline, Form, Widget {}

@@ -1,7 +1,7 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
 import Hero from '~/components/widgets/Hero.astro';
-import Pricing from '~/components/widgets/Pricing.astro';
+import InfoCard from '~/components/widgets/InfoCard.astro';
 import FeaturedArticles from '~/components/widgets/FeaturedArticles.astro';
 
 const metadata = {
@@ -19,20 +19,15 @@ const metadata = {
     }}
   />
 
-  <Pricing
-  title="Water Heater Options"
+  <InfoCard
+  title="Water Heater Options Covered in the Inflation Reduction Act"
   subtitle="Choose the best for your needs"
-  prices={[
+  cards={[
     {
-      title: 'Heat Pump Water Heaters (HPWH)',
-      subtitle: 'Tax Code: 25C, HEEHRA',
-      price: '30% up to $2,000; or 50% or 100% with HEEHRA',
-      period: '',
-      items: [
-        {
-          description: 'Verified Energy Savings: $200 to $600 per year',
-        },
-      ],
+      title: 'Heat Pump Water Heaters',
+      taxCode: '25C'
+      creditAmount: '30% up to $600',
+      verifiedEnergySavings: '40% more efficient',
       callToAction: {
         target: '_blank',
         text: 'Read the Article',
@@ -41,14 +36,9 @@ const metadata = {
     },
     {
       title: 'Tankless Water Heaters',
-      subtitle: 'Tax Code: 25C',
-      price: '30% up to $600',
-      period: '',
-      items: [
-        {
-          description: 'Verified Energy Savings: 24%–34% more efficient',
-        },
-      ],
+      taxCode: '25C',
+      creditAmount: '30% up to $600',
+      verifiedEnergySavings: '30% more efficient',
       callToAction: {
         target: '_blank',
         text: 'Read the Article',
@@ -57,21 +47,15 @@ const metadata = {
     },
     {
       title: 'Solar Water Heaters',
-      subtitle: 'Tax Code: 25D',
-      price: '30% of the cost',
-      period: '',
-      items: [
-        {
-          description: 'Verified Energy Savings: 50%-80% depending on area',
-        },
-      ],
+      taxCode: '25D',
+      creditAmount: '30% of the cost',
+      verifiedEnergySavings: '50%-80% depending on area',
       callToAction: {
         target: '_blank',
         text: 'Read the Article',
         href: '#', // Link to the article
       },
-      hasRibbon: true,
-      ribbonTitle: 'Eco-Friendly',
+      ecoFriendly: true,
     },
   ]}
 />

@@ -1,0 +1,47 @@
+---
+//import CallToAction from './CallToAction.astro';
+import Button from '~/components/ui/Button.astro';
+import Headline from '~/components/ui/Headline.astro';
+import WidgetWrapper from '~/components/ui/WidgetWrapper.astro';
+import type { InfoCard as InfoCardType } from '~/types';
+
+// Get Astro props
+const {
+  title = '',
+  subtitle = '',
+  tagline = '',
+  cards = [],
+  id,
+  isDark = false,
+  classes = {},
+  bg = await Astro.slots.render('bg'),
+} = Astro.props as InfoCardType;
+---
+
+<WidgetWrapper id={id} isDark={isDark} containerClass={`max-w-7xl mx-auto ${classes?.container ?? ''}`} bg={bg}>
+  <Headline title={title} subtitle={subtitle} tagline={tagline} />
+  <div class="flex items-stretch justify-center">
+    <div class="grid grid-cols-3 gap-4 dark:text-white sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3">
+      {
+        cards &&
+          cards.map(({ title, taxCode, creditAmount, verifiedEnergySavings, callToAction }) => (
+            <div class="col-span-3 mx-auto flex w-full sm:col-span-1 md:col-span-1 lg:col-span-1 xl:col-span-1">
+              <div class="rounded-lg backdrop-blur border border-gray-200 dark:border-gray-700 bg-white dark:bg-slate-900 shadow px-6 py-8 flex w-full max-w-sm flex-col justify-between text-center">
+                <div class="px-2 py-0">
+                  <p class="font-light sm:text-lg text-gray-600 dark:text-slate-400">{taxCode}</p>
+                  <h3 class="text-center text-xl font-semibold uppercase leading-6 tracking-wider mb-2">{title}</h3>
+                  <p class="font-light sm:text-lg text-gray-600 dark:text-slate-400">{creditAmount}</p>
+                  <p class="font-light sm:text-lg text-gray-600 dark:text-slate-400">{verifiedEnergySavings}</p>
+                </div>
+                {callToAction && (
+                  <div class="flex justify-center">
+                    <Button {...callToAction} />
+                  </div>
+                )}
+              </div>
+            </div>
+          ))
+      }
+    </div>
+  </div>
+</WidgetWrapper>
