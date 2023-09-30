@@ -18,7 +18,7 @@ Residential wind turbines function similarly to commercial ones but on a smaller
 
 #### **Merging Wind Power with Your Home's Electrical Grid**
 
-Integrating residential wind turbines with a home's power system can reduce dependence on fossil fuels, lower energy bills, and assist in grid independence. Proper installation and connection enable wind-generated electricity to power various home appliances, and excess energy can be stored in a battery. This integration represents a step towards a more sustainable and resilient energy future. Learn more about energy storage at [Home-EnergyStorage.com](insert link).
+Integrating residential wind turbines with a home's power system can reduce dependence on fossil fuels, lower energy bills, and assist in grid independence. Proper installation and connection enable wind-generated electricity to power various home appliances, and excess energy can be stored in a battery. This integration represents a step towards a more sustainable and resilient energy future. Learn more about energy storage at  [Home Energy Storage](http://localhost:4322/homes/home-energy-storage).
 
 ![](/images/wind%20battery.png)
 
@@ -54,7 +54,7 @@ By carefully assessing these factors, you can make an informed decision that ali
 
 #### **Hybrid Wind/Solar Systems: A Consistent and Reliable Power Supply**
 
-A hybrid wind/solar system is a forward-thinking solution that combines the strengths of wind and solar energy. By harnessing the power of the sun during the day and the wind at night, this system ensures a consistent and reliable power supply for your home. When one source is less available, the other compensates, providing energy even in varying weather conditions. This synergy not only enhances energy efficiency but also contributes to grid stability, alleviating peak demand pressures. For an in-depth exploration of hybrid systems, check out our article on [Solar and Wind Hybrid Systems](https://app.stackbit.com/studio/64d6608f12525200bdbe6a49#/blog/the-future-of-home-energy:-hybrid-wind-and-solar-systems/).
+A hybrid wind/solar system is a forward-thinking solution that combines the strengths of wind and solar energy. By harnessing the power of the sun during the day and the wind at night, this system ensures a consistent and reliable power supply for your home. When one source is less available, the other compensates, providing energy even in varying weather conditions. This synergy not only enhances energy efficiency but also contributes to grid stability, alleviating peak demand pressures. For an in-depth exploration of hybrid systems, check out our article on [Solar and Wind Hybrid Systems](http://localhost:4321/hybrid-wind-solar-systems/).
 
 ##### **Conclusion**
 

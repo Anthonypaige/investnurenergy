@@ -52,7 +52,7 @@ export const headerData = {
         },
         {
           text: 'Water Heaters',
-          href: getPermalink('/water-hetaers-page'),
+          href: getPermalink('/water-heaters-page'),
         },
       ],
     },
