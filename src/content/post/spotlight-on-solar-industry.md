@@ -1,7 +1,7 @@
 ---
 publishDate: 2023-09-27T00:00:00Z
 title: Spotlight on the Solar Industry Promoting Transparency and Standards
-excerpt: Gain insights into the ongoing efforts to promote transparency and standards in the solar industry. This article highlights the initiatives and organizations working towards a more accountable and sustainable solar sector.
+excerpt: Unscrupulous firms exploited the lack of consumer awareness, employing aggressive sales maneuvers, adding hidden "dealer fees", and offering unrealistic promises.
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/SLR-2-cover-art.png?raw=true
 category: Solar Energy
 tags:
@@ -32,6 +32,6 @@ SEIA is actively working towards creating a culture of compliance within the ind
 
 One of SEIA's key initiatives is enhancing supply chain traceability, consumer protection, and end-of-life or performance period management. They are planning to release their first American National Standard focusing on supply chain traceability in early 2024. This initiative will further strengthen consumer protection and promote transparency within the industry.
 
-\####**Conclusion**
+####**Conclusion**
 
 The solar industry has come a long way, but there's still work to be done. The key to overcoming the industry's negative reputation is consumer awareness. The more consumers know about solar energy, the better equipped they are to make informed decisions and avoid falling victim to predatory practices. Organizations like SEIA are playing a crucial role in promoting consumer awareness and setting industry standards. So, let's continue to spread knowledge and awareness, and together, we can ensure that solar energy shines brightly in the eyes of consumers.

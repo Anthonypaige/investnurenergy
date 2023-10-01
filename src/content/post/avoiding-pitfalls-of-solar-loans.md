@@ -1,14 +1,12 @@
 ---
 publishDate: 2023-08-12T00:00:00Z
-title: Get started with AstroWind to create a website using Astro and Tailwind CSS
-excerpt: Start your web journey with AstroWind – harness Astro and Tailwind CSS for a stunning site. Explore our guide now.
-image: https://images.unsplash.com/photo-1516996087931-5ae405802f9f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80
-category: Tutorials
+title: Solar Loans A Guide to Avoiding Pitfalls and Maximizing Benefits 
+excerpt: Solar loans, while promising, may conceal dealer fees, a tactic used by some companies to obscure the system's true cost. With dealer fees as high as 40%, hidden amidst confusing terminology
+image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/SLR-3-cover-art.jpg?raw=true
+category: Clean Energy
 tags:
-  - astro
-  - tailwind css
-metadata:
-  canonical: https://astrowind.vercel.app/get-started-website-with-astro-tailwind-css
+  - solar energy
+  - home-energy storage
 ---
 
 Navigating solar loans is a promising path filled with both opportunities and caution. Solar loans, a remarkable innovation, open doors to affordable green energy for homeowners. However, hidden fees and misleading information can create challenges. In this guide, we'll explore the landscape of solar loans, highlighting the genuine opportunities and potential pitfalls. Our aim is to equip you with the knowledge needed to navigate this terrain with confidence, ensuring that solar loans truly work in your favor.
