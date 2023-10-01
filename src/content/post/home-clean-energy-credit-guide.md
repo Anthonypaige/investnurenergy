@@ -14,16 +14,16 @@ As we navigate towards a sustainable future, two key terms often surface: "clean
 
 #### **What is the Residential Clean Energy Credit (25D)?**
 
-The Residential Clean Energy Credit tax code (25D) is a significant step towards encouraging clean energy adoption in residential settings. This Act provides a 30% tax credit with no upper limit and a rollover option if you don't have the appropriate tax liability to claim it in one year. It primarily targets five types of clean energy technologies: solar energy systems, geothermal heat pumps, residential wind turbines, solar water heaters, battery storage technologies, and solar storage solutions.. You can [verify the details of the Residential Clean Energy Credit Act on the IRS website here](https://www.irs.gov/credits-deductions/residential-clean-energy-credit).
+The Residential Clean Energy Credit tax code (25D) is a significant step towards encouraging clean energy adoption in residential settings. This Act provides a 30% tax credit with no upper limit and a rollover option if you don't have the appropriate tax liability to claim it in one year. It primarily targets six types of clean energy technologies: solar energy systems, geothermal heat pumps, residential wind turbines, solar water heaters, battery storage technologies, and solar storage solutions.. You can verify the details of the [Residential Clean Energy Credit Act on the IRS website here](https://www.irs.gov/credits-deductions/residential-clean-energy-credit).
 
 ##### **Solar Energy Systems: Harnessing the Sun**
 
 Solar energy systems are a prominent and appealing choice for homeowners eager to embrace clean energy. By harnessing the sun's power and converting sunlight into electricity through a process known as photovoltaic energy conversion, these systems offer a renewable and environmentally friendly energy source.The typical solar energy system consists of solar panels, usually installed on rooftops, that absorb sunlight and convert it into direct current (DC) electricity. An inverter then transforms the DC electricity into alternating current (AC) electricity, ready to power the home.
 Understanding solar energy can be complex, so we've divided the content to cater to different needs:
 
-**For Solar Beginners**: If you're new to solar and want to grasp the basics, including whether your home is a suitable candidate for solar installation, visit [Solar Basics](GoSolar.FYi).
+**For Solar Beginners**: If you're new to solar and want to grasp the basics, including whether your home is a suitable candidate for solar installation,  you can visit [Solar Basics](GoSolar.FYi) for an in-depth solar course.
 
-**For Economic Insights**: If you're in the fact-finding stage and eager to dive deep into the economics of solar, explore solar loans, and uncover details on maximizing incentives for the best return on investment, check out [Solar Economics](SolarTaxIncentive.com).
+**For Economic Insights**: If you're in the fact-finding stage and eager to dive deep into the economics of solar, explore solar loans, and uncover details on maximizing incentives for the best return on investment, check out [Solar Tax Incentive](SolarTaxIncentive.com) page where we get real about solar. 
 
 #### **Geothermal Heat Pumps: Tapping into Earth’s Core**
 
@@ -31,15 +31,15 @@ Geothermal heat pumps utilize the Earth's constant temperature to heat and cool 
 
 #### **Residential Wind Turbines: Catching the Breeze**
 
-Residential wind turbines are emerging as a valuable clean energy technology that can alleviate grid pressure. They provide energy during evenings or cloudy days, transforming wind into electricity. The beauty of wind energy is that its peak season often complements solar's down months, providing a hedge against energy gaps. Ongoing innovations and the Act's tax credit are making wind turbines an increasingly viable option. If you're curious about this, check out our [guide to catching the breeze with wind energy](https://app.stackbit.com/studio/64d6608f12525200bdbe6a49#/blog/catching-a-second-wind:-the-rise-of-residential-wind-turbines/)
+Residential wind turbines are emerging as a valuable clean energy technology that can alleviate grid pressure. They provide energy during evenings or cloudy days, transforming wind into electricity. The beauty of wind energy is that its peak season often complements solar's down months, providing a hedge against energy gaps. Ongoing innovations and the Act's tax credit are making wind turbines an increasingly viable option. If you're curious about this, check out our [**guide to catching the breeze with wind energy**](https://app.stackbit.com/studio/64d6608f12525200bdbe6a49#/blog/catching-a-second-wind:-the-rise-of-residential-wind-turbines/)
 
 #### **Solar Water Heaters: Using Nature’s Heat**
 
-Solar water heaters use the sun's energy to heat water, reducing energy consumption and contributing to grid efficiency. These systems can save homeowners 50%-80% on water heating costs. Though not yet a prevalent choice, solar water heaters are gaining traction. As technology advances and awareness grows, they are set to become a more common sight in homes, further alleviating grid pressure. Want to know more? Check out our [**guide to heating your water with nature's touch**](https://app.stackbit.com/studio/64d6608f12525200bdbe6a49#/blog/solar-water-heaters:-a-sustainable-solution-for-your-home/)
+Solar water heaters use the sun's energy to heat water, reducing energy consumption and contributing to grid efficiency. These systems can save homeowners 50%-80% on water heating costs. Though not yet a prevalent choice, solar water heaters are gaining traction. As technology advances and awareness grows, they are set to become a more common sight in homes, further alleviating grid pressure. Want to know more? Check out our [**breakdown on heating your water with nature's touch**](https://app.stackbit.com/studio/64d6608f12525200bdbe6a49#/blog/solar-water-heaters:-a-sustainable-solution-for-your-home/)
 
 #### **Battery Storage Technology: Alleviating Grid Pressure with Standalone Solutions**
 
-Standalone battery storage technology is not just about storing energy; it's about alleviating grid pressure and making energy management smarter and more efficient. With the ability to adapt to Time-of-Use (TOU) rate plans, these batteries offer opportunities for energy arbitrage and can be integrated with portable solar systems. Eligible for tax credits under the Residential Clean Energy Credit, they provide a versatile and economical option for reducing energy costs during peak times or ensuring reliable backup power. Want to explore more about how you can leverage these technologies? [Check out our guide at Back-upBattery.com](http://www.home-energystorage.com).
+Standalone battery storage technology is not just about storing energy; it's about alleviating grid pressure and making energy management smarter and more efficient. With the ability to adapt to Time-of-Use (TOU) rate plans, these batteries offer opportunities for energy arbitrage and can be integrated with portable solar systems. Eligible for tax credits under the Residential Clean Energy Credit, they provide a versatile and economical option for reducing energy costs during peak times or ensuring reliable backup power. Want to explore more about how you can leverage these technologies? [Check out our Home Energy Storage](http://www.home-energystorage.com) page. 
 
 #### **Solar Storage: Specialized Solutions for Solar Energy**
 

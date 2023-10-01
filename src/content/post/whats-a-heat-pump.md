@@ -12,7 +12,7 @@ tags:
 
 A heat pump is a versatile climate control system that can both heat and cool your home. It operates on the simple yet effective principle of heat transfer. Just like a refrigerator uses refrigerant to extract heat from its interior and keep your food cool, a heat pump extracts heat from one location and transfers it to another. During the winter, it pulls heat from the outdoor air or ground and moves it inside your home for warmth. In the summer, the process reverses: it extracts heat from your home's interior and expels it outside to keep your living space cool. This dual functionality makes heat pumps an incredibly versatile solution for home heating and cooling, offering year-round comfort.
 
-![](/images/vector-heat-pump-system.jpg)
+![Super wide]https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/In-article-images/vector-heat-pump-system.jpg?raw=true
 
 #### **A Closer Look at The Components of a Heat Pump**
 
@@ -38,13 +38,13 @@ These heat pumps work by extracting heat from the outdoor air and transferring i
 
 **Types of Air Source Heat Pumps:**
 
-- **Most Popular: Ducted Split Systems**\
+- **Most Popular: Ducted Split Systems**
   These systems are designed to heat and cool an entire home. They use ductwork to distribute conditioned air throughout the home, making them ideal for larger residences.
 
-- **Great for the Right Situation: Ductless Mini-Split Systems**\
+- **Great for the Right Situation: Ductless Mini-Split Systems**
   These systems are perfect for heating and cooling individual rooms. They consist of an outdoor unit and one or more indoor units that deliver air directly into the room, offering more localized control.
 
-- **Less Common: Ducted Packaged Systems**\
+- **Less Common: Ducted Packaged Systems**
   These are all-in-one systems that house the compressor, condenser, and evaporator in a single unit. Typically installed outside, they deliver air through ductwork and are less commonly used due to their bulkier size.
 
 For more information on Air Source heat pumps, [check out this Breakdown](link to article).
