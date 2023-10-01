@@ -5,23 +5,24 @@ import Features2 from '~/components/widgets/Features2.astro';
 import FeaturedArticles from '~/components/widgets/FeaturedArticles.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
 
+const featuredArticleSlugs = ['home-clean-energy-credit-guide', 'alleviating-grid-strain', 'hybrid-wind-solar-systems', 'overview-solar-water-heaters'];
+
 const metadata = {
-  title: 'Energy Efficient Home Upgrades',
+  title: 'Home Clean Energy Credit page',
 };
 ---
 
 <Layout metadata={metadata}>
   <!-- Hero Widget ******************* -->
-
   <Hero
   actions={[]}
 >
   <Fragment slot="title">
-    The Energy Efficient Home Improvement Credit
+    Energy Efficient Rebates 
   </Fragment>
 
   <Fragment slot="subtitle">
-    Take Charge of Your Energy
+    There are a number of energy efficient rebates available via the HEEHRA act and through your local utility providers. These rebates have nothing to do with your tax liability. 
   </Fragment>
 
   <Fragment slot="image">
@@ -40,31 +41,41 @@ const metadata = {
   </Fragment>
 </Hero>
 
-  
   <!-- Features2 Widget ************** -->
-
-  <Features2
-    title="What is included in The Energy Efficient Home Improvement Credit ?"
+ <Features2
+    title="What is included in the Home Clean Energy Credit?"
     subtitle="We offer a wide range of website templates that suit various industries and purposes such as business, portfolio, e-commerce, blog, etc."
     items={[
       {
-        title: 'Heat Pumps',
+        title: 'Solar Energy',
         description:
           'Offer clear instructions on how to download the purchased templates and install them on various website platforms or content management systems.',
         icon: 'flat-color-icons:document',
       },
       {
-        title: 'Water Heaters',
+        title: 'Home Energy Storage',
         description:
           'Provide interactive demos and previews that allow customers to see how their chosen template will look and function before making a purchase.',
         icon: 'flat-color-icons:template',
       },
       {
-        title: 'Weatherization',
+        title: 'Geothermal Heat Pumps',
         description:
           'Providing customer support for any technical issues related to the templates or their implementation.',
         icon: 'flat-color-icons:voice-presentation',
       },
+      {
+        title: 'Wind Turbines',
+        description:
+          'Providing customer support for any technical issues related to the templates or their implementation.',
+        icon: 'flat-color-icons:voice-presentation',
+      },
+      {
+        title: 'Solar Water Heaters',
+        description:
+          'Providing customer support for any technical issues related to the templates or their implementation.',
+        icon: 'flat-color-icons:voice-presentation',
+      },  
     ]}
   >
     <Fragment slot="bg">
@@ -72,11 +83,12 @@ const metadata = {
     </Fragment>
   </Features2>
 
-  <!-- Featured Articles Widget ******************* -->
+<!-- Featured Articles Widget ******************* -->
 <FeaturedArticles 
-title="Feature Articles" 
-articleSlugs={['home-energy-efficient-credit-guide', 'crafting-an-energy-efficient-strategy', 'biomass-boilers-explained' , 'whats-a-heat-pump']} 
+  title="Feature Articles" 
+  articleSlugs={['home-clean-energy-credit-guide', 'alleviating-grid-strain', 'hybrid-wind-solar-systems', 'overview-solar-water-heaters']} 
 />
+
 
   <!-- FAQs Widget ******************* -->
 
@@ -84,27 +96,27 @@ articleSlugs={['home-energy-efficient-credit-guide', 'crafting-an-energy-efficie
     title="Frequently Asked Questions"
     items={[
       {
-        title: ' What is included in the Energy Efficient Home Improvement Credit?',
+        title: 'What are landing page templates?',
         description:
           'Landing page templates are pre-designed web page layouts that are specifically created to serve as a foundation for building effective landing pages. These templates are designed to capture the attention of visitors and guide them towards a specific action or goal, such as signing up for a newsletter, making a purchase, or downloading a resource.',
       },
       {
-        title: 'How do I claim my energy efficiency tax credit?',
+        title: 'Why should I use a template?',
         description:
           'Some of the advantages are that they provide a ready-to-use structure,  saving you significant time. Are designed with user-friendliness in mind and provide a cost-effective alternative, saving you money while still delivering a quality result.',
       },
       {
-        title: 'How do I know my eligibility for The Energy Efficient Home Improvement Credit?',
+        title: 'Can I preview templates before buying?',
         description:
           'Yes, the templates allow you to preview them before making a purchase. There is a "Demo" button associated with each template.',
       },
       {
-        title: 'What is the difference between 25C and HEEHRA',
+        title: 'Do I need technical skills to use a template?',
         description:
           'Advanced technical skills are not required to use a template, but having a basic understanding of web navigation and familiarity with using online tools can still be beneficial. If you have more specific customization needs, you might need to consult guides or reach out to customer support for assistance.',
       },
       {
-        title: 'What is the annual limit of the 25C?',
+        title: 'Can I use the template on multiple websites?',
         description:
           'No, the template comes with a single-use license, meaning you can use the template on one website or project only. Using the template on additional websites would require purchasing additional licenses.',
       },

@@ -1,0 +1,67 @@
+---
+import Layout from "~/layouts/Layout.astro";
+
+interface ComparisonTableProps {
+  headers: string[];
+  rows: Array<Record<string, any>>;
+}
+
+const { headers, rows } = Astro.props as ComparisonTableProps;
+---
+
+<Layout>
+    <div class="comparison-table-container">
+      <table id="comparisonTable">
+        <thead>
+          <tr>
+            {headers.map((header) => (
+              <th>{header}</th>
+            ))}
+          </tr>
+        </thead>
+        <tbody>
+          {rows.map((row) => (
+            <tr>
+              {headers.map((header) => (
+                <td>{typeof row[header] === "object" ? row[header].html : row[header]}</td>
+              ))}
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  
+    <script type="module">
+      // This will run on the client
+      Astro.onRender(() => {
+        $('#comparisonTable').DataTable();
+      });
+    </script>
+  
+  <style>
+    /* Add your CSS styling here */
+    #comparisonTable {
+      font-family: Arial, sans-serif;
+      width: 100%;
+      border-collapse: collapse;
+      text-align: center;
+    }
+    #comparisonTable td, #comparisonTable th {
+      padding: 10px;
+      border: 1px solid #dddddd;
+    }
+    #comparisonTable th {
+      background-color: #4CAF50;
+      color: white;
+      padding-top: 12px;
+      padding-bottom: 12px;
+      text-align: left;
+    }
+    #comparisonTable tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+    #comparisonTable tr:hover {
+      background-color: #f1f1f1;
+    }
+  </style>
+</Layout>

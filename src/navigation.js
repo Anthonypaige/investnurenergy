@@ -21,6 +21,14 @@ export const headerData = {
           text: 'Home Energy Storage',
           href: getPermalink('/homes/home-energy-storage'),
         },
+      {
+        text: 'Energy Efficient Rebates',
+        href: getPermalink('/homes/energy-efficient-rebates'),
+      },
+      {
+        text: 'Solar Tax Incentive',
+        href: getPermalink('/homes/solar-tax-incentive'),
+      },
       ],
     },
     {
