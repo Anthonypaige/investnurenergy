@@ -12,7 +12,7 @@ tags:
 
 As our electrical grid ages and struggles to meet modern energy demands, the importance of backup batteries has surged. These batteries are no longer just a convenience; they're a lifeline in emergencies, a bolster to your home's energy security, and a savvy financial investment in the era of Time-of-Use (TOU) rates. With TOU rates encouraging off-peak energy consumption, backup batteries also offer the opportunity for energy arbitrage—buying energy when it's cheap and using or selling it when prices soar. And with the added benefit of tax incentives through the Residential Clean Energy Credit, there's never been a better time to invest in a backup battery system.
 
-#### **Understanding Time-of-Use (TOU) Rates: The Key to Smart Energy Management**
+### **Understanding Time-of-Use (TOU) Rates: The Key to Smart Energy Management**
 
 The pressure on our energy grid has led utility providers to explore innovative solutions to balance demand and supply. Among these solutions are Demand Response programs and Time Variable Pricing (TVP) programs, designed to incentivize consumers to modify their energy consumption patterns. Time-of-Use (TOU) rates have emerged as the most popular choice within these programs.
 

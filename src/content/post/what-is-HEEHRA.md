@@ -7,7 +7,7 @@ category: Energy Efficient Rebates
 tags:
   - HEEHRA
   - Energy Efficient
-  - Rebates
+  - State-level Rebates
 ---
 
 Low and Moderate-Income (LMI) households typically bear three times the energy burden (the portion of their income spent on home energy) compared to others. This disproportionate burden often leads to difficult choices between essential needs and energy bills. HEEHRA aims to alleviate this energy burden by focusing on electrification upgrades and offering substantial rebates, making a positive impact on both the environment and consumers' wallets.

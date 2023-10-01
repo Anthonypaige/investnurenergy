@@ -5,18 +5,18 @@ excerpt: Step into the world of solar water heaters, where we guide you through 
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/HCE-3-cover-art.png?raw=true
 category: Clean Energy
 tags:
-  - residential clean energy credit
+  - home clean energy credit
   - Sustainable Home
   - solar water heater
 ---
 
 With the Inflation Reduction Act of 2022 shining a spotlight on renewable energy solutions, solar water heaters are emerging as a popular choice for homeowners. Thanks to the Residential Clean Energy Credit (tax code 25D), you can now avail a 30% tax credit on the cost of equipment and installation. This makes solar water heaters a cost-effective and eco-friendly option for your home. In this guide, we will delve into the different types of solar water heaters, how they work, and the benefits they bring.
 
-####** How exactly do Solar Water Heaters Work**
+### **How exactly do Solar Water Heaters Work**
 
 Solar water heaters tap into the abundant solar energy to heat water for various household needs. These systems comprise solar collectors that absorb the sun's energy and storage tanks for the heated water. Installed on rooftops to maximize sunlight exposure, solar water heaters can provide hot water for bathing, dishwashing, laundry, and more. As per the U.S. Department of Energy, a solar water heater can reduce your water heating costs by 50% to 80%.
 
-####**How do I use the Solar Water Heater Efficiency Metrics**
+### **How do I use the Solar Water Heater Efficiency Metrics**
 
 When evaluating solar water heaters, two key metrics to consider are the Solar Fraction (SF) and the Solar Energy Factor (SEF).
 
@@ -24,7 +24,7 @@ When evaluating solar water heaters, two key metrics to consider are the Solar F
 
 -**Solar Energy Factor (SEF)**: SEF is a measure of the energy efficiency of a solar thermal water heater. It's the energy delivered by the system divided by the electrical or gas energy input into the system. A higher SEF means a more efficient system.
 
-##### **Active Solar Water Heaters: A Closer Look**
+### **Active Solar Water Heaters: A Closer Look**
 
 Active solar water heaters come with pumps and control systems that actively circulate water or a heat-transfer fluid. There are two main types:
 
@@ -37,7 +37,7 @@ Active solar water heaters come with pumps and control systems that actively cir
   - **Climate Suitability**: Ideal for colder regions where freezing temperatures are common, as the heat-transfer fluid prevents freezing.
   - **Efficiency**: Highly efficient and often come with well-insulated storage tanks to minimize heat loss.
 
-##### **Passive Solar Water Heaters: A Closer Look**
+### **Passive Solar Water Heaters: A Closer Look**
 
 Passive systems rely on natural convection rather than pumps to circulate water, making them simpler but generally less efficient. There are two main types:
 
@@ -50,7 +50,7 @@ Passive systems rely on natural convection rather than pumps to circulate water,
   - **Climate Suitability**: Suitable for a variety of climates but may require additional insulation in colder regions.
   - **Efficiency**: More efficient than integral collector-storage systems and have a longer lifespan due to fewer moving parts.
 
-####**The Financial Aspect: Understanding ROI and Savings**
+### **The Financial Aspect: Understanding ROI and Savings**
 When it comes to investing in a solar water heater, understanding the financial implications is crucial. Here's a breakdown of the costs and savings you can expect:
 
 **Initial Costs**
@@ -69,6 +69,6 @@ Property Value: Installing a solar water heater can also increase your property 
 
 For a more detailed breakdown, visit the Department of Energy's extensive guide.
 
-####**Conclusion**
+#### **Conclusion**
 
 Solar water heaters are a sustainable, cost-effective solution for meeting household hot water needs. They leverage the abundant energy of the sun, reducing reliance on conventional energy sources and contributing to a greener planet. With the Inflation Reduction Act of 2022 and the Residential Clean Energy Credit, solar water heaters have become an even more attractive option. By understanding the different types of solar water heaters, their efficiency metrics, and the factors to consider when buying, homeowners can make an informed decision that suits their needs and contributes to a sustainable future.

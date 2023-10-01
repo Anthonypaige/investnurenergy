@@ -16,25 +16,25 @@ Enter the game-changer: Air Source Heat Pumps (ASHPs). These innovative systems 
 
 The Inflation Reduction Act has further propelled ASHPs into the spotlight. This groundbreaking legislation recognizes the crucial role that these systems play in advancing energy efficiency and reducing environmental impact. As a result, ASHPs have become increasingly accessible and affordable, solidifying their position as a top choice for eco-conscious homeowners.
 
-#### Financial Incentives for Air Source Heat Pumps:
+### Financial Incentives for Air Source Heat Pumps:
 
 When it comes to making your home more energy-efficient, financial incentives can play a significant role. Both federal and state governments offer various rebates and tax credits to encourage the adoption of Air Source Heat Pumps (ASHPs). Here's a quick rundown:
 
-##### Federal Incentives
+### Federal Incentives
 
 - **Electrification Rebates Act (HEEHRA)**: This transformative legislation offers a point-of-sale rebate ranging from 50% to 100% for low- and moderate-income households. It aims to make energy-efficient solutions like ASHPs more accessible. [Read more about HEEHRA](insert article link).
 
 - **Energy Efficient Home Improvement Credit (25C)**: This tax credit covers 30% of the installation cost of an ASHP, up to $2,000. It's available to all taxpayers and offers flexibility for those with multi-story properties. [Learn more about the 25C tax credit](insert article link).
 
-##### State-Level Rebates
+### State-Level Rebates
 
 - **State-Specific Programs**: Many states offer additional rebates and incentives for installing ASHPs. These can range from direct rebates to property tax reductions. It's advisable to check the[Database of State Incentives for Renewables & Efficiency](DSIRE.org) for the most current information.
 
 By taking advantage of these federal and state-level incentives, you can significantly reduce the upfront costs of installing an ASHP, making it an even more attractive option for energy-efficient home heating and cooling.
 
-![](/images/WHP-2%20in%20article%20image1.png)
+![Super wide](https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/In-article-images/WHP-2%20in%20article%20image1.png?raw=true)
 
-#### **Air Source Heat Pumps: Beyond Traditional AC Units**
+### **Air Source Heat Pumps: Beyond Traditional AC Units**
 
 Air Source Heat Pumps (ASHPs) offer distinct advantages over traditional air conditioning systems:
 
@@ -50,9 +50,9 @@ Air Source Heat Pumps (ASHPs) offer distinct advantages over traditional air con
 
 For a deeper dive into Air Source Heat Pumps, [read our comprehensive guide](link to article).
 
-![](/images/WHP-2%20in%20article%20image2.png)
+![Super wide](https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/In-article-images/WHP-2%20in%20article%20image2.png?raw=true)
 
-#### **Ductless Mini-Split Systems: A Versatile Choice**
+### **Ductless Mini-Split Systems: A Versatile Choice**
 
 Ductless Mini-Split Systems have unique features that set them apart from traditional AC units:
 
@@ -68,7 +68,7 @@ Ductless Mini-Split Systems have unique features that set them apart from tradit
 
 For more on Ductless Mini-Split Systems, [check out our detailed guide](link to article).
 
-#### **Finding the Right Size: A Crucial Step for Efficiency**
+### **Finding the Right Size: A Crucial Step for Efficiency**
 
 Selecting the correct size for your Air Source Heat Pump (ASHP) is not just a matter of convenience; it's a crucial step for ensuring energy efficiency and optimal comfort. An incorrectly sized unit can lead to inefficiencies, increased energy bills, and a less comfortable home. Here are the key factors to consider:
 
@@ -82,6 +82,6 @@ Selecting the correct size for your Air Source Heat Pump (ASHP) is not just a ma
 
 For a straightforward way to determine the most suitable size for your ASHP, we recommend using this [Heat Pump Sizing Calculator by HVAC Direct](https://hvacdirect.com/sizing-air-conditioner-and-heater.html).
 
-##### **Conclusion**
+#### **Conclusion**
 
 Air Source Heat Pumps are not just a trend; they're a transformative force in the heating and cooling industry. Thanks to financial incentives like the Electrification Rebates Act and the Energy Efficient Home Improvement Credit, adopting these energy-efficient systems has never been easier. Don't miss out on the opportunity to make your home more sustainable while enjoying significant savings

@@ -6,8 +6,8 @@ image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/c
 category: Solar Energy
 tags:
   - Solar Energy
-  - Flip Phone
-  - Unlock Potential
+  - TOU rates
+  - Home Energy Storage
 ---
 
 In our previous article, we took you on a journey of understanding solar panel placement optimization, comparing it to the art of sunbathing. Now, let's dive deeper into the world of solar energy. It's a bit like trying to text on a flip phone - a tad more complex than today's smartphone era, but once you understand the basics, it's a game-changer. This article will transport you back to the flip phone era to simplify the intricate concepts of solar energy, battery storage, net metering, and time-of-use rate plans.
@@ -25,19 +25,19 @@ If you want to check your enrollment in TOU rates and understand the difference 
 By mastering TOU rates and strategically using solar storage, you can optimize your energy usage and save money on your energy bills. Click here for
 [more information on mastering TOU rates](insert article>).
 
-![](/images/Rick%20Roll%20over%20minutes.jpg)
+### **Net Metering: The Rollover Plan**
 
-#### **Net Metering: The Rollover Plan**
-
-Remember when some cell phone plans offered rollover minutes? If you didn't use all your minutes in a month, they would roll over to the next month, ensuring that nothing went to waste. Similarly, in the world of solar energy, there's a concept called net metering.
+Remember when some cell phone plans offered rollover minutes? If you didn't use all your minutes in a month, they would roll over to the next month, ensuring that nothing went to waste. You did not want to give up those minutes! Similarly, in the world of solar energy, there's a concept called net metering.
 
 With net metering, if your solar panels produce more energy than you use in a given month, the excess energy isn't wasted. Instead, it's "rolled over" as credits to your next month's energy bill. Think of it as a bank account for your solar energy, where you can deposit excess energy and withdraw it when needed.
 
+![Super wide](https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/In-article-images/FYI-2-rickroll-in-article.jpg?raw=true)
+
 This mechanism allows you to balance out your energy production and consumption over time, leading to significant savings on your energy bills. It's a smart way to make the most of your solar investment, ensuring that every kilowatt-hour produced by your solar system is put to good use.
 
-Click here to [learn more about net metering](https://app.stackbit.com/studio/64d6608f12525200bdbe6a49#/blog/net-metering/). and how it can benefit your solar offset strategy
+Click here to [learn more about net metering](insert article). and how it can benefit your solar offset strategy
 
-#### **Battery Storage: The Prepaid Phone Card**
+### **Battery Storage: The Prepaid Phone Card**
 
 Remember the days of prepaid phone cards? You'd buy a card with a set number of minutes, carefully calculating how many you had left and deciding when to use them. It was a way to have control over your calling expenses and ensure you had a reserve for emergencies or important calls.
 
@@ -47,16 +47,16 @@ Battery storage is particularly useful during power outages or during peak usage
 
 Like the safety net of a prepaid card, battery storage offers a sense of energy security and control. It's a way to make the most of your solar energy production, ensuring that every bit of energy is utilized efficiently.
 
-For more on battery storage and how it can enhance your solar energy system, visit [Home-EnergyStorage.com](https://app.stackbit.com/studio/64d6608f12525200bdbe6a49#/Home-Energy%20Storage/)
+For more on battery storage and how it can enhance your solar energy system, visit [Home Energy Storage.](link to page)
 
-#### **Evolution of Solar Technology: The Leap from Flip Phones to Solar Homes**
+### **Evolution of Solar Technology: The Leap from Flip Phones to Solar Homes**
 
 Just as our mobile phones have progressed from bulky flip phones to today's sleek smartphones, solar technology has also witnessed an astounding evolution. Early photovoltaic cells were cumbersome and inefficient, but with continuous innovation, today's solar panels are highly efficient, compact, and adaptable to various needs. The introduction of intelligent micro-inverters, solar tracking systems, and solar storage batteries mirrors our leap from simple call-and-text mobiles to multi-functional smartphones. As solar technology continues to advance, it only enhances the relevance and importance of understanding concepts like battery storage, net metering, and TOU rates.
 
-##### **Conclusion: From Flip Phones to Solar Homes**
+#### **Conclusion**
 
 Just as mobile phones evolved from bulky flip phones to sleek smartphones, solar technology has undergone a remarkable transformation. Early photovoltaic cells were cumbersome, but today's solar panels are efficient, compact, and adaptable, mirroring our leap from simple call-and-text devices to multi-functional gadgets.
 
 Understanding solar energy might seem as daunting as mastering texting on a flip phone, but with patience and perseverance, you can unlock its full potential. The innovations in solar technology, such as intelligent micro-inverters and solar storage batteries, enhance our ability to harness renewable energy and underscore the importance of concepts like battery storage, net metering, and Time-of-use (TOU) rates.
 
-Now that you've got the basics down, You can either [Learn more about net metering here](https://app.stackbit.com/studio/64d6608f12525200bdbe6a49#/blog/net-metering/). Or maybe you're ready to dive into solar offset strategy? [devising a solar offset strategy](link to offset strategy article).
+Now that you've got the basics down, You can either [Learn more about net metering here](insert article). Or maybe you're ready to dive into [devising a solar offset strategy?](link to offset strategy article).

@@ -12,17 +12,15 @@ tags:
 
 In an era where energy efficiency and sustainability are paramount, the Inflation Reduction Act has introduced measures to incentivize homeowners to invest in energy-saving improvements. A key component of this legislation is the [Energy-Efficient Home Improvement Credit, (25C)](https://www.irs.gov/credits-deductions/energy-efficient-home-improvement-credit) designed to encourage the adoption of technologies and practices that reduce energy consumption and environmental impact. From heat pumps to insulation enhancements, this credit provides financial support for a variety of upgrades that contribute to a more energy-efficient home. In this guide, we'll explore the details of the Energy-Efficient Home Improvement Credit, helping you understand how to leverage this opportunity to make your home more sustainable and cost-effective.
 
-#### **What is the Energy-Efficient Home Improvement Credit (25C)**
+### **What is the Energy-Efficient Home Improvement Credit (25C)**
 
 The Energy-Efficient Home Improvement Credit also known by its tax code as 25C is a federal incentive designed to promote energy-efficient home upgrades. It offers homeowners a deduction of up to 30%, capped annually at $3,200, for a range of energy-saving improvements.
 
 The credit primarily targets heating and cooling upgrades, recognizing their substantial contribution to home energy consumption. By encouraging these improvements, the Energy-Efficient Home Improvement Credit aims to foster investment in sustainable technologies and practices.
 
-#### **Electrical Panel Upgrade: The Keystone of Energy Efficiency**
+### **Electrical Panel Upgrade: The Keystone of Energy Efficiency**
 
-A vital component of the 25C credit, electrical panel upgrades are instrumental in the transition towards a greener future, as supported by the Inflation Reduction Act. The credit covers 30% of the cost up to $600 for these upgrades. To be eligible for this credit, the improvement or replacement must be installed in accordance with the National Electric Code, have a load capacity of not less than 200 amps, and be part of any qualified energy efficiency improvements such as the ones discussed below. You can [view all qualified energy properties at Energy Star here](https://www.energystar.gov/about/federal_tax_credits/electric_panel_upgrade) To delve deeper into the importance of electrical panel upgrades and how they fit into the broader context of the Inflation Reduction Act, you can read more about the [importance of an electrical panel upgrade](https://app.stackbit.com/studio/64d6608f12525200bdbe6a49#/blog/electrical-panel-upgrades:-a-key-step-in-the-green-transition-supported-by-the-inflation-reduction-act/).
-
-Absolutely, here's the expanded section with markdowns:
+A vital component of the 25C credit, electrical panel upgrades are instrumental in the transition towards a greener future, as supported by the Inflation Reduction Act. The credit covers 30% of the cost up to $600 for these upgrades. To be eligible for this credit, the improvement or replacement must be installed in accordance with the National Electric Code, have a load capacity of not less than 200 amps, and be part of any qualified energy efficiency improvements such as the ones discussed below. You can view all [qualified energy properties at Energy Star here](https://www.energystar.gov/about/federal_tax_credits/electric_panel_upgrade) To delve deeper into the importance of electrical panel upgrades and how they fit into the broader context of the Inflation Reduction Act, you can read more about the [importance of an electrical panel upgrade](insert article).
 
 ### **Heating and Cooling**
 
@@ -58,15 +56,15 @@ Standing as the zenith of water heater technology, heat pump water heaters offer
 
 Tankless water heaters have surged in popularity due to their energy-saving potential. Unlike traditional units, they only heat water on demand, eliminating the energy wastage associated with maintaining a tank of hot water. Discover the benefits and features of tankless water heaters on our [information page](#).
 
-#### **Weatherization: Your Secret Weapon Against Wasting Energy**
+### **Weatherization: Your Secret Weapon Against Wasting Energy**
 
 Weatherization is a big deal when it comes to the Energy-Efficient Home Improvement Credit. It's all about insulation and sealant, and you can get a credit of 30% of the cost, up to $1200. We're talking everything from batts and rolls to blow-in fibers, rigid boards, expanding spray, and pour-in-place. Even products that help seal up air leaks are included. Proper insulation offers a cost effective solution to an energy efficient home. If you want to lear more check out our [detailed guide on insulating your home](https://app.stackbit.com/studio/64d6608f12525200bdbe6a49#/blog/weatherize-article/)
 
-#### **Exterior Doors, Skylights, and Windows: Opening the Door to Energy Efficiency**
+### **Exterior Doors, Skylights, and Windows: Opening the Door to Energy Efficiency**
 
-Energy efficiency isn't just about major appliances and systems; it also extends to the smaller details of your home, including exterior doors, skylights, and windows. The 25C credit recognizes this and offers incentives for homeowners who make these energy-efficient upgrades. If you invest in ENERGY STAR certified exterior doors, you can claim a credit covering 30% of the cost, up to $250 per door, with an annual maximum of $500. Additionally,[skylights and windows that meet the ENERGY STAR Most Efficient criteria](https://www.energystar.gov/about/federal_tax_credits/windows_skylights) are also eligible for the 25C credit, allowing you to claim 30% of the cost, up to $600 for these upgrades.
+Energy efficiency isn't just about major appliances and systems; it also extends to the smaller details of your home, including exterior doors, skylights, and windows. The 25C credit recognizes this and offers incentives for homeowners who make these energy-efficient upgrades. If you invest in ENERGY STAR certified exterior doors, you can claim a credit covering 30% of the cost, up to $250 per door, with an annual maximum of $500. Additionally,skylights and windows that meet the [ENERGY STAR Most Efficient criteria](https://www.energystar.gov/about/federal_tax_credits/windows_skylights) are also eligible for the 25C credit, allowing you to claim 30% of the cost, up to $600 for these upgrades.
 
-##### **Strategize to Maximize Your Incentives**
+#### **Strategize to Maximize Your Incentives**
 
 In Conclusion the Energy-Efficient Home Improvement Credit (25C) is a fantastic opportunity for homeowners to enhance their home's energy efficiency and sustainability. However, strategic planning is key to maximizing this incentive. The annual aggregate limits encourage homeowners to spread upgrades over several years, allowing for maximum credits and progressive enhancement of energy efficiency. For example, optimizing attic insulation before installing a new heat pump can lead to savings and credits of up to $1,200 for insulation and $2,000 for the heat pump.
 

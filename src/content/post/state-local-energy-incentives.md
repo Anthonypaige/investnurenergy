@@ -18,11 +18,11 @@ For a comprehensive list of incentives and rebates available in your area, visit
 
 #### **Understanding Your State's Incentives**
 
-##### **Eligibility and Requirements**
+#### **Eligibility and Requirements**
 
 Each state has its own set of incentives, which can vary widely in terms of what they offer and who is eligible. The terms and conditions often include specific requirements such as income levels, property types, and the kind of appliances or systems you're installing. For instance, some programs may only apply to ENERGY STAR certified products, while others may necessitate installation by a certified contractor.
 
-##### **The Importance of Fine Print: A Cautionary Tale**
+#### **The Importance of Fine Print: A Cautionary Tale**
 
 Reading the fine print is crucial. For example, you might decide to install a DIY mini-split system, assuming you can claim a federal tax credit and stack it with a $1,000 rebate from your local utility provider. However, after completing the work, you discover that the utility's rebate required the system to be installed by a licensed HVAC contractor. Now, you're ineligible for the $1,000 rebate you were counting on. Always read the terms and conditions to avoid such pitfalls.
 
