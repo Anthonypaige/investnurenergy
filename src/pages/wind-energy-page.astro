@@ -2,12 +2,11 @@
 
 import Layout from '~/layouts/PageLayout.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
-import Features2 from '~/components/widgets/Features2.astro';
 import Hero from '~/components/widgets/Hero.astro';
 import FeaturedArticles from '~/components/widgets/FeaturedArticles.astro';
 
 const metadata = {
-  title: 'Wind Energy',
+  title: 'Wind Energy page',
 };
 ---
 
@@ -15,84 +14,19 @@ const metadata = {
   <!-- Hero Widget ******************* -->
 
   <Hero
-    tagline="25D"
     title="Residential Wind Turbines"
     subtitle="Explore our meticulously crafted templates tailored to various industries and purposes. From captivating presentations to functional website designs, we offer the tools you need to succeed."
     image={{
       src: 'https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/page-art/WND-map-page-art.png?raw=true',
-      alt: 'AstroWind Hero Image',
+      alt: 'Wind Assesment Map of USA',
     }}
   />
 
 <!---Wind energy page Featured Articles Widget -->
 <FeaturedArticles 
   title="<center>Featured Articles on Wind Energy</center>" 
-  articleSlugs={['rise-of-residential-wind-turbines', 'wind-assesment-for-your-property', 'hybrid-wind-solar-systems']} 
+  articleSlugs={['rise-of-residential-wind-turbines', 'wind-assesment-for-your-property', 'hybrid-wind-solar-systems','home-clean-energy-credit-guide',]} 
 />
-
-
-
-  <!-- Features2 Widget ************** -->
-
-  <Features2
-    title="Explore our diverse templates"
-    subtitle="Discover our selection below to streamline and elevate your projects."
-    columns={3}
-    items={[
-      {
-        title: 'Educational',
-        description:
-          'By harmonizing instructional design and visual appeal, templates streamline content creation for varied materials, expediting development and cultivating engaging educational spaces.',
-        icon: 'tabler:school',
-      },
-      {
-        title: 'Interior Design',
-        description:
-          'Crafting functional, visually appealing spaces for residential and commercial use. Templates emphasize layout, colors, and furniture setups, offering a versatile toolkit for your design vision.',
-        icon: 'tabler:home-star',
-      },
-      {
-        title: 'Photography',
-        description: `Empowering photographers, our templates facilitate captivating storytelling. With a keen focus on layout, galleries, and typography, they cater to both professionals and enthusiasts.`,
-        icon: 'tabler:photo',
-      },
-      {
-        title: 'E-commerce',
-        description:
-          'Developing engaging online stores, our E-commerce templates ensure a dynamic presence to effectively showcase products. Ideal for startups or revamps.',
-        icon: 'tabler:shopping-cart',
-      },
-      {
-        title: 'Blog',
-        description:
-          'With attention to typography, these templates empower effective content presentation for writers at any stage, ensuring visually engaging and user-friendly blogs.',
-        icon: 'tabler:article',
-      },
-      {
-        title: 'Business',
-        description:
-          'Providing polished options for effective visual communication, these templates empower both startups and established companies for a professional brand presence.',
-        icon: 'tabler:building-store',
-      },
-      {
-        title: 'Branding',
-        description:
-          'Offering pre-designed elements for a consistent brand identity, including logos and marketing materials. Ideal for new ventures or revamps.',
-        icon: 'tabler:arrow-big-up-lines',
-      },
-      {
-        title: 'Medical',
-        description: `From presentations to patient forms, these tools enhance communication effectiveness for healthcare professionals. Ideal for medical practices and research pursuits.`,
-        icon: 'tabler:vaccine',
-      },
-      {
-        title: 'Fashion Design',
-        description:
-          'With attention to detail, customization, and contemporary design, they empower designers to showcase ideas cohesively. Ideal for all levels of designers.',
-        icon: 'tabler:tie',
-      },
-    ]}
-  />
 
   
   <!-- FAQs Widget ******************* -->
