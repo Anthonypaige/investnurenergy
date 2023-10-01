@@ -98,6 +98,14 @@ export const headerData = {
       text: 'Widgets',
       links: [
       {
+        text: 'About Us',
+        href: getPermalink('/widgets/about-us'),
+      },
+      {
+        text: 'Contact Us ',
+        href: getPermalink ('/widgets/contact-us')
+      },
+      {
         text: 'Category Page',
         href: getPermalink('tutorials', 'category'),
       },
