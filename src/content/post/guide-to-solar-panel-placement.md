@@ -30,7 +30,7 @@ But these numbers are based on perfect conditions. You still have to consider fa
 
 It might seem like a complex process, but fortunately, there are tools to help.
 [Google's innovativeProject Sunroof](https://www.google.com/get/sunroof) is a handy tool in this process. It creates a 3D model of your rooftop, highlighting areas with maximum solar potential and pointing out possible sun blockers. However, remember that this tool provides potential capacity, not a definitive recommendation. Your ultimate energy offset strategy will determine the size of your system, and the placement of the panels, considering these obstacles, is key to maximizing solar energy production.
- 
+
 ![Super wide](https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/In-article-images/FYI-1-in-article-.jpg?raw=true)
 
 ### **How to Understand Shade Reports from Solar Companies:**

@@ -51,6 +51,7 @@ Passive systems rely on natural convection rather than pumps to circulate water,
   - **Efficiency**: More efficient than integral collector-storage systems and have a longer lifespan due to fewer moving parts.
 
 ### **The Financial Aspect: Understanding ROI and Savings**
+
 When it comes to investing in a solar water heater, understanding the financial implications is crucial. Here's a breakdown of the costs and savings you can expect:
 
 **Initial Costs**

@@ -7,7 +7,7 @@ category: Solar Energy
 tags:
   - Net Metering
   - Solar Investment
-  - Home Energy storage 
+  - Home Energy storage
 ---
 
 Imagine owning a tree that bears more fruit than you can eat. You could sell the surplus to your neighbors or save it for later. This decision is much like managing solar energy. Net metering allows you to 'sell' excess electricity back to the grid, earning credits on your energy bill. But what if your area doesn't offer favorable net-metering terms, or you want to capitalize on Time-of-use (TOU) rates? That's where understanding battery storage becomes essential. Whether you're 'selling' excess power or 'storing' it for later, these concepts empower you to make informed decisions about your solar energy production

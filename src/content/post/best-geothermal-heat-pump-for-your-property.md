@@ -30,10 +30,10 @@ Remember, these systems are not just about immediate benefits. They're a long-te
 - **Efficiency**: Less influenced by surface conditions; reliable even in regions with extreme weather. In areas with high geothermal gradient, drilling may not need to be as deep, potentially increasing efficiency.
 - **Suitability**: Perfect for properties with limited land area, preserving aesthetics and maximizing the use of available space.
 
-### **Pond/Lake Geothermal Heat Pump Systems:
+### \*\*Pond/Lake Geothermal Heat Pump Systems:
 
 - **Installation**: Involves placing a coiled pipe system 8-10 feet deep in the water, a unique approach that leverages natural water bodies.
-Cost**: Less complex and costly than ground drilling, offering an affordable alternative.
+  Cost\*\*: Less complex and costly than ground drilling, offering an affordable alternative.
 - **Efficiency**: Stable water temperature enhances efficiency, providing consistent heating and cooling throughout the year.
 - **Suitability**: Requires access to a suitable body of water, making it an exclusive option for properties near ponds or lakes.
 
@@ -47,7 +47,7 @@ Cost**: Less complex and costly than ground drilling, offering an affordable alt
 ### **Hybrid Systems: Combining Different Geothermal Resources**
 
 - **Installation**: Uses different geothermal resources or a combination with outdoor air, offering a versatile approach to heating and cooling.
-Cost**: Dependent on the combination of resources used, providing flexibility in budget and design.
+  Cost\*\*: Dependent on the combination of resources used, providing flexibility in budget and design.
 - **Efficiency**: Effective where cooling needs are significantly larger than heating needs, allowing for tailored solutions.
 - **Suitability**: Flexible and adaptable to various property needs, making it a future-proof option for diverse climates and landscapes.
 

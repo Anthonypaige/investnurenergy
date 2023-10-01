@@ -28,7 +28,7 @@ The offset strategy allows you to balance your solar production and grid consump
 
 ### **Net Metering: Collecting Rent from the Grid**
 
-The Monopoly-to-real-world analogy extends to net metering. Net metering is a billing mechanism that credits solar energy system owners for the electricity they add to the grid. It's like collecting rent in Monopoly. Just as Monopoly players pay you when they land on your property, net metering ensures you receive compensation for any excess energy your solar system produces. Essentially, you "receive rent" by returning surplus power to the grid, reducing your overall utility bill. 
+The Monopoly-to-real-world analogy extends to net metering. Net metering is a billing mechanism that credits solar energy system owners for the electricity they add to the grid. It's like collecting rent in Monopoly. Just as Monopoly players pay you when they land on your property, net metering ensures you receive compensation for any excess energy your solar system produces. Essentially, you "receive rent" by returning surplus power to the grid, reducing your overall utility bill.
 
 The solar offset strategy, which involves a gradual approach rather than a sudden change, becomes more relevant in situations where favorable net-metering or feed-in tariffs are not offered by your utility provider. The moment your utility provider embraces the reality of the situation might be the opportune time for you to increase your offset efforts.
 
