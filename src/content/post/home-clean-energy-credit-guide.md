@@ -21,9 +21,9 @@ The Residential Clean Energy Credit tax code (25D) is a significant step towards
 Solar energy systems are a prominent and appealing choice for homeowners eager to embrace clean energy. By harnessing the sun's power and converting sunlight into electricity through a process known as photovoltaic energy conversion, these systems offer a renewable and environmentally friendly energy source.The typical solar energy system consists of solar panels, usually installed on rooftops, that absorb sunlight and convert it into direct current (DC) electricity. An inverter then transforms the DC electricity into alternating current (AC) electricity, ready to power the home.
 Understanding solar energy can be complex, so we've divided the content to cater to different needs:
 
-**For Solar Beginners**: If you're new to solar and want to grasp the basics, including whether your home is a suitable candidate for solar installation,  you can visit [Solar Basics](GoSolar.FYi) for an in-depth solar course.
+**For Solar Beginners**: If you're new to solar and want to grasp the basics, including whether your home is a suitable candidate for solar installation, you can visit [Solar Basics](GoSolar.FYi) for an in-depth solar course.
 
-**For Economic Insights**: If you're in the fact-finding stage and eager to dive deep into the economics of solar, explore solar loans, and uncover details on maximizing incentives for the best return on investment, check out [Solar Tax Incentive](SolarTaxIncentive.com) page where we get real about solar. 
+**For Economic Insights**: If you're in the fact-finding stage and eager to dive deep into the economics of solar, explore solar loans, and uncover details on maximizing incentives for the best return on investment, check out [Solar Tax Incentive](SolarTaxIncentive.com) page where we get real about solar.
 
 #### **Geothermal Heat Pumps: Tapping into Earth’s Core**
 
@@ -39,7 +39,7 @@ Solar water heaters use the sun's energy to heat water, reducing energy consumpt
 
 #### **Battery Storage Technology: Alleviating Grid Pressure with Standalone Solutions**
 
-Standalone battery storage technology is not just about storing energy; it's about alleviating grid pressure and making energy management smarter and more efficient. With the ability to adapt to Time-of-Use (TOU) rate plans, these batteries offer opportunities for energy arbitrage and can be integrated with portable solar systems. Eligible for tax credits under the Residential Clean Energy Credit, they provide a versatile and economical option for reducing energy costs during peak times or ensuring reliable backup power. Want to explore more about how you can leverage these technologies? [Check out our Home Energy Storage](http://www.home-energystorage.com) page. 
+Standalone battery storage technology is not just about storing energy; it's about alleviating grid pressure and making energy management smarter and more efficient. With the ability to adapt to Time-of-Use (TOU) rate plans, these batteries offer opportunities for energy arbitrage and can be integrated with portable solar systems. Eligible for tax credits under the Residential Clean Energy Credit, they provide a versatile and economical option for reducing energy costs during peak times or ensuring reliable backup power. Want to explore more about how you can leverage these technologies? [Check out our Home Energy Storage](http://www.home-energystorage.com) page.
 
 #### **Solar Storage: Specialized Solutions for Solar Energy**
 

@@ -16,7 +16,6 @@ Are you considering making your home more energy-efficient but are unsure where 
 
 Biomass boilers are eligible for a 30% tax credit up to $2,000 under the 25C tax code, with the requirement that they must have a thermal efficiency rating of at least 75%. Meeting this requirement won't be a challenge, as these boilers are highly efficient. Their thermal efficiency rates often range between 85% and 90%, far exceeding the minimum requirement. This combination of a generous tax credit and exceptional efficiency makes biomass boilers an attractive option for homeowners looking to invest in energy-efficient heating solutions.
 
-
 ### **How do Biomass Boilers Work?: Types and Efficiency**
 
 Biomass boilers can operate using a variety of fuel types to heat your home. These fuel types include:
