@@ -7,7 +7,7 @@ import Stats from '~/components/widgets/Stats.astro';
 
 
 const metadata = {
-  title: 'Geothermal Energy',
+  title: 'Geothermal Energy page',
 };
 ---
 
@@ -16,7 +16,7 @@ const metadata = {
 
   <Hero
     title="Geothermal Heat Pumps"
-    subtitle="Explore our meticulously crafted templates tailored to various industries and purposes. From captivating presentations to functional website designs, we offer the tools you need to succeed."
+    subtitle="Geothermal Heat Pumps are a game-changing solution for eco-friendly home comfort. They efficiently heat and cool your space, significantly reducing energy bills. By tapping into Earth's stable temperatures, these long-lasting systems offer a sustainable, cost-effective energy source for years to come.."
     image={{
       src: 'https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/page-art/GEO-map-page-art.png?raw=true',
       alt: 'USA Map of geothermal access',
@@ -33,51 +33,42 @@ const metadata = {
   stats={[
     { title: 'Tax Code', amount: '25D' },
     { title: 'Tax Credit', amount: '30%' },
-    { title: 'Cost Savings', amount: '45%-70%' },
-    { title: 'Longevity', amount: '50 years' },
+    { title: 'Cost Savings', amount: '60%' },
+    { title: 'Year Shelflife', amount: '50' },
   ]}
 />
 
   <!-- FAQs Widget ******************* -->
 
   <FAQs
-    title="Frequently Asked Questions"
-    items={[
-      {
-        title: 'What are landing page templates?',
-        description:
-          'Landing page templates are pre-designed web page layouts that are specifically created to serve as a foundation for building effective landing pages. These templates are designed to capture the attention of visitors and guide them towards a specific action or goal, such as signing up for a newsletter, making a purchase, or downloading a resource.',
-      },
-      {
-        title: 'How long do geothermal heat pumps last?',
-        description:
-          'Geothermal heat pumps can last up to 50 years, providing savings and home equity',
-      },
-      {
-        title: 'How do I know if my property is a candidate for a geothermal heat pump?',
-        description:
-          'Yes, the templates allow you to preview them before making a purchase. There is a "Demo" button associated with each template.',
-      },
-      {
-        title: 'Do I need technical skills to use a template?',
-        description:
-          'Advanced technical skills are not required to use a template, but having a basic understanding of web navigation and familiarity with using online tools can still be beneficial. If you have more specific customization needs, you might need to consult guides or reach out to customer support for assistance.',
-      },
-      {
-        title: 'Can I use the template on multiple websites?',
-        description:
-          'No, the template comes with a single-use license, meaning you can use the template on one website or project only. Using the template on additional websites would require purchasing additional licenses.',
-      },
-      {
-        title: 'What if I need help with customization?',
-        description:
-          "The templates provides a comprehensive step-by-step guide that walk you through the customization process. If you still have doubts, you can reach out to our customer support team. They can answer your questions, provide guidance on customization, and address any issues you're facing.",
-      },
-    ]}
-  >
-    <Fragment slot="bg">
-      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
-    </Fragment>
-  </FAQs>
+  title="Frequently Asked Questions"
+  items={[
+    {
+      title: 'Are Geothermal Heat Pumps Worth It?',
+      description: 'Absolutely. Geothermal heat pumps are an affordable and efficient heating and cooling solution. They can reduce your energy costs by up to 50% and are eligible for a 30% federal tax credit with no cap under the Residential Clean Energy Credit.',
+    },
+    {
+      title: 'What is the Average Cost to Install a Geothermal Heat Pump?',
+      description: 'The average cost for installing a Geothermal Heat Pump system ranges between $15,000 and $20,000. This includes the cost of ground loops, heat pump, and controls.',
+    },
+    {
+      title: 'How Do Geothermal Heat Pumps Work?',
+      description: 'Geothermal heat pumps work by circulating a heat-conveying fluid through a series of buried pipes or ground loops. These loops can be installed either horizontally or vertically, depending on your property\'s layout. The system is straightforward to operate and requires minimal maintenance.',
+    },
+    {
+      title: 'What Types of Geothermal Heat Pump Systems are Available?',
+      description: 'There are three main types of geothermal heat pump systems: horizontal, vertical, and pond/lake systems. Each has its own set of advantages and disadvantages. The choice depends on various factors like lot size, soil conditions, and building plans.',
+    },
+    {
+      title: 'What are the Environmental Benefits of Using Geothermal Heat Pumps?',
+      description: 'Using a geothermal system is equivalent to planting 750 trees or taking two cars off the road in terms of reducing greenhouse gas emissions.',
+    },
+  ]}
+>
+  <Fragment slot="bg">
+    <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+  </Fragment>
+</FAQs>
+
 
 </Layout>
