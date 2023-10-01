@@ -3,6 +3,9 @@ import Layout from '~/layouts/PageLayout.astro';
 import Hero from '~/components/widgets/Hero.astro';
 import FeaturedArticles from '~/components/widgets/FeaturedArticles.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
+import Stats from '~/components/widgets/Stats.astro';
+
+
 const metadata = {
   title: 'Geothermal Energy',
 };
@@ -12,7 +15,6 @@ const metadata = {
   <!-- Hero Widget ******************* -->
 
   <Hero
-    tagline= "25D"
     title="Geothermal Heat Pumps"
     subtitle="Explore our meticulously crafted templates tailored to various industries and purposes. From captivating presentations to functional website designs, we offer the tools you need to succeed."
     image={{
@@ -23,8 +25,17 @@ const metadata = {
 
   <!-- Geothermal energy page Featured Articles Widget -->
 <FeaturedArticles 
-  title="<center>Featured Articles on Geothermal Energy</center>" 
+  title="Featured Articles on Geothermal Energy" 
   articleSlugs={['geothermal-heat-pumps-tapping-earths-core', 'what-is-geothermal-access', 'best-geothermal-heat-pump-for-your-property', 'ev-charger-shopping-guide']} 
+/>
+
+<Stats
+  stats={[
+    { title: 'Tax Code', amount: '25D' },
+    { title: 'Tax Credit', amount: '30%' },
+    { title: 'Cost Savings', amount: '45%-70%' },
+    { title: 'Longevity', amount: '50 years' },
+  ]}
 />
 
   <!-- FAQs Widget ******************* -->
