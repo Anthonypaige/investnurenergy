@@ -2,6 +2,7 @@
 import Layout from '~/layouts/PageLayout.astro';
 import Hero from '~/components/widgets/Hero.astro';
 import Features2 from '~/components/widgets/Features2.astro';
+import Features from '~/components/widgets/Features.astro';
 import FeaturedArticles from '~/components/widgets/FeaturedArticles.astro';
 
 
@@ -38,63 +39,6 @@ const metadata = {
     </div>
   </Fragment>
 </Hero>
-
- 
-
-  <!-- Featured Articles Widget ******************* -->
-<FeaturedArticles 
-  title="Feature Articles for Energy Efficient Rebates" 
-  articleSlugs={['what-is-HEEHRA?', 'state-local-energy-incentives', 'ev-charger-shopping-guide', 'smart-thermostat-shopping-guide', 'ecobee-smart-thermostat-buying-guide','guide-to-home-energy-monitoring','ductless-mini-split-heat-pump','heat-pump-water-heaters', 'weatherization-energy-efficiency-guide']} 
-/>
-
- <!-- Features2 Widget ************** -->
- <Features2
-    title="What is included in the Electrification Rebate Act?"
-    subtitle="We offer a wide range of website templates that suit various industries and purposes such as business, portfolio, e-commerce, blog, etc."
-    items={[
-      {
-        title: 'Heat Pumps',
-        description:
-          'Offer clear instructions on how to download the purchased templates and install them on various website platforms or content management systems.',
-        icon: 'flat-color-icons:document',
-      },
-      {
-        title: 'Heat Pump Water Heaters',
-        description:
-          'Provide interactive demos and previews that allow customers to see how their chosen template will look and function before making a purchase.',
-        icon: 'flat-color-icons:template',
-      },
-      {
-        title: 'Weatherization',
-        description:
-          'Providing customer support for any technical issues related to the templates or their implementation.',
-        icon: 'flat-color-icons:voice-presentation',
-      },
-      {
-        title: 'Heat Pump Clothes Dryer',
-        description:
-          'Providing customer support for any technical issues related to the templates or their implementation.',
-        icon: 'flat-color-icons:voice-presentation',
-      },
-      {
-        title: 'Weatherization',
-        description:
-          'Providing customer support for any technical issues related to the templates or their implementation.',
-        icon: 'flat-color-icons:voice-presentation',
-      },
-      {
-        title: 'Electric Stove',
-        description:
-          'Providing customer support for any technical issues related to the templates or their implementation.',
-        icon: 'flat-color-icons:voice-presentation',
-      },  
-    ]}
-  >
-    <Fragment slot="bg">
-      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
-    </Fragment>
-  </Features2>
-
 
  <!-- Features2 Widget ************** -->
  <Features2
@@ -144,4 +88,58 @@ const metadata = {
     </Fragment>
   </Features2>
 
+
+  <!-- Featured Articles Widget ******************* -->
+  <FeaturedArticles 
+  title="Feature Articles for Energy Efficient Rebates" 
+  articleSlugs={['what-is-heehra', 'state-local-energy-incentives', 'ev-charger-shopping-guide', 'smart-thermostat-shopping-guide', 'ecobee-smart-thermostat-buying-guide','guide-to-home-energy-monitoring','ductless-mini-split-heat-pump','heat-pump-water-heaters', 'weatherization-energy-efficiency-guide']} 
+/>
+
+
+<!-- Features Widget *************** -->
+
+<Features
+id="features"
+tagline="Features"
+title="What is included in the Electrification Rebate Act?"
+subtitle="The Eleectrification Rebate Act also known as HEEHRA is mostly focused on heating and cooling, safe appliances, and weatherization "
+items={[
+  {
+    title: 'Heat Pumps',
+    description:
+      'A seamless integration between two great frameworks that offer high productivity, performance and versatility.',
+    icon: 'tabler:brand-tailwind',
+  },
+  {
+    title: 'Heat Pump Water Heaters',
+    description:
+      'Widgets made with Tailwind CSS ready to be used in Marketing Websites, SaaS, Blogs, Personal Profiles, Small Business...',
+    icon: 'tabler:components',
+  },
+  {
+    title: 'Heat Pump Clothes Dryers',
+    description:
+      'Creating secure, efficient, and user-friendly websites that deliver exceptional experiences and lasting value.',
+    icon: 'tabler:list-check',
+  },
+  {
+    title: 'Electric Stove',
+    description:
+      'Having a good page speed impacts organic search ranking, improves user experience (UI/UX) and increase conversion rates.',
+    icon: 'tabler:rocket',
+  },
+  {
+    title: 'Weatherization Items',
+    description:
+      "Weatherization includes insulation, sealant, and unline 25C it will include ventilation.",
+    icon: 'tabler:arrows-right-left',
+  },
+  {
+    title: 'Electrical Work',
+    description:
+      'This includes electrical wiring or a new breaker box if needed',
+    icon: 'tabler:bulb',
+  },
+]}
+/>
 </Layout>
