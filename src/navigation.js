@@ -86,11 +86,11 @@ export const headerData = {
         },
         {
           text: 'Category Page',
-          href: getPermalink('tutorials', 'category'),
+          href: getPermalink('clean energy', 'category'),
         },
         {
           text: 'Tag Page',
-          href: getPermalink('astro', 'tag'),
+          href: getPermalink('home energy storage', 'tag'),
         },
       ],
     },
@@ -107,11 +107,11 @@ export const headerData = {
         },
         {
           text: 'Category Page',
-          href: getPermalink('tutorials', 'category'),
+          href: getPermalink('energy efficiency', 'category'),
         },
         {
           text: 'Tag Page',
-          href: getPermalink('astro', 'tag'),
+          href: getPermalink('heat pump', 'tag'),
         },
       ],
     },
