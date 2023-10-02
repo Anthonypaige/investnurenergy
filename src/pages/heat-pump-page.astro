@@ -3,6 +3,7 @@ import Layout from '~/layouts/PageLayout.astro';
 import Hero from '~/components/widgets/Hero.astro';
 import Features2 from '~/components/widgets/Features2.astro';
 import FeaturedArticles from '~/components/widgets/FeaturedArticles.astro';
+import Stats from '~/components/widgets/Stats.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
 const metadata = {
   title: 'Heat Pumps',
@@ -69,6 +70,15 @@ const metadata = {
   title="<center>Featured Articles on Heat Pumps</center>" 
   articleSlugs={['whats-a-heat-pump', 'air-source-heat-pumps', 'ductless-mini-split-heat-pump', 'best-geothermal-heat-pump-for-your-property',]} 
 />
+<Stats
+  stats={[
+    { title: 'Tax Code', amount: '25C' },
+    { title: 'Tax Credit', amount: '30%' },
+    { title: 'Cap', amount: '$2,000' },
+    { title: 'Energy Savings', amount: '40%' },
+  ]}
+/>
+
 <FAQs
   title="Frequently Asked Questions on Air-Source Heat Pumps"
   items={[

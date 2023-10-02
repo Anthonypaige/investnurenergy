@@ -1,7 +1,6 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
-import Header from '~/components/widgets/Header.astro';
-import Hero from '~/components/widgets/Hero2.astro';
+import HeroText from '~/components/widgets/HeroText.astro';
 import FeaturedArticles from '~/components/widgets/FeaturedArticles.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
 
@@ -11,45 +10,18 @@ const metadata = {
 ---
 
 <Layout metadata={metadata}>
-  <Fragment slot="announcement"></Fragment>
-  <Fragment slot="header">
-    <Header
-      position="left"
-      links={[
-        { text: 'Services', href: '#' },
-        { text: 'Features', href: '#' },
-        { text: 'About', href: '#' },
-      ]}
-      actions={[
-        {
-          text: 'Download',
-          href: '#download',
-        },
-      ]}
-      isSticky
-      showToggleTheme
-    />
-  </Fragment>
+
 
   
- <!-- Hero Widget ******************* -->
- 
- <Hero
- actions={[]}
->
- <Fragment slot="title">
-   Solar Tax Incentive 
- </Fragment>
-
- <Fragment slot="subtitle">
-   The Federal Solar Tax Credit is a game-changer. This is the first time we've had control over our energy options 
- </Fragment>
-
-</Hero>
+<!-- Hero Widget ******************* -->
+<HeroText
+title="Solar Tax Incentive"
+subtitle="The Federal Solar tax Credit is a landmark piece of legislation."
+/>
 
 <!-- Featured Articles Widget ******************* -->
 <FeaturedArticles 
-  title="Feature Articles" 
+  title="Featured Articles for Solar Tax Incentive" 
   articleSlugs={['federal-solar-tax-credit-guide','spotlight-on-solar-industry','avoiding-pitfalls-of-solar-loans','simplified-guide-to-solar-roi', 'what-effects-your-solar-roi','state-level-solar-incentives']} 
 />
 
