@@ -105,15 +105,9 @@ export const headerData = {
           text: 'Contact Us ',
           href: getPermalink('/widgets/contact-us'),
         },
-        {
-          text: 'Category Page',
-          href: getPermalink('energy efficiency', 'category'),
-        },
-        {
-          text: 'Tag Page',
-          href: getPermalink('heat pump', 'tag'),
-        },
       ],
+    },
+    {
     },
   ],
   actions: [{ text: 'Download', href: 'https://github.com/onwidget/astrowind', target: '_blank' }],

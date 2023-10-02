@@ -1,7 +1,7 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
-import Header from '~/components/widgets/Header.astro';
-import Hero from '~/components/widgets/Hero2.astro';
+//import Header from '~/components/widgets/Header.astro';
+import HeroText from '~/components/widgets/HeroText.astro';
 import FeaturedArticles from '~/components/widgets/FeaturedArticles.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
 
@@ -11,65 +11,22 @@ const metadata = {
 ---
 
 <Layout metadata={metadata}>
-  <Fragment slot="announcement"></Fragment>
-  <Fragment slot="header">
-    <Header
-      position="left"
-      links={[
-        { text: 'Services', href: '#' },
-        { text: 'Features', href: '#' },
-        { text: 'About', href: '#' },
-      ]}
-      actions={[
-        {
-          text: 'Download',
-          href: '#download',
-        },
-      ]}
-      isSticky
-      showToggleTheme
-    />
-  </Fragment>
 
   
  <!-- Hero Widget ******************* -->
- 
- <Hero
- tagline="25D"
- actions={[]}
->
- <Fragment slot="title">
-   Home Energy Storage
- </Fragment>
-
- <Fragment slot="subtitle">
-   The Power of Independence  
- </Fragment>
-
- <Fragment slot="image">
-   <div class="relative h-0 pb-[56.25%]">
-     <iframe
-       width="560"
-       height="315"
-       src="https://www.youtube.com/embed/dsTXcSeAZq8"
-       title="YouTube video player"
-       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"
-       allowfullscreen
-       class="absolute top-0 left-0 w-full h-full"
-     >
-     </iframe>
-   </div>
- </Fragment>
-</Hero>
+ <HeroText
+    title=" Home Energy Storage"
+    subtitle="The Power of Independence "
+  />
 
 <!-- Featured Articles Widget ******************* -->
 <FeaturedArticles 
-  title="Feature Articles" 
+  title="Featured Home Energy Storage Articles " 
   articleSlugs={['importance-of-backup-batteries','what-is-energy-arbitrage','power-station-comparison-table-decoded','solar-batteries','ecoflow-delta-pro-buying-guide','bluetti-power-station-buying-guide']} 
 />
 
   <FAQs
-    title="Still have some doubts?"
+    title="Frequently asked Questions"
     items={[
       {
         title: 'What does this app do?',
