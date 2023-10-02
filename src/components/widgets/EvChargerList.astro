@@ -1,0 +1,14 @@
+---
+import evChargers from '~/data/evChargerList.json';
+---
+
+<section>
+  <h1>EV Charger List</h1>
+  <ul>
+    {evChargers.map(charger => (
+      <li key={charger.id}>
+        <a href={`/product/${charger.id}`}>{charger.name}</a> - {charger.price}
+      </li>
+    ))}
+  </ul>
+</section>
