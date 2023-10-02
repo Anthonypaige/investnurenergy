@@ -36,7 +36,7 @@ The act covers a range of products and services focused on Home Climate and Hous
 
 - **Cooking**: Electric Stoves and Electric Cooktops offer efficient cooking, reducing energy consumption. Electric Stoves are at least twice as efficient as gas stoves and produce much less waste heat that can make your kitchen uncomfortable in the summer.
 
-These provisions collectively offer up to $14,000 for low-income households and up to $8,000 for moderate-income households. 
+These provisions collectively offer up to $14,000 for low-income households and up to $8,000 for moderate-income households.
 
 ### **Check Your Eligibility with Rewiring America's IRA Calculator**
 
@@ -44,7 +44,7 @@ Wondering how these provisions apply to you? [Rewiring America's IRA Calculator]
 
 If not covered by HEERA, you’ll more than likely be eligible for the broader Energy Efficient Home Improvement Credit 25C. Visit [Energy Efficient Home Upgrades.com](link to page) to learn more.
 
-Also, many of these items can also be eligible for state rebates, allowing you to stack them. Check the [Database of State Incentives for Renewables & Efficiency](www.dsireusa.org) for your eligibility for state-level rebates. 
+Also, many of these items can also be eligible for state rebates, allowing you to stack them. Check the [Database of State Incentives for Renewables & Efficiency](www.dsireusa.org) for your eligibility for state-level rebates.
 
 #### **Conclusion**
 

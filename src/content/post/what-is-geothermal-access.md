@@ -50,11 +50,9 @@ This guide will explore these essential elements, helping you evaluate if your h
 
 To explore the different types of geothermal systems in detail, check out our article on [The Best Geothermal Heat Pump System for Your Property](insert article).
 
-
 ### Local Regulations will have an impact on Geothermal System Installation
 
 - **Regulatory Considerations**: Local regulations can significantly affect the installation of geothermal systems. Some areas may have restrictions on drilling depths, water usage for open-loop systems, or even specific zoning laws.
-
 
 #### Conclusion
 

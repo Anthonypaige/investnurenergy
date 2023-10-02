@@ -1,18 +1,19 @@
 ---
 import PageLayout from '~/layouts/PageLayout.astro';
 import Header from '~/components/widgets/Header.astro';
-
+import EvChargerList from '~/components/widgets/EvChargerList.astro';
 import { headerData } from '~/navigation';
 import type { MetaData } from '~/types';
-import EvChargerList from '~/widgets/EvChargerList.astro';
+
 
 export interface Props {
   metadata?: MetaData;
 }
 
 const { metadata } = Astro.props;
-<link rel="stylesheet" href="/styles/product.css"></link>
+
 ---
+<link rel="stylesheet" href="/styles/product.css"></link>
 
 <PageLayout metadata={metadata}>
   <Fragment slot="announcement">
