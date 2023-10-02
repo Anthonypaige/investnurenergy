@@ -39,7 +39,6 @@ The Smart Home Panel also converts your home backup battery into a solar battery
 
 ![Super wide](https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/In-article-images/HES-4-in%20article-.png?raw=true)
 
-
 The upgrade to the Smart Home Panel will add approximately $1,300 to $1,400 to your investment. However, considering the additional features and capabilities offered by the Smart Home Panel, it's an investment that can pay off in the long run for the right person.
 
 The prices listed are for comparison only and are subject to change, as prices change regularly. You can check pricing and availability at the [Eco Flow main site](http://www.us.ecoflow.com), the [Eco Flow Amazon page](https://amzn.to/3Eqv4m2), or [www.shopsolarkits.com](http://www.shopsolarkits.com). If you're going to want customer service and guidance, you might consider Shop Solar Kits.

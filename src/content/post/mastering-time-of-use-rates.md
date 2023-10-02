@@ -13,7 +13,7 @@ tags:
 As we become less reliant on fossil fuels and embrace more electrification
 the process of updating our decades-old grid becomes paramount. This aging infrastructure, originally not equipped to handle such energy demands, presents a significant challenge. In response, utility companies are adopting a transformative strategy: Time-Variable Pricing (TVP), which accurately reflects the true cost of power by the hour. This collective effort propels us toward a streamlined energy future.
 
-### Time-of-use rates (TOU) explained 
+### Time-of-use rates (TOU) explained
 
 TOU rates are the most popular rate structures within Time-Variable Pricing (TVP). These rates divide the day into peak, off-peak, and sometimes one to two shoulder periods, with rates varying accordingly. Peak periods, when rates are highest, typically occur during the late afternoon and early evening, and sometimes again in the morning. Off-peak periods, with the lowest rates, usually happen at night and late morning. Specific times for these periods can vary depending on the utility company and the season, with summer rates often in a larger block of 1pm-6pm or 2pm-7pm. Rates vary by region as well as utility provider.
 

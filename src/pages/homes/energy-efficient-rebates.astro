@@ -3,12 +3,11 @@ import Layout from '~/layouts/PageLayout.astro';
 import Hero from '~/components/widgets/Hero.astro';
 import Features2 from '~/components/widgets/Features2.astro';
 import FeaturedArticles from '~/components/widgets/FeaturedArticles.astro';
-import FAQs from '~/components/widgets/FAQs.astro';
 
 const featuredArticleSlugs = ['home-clean-energy-credit-guide', 'alleviating-grid-strain', 'hybrid-wind-solar-systems', 'overview-solar-water-heaters'];
 
 const metadata = {
-  title: 'Home Clean Energy Credit page',
+  title: 'Energy Efficient Rebatespage',
 };
 ---
 
@@ -41,37 +40,51 @@ const metadata = {
   </Fragment>
 </Hero>
 
-  <!-- Features2 Widget ************** -->
+ 
+
+  <!-- Featured Articles Widget ******************* -->
+<FeaturedArticles 
+  title="Feature Articles for Energy Efficient Rebates" 
+  articleSlugs={['what-is-HEEHRA?', 'state-local-energy-incentives', 'ev-charger-shopping-guide', 'smart-thermostat-shopping-guide', 'ecobee-smart-thermostat-buying-guide','guide-to-home-energy-monitoring','ductless-mini-split-heat-pump','heat-pump-water-heaters', 'weatherization-energy-efficiency-guide']} 
+/>
+
+ <!-- Features2 Widget ************** -->
  <Features2
-    title="What is included in the Home Clean Energy Credit?"
+    title="What is included in the Electrification Rebate Act?"
     subtitle="We offer a wide range of website templates that suit various industries and purposes such as business, portfolio, e-commerce, blog, etc."
     items={[
       {
-        title: 'Solar Energy',
+        title: 'Heat Pumps',
         description:
           'Offer clear instructions on how to download the purchased templates and install them on various website platforms or content management systems.',
         icon: 'flat-color-icons:document',
       },
       {
-        title: 'Home Energy Storage',
+        title: 'Heat Pump Water Heaters',
         description:
           'Provide interactive demos and previews that allow customers to see how their chosen template will look and function before making a purchase.',
         icon: 'flat-color-icons:template',
       },
       {
-        title: 'Geothermal Heat Pumps',
+        title: 'Weatherization',
         description:
           'Providing customer support for any technical issues related to the templates or their implementation.',
         icon: 'flat-color-icons:voice-presentation',
       },
       {
-        title: 'Wind Turbines',
+        title: 'Heat Pump Clothes Dryer',
         description:
           'Providing customer support for any technical issues related to the templates or their implementation.',
         icon: 'flat-color-icons:voice-presentation',
       },
       {
-        title: 'Solar Water Heaters',
+        title: 'Weatherization',
+        description:
+          'Providing customer support for any technical issues related to the templates or their implementation.',
+        icon: 'flat-color-icons:voice-presentation',
+      },
+      {
+        title: 'Electric Stove',
         description:
           'Providing customer support for any technical issues related to the templates or their implementation.',
         icon: 'flat-color-icons:voice-presentation',
@@ -83,53 +96,53 @@ const metadata = {
     </Fragment>
   </Features2>
 
-<!-- Featured Articles Widget ******************* -->
-<FeaturedArticles 
-  title="Feature Articles" 
-  articleSlugs={['home-clean-energy-credit-guide', 'alleviating-grid-strain', 'hybrid-wind-solar-systems', 'overview-solar-water-heaters']} 
-/>
 
-
-  <!-- FAQs Widget ******************* -->
-
-  <FAQs
-    title="Frequently Asked Questions"
+ <!-- Features2 Widget ************** -->
+ <Features2
+    title="The most common state-level rebates?"
+    subtitle="We offer a wide range of website templates that suit various industries and purposes such as business, portfolio, e-commerce, blog, etc."
     items={[
       {
-        title: 'What are landing page templates?',
+        title: 'Smart Thermostats',
         description:
-          'Landing page templates are pre-designed web page layouts that are specifically created to serve as a foundation for building effective landing pages. These templates are designed to capture the attention of visitors and guide them towards a specific action or goal, such as signing up for a newsletter, making a purchase, or downloading a resource.',
+          'Offer clear instructions on how to download the purchased templates and install them on various website platforms or content management systems.',
+        icon: 'flat-color-icons:document',
       },
       {
-        title: 'Why should I use a template?',
+        title: 'EV Chargers',
         description:
-          'Some of the advantages are that they provide a ready-to-use structure,  saving you significant time. Are designed with user-friendliness in mind and provide a cost-effective alternative, saving you money while still delivering a quality result.',
+          'Provide interactive demos and previews that allow customers to see how their chosen template will look and function before making a purchase.',
+        icon: 'flat-color-icons:template',
       },
       {
-        title: 'Can I preview templates before buying?',
+        title: 'LED Lighting',
         description:
-          'Yes, the templates allow you to preview them before making a purchase. There is a "Demo" button associated with each template.',
+          'Providing customer support for any technical issues related to the templates or their implementation.',
+        icon: 'flat-color-icons:voice-presentation',
       },
       {
-        title: 'Do I need technical skills to use a template?',
+        title: 'Heat Pump Water Heaters',
         description:
-          'Advanced technical skills are not required to use a template, but having a basic understanding of web navigation and familiarity with using online tools can still be beneficial. If you have more specific customization needs, you might need to consult guides or reach out to customer support for assistance.',
+          'Providing customer support for any technical issues related to the templates or their implementation.',
+        icon: 'flat-color-icons:voice-presentation',
       },
       {
-        title: 'Can I use the template on multiple websites?',
+        title: 'Ductless Mini Splits',
         description:
-          'No, the template comes with a single-use license, meaning you can use the template on one website or project only. Using the template on additional websites would require purchasing additional licenses.',
+          'Providing customer support for any technical issues related to the templates or their implementation.',
+        icon: 'flat-color-icons:voice-presentation',
       },
-      {
-        title: 'What if I need help with customization?',
+      {  
+        title: 'Home Energy Monitoring Systems',
         description:
-          "The templates provides a comprehensive step-by-step guide that walk you through the customization process. If you still have doubts, you can reach out to our customer support team. They can answer your questions, provide guidance on customization, and address any issues you're facing.",
-      },
+          'Providing customer support for any technical issues related to the templates or their implementation.',
+        icon: 'flat-color-icons:voice-presentation',
+      },  
     ]}
   >
     <Fragment slot="bg">
       <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
     </Fragment>
-  </FAQs>
+  </Features2>
 
 </Layout>
