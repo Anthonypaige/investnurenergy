@@ -2,6 +2,7 @@
 import Layout from '~/layouts/PageLayout.astro';
 import HeroText from '~/components/widgets/HeroText.astro';
 import Content from '~/components/widgets/Content.astro';
+import Stats from '~/components/widgets/Stats.astro';
 import FeaturedArticles from '~/components/widgets/FeaturedArticles.astro';
 
 const metadata = {
@@ -59,6 +60,14 @@ const metadata = {
  <FeaturedArticles  
  title="Featured Articles on Weatherization" 
  articleSlugs={['weatherization-energy-efficiency-guide', 'diy-insulation-kits', 'foam-spray-insulation-shopping-guide', 'whats-a-heat-pump']} 
+/>
+<Stats
+  stats={[
+    { title: 'Tax Code', amount: '25C' },
+    { title: 'Tax Credit', amount: '30%' },
+    { title: 'Cap', amount: '$1,200'},
+    { title: 'Energy Savings', amount: '20%' },
+  ]}
 />
 
 </Layout>
