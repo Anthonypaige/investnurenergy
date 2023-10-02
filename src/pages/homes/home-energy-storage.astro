@@ -15,43 +15,38 @@ const metadata = {
  <!-- Hero Widget ******************* -->
  <HeroText
     title="Home Energy Storage"
-    subtitle="The Power of Independence "
+    subtitle="Achieve grid independence and secure your energy future with advanced home storage solutions."
   />
 
-<!-- Featured Articles Widget ******************* -->
-<FeaturedArticles 
-  title="Featured Home Energy Storage Articles " 
-  articleSlugs={['importance-of-backup-batteries','what-is-energy-arbitrage','power-station-comparison-table-decoded','solar-batteries','ecoflow-delta-pro-buying-guide','bluetti-power-station-buying-guide']} 
-/>
  <!-- Content Widget **************** -->
 
  <Content
  isReversed
  items={[
    {
-     title: 'Energy Savings',
+     title: 'Backup Battery',
      description:
        'By sealing gaps and insulating properly, you can significantly reduce energy consumption, lowering utility bills. The average household can save up to $350 per year through proper weatherization..',
    },
    {
-     title: 'Comfort and Passive Survivability',
+     title: 'Energy Arbitrage',
      description:
        'Well-insulated buildings retain a safe indoor temperature for longer in the event of energy disruptions.',
    },
    {
-     title: 'Health',
+     title: 'Wind or Solar Storage',
      description:
        'Improved indoor air quality by reducing outdoor pollutants benefits those with allergies or respiratory issues.',
    },
    ]}
  image={{
-   src: 'https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/hero-art/WTHR-hero-image.jpeg?raw=true',
-   alt: 'Thermal image showing air leaking from a home',
+   src: 'https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/page-art/HES-qualify-page-art.png?raw=true',
+   alt: 'Qualifications for Battery Storage eligibility ',
  }}
 >
  <Fragment slot="content">
-   <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Included in 25C and HEEHRA</h3>
-    Weatherization is a vital aspect of home maintenance that offers numerous benefits
+   <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">How Home Energy Storage helps you</h3>
+    Home Energy Storage is the key to Energy Independence
  </Fragment>
 
  <Fragment slot="bg">
@@ -59,4 +54,9 @@ const metadata = {
  </Fragment>
 </Content>
 
+<!-- Featured Articles Widget ******************* -->
+<FeaturedArticles 
+  title="Featured Home Energy Storage Articles " 
+  articleSlugs={['importance-of-backup-batteries','what-is-energy-arbitrage','power-station-comparison-table-decoded','solar-batteries','ecoflow-delta-pro-buying-guide','bluetti-power-station-buying-guide']} 
+/>
 </Layout>

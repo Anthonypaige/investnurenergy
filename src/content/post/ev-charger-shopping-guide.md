@@ -12,11 +12,11 @@ tags:
 
 Investing in a Level 2 home charger is now more affordable, thanks to the [Alternative Fuel Vehicle Refueling Property Credit](https://afdc.energy.gov/laws/10513) or 30C tax code. This federal incentive offers a tax credit of 30% of the installation cost, up to $1000. Additionally, many utility providers offer rebates ranging from $150-$750. For state-level incentives, check out the [Database of State Incentives for Renewables & Efficiency (DSIRE.org)](https://www.dsireusa.org/).
 
-#### **What's a Level 2 Charger?**
+### **What's a Level 2 Charger?**
 
 The government recommends Level 2 chargers for their efficiency and reduced charging times, making them a more sustainable option for daily use. They operate on a 240V circuit and offer a range of 6.2 to 19.2 kW, with most around 7.6 kW. This allows for charging times of around 3-8 hours, compared to 11-20 hours with Level 1 chargers.
 
-#### **Common Features in Comparison Tables**
+### **Common Features in Comparison Tables**
 
 When shopping for an EV charger, you might come across various comparison articles or tables. Understanding the features listed can help you make an informed decision. Here's what you need to know:
 
@@ -28,7 +28,7 @@ When shopping for an EV charger, you might come across various comparison articl
 
 - **Outdoor Rating**: NEMA 3R is the base rating suitable for most outdoor installations. NEMA 4 offers enhanced protection, and NEMA 4X/IP66 offers the highest protection against elements like dust and water, making it ideal for outdoor installations.
 
-#### **Base Level 2 Charging Options**
+### **Base Level 2 Charging Options**
 
 For those who prefer straightforward Level 2 charging options without the bells and whistles of smart features, brands like Lectron and Grizzlee offer reliable and cost-effective solutions.
 
@@ -38,7 +38,7 @@ For those who prefer straightforward Level 2 charging options without the bells 
 
 Both Lectron and Grizzlee offer warranties and customer support, adding an extra layer of security to your purchase
 
-#### **What is a Smart EV Charger?**
+### **What is a Smart EV Charger?**
 
 Smart EV chargers are not just about convenience; they're about intelligent energy management. These chargers come with a host of features designed to make your EV charging experience both convenient and efficient.
 
@@ -54,23 +54,23 @@ Smart EV chargers are not just about convenience; they're about intelligent ener
 
 By offering these advanced features, smart EV chargers don't just provide convenience; they offer a way to make your entire home more energy-efficient and eco-friendly.
 
-#### **Smart EV Charger Options**
+### **Smart EV Charger Options**
 
 ##### **Emporia Vue Smart EV Charger**
 
 Emporia offers a smart charger that not only charges your EV but also provides real-time electricity usage data. Integrated into Emporia's comprehensive smart energy platform, you can monitor your energy consumption, set charging schedules, and even integrate with solar power systems. [Check it out on Amazon](https://www.amazon.com/stores/page/0849F8AB-379A-4919-B7EC-139C378DF84C/?_encoding=UTF8&store_ref=SB_A06161972YF976AT66RQC&pd_rd_plhdr=t&aaxitk=5367d2092de4ffe4fe3fdc8fa652e37b&hsa_cr_id=4233455740301&lp_asins=B07ZL41687%2CB07ZL2SWXC%2CB07ZL4MK8T&lp_query=EV%20chargers&lp_slot=auto-sparkle-hsa-tetris&ref_=sbx_be_s_sparkle_lsi4d_cta&pd_rd_w=HgzfA&content-id=amzn1.sym.cd95889f-432f-43a7-8ec8-833616493f4a%3Aamzn1.sym.cd95889f-432f-43a7-8ec8-833616493f4a&pf_rd_p=cd95889f-432f-43a7-8ec8-833616493f4a&pf_rd_r=3GD4KDJ3QFEJKMHXR230&pd_rd_wg=tAZwt&pd_rd_r=01c45a0f-6dd6-4a1c-8637-eed41978e3d2)
 
-##### **JuiceBox 40 Smart Electric Vehicle EV Charging Station**
+#### **JuiceBox 40 Smart Electric Vehicle EV Charging Station**
 
 JuiceBox offers a feature-rich smart charging experience. With voice control via Amazon Echo, you can easily start or stop charging sessions without lifting a finger. The free JuiceNet app allows you to control and monitor your charging remotely, set reminders, and even get notified when your car is fully charged. Plus, you can participate in the Enel X JuicePoints program to earn cash rewards for smart charging in eligible areas. [Check it out on Amazon](https://www.amazon.com/)
 
-##### **ChargePoint Home Flex Electric Vehicle Charger**
+#### **ChargePoint Home Flex Electric Vehicle Charger**
 
 ChargePoint is a well-known name in the EV charging industry, and their Home Flex charger is no exception. It offers up to 50 amps of power and can be set to work with any home electrical supply. The ChargePoint app allows you to schedule charging during off-peak hours to save on electricity costs. Additionally, owning a ChargePoint home charger gives you access to their extensive public charging network. [Check it out on Amazon](https://www.amazon.com/)
 
 These smart chargers are generally compatible with a wide range of electric vehicles, making them a versatile choice.
 
-#### **What is a Bi-directional EV Charger?**
+### **What is a Bi-directional EV Charger?**
 
 Bi-directional EV chargers, expected to become available in 2024, offer a range of capabilities. Not only can they charge your EV, but they can also send electricity back to the grid. Some models will even allow for direct DC-to-DC charging from your solar panels to your EV, eliminating the need for AC conversion. These chargers are set to bring a host of new functionalities to the realm of sustainable energy and EV technology. For more insights, explore our [article on key players in the bi-directional EV charger market](#).
 

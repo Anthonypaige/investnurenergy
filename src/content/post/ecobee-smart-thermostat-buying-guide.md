@@ -12,11 +12,11 @@ tags:
 
 If you're shopping for a smart thermostat, you'll likely encounter Ecobee—a market leader in smart home comfort. With models to fit various needs and budgets, Ecobee offers more than just temperature control; they provide a complete solution for home energy management. This guide aims to simplify your buying options by breaking down Ecobee's unique features and capabilities. Whether you're tech-savvy or just looking for a budget-friendly option, we'll help you find the Ecobee model that's right for you. Let's dive in.
 
-#### **Ecobee3 Lite: The Budget-Friendly Smart Thermostat**
+### **Ecobee3 Lite: The Budget-Friendly Smart Thermostat**
 
 The Ecobee3 Lite, priced at an affordable $140, is an Energy Star Certified smart thermostat that promises substantial energy savings. This user-friendly thermostat is designed for DIY installation and offers seamless integration with major smart home ecosystems, including Apple HomeKit. Additionally, it's Wi-Fi connected and compatible with all smart home systems.
 
-##### **Advanced Software Features**
+#### **Advanced Software Features**
 
 While Ecobee's hardware is impressive, it's the advanced software features that truly add value. All models come equipped with eco+, a sophisticated software that enhances energy savings by learning your routine and suggesting modifications to your thermostat schedule for optimal energy efficiency. Here's what the Ecobee3 Lite, their base model, brings to the table:
 
@@ -30,11 +30,11 @@ While Ecobee's hardware is impressive, it's the advanced software features that 
 
 5.  **Smart Home & Away**: This intelligent feature employs geofencing or other techniques to discern whether you're home or away, adjusting your thermostat settings to conserve energy.
 
-#### **Ecobee Smart Thermostat Enhanced: The Next Step Up**
+### **Ecobee Smart Thermostat Enhanced: The Next Step Up**
 
 Priced at $189, the Smart Thermostat Enhanced model offers a host of advanced features not found in the Ecobee3 Lite.
 
-##### **Additional Features Over Ecobee3 Lite**
+#### **Additional Features Over Ecobee3 Lite**
 
 1.  **Larger Touchscreen**: A 50% larger display provides an intuitive user interface.
 
@@ -46,11 +46,11 @@ Priced at $189, the Smart Thermostat Enhanced model offers a host of advanced fe
 
 5.  **Pause When Open**: If a door or window is left open for 5 minutes, Ecobee will send you an alert and automatically pause your heating or cooling to prevent energy waste.
 
-#### **Ecobee Smart Thermostat Premium: The Ultimate Choice**
+### **Ecobee Smart Thermostat Premium: The Ultimate Choice**
 
 Retailing at $249, the Smart Thermostat Premium is Ecobee's flagship model. It encompasses all the features of the Enhanced model, along with a host of additional capabilities.
 
-##### **Additional Features Over Enhanced Model**
+#### **Additional Features Over Enhanced Model**
 
 1.  **Integrated Indoor Air Quality Monitor**: Monitors air quality inside your home.
 

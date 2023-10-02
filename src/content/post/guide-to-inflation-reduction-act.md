@@ -30,8 +30,8 @@ Heat Pumps offer an excellent alternative to traditional heating and cooling met
 
 Water heating accounts for approximately 20% of household energy consumption. Under 25C, various options are covered:
 
-- Heat Pump Water Heaters: Efficient retrofit upgrades eligible for a 30% tax credit, capped at $2,000. Additional state rebates may apply.
-- Tankless Water Heaters and Boilers: Energy Star Certified, eligible for a 30% tax credit up to $600.
+- **Heat Pump Water Heaters**: Efficient retrofit upgrades eligible for a 30% tax credit, capped at $2,000. Additional state rebates may apply.
+- **Tankless Water Heaters**: Energy Star Certified, eligible for a 30% tax credit up to $600.
 
 #### **Weatherization**
 
@@ -70,7 +70,7 @@ The Electrification Rebate Act, also known as the High-Efficiency Electric Home 
 - 100% of electrification project costs up to $14,000 for low-income households.
 - 50% of costs up to $14,000 for moderate-income households.
 
-### **Qualified Electrification Projects**
+##### **Qualified Electrification Projects**
 
 - **Heat Pump Technology**: This includes heat pump HVAC systems, heat pump water heaters, and heat pump clothes dryers.
 - **Electrical Panel Upgrades**: These are enabling measures like upgrading circuit panels and wiring. For more check out our article on the importance of electrical upgrades.

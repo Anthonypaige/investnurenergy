@@ -24,12 +24,12 @@ The hours of demand differ across regions and time zones, but here's how an aver
 
 **Peak Demand Hours Example:**
 
-- Summer: (June-September) typically between noon and 6 p.m.
-- Non-Summer: (October-May) typically between 6 a.m. and 9 a.m., and again between 5 p.m. and 9 p.m.
+- **Summer**: (June-September) typically between noon and 6 p.m.
+- **Non-Summer**: (October-May) typically between 6 a.m. and 9 a.m., and again between 5 p.m. and 9 p.m.
 
 Want to know more about TOU rates and Demand Response Programs available to you? Check out the [Department of Energy's guide](https://www.energy.gov/femp/demand-response-and-time-variable-pricing-programs#:~:text=Time%2Dvariable%20pricing%20(TVP\),for%20any%20given%20customer%20class) to see what programs your utility provider offers.
 
-#### **What is Energy Arbitrage?**
+### **What is Energy Arbitrage?**
 
 With the expansion of the Residential Clean Energy Credit, making backup battery purchases more affordable, and the widespread adoption of Time-of-Use (TOU) rates, energy arbitrage has become an attractive option for many homeowners.
 
@@ -39,11 +39,11 @@ By charging a home battery system during off-peak hours and using it during peak
 
 Investing in a backup battery solely for energy arbitrage won’t be enough justification on its own. However, when you factor in the benefits of helping the grid, having backup power in case of blackouts, and complementing renewable energy sources like solar and wind, it becomes a valuable and responsible investment.
 
-#### **How to Calculating Savings with Energy Arbitrage**
+### **How to Calculating Savings with Energy Arbitrage**
 
 When considering energy arbitrage, the battery size you choose will be crucial. For example, the average family uses around 1200 watts per hour. If they plan to use their battery for 4 hours during the early evening peak demand and another 4 hours during the summer demand block, a 5 kWh sized battery could theoretically suffice. If you have early morning peak hours, you could charge your battery overnight and utilize it again in the morning.
 
-Our [Energy Arbitrage Savings Calculator](insert calculator) helps you understand how different battery sizes and Time-of-Use (TOU) rates can create savings. Here's how to use it:
+Our **[Energy Arbitrage Savings Calculator]**(insert calculator) helps you understand how different battery sizes and Time-of-Use (TOU) rates can create savings. Here's how to use it:
 
 - **Battery Usable Capacity**: Enter the usable capacity of your battery in kWh.
 - **Peak and Off-Peak Rates**: Input your electricity rates during peak and off-peak hours in cents per kWh.
@@ -52,6 +52,6 @@ Our [Energy Arbitrage Savings Calculator](insert calculator) helps you understan
 
 Click the "Calculate" button to see your total savings per year
 
-##### **Conclusion**
+#### **Conclusion**
 
 The evolving landscape of energy management presents both challenges and opportunities. With the advent of Time-of-Use rates and the expansion of the Residential Clean Energy Credit, homeowners are empowered to explore innovative solutions like backup batteries and energy arbitrage. From portable power stations to whole home backup systems, the options are diverse and accessible. By understanding the intricacies of TOU rates, energy arbitrage, and available incentives, you can make informed decisions that align with your energy needs, budget, and sustainability goals.
