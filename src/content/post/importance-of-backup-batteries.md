@@ -49,7 +49,7 @@ The Delta Pro's scalability is a notable feature. EcoFlow offers options that al
 
 To view the buying options offered visit the [EcoFlow Amazon page](https://amzn.to/3sMv4KU) or check out our [EcoFlow Delta Pro Buying Guide](https://app.stackbit.com/studio/64d6608f12525200bdbe6a49#/blog/ecoflow-buying-guide/) for a detailed breakdown of the available choices.
 
-#### **Bluetti: Versatile Power Solutions**
+### **Bluetti: Versatile Power Solutions**
 
 Known mostly for their Bluetti EP500, a high-capacity portable battery designed more for on-the-go use, Bluetti has also recognized the trend towards home energy management. They offer a line of starter home battery kits eligible for the federal tax credit, like the AC300+B300 3KW system and the AC500+B300S 5KW system. These options can be portable, eligible for tax credits, and expandable with additional smart batteries. Bluetti recently rolled out the New EP500 PRO, a premium model combining the best features for both home and portable use, though currently at a higher price point.
 
