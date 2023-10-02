@@ -1,12 +1,12 @@
 ---
-import evChargers from '~/data/evchargerlist.json';
+import evChargers from '~/content/evChargerList.json';
 ---
 
 <section>
   <h1>EV Charger List</h1>
   <ul>
     {evChargers.map(charger => (
-      <li key={charger.id}>
+      <li>
         <a href={`/product/${charger.id}`}>{charger.name}</a> - {charger.price}
       </li>
     ))}

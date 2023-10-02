@@ -4,6 +4,7 @@ import Header from '~/components/widgets/Header.astro';
 
 import { headerData } from '~/navigation';
 import type { MetaData } from '~/types';
+import EvChargerList from '~/widgets/EvChargerList.astro';
 
 export interface Props {
   metadata?: MetaData;
@@ -34,6 +35,7 @@ const { metadata } = Astro.props;
     </slot>
   </Fragment>
   <main>
+    <EvChargerList />
     <slot />
   </main>
 </PageLayout>
