@@ -1,9 +1,8 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
-//import Header from '~/components/widgets/Header.astro';
 import HeroText from '~/components/widgets/HeroText.astro';
 import FeaturedArticles from '~/components/widgets/FeaturedArticles.astro';
-import FAQs from '~/components/widgets/FAQs.astro';
+import Content from '~/components/widgets/Content.astro';
 
 const metadata = {
   title: 'Home Energy Storage page',
@@ -15,7 +14,7 @@ const metadata = {
   
  <!-- Hero Widget ******************* -->
  <HeroText
-    title=" Home Energy Storage"
+    title="Home Energy Storage"
     subtitle="The Power of Independence "
   />
 
@@ -24,35 +23,40 @@ const metadata = {
   title="Featured Home Energy Storage Articles " 
   articleSlugs={['importance-of-backup-batteries','what-is-energy-arbitrage','power-station-comparison-table-decoded','solar-batteries','ecoflow-delta-pro-buying-guide','bluetti-power-station-buying-guide']} 
 />
+ <!-- Content Widget **************** -->
 
-  <FAQs
-    title="Frequently asked Questions"
-    items={[
-      {
-        title: 'What does this app do?',
-        description:
-          'This app provides a platform for you to easily browse, purchase, download, and use a wide range of website templates for your projects.',
-      },
-      {
-        title: 'How can this app solve my problem?',
-        description:
-          'This app streamlines the process of finding and implementing professional website designs, saving you time and effort in creating visually appealing and functional websites.',
-      },
-      {
-        title: 'Is it available for my device?',
-        description: `Our app is designed for compatibility across various devices and platforms, ensuring accessibility whether you're using a smartphone, tablet, or computer.`,
-      },
-      {
-        title: 'What makes this app different from others?',
-        description:
-          'Our app stands out for its user-friendly interface, extensive template collection, and seamless integration of the purchasing and downloading process, making it highly efficient.',
-      },
-      {
-        title: 'Are there any costs involved?',
-        description:
-          'While the app itself may be free to download, there may be costs associated with purchasing specific templates based on your preferences and project requirements.',
-      },
-    ]}
-  />
+ <Content
+ isReversed
+ items={[
+   {
+     title: 'Energy Savings',
+     description:
+       'By sealing gaps and insulating properly, you can significantly reduce energy consumption, lowering utility bills. The average household can save up to $350 per year through proper weatherization..',
+   },
+   {
+     title: 'Comfort and Passive Survivability',
+     description:
+       'Well-insulated buildings retain a safe indoor temperature for longer in the event of energy disruptions.',
+   },
+   {
+     title: 'Health',
+     description:
+       'Improved indoor air quality by reducing outdoor pollutants benefits those with allergies or respiratory issues.',
+   },
+   ]}
+ image={{
+   src: 'https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/hero-art/WTHR-hero-image.jpeg?raw=true',
+   alt: 'Thermal image showing air leaking from a home',
+ }}
+>
+ <Fragment slot="content">
+   <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Included in 25C and HEEHRA</h3>
+    Weatherization is a vital aspect of home maintenance that offers numerous benefits
+ </Fragment>
+
+ <Fragment slot="bg">
+   <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+ </Fragment>
+</Content>
 
 </Layout>

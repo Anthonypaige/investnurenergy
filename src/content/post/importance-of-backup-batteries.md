@@ -16,17 +16,15 @@ Two recent developments have made backup batteries even more appealing. First, t
 
 When the term "solar batteries" is mentioned, images of large, sleek, high-tech options like Tesla's Power Wall often come to mind. However, the reality is that traditional solar batteries can be prohibitively expensive. This has led to a growing demand for more accessible and innovative solutions. On this page, we focus exclusively on alternative backup power options that are eligible for tax credits and can meet a diverse range of needs and budgets.
 
-#### **Understanding Energy Arbitrage is the Key**
+### **Understanding Energy Arbitrage is the Key**
 
-Energy arbitrage is a savvy strategy that can significantly reduce your electricity bills if you have Time-of-Use (TOU) rates.By storing electricity when it's cheap and using it when prices are high, you can maximize your savings. This approach adds another layer of cost-effectiveness to your backup battery system. For a more in-depth understanding and to use our specialized calculator, check out our [comprehensive guide on energy arbitrage](https://app.stackbit.com/studio/64d6608f12525200bdbe6a49#/blog/mastering-time-of-use-rates:-a-guide-to-smart-energy-consumption-and-savings/).
+Energy arbitrage is a savvy strategy that can significantly reduce your electricity bills if you have Time-of-Use (TOU) rates.By storing electricity when it's cheap and using it when prices are high, you can maximize your savings. This approach adds another layer of cost-effectiveness to your backup battery system. For a more in-depth understanding and to use our specialized calculator, check out our [comprehensive guide on energy arbitrage](insert/mastering-time-of-use-rates:-a-guide-to-smart-energy-consumption-and-savings/).
 
-#### **Decoding Battery Comparison Tables is important**
+### **Decoding Battery Comparison Tables is important**
 
 Navigating the world of backup battery shopping often involves interpreting complex comparison tables. These tables, filled with technical terms and specifications, can be confusing, even if they use the same formats. The differences in terminology and inconsistent formats only add to the challenge. To assist you in this process, we've created a guide that simplifies these comparison tables. Check out our easy [breakdown here](https://app.stackbit.com/studio/64d6608f12525200bdbe6a49#/blog/portable-power-stations:-a-practical-solution-for-home-backup-batteries/) for a no-fuss way to understand backup battery comparison tables.
 
----
-
-#### **Versatile Backup Battery Systems: Portable and Modular Solutions for Every Need**
+### **Versatile Backup Battery Systems: Portable and Modular Solutions for Every Need**
 
 Brands like **Jackery**, **Bluetti**, **Eco Flow**, and **Renogy** are revolutionizing the backup battery market with their versatile solutions. These units are designed to be both portable and modular, catering to a wide range of energy needs. Whether you're an outdoor enthusiast or a homeowner preparing for grid failures, these backup battery systems offer a tailored solution.
 
@@ -44,14 +42,14 @@ Brands like **Jackery**, **Bluetti**, **Eco Flow**, and **Renogy** are revolutio
 
 By offering a 30% tax credit under the Inflation Reduction Act, these backup battery systems have become an even more attractive option. Here are the 2 brands leading the charge with versatile options deesigned to fit any need Eco Flow and Bluetti.
 
-##### **EcoFlow: Leading the Charge in Portable Power**
+#### **EcoFlow: Leading the Charge in Portable Power**
 
 EcoFlow is a trailblazer in the power station industry, known for its innovative and user-friendly products. The Delta Pro, their flagship model, is a standout in the market, offering high capacity, multiple charging options, and solar panel compatibility. It's designed to provide reliable power for a wide range of devices and appliances, making it an excellent choice for both home backup and outdoor use.
 The Delta Pro's scalability is a notable feature. EcoFlow offers options that allow users to expand their system as their energy needs grow. You can add extra smart batteries or even combine two Delta Pro units for a powerful and practical system. EcoFlow's commitment to sustainable energy solutions is evident in their products. The Delta Pro works exceptionally well with solar panels, allowing users to harness the power of the sun for their energy needs. And they're not stopping at solar - EcoFlow is also planning to launch wind turbines soon, further expanding the renewable energy options for their users.
 
 To view the buying options offered visit the [EcoFlow Amazon page](https://amzn.to/3sMv4KU) or check out our [EcoFlow Delta Pro Buying Guide](https://app.stackbit.com/studio/64d6608f12525200bdbe6a49#/blog/ecoflow-buying-guide/) for a detailed breakdown of the available choices.
 
-##### **Bluetti: Versatile Power Solutions**
+#### **Bluetti: Versatile Power Solutions**
 
 Known mostly for their Bluetti EP500, a high-capacity portable battery designed more for on-the-go use, Bluetti has also recognized the trend towards home energy management. They offer a line of starter home battery kits eligible for the federal tax credit, like the AC300+B300 3KW system and the AC500+B300S 5KW system. These options can be portable, eligible for tax credits, and expandable with additional smart batteries. Bluetti recently rolled out the New EP500 PRO, a premium model combining the best features for both home and portable use, though currently at a higher price point.
 
