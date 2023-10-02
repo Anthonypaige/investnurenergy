@@ -1,7 +1,7 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
 import Hero from '~/components/widgets/Hero.astro';
-import InfoCard from '~/components/widgets/InfoCard.astro';
+import Pricing from '~/components/widgets/Pricing.astro';
 import FeaturedArticles from '~/components/widgets/FeaturedArticles.astro';
 
 const metadata = {
@@ -19,45 +19,86 @@ const metadata = {
     }}
   />
 
-  <InfoCard
-  title="Water Heater Options Covered in the Inflation Reduction Act"
-  subtitle="Choose the best for your needs"
-  cards={[
-    {
-      title: 'Heat Pump Water Heaters',
-      taxCode: '25C',
-      creditAmount: '30% up to $600',
-      verifiedEnergySavings: '40% more efficient',
-      callToAction: {
-        target: '_blank',
-        text: 'Read the Article',
-        href: '#', // Link to the article
-      },
+ <!-- Pricing Widget ******************* -->
+ <Pricing
+ title="Average Savings on Water Heaters Covered in the Inflation Reduction Act"
+ subtitle="Discover the unique value propositions of each water heater to find the one that best suits your situation"
+ prices={[
+   {
+     title: 'Heat Pump Water Heaters',
+     price: '50%',
+     period: 'More Energy-Efficient',
+     items: [
+       {
+         description: 'Significantly reduces electricity bills',
+       },
+       {
+         description: 'Eco-Friendly: Uses heat from air or ground',
+       },
+       {
+         description: 'Included in many acts and state level rebates',
+       },
+       {
+         description: 'Smart Features for easier control',
+       },
+     ],
+     callToAction: {
+       target: '_blank',
+       text: 'Read Article',
+       href: '#',
+     },
+   },
+   {
+     title: 'Tankless Water Heaters',
+     price: '$108',
+     period: 'per Year',
+     items: [
+       {
+         description: 'Space-Saving Design',
+       },
+       {
+         description: 'Instant Hot Water',
+       },
+       {
+         description: 'Energy Efficiency',
+       },
+       {
+         description: 'Longevity: Lasts 5 years longer than traditional tanks',
+       },
+     ],
+     callToAction: {
+       target: '_blank',
+       text: 'Read Article',
+       href: '#',
     },
-    {
-      title: 'Tankless Water Heaters',
-      taxCode: '25C',
-      creditAmount: '30% up to $600',
-      verifiedEnergySavings: '30% more efficient',
-      callToAction: {
-        target: '_blank',
-        text: 'Read the Article',
-        href: '#', 
-      },
-    },
-    {
-      title: 'Solar Water Heaters',
-      taxCode: '25D',
-      creditAmount: '30% of the cost',
-      verifiedEnergySavings: '50%-80% depending on area',
-      callToAction: {
-        target: '_blank',
-        text: 'Read the Article',
-        href: '#', 
-      },
-    }
-  ]}
+   },
+   {
+     title: 'Solar Water Heaters',
+     price: '50-80%',
+     period: 'savings on water heating',
+     items: [
+       {
+         description: 'Utilizes Renewable Energy',
+       },
+       {
+         description: 'High Efficiency',
+       },
+       {
+         description: 'Grid Independent',
+       },
+       {
+         description: 'Longevity: Lasts 5 years longer than traditional tank',
+       },
+     ],
+     callToAction: {
+       target: '_blank',
+       text: 'Read Article',
+       href: '#',
+     },
+   },
+ ]}
 />
+
 
 <!-- Water Heaters (WTR) Featured Articles Widget -->
 <FeaturedArticles 

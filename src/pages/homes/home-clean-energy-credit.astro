@@ -3,6 +3,7 @@ import Layout from '~/layouts/PageLayout.astro';
 import Hero from '~/components/widgets/Hero.astro';
 import Features2 from '~/components/widgets/Features2.astro';
 import FeaturedArticles from '~/components/widgets/FeaturedArticles.astro';
+import Stats from '~/components/widgets/Stats.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
 
 const featuredArticleSlugs = ['home-clean-energy-credit-guide', 'alleviating-grid-strain', 'hybrid-wind-solar-systems', 'overview-solar-water-heaters'];
@@ -89,12 +90,29 @@ In this era of rising utility costs and dwindling fossil fuels, it's time we tak
       <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
     </Fragment>
   </Features2>
+ 
+  <!-- Stats Widget ************** -->
+
+  <Stats
+  title="Home Clean Energy Credit"
+   stats={[
+     { title: 'Tax Code', amount: '25D' },
+     { title: 'Tax Credit', amount: '30%' },
+     { title: 'Annual Limit', amount: 'No Cap'},
+   ]}
+ />
+
+
+
+
 
 <!-- Featured Articles Widget ******************* -->
 <FeaturedArticles 
   title="Feature Articles for Home Clean Energy Credit" 
   articleSlugs={['home-clean-energy-credit-guide', 'alleviating-grid-strain', 'hybrid-wind-solar-systems', 'overview-solar-water-heaters', 'what-is-energy-arbitrage','geothermal-heat-pumps-tapping-earths-core','spotlight-on-solar-industry','importance-of-backup-batteries',]} 
 />
+
+  
 
   <!-- FAQs Widget ******************* -->
   <FAQs

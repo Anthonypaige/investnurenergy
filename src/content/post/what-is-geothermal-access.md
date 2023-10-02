@@ -22,7 +22,7 @@ This guide will explore these essential elements, helping you evaluate if your h
 
 - **Map Overview**: The map below offers a glimpse into the geothermal potential across the United States. The color gradations represent the heat flow from the Earth's core to the surface, measured in milliwatts per square meter. The warmer the color, the higher the heat flow, and the greater the geothermal potential.
 
-![Super wide](https://github.com/josephedward/invest-in-your-energy/blob/main/public/images/Geo-2%20in%20article%20map.png?raw=true)
+![Super wide](https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/page-art/GEO-map-page-art.png?raw=true)
 
 - **Geothermal Gradient and Ground Temperature**: This map considers the geothermal gradient, which is the rate of increase in the Earth's temperature with depth. The ground temperature, which remains relatively stable throughout the year, is used for heat exchange.
 
@@ -38,11 +38,7 @@ This guide will explore these essential elements, helping you evaluate if your h
 
 - **Importance of Soil Moisture**: Soil moisture plays a vital role in the efficiency of a geothermal system. Moist soils conduct heat better than dry soils.
 
-- **Soil Moisture Resources**: The [National Water and Climate Center](https://www.wcc.nrcs.usda.gov/) provides resources to check soil moisture levels in your area.
-
-### Local Regulations will have an impact on Geothermal System Installation
-
-- **Regulatory Considerations**: Local regulations can significantly affect the installation of geothermal systems. Some areas may have restrictions on drilling depths, water usage for open-loop systems, or even specific zoning laws.
+- **Soil Moisture Resources**: The[**National Water and Climate Center**](https://www.wcc.nrcs.usda.gov/) provides resources to check soil moisture levels in your area.
 
 ### Land Availability is A Crucial Factor in Geothermal System Feasibility
 
@@ -52,7 +48,13 @@ This guide will explore these essential elements, helping you evaluate if your h
 
 - **Water-Assisted Systems**: If there's a sufficient body of water available on or near your property, it can be utilized to assist in creating heat.
 
-- **Further Reading**: To explore the different types of geothermal systems in detail, check out our article on [Choosing the Right Geothermal Heat Pump System for Your Property](link to Geo-3 article).
+To explore the different types of geothermal systems in detail, check out our article on [The Best Geothermal Heat Pump System for Your Property](insert article).
+
+
+### Local Regulations will have an impact on Geothermal System Installation
+
+- **Regulatory Considerations**: Local regulations can significantly affect the installation of geothermal systems. Some areas may have restrictions on drilling depths, water usage for open-loop systems, or even specific zoning laws.
+
 
 #### Conclusion
 

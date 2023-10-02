@@ -38,7 +38,7 @@ Bid farewell to the constant energy drain of maintaining a hot water tank. Tankl
 
 - [**Rheem**](https://www.rheem.com/): Rheem specializes in energy-efficient solutions with advanced features like self-modulating technology that adjusts energy usage based on demand.
 
-#### **Additional Considerations**
+### **Additional Considerations**
 
 - **Installation Costs**: While offering long-term savings, the initial installation cost may be higher. It is recommended to opt for professional installation to ensure optimal performance.
 

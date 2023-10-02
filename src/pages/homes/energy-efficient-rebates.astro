@@ -7,7 +7,7 @@ import FeaturedArticles from '~/components/widgets/FeaturedArticles.astro';
 
 
 const metadata = {
-  title: 'Energy Efficient Rebatespage',
+  title: 'Energy Efficient Rebates page',
 };
 ---
 
@@ -58,13 +58,13 @@ const metadata = {
         icon: 'flat-color-icons:template',
       },
       {
-        title: 'LED Lighting',
+        title: 'Home Energy Monitoring Systems',
         description:
           'Providing customer support for any technical issues related to the templates or their implementation.',
         icon: 'flat-color-icons:voice-presentation',
       },
       {
-        title: 'Heat Pump Water Heaters',
+        title: 'LED lighting',
         description:
           'Providing customer support for any technical issues related to the templates or their implementation.',
         icon: 'flat-color-icons:voice-presentation',
@@ -76,10 +76,10 @@ const metadata = {
         icon: 'flat-color-icons:voice-presentation',
       },
       {  
-        title: 'Home Energy Monitoring Systems',
+        title: 'Energy Star Certified Appliances',
         description:
-          'Providing customer support for any technical issues related to the templates or their implementation.',
-        icon: 'flat-color-icons:voice-presentation',
+          'Many utility providers offer a rebate for variosu Energy Star certified appliances',
+         icon:'flat-color-icons:voice-presentation',
       },  
     ]}
   >
@@ -91,11 +91,9 @@ const metadata = {
 
   <!-- Featured Articles Widget ******************* -->
   <FeaturedArticles 
-  title="Feature Articles for Energy Efficient Rebates" 
-  articleSlugs={['what-is-heehra', 'state-local-energy-incentives', 'ev-charger-shopping-guide', 'smart-thermostat-shopping-guide', 'ecobee-smart-thermostat-buying-guide','guide-to-home-energy-monitoring','ductless-mini-split-heat-pump','heat-pump-water-heaters', 'weatherization-energy-efficiency-guide']} 
+  title="Featured Articles for State Level Rebates" 
+  articleSlugs={['state-local-energy-incentives', 'ev-charger-shopping-guide', 'smart-thermostat-shopping-guide','guide-to-home-energy-monitoring']} 
 />
-
-
 <!-- Features Widget *************** -->
 
 <Features
@@ -142,4 +140,10 @@ items={[
   },
 ]}
 />
+<!-- Featured Articles Widget ******************* -->
+<FeaturedArticles 
+title="Featured Articles for The Electrifcation Rebate Act" 
+articleSlugs={['what-is-heehra', 'ductless-mini-split-heat-pump','heat-pump-water-heaters', 'weatherization-energy-efficiency-guide']} 
+/>
+
 </Layout>

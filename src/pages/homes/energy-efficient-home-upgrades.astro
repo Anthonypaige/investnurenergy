@@ -2,6 +2,7 @@
 import Layout from '~/layouts/PageLayout.astro';
 import Hero from '~/components/widgets/Hero.astro';
 import Features2 from '~/components/widgets/Features2.astro';
+import Stats from '~/components/widgets/Stats.astro';
 import FeaturedArticles from '~/components/widgets/FeaturedArticles.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
 
@@ -84,9 +85,18 @@ const metadata = {
 </Features2>
 
 
+<Stats
+  title="Energy Efficient Home Improvement Credit"
+  stats={[
+    { title: 'Tax Code', amount: '25C' },
+    { title: 'Tax Credit', amount: '30%' },
+    { title: 'Annual Limit', amount: '$3200' },
+  ]}
+/>
+
   <!-- Featured Articles Widget ******************* -->
 <FeaturedArticles 
-title="Feature Articles" 
+title="Featured Articles for Energy Efficient Home Improvement Credit " 
 articleSlugs={['home-energy-efficient-credit-guide', 'crafting-an-energy-efficient-strategy', 'biomass-boilers-explained' , 'whats-a-heat-pump']} 
 />
 
