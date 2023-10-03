@@ -24,7 +24,7 @@ A heat pump isn't just a piece of machinery; it's a marvel of modern engineering
 
 - **Expansion Valve:** This valve regulates the flow of refrigerant between the high-pressure condenser and the low-pressure evaporator, allowing the refrigerant to cool and expand, readying it for another cycle of heat absorption.
 
-![Super wide](https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/In-article-images/vector-heat-pump-system.jpg?raw=true)
+![Super wide](https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/In-article-images/HPQ-1-in-article.jpg?raw=true)
 
 ### **New School Efficiency with Old School Technology**
 
@@ -64,12 +64,12 @@ Geothermal heat pumps, also known as ground-source heat pumps, come with a highe
 - **Less Common: Pond-Based Systems**
   These systems utilize a nearby pond or lake as a heat source. A loop of pipe is placed at the bottom of the water body, making it an option for homes located near such water sources.
 
-![Super wide](https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/In-article-images/geothermal-horizontal-vertical.png?raw=true)
+![Super wide](https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/In-article-images/HPQ-1-in-article2.png?raw=true)
 
 These systems are highly efficient and can significantly reduce energy consumption and greenhouse gas emissions. With proper maintenance, they can last up to 50 years, far outlasting most traditional heating systems that last 10-15 years, thereby enhancing their long-term value.
 
 You can learn more about geothermal heat pumps in this [comprehensive guide](link to article).
 
-**Conclusion: The Future is Warm with Heat Pumps**
+### **Conclusion** 
 
 Heat pumps are not just a modern marvel but a sustainable choice for your home's heating and cooling needs. With dual functionality and high energy efficiency, they offer a year-round comfort solution. Moreover, their inclusion in the Inflation Reduction Act and various tax credits make them a financially viable option. As we transition to a more energy-efficient future, heat pumps stand as a testament to innovation and sustainability.
