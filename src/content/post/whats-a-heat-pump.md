@@ -70,6 +70,6 @@ These systems are highly efficient and can significantly reduce energy consumpti
 
 You can learn more about geothermal heat pumps in this [comprehensive guide](link to article).
 
-### **Conclusion** 
+### **Conclusion**
 
 Heat pumps are not just a modern marvel but a sustainable choice for your home's heating and cooling needs. With dual functionality and high energy efficiency, they offer a year-round comfort solution. Moreover, their inclusion in the Inflation Reduction Act and various tax credits make them a financially viable option. As we transition to a more energy-efficient future, heat pumps stand as a testament to innovation and sustainability.
