@@ -96,22 +96,8 @@ export const headerData = {
     },
     {
       text: 'Widgets',
-      links: [
-        {
-          text: 'Portable Power Comparison Table'
-          href: getPermalink('/widgets/portable-power-comparison-table'),
-        },
-        {
-          text: 'About Us',
-          href: getPermalink('/about'),
-        },
-        {
-          text: 'Contact Us ',
-          href: getPermalink('/contact'),
-        },
-      ],
+      href: '#',
     },
-    {},
   ],
   actions: [{ text: 'Download', href: 'https://github.com/onwidget/astrowind', target: '_blank' }],
 };
