@@ -99,7 +99,7 @@ export const headerData = {
       links: [
         {
           text: 'Portable Power Comparison Table'
-          href: getPermalink('/widgets/portable-power-comparison-table.astro'),
+          href: getPermalink('/widgets/portable-power-comparison-table'),
         },
         {
           text: 'About Us',
