@@ -10,7 +10,6 @@ tags:
   - Energy Efficiency
 ---
 
----
 
 ### **What is the Inflation Reduction Act of 2022?**
 
