@@ -4,6 +4,7 @@ import Hero from '~/components/widgets/Hero.astro';
 import FeaturedArticles from '~/components/widgets/FeaturedArticles.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
 import Stats from '~/components/widgets/Stats.astro';
+import MapZoom from '~/components/widgets/MapZoom.astro';
 
 
 const metadata = {
@@ -12,16 +13,33 @@ const metadata = {
 ---
 
 <Layout metadata={metadata}>
+  
   <!-- Hero Widget ******************* -->
 
   <Hero
     title="Geothermal Heat Pumps"
     subtitle="Geothermal Heat Pumps are a game-changing solution for eco-friendly home comfort. They efficiently heat and cool your space, significantly reducing energy bills. By tapping into Earth's stable temperatures, these long-lasting systems offer a sustainable, cost-effective energy source for years to come.."
-    image={{
-      src: 'https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/page-art/GEO-map-page-art.png?raw=true',
-      alt: 'USA Map of geothermal access',
-    }}
+    
   />
+  <Stats
+  title="Numbers to Know"
+  stats={[
+    
+    { title: 'Tax Code', amount: '25D' },
+    { title: 'Tax Credit', amount: '30%' },
+    { title: 'Cost Savings', amount: '60%' },
+    { title: 'Year Shelflife', amount: '50' },
+  ]}
+/>
+
+  <section>
+  
+    <MapZoom />
+    
+  </section>
+    
+
+
 
   <!-- Geothermal energy page Featured Articles Widget -->
 <FeaturedArticles 
@@ -29,14 +47,7 @@ const metadata = {
   articleSlugs={['geothermal-heat-pumps-tapping-earths-core', 'what-is-geothermal-access', 'best-geothermal-heat-pump-for-your-property', 'ev-charger-shopping-guide']} 
 />
 
-<Stats
-  stats={[
-    { title: 'Tax Code', amount: '25D' },
-    { title: 'Tax Credit', amount: '30%' },
-    { title: 'Cost Savings', amount: '60%' },
-    { title: 'Year Shelflife', amount: '50' },
-  ]}
-/>
+
 
   <!-- FAQs Widget ******************* -->
 
