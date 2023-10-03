@@ -34,16 +34,14 @@ Consideration of how the wind turbine will integrate with your existing power sy
 
 Integrating residential wind turbines with a home's power system can reduce dependence on fossil fuels, lower energy bills, and assist in grid independence. Proper installation and connection enable wind-generated electricity to power various home appliances, and excess energy can be stored in a battery. This integration represents a step towards a more sustainable and resilient energy future. Learn more about energy storage at [Home Energy Storage](http://localhost:4322/homes/home-energy-storage).
 
-
 ### **Hybrid Wind/Solar Systems: A Consistent and Reliable Power Supply**
 
 A hybrid wind/solar system is a forward-thinking solution that combines the strengths of wind and solar energy. By harnessing the power of the sun during the day and the wind at night, this system ensures a consistent and reliable power supply for your home. When one source is less available, the other compensates, providing energy even in varying weather conditions. This synergy not only enhances energy efficiency but also contributes to grid stability, alleviating peak demand pressures. For an in-depth exploration of hybrid systems, check out our article on [**Solar and Wind Hybrid Systems**](http://localhost:4321/hybrid-wind-solar-systems/).
 
-
 ### **Other Key Factors to Consider**
 
 - **Cost and Incentives**: Understanding the costs involved in installation and maintenance, as well as available incentives like the Residential Clean Energy Credit, will help you evaluate the economic viability of the project.
-Responsible planning and compliance with legal requirements are also essential aspects of a wind turbine installation:
+  Responsible planning and compliance with legal requirements are also essential aspects of a wind turbine installation:
 
 - **Permits and Regulations**: Compliance with local regulations regarding turbine height, noise levels, and setbacks is mandatory. Obtaining the necessary permits ensures that your installation adheres to community standards and legal requirements.
 
