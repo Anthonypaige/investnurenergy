@@ -1,0 +1,58 @@
+---
+const zoomMap = (event) => {
+  const img = event.currentTarget;
+  const src = img.src;
+  const overlay = document.createElement('div');
+  overlay.style.position = 'fixed';
+  overlay.style.top = '0';
+  overlay.style.left = '0';
+  overlay.style.width = '100%';
+  overlay.style.height = '100%';
+  overlay.style.backgroundColor = 'rgba(0,0,0,0.8)';
+  overlay.style.zIndex = '1000';
+  overlay.style.cursor = 'zoom-out';
+  overlay.innerHTML = `<img src="${src}" style="margin: auto; display: block; max-width: 90%; max-height: 90%;">`;
+  overlay.onclick = function() {
+    document.body.removeChild(overlay);
+  };
+  document.body.appendChild(overlay);
+};
+---
+<style>
+  .map-container {
+    text-align: center;
+    margin: 20px;
+  }
+  .map-title {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .map-subtitle {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  .map-image {
+    max-width: 50%;
+    max-height: 50%;
+    cursor: zoom-in;
+    margin: auto;  /* Center the image */
+    transition: transform 0.3s ease; /* Add transition */
+  }
+  .map-image:hover {
+    transform: scale(1.5); /* Add hover effect */
+  }
+  .credit {
+    font-size: 24px;  
+    font-weight: bold;  
+    margin-top: 30px;
+    text-align: center; 
+  }
+</style>
+
+<div class="map-container">
+  <div class="map-title">Average Annual Peak Sun Hours</div>
+  <div class="map-subtitle">United States</div>
+  <img src="https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/page-art/peak-sun-hous-map-NREL-page-art.jpg?raw=true" alt="Geothermal Potential Map" class="map-image" @click={zoomMap}>
+  <div class="credit">Map Courtesy of: <a href="https://www.nrel.gov/gis/solar-resource-maps.html">National Renewable Energy Laborotory</a></div>
+</div>
+

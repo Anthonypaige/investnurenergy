@@ -2,6 +2,7 @@
 import Layout from '~/layouts/PageLayout.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
 import Hero from '~/components/widgets/Hero.astro';
+import SolarMapZoom from '~/components/widgets/SolarMapZoom.astro';
 import FeaturedArticles from '~/components/widgets/FeaturedArticles.astro';
 
 const metadata = {
@@ -13,18 +14,17 @@ const metadata = {
   <!-- Hero Widget ******************* -->
 
   <Hero
-    tagline="25D"
     title="Solar Energy Basics"
     subtitle="Explore our meticulously crafted templates tailored to various industries and purposes. From captivating presentations to functional website designs, we offer the tools you need to succeed."
-    image={{
-      src: 'https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/page-art/peak-sun-hous-map-NREL-page-art.jpg?raw=true',
-      alt: 'map of solar potential in USA',
-    }}
-  />
+    />
+    <section>
+      <SolarMapZoom />
+    </section>
 
+  
 <!-- Solar basics page Featured Articles Widget -->
 <FeaturedArticles 
-  title="<center>Featured Articles on Solar Basics</center>" 
+  title="Featured Articles on Solar Basics" 
   articleSlugs={['guide-to-solar-panel-placement', 'understanding-solar-energy', 'net-metering-explained', 'solar-offset-strategy']} 
 />
 <!-- FAQs Widget ******************* -->

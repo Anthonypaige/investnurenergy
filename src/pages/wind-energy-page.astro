@@ -3,6 +3,7 @@
 import Layout from '~/layouts/PageLayout.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
 import Hero from '~/components/widgets/Hero.astro';
+import WindMapZoom from '~/components/widgets/WindMapZoom.astro';
 import FeaturedArticles from '~/components/widgets/FeaturedArticles.astro';
 
 const metadata = {
@@ -17,6 +18,10 @@ const metadata = {
     title="Residential Wind Turbines"
     subtitle="Explore the growing role of wind energy in residential settings. Understand how wind turbines are becoming a cornerstone in the transition to a more sustainable future."
   />
+<section>
+  <WindMapZoom />
+</section>
+
 
 <!---Wind energy page Featured Articles Widget -->
 <FeaturedArticles 
