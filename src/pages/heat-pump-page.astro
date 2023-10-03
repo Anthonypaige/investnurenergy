@@ -1,10 +1,10 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
-import Hero from '~/components/widgets/Hero.astro';
 import Features2 from '~/components/widgets/Features2.astro';
 import FeaturedArticles from '~/components/widgets/FeaturedArticles.astro';
 import Stats from '~/components/widgets/Stats.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
+import HeroText from '~/components/widgets/HeroText.astro';
 const metadata = {
   title: 'Heat Pumps',
 };
@@ -13,11 +13,10 @@ const metadata = {
 <Layout metadata={metadata}>
   <!-- Hero Widget ******************* -->
 
-  <Hero
-    image={{
-      src: 'https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/page-art/HPQ-page-art.png?raw=true',
-      alt: 'Heat Pump',
-    }}
+
+  <HeroText
+  title="Heat Pumps"
+  subtitle="Heat Pumps are revolutionizing the way we think about home climate control. These versatile systems are incredibly efficient, generating up to three times more energy than they consume. They offer both heating and cooling solutions, making them a year-round choice for energy-conscious homeowners."
   />
 
   <Features2

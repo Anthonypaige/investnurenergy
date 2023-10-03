@@ -1,8 +1,8 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
-import Hero from '~/components/widgets/Hero.astro';
 import Pricing from '~/components/widgets/Pricing.astro';
 import FeaturedArticles from '~/components/widgets/FeaturedArticles.astro';
+import HeroText from '~/components/widgets/HeroText.astro';
 
 const metadata = {
   title: 'Water Heaters',
@@ -12,12 +12,10 @@ const metadata = {
 <Layout metadata={metadata}>
   <!-- Hero Widget ******************* -->
 
-  <Hero
-    image={{
-      src: 'https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/page-art/WTR-page-art.png?raw=true',
-      alt: 'Hot Shower Water',
-    }}
-  />
+  <HeroText
+  title="Water Heaters"
+  subtitle="Nearly 20% of your household energy bill is spent on water heating alone. Thanks to the Inflation Reduction Act, knowing your options can lead to significant savings and a more sustainable lifestyle."
+    />
 
  <!-- Pricing Widget ******************* -->
  <Pricing
