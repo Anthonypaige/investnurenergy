@@ -3,6 +3,7 @@ import Layout from '~/layouts/PageLayout.astro';
 import Pricing from '~/components/widgets/Pricing.astro';
 import FeaturedArticles from '~/components/widgets/FeaturedArticles.astro';
 import HeroText from '~/components/widgets/HeroText.astro';
+import Content from '~/components/widgets/Contact.astro';
 
 const metadata = {
   title: 'Water Heaters',
@@ -16,6 +17,50 @@ const metadata = {
   title="Water Heaters"
   subtitle="Nearly 20% of your household energy bill is spent on water heating alone. Thanks to the Inflation Reduction Act, knowing your options can lead to significant savings and a more sustainable lifestyle."
     />
+<!-- Content Widget **************** -->
+
+<Content
+  isReversed
+  items={[
+    {
+      title: 'Energy Efficiency',
+      description:
+        'Switching to an energy-efficient water heater can reduce your energy bills by up to 50%. Modern systems are designed to heat water only when needed, eliminating standby energy losses.',
+    },
+    {
+      title: 'Sustainability',
+      description:
+        'Energy-efficient water heaters contribute to a greener environment by reducing carbon emissions and conserving resources.',
+    },
+    {
+      title: 'Financial Incentives',
+      description:
+        'Thanks to the Inflation Reduction Act, you can take advantage of various incentives to make your water heater upgrade more affordable.',
+    },
+    ]}
+  image={{
+    src: 'https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/page-art/WTR-page-art.png?raw=true',
+    alt: 'Modern energy-efficient water heater',
+  }}
+>
+  <Fragment slot="content">
+    <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Included in 25C and HEEHRA</h3>
+     Water heaters are a key component in your home's energy ecosystem.
+  </Fragment>
+
+  <Fragment slot="bg">
+    <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+  </Fragment>
+</Content>
+
+<!-- Content Widget **************** -->
+
+
+
+
+
+
+
 
  <!-- Pricing Widget ******************* -->
  <Pricing

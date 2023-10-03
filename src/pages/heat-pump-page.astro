@@ -5,19 +5,59 @@ import FeaturedArticles from '~/components/widgets/FeaturedArticles.astro';
 import Stats from '~/components/widgets/Stats.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
 import HeroText from '~/components/widgets/HeroText.astro';
+import Content from '~/components/widgets/Content.astro';
 const metadata = {
   title: 'Heat Pumps',
 };
 ---
 
 <Layout metadata={metadata}>
-  <!-- Hero Widget ******************* -->
-
-
+  
+  <!-- HeroText Widget ******************* -->
   <HeroText
   title="Heat Pumps"
   subtitle="Heat Pumps are revolutionizing the way we think about home climate control. These versatile systems are incredibly efficient, generating up to three times more energy than they consume. They offer both heating and cooling solutions, making them a year-round choice for energy-conscious homeowners."
   />
+
+<!-- Content Widget **************** -->
+<Content
+  isReversed
+  items={[
+    {
+      title: 'Energy Multiplier',
+      description:
+        'Heat pumps can generate up to 3 times more heat energy than the electrical energy they consume, making them incredibly efficient.',
+    },
+    {
+      title: 'Year-Round Comfort',
+      description:
+        'Heat pumps provide both heating and cooling, offering year-round climate control for your home.',
+    },
+    {
+      title: 'Reduced Carbon Footprint',
+      description:
+        'By utilizing renewable heat sources, heat pumps significantly reduce greenhouse gas emissions.',
+    },
+    ]}
+  image={{
+    src: 'https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/page-art/HPQ-page-art.png?raw=true',
+    alt: 'Heat pump system',
+  }}
+>
+  <Fragment slot="content">
+    <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Included in 25C and HEEHRA</h3>
+     Heat pumps are a versatile and efficient choice for home heating and cooling.
+  </Fragment>
+
+  <Fragment slot="bg">
+    <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+  </Fragment>
+</Content>
+
+<!-- Content Widget **************** -->
+
+
+
 
   <Features2
   title="Types of Heat Pumps"
