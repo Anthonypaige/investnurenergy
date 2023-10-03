@@ -99,7 +99,7 @@ export const headerData = {
       links: [
         {
           text: 'About Us',
-        href: getPermalink('/about'),
+          href: getPermalink('/about'),
         },
         {
           text: 'Contact Us ',
