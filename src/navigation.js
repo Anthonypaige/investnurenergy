@@ -86,11 +86,11 @@ export const headerData = {
         },
         {
           text: 'Category Page',
-          href: getPermalink('clean energy', 'category'),
+          href: getPermalink('tutorials', 'category'),
         },
         {
           text: 'Tag Page',
-          href: getPermalink('home energy storage', 'tag'),
+          href: getPermalink('astro', 'tag'),
         },
       ],
     },
@@ -99,11 +99,11 @@ export const headerData = {
       links: [
         {
           text: 'About Us',
-          href: getPermalink('/widgets/about-us'),
+        href: getPermalink('/about'),
         },
         {
           text: 'Contact Us ',
-          href: getPermalink('/widgets/contact-us'),
+          href: getPermalink('/contact'),
         },
       ],
     },
