@@ -3,7 +3,6 @@ import Layout from '~/layouts/PageLayout.astro';
 import HeroText from '~/components/widgets/HeroText.astro';
 import FeaturedArticles from '~/components/widgets/FeaturedArticles.astro';
 import Content from '~/components/widgets/Content.astro';
-import HomeEnergyStorageNote from '~/components/widgets/HomeEnergyStorageNote.astro';
 
 const metadata = {
   title: 'Home Energy Storage page',
@@ -11,63 +10,57 @@ const metadata = {
 ---
 
 <Layout metadata={metadata}>
-
-  
- <!-- Hero Widget ******************* -->
- <HeroText
+  <!-- Hero Widget -->
+  <HeroText
     title="Home Energy Storage"
     subtitle="Thanks to the Inflation Reduction Act of 2022, Home Energy Storage has become more attainable than ever. This enables you to achieve energy independence, enjoy significant cost savings, and enhance resilience and sustainability right in your own home, all while safeguarding against power outages."
   />
 
-  <HomeEnergyStorageNote />
-
-<!-- Content Widget **************** -->
-
-<Content
-  isReversed
-  items={[
-    {
-      title: 'Backup Battery',
-      description:
-        'A home energy storage system serves as a backup battery during power outages, ensuring that your essential appliances keep running.',
-    },
-    {
-      title: 'Energy Arbitrage',
-      description:
-        'Store energy when electricity rates are low and use it during peak hours to save money. This strategy, known as energy arbitrage, can significantly reduce your electricity bills.',
-    },
-    {
-      title: 'Wind or Solar Storage',
-      description:
-        'Home energy storage allows you to store excess energy generated from your wind or solar installations. This stored energy can be used when renewable sources are not producing, ensuring a consistent power supply.',
-    },
-    {
-      title: 'Grid Independence',
-      description:
-        'With a home energy storage system, you can achieve a level of grid independence, reducing your reliance on utility companies and enhancing your self-sufficiency.',
-    },
+  <!-- Content Widget -->
+  <Content
+    isReversed
+    items={[
+      {
+        title: 'Backup Battery',
+        description: 'A home energy storage system serves as a backup battery during power outages, ensuring that your essential appliances keep running.',
+      },
+      {
+        title: 'Energy Arbitrage',
+        description: 'Store energy when electricity rates are low and use it during peak hours to save money. This strategy, known as energy arbitrage, can significantly reduce your electricity bills.',
+      },
+      {
+        title: 'Wind or Solar Storage',
+        description: 'Home energy storage allows you to store excess energy generated from your wind or solar installations. This stored energy can be used when renewable sources are not producing, ensuring a consistent power supply.',
+      },
     ]}
-  image={{
-    src: 'https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/page-art/HES-qualify-page-art.png?raw=true',
-    alt: 'Qualifications for Battery Storage eligibility',
-  }}
->
-  <Fragment slot="content">
-    <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">How Home Energy Storage Helps You</h3>
-     Home Energy Storage is the key to Energy Independence.
-  </Fragment>
+    image={{
+      src: 'https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/page-art/HES-qualify-page-art.png?raw=true',
+      alt: 'Qualifications for Battery Storage eligibility',
+    }}
+  >
+    <Fragment slot="content">
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Why Home Energy Storage?</h3>
+      Home Batteries are becoming essential in today's World for many reasons.
+    </Fragment>
 
-  <Fragment slot="bg">
-    <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
-  </Fragment>
-</Content>
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
 
-<!-- Content Widget **************** -->
+  </Content>
 
-
-<!-- Featured Articles Widget ******************* -->
-<FeaturedArticles 
-  title="Featured Home Energy Storage Articles " 
-  articleSlugs={['importance-of-backup-batteries','what-is-energy-arbitrage','power-station-comparison-table-decoded','solar-batteries','ecoflow-delta-pro-buying-guide','bluetti-power-station-buying-guide']} 
-/>
+  <!-- Featured Articles Widget -->
+  <FeaturedArticles 
+    title="Featured Home Energy Storage Articles" 
+    articleSlugs={[
+      'the-growing-importance-of-backup-batteries-in-todays-world',
+      'what-is-energy-arbitrage',
+      'decoding-portable-power-station-comparison-tables',
+      'ecoflow-delta-pro-buying-guide',
+      'bluetti-power-stations-buying-guide',
+      'solar-batteries-are-automating-energy-management',
+      'unlocking-energy-independence-with-Sonnens-solar-batteries',
+    ]}
+  />
 </Layout>
+

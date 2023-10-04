@@ -17,9 +17,11 @@ const metadata = {
   title="Water Heaters"
   subtitle="Nearly 20% of your household energy bill is spent on water heating alone. Thanks to the Inflation Reduction Act, knowing your options can lead to significant savings and a more sustainable lifestyle."
     />
-<!-- Content Widget **************** -->
+
+    <!-- Content Widget **************** -->
 <Content
 isReversed
+isAfterContent
 items={[
   {
     title: 'The Solution',
@@ -29,7 +31,7 @@ items={[
   {
     title: 'The Financial Assistance',
     description:
-      'Water heater upgrades are supported by various acts like the Inflation Reduction Act, 25D, 25C, and HEEHRA. Additionally, many states offer rebates that can be stacked, making the upgrade even more affordable.',
+      'Water heater upgrades are supported by various acts like the Inflation Reduction Act, 25D, 25C, and HEEHRA. Additionally, many states offer rebates that can be stacked with federal',
   },
   {
     title: 'The Result',
@@ -42,8 +44,13 @@ image={{
   alt: 'Thermal image showing air leaking from a home',
 }}
 >
+<Fragment slot="content">We spend almost 20% of our energy on heating water</Fragment>
 
+<Fragment slot="bg">
+  <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+</Fragment>
 </Content>
+
 
  <!-- Pricing Widget ******************* -->
  <Pricing
@@ -128,7 +135,14 @@ image={{
 <!-- Water Heaters (WTR) Featured Articles Widget -->
 <FeaturedArticles 
   title="Featured Articles on Water Heaters" 
-  articleSlugs={['federal-water-heater-tax-incentives', 'overview-solar-water-heaters', 'heat-pump-water-heaters', 'tankless-water-heaters']} 
-/>
+  articleSlugs={[
+    'water-heaters-federal-incentives-overview',
+    'heat-pump-water-heaters-are-the-model-of-efficiency',
+    'solar-water-heaters-are-a-sustainable-solution-for-your-home',
+    'tankless-water-heaters-are-compact-efficiency',
+  ]}
+  
+
+  />
 
 </Layout>

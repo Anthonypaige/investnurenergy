@@ -1,6 +1,6 @@
 ---
 publishDate: 2023-09-27T00:00:00Z
-title: State-Level Solar Incentives An Overview
+title: State Level Solar Incentives Overview
 excerpt: Discover the array of state-level solar incentives that can make renewable energy more affordable for homeowners. This guide outlines the various programs and strategies to leverage them for a cost-effective transition to solar energy.
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/SLR-6-cover-art.jpg?raw=true
 category: Solar Energy

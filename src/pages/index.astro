@@ -2,7 +2,7 @@
 import Layout from '~/layouts/PageLayout.astro';
 import FeaturedArticles from '~/components/widgets/FeaturedArticles.astro';
 import Hero from '~/components/widgets/Hero.astro';
-import Note from '~/components/widgets/Note.astro';
+//import Note from '~/components/widgets/Note.astro';
 import Stats from '~/components/widgets/Stats.astro';
 import Features from '~/components/widgets/Features.astro';
 import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
@@ -10,7 +10,7 @@ import FAQs from '~/components/widgets/FAQs.astro';
 
 
 const metadata = {
-  title: 'Welcome to Invest in your Energy We are here to Unpack the Inflation Reduction Act',
+  title: 'Invest in your Energy main page',
   ignoreTitleTemplate: true,
 };
 ---
@@ -29,7 +29,7 @@ const metadata = {
   </Fragment>
 
     <!-- Video -->
-    <Fragment slot="image">
+    <!-- <Fragment slot="image">
       <div class="relative h-0 pb-[56.25%]">
         <iframe
           width="560"
@@ -42,11 +42,11 @@ const metadata = {
         >
         </iframe>
       </div>
-    </Fragment>
+    </Fragment> -->
   </Hero>
   
   <!-- Note Widget ******************* -->
-  <Note />
+  <!-- <Note /> -->
   <!-- Note Widget ******************* -->
 
   <Stats
@@ -60,8 +60,19 @@ const metadata = {
 />
 <FeaturedArticles 
   title="<center>Featured Articles </center>" 
-  articleSlugs={['guide-to-inflation-reduction-act','alleviating-grid-strain', 'ev-charger-shopping-guide','mastering-time-of-use-rates','avoiding-pitfalls-of-solar-loans','electrical-panel-upgrade-credit','smart-thermostat-shopping-guide','importance-of-backup-batteries',]} 
-/>
+  articleSlugs={[
+    'unpacking-the-inflation-reduction-act-a-comprehensive-guide',
+    'mastering-time-of-use-rate-strategies-for-smart-energy',
+    'alleviating-power-grid-strain',
+    'ev-charger-shopping-guide-a-heavily-incentivized-home-improvement',
+    'electrical-panel-upgrades-a-keystone-of-the-inflation-reduction-act',
+    'the-growing-importance-of-backup-batteries-in-todays-world',
+    'home-energy-monitoring-your-guide-to-energy-efficiency',
+    'solar-loans-a-guide-to-avoiding-pitfalls-and-maximizing-benefits',
+  ]}
+  
+
+  />
 
   <!-- Features Widget *************** -->
 

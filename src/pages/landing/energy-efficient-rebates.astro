@@ -24,7 +24,7 @@ const metadata = {
     There are a number of energy efficient rebates available via the HEEHRA act and through your local utility providers. These rebates have nothing to do with your tax liability. 
   </Fragment>
 
-  <Fragment slot="image">
+  <!-- <Fragment slot="image">
     <div class="relative h-0 pb-[56.25%]">
       <iframe
         width="560"
@@ -37,7 +37,7 @@ const metadata = {
       >
       </iframe>
     </div>
-  </Fragment>
+  </Fragment> -->
 </Hero>
 
  <!-- Features2 Widget ************** -->
@@ -91,8 +91,15 @@ const metadata = {
   <!-- Featured Articles Widget ******************* -->
   <FeaturedArticles 
   title="Featured Articles for State Level Rebates" 
-  articleSlugs={['state-local-energy-incentives', 'ev-charger-shopping-guide', 'smart-thermostat-shopping-guide','guide-to-home-energy-monitoring']} 
-/>
+  articleSlugs={[
+    'state-level-energy-efficient-incentives-overview',
+    'ev-charger-shopping-guide-a-heavily-incentivized-home-improvement',
+    'smart-thermostat-shopping-guide-what-you-need-to-know',
+    'home-energy-monitoring-your-guide-to-energy-efficiency',
+  ]}
+  
+
+  />
 <!-- Features Widget *************** -->
 
 <Features
@@ -139,3 +146,13 @@ const metadata = {
     },
   ]}
 >
+<!-- Featured Articles Widget ******************* -->
+<FeaturedArticles 
+  title="Featured Articles for The Electrification Rebate Act" 
+  articleSlugs={[
+    'what-is-the-high-efficiency-electric-home-rebate-act',
+    'whats-a-ductless-mini-split-heat-pump',
+    'heat-pump-water-heaters-are-the-model-of-efficiency',
+    'a-comprehensive-guide-to-weatherization-and-energy-efficiency',
+  ]}
+/>
