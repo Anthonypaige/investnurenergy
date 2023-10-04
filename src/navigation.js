@@ -61,19 +61,19 @@ export const headerData = {
       ],
     },
     {
-      text: 'Landing',
+      text: 'About Us',
       links: [
         {
           text: 'EV Charger Comparison Table',
-          href: getPermalink('/landing/ev-charger-comparison-table'),
+          href: getPermalink('/aboutus/ev-charger-comparison-table'),
         },
         {
           text: 'Smart Thermostat Comparison Table',
-          href: getPermalink('/landing/smart-thermostat-comparison-table'),
+          href: getPermalink('/aboutus/smart-thermostat-comparison-table'),
         },
         {
           text: 'Subscription',
-          href: getPermalink('/landing/subscription'),
+          href: getPermalink('/aboutus/subscription'),
         },
       ],
     },
