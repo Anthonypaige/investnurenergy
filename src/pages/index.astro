@@ -4,7 +4,8 @@ import FeaturedArticles from '~/components/widgets/FeaturedArticles.astro';
 import Hero from '~/components/widgets/Hero.astro';
 //import Note from '~/components/widgets/Note.astro';
 import Stats from '~/components/widgets/Stats.astro';
-import Features from '~/components/widgets/Features.astro';
+//import Features from '~/components/widgets/Features.astro';
+import Features3 from '~/components/widgets/Features3.astro';
 import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
 
@@ -59,6 +60,36 @@ const metadata = {
     { title: 'LMI Household', amount: 'HEEHRA' },
   ]}
 />
+
+
+  <!-- Features Widget *************** -->
+  <Features3
+    title="Skills"
+    subtitle="Discover the proficiencies that allow me to bring imagination to life through design."
+    columns={3}
+    defaultIcon="tabler:point-filled"
+    items={[
+      {
+        title: 'Solar Tax Incentive',
+        description: 'Proficient in crafting visually appealing designs that convey messages effectively.',
+        link: '/solar-tax-incentive'  
+      },
+      {
+        title: 'Geothermal Heat Pumps',
+        description: 'Skilled at developing cohesive brand identities, including logos and brand guidelines.',
+        link: '/geothermal-heat-pumps' 
+      },
+      {
+        title: 'Smart Energy Devices',
+        description: 'Experienced in creating user-friendly interfaces and optimizing user experiences.',
+        link: '/smart-energy-devices'  
+      },
+      // ... (continue for other items)
+    ]}
+/>
+
+  <!-- Featured Articles Widget ******************* -->
+
 <FeaturedArticles 
   title="Featured Articles" 
   articleSlugs={[
@@ -71,57 +102,7 @@ const metadata = {
     'home-energy-monitoring-your-guide-to-energy-efficiency',
     'solar-loans-a-guide-to-avoiding-pitfalls-and-maximizing-benefits',
   ]}
-  
-
   />
-
-  <!-- Features Widget *************** -->
-
-  <Features
-    id="features"
-    title="What is included in the Inflation Reduction Act?"
-    subtitle="One of the most professional and comprehensive templates currently on the market. Most starred & forked Astro theme in 2022."
-    items={[
-      {
-        title: 'Home Clean Energy Credit',
-        description:
-          'A seamless integration between two great frameworks that offer high productivity, performance and versatility.',
-        icon: 'tabler:brand-tailwind',
-      },
-      {
-        title: 'Ready-to-use Components',
-        description:
-          'Widgets made with Tailwind CSS ready to be used in Marketing Websites, SaaS, Blogs, Personal Profiles, Small Business...',
-        icon: 'tabler:components',
-      },
-      {
-        title: 'Best Practices',
-        description:
-          'Creating secure, efficient, and user-friendly websites that deliver exceptional experiences and lasting value.',
-        icon: 'tabler:list-check',
-      },
-      {
-        title: 'Excellent Page Speed',
-        description:
-          'Having a good page speed impacts organic search ranking, improves user experience (UI/UX) and increase conversion rates.',
-        icon: 'tabler:rocket',
-      },
-      {
-        title: 'Search Engine Optimization (SEO)',
-        description:
-          "SEO lies in its ability to enhance a website's visibility, driving organic traffic and enabling it to reach a wider audience.",
-        icon: 'tabler:arrows-right-left',
-      },
-      {
-        title: 'Open to new ideas and contributions',
-        description:
-          'Embracing a culture that is open to new ideas and contributions is integral fostering innovation, collaboration, and a dynamic user experience.',
-        icon: 'tabler:bulb',
-      },
-    ]}
-  />
-<!-- IIYE-main site Featured Articles Widget -->
-
  
   <!-- FAQs Widget ******************* -->
 

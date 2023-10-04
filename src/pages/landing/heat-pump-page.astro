@@ -4,7 +4,7 @@ import Features2 from '~/components/widgets/Features2.astro';
 import FeaturedArticles from '~/components/widgets/FeaturedArticles.astro';
 import Stats from '~/components/widgets/Stats.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
-import HeroText from '~/components/widgets/HeroText.astro';
+import Hero from '~/components/widgets/Hero.astro';
 import Content from '~/components/widgets/Content.astro';
 const metadata = {
   title: 'Heat Pumps',
@@ -14,7 +14,7 @@ const metadata = {
 <Layout metadata={metadata}>
   
   <!-- HeroText Widget ******************* -->
-  <HeroText
+  <Hero
   title="Heat Pumps"
   subtitle="Heat Pumps are revolutionizing the way we think about home climate control. These versatile systems are incredibly efficient, generating up to three times more energy than they consume. They offer both heating and cooling solutions, making them a year-round choice for energy-conscious homeowners."
   />
@@ -106,7 +106,7 @@ const metadata = {
 <!-- Heat Pumps (HPQ) Featured Articles Widget -->
 
 <FeaturedArticles 
-  title="Featured Articles on Heat Pumps" 
+  title="Featured Articles" 
   articleSlugs={['whats-a-heat-pump-and-why-do-i-need-to-know', 'air-source-heat-pumps-are-changing-the-game', 'whats-a-ductless-mini-split-heat-pump', 'geothermal-heat-pumps-tapping-into-the-earths-core',]} 
 />
 <Stats
