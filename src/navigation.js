@@ -88,7 +88,7 @@ export const headerData = {
         },
         {
           text: 'Category Page',
-          href: getPermalink('clean energy', 'category'),
+          href: getPermalink('tutorials', 'category'),
         },
         {
           text: 'Tag Page',
