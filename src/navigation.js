@@ -74,16 +74,8 @@ export const headerData = {
       text: 'About Us',
       links: [
         {
-          text: 'Weatherization',
-          href: getPermalink('/weatherization-page'),
-        },
-        {
-          text: 'Heat Pumps',
-          href: getPermalink('/heat-pump-page'),
-        },
-        {
-          text: 'Water Heaters',
-          href: getPermalink('/water-heaters-page'),
+          text: 'Subscription',
+          href: getPermalink('/subscription'),
         },
       ],
     },
@@ -96,7 +88,7 @@ export const headerData = {
         },
         {
           text: 'Category Page',
-          href: getPermalink('tutorials', 'category'),
+          href: getPermalink('clean energy', 'category'),
         },
         {
           text: 'Tag Page',
