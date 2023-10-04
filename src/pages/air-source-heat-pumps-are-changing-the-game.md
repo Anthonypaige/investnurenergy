@@ -1,6 +1,6 @@
 ---
 publishDate: 2023-09-27T00:00:00Z
-title: Air Source Heat Pumps
+title: Air Source Heat Pumps are Changing The Game
 excerpt: Discover the transformative power of air source heat pumps in revolutionizing home comfort. Learn how these systems work and why they are becoming a popular choice for energy-efficient heating and cooling.
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/HPQ-2-cover-art.jpg?raw=true
 category: Energy Efficiency
@@ -16,7 +16,7 @@ Enter the game-changer: Air Source Heat Pumps (ASHPs). These innovative systems 
 
 The Inflation Reduction Act has further propelled ASHPs into the spotlight. This groundbreaking legislation recognizes the crucial role that these systems play in advancing energy efficiency and reducing environmental impact. As a result, ASHPs have become increasingly accessible and affordable, solidifying their position as a top choice for eco-conscious homeowners.
 
-### Financial Incentives for Air Source Heat Pumps:
+### Financial Incentives for Air Source Heat Pumps
 
 When it comes to making your home more energy-efficient, financial incentives can play a significant role. Both federal and state governments offer various rebates and tax credits to encourage the adoption of Air Source Heat Pumps (ASHPs). Here's a quick rundown:
 
@@ -28,7 +28,7 @@ When it comes to making your home more energy-efficient, financial incentives ca
 
 ### State-Level Rebates
 
-- **State-Specific Programs**: Many states offer additional rebates and incentives for installing ASHPs. These can range from direct rebates to property tax reductions. It's advisable to check the[Database of State Incentives for Renewables & Efficiency](DSIRE.org) for the most current information.
+- **State-Specific Programs**: Many states offer additional rebates and incentives for installing ASHPs. These can range from direct rebates to property tax reductions. It's advisable to check the[Database of State Incentives for Renewables & Efficiency](https://www.dsireusa.org/) for the most current information.
 
 By taking advantage of these federal and state-level incentives, you can significantly reduce the upfront costs of installing an ASHP, making it an even more attractive option for energy-efficient home heating and cooling.
 
@@ -48,7 +48,6 @@ Air Source Heat Pumps (ASHPs) offer distinct advantages over traditional air con
 
 - **Streamlined Installation**: If your home already has ductwork, adding an ASHP is usually a straightforward process.
 
-For a deeper dive into Air Source Heat Pumps, [read our comprehensive guide](link to article).
 
 ![Super wide](https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/In-article-images/WHP-2%20in%20article%20image2.png?raw=true)
 
@@ -66,7 +65,7 @@ Ductless Mini-Split Systems have unique features that set them apart from tradit
 
 - **Design Flexibility**: With various styles and mounting options, mini-splits can seamlessly blend into your home's decor.
 
-For more on Ductless Mini-Split Systems, [check out our detailed guide](link to article).
+For more on Ductless Mini-Split Systems,check out our [detailed guide](link to article).
 
 ### **Finding the Right Size: A Crucial Step for Efficiency**
 

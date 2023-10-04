@@ -1,6 +1,6 @@
 ---
 publishDate: 2023-09-27T00:00:00Z
-title: State and Local Energy Efficiency Incentives A Comprehensive Guide
+title: State and Local Energy Efficiency Incentives
 excerpt: State and local energy efficiency incentives offer a valuable resource for homeowners looking to make sustainable improvements.
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/EER-2-cover-art.png?raw=true
 category: Energy Efficient Rebates

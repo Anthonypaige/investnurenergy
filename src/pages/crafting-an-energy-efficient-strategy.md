@@ -1,13 +1,13 @@
 ---
 publishDate: 2023-09-27T00:00:00Z
-title: Crafting an Energy Efficiency Strategy A Practical Approach
+title: Crafting an Energy Efficiency Strategy 
 excerpt: The key is to have a plan. This guide is designed to provide you with the essential information and insights you need to craft a practical and effective energy-saving strategy.
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/EEHU-2-cover-art.png?raw=true
 category: Energy Efficiency
 tags:
-  - Energy Strategy
-  - Practical Approach
-  - Energy Saving
+  - home energy monitoring
+  - smart thermostat
+  - TOU rates
 ---
 
 If you're reading this, you're probably aware of the federal tax incentives and what you qualify for, but you might be wondering where to start. Transitioning towards a sustainable lifestyle through energy efficiency doesn't have to be a complex task. The key is to have a plan. This guide is designed to provide you with the essential information and insights you need to craft a practical and effective energy-saving strategy. By understanding state incentives, smart investments, and strategic approaches, you can tailor your efforts to your specific needs and maximize your savings. Let's dive into the details and help you create a plan that works for you.

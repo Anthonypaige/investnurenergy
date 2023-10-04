@@ -1,6 +1,6 @@
 ---
 publishDate: 2023-09-27T00:00:00Z
-title: Decoding Battery Comparison Tables
+title: Decoding Portable Power Station Comparison Tables
 excerpt: When comparing power stations, it's essential to understand the key terms and how they relate to each other. This knowledge will enable you to make an informed decision based on your specific needs.
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/HES-3-cover-art.jpg?raw=true
 category: Home Energy Storage

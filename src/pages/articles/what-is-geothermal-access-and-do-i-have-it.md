@@ -1,6 +1,6 @@
 ---
 publishDate: 2023-09-27T00:00:00Z
-title: What is Geothermal Access..and Do I Have It?
+title: What is Geothermal Access and Do I Have It?
 excerpt: Considering a geothermal heat pump system for your home? It's vital to comprehend the elements that can impact the system's efficiency. This guide will walk you through the crucial considerations, enabling you to evaluate the feasibility of a geothermal heat pump system for your property.
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/Geo-2-cover-art.png?raw=true'
 category: Clean Energy

@@ -1,6 +1,6 @@
 ---
 publishDate: 2023-09-27T00:00:00Z
-title: Unpacking the Inflation Reduction Act of 2022 A Comprehensive Guide
+title: Unpacking the Inflation Reduction Act A Comprehensive Guide
 excerpt: Unpack the intricacies of the Inflation Reduction Act of 2022 with our comprehensive guide. Get insights into the key components and understand how it aims to reshape the energy landscape for homeowners.
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/IIYE-1-cover-art.jpg?raw=true
 category: Inflation Reduction Act

@@ -1,6 +1,6 @@
 ---
 publishDate: 2023-09-27T00:00:00Z
-title: What Factors Will Affect My Solar ROI?
+title: What Factors Will Effect My Solar ROI?
 excerpt: As the world shifts towards cleaner energy sources, understanding how to maximize the Return on Investment (ROI) of a solar installation becomes paramount.
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/SLR-5-cover-art.jpg?raw=true
 category: Solar Energy

@@ -1,6 +1,6 @@
 ---
 publishDate: 2023-09-27T00:00:00Z
-title: EcoFlow Delta Pro Understanding Your Power Management Choices
+title: EcoFlow Delta Pro Buying Guide
 excerpt: The EcoFlow Delta Pro portable power station is a revolution in home energy management. With its impressive features and upgrade options, it offers a versatile and efficient solution for power management.
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/HES-4-cover-art.png?raw=true
 category: Home Energy Storage
