@@ -1,6 +1,6 @@
 ---
 publishDate: 2023-09-27T00:00:00Z
-title: What's a Heat Pump, and Why Do I Need to Know?
+title: What's a Heat Pump and Why Do I Need to Know
 excerpt: Rediscover heat pumps, an age-old technology that has been modernized to provide both heating and cooling solutions for your home.
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/HPQ-1-cover-art.png?raw=true
 category: Energy Efficiency

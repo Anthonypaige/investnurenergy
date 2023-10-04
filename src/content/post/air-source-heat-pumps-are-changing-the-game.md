@@ -48,7 +48,6 @@ Air Source Heat Pumps (ASHPs) offer distinct advantages over traditional air con
 
 - **Streamlined Installation**: If your home already has ductwork, adding an ASHP is usually a straightforward process.
 
-
 ![Super wide](https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/In-article-images/WHP-2%20in%20article%20image2.png?raw=true)
 
 ### **Ductless Mini-Split Systems: A Versatile Choice**
