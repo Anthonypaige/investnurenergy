@@ -16,18 +16,20 @@ const metadata = {
 ---
 
 <Layout metadata={metadata}>
- 
-  <Hero
-  actions={[]}
->
-  <Fragment slot="title">
-    Welcome to Invest in your Energy We are here to Unpack the Inflation Reduction Act
-  </Fragment>
-
-  <Fragment slot="subtitle">
-    Navigating the Inflation Reduction Act can be complex, but you don't have to do it alone. We're committed to helping you understand and take full advantage of the Act's energy-efficient incentives.
-  </Fragment>
-
+  <Hero actions={[]}>
+    <Fragment slot="title">
+      <div style="font-size: 1em; font-weight: bold; margin-bottom: 8px;">Welcome to Invest in your <span style="color:#228B22; font-weight: 700;">Energy</span></div>
+      <div style="font-size: 0.8em; font-weight: bold;">We are here to Unpack the Inflation Reduction Act</div>
+    </Fragment>
+  
+    <Fragment slot="subtitle">
+      Navigating the Inflation Reduction Act can be complex, but you don't have to do it alone. We're committed to helping you understand and take full advantage of the Act's energy-efficient incentives.
+    </Fragment>
+  </Hero>
+  
+  
+  
+  
     <!-- Video -->
     <!-- <Fragment slot="image">
       <div class="relative h-0 pb-[56.25%]">
@@ -43,7 +45,6 @@ const metadata = {
         </iframe>
       </div>
     </Fragment> -->
-  </Hero>
   
   <!-- Note Widget ******************* -->
   <!-- <Note /> -->
@@ -59,7 +60,7 @@ const metadata = {
   ]}
 />
 <FeaturedArticles 
-  title="<center>Featured Articles </center>" 
+  title="Featured Articles" 
   articleSlugs={[
     'unpacking-the-inflation-reduction-act-a-comprehensive-guide',
     'mastering-time-of-use-rate-strategies-for-smart-energy',

@@ -1,6 +1,6 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
-import HeroText from '~/components/widgets/HeroText.astro';
+import Hero from '~/components/widgets/Hero.astro';
 import FeaturedArticles from '~/components/widgets/FeaturedArticles.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
 
@@ -14,10 +14,16 @@ const metadata = {
 
   
 <!-- Hero Widget ******************* -->
-<HeroText
-title="Solar Tax Incentive"
-subtitle="The Federal Solar tax Credit is a landmark piece of legislation.Navigate the financial landscape of solar energy, from federal tax credits to state-level incentives. Get the lowdown on net metering, home energy storage, and what to watch out for with solar loans"
-/>
+<Hero actions={[]}>
+  <Fragment slot="title">
+    <div style="font-size: 1em; font-weight: bold; margin-bottom: 8px;"><span style="color:#FFA500; font-weight: 700;">Solar</span> Tax Incentive</div>
+  </Fragment>
+  <Fragment slot="subtitle">
+    Our comprehensive guide covers everything you need to know about the Federal Solar Tax Credit. From maximizing your tax benefits to understanding net metering and solar loans, we've got you covered.
+  </Fragment>
+</Hero>
+
+
 
 <!-- Featured Articles Widget ******************* -->
 <FeaturedArticles 

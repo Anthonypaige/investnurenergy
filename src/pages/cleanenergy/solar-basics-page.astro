@@ -13,10 +13,16 @@ const metadata = {
 <Layout metadata={metadata}>
   <!-- Hero Widget ******************* -->
 
-  <Hero
-    title="Solar Energy Basics"
-    subtitle="Get acquainted with the essentials of solar energy. This page helps you understand the basics, prequalify your home, and assess your suitability for solar adoption."
-    />
+  <Hero actions={[]}>
+    <Fragment slot="title">
+      <div style="font-size: 1em; font-weight: bold; margin-bottom: 8px;"><span style="color:#FFA500; font-weight: 700;">Solar</span> Basics</div>
+    </Fragment>
+    <Fragment slot="subtitle">
+      Get acquainted with the essentials of solar energy. This page helps you understand the basics, prequalify your home, and assess your suitability for solar adoption.
+    </Fragment>
+  </Hero>
+  
+    
     <section>
       <SolarMapZoom />
     </section>

@@ -1,6 +1,6 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
-import HeroText from '~/components/widgets/HeroText.astro';
+import Hero from '~/components/widgets/Hero.astro';
 import FeaturedArticles from '~/components/widgets/FeaturedArticles.astro';
 import Content from '~/components/widgets/Content.astro';
 
@@ -10,11 +10,16 @@ const metadata = {
 ---
 
 <Layout metadata={metadata}>
-  <!-- Hero Widget -->
-  <HeroText
-    title="Home Energy Storage"
-    subtitle="Thanks to the Inflation Reduction Act of 2022, Home Energy Storage has become more attainable than ever. This enables you to achieve energy independence, enjoy significant cost savings, and enhance resilience and sustainability right in your own home, all while safeguarding against power outages."
-  />
+  <Hero actions={[]}>
+    <Fragment slot="title">
+      <div style="font-size: 1em; font-weight: bold; margin-bottom: 8px;">Home <span style="color:#228B22; font-weight: 700;">Energy</span> Storage</div>
+    </Fragment>
+  
+    <Fragment slot="subtitle">
+      Thanks to the Inflation Reduction Act of 2022, Home Energy Storage has become more attainable than ever. This enables you to achieve energy independence, enjoy significant cost savings, and enhance resilience and sustainability right in your own home, all while safeguarding against power outages.
+    </Fragment>
+  </Hero>
+  
 
   <!-- Content Widget -->
   <Content

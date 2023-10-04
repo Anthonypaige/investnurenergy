@@ -12,17 +12,18 @@ const metadata = {
 ---
 
 <Layout metadata={metadata}>
-  <!-- Hero Widget ******************* -->
-  <Hero
-  actions={[]}
->
-  <Fragment slot="title">
-    Energy Efficient Rebates 
-  </Fragment>
-
-  <Fragment slot="subtitle">
-    There are a number of energy efficient rebates available via the HEEHRA act and through your local utility providers. These rebates have nothing to do with your tax liability. 
-  </Fragment>
+  <Hero actions={[]}>
+    <Fragment slot="title">
+      <div style="font-size: 1em; font-weight: bold; margin-bottom: 8px;"><span style="color:#228B22; font-weight: 700;">Energy</span> Efficient Rebates</div>
+    </Fragment>
+  
+    <Fragment slot="subtitle">
+      Our page is dedicated to helping you understand and take advantage of both state-level rebates and the federal Electrification Rebate Act (HEEHRA). Unlike tax credits, these rebates are direct financial incentives that come from state-level programs—even when backed by federal acts like HEEHRA.
+    </Fragment>
+  </Hero>
+  
+  
+  
 
   <!-- <Fragment slot="image">
     <div class="relative h-0 pb-[56.25%]">
@@ -38,7 +39,7 @@ const metadata = {
       </iframe>
     </div>
   </Fragment> -->
-</Hero>
+
 
  <!-- Features2 Widget ************** -->
  <Features2
@@ -97,14 +98,10 @@ const metadata = {
     'smart-thermostat-shopping-guide-what-you-need-to-know',
     'home-energy-monitoring-your-guide-to-energy-efficiency',
   ]}
-  
-
   />
 <!-- Features Widget *************** -->
 
 <Features
-  id="features"
-  tagline="Features"
   title="What is Included in the Electrification Rebate Act?"
   subtitle="HEEHRA focuses on heating and cooling, safe appliances, and weatherization."
   items={[
@@ -145,8 +142,8 @@ const metadata = {
       icon: 'tabler:bulb',
     },
   ]}
->
-<!-- Featured Articles Widget ******************* -->
+/>
+
 <FeaturedArticles 
   title="Featured Articles for The Electrification Rebate Act" 
   articleSlugs={[
@@ -155,4 +152,4 @@ const metadata = {
     'heat-pump-water-heaters-are-the-model-of-efficiency',
     'a-comprehensive-guide-to-weatherization-and-energy-efficiency',
   ]}
-/>
+  />

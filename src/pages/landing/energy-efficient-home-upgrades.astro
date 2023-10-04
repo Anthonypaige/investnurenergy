@@ -13,17 +13,14 @@ const metadata = {
 
 <Layout metadata={metadata}>
   <!-- Hero Widget ******************* -->
-
-  <Hero
-  actions={[]}
->
-  <Fragment slot="title">
-    The Energy Efficient Home Improvement Credit
-  </Fragment>
-
-  <Fragment slot="subtitle">
-    In a world where every penny counts and sustainability is key, the Energy Efficient Home Improvement Credit (25C) offers a pathway to smarter, greener living
-  </Fragment>
+  <Hero actions={[]}>
+    <Fragment slot="title">
+      <div style="font-size: 1em; font-weight: bold; margin-bottom: 8px;">The <span style="color:#228B22; font-weight: 700;">Energy</span> Efficient Home Improvement Credit</div>
+    </Fragment>
+    <Fragment slot="subtitle">
+      In a world where every penny counts and sustainability is key, the Energy Efficient Home Improvement Credit (25C) offers a pathway to smarter, greener living.
+    </Fragment>
+  </Hero>
 
   <!-- <Fragment slot="image">
     <div class="relative h-0 pb-[56.25%]">
@@ -39,7 +36,7 @@ const metadata = {
       </iframe>
     </div>
   </Fragment> -->
-</Hero>
+
 
   
   <!-- Features2 Widget ************** -->
@@ -95,10 +92,16 @@ const metadata = {
 />
 
   <!-- Featured Articles Widget ******************* -->
-<FeaturedArticles 
-title="Featured Articles for Energy Efficient Home Improvement Credit " 
-articleSlugs={['home-energy-efficient-credit-guide', 'crafting-an-energy-efficient-strategy', 'biomass-boilers-explained' , 'whats-a-heat-pump']} 
+  <FeaturedArticles 
+  title="Featured Articles for Energy Efficient Home Upgrades" 
+  articleSlugs={[
+    'what-is-the-energy-efficient-home-improvement-credit',
+    'crafting-an-energy-efficient-strategy',
+    'biomass-boilers-explained',
+    'iot-is-fueling-smart-energy-devices'
+  ]}  
 />
+
 
   <!-- FAQs Widget ******************* -->
 

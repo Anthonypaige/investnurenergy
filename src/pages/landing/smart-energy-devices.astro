@@ -1,7 +1,7 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
 import SmartEnergyDeviceNote from '~/components/widgets/SmartEnergyDeviceNote.astro';
-import HeroText from '~/components/widgets/HeroText.astro';
+import Hero from '~/components/widgets/Hero.astro';
 import FeaturedArticles from '~/components/widgets/FeaturedArticles.astro';
 
 
@@ -13,10 +13,16 @@ const metadata = {
  
 
  <!-- Hero Widget ******************* -->
- <HeroText
-    title=" Smart Energy Devices"
-    subtitle="Smart Energy Devices offer a new level of control over your home's energy consumption and comfort.Integrate IoT-enabled devices to automate and optimize your home's energy usage, making smart living easier than ever. "
-  />
+ <Hero actions={[]}>
+  <Fragment slot="title">
+    <div style="font-size: 1em; font-weight: bold; margin-bottom: 8px;">Smart <span style="color:#228B22; font-weight: 700;">Energy</span> Devices</div>
+  </Fragment>
+
+  <Fragment slot="subtitle">
+    Smart Energy Devices offer a new level of control over your home's energy consumption and comfort. Integrate IoT-enabled devices to automate and optimize your home's energy usage, making smart living easier than ever.
+  </Fragment>
+</Hero>
+
   <SmartEnergyDeviceNote />
 <!-- Featured Articles Widget ******************* -->
 <FeaturedArticles 

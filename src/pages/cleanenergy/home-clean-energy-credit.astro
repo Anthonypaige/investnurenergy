@@ -15,18 +15,16 @@ const metadata = {
 
 <Layout metadata={metadata}>
   <!-- Hero Widget ******************* -->
-  <Hero
-  actions={[]}
->
-  <Fragment slot="title">
-    The Home Clean Energy Credit
-  </Fragment>
-
-  <Fragment slot="subtitle">
-    
-In this era of rising utility costs and dwindling fossil fuels, it's time we take a closer look at our energy choices. The Residential Clean Energy Credit (25D) has given us that opprtunity.
-  </Fragment>
-
+  <Hero actions={[]}>
+    <Fragment slot="title">
+      <div style="font-size: 1em; font-weight: bold; margin-bottom: 8px;">The Home Clean <span style="color:#228B22; font-weight: 700;">Energy</span> Credit</div>
+    </Fragment>
+  
+    <Fragment slot="subtitle">
+      In this era of rising utility costs and dwindling fossil fuels, it's time we take a closer look at our energy choices. The Residential Clean Energy Credit (25D) has given us that opportunity.
+    </Fragment>
+  </Hero>
+  
   <!-- <Fragment slot="image">
     <div class="relative h-0 pb-[56.25%]">
       <iframe
@@ -41,7 +39,7 @@ In this era of rising utility costs and dwindling fossil fuels, it's time we tak
       </iframe>
     </div>
   </Fragment> -->
-</Hero>
+
 
   <!-- Features2 Widget ************** -->
  <Features2
@@ -108,9 +106,15 @@ In this era of rising utility costs and dwindling fossil fuels, it's time we tak
 
 <!-- Featured Articles Widget ******************* -->
 <FeaturedArticles 
-  title="Feature Articles for Home Clean Energy Credit" 
-  articleSlugs={['home-clean-energy-credit-guide', 'alleviating-grid-strain', 'hybrid-wind-solar-systems', 'overview-solar-water-heaters', 'what-is-energy-arbitrage','geothermal-heat-pumps-tapping-earths-core','spotlight-on-solar-industry','importance-of-backup-batteries',]} 
+  title="Featured Articles for Solar Tax Incentive" 
+  articleSlugs={[
+    'what-is-the-residential-clean-energy-credit',
+    'alleviating-power-grid-strain',
+    'solar-water-heaters-are-a-sustainable-solution-for-your-home',
+    'hybrid-wind-and-solar-systems-are-the-future-of-home-energy'
+  ]}  
 />
+
 
   
 
