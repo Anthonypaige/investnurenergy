@@ -1,8 +1,8 @@
 ---
 publishDate: 2023-09-27T00:00:00Z
-title: 'Smart Thermostat Shopping Guide: What You Need to Know'
-excerpt: 'With features ranging from advanced learning algorithms to geofencing and air quality monitoring, smart thermostats offer a comprehensive solution for optimizing your heating and cooling systems.'
-image: 'https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/THRM-1-cover-art.png?raw=true'
+title: Smart Thermostat Shopping Guide What You Need to Know
+excerpt: With features ranging from advanced learning algorithms to geofencing and air quality monitoring, smart thermostats offer a comprehensive solution for optimizing your heating and cooling systems.
+image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/THRM-1-cover-art.png?raw=true
 category: Smart Thermostats
 tags:
   - Smart Thermostat

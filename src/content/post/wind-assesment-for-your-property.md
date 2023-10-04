@@ -1,8 +1,8 @@
 ---
 publishDate: 2023-09-27T00:00:00Z
-title: 'Residential Wind Power: Is Your Home a Good Candidate?'
-excerpt: 'Delve into the world of residential wind power and determine if your home is a suitable candidate. This guide provides insights into the prerequisites and evaluations necessary for a successful wind power installation.'
-image: 'https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/WND-2-cover-art.png?raw=true'
+title: Is Your Home a Good Candidate for Residential Wind Power?
+excerpt: Delve into the world of residential wind power and determine if your home is a suitable candidate. This guide provides insights into the prerequisites and evaluations necessary for a successful wind power installation.
+image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/WND-2-cover-art.png?raw=true
 category: Clean Energy
 tags:
   - Residential Wind Power

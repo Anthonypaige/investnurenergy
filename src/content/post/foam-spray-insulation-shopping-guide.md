@@ -1,8 +1,8 @@
 ---
 publishDate: 2023-09-27T00:00:00Z
-title: 'Foam Spray Insulation: The Ultimate Buying Guide'
-excerpt: 'Navigate the world of foam spray insulation with our ultimate buying guide. Learn about its advantages, installation process, and how it can contribute to a more energy-efficient home.'
-image: 'https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/WTHR-3-cover-art.jpg?raw=true'
+title: Foam Spray Insulation The Ultimate Buying Guide
+excerpt: Navigate the world of foam spray insulation with our ultimate buying guide. Learn about its advantages, installation process, and how it can contribute to a more energy-efficient home.
+image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/WTHR-3-cover-art.jpg?raw=true'
 category: Energy Efficiency
 tags:
   - Foam Spray

@@ -1,8 +1,8 @@
 ---
 publishDate: 2023-09-27T00:00:00Z
-title: "What's a Ductless Mini Split Heat Pump?"
+title: What's a Ductless Mini Split Heat Pump?
 excerpt: 'Uncover the potential of ductless mini-split heat pumps as a modern solution for temperature control in your home. This guide highlights the operational efficiency and the ease of installation that these systems bring to the table.'
-image: 'https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/HPQ-3-cover-art.jpg?raw=true'
+image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/HPQ-3-cover-art.jpg?raw=true
 category: Energy Efficiency
 tags:
   - Ductless Mini Split
