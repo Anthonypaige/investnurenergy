@@ -6,46 +6,73 @@ export const headerData = {
       text: 'Clean Energy',
       links: [
         {
-          text: 'Energy Efficient Home Upgrades',
-          href: getPermalink('/cleanenergy/energy-efficient-home-upgrades'),
-        },
-        {
           text: 'Home Clean Energy Credit',
           href: getPermalink('/cleanenergy/home-clean-energy-credit'),
-        },
-        {
-          text: 'Smart Energy Devices',
-          href: getPermalink('/cleanenergy/smart-energy-devices'),
         },
         {
           text: 'Home Energy Storage',
           href: getPermalink('/cleanenergy/home-energy-storage'),
         },
         {
-          text: 'Energy Efficient Rebates',
-          href: getPermalink('/cleanenergy/energy-efficient-rebates'),
-        },
+          text: 'Solar Basics',
+          href: getPermalink('cleanenergy/solar-basics-page'),
+        }, 
         {
           text: 'Solar Tax Incentive',
           href: getPermalink('/cleanenergy/solar-tax-incentive'),
         },
+        {
+          text: 'Geothermal Heat Pumps',
+          href: getPermalink('cleanenergy/geothermal-page'),
+        }, 
+        {
+          text: 'Residential Wind Turbines',
+          href: getPermalink('/cleanenergy/wind-energy-page'),
+        },
       ],
     },
     {
-      text: 'Energy Efficient',
+      text: 'Energy Efficiency',
       links: [
         {
-          text: 'Solar Basics',
-          href: getPermalink('/solar-basics-page'),
+          text: 'Energy Efficient Home Upgrades',
+          href: getPermalink('landing/energy-efficient-home-upgrades'),
         },
         {
-          text: 'Geothermal Heat Pumps',
-          href: getPermalink('/geothermal-page'),
+          text: 'Energy Efficient Rebates',
+          href: getPermalink('landing/energy-efficient-rebates'),
         },
         {
-          text: 'Wind Turbines',
-          href: getPermalink('/wind-energy-page'),
+          text: 'Smart Energy Devices',
+          href: getPermalink('landing/smart-energy-devices'),
+        },     
+        
+        {
+          text: 'Weatherization',
+          href: getPermalink('landing/weatherization-page'),
         },
+        {
+          text: 'Heat Pumps',
+          href: getPermalink('landing/heat-pump-page'),
+        },
+        {
+          text: 'Water Heaters',
+          href: getPermalink('landing/water-heaters-page'),
+        },
+        
+        // {
+        //   text: 'EV Charger Comparison Table',
+        //   href: getPermalink('/landing/ev-charger-comparison-table'),
+        // },
+        // {
+        //   text: 'Smart Thermostat Comparison Table',
+        //   href: getPermalink('/landing/smart-thermostat-comparison-table'),
+        // },
+      ],
+    },
+    {
+      text: 'About Us',
+      links: [
         {
           text: 'Weatherization',
           href: getPermalink('/weatherization-page'),
@@ -57,23 +84,6 @@ export const headerData = {
         {
           text: 'Water Heaters',
           href: getPermalink('/water-heaters-page'),
-        },
-      ],
-    },
-    {
-      text: 'Landing',
-      links: [
-        {
-          text: 'EV Charger Comparison Table',
-          href: getPermalink('/landing/ev-charger-comparison-table'),
-        },
-        {
-          text: 'Smart Thermostat Comparison Table',
-          href: getPermalink('/landing/smart-thermostat-comparison-table'),
-        },
-        {
-          text: 'Subscription',
-          href: getPermalink('/landing/subscription'),
         },
       ],
     },
