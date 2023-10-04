@@ -3,36 +3,36 @@ import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
 export const headerData = {
   links: [
     {
-      text: 'Homes',
+      text: 'Clean Energy',
       links: [
         {
           text: 'Energy Efficient Home Upgrades',
-          href: getPermalink('/homes/energy-efficient-home-upgrades'),
+          href: getPermalink('/cleanenergy/energy-efficient-home-upgrades'),
         },
         {
           text: 'Home Clean Energy Credit',
-          href: getPermalink('/homes/home-clean-energy-credit'),
+          href: getPermalink('/cleanenergy/home-clean-energy-credit'),
         },
         {
           text: 'Smart Energy Devices',
-          href: getPermalink('/homes/smart-energy-devices'),
+          href: getPermalink('/cleanenergy/smart-energy-devices'),
         },
         {
           text: 'Home Energy Storage',
-          href: getPermalink('/homes/home-energy-storage'),
+          href: getPermalink('/cleanenergy/home-energy-storage'),
         },
         {
           text: 'Energy Efficient Rebates',
-          href: getPermalink('/homes/energy-efficient-rebates'),
+          href: getPermalink('/cleanenergy/energy-efficient-rebates'),
         },
         {
           text: 'Solar Tax Incentive',
-          href: getPermalink('/homes/solar-tax-incentive'),
+          href: getPermalink('/cleanenergy/solar-tax-incentive'),
         },
       ],
     },
     {
-      text: 'Pages',
+      text: 'Energy Efficient',
       links: [
         {
           text: 'Solar Basics',
@@ -93,10 +93,6 @@ export const headerData = {
           href: getPermalink('astro', 'tag'),
         },
       ],
-    },
-    {
-      text: 'Widgets',
-      href: '#',
     },
   ],
   actions: [{ text: 'Download', href: 'https://github.com/onwidget/astrowind', target: '_blank' }],
