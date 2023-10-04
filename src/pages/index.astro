@@ -3,6 +3,7 @@ import Layout from '~/layouts/PageLayout.astro';
 import FeaturedArticles from '~/components/widgets/FeaturedArticles.astro';
 import Hero from '~/components/widgets/Hero.astro';
 import Note from '~/components/widgets/Note.astro';
+import Stats from '~/components/widgets/Stats.astro';
 import Features from '~/components/widgets/Features.astro';
 import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
@@ -20,11 +21,11 @@ const metadata = {
   actions={[]}
 >
   <Fragment slot="title">
-    We are here to Unpack The Inflation reduction Act
+    Welcome to Invest in your Energy We are here to Unpack the Inflation Reduction Act
   </Fragment>
 
   <Fragment slot="subtitle">
-    Take Charge of Your Energy
+    Navigating the Inflation Reduction Act can be complex, but you don't have to do it alone. We're committed to helping you understand and take full advantage of the Act's energy-efficient incentives.
   </Fragment>
 
     <!-- Video -->
@@ -45,14 +46,27 @@ const metadata = {
   </Hero>
   
   <!-- Note Widget ******************* -->
-
   <Note />
+  <!-- Note Widget ******************* -->
+
+  <Stats
+  title="Residential Federal Acts"
+  stats={[
+    { title: 'Home Clean Energy', amount: '25D' },
+    { title: 'Energy Efficient Home', amount: '25C' },
+    { title: 'Home EV Charger', amount: '30C' },
+    { title: 'LMI Household', amount: 'HEEHRA' },
+  ]}
+/>
+<FeaturedArticles 
+  title="<center>Featured Articles </center>" 
+  articleSlugs={['guide-to-inflation-reduction-act','alleviating-grid-strain', 'ev-charger-shopping-guide','mastering-time-of-use-rates','avoiding-pitfalls-of-solar-loans','electrical-panel-upgrade-credit','smart-thermostat-shopping-guide','importance-of-backup-batteries',]} 
+/>
 
   <!-- Features Widget *************** -->
 
   <Features
     id="features"
-    tagline="Features"
     title="What is included in the Inflation Reduction Act?"
     subtitle="One of the most professional and comprehensive templates currently on the market. Most starred & forked Astro theme in 2022."
     items={[
@@ -95,10 +109,7 @@ const metadata = {
     ]}
   />
 <!-- IIYE-main site Featured Articles Widget -->
-<FeaturedArticles 
-  title="<center>Featured Articles </center>" 
-  articleSlugs={['guide-to-inflation-reduction-act', 'mastering-time-of-use-rates', 'alleviating-grid-strain', 'electrical-panel-upgrade-credit']} 
-/>
+
  
   <!-- FAQs Widget ******************* -->
 

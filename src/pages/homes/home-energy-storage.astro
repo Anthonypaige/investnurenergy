@@ -3,6 +3,7 @@ import Layout from '~/layouts/PageLayout.astro';
 import HeroText from '~/components/widgets/HeroText.astro';
 import FeaturedArticles from '~/components/widgets/FeaturedArticles.astro';
 import Content from '~/components/widgets/Content.astro';
+import HomeEnergyStorageNote from '~/components/widgets/HomeEnergyStorageNote.astro';
 
 const metadata = {
   title: 'Home Energy Storage page',
@@ -15,44 +16,54 @@ const metadata = {
  <!-- Hero Widget ******************* -->
  <HeroText
     title="Home Energy Storage"
-    subtitle="Achieve grid independence and secure your energy future with advanced home storage solutions."
+    subtitle="Thanks to the Inflation Reduction Act of 2022, Home Energy Storage has become more attainable than ever. This enables you to achieve energy independence, enjoy significant cost savings, and enhance resilience and sustainability right in your own home, all while safeguarding against power outages."
   />
 
- <!-- Content Widget **************** -->
+  <HomeEnergyStorageNote />
 
- <Content
- isReversed
- items={[
-   {
-     title: 'Backup Battery',
-     description:
-       'By sealing gaps and insulating properly, you can significantly reduce energy consumption, lowering utility bills. The average household can save up to $350 per year through proper weatherization..',
-   },
-   {
-     title: 'Energy Arbitrage',
-     description:
-       'Well-insulated buildings retain a safe indoor temperature for longer in the event of energy disruptions.',
-   },
-   {
-     title: 'Wind or Solar Storage',
-     description:
-       'Improved indoor air quality by reducing outdoor pollutants benefits those with allergies or respiratory issues.',
-   },
-   ]}
- image={{
-   src: 'https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/page-art/HES-qualify-page-art.png?raw=true',
-   alt: 'Qualifications for Battery Storage eligibility ',
- }}
+<!-- Content Widget **************** -->
+
+<Content
+  isReversed
+  items={[
+    {
+      title: 'Backup Battery',
+      description:
+        'A home energy storage system serves as a backup battery during power outages, ensuring that your essential appliances keep running.',
+    },
+    {
+      title: 'Energy Arbitrage',
+      description:
+        'Store energy when electricity rates are low and use it during peak hours to save money. This strategy, known as energy arbitrage, can significantly reduce your electricity bills.',
+    },
+    {
+      title: 'Wind or Solar Storage',
+      description:
+        'Home energy storage allows you to store excess energy generated from your wind or solar installations. This stored energy can be used when renewable sources are not producing, ensuring a consistent power supply.',
+    },
+    {
+      title: 'Grid Independence',
+      description:
+        'With a home energy storage system, you can achieve a level of grid independence, reducing your reliance on utility companies and enhancing your self-sufficiency.',
+    },
+    ]}
+  image={{
+    src: 'https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/page-art/HES-qualify-page-art.png?raw=true',
+    alt: 'Qualifications for Battery Storage eligibility',
+  }}
 >
- <Fragment slot="content">
-   <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">How Home Energy Storage helps you</h3>
-    Home Energy Storage is the key to Energy Independence
- </Fragment>
+  <Fragment slot="content">
+    <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">How Home Energy Storage Helps You</h3>
+     Home Energy Storage is the key to Energy Independence.
+  </Fragment>
 
- <Fragment slot="bg">
-   <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
- </Fragment>
+  <Fragment slot="bg">
+    <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+  </Fragment>
 </Content>
+
+<!-- Content Widget **************** -->
+
 
 <!-- Featured Articles Widget ******************* -->
 <FeaturedArticles 
