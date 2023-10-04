@@ -16,7 +16,7 @@ export const headerData = {
         {
           text: 'Solar Basics',
           href: getPermalink('cleanenergy/solar-basics-page'),
-        }, 
+        },
         {
           text: 'Solar Tax Incentive',
           href: getPermalink('/cleanenergy/solar-tax-incentive'),
@@ -24,7 +24,7 @@ export const headerData = {
         {
           text: 'Geothermal Heat Pumps',
           href: getPermalink('cleanenergy/geothermal-page'),
-        }, 
+        },
         {
           text: 'Residential Wind Turbines',
           href: getPermalink('/cleanenergy/wind-energy-page'),
@@ -45,8 +45,8 @@ export const headerData = {
         {
           text: 'Smart Energy Devices',
           href: getPermalink('landing/smart-energy-devices'),
-        },     
-        
+        },
+
         {
           text: 'Weatherization',
           href: getPermalink('landing/weatherization-page'),
@@ -59,7 +59,7 @@ export const headerData = {
           text: 'Water Heaters',
           href: getPermalink('landing/water-heaters-page'),
         },
-        
+
         // {
         //   text: 'EV Charger Comparison Table',
         //   href: getPermalink('/landing/ev-charger-comparison-table'),
