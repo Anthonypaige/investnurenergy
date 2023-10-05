@@ -1,6 +1,6 @@
 ---
 import Layout from '~/layouts/LandingLayout.astro';
-
+import EvseComparisonTable from '~/components/widgets/EvseComparisonTable.astro';
 import Hero from '~/components/widgets/Hero.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 
@@ -24,7 +24,7 @@ const metadata = {
       alt: 'Ironic image associated with canceling a subscription. Subscription Landing Page Demo',
     }}
   />
-
+  <EvseComparisonTable />
   <CallToAction
     title="Coming soon"
     subtitle="We are working on the content of these demo pages. You will see them very soon. Stay tuned Stay tuned!"

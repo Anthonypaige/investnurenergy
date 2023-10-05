@@ -20,6 +20,7 @@
     "@fontsource-variable/inter": "^5.0.8",
     "astro": "^3.1.2",
     "astro-icon": "^1.0.0-next.2",
+    "jquery": "^3.7.1",
     "limax": "4.1.0",
     "lodash.merge": "^4.6.2",
     "unpic": "^3.10.0"
@@ -31,6 +32,7 @@
     "@iconify-json/flat-color-icons": "^1.1.7",
     "@iconify-json/tabler": "^1.1.91",
     "@tailwindcss/typography": "^0.5.10",
+    "@types/jquery": "^3.5.21",
     "@types/lodash.merge": "^4.6.7",
     "@typescript-eslint/eslint-plugin": "^6.7.2",
     "@typescript-eslint/parser": "^6.7.2",

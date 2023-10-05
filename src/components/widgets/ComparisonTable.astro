@@ -1,67 +1,45 @@
 ---
-import Layout from "~/layouts/Layout.astro";
+import CompTableLayout from "~/layouts/CompTableLayout.astro";
 
-interface ComparisonTableProps {
+const { headers, rows } = Astro.props as {
   headers: string[];
   rows: Array<Record<string, any>>;
-}
-
-const { headers, rows } = Astro.props as ComparisonTableProps;
+};
 ---
 
-<Layout>
-    <div class="comparison-table-container">
-      <table id="comparisonTable">
-        <thead>
+<CompTableLayout>
+  <div class="comparison-table-container">
+    <table id="comparisonTable">
+      <thead>
+        <tr>
+          {headers.map((header) => (
+            <th>{header}</th>
+          ))}
+        </tr>
+      </thead>
+      <tbody>
+        {rows.map((row) => (
           <tr>
             {headers.map((header) => (
-              <th>{header}</th>
+              <td>{typeof row[header] === "object" ? row[header].html : row[header]}</td>
             ))}
           </tr>
-        </thead>
-        <tbody>
-          {rows.map((row) => (
-            <tr>
-              {headers.map((header) => (
-                <td>{typeof row[header] === "object" ? row[header].html : row[header]}</td>
-              ))}
-            </tr>
-          ))}
-        </tbody>
-      </table>
-    </div>
-  
-    <script type="module">
-      // This will run on the client
-      Astro.onRender(() => {
-        $('#comparisonTable').DataTable();
-      });
-    </script>
-  
+        ))}
+      </tbody>
+    </table>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script type="module">
+    // This will run on the client
+    document.addEventListener("DOMContentLoaded", function() {
+      const table = document.getElementById('comparisonTable');
+      $(table).DataTable();
+    });
+  </script>
+
+  <!-- Add your CSS styling here -->
   <style>
-    /* Add your CSS styling here */
-    #comparisonTable {
-      font-family: Arial, sans-serif;
-      width: 100%;
-      border-collapse: collapse;
-      text-align: center;
-    }
-    #comparisonTable td, #comparisonTable th {
-      padding: 10px;
-      border: 1px solid #dddddd;
-    }
-    #comparisonTable th {
-      background-color: #4CAF50;
-      color: white;
-      padding-top: 12px;
-      padding-bottom: 12px;
-      text-align: left;
-    }
-    #comparisonTable tr:nth-child(even) {
-      background-color: #f9f9f9;
-    }
-    #comparisonTable tr:hover {
-      background-color: #f1f1f1;
-    }
+    /* ... (your existing CSS) ... */
   </style>
-</Layout>
+</CompTableLayout>
