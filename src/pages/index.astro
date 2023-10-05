@@ -2,11 +2,9 @@
 import Layout from '~/layouts/PageLayout.astro';
 import FeaturedArticles from '~/components/widgets/FeaturedArticles.astro';
 import Hero from '~/components/widgets/Hero.astro';
-//import Note from '~/components/widgets/Note.astro';
 import Stats from '~/components/widgets/Stats.astro';
-//import Features from '~/components/widgets/Features.astro';
 import Features3 from '~/components/widgets/Features3.astro';
-import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
+//import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
 
 
@@ -16,6 +14,11 @@ const metadata = {
 };
 ---
 <Layout metadata={metadata}>
+  <Fragment slot="head">
+  <script src="https://embed.rewiringamerica.org/calculator.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://embed.rewiringamerica.org/rewiring-fonts.css"/>
+  </Fragment>
+
   <Hero actions={[]}>
     <Fragment slot="title">
       <div style="font-size: 1em; font-weight: bold; margin-bottom: 8px;">Welcome to <span style="color:#228B22; font-weight: 700;">Invest</span> in your <span style="color:#228B22; font-weight: 700;">Energy</span></div>
@@ -28,43 +31,21 @@ const metadata = {
     </Fragment>
   </Hero>
 
-
   
-  
-  
-  
-    <!-- Video -->
-    <!-- <Fragment slot="image">
-      <div class="relative h-0 pb-[56.25%]">
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/dsTXcSeAZq8"
-          title="YouTube video player"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"
-          allowfullscreen
-          class="absolute top-0 left-0 w-full h-full"
-        >
-        </iframe>
-      </div>
-    </Fragment> -->
-  
-  <!-- Note Widget ******************* -->
-  <!-- <Note /> -->
-  <!-- Note Widget ******************* -->
+  <!-- Stats Widget ******************* -->
 
   <Stats
-  title="Residential Federal Acts"
+  title=" Federal Sub-acts of the Inflation Reduction Act"
   stats={[
     { title: 'Home Clean Energy', amount: '25D' },
     { title: 'Energy Efficient Home', amount: '25C' },
     { title: 'Home EV Charger', amount: '30C' },
+    { title: 'EV Rebate', amount: '30D' },
     { title: 'LMI Household', amount: 'HEEHRA' },
   ]}
 />
 
-<!-- Features3 Widget *************** -->
-<Features3
+ <Features3
   title="Explore Our Themed Pages of Products and Services Covered in the Inflation Reduction Act"
   subtitle="The Inflation Reduction Act offers a wide range of opportunities for homeowners to make their homes more energy-efficient and sustainable. Our themed pages dive deep into the various products and services that are covered under this act, providing you with all the information you need to make informed decisions."
   columns={3}
@@ -117,7 +98,7 @@ const metadata = {
     },
   ]}
 />
-<!-- Embed the Rewiring America Calculator -->
+
 <Fragment>
   <div id="calculator-section">
     <h2 id="calculator-title">Inflation Reduction Act Eligibility Calculator</h2>
@@ -125,9 +106,7 @@ const metadata = {
       <rewiring-america-calculator api-key="zpka_e218e73d2b60449ea4fd97122a5334bc_1dd9e2f0"></rewiring-america-calculator>
     </div>
   </div>
-</Fragment>
-
-  <!-- Featured Articles Widget ******************* -->
+</Fragment> 
 
 <FeaturedArticles 
   title="Featured Articles" 
@@ -142,52 +121,9 @@ const metadata = {
     'solar-loans-a-guide-to-avoiding-pitfalls-and-maximizing-benefits',
   ]}
   />
- 
- <!-- FAQs Widget ******************* -->
 
-<FAQs
-title="Frequently Asked Questions"
-subtitle="Dive into the following questions to gain insights into the Inflation Reduction Act and how it impacts your energy choices."
-classes={{ container: 'max-w-6xl' }}
-items={[
-  {
-    title: 'What types of equipment are eligible for the Efficient Home Improvement Credit in 2025?',
-    description:
-      "Eligible equipment must meet the highest efficiency tier set by the Consortium for Energy Efficiency (CEE). For alternative oil furnaces, they must meet 2021 Energy Star efficiency criteria and be rated for specific fuel blends.",
-  },
-  {
-    title: 'What are the requirements for the Residential Clean Energy Property Credit?',
-    description:
-      "Solar water heating systems must be certified by the Solar Rating Certification Corporation or a comparable entity. Geothermal heat pumps must meet Energy Star program requirements, and battery storage must have a capacity of 3 kilowatt-hours or greater.",
-  },
-  {
-    title: 'Can I claim credits for improvements made to my second home or rental property?',
-    description:
-      "Yes, credits are available for certain improvements made to second homes. Renters may also be eligible if they make eligible improvements to their principal residence.",
-  },
-  {
-    title: 'When can I claim these credits?',
-    description:
-      "Credits can only be claimed in the year the property is installed. There is no lifetime limit, but yearly limits do apply.",
-  },
-  {
-    title: 'Can these credits be carried forward to the next tax year?',
-    description:
-      "The ability to carry forward credits varies by credit type. Please consult the specific guidelines for each credit to determine eligibility.",
-  },
-  {
-    title: 'How do subsidies and rebates affect the amount of credit I can claim?',
-    description:
-      "Subsidies and rebates may affect the amount of credit that can be claimed. Both credits are nonrefundable and can offset the Alternative Minimum Tax (AMT).",
-  },
-]}
-/>
 
-  
-  <BlogLatestPosts
-  title="Find more content in our Blog"
-  />
-<!-- Custom CSS for Rewiring America Calculator -->
+  <!-- Custom CSS for Rewiring America Calculator -->
 <Fragment slot="styles">
   <style>
     /* Add your custom styles for the calculator here */
@@ -219,4 +155,49 @@ items={[
 </Fragment>
 
 
-</Layout>
+
+ <!-- FAQs Widget ******************* -->
+
+<FAQs
+title="Frequently Asked Questions"
+subtitle="Dive into the following questions to gain insights into the Inflation Reduction Act and how it impacts your energy choices."
+classes={{ container: 'max-w-6xl' }}
+items={[
+   {
+      title: 'What energy efficient home upgrades are eligible for the Energy Efficient Home Improvement Credit (25C)',
+      description:
+        "Eligible upgrades under the 25C tax credit include insulation, energy-efficient windows and doors, and certain types of roofs and HVAC systems. These improvements must meet specific energy efficiency criteria to qualify. The credit covers 10% of the cost, up to $500, with certain limitations for each type of upgrade.",
+    },
+    {
+      title: 'What clean energy is included in the Residential Clean Energy Property Credit? (25D)',
+      description:
+        "The 25D tax credit covers solar panels, solar water heaters, geothermal heat pumps, small wind turbines, and fuel cells. These systems must be installed in your primary residence or a second home, but not rental properties. The credit generally covers 26% of the installation costs with no upper limit.",
+    },
+    {
+      title: 'When can I claim these tax credits?',
+      description:
+        "Credits can only be claimed in the year the property is installed. There is no lifetime limit, but yearly limits do apply. It's crucial to keep all receipts and Federal Certification Statements to validate your claim.",
+    },
+    {
+      title: 'Can federal tax credits be carried forward to the next tax year?',
+      description:
+        "Clean Energy covered under 25D has a rollover option, allowing you to carry forward unused credits to future tax years. However, the Energy Efficient Home Improvement Credit (25C) does not offer a rollover option, so it's use-it-or-lose-it within the same tax year.",
+    },
+    {
+      title: 'Can I claim credits for improvements made to my second home or rental property?',
+      description:
+        "Yes, credits are available for certain improvements made to second homes. Renters may also be eligible if they make eligible improvements to their principal residence.",
+    },
+    {
+    title: 'Can I claim credits for improvements made to my second home or rental property?',
+    description:
+      "Yes, credits are available for certain improvements made to second homes. Renters may also be eligible if they make eligible improvements to their principal residence.",
+  },
+  ]}
+/>
+
+  
+  <!-- <BlogLatestPosts
+  title="Find more content in our Blog"
+  /> -->
+
