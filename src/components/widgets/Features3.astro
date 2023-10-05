@@ -55,10 +55,7 @@ const {
   </div>
 
   <ItemGrid
-    items={items.map(item => ({
-      ...item,
-      title: item.link ? `<a href="${item.link}">${item.title}</a>` : item.title,
-    }))}
+    items={items}
     columns={columns}
     defaultIcon={defaultIcon}
     classes={{
