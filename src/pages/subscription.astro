@@ -1,6 +1,5 @@
 ---
 import Layout from '~/layouts/LandingLayout.astro';
-import EvseComparisonTable from '~/components/widgets/EvseComparisonTable.astro';
 import Hero from '~/components/widgets/Hero.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 
@@ -13,8 +12,8 @@ const metadata = {
   <!-- Hero2 Widget ******************* -->
 
   <Hero
-    title="Subscription Landing Page: Turn Casual Browsers into Loyal Subscribers!"
-    subtitle="Unlock the formula for a Subscription Landing Page that keeps your audience coming back for more."
+    title="Sign up for our custom Newsletters!"
+    subtitle= "Tell us what you want more information on, and what you don't want information on"
     actions={[
       { variant: 'primary', text: 'Call to Action', href: '#', icon: 'tabler:square-rounded-arrow-right' },
       { text: 'Learn more', href: '#' },
@@ -24,7 +23,7 @@ const metadata = {
       alt: 'Ironic image associated with canceling a subscription. Subscription Landing Page Demo',
     }}
   />
-  <EvseComparisonTable />
+ 
   <CallToAction
     title="Coming soon"
     subtitle="We are working on the content of these demo pages. You will see them very soon. Stay tuned Stay tuned!"

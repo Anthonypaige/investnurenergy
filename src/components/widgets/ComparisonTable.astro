@@ -29,17 +29,12 @@ const { headers, rows } = Astro.props as {
     </table>
   </div>
 
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script type="module">
     // This will run on the client
+    import $ from 'jquery';
     document.addEventListener("DOMContentLoaded", function() {
       const table = document.getElementById('comparisonTable');
       $(table).DataTable();
     });
   </script>
-
-  <!-- Add your CSS styling here -->
-  <style>
-    /* ... (your existing CSS) ... */
-  </style>
 </CompTableLayout>
