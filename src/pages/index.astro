@@ -61,61 +61,69 @@ const metadata = {
   ]}
 />
 
-
-  <!-- Features Widget *************** -->
-  <Features3
-    title="Skills"
-    subtitle="Discover the proficiencies that allow me to bring imagination to life through design."
-    columns={3}
-    defaultIcon="tabler:point-filled"
-    items={[
-      {
-        title: 'Solar Tax Incentive',
-        description: 'Proficient in crafting visually appealing designs that convey messages effectively.',
-        link: '#',
-      },
-      {
-        title: 'Geothermal Heat Pumps',
-        description: 'Skilled at developing cohesive brand identities, including logos and brand guidelines.',
-        link: '#',
-      },
-      {
-        title: 'Smart Energy Devices',
-        description: 'Experienced in creating user-friendly interfaces and optimizing user experiences.',
-        link: '#',
-      },
-      {
-        title: 'Home Energy Storage',
-        description: 'Skilled in using Photoshop, Illustrator, and InDesign to create and edit visual elements.',
-        link: '#',
-      },
-      {
-        title: 'Residential Wind Turbines',
-        description: 'Adept in selecting and manipulating typefaces to enhance design aesthetics.',
-        link: '#',
-      },
-      {
-        title: 'Heat Pumps',
-        description: 'Proficient in using color to evoke emotions and enhance visual harmony.',
-        link: '#',
-      },
-      {
-        title: 'Solar Basics',
-        description: 'Knowledgeable in designing for both print materials and digital platforms.',
-        link: '#',
-      },
-      {
-        title: 'Water Heaters',
-        description: 'Diligent in maintaining precision and quality in all design work.',
-        link: '#',
-      },   
-      {
-        title: 'Weatherization',
-        description: 'Quick to adapt to new design trends, technologies, and client preferences.',
-        link: '#',
-      },
-    ]}
+<!-- Features3 Widget *************** -->
+<Features3
+  title="Explore Our Themed Pages of Products and Services Covered in the Inflation Reduction Act"
+  subtitle="The Inflation Reduction Act offers a wide range of opportunities for homeowners to make their homes more energy-efficient and sustainable. Our themed pages dive deep into the various products and services that are covered under this act, providing you with all the information you need to make informed decisions."
+  columns={3}
+  defaultIcon="tabler:point-filled"
+  items={[
+    {
+      title: 'Heat Pumps',
+      description: 'Learn about the efficiency and benefits of heat pumps, and how they can be a cost-effective solution for your home heating and cooling needs.',
+      link: '#',
+    },
+    {
+      title: 'Weatherization',
+      description: 'Discover how weatherization can significantly reduce your energy bills and improve the comfort of your home.',
+      link: '#',
+    },
+    {
+      title: 'Solar Basics',
+      description: 'Get started with solar energy, understand the basics, and find out how it can be a sustainable solution for your energy needs.',
+      link: '#',
+    },
+    {
+      title: 'Home Energy Storage',
+      description: 'Explore how battery storage systems can help you maximize the benefits of your solar or wind energy systems.',
+      link: '#',
+    },
+    {
+      title: 'Wind Energy',
+      description: 'Understand the potential of wind energy as a renewable energy source and how it can be harnessed for residential use.',
+      link: '#',
+    },
+    {
+      title: 'Geothermal Energy',
+      description: 'Dive into the world of geothermal energy and learn how it can provide a consistent and efficient heating and cooling solution.',
+      link: '#',
+    },
+    {
+      title: 'Water Heating',
+      description: 'Explore modern water heating solutions that are both efficient and eco-friendly.',
+      link: '#',
+    },
+    {
+      title: 'Smart Energy Devices',
+      description: 'Learn how smart plugs and Home Energy Monitoring Systems (HEMS) can give you greater control over your home\'s energy consumption.',
+      link: '#',
+    },
+    {
+      title: 'Solar Tax Incentive',
+      description: 'For those looking to understand the specifics of the Inflation Reduction Act, we also offer detailed pages on the sub-acts like 25C, 25D, and HEEHRA.',
+      link: '#',
+    },
+  ]}
 />
+<!-- Embed the Rewiring America Calculator -->
+<Fragment>
+  <div id="calculator-section">
+    <h2 id="calculator-title">Inflation Reduction Act Eligibility Calculator</h2>
+    <div id="calculator-wrapper">
+      <rewiring-america-calculator api-key="zpka_e218e73d2b60449ea4fd97122a5334bc_1dd9e2f0"></rewiring-america-calculator>
+    </div>
+  </div>
+</Fragment>
 
   <!-- Featured Articles Widget ******************* -->
 
@@ -133,50 +141,80 @@ const metadata = {
   ]}
   />
  
-  <!-- FAQs Widget ******************* -->
+ <!-- FAQs Widget ******************* -->
 
-  <FAQs
-    title="Frequently Asked Questions"
-    subtitle="Dive into the following questions to gain insights into the powerful features that AstroWind offers and how it can elevate your web development journey."
-    tagline="FAQs"
-    classes={{ container: 'max-w-6xl' }}
-    items={[
-      {
-        title: 'Why AstroWind?',
-        description:
-          "Michael Knight a young loner on a crusade to champion the cause of the innocent. The helpless. The powerless in a world of criminals who operate above the law. Here he comes Here comes Speed Racer. He's a demon on wheels.",
-      },
-      {
-        title: 'What do I need to start?',
-        description:
-          'Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds. Many say exploration is part of our destiny, but it’s actually our duty to future generations.',
-      },
-      {
-        title: 'How to install the Astro + Tailwind CSS template?',
-        description:
-          "Well, the way they make shows is, they make one show. That show's called a pilot. Then they show that show to the people who make shows, and on the strength of that one show they decide if they're going to make more shows.",
-      },
-      {
-        title: "What's something that you don't understand?",
-        description:
-          "A flower in my garden, a mystery in my panties. Heart attack never stopped old Big Bear. I didn't even know we were calling him Big Bear.",
-      },
-      {
-        title: 'What is something that you would like to try again?',
-        description:
-          "A business big enough that it could be listed on the NASDAQ goes belly up. Disappears! It ceases to exist without me. No, you clearly don't know who you're talking to, so let me clue you in.",
-      },
-      {
-        title: 'If you could only ask one question to each person you meet, what would that question be?',
-        description:
-          "This is not about revenge. This is about justice. A lot of things can change in twelve years, Admiral. Well, that's certainly good to know. About four years. I got tired of hearing how young I looked.",
-      },
-    ]}
-  />
+<FAQs
+title="Frequently Asked Questions"
+subtitle="Dive into the following questions to gain insights into the Inflation Reduction Act and how it impacts your energy choices."
+classes={{ container: 'max-w-6xl' }}
+items={[
+  {
+    title: 'What types of equipment are eligible for the Efficient Home Improvement Credit in 2025?',
+    description:
+      "Eligible equipment must meet the highest efficiency tier set by the Consortium for Energy Efficiency (CEE). For alternative oil furnaces, they must meet 2021 Energy Star efficiency criteria and be rated for specific fuel blends.",
+  },
+  {
+    title: 'What are the requirements for the Residential Clean Energy Property Credit?',
+    description:
+      "Solar water heating systems must be certified by the Solar Rating Certification Corporation or a comparable entity. Geothermal heat pumps must meet Energy Star program requirements, and battery storage must have a capacity of 3 kilowatt-hours or greater.",
+  },
+  {
+    title: 'Can I claim credits for improvements made to my second home or rental property?',
+    description:
+      "Yes, credits are available for certain improvements made to second homes. Renters may also be eligible if they make eligible improvements to their principal residence.",
+  },
+  {
+    title: 'When can I claim these credits?',
+    description:
+      "Credits can only be claimed in the year the property is installed. There is no lifetime limit, but yearly limits do apply.",
+  },
+  {
+    title: 'Can these credits be carried forward to the next tax year?',
+    description:
+      "The ability to carry forward credits varies by credit type. Please consult the specific guidelines for each credit to determine eligibility.",
+  },
+  {
+    title: 'How do subsidies and rebates affect the amount of credit I can claim?',
+    description:
+      "Subsidies and rebates may affect the amount of credit that can be claimed. Both credits are nonrefundable and can offset the Alternative Minimum Tax (AMT).",
+  },
+]}
+/>
+
+  
   <BlogLatestPosts
   title="Find more content in our Blog"
-  information={`The blog works like a course.
-                      Each new article will be an important step that you will need to know to be an expert on the Inflation Reduction Act.               
-              `}
-/>
+  />
+<!-- Custom CSS for Rewiring America Calculator -->
+<Fragment slot="styles">
+  <style>
+    /* Add your custom styles for the calculator here */
+    #calculator-section {
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+    }
+
+    /* Style the title */
+    #calculator-title {
+      font-size: 2rem; /* Increase font size */
+      text-align: center; /* Center align text */
+      margin-bottom: 1rem; /* Add some bottom margin */
+      color: #228B22; /* Change text color */
+      font-weight: bold; /* Make text bold */
+    }
+
+    /* Style the calculator wrapper */
+    #calculator-wrapper {
+      border: 2px solid #228B22; /* Add a border */
+      padding: 1rem; /* Add some padding */
+      border-radius: 10px; /* Add rounded corners */
+      background-color: #f9f9f9; /* Add a background color */
+      max-width: 80%; /* Set maximum width */
+      margin-left: auto; /* Center align */
+      margin-right: auto; /* Center align */
+    }
+  </style>
+</Fragment>
+
+
 </Layout>

@@ -12,6 +12,11 @@ const metadata = {
 ---
 
 <Layout metadata={metadata}>
+    <Fragment slot="head">
+    <script src="https://embed.rewiringamerica.org/calculator.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://embed.rewiringamerica.org/rewiring-fonts.css"/>
+    </Fragment>
+
   <!-- Hero Widget ******************* -->
   <Hero actions={[]}>
     <Fragment slot="title">
@@ -38,49 +43,61 @@ const metadata = {
   </Fragment> -->
 
 
-  
-  <!-- Features2 Widget ************** -->
-  <Features2
-  title="What is included in the Energy Efficient Home Improvement Credit?"
-  subtitle="Explore cost-effective options to make your home more energy-efficient."
-  items={[
-    {
-      title: 'Heat Pumps',
-      description: 'Heat pumps offer efficient heating and cooling, potentially saving you hundreds of dollars annually.',
-      icon: 'flat-color-icons:document',
-    },
-    {
-      title: 'Water Heaters',
-      description: 'Energy-efficient water heaters can reduce your utility bills by up to 30%.',
-      icon: 'flat-color-icons:template',
-    },
-    {
-      title: 'Weatherization Items',
-      description: 'Weatherization can seal leaks and improve insulation, leading to noticeable savings.',
-      icon: 'flat-color-icons:voice-presentation',
-    },
-    {
-      title: 'Biomass Boilers',
-      description: 'Biomass boilers use renewable fuel, offering both eco-friendliness and cost savings.',
-      icon: 'flat-color-icons:template',
-    },
-    {
-      title: 'Windows, Skylights, and Exterior Doors',
-      description: 'Upgrading to energy-efficient windows and doors can save up to 15% on energy bills.',
-      icon: 'flat-color-icons:voice-presentation',
-    },
-    {
-      title: 'Electrical Panel Upgrade',
-      description: 'An upgraded electrical panel can handle more energy-efficient appliances, reducing overall costs.',
-      icon: 'flat-color-icons:voice-presentation',
-    },
-  ]}
+
+ <!-- Features2 Widget ************** -->
+<Features2
+title="What is included in the Energy Efficient Home Improvement Credit?"
+subtitle="Explore cost-effective options to make your home more energy-efficient."
+items={[
+  {
+    title: 'Heat Pumps',
+    description: 'Heat pumps offer efficient heating and cooling, potentially saving you hundreds of dollars annually.',
+    limit: 'Up to $2,000',
+  },
+  {
+    title: 'Heat PumpWater Heaters',
+    description: 'Energy-efficient water heaters can reduce your utility bills by up to 30%.',
+    limit: 'Up to $2,000',
+  },
+  {
+    title: 'Weatherization Items',
+    description: 'Weatherization can seal leaks and improve insulation, leading to noticeable savings.',
+    limit: 'Up to $1,200',
+  },
+  {
+    title: 'Biomass Boilers',
+    description: 'Biomass boilers use renewable fuel, offering both eco-friendliness and cost savings.',
+    limit: 'Up to $2,000',
+  },
+  {
+    title: 'Windows and Skylights',
+    description: 'Upgrading to energy-efficient windows and doors can save up to 15% on energy bills.',
+    limit: 'Up to $600',
+  },
+  {
+    title: ' Exterior Doors',
+    description: 'Upgrading to energy-efficient windows and doors can save up to 15% on energy bills.',
+    limit: 'Up to $500',
+  },
+  {
+    title: ' Tankless Water Heaters',
+    description: 'Upgrading to energy-efficient windows and doors can save up to 15% on energy bills.',
+    limit: 'Up to $600',
+  },
+  {
+    title: 'Electrical Panel Upgrade',
+    description: 'An upgraded electrical panel can handle more energy-efficient appliances, reducing overall costs.',
+    limit: 'Up to $600',
+  },
+]}
 >
-  <Fragment slot="bg">
-    <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
-  </Fragment>
+<Fragment slot="bg">
+  <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+</Fragment>
 </Features2>
 
+
+ <!-- Stats Widget ************** -->
 
 <Stats
   title="Energy Efficient Home Improvement Credit"
@@ -101,6 +118,19 @@ const metadata = {
     'iot-is-fueling-smart-energy-devices'
   ]}  
 />
+
+<!-- Embed the Rewiring America Calculator -->
+<!-- <Fragment>
+  <div id="calculator-section">
+    <h2 id="calculator-title">Inflation Reduction Act Eligibility Calculator</h2>
+    <div id="calculator-wrapper">
+      <rewiring-america-calculator api-key="zpka_e218e73d2b60449ea4fd97122a5334bc_1dd9e2f0"></rewiring-america-calculator>
+    </div>
+  </div>
+</Fragment> -->
+
+
+
 
 
   <!-- FAQs Widget ******************* -->
@@ -138,5 +168,33 @@ const metadata = {
     <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
   </Fragment>
 </FAQs>
+<!-- Custom CSS for Rewiring America Calculator -->
+<Fragment slot="styles">
+  <style>
+    /* Add your custom styles for the calculator here */
+    #calculator-section {
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+    }
 
-</Layout>
+    /* Style the title */
+    #calculator-title {
+      font-size: 2rem; /* Increase font size */
+      text-align: center; /* Center align text */
+      margin-bottom: 1rem; /* Add some bottom margin */
+      color: #228B22; /* Change text color */
+      font-weight: bold; /* Make text bold */
+    }
+
+    /* Style the calculator wrapper */
+    #calculator-wrapper {
+      border: 2px solid #228B22; /* Add a border */
+      padding: 1rem; /* Add some padding */
+      border-radius: 10px; /* Add rounded corners */
+      background-color: #f9f9f9; /* Add a background color */
+      max-width: 80%; /* Set maximum width */
+      margin-left: auto; /* Center align */
+      margin-right: auto; /* Center align */
+    }
+  </style>
+</Fragment>

@@ -1,7 +1,7 @@
 ---
 publishDate: 2023-09-27T00:00:00Z
 title: Alleviating Power Grid Strain
-excerpt: Imagine the power grid as the energy superhighway, delivering energy like the internet delivers data.
+excerpt: Just as we've learned to manage and enhance the internet, we must now apply similar strategies to our power grids. This article explores the reasons behind the growing focus on reducing the load on power grids
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/HCE-2-cover-art.jpg?raw=true
 category: Clean Energy
 tags:

@@ -43,6 +43,7 @@ const {
           description,
           icon,
           callToAction,
+          limit,  // <-- Add this line
           classes: itemClasses = {},
         }) => (
           <div
@@ -80,6 +81,11 @@ const {
                 )}
                 set:html={description}
               />
+            )}
+            {limit && (  // <-- Add this block
+              <div class="text-green-600 font-semibold mt-2">
+                {limit}
+              </div>
             )}
             {callToAction && (
               <div class="mt-2">
