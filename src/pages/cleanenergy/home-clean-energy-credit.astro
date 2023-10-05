@@ -1,11 +1,10 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
 import Hero from '~/components/widgets/Hero.astro';
-
-import Features2 from '~/components/widgets/Features2.astro';
 import FeaturedArticles from '~/components/widgets/FeaturedArticles.astro';
 import Stats from '~/components/widgets/Stats.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
+import Features2 from '~/components/widgets/Features2.astro';
 
 //const featuredArticleSlugs = ['home-clean-energy-credit-guide', 'alleviating-grid-strain', 'hybrid-wind-solar-systems', 'overview-solar-water-heaters'];
 
@@ -40,105 +39,55 @@ const metadata = {
       </iframe>
     </div>
   </Fragment> -->
-
- <!-- Features2 Widget ************** -->
- <Features2
- title="The most common state-level rebates?"
- subtitle="Discover the most popular energy-efficient products that can significantly reduce your energy bills."
- items={[
-   {
-     title: 'Smart Thermostats',
-     description:
-       'Smart Thermostats not only provide you with extensive control over your home heating and cooling but also offer significant energy savings. On average, they can save up to $180 per year.',
-     icon: 'tabler:bulb',
-   },
-   {
-     title: 'EV Chargers',
-     description:
-       'Electric Vehicle (EV) chargers at home can save you time and reduce your carbon footprint, making it a win-win for convenience and the environment.',
-     icon: 'tabler:bulb',
-   },
-   {
-     title: 'Home Energy Monitoring Systems',
-     description:
-       'Home Energy Monitoring Systems provide real-time data on your energy consumption, helping you make informed decisions that can lead up to 30% reduction in energy bills.',
-     icon: 'flat-color-icons:voice-presentation',
-   },
-   {
-     title: 'LED lighting',
-     description:
-       'Switching to LED lighting is one of the simplest steps to improve energy efficiency. LEDs consume 90% less energy than incandescent bulbs, offering substantial savings.',
-     icon: 'tabler:bulb',
-   },
-   {
-     title: 'Ductless Mini Splits',
-     description:
-       'Ductless Mini Splits provide efficient heating and cooling without the need for extensive ductwork, saving an average of 30% on heating and cooling costs.',
-     icon: 'flat-color-icons:voice-presentation',
-   },
-   {
-     title: 'Energy Star Certified Appliances',
-     description:
-       'Energy Star Certified Appliances are designed to save energy without sacrificing performance. On average, these appliances can save you up to $200 per year.',
-     icon: 'flat-color-icons:voice-presentation',
-   },
- ]}
+<!-- Features2 Widget ************** -->
+<Features2
+title="What is included in the Home Clean Energy Credit"
+subtitle="The Home Clean Energy Credit was designed for grid independence. It's a combination of elemental forces at play, and modern technology."
+items={[
+  {
+    title: 'Solar Energy',
+    description:
+      'Solar Energy has the potential to completely up-end what we know about power.',
+    icon: 'tabler:solar-panel-2',
+  },
+  {
+    title: 'Home Energy Storage',
+    description:
+      'Home Energy Storage is the most important aspect of the gren transition and grid independence.',
+    icon: 'tabler:battery-charging',
+  },
+  {
+    title: 'Geothermal Heat Pumps',
+    description:
+      'Geothermal heat pumps can last up to 50 years, making them possibly the most profitable choice in your greeen energy transition.',
+    icon: 'tabler:world-download',
+  },
+  {
+    title: 'Residential Wind Turbines',
+    description:
+      'Wind turbines offer another source of energy during non-sunny hours that is vital to a true independent electrical system.',
+    icon: 'tabler:wind',
+  },
+  {
+    title: 'Solar Water Heaters',
+    description:
+      'Wind turbines offer another source of energy during non-sunny hours that is vital to a true independent electrical system.',
+    icon: 'tabler:sun-high',
+  },
+  {
+    title: 'Stand alone Back-up Batteries',
+    description:
+      'Due to our power grid strain, the purchase of stand alone batteries for the purpose of avoding drawing expensive power during peak time is eligible for the 25D credit.',
+    icon: 'tabler:battery-charging',
+  },
+]}
 >
- <Fragment slot="bg">
-   <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
- </Fragment>
+<Fragment slot="bg">
+  <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+</Fragment>
 </Features2>
 
 
-  <!-- Features2 Widget ************** -->
- <!-- <Features2
-    title="What is included in the Home Clean Energy Credit?"
-    subtitle="The Home Clean Energy Credit was designed for grid independence. It's a combination of elemental forces at play, and modern technology. The more energy you can create and store, the more grid independent you are"
-    items={[
-      {
-        title: 'Solar Energy',
-        description:
-          'Solar Energy has the potential to completely up-end what we know about power',
-        icon: 'tabler:battery-charging',
-      },
-      {
-        title: 'Home Energy Storage',
-        description:
-          'Home Energy Storage is the most important aspect of the gren transition and grid independence.',
-        icon: 'tabler:battery-charging',
-      },
-      {
-        title: 'Geothermal Heat Pumps',
-        description:
-          'Geothermal heat pumps can last up to 50 years, making them possibly the most profitable choice in your greeen energy transition.',
-        icon: 'tabler:battery-charging',
-      },
-      {
-        title: 'Residential Wind Turbines',
-        description:
-          'Wind turbines offer another source of energy during non-sunny hours that is vital to a true independent electrical system.',
-          icon: 'tabler:wind-electricity',
-      },
-      {
-        title: 'Solar Water Heaters',
-        description:
-          'Solar Water Heaters are an eco-friendly alternative to traditional water heaters that boasts a enbergy savings of 50% or more.',
-        icon: 'tabler:solar-electricity',
-      },  
-      {
-        title: 'Stand alone Back-up Batteries',
-        description:
-          'Due to our power grid strain, the purchase of stand alone batteries for the purpose of avoding drawing expensive power during peak time is eligible for the 25D credit.',
-        icon: 'tabler:battery-charging',
-      },  
-    ]}
-  >
-    <Fragment slot="bg">
-      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
-    </Fragment>
-  </Features2>
-  -->
-  <!-- Stats Widget ************** -->
   <Stats
   title="Home Clean Energy Credit"
    stats={[
