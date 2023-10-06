@@ -45,10 +45,7 @@ const {
 
 const currentPath = `/${trimSlash(new URL(Astro.url).pathname)}`
 ---
-
-
-
-<ViewTransitions transitions.name="fade" transitions.mode="out-in">
+<ViewTransitions transition.animate="slide">
   <header
     class:list={[
       { sticky: isSticky, relative: !isSticky, dark: isDark },
@@ -58,6 +55,7 @@ const currentPath = `/${trimSlash(new URL(Astro.url).pathname)}`
   >
   </header>
 </ViewTransitions>
+
 
   <div class="absolute inset-0"></div>
   <div
