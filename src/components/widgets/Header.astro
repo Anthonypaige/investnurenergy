@@ -7,7 +7,7 @@ import Button from "~/components/ui/Button.astro"
 import { getHomePermalink } from "~/utils/permalinks";
 import { trimSlash, } from "~/utils/permalinks";
 import type { CallToAction } from "~/types";
-import { ViewTransitions } from "astro:transitions";
+//import { ViewTransitions } from "astro:transitions";
 
 
 interface Link {
@@ -45,7 +45,7 @@ const {
 
 const currentPath = `/${trimSlash(new URL(Astro.url).pathname)}`
 ---
-<ViewTransitions transition.animate="slide">
+<!-- <ViewTransitions transition.animate="slide"> -->
   <header
     class:list={[
       { sticky: isSticky, relative: !isSticky, dark: isDark },
@@ -54,7 +54,7 @@ const currentPath = `/${trimSlash(new URL(Astro.url).pathname)}`
     {...id ? { id } : {}}
   >
   </header>
-</ViewTransitions>
+<!-- </ViewTransitions> -->
 
 
   <div class="absolute inset-0"></div>
