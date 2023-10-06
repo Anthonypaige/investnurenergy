@@ -23,6 +23,7 @@
     "jquery": "^3.7.1",
     "limax": "4.1.0",
     "lodash.merge": "^4.6.2",
+    "styled-components": "^6.0.8",
     "unpic": "^3.10.0"
   },
   "devDependencies": {

@@ -281,6 +281,10 @@ export interface InfoCard {
 
 export interface Card {
   title: string;
+  imageSrc?: string; // New field for image
+  topSellingPoints?: string[]; // New field for top selling points
+  priceRange?: string; // New field for price range
+  coveredBy?: string; // New field for which act it's covered by
   taxCode: string;
   creditAmount: string;
   verifiedEnergySavings: string;

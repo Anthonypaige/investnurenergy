@@ -1,0 +1,77 @@
+---
+import React from 'react';
+import styled from 'styled-components';
+
+const CardContainer = styled.div`
+  border: 1px solid #ccc;
+  padding: 16px;
+  margin: 16px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+`;
+
+const CardImage = styled.img`
+  width: 100%;
+  height: auto;
+  margin-bottom: 16px;
+`;
+
+const CardTitle = styled.h2`
+  font-size: 24px;
+  margin-bottom: 8px;
+`;
+
+const CardText = styled.p`
+  font-size: 16px;
+  margin-bottom: 8px;
+`;
+
+const CardButton = styled.a`
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+  border-radius: 4px;
+  text-decoration: none;
+`;
+
+export interface Card {
+  title: string;
+  imageSrc?: string;
+  topSellingPoints?: string[];
+  priceRange?: string;
+  coveredBy?: string;
+  taxCode: string;
+  creditAmount: string;
+  verifiedEnergySavings: string;
+  callToAction?: {
+    target: string;
+    text: string;
+    href: string;
+  };
+}
+
+const CardWidget: React.FC<Card> = (props) => {
+  return (
+    <CardContainer>
+      {props.imageSrc && <CardImage src={props.imageSrc} alt={props.title} />}
+      <CardTitle>{props.title}</CardTitle>
+      {props.topSellingPoints && props.topSellingPoints.map((point, index) => (
+        <CardText key={index}>• {point}</CardText>
+      ))}
+      <CardText>Price Range: {props.priceRange}</CardText>
+      <CardText>Covered By: {props.coveredBy}</CardText>
+      <CardText>Tax Code: {props.taxCode}</CardText>
+      <CardText>Credit Amount: {props.creditAmount}</CardText>
+      <CardText>Verified Energy Savings: {props.verifiedEnergySavings}</CardText>
+      {props.callToAction && (
+        <CardButton href={props.callToAction.href} target={props.callToAction.target}>
+          {props.callToAction.text}
+        </CardButton>
+      )}
+    </CardContainer>
+  );
+};
+
+export default CardWidget;
