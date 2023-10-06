@@ -1,8 +1,8 @@
 ---
 import Button from '~/components/ui/Button.astro';
-import Headline from '~/components/ui/Headline.astro';
+import LandingLayout from '~/layouts/LandingLayout.astro';
 import WidgetWrapper from '~/components/ui/WidgetWrapper.astro';
-import type { InfoCard as InfoCardType } from '~/types';
+import type { Card as CardType } from '~/types';
 
 // Get Astro props
 const {
@@ -13,9 +13,9 @@ const {
   isDark = false,
   classes = {},
   bg = await Astro.slots.render('bg'),
-} = Astro.props as InfoCardType;
+} = Astro.props as CardType;
 ---
-
+<LandingLayout
 <WidgetWrapper id={id} isDark={isDark} containerClass={`max-w-7xl mx-auto ${classes?.container ?? ''}`} bg={bg}>
   <Headline title={title} tagline={tagline} />
   <div class="flex items-stretch justify-center">
@@ -43,3 +43,4 @@ const {
     </div>
   </div>
 </WidgetWrapper>
+<LandingLayout>

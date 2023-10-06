@@ -1,8 +1,8 @@
 ---
-import React from 'react';
 import styled from 'styled-components';
-import type { Card } from '~/types';  // Use type-only import
-
+import type { Card as CardType } from '~/types';
+import WidgetWrapper from '~/components/ui/WidgetWrapper.astro';
+import LandingLayout from '~/layouts/LandingLayout.astro';
 
 const CardContainer = styled.div`
   border: 1px solid #ccc;
@@ -12,53 +12,39 @@ const CardContainer = styled.div`
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 `;
 
-const CardImage = styled.img`
-  width: 100%;
-  height: auto;
-  margin-bottom: 16px;
-`;
+// Get Astro props
+const {
+  title = '',
+  imageSrc = '',
+  topSellingPoints = [],
+  priceRange = '',
+  coveredBy = '',
+  taxCode = '',
+  creditAmount = '',
+  verifiedEnergySavings = '',
+  callToAction = null
+} = Astro.props as CardType;
+---
 
-const CardTitle = styled.h2`
-  font-size: 24px;
-  margin-bottom: 8px;
-`;
-
-const CardText = styled.p`
-  font-size: 16px;
-  margin-bottom: 8px;
-`;
-
-const CardButton = styled.a`
-  display: inline-block;
-  padding: 12px 24px;
-  background-color: #007bff;
-  color: white;
-  text-align: center;
-  border-radius: 4px;
-  text-decoration: none;
-`;
-
-
-const CardWidget: React.FC<Card> = (props) => {  // Use Card instead of CardType
-  return (
+<WidgetWrapper>
+  <LandingLayout>
     <CardContainer>
-      {props.imageSrc && <CardImage src={props.imageSrc} alt={props.title} />}
-      <CardTitle>{props.title}</CardTitle>
-      {props.topSellingPoints && props.topSellingPoints.map((point, index) => (
-        <CardText key={index}>• {point}</CardText>
+      {imageSrc && <img src={imageSrc} alt={title} style={{width: '100%', height: 'auto', marginBottom: '16px'}} />}
+      <h2 style={{fontSize: '24px', marginBottom: '8px'}}>{title}</h2>
+      {topSellingPoints.map((point) => (
+        <p style={{fontSize: '16px', marginBottom: '8px'}}>• {point}</p>
       ))}
-      <CardText>Price Range: {props.priceRange}</CardText>
-      <CardText>Covered By: {props.coveredBy}</CardText>
-      <CardText>Tax Code: {props.taxCode}</CardText>
-      <CardText>Credit Amount: {props.creditAmount}</CardText>
-      <CardText>Verified Energy Savings: {props.verifiedEnergySavings}</CardText>
-      {props.callToAction && (
-        <CardButton href={props.callToAction.href} target={props.callToAction.target}>
-          {props.callToAction.text}
-        </CardButton>
+      
+      <p style={{fontSize: '16px', marginBottom: '8px'}}>Price Range: {priceRange}</p>
+      <p style={{fontSize: '16px', marginBottom: '8px'}}>Covered By: {coveredBy}</p>
+      <p style={{fontSize: '16px', marginBottom: '8px'}}>Tax Code: {taxCode}</p>
+      <p style={{fontSize: '16px', marginBottom: '8px'}}>Credit Amount: {creditAmount}</p>
+      <p style={{fontSize: '16px', marginBottom: '8px'}}>Verified Energy Savings: {verifiedEnergySavings}</p>
+      {callToAction && (
+        <a href={callToAction.href} target={callToAction.target} style={{display: 'inline-block', padding: '12px 24px', backgroundColor: '#007bff', color: 'white', textAlign: 'center', borderRadius: '4px', textDecoration: 'none'}}>
+          {callToAction.text}
+        </a>
       )}
     </CardContainer>
-  );
-};
-
-export default ProductCard;
+  </LandingLayout>
+</WidgetWrapper>
