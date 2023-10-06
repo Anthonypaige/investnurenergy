@@ -1,6 +1,8 @@
 ---
 import React from 'react';
 import styled from 'styled-components';
+import type { Card } from '~/types';  // Use type-only import
+
 
 const CardContainer = styled.div`
   border: 1px solid #ccc;
@@ -36,23 +38,8 @@ const CardButton = styled.a`
   text-decoration: none;
 `;
 
-export interface Card {
-  title: string;
-  imageSrc?: string;
-  topSellingPoints?: string[];
-  priceRange?: string;
-  coveredBy?: string;
-  taxCode: string;
-  creditAmount: string;
-  verifiedEnergySavings: string;
-  callToAction?: {
-    target: string;
-    text: string;
-    href: string;
-  };
-}
 
-const CardWidget: React.FC<Card> = (props) => {
+const CardWidget: React.FC<Card> = (props) => {  // Use Card instead of CardType
   return (
     <CardContainer>
       {props.imageSrc && <CardImage src={props.imageSrc} alt={props.title} />}
@@ -74,4 +61,4 @@ const CardWidget: React.FC<Card> = (props) => {
   );
 };
 
-export default CardWidget;
+export default ProductCard;
