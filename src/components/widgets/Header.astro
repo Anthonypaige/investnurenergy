@@ -7,6 +7,7 @@ import Button from "~/components/ui/Button.astro"
 import { getHomePermalink } from "~/utils/permalinks";
 import { trimSlash, } from "~/utils/permalinks";
 import type { CallToAction } from "~/types";
+import { ViewTransition } from 'astro-view-transitions';
 
 interface Link {
   text?: string;
@@ -46,13 +47,17 @@ const currentPath = `/${trimSlash(new URL(Astro.url).pathname)}`
 
 
 
-<header
-  class:list={[
-    { sticky: isSticky, relative: !isSticky, dark: isDark },
-    "top-0 z-40 flex-none mx-auto w-full border-b border-gray-50/0 transition-[opacity] ease-in-out",
-  ]}
-  {...id ? { id } : {}}
->
+<ViewTransition name="fade" mode="out-in">
+  <header
+    class:list={[
+      { sticky: isSticky, relative: !isSticky, dark: isDark },
+      "top-0 z-40 flex-none mx-auto w-full border-b border-gray-50/0 transition-[opacity] ease-in-out",
+    ]}
+    {...id ? { id } : {}}
+  >
+  </header>
+</ViewTransition>
+
   <div class="absolute inset-0"></div>
   <div
     class:list={[
@@ -83,8 +88,8 @@ const currentPath = `/${trimSlash(new URL(Astro.url).pathname)}`
               {links?.length ? (
                 <>
                   <button class="hover:text-link dark:hover:text-white px-4 py-3 flex items-center">
-                    Contact Us <Icon name="tabler:chevron-down" class="w-3.5 h-3.5 ml-0.5 rtl:ml-0 rtl:mr-0.5 hidden md:inline" />
-                   </button>
+                    {text} <Icon name="tabler:chevron-down" class="w-3.5 h-3.5 ml-0.5 rtl:ml-0 rtl:mr-0.5 hidden md:inline" />
+                  </button>
                   <ul class="dropdown-menu md:backdrop-blur-md dark:md:bg-dark rounded md:absolute pl-4 md:pl-0 md:hidden font-medium md:bg-white/90 md:min-w-[200px] drop-shadow-xl">
                     {links.map(({ text: text2, href: href2 }) => (
                       <li>
@@ -124,11 +129,23 @@ const currentPath = `/${trimSlash(new URL(Astro.url).pathname)}`
        ]}
        >
        <span class="ml-4 rtl:ml-0 rtl:mr-4">
-         {actions.map((btnProps) => (
-           <Button {...btnProps} class="ml-2 py-2.5 px-5.5 md:px-6 font-semibold shadow-none text-sm w-auto"/>
-         ))}
-       </span>
-  </div>
-</header>
+        {actions.map((btnProps) => (
+          <Button {...btnProps} class="ml-2 py-2.5 px-5.5 md:px-6 font-semibold shadow-none text-sm w-auto"/>
+        ))}
+      </span>
+      
+
+<!-- New "Contact Us" Button with Styling -->
+<span class="ml-4 rtl:ml-0 rtl:mr-4">
+  <a href="/contact-us" class="ml-2 py-2.5 px-5.5 md:px-6 font-semibold text-sm w-auto bg-blue-500 text-white rounded hover:bg-blue-700">
+    Contact Us
+  </a>
+</span>
+
+
+
+
+
+
 
 
