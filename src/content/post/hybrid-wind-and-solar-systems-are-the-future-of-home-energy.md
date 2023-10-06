@@ -20,7 +20,7 @@ Solar energy systems have become a transformative force in how homeowners power 
 
 Wind energy, an abundant and renewable resource, serves as a perfect companion to solar energy. Captured by wind turbines that convert the kinetic energy of the wind into electricity, wind energy is available day and night. Unlike solar energy, which reaches peak performance during a 4-5 hour window, wind energy provides a consistent power source that doesn't rely on the sun's availability. Available in two varieties—vertical and horizontal axis—with horizontal turbines being more efficient, wind energy can be used directly in your home or stored in a battery for later use. This consistent availability of wind energy complements the solar energy production, ensuring a more balanced energy supply.
 
-#### **Hybrid Wind/Solar Systems: A Seamless Integration**
+### **Hybrid Wind/Solar Systems: A Seamless Integration**
 
 The combination of wind and solar energy leads to the creation of hybrid wind/solar systems. This seamless integration is not just about day and night; it's also about seasons. Solar energy is most potent during the sunny months, while wind energy can be particularly effective during other parts of the year. By combining these two renewable energy sources, homeowners can ensure that their homes always have access to power, even in varying weather conditions and across different seasons. For those interested in exploring this innovative approach further, wind turbine kits, available for the Residential Energy Credit, offer a practical solution. These kits can be used alone or in conjunction with solar systems to maximize energy efficiency and make a significant impact on energy consumption.
 

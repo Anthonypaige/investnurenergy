@@ -6,13 +6,13 @@ image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/c
 category: Energy Efficiency
 tags:
   - Ductless Mini Split
-  - Heat Pump
-  - Temperature Control
+  - Heat Pumps
+  - DIY
 ---
 
 In the pursuit of advanced energy efficiency and cost-effective home solutions, Ductless Mini Split Heat Pumps have gained significant attention. These versatile units offer a host of benefits, from personalized temperature control to effortless installation. This article aims to provide a comprehensive guide to Ductless Mini Split Heat Pumps, helping you understand their advantages and make an informed decision.
 
-#### **What Are Ductless Mini Split Heat Pumps?**
+### **What Are Ductless Mini Split Heat Pumps?**
 
 Ductless Mini Split Heat Pumps are heating and cooling solutions that allow you to control the temperature in individual rooms. Unlike traditional HVAC systems, they do not require extensive ductwork, making them easier and less costly to install. The unit consists of an outdoor condenser and an indoor air-handling unit, connected by a conduit carrying power and refrigerant lines. Many Ductless Mini Split Heat Pumps come with built-in air filtration systems that remove allergens and pollutants, contributing to a healthier living environment.
 
@@ -44,7 +44,7 @@ Certain models of Ductless Mini Split Heat Pumps are covered under the Inflation
 
 **Energy Efficient Home Improvement Credit (25C):** This credit offers 30% of the costs, up to $2000 in tax credits for Energy Star certified Ductless heat pump mini splits with certain efficienct ratings,[you can view here](https://www.energystar.gov/about/federal_tax_credits/air_source_heat_pumps)
 
-**High-Efficiency Electric Home Rebate Act (HEEHRA)**:Designed for low-income and low to mid-income households, this program can cover between 50%-100% of the upfront costs, depending on your eligibility. Check your eligibility via [Rewiring America's IRA Calculator](https://www.rewiringamerica.org/app/ira-calculator).
+**High-Efficiency Electric Home Rebate Act (HEEHRA)**:Designed for low-income and low to mid-income households, this program can cover between 50%-100% of the upfront costs, depending on your eligibility. Check your eligibility via [**Inflation Reduction Act Eligibility Calculator**](link IRA Caclulator).
 
 **State-Level Rebates:** Many state governments and local utilities offer rebates that can be stacked with the federal incentive, providing even more savings on the upfront cost of the unit. To check for eligibility of state-level incentives, you can visit the [Database of State Incentives for Renewables & Efficiency](DSIRE.org).
 
