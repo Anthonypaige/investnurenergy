@@ -1,0 +1,54 @@
+---
+import LandingLayout from '~/layouts/LandingLayout.astro';
+import CardWidget from '~/components/widgets/CardWidget.astro';  
+import CallToAction from '~/components/widgets/CallToAction.astro';
+---
+
+<LandingLayout>
+  <!-- Card 1 -->
+  <CardWidget
+    title="Solar Panel 1"
+    imageSrc="https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/evse-comp-table-images/emporia-evse.jpg?raw=true"
+    topSellingPoints={['Energy Efficient', 'Cost Effective']}
+    priceRange="$1000 - $2000"
+    coveredBy="Inflation Reduction Act"
+    taxCode="25D"
+    creditAmount="$500"
+    verifiedEnergySavings="50%"
+  />
+  
+  <!-- Card 2 -->
+  <CardWidget
+    title="Solar Panel 2"
+    imageSrc="https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/evse-comp-table-images/emporia-evse.jpg?raw=true"
+    topSellingPoints={['High Durability', 'Easy Installation']}
+    priceRange="$1500 - $2500"
+    coveredBy="Inflation Reduction Act"
+    taxCode="25D"
+    creditAmount="$600"
+    verifiedEnergySavings="60%"
+  />
+
+  <!-- Card 3 -->
+  <CardWidget
+    title="Solar Panel 2"
+    imageSrc="https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/evse-comp-table-images/emporia-evse.jpg?raw=true"
+    topSellingPoints={['High Durability', 'Easy Installation']}
+    priceRange="$1500 - $2500"
+    coveredBy="Inflation Reduction Act"
+    taxCode="25D"
+    creditAmount="$600"
+    verifiedEnergySavings="60%"
+  />
+
+
+  <!-- Add more cards here -->
+
+  <CallToAction
+    actions={[{
+      variant: "primary",
+      text: 'Shop Here',
+      href: 'https://affiliate-link.com',
+    }]}
+  />
+</LandingLayout>
