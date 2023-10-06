@@ -5,9 +5,9 @@ excerpt: Qualifying your home for solar panel installation is like planning the 
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/FYI-1-cover-art.png?raw=true
 category: Solar Energy
 tags:
-  - Solar Panel Placement
-  - Sunbathing
-  - Optimal Timing
+  - peak sun hours 
+  - Solar basics
+  - solar access 
 ---
 
 Qualifying your home for solar panel installation is like planning the perfect day of sunbathing. Both tasks require a keen understanding of the sun's position and the optimal times to catch its rays. While sunbathing rewards you with a golden tan, understanding solar panel placement and peak sun hours can lead to optimal solar power production. This article is your guide to assessing whether your home is a good candidate for solar energy, helping you navigate the essential factors and tools needed to make an informed decision.
@@ -29,7 +29,7 @@ Once you have your tanning times down, the next step is to scout the perfect loc
 But these numbers are based on perfect conditions. You still have to consider factors like roof tilt and shading. The roof pitch affects solar panel orientation, with the ideal angle in the US being between 30 and 40 degrees. If your roof's pitch is suboptimal, it can be corrected with specific mounting systems. The last consideration is potential sun blockers like tall trees or nearby structures.
 
 It might seem like a complex process, but fortunately, there are tools to help.
-[Google's innovativeProject Sunroof](https://www.google.com/get/sunroof) is a handy tool in this process. It creates a 3D model of your rooftop, highlighting areas with maximum solar potential and pointing out possible sun blockers. However, remember that this tool provides potential capacity, not a definitive recommendation. Your ultimate energy offset strategy will determine the size of your system, and the placement of the panels, considering these obstacles, is key to maximizing solar energy production.
+[Google's innovative Project Sunroof](https://www.google.com/get/sunroof) is a handy tool in this process. It creates a 3D model of your rooftop, highlighting areas with maximum solar potential and pointing out possible sun blockers. However, remember that this tool provides potential capacity, not a definitive recommendation. Your ultimate energy offset strategy will determine the size of your system, and the placement of the panels, considering these obstacles, is key to maximizing solar energy production.
 
 ![Super wide](https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/In-article-images/FYI-1-in-article-.jpg?raw=true)
 
@@ -45,7 +45,7 @@ These numbers provide valuable insights into the potential efficiency of your so
 
 ### **Using the PV Watts Calculator: Your Guide to proper solar energy production**
 
-The **[PV Watts calculator]**(https://pvwatts.nrel.gov/) is a valuable tool for assessing solar panel efficiency. Developed by the National Renewable Energy Laboratory (NREL), it provides tailored estimates of energy production based on your location, system specifications, and shading effects. Here's how it can assist you:
+The [PV Watts calculator](https://pvwatts.nrel.gov/) is a valuable tool for assessing solar panel efficiency. Developed by the National Renewable Energy Laboratory (NREL), it provides tailored estimates of energy production based on your location, system specifications, and shading effects. Here's how it can assist you:
 
 - **Location and System Analysis**: Enter your specific location and system details like size, tilt angle, and orientation for an accurate estimate of solar energy production.
 - **Shading Consideration**: The calculator factors in shading from nearby obstacles, offering a realistic view of energy production.

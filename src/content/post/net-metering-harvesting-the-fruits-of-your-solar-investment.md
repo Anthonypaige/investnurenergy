@@ -6,7 +6,7 @@ image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/c
 category: Solar Energy
 tags:
   - Net Metering
-  - Solar Investment
+  - Solar Basics
   - Home Energy storage
 ---
 

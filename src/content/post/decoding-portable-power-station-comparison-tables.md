@@ -5,8 +5,8 @@ excerpt: When comparing power stations, it's essential to understand the key ter
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/HES-3-cover-art.jpg?raw=true
 category: Home Energy Storage
 tags:
-  - Battery Comparison
-  - Power Stations
+  - time of use rates
+  - home energy storage
   - Backup Battery
 ---
 
@@ -38,7 +38,7 @@ Now, let's delve deeper into each section of the table to understand the nuances
 
 The Battery Cell Type and Battery Life Cycles are interconnected. Knowing the Battery's cell type gives you insight into its life cycles. LiFePO4 batteries, a popular type in portable power stations, typically have a lifecycle of 3500 cycles to 80% capacity and 6500 cycles to 50% capacity. This means that after 3,500 cycles, you'll only be able to use 80% of your battery capacity, and the same for 6,500 and 50%. In the comparison table, we see that the Bluetti EP 500 is listed as having 6500 cycles and the ECOFLOW DELTA PRO as having 3500. However, since both use LiFePO4 batteries, they should have similar lifecycles. This discrepancy could be due to how the author chose to present the information, possibly to favor one model over the other.
 
-### **Understanding the Power Quartet: Capacity, Inverter, Output, and Surge Power**
+### **Power Quartet: Capacity, Inverter, Output, and Surge Power**
 
 | Feature                     | ECOFLOW DELTA PRO  | BLUETTI EP 500     |
 | --------------------------- | ------------------ | ------------------ |
@@ -49,9 +49,9 @@ The Battery Cell Type and Battery Life Cycles are interconnected. Knowing the Ba
 
 These four terms work together to provide a comprehensive understanding of a power station's capabilities.
 
-- **Battery System Capacity** is the amount of power the battery can hold.
+- **Battery System Capacity** is the amount of power the battery can hold. Imagine a tank holding water, the larger the tank the more it can hold
 
-- The **Inverter** controls the continuous AC output power. For instance, a 5000-watt inverter will provide continuous AC power of 5kWh.
+- The **Inverter** controls the continuous AC output power. For instance, a 5000-watt inverter will provide continuous AC power of 5kWh. Now,Imagine a spout on the water tank, the bigger the spout the more water comes out. 
 
 - **Continuous AC Output Power** is the maximum amount of power that the power station can deliver at any given moment. This is crucial when powering devices or appliances that require a high-power draw. For example, a power station with a 2KW continuous output power can handle appliances that require up to 2KW without overloading.
 
@@ -59,7 +59,7 @@ These four terms work together to provide a comprehensive understanding of a pow
 
 In the comparison table, the inverter size in watts is the same as the output power in KW for both models 3600/3.6 for the ECOFLOW DELTA PRO and 2000/2 for the Bluetti EP 500). The Bluetti EP 500, with its 2KW continuous output power, can handle devices that require up to 2KW at a time, while the ECOFLOW DELTA PRO, with its 3.6KW continuous output power, can handle devices that require up to 3.6KW. This difference is because the Bluetti EP 500 model was designed more for camping and on-the-go use, where you use much less power. While it has a larger battery capacity, that works for this scenario as you'll need more "in the bank" if you're on the go and your charging options are limited.
 
-### **Charging Features: AC Input, Charging Time, and Solar Options**
+### **High Input = Fast Charging Times**
 
 | Feature                 | ECOFLOW DELTA PRO | BLUETTI EP 500 |
 | ----------------------- | ----------------- | -------------- |
@@ -72,7 +72,7 @@ These four terms are crucial for understanding how the power station charges.
 
 - **AC Input** is the amount of wattage the battery provides at a given moment while charging.
 
-- **Charging Time AC i**s determined by the wattage - the higher the wattage, the faster the charging time. This applies to AC, which is your basic wall outlet.
+- **Charging Time AC**s determined by the wattage - the higher the wattage, the faster the charging time. This applies to AC, which is your basic wall outlet.
 
 - **Solar Input** is the maximum amount of solar wattage that can be fed into the battery to charge. It's important to note that this is the max, so if it says 1600 watts, and you use 800 watts, the solar charging time is going to be twice as long as listed for comparison.
 

@@ -5,7 +5,7 @@ excerpt: Understanding solar energy might seem as daunting as mastering texting 
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/FYI-2-cover-art.png?raw=true
 category: Solar Energy
 tags:
-  - Solar Energy
+  - Solar basics
   - TOU rates
   - Home Energy Storage
 ---

@@ -5,9 +5,9 @@ excerpt: Stepping into the realm of solar energy with a well-crafted offset stra
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/FYI-4-cover-art.png?raw=true
 category: Solar Energy
 tags:
-  - Solar Offset Strategy
+  - Solar Basics
   - home energy storage
-  - Grid independence
+  - net metering 
 ---
 
 Investing in solar energy is more than an ecological decision; it's a strategic move towards energy independence. A solar offset strategy is a planned approach to gradually reduce reliance on traditional energy sources by incorporating solar energy into your home. Think of it as playing a real-life game of Monopoly, where you become the owner of utility sources. By installing solar panels and obtaining the **Permission to Operate (PTO)**, you transition from a mere utility consumer to an energy stakeholder. Essentially, you become a real-life utility owner, setting your energy consumption terms.
