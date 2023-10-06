@@ -15,7 +15,6 @@ import { readingTimeRemarkPlugin } from './src/utils/frontmatter.mjs';
 
 import { ANALYTICS, SITE } from './src/utils/config.ts';
 
-import viewTransitions from 'astro-view-transitions';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
@@ -55,9 +54,7 @@ export default defineConfig({
         ],
       },
     }),
-    viewTransitions(),
-    
-    ...whenExternalScripts(() =>
+      ...whenExternalScripts(() =>
       partytown({
         config: { forward: ['dataLayer.push'] },
       })
