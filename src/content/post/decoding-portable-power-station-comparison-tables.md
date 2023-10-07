@@ -51,7 +51,7 @@ These four terms work together to provide a comprehensive understanding of a pow
 
 - **Battery System Capacity** is the amount of power the battery can hold. Imagine a tank holding water, the larger the tank the more it can hold
 
-- The **Inverter** controls the continuous AC output power. For instance, a 5000-watt inverter will provide continuous AC power of 5kWh. Now,Imagine a spout on the water tank, the bigger the spout the more water comes out. 
+- The **Inverter** controls the continuous AC output power. For instance, a 5000-watt inverter will provide continuous AC power of 5kWh. Now,Imagine a spout on the water tank, the bigger the spout the more water comes out.
 
 - **Continuous AC Output Power** is the maximum amount of power that the power station can deliver at any given moment. This is crucial when powering devices or appliances that require a high-power draw. For example, a power station with a 2KW continuous output power can handle appliances that require up to 2KW without overloading.
 

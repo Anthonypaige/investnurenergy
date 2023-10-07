@@ -27,7 +27,7 @@ The hours of demand differ across regions and time zones, but here's how an aver
 - **Summer**: (June-September) typically between noon and 6 p.m.
 - **Non-Summer**: (October-May) typically between 6 a.m. and 9 a.m., and again between 5 p.m. and 9 p.m.
 
-Want to know more about TOU rates and Demand Response Programs available to you? Check out the 
+Want to know more about TOU rates and Demand Response Programs available to you? Check out the
 [Department of Energy's guide](https://www.energy.gov/femp/demand-response-and-time-variable-pricing-programs#:~:text=Time%2Dvariable%20pricing%20(TVP\),for%20any%20given%20customer%20class) to see what programs your utility provider offers.
 
 ### **What is Energy Arbitrage?**

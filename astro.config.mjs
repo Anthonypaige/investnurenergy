@@ -15,7 +15,6 @@ import { readingTimeRemarkPlugin } from './src/utils/frontmatter.mjs';
 
 import { ANALYTICS, SITE } from './src/utils/config.ts';
 
-
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 const whenExternalScripts = (items = []) =>
@@ -54,7 +53,7 @@ export default defineConfig({
         ],
       },
     }),
-      ...whenExternalScripts(() =>
+    ...whenExternalScripts(() =>
       partytown({
         config: { forward: ['dataLayer.push'] },
       })
