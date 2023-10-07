@@ -14,7 +14,7 @@ In the wake of the Inflation Reduction Act, residential wind turbines are gainin
 
 ### **The Basics of Residential Wind Turbines**
 
-Residential wind turbines function similarly to commercial ones but on a smaller scale. The rotor blades capture the wind's power, while the hub, main shaft, gearbox, and generator work together to produce electricity efficiently. The design and technology behind wind turbines have evolved, making them more accessible to homeowners. For a comprehensive understanding, the Department of Energy provides an [**interactive animation of a wind turbine**](insert link).
+Residential wind turbines function similarly to commercial ones but on a smaller scale. The rotor blades capture the wind's power, while the hub, main shaft, gearbox, and generator work together to produce electricity efficiently. The design and technology behind wind turbines have evolved, making them more accessible to homeowners. For a comprehensive understanding, the Department of Energy provides an [interactive animation of a wind turbine](insert link).
 
 #### **Assessing Your Property**
 
@@ -24,11 +24,13 @@ Before installing a wind turbine, it's essential to evaluate your property's sui
 
 - **Site Selection**: Choosing the right site for your wind turbine is vital. Factors such as elevation, obstructions, and proximity to neighbors can affect the turbine's efficiency.
 
-To understand if your home is a good candidate for wind power, read more about home wind assessment in our article, [Are You a Good Candidate for Wind Power?](link to the article).
+To understand if your home is a good candidate for wind power, check out out article on [residential wind assessment](link to the article).
 
-![Super wide](https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/In-article-images/WND-2-in-article.png?raw=true)
+
 
 Consideration of how the wind turbine will integrate with your existing power system, including potential battery storage, is essential for a seamless operation.
+
+![Super wide](https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/In-article-images/WND-2-in-article.png?raw=true)
 
 ### **Merging Wind Power with Your Home's Electrical Grid**
 
