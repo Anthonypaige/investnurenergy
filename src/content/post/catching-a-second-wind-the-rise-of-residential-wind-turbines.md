@@ -2,12 +2,12 @@
 publishDate: 2023-09-27T00:00:00Z
 title: Catching a Second Wind The Rise of Residential Wind Turbines
 excerpt: Explore the resurgence of residential wind turbines as a viable alternative energy source. This article sheds light on the benefits and practical considerations of harnessing wind power in your home, paving the way for a sustainable future.
-image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/WND-1-cover-art.jpg?raw=true
+image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/WND-1-cover-art.png?raw=true
 category: Clean Energy
 tags:
   - home clean energy credit
   - Residential Wind turbines
-  - hybrid electrtical systems
+  - hybrid solar-wind systems
 ---
 
 In the wake of the Inflation Reduction Act, residential wind turbines are gaining momentum. These compact, efficient devices harness the kinetic energy of the wind, transforming it into practical electrical power. They offer homeowners a path to energy self-sufficiency, alleviating grid strain, and contributing to environmental conservation. With incentives like the Residential Clean Energy Credit, the economic viability of residential wind turbine installations becomes even more appealing. This article explores the essentials, integration, benefits, challenges, and the future of residential wind turbines.
@@ -25,8 +25,6 @@ Before installing a wind turbine, it's essential to evaluate your property's sui
 - **Site Selection**: Choosing the right site for your wind turbine is vital. Factors such as elevation, obstructions, and proximity to neighbors can affect the turbine's efficiency.
 
 To understand if your home is a good candidate for wind power, check out out article on [residential wind assessment](link to the article).
-
-
 
 Consideration of how the wind turbine will integrate with your existing power system, including potential battery storage, is essential for a seamless operation.
 
