@@ -6,7 +6,7 @@ image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/c
 category: Home Clean Energy Credit
 tags:
   - Geothermal Heat Pump
-  - Heat Pump 
+  - Heat Pump
   - Home Clean Energy Credit
 ---
 

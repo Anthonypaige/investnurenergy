@@ -7,7 +7,7 @@ category: Home Clean Energy Credit
 tags:
   - Geothermal Heat Pumps
   - Heat pumps
-  - Home Clean Energy Credit 
+  - Home Clean Energy Credit
 ---
 
 Unlocking the potential of geothermal energy for residential use is a game-changer in our quest for sustainable living. This article focuses on geothermal heat pump systems, an advanced, eco-friendly technology that could redefine home heating and cooling. With the Residential Clean Energy Tax Credit offering a substantial 30% tax incentive, these systems are not just a step towards a greener future but also a smart financial move.
