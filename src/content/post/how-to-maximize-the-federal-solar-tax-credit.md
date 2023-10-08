@@ -5,7 +5,7 @@ excerpt: Learn the art of maximizing your benefits from the Federal Solar Tax Cr
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/SLR-1-cover-art.png?raw=true
 category: Solar Energy
 tags:
-  - Federal Solar Tax Credit
+  - Home Clean Energy Credit 
   - Financial Incentive
   - Maximizing Benefits
 ---

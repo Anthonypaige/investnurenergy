@@ -6,7 +6,7 @@ image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/c
 category: Clean Energy
 tags:
   - Hybrid Electrical Systems
-  - Wind Energy
+  - residential wind turbines
   - Solar Energy
 ---
 
