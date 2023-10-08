@@ -3,11 +3,11 @@ publishDate: 2023-09-27T00:00:00Z
 title: What's a Heat Pump and Why Do I Need to Know
 excerpt: Rediscover heat pumps, an age-old technology that has been modernized to provide both heating and cooling solutions for your home.
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/HPQ-1-cover-art.png?raw=true
-category: Energy Efficiency
+category: Energy Efficient Home Upgrades
 tags:
-  - Air Source Heat Pump
-  - Geothermal Heat Pump
-  - Ductless mini split
+  - Heat Pumps
+  - Air-Source Heat Pumps
+  - Ductless mini splits
 ---
 
 A heat pump is a versatile climate control system that can both heat and cool your home. It operates on the simple yet effective principle of heat transfer. Just like a refrigerator uses refrigerant to extract heat from its interior and keep your food cool, a heat pump extracts heat from one location and transfers it to another. During the winter, it pulls heat from the outdoor air or ground and moves it inside your home for warmth. In the summer, the process reverses: it extracts heat from your home's interior and expels it outside to keep your living space cool. This dual functionality makes heat pumps an incredibly versatile solution for home heating and cooling, offering year-round comfort.

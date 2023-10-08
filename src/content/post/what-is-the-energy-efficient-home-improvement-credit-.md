@@ -3,7 +3,7 @@ publishDate: 2023-08-09T00:00:00Z
 title: What is the Energy Efficient Home Improvement Credit?
 excerpt: The Energy Efficient Home Improvement Credit (25C) is more than just a tax incentive; it's a catalyst for change in the way we approach energy in our
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/EEHU-1-cover-art.png?raw=true
-category: Energy Efficiency
+category: Energy Efficient Home Upgrades
 tags:
   - heat pumps
   - weatherization

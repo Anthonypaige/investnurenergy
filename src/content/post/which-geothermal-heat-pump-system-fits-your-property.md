@@ -3,11 +3,11 @@ publishDate: 2023-09-27T00:00:00Z
 title: Which Geothermal Heat Pump System Fits Your Property?
 excerpt: Explore the world of geothermal heat pump systems and find the perfect fit for your property. Our guide helps you navigate through the essential considerations, ensuring an energy-efficient solution tailored to your needs.
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/Geo-3-cover%20art.jpg?raw=true
-category: Clean Energy
+category: Home Clean Energy Credit
 tags:
-  - Geothermal Heat Pump
-  - Property Fit
-  - Energy Efficiency
+  - Geothermal Heat Pumps
+  - Heat pumps
+  - Home Clean Energy Credit 
 ---
 
 Unlocking the potential of geothermal energy for residential use is a game-changer in our quest for sustainable living. This article focuses on geothermal heat pump systems, an advanced, eco-friendly technology that could redefine home heating and cooling. With the Residential Clean Energy Tax Credit offering a substantial 30% tax incentive, these systems are not just a step towards a greener future but also a smart financial move.

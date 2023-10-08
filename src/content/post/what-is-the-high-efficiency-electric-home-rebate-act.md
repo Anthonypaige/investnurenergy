@@ -6,7 +6,7 @@ image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/c
 category: Energy Efficient Rebates
 tags:
   - HEEHRA
-  - Energy Efficient
+  - Energy Efficiency
   - State-level Rebates
 ---
 

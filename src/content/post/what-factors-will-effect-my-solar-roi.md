@@ -5,7 +5,7 @@ excerpt: As the world shifts towards cleaner energy sources, understanding how t
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/SLR-5-cover-art.jpg?raw=true
 category: Solar Energy
 tags:
-  - ROI
+  - home energy storage
   - net-metering
   - state level incentives
 ---

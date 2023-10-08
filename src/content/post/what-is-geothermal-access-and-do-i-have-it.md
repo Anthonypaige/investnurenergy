@@ -3,11 +3,11 @@ publishDate: 2023-09-27T00:00:00Z
 title: What is Geothermal Access and Do I Have It?
 excerpt: Considering a geothermal heat pump system for your home? It's vital to comprehend the elements that can impact the system's efficiency. This guide will walk you through the crucial considerations, enabling you to evaluate the feasibility of a geothermal heat pump system for your property.
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/Geo-2-cover-art.png?raw=true'
-category: Clean Energy
+category: Home Clean Energy Credit
 tags:
-  - Geothermal Access
-  - Heat Pump System
-  - Efficiency
+  - Geothermal Heat Pump
+  - Heat Pump 
+  - Home Clean Energy Credit
 ---
 
 Geothermal heat pump systems are more than just an innovative solution for home heating and cooling. By harnessing the Earth's consistent underground temperature, they not only provide energy efficiency and cost savings but also contribute to alleviating grid strain. This is especially vital in an era where energy demands are soaring.
