@@ -3,7 +3,7 @@ import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
 export const headerData = {
   links: [
     {
-      text: 'Clean Energy',
+      text: 'Clean Energy Tax Credit',
       links: [
         {
           text: 'Home Clean Energy Credit',
@@ -32,24 +32,11 @@ export const headerData = {
       ],
     },
     {
-      text: 'Energy Efficiency',
+      text: 'Energy Efficiency Tax Credit',
       links: [
         {
           text: 'Energy Efficient Home Upgrades',
           href: getPermalink('landing/energy-efficient-home-upgrades'),
-        },
-        {
-          text: 'Energy Efficient Rebates',
-          href: getPermalink('landing/energy-efficient-rebates'),
-        },
-        {
-          text: 'Smart Energy Devices',
-          href: getPermalink('landing/smart-energy-devices'),
-        },
-
-        {
-          text: 'Weatherization',
-          href: getPermalink('landing/weatherization-page'),
         },
         {
           text: 'Heat Pumps',
@@ -59,10 +46,15 @@ export const headerData = {
           text: 'Water Heaters',
           href: getPermalink('landing/water-heaters-page'),
         },
+        {
+          text: 'Weatherization',
+          href: getPermalink('landing/weatherization-page'),
+        },
+
       ],
     },
     {
-        text: 'Energy Efficienct Rebates',
+        text: 'Energy Efficient Rebates',
         links: [
          {
            text: 'Energy Efficient Rebates',
@@ -83,16 +75,16 @@ export const headerData = {
         },
         {
           text: 'Category Page',
-          href: getPermalink('tutorials', 'category'),
+          href: getPermalink('clean-energy', 'category'),
         },
         {
           text: 'Tag Page',
-          href: getPermalink('astro', 'tag'),
+          href: getPermalink('tou-rates', 'tag'),
         },
       ],
     },
   ],
-  actions: [{ text: 'Download', href: 'https://github.com/onwidget/astrowind', target: '_blank' }],
+  // actions: [{ text: 'Download', href: 'https://github.com/onwidget/astrowind', target: '_blank' }],
 };
 
 export const footerData = {
