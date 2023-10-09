@@ -6,7 +6,7 @@ image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/c
 category: Energy Efficiency
 tags:
   - Weatherization
-  - foam spray
+  - insulation
   - DIY insulation kits
 ---
 

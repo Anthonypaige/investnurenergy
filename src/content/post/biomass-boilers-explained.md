@@ -3,11 +3,10 @@ publishDate: 2023-09-27T00:00:00Z
 title: Biomass Boilers Explained
 excerpt: Navigate the world of biomass boilers. Learn how these eco-friendly systems can be a smart choice for your home's energy needs, offering both efficiency and sustainability.
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/EEHU-3-cover-art.png?raw=true
-category: Energy Efficiency
+category: Energy Efficient Home Improvement Credit 
 tags:
   - Biomass Boilers
   - grid independence
-  - Hot Water heater
 ---
 
 Are you considering making your home more energy-efficient but are unsure where to start? Biomass boilers offer an eco-friendly and efficient solution for home heating. This comprehensive guide will walk you through everything you need to know about biomass boilers, from the generous tax credits available under the 25C tax code to their high thermal efficiency rates. We'll also discuss who should consider investing in these systems and why they're a good fit for long-term energy savings.

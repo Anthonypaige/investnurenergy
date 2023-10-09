@@ -59,27 +59,22 @@ export const headerData = {
           text: 'Water Heaters',
           href: getPermalink('landing/water-heaters-page'),
         },
-
-        // {
-        //   text: 'EV Charger Comparison Table',
-        //   href: getPermalink('/landing/ev-charger-comparison-table'),
-        // },
-        // {
-        //   text: 'Smart Thermostat Comparison Table',
-        //   href: getPermalink('/landing/smart-thermostat-comparison-table'),
-        // },
       ],
     },
     {
-      text: 'About Us',
-      links: [
-        {
-          text: 'Subscription',
-          href: getPermalink('/subscription'),
-        },
-      ],
-    },
-    {
+        text: 'Energy Efficienct Rebates',
+        links: [
+         {
+           text: 'Energy Efficient Rebates',
+           href: getPermalink('energyefficientrebates/energy-efficient-rebates'),
+         },
+         {
+           text: 'Smart Energy Devices',
+           href: getPermalink('energyefficientrebates/smart-energy-devices'),
+         },
+       ],
+     },
+     {
       text: 'Blog',
       links: [
         {

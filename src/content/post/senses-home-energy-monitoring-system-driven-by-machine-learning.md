@@ -2,7 +2,7 @@
 publishDate: 2023-09-27T00:00:00Z
 title: Sense's Home Energy Monitoring System Driven by Machine Learning
 excerpt: Central to this solution is the Sense app, a user-friendly dashboard that provides real-time and historical data, tracks energy trends, and allows you to set goals for energy usage.
-image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/SED-4-cover-art.jpg?raw=true
+image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/SED-4-cover-art.png?raw=true
 category: Energy Efficiency
 tags:
   - Sense
