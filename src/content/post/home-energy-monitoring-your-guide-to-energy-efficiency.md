@@ -3,7 +3,7 @@ publishDate: 2023-09-27T00:00:00Z
 title: Home Energy Monitoring Your guide to Energy Efficiency
 excerpt: In today's world, where every household appliance seems to be getting a 'smart' upgrade, it's high time we turned our attention to optimizing the very energy that powers them. Enter Home Energy Monitoring Systems (HEMS).
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/SED-2-cover-art.png?raw=true
-category: Energy Efficiency
+category: Smart Energy Devices
 tags:
   - Home Energy Monitoring
   - Smart Appliances

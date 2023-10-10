@@ -36,15 +36,15 @@ Whether you're considering upgrading your HVAC system, installing a Heat Pump, o
 
 The Alternative Fuel Vehicle Refueling Property Credit, a provision of the Inflation Reduction Act of 2022, offers a credit of up to $1,000 for the installation of a Level 2 EV Charger at your home. This includes the cost of an electrician if a 240V dedicated circuit breaker is required for the installation. With the average home Level 2 Charger running about $550, this doesn’t leave much room for electrical cost.
 
-In addition to this federal credit, there may also be state-level incentives available, some of which cover installation costs. Therefore, it's crucial to research local incentives before deciding on an EV Charger installation. For more information on 30C check out [www.HomeLevel2Charger.com](https://www.HomeLevel2Charger.com).
+In addition to this federal credit, there may also be state-level incentives available, some of which cover installation costs. Therefore, it's crucial to research local incentives before deciding on an EV Charger installation. 
 
-### **Residential Clean Energy Credit (25D)**
+### **Residential Clean Energy Credit**
 
 The Residential Clean Energy Credit (25D) is a unique opportunity for homeowners looking to invest in solar or battery installation. Unlike other credits, it has no cap, allowing you to claim the full 30% of the cost, regardless of the total amount.
 
 This credit opens doors for future planning. If you're considering adding an EV Charger down the line, it's wise to have an extra dedicated circuit installed now. Similarly, if you're thinking about transitioning to more electric options like a heat pump or heat pump water heater, you can plan those upgrades as well.
 
-The absence of a cap on this credit means you can think big and plan for the future without worrying about hitting a financial ceiling. It's an opportunity to align your home with your long-term energy goals, making strategic decisions that not only save money now but also set you up for a more energy-efficient and sustainable future. For more information on the Residential Clean Energy Credit check out [www.HomeCleanEnergyCredit.com](https://www.HomeCleanEnergyCredit.com).
+The absence of a cap on this credit means you can think big and plan for the future without worrying about hitting a financial ceiling. It's an opportunity to align your home with your long-term energy goals, making strategic decisions that not only save money now but also set you up for a more energy-efficient and sustainable future. For more information on the Residential Clean Energy Credit check out [Home Clean Energy Credit](https://www.investinyourenergy.com/home-clean-energy-credit).
 
 ### **The Electrification Rebate Act: A Major Step Towards Energy Efficiency**
 
@@ -56,6 +56,6 @@ These rebates apply if the installation is consistent with the National Electric
 
 The Act is expected to roll out by the end of 2023, and while the exact timeline depends on each state's implementation, the benefits are worth the wait. To see if your household is eligible for these rebates, check out the IRA calculator from Rewiring America.
 
-##### **Conclusion**
+#### **Conclusion**
 
 Electrical panel upgrades are more than just a home improvement project; they're an investment in our sustainable future. With the Inflation Reduction Act's support, homeowners can now make these upgrades more affordably, paving the way for a greener, more energy-efficient tomorrow.

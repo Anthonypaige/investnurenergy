@@ -56,7 +56,7 @@ By offering these advanced features, smart EV chargers don't just provide conven
 
 ### **Smart EV Charger Options**
 
-##### **Emporia Vue Smart EV Charger**
+#### **Emporia Vue Smart EV Charger**
 
 Emporia offers a smart charger that not only charges your EV but also provides real-time electricity usage data. Integrated into Emporia's comprehensive smart energy platform, you can monitor your energy consumption, set charging schedules, and even integrate with solar power systems. [Check it out on Amazon](https://www.amazon.com/stores/page/0849F8AB-379A-4919-B7EC-139C378DF84C/?_encoding=UTF8&store_ref=SB_A06161972YF976AT66RQC&pd_rd_plhdr=t&aaxitk=5367d2092de4ffe4fe3fdc8fa652e37b&hsa_cr_id=4233455740301&lp_asins=B07ZL41687%2CB07ZL2SWXC%2CB07ZL4MK8T&lp_query=EV%20chargers&lp_slot=auto-sparkle-hsa-tetris&ref_=sbx_be_s_sparkle_lsi4d_cta&pd_rd_w=HgzfA&content-id=amzn1.sym.cd95889f-432f-43a7-8ec8-833616493f4a%3Aamzn1.sym.cd95889f-432f-43a7-8ec8-833616493f4a&pf_rd_p=cd95889f-432f-43a7-8ec8-833616493f4a&pf_rd_r=3GD4KDJ3QFEJKMHXR230&pd_rd_wg=tAZwt&pd_rd_r=01c45a0f-6dd6-4a1c-8637-eed41978e3d2)
 
@@ -72,7 +72,7 @@ These smart chargers are generally compatible with a wide range of electric vehi
 
 ### **What is a Bi-directional EV Charger?**
 
-Bi-directional EV chargers, expected to become available in 2024, offer a range of capabilities. Not only can they charge your EV, but they can also send electricity back to the grid. Some models will even allow for direct DC-to-DC charging from your solar panels to your EV, eliminating the need for AC conversion. These chargers are set to bring a host of new functionalities to the realm of sustainable energy and EV technology. For more insights, explore our [article on key players in the bi-directional EV charger market](#).
+Bi-directional EV chargers, expected to become available in 2024, offer a range of capabilities. Not only can they charge your EV, but they can also send electricity back to the grid. Some models will even allow for direct DC-to-DC charging from your solar panels to your EV, eliminating the need for AC conversion. These chargers are set to bring a host of new functionalities to the realm of sustainable energy and EV technology. 
 
 #### **Compatibility and Installation**
 
@@ -82,6 +82,6 @@ As for installation, you have a few options. Some chargers come with a plug-and-
 
 If you're not comfortable with DIY installation or if your setup requires more advanced electrical work, professional installation is advisable. For trusted installation services, check out [Qmerit](https://qmerit.com/ev-charger-installation/), a reliable service provider in this field.
 
-##### **Conclusion**
+#### **Conclusion**
 
 Choosing the right EV charger can be a complex task, but with the right information, you can make an informed decision. Whether you're looking for a basic Level 2 charger or a feature-rich smart charger, this guide has covered the essential aspects to consider. Don't forget to take advantage of federal and state-level incentives to make your purchase more affordable.

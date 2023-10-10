@@ -3,9 +3,9 @@ publishDate: 2023-09-27T00:00:00Z
 title: Hybrid Wind and Solar Systems are The Future of Home Energy
 excerpt: Discover how integrating these two renewable energy sources can create a powerhouse of sustainability and efficiency in your home.
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/HCE-4-cover-art.png?raw=true
-category: Clean Energy
+category: Home Clean Energy Credit 
 tags:
-  - Hybrid Electrical Systems
+  - hybrid solar-wind systems
   - residential wind turbines
   - Solar Energy
 ---

@@ -3,7 +3,7 @@ publishDate: 2023-09-27T00:00:00Z
 title: A Comprehensive Guide to Weatherization and Energy Efficiency
 excerpt: Weatherization is the practice of protecting a building and its interior from the elements, particularly from sunlight, precipitation, and wind.
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/WTHR-1-cover-art.png?raw=true
-category: Energy Efficiency
+category: Energy Efficient Home Upgrades
 tags:
   - Weatherization
   - insulation
@@ -70,6 +70,7 @@ Focusing on certain areas can have a substantial impact on your utility bills by
   - **Doors**: Inspect for drafts and gaps and apply weatherstripping and door sweeps to seal any openings.
 
 - **Garages**:
+  
   - **Insulation**: Enhance your garage's insulation using [Garage Door Insulation Kits](insert link) and weather strips. Door sweeps can also be utilized to ensure a tight seal on garage doors.
 
 #### **Conclusion**

@@ -6,8 +6,8 @@ image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/c
 category: Inflation Reduction Act
 tags:
   - TOU Rates
-  - Smart Energy
-  - Utility Bills
+  - smart energy devices
+  - home energy storage 
 ---
 
 As we become less reliant on fossil fuels and embrace more electrification
@@ -19,7 +19,7 @@ TOU rates are the most popular rate structures within Time-Variable Pricing (TVP
 
 ### TOU rates vs. Demand Response Programs
 
-TOU rates are distinct from demand response programs, which are strategies used by utility companies to manage electricity demand and prevent grid overload. To find your utility provider's TOU rate plans and learn more about other Time-Variable Pricing options, you can visit the [Department of Energy's guide](https://www.energy.gov/).
+TOU rates are distinct from demand response programs, which are strategies used by utility companies to manage electricity demand and prevent grid overload. To find your utility provider's TOU rate plans and learn more about other Time-Variable Pricing options, you can visit the Department of Energy's [guide here](https://www.energy.gov/).
 
 ### Shifting Energy Usage to Off-Peak Hours
 

@@ -25,7 +25,7 @@ In our hypothetical case, we look at a home using 12,000 kWh annually, offsettin
 These examples serve as a baseline, but individual circumstances like location and home size can vary. For a tailored estimate, we recommend using our [Solar ROI calculator](link to Solar ROI calculator)
 
 
-### ** Start with Understanding the TRUE Net System Cost**
+### **Start with Understanding the TRUE Net System Cost**
 
 When it comes to solar investments, the TRUE net system cost is your starting point. This is the total out-of-pocket cost you incur, whether you opt for a cash purchase or a loan. To keep things simple and straightforward, you can calculate your TRUE net costs by multiplying your monthly payments by the number of months. This gives you a solid reference point for ROI calculations and for comparing solar loans. In this scenario, we're looking at two different TRUE net system costs to compare with solar: one cash price and the other a basic solar loan.
 

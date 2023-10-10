@@ -16,7 +16,7 @@ In the wake of the Inflation Reduction Act, residential wind turbines are gainin
 
 Residential wind turbines function similarly to commercial ones but on a smaller scale. The rotor blades capture the wind's power, while the hub, main shaft, gearbox, and generator work together to produce electricity efficiently. The design and technology behind wind turbines have evolved, making them more accessible to homeowners. For a comprehensive understanding, the Department of Energy provides an [interactive animation of a wind turbine](insert link).
 
-#### **Assessing Your Property**
+### **Assessing Your Property**
 
 Before installing a wind turbine, it's essential to evaluate your property's suitability for wind energy. Here are some key factors to consider:
 
@@ -32,11 +32,11 @@ Consideration of how the wind turbine will integrate with your existing power sy
 
 ### **Merging Wind Power with Your Home's Electrical Grid**
 
-Integrating residential wind turbines with a home's power system can reduce dependence on fossil fuels, lower energy bills, and assist in grid independence. Proper installation and connection enable wind-generated electricity to power various home appliances, and excess energy can be stored in a battery. This integration represents a step towards a more sustainable and resilient energy future. Learn more about energy storage at [Home Energy Storage](http://localhost:4322/homes/home-energy-storage).
+Integrating residential wind turbines with a home's power system can reduce dependence on fossil fuels, lower energy bills, and assist in grid independence. Proper installation and connection enable wind-generated electricity to power various home appliances, and excess energy can be stored in a battery. This integration represents a step towards a more sustainable and resilient energy future. Learn more about energy storage at [Home Energy Storage](http://investinyourenergy.com/home-energy-storage).
 
 ### **Hybrid Wind/Solar Systems: A Consistent and Reliable Power Supply**
 
-A hybrid wind/solar system is a forward-thinking solution that combines the strengths of wind and solar energy. By harnessing the power of the sun during the day and the wind at night, this system ensures a consistent and reliable power supply for your home. When one source is less available, the other compensates, providing energy even in varying weather conditions. This synergy not only enhances energy efficiency but also contributes to grid stability, alleviating peak demand pressures. For an in-depth exploration of hybrid systems, check out our article on [**Solar and Wind Hybrid Systems**](http://localhost:4321/hybrid-wind-solar-systems/).
+A hybrid wind/solar system is a forward-thinking solution that combines the strengths of wind and solar energy. By harnessing the power of the sun during the day and the wind at night, this system ensures a consistent and reliable power supply for your home. When one source is less available, the other compensates, providing energy even in varying weather conditions. This synergy not only enhances energy efficiency but also contributes to grid stability, alleviating peak demand pressures. For an in-depth exploration of hybrid systems, check out our article on [**Solar and Wind Hybrid Systems**](http://investinyourenergy.com/hybrid-wind-and-solar-systems-are-the-future-of-home-energy).
 
 ### **Other Key Factors to Consider**
 
@@ -47,7 +47,7 @@ A hybrid wind/solar system is a forward-thinking solution that combines the stre
 
 - **Environmental Considerations**: Assessing potential environmental impacts, such as effects on birds and bats, is part of responsible planning.
 
-### **Conclusion**
+#### **Conclusion**
 
 The rise of residential wind turbines reflects our growing commitment to renewable energy and sustainability. As homeowners seek innovative ways to reduce their environmental impact and enhance energy independence, wind turbines offer a promising avenue.
 
