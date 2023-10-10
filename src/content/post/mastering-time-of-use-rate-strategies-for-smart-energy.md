@@ -7,7 +7,7 @@ category: Inflation Reduction Act
 tags:
   - TOU Rates
   - smart energy devices
-  - home energy storage 
+  - home energy storage
 ---
 
 As we become less reliant on fossil fuels and embrace more electrification

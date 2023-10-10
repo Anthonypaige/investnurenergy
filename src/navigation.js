@@ -1,4 +1,4 @@
-import { getPermalink,  } from './utils/permalinks';
+import { getPermalink } from './utils/permalinks';
 
 export const headerData = {
   links: [
@@ -50,41 +50,40 @@ export const headerData = {
           text: 'Weatherization',
           href: getPermalink('landing/weatherization-page'),
         },
-
       ],
     },
     {
-        text: 'Energy Efficient Rebates',
-        links: [
-         {
-           text: 'Energy Efficient Rebates',
-           href: getPermalink('energyefficientrebates/energy-efficient-rebates'),
-         },
-         {
-           text: 'Smart Energy Devices',
-           href: getPermalink('energyefficientrebates/smart-energy-devices'),
-         },
-       ],
-     },
-    //  {
-      // text: 'Blog',
-      // links: [
-      //   {
-      //     text: 'Blog List',
-      //     href: getBlogPermalink(),
-      //   },
-      //   {
-      //     text: 'Category Page',
-      //     href: getPermalink('clean-energy', 'category'),
-      //   },
-      //   {
-      //     text: 'Tag Page',
-      //     href: getPermalink('tou-rates', 'tag'),
-      //   },
+      text: 'Energy Efficient Rebates',
+      links: [
+        {
+          text: 'Energy Efficient Rebates',
+          href: getPermalink('energyefficientrebates/energy-efficient-rebates'),
+        },
+        {
+          text: 'Smart Energy Devices',
+          href: getPermalink('energyefficientrebates/smart-energy-devices'),
+        },
       ],
-    }
-  // ],
-  // actions: [{ text: 'Download', href: 'https://github.com/onwidget/astrowind', target: '_blank' }],
+    },
+    //  {
+    // text: 'Blog',
+    // links: [
+    //   {
+    //     text: 'Blog List',
+    //     href: getBlogPermalink(),
+    //   },
+    //   {
+    //     text: 'Category Page',
+    //     href: getPermalink('clean-energy', 'category'),
+    //   },
+    //   {
+    //     text: 'Tag Page',
+    //     href: getPermalink('tou-rates', 'tag'),
+    //   },
+  ],
+};
+// ],
+// actions: [{ text: 'Download', href: 'https://github.com/onwidget/astrowind', target: '_blank' }],
 // };
 
 export const footerData = {
@@ -141,14 +140,12 @@ export const footerData = {
   socialLinks: [
     { ariaLabel: 'X', icon: 'tabler:brand-x', href: '#' },
     { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: '#' },
-    
   ],
   footNote: `
     <span class="w-5 h-5 md:w-6 md:h-6 md:-mt-0.5 bg-cover mr-1.5 rtl:mr-0 rtl:ml-1.5 float-left rtl:float-right rounded-sm bg-[url(https://onwidget.com/favicon/favicon-32x32.png)]"></span>
     Made by <a class="text-blue-600 hover:underline dark:text-gray-200" href="https://onwidget.com/"> onWidget</a> · All rights reserved.
   `,
 };
-
 
 // getBlogPermalink, getAsset
 // { ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss.xml') },

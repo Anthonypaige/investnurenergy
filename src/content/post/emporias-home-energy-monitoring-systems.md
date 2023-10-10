@@ -3,7 +3,7 @@ publishDate: 2023-09-27T00:00:00Z
 title: Emporia's Home Energy Monitoring Systems
 excerpt: An Emporia Home Energy Monitoring System can serve as a 'playbook' for transitioning into a smart energy-efficient home.
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/SED-3-cover-art.png?raw=true
-category: Smart Energy Devices 
+category: Smart Energy Devices
 tags:
   - Emporia
   - HEMS

@@ -3,11 +3,11 @@ publishDate: 2023-09-27T00:00:00Z
 title: What is Energy Arbitrage?
 excerpt: Pairing TOU rates with backup batteries can be particularly beneficial, enabling energy arbitrage strategies that allow homeowners to buy electricity at low off-peak rates and use or sell it during high-cost peak hours.
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/HES-2-cover-art.png?raw=true
-category: Home Clean Energy Credit
+category: Home Energy Storage
 tags:
   - Energy Arbitrage
   - TOU Rates
-  - home energy storage
+  - portable power stations
 ---
 
 As our electrical grid ages and struggles to meet modern energy demands, the importance of backup batteries has surged. These batteries are no longer just a convenience; they're a lifeline in emergencies, a bolster to your home's energy security, and a savvy financial investment in the era of Time-of-Use (TOU) rates. With TOU rates encouraging off-peak energy consumption, backup batteries also offer the opportunity for energy arbitrage—buying energy when it's cheap and using or selling it when prices soar. And with the added benefit of tax incentives through the Residential Clean Energy Credit, there's never been a better time to invest in a backup battery system.

@@ -72,7 +72,7 @@ These smart chargers are generally compatible with a wide range of electric vehi
 
 ### **What is a Bi-directional EV Charger?**
 
-Bi-directional EV chargers, expected to become available in 2024, offer a range of capabilities. Not only can they charge your EV, but they can also send electricity back to the grid. Some models will even allow for direct DC-to-DC charging from your solar panels to your EV, eliminating the need for AC conversion. These chargers are set to bring a host of new functionalities to the realm of sustainable energy and EV technology. 
+Bi-directional EV chargers, expected to become available in 2024, offer a range of capabilities. Not only can they charge your EV, but they can also send electricity back to the grid. Some models will even allow for direct DC-to-DC charging from your solar panels to your EV, eliminating the need for AC conversion. These chargers are set to bring a host of new functionalities to the realm of sustainable energy and EV technology.
 
 #### **Compatibility and Installation**
 

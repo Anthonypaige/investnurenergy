@@ -3,7 +3,7 @@ publishDate: 2023-09-27T00:00:00Z
 title: Biomass Boilers Explained
 excerpt: Navigate the world of biomass boilers. Learn how these eco-friendly systems can be a smart choice for your home's energy needs, offering both efficiency and sustainability.
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/EEHU-3-cover-art.png?raw=true
-category: Energy Efficient Home Improvement Credit 
+category: Energy Efficient Home Upgrades
 tags:
   - Biomass Boilers
   - grid independence

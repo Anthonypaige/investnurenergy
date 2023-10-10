@@ -36,7 +36,7 @@ Whether you're considering upgrading your HVAC system, installing a Heat Pump, o
 
 The Alternative Fuel Vehicle Refueling Property Credit, a provision of the Inflation Reduction Act of 2022, offers a credit of up to $1,000 for the installation of a Level 2 EV Charger at your home. This includes the cost of an electrician if a 240V dedicated circuit breaker is required for the installation. With the average home Level 2 Charger running about $550, this doesn’t leave much room for electrical cost.
 
-In addition to this federal credit, there may also be state-level incentives available, some of which cover installation costs. Therefore, it's crucial to research local incentives before deciding on an EV Charger installation. 
+In addition to this federal credit, there may also be state-level incentives available, some of which cover installation costs. Therefore, it's crucial to research local incentives before deciding on an EV Charger installation.
 
 ### **Residential Clean Energy Credit**
 

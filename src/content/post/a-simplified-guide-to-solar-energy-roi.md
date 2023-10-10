@@ -20,10 +20,9 @@ Understanding the financial benefits of switching to solar energy goes beyond ju
 
 To provide a realistic example, let's consider national averages alongside a hypothetical scenario. According to the U.S. Energy Information Administration, the average U.S. home consumed about 886 kWh per month in 2021. The cost of solar panels from reputable companies averages around $3 per watt, and the national electricity rate is approximately $0.17 per kWh.
 
-In our hypothetical case, we look at a home using 12,000 kWh annually, offsetting half of its energy needs with a 6KW solar system. This system consists of 15 panels, each at 400 watts, costing a total of $18,000. The homeowners pay $0.15 per kWh to their utility provider. 
+In our hypothetical case, we look at a home using 12,000 kWh annually, offsetting half of its energy needs with a 6KW solar system. This system consists of 15 panels, each at 400 watts, costing a total of $18,000. The homeowners pay $0.15 per kWh to their utility provider.
 
 These examples serve as a baseline, but individual circumstances like location and home size can vary. For a tailored estimate, we recommend using our [Solar ROI calculator](link to Solar ROI calculator)
-
 
 ### **Start with Understanding the TRUE Net System Cost**
 
@@ -67,7 +66,6 @@ Now, let's calculate the Solar ROI:
 **Solar ROI** = 58.64%
 
 So, in this example, considering the 30% federal tax credit and a 5% interest rate over 25 years, the Solar ROI would be 58.64%. This means that over 25 years, you would get a return of 58.64% on your initial investment of $22,097.50 (after tax credit and including the loan repayment).
-
 
 ### **Conclusion**
 

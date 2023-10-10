@@ -70,7 +70,7 @@ Focusing on certain areas can have a substantial impact on your utility bills by
   - **Doors**: Inspect for drafts and gaps and apply weatherstripping and door sweeps to seal any openings.
 
 - **Garages**:
-  
+
   - **Insulation**: Enhance your garage's insulation using [Garage Door Insulation Kits](insert link) and weather strips. Door sweeps can also be utilized to ensure a tight seal on garage doors.
 
 #### **Conclusion**
