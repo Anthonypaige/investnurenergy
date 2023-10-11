@@ -7,7 +7,7 @@ category: Smart Energy Devices
 tags:
   - Sense
   - Machine Learning
-  - Energy Monitoring
+  - home Energy Monitoring
 ---
 
 Sense Home Energy Monitors are more than just energy tracking devices. These compact devices, connected directly to your home's electrical panel, offer real-time insights into your power usage and solar production. The distinguishing factor is Sense's advanced machine learning technology.

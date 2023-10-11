@@ -6,7 +6,7 @@ image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/c
 category: Home Energy Storage
 tags:
   - Bluetti
-  - Power Stations
+  - portable Power Stations
   - Home Energy Storage
 ---
 

@@ -5,7 +5,7 @@ excerpt: With features ranging from advanced learning algorithms to geofencing a
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/THRM-1-cover-art.png?raw=true
 category: Smart Energy Devices
 tags:
-  - Smart Thermostat
+  - Smart Thermostats
   - smart energy devices
   - Machine Learning
 ---

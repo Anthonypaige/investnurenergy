@@ -5,9 +5,9 @@ excerpt: State and local energy efficiency incentives offer a valuable resource 
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/EER-2-cover-art.png?raw=true
 category: Energy Efficient Rebates
 tags:
-  - Smart Thermostat
-  - EV Charger
-  - State level rebates
+  - Smart Thermostats
+  - EV Chargers
+  - State level incentives
 ---
 
 Navigating the landscape of **State and Local Energy Efficiency Incentives** can be a complex task. From rebates to tax credits, each state offers a unique set of incentives designed to encourage energy-efficient upgrades. This comprehensive guide aims to demystify these incentives, helping you understand eligibility criteria, maximize benefits, and make informed decisions for a more energy-efficient home.

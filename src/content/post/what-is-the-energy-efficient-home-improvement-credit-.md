@@ -7,7 +7,7 @@ category: Energy Efficient Home Upgrades
 tags:
   - heat pumps
   - weatherization
-  - water heaters
+  - heat pump water heaters
 ---
 
 In an era where energy efficiency and sustainability are paramount, the Inflation Reduction Act has introduced measures to incentivize homeowners to invest in energy-saving improvements. A key component of this legislation is the [Energy-Efficient Home Improvement Credit, (25C)](https://www.irs.gov/credits-deductions/energy-efficient-home-improvement-credit) designed to encourage the adoption of technologies and practices that reduce energy consumption and environmental impact. From heat pumps to insulation enhancements, this credit provides financial support for a variety of upgrades that contribute to a more energy-efficient home. In this guide, we'll explore the details of the Energy-Efficient Home Improvement Credit, helping you understand how to leverage this opportunity to make your home more sustainable and cost-effective.

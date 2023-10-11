@@ -5,9 +5,9 @@ excerpt: Heat pump water heaters (HPWHs) stand out not just for their efficiency
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/WTR-2-cover-art.jpg?raw=true
 category: Energy Efficient Home Upgrades
 tags:
-  - Water heaters
+  - heat pump Water heaters
   - Heat Pumps
-  - HEEHRA
+  - electrical panel upgrade
 ---
 
 As energy costs rise and environmental responsibility becomes a priority, homeowners are seeking innovative, energy-efficient solutions. Traditional water heating, which accounts for a significant 20% of household energy consumption, has been a consistent drain on both finances and natural resources. Enter heat pump water heaters (HPWHs), a pioneering technology that's more than just an improvement—it's a new direction in home heating. These efficient devices are not only kinder to the environment but also offer substantial savings on energy bills.

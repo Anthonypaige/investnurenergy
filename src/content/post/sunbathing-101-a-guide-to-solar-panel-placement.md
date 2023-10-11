@@ -5,8 +5,7 @@ excerpt: Qualifying your home for solar panel installation is like planning the 
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/FYI-1-cover-art.png?raw=true
 category: Solar Energy
 tags:
-  - peak sun hours
-  - Solar basics
+  - solar energy
   - property assessment
 ---
 

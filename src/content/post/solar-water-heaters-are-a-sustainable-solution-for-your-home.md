@@ -3,11 +3,11 @@ publishDate: 2023-09-27T00:00:00Z
 title: Solar Water Heaters are a Sustainable Solution for Your Home
 excerpt: Step into the world of solar water heaters, where we guide you through the benefits and considerations of this sustainable home solution.
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/HCE-3-cover-art.png?raw=true
-category: Clean Energy
+category: Home Clean Energy Credit
 tags:
   - home clean energy credit
   - grid independence
-  - solar water heater
+  - solar water heaters
 ---
 
 With the Inflation Reduction Act of 2022 shining a spotlight on renewable energy solutions, solar water heaters are emerging as a popular choice for homeowners. Thanks to the Residential Clean Energy Credit (tax code 25D), you can now avail a 30% tax credit on the cost of equipment and installation. This makes solar water heaters a cost-effective and eco-friendly option for your home. In this guide, we will delve into the different types of solar water heaters, how they work, and the benefits they bring.

@@ -7,7 +7,7 @@ category: Inflation Reduction Act
 tags:
   - Inflation Reduction Act
   - Home Clean Energy Credit
-  - Energy Efficiency
+  - Energy Efficienct Home Upgrades
 ---
 
 ### **What is the Inflation Reduction Act of 2022?**

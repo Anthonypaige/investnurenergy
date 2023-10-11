@@ -5,9 +5,9 @@ excerpt: Our comprehensive guide helps you navigate the diverse options availabl
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/EER-3-cover-art.png?raw=true'
 category: Energy Efficient Rebates
 tags:
-  - EV Charger
-  - Home Improvement
-  - Incentives
+  - EV Chargers
+  - shopping guide 
+  - State level Incentives
 ---
 
 Investing in a Level 2 home charger is now more affordable, thanks to the [Alternative Fuel Vehicle Refueling Property Credit](https://afdc.energy.gov/laws/10513) or 30C tax code. This federal incentive offers a tax credit of 30% of the installation cost, up to $1000. Additionally, many utility providers offer rebates ranging from $150-$750. For state-level incentives, check out the [Database of State Incentives for Renewables & Efficiency (DSIRE.org)](https://www.dsireusa.org/).

@@ -6,7 +6,7 @@ image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/c
 category: Energy Efficienct Home Upgrades
 tags:
   - home energy monitoring
-  - smart thermostat
+  - smart thermostats
   - TOU rates
 ---
 

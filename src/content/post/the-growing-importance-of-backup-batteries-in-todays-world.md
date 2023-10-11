@@ -5,7 +5,7 @@ excerpt: The need for grid upgrades is a pressing issue, and until those upgrade
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/HES-1-cover-art.jpg?raw=true
 category: Home Energy Storage
 tags:
-  - Backup Batteries
+  - TOU rates 
   - grid independence
   - Energy Arbitrage
 ---

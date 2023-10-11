@@ -5,9 +5,9 @@ excerpt: Delve into the critical role of electrical panel upgrades under the Inf
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/IIYE-3-cover-art.jpg?raw=true
 category: Inflation Reduction Act
 tags:
-  - Electrical Panel Upgrades
+  - Electrical Panel Upgrade
   - Inflation Reduction Act
-  - Energy Efficiency
+  - home clean energy credit
 ---
 
 Embracing a sustainable future involves more than just adopting clean energy technologies; it requires a fundamental shift in our homes' infrastructure. Electrical panel upgrades, recognized by various provisions within the Inflation Reduction Act, are becoming increasingly important in this green transition. They not only accommodate new technologies but also prepare our homes for a future where clean energy is commonplace.

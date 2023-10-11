@@ -5,9 +5,9 @@ excerpt: The High-Efficiency Electric Home Rebate Act (HEEHRA) is a groundbreaki
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/EER-1-cover-art.jpg?raw=true
 category: Energy Efficient Rebates
 tags:
-  - HEEHRA
-  - Energy Efficiency
-  - State-level Rebates
+  - Heat pumps 
+  - Heat Pump water heaters
+  - State-level incentives
 ---
 
 Low and Moderate-Income (LMI) households typically bear three times the energy burden (the portion of their income spent on home energy) compared to others. This disproportionate burden often leads to difficult choices between essential needs and energy bills. HEEHRA aims to alleviate this energy burden by focusing on electrification upgrades and offering substantial rebates, making a positive impact on both the environment and consumers' wallets.
