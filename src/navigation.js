@@ -47,6 +47,10 @@ export const headerData = {
           href: getPermalink('landing/water-heaters-page'),
         },
         {
+          text: 'EV Charger Comparison Table',
+          href: getPermalink('landing/ev-charger-comparison-table'),
+        },
+        {
           text: 'Weatherization',
           href: getPermalink('landing/weatherization-page'),
         },
