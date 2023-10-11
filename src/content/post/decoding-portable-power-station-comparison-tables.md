@@ -7,7 +7,7 @@ category: Home Energy Storage
 tags:
   - time of use rates
   - home energy storage
-  - Backup Battery
+  - comparison table
 ---
 
 Looking for the right backup battery can be tricky, especially when faced with complex comparison tables filled with technical jargon. In this guide, we're breaking it down for you using two different models - the ECOFLOW DELTA PRO and the BLUETTI EP 500. We'll use these models to explain the terms you'll come across, helping you understand what to look for when shopping. Let's get started and make sense of those comparison tables step by step.

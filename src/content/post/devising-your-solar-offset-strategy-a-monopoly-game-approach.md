@@ -5,7 +5,7 @@ excerpt: Stepping into the realm of solar energy with a well-crafted offset stra
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/FYI-4-cover-art.png?raw=true
 category: Solar Energy
 tags:
-  - Solar Basics
+  - Solar offset strategy
   - home energy storage
   - net metering
 ---

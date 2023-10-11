@@ -6,7 +6,7 @@ image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/c
 category: Smart Energy Devices
 tags:
   - Ecobee
-  - Smart Thermostat
+  - Smart Thermostats
   - Buying Guide
 ---
 
