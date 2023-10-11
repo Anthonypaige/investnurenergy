@@ -5,7 +5,7 @@ excerpt: The High-Efficiency Electric Home Rebate Act (HEEHRA) is a groundbreaki
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/EER-1-cover-art.jpg?raw=true
 category: Energy Efficient Rebates
 tags:
-  - Heat pumps 
+  - Heat pumps
   - Heat Pump water heaters
   - State-level incentives
 ---

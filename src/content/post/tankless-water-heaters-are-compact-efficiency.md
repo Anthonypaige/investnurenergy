@@ -7,7 +7,7 @@ category: Energy Efficient Home Upgrades
 tags:
   - energy efficient home upgrades
   - Tankless water heaters
-  - On Demand energy source 
+  - On Demand energy source
 ---
 
 The Inflation Reduction Act has incorporated tankless water heaters into its provisions under the Energy Efficient Home Improvement Credit (25C), covering 30% up to $600 for ENERGY STAR models with a UEF greater than 0.95. [Verify with Energy Star](EnergyStar.gov) This decision was made to recognize their exceptional ability to save energy. Additionally, many state governments and local utilities offer rebates and incentives, which you can explore through the [Database of State Incentives for Renewables & Efficiency](DSIRE.org). This inclusion offers homeowners both immediate comfort and long-term financial advantages. In this comprehensive guide, we'll explore everything you need to know about tankless water heaters, with a special focus on top recommended brands like Rinnai and Rheem.
