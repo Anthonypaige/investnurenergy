@@ -13,15 +13,15 @@ tags:
 As we become less reliant on fossil fuels and embrace more electrification
 the process of updating our decades-old grid becomes paramount. This aging infrastructure, originally not equipped to handle such energy demands, presents a significant challenge. In response, utility companies are adopting a transformative strategy: Time-Variable Pricing (TVP), which accurately reflects the true cost of power by the hour. This collective effort propels us toward a streamlined energy future.
 
-### Time-of-use rates (TOU) explained
+### **Time-of-use rates (TOU) explained**
 
 TOU rates are the most popular rate structures within Time-Variable Pricing (TVP). These rates divide the day into peak, off-peak, and sometimes one to two shoulder periods, with rates varying accordingly. Peak periods, when rates are highest, typically occur during the late afternoon and early evening, and sometimes again in the morning. Off-peak periods, with the lowest rates, usually happen at night and late morning. Specific times for these periods can vary depending on the utility company and the season, with summer rates often in a larger block of 1pm-6pm or 2pm-7pm. Rates vary by region as well as utility provider.
 
-### TOU rates vs. Demand Response Programs
+### **TOU rates vs. Demand Response Programs**
 
-TOU rates are distinct from demand response programs, which are strategies used by utility companies to manage electricity demand and prevent grid overload. To find your utility provider's TOU rate plans and learn more about other Time-Variable Pricing options, you can visit the Department of Energy's [guide here](https://www.energy.gov/).
+TOU rates are distinct from demand response programs, which are strategies used by utility companies to manage electricity demand and prevent grid overload. To find your utility provider's TOU rate plans and learn more about other Time-Variable Pricing options, you can visit the Department of Energy's guide [here](https://www.energy.gov/).
 
-### Shifting Energy Usage to Off-Peak Hours
+### **Shifting Energy Usage to Off-Peak Hours**
 
 One of the simplest ways to take advantage of Time-of-Use rates is to manually schedule high-energy-consuming activities during off-peak hours when rates are lowest. This doesn't require any special technology or investment; it's all about timing. Here are some common activities you can shift:
 
@@ -32,7 +32,7 @@ One of the simplest ways to take advantage of Time-of-Use rates is to manually s
 - **Water Heating**: If you have an electric water heater, consider timing showers, baths, and other hot water usage to off-peak hours.
 - **Pool Pump Operation**: If you have a swimming pool, running the pump during off-peak hours can be more cost-effective.
 
-### Utilizing Smart Home Devices for Energy Efficiency
+### **Utilizing Smart Home Devices for Energy Efficiency**
 
 Smart home devices offer a more automated approach to managing Time-of-Use rates, allowing you to optimize energy consumption without manual intervention. Here's how these devices can help:
 
@@ -51,4 +51,4 @@ Load shifting is the practice of moving energy consumption from high-cost peak p
 
 #### Conclusion
 
-Time-of-Use (TOU) rates are transforming the way we consume energy, reflecting the dynamic nature of our increasingly electrified world. By understanding and adapting to these rates, households can achieve significant savings and contribute to a more sustainable energy future. Visit [this page from the DOE](https://www.energy.gov/) to learn more about your utility provider's TOU rate plans and join the journey towards a smarter, greener future.
+Time-of-Use (TOU) rates are transforming the way we consume energy, reflecting the dynamic nature of our increasingly electrified world. By understanding and adapting to these rates, households can achieve significant savings and contribute to a more sustainable energy future. Visit this page from the [Department of Energy](https://www.energy.gov/) to learn more about your utility provider's TOU rate plans and join the journey towards a smarter, greener future.

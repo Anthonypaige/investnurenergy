@@ -26,7 +26,7 @@ It's essential to understand your state's specific net metering policies to maxi
 
 ### **Feed-in Tariffs: Another Option**
 
-Feed-in tariffs (FiTs) are another option for managing excess solar energy, although they are not as widely accepted as net metering and are available in fewer states. Unlike net metering, where you receive credits against your energy bill, feed-in tariffs allow you to sell your excess energy back to the grid at a fixed rate, often locked in over a contract period of 10 to 20 years. This can provide a steady income stream but may not be as financially beneficial as net metering in some cases. FiTs are part of a complex landscape of renewable energy incentives and may vary significantly between states. [Learn more about feed-in tariffs and their application in the U.S](https://www.energy.gov/scep/slsc/articles/feed-tariffs-best-practices-and-application-us)
+Feed-in tariffs (FiTs) are another option for managing excess solar energy, although they are not as widely accepted as net metering and are available in fewer states. Unlike net metering, where you receive credits against your energy bill, feed-in tariffs allow you to sell your excess energy back to the grid at a fixed rate, often locked in over a contract period of 10 to 20 years. This can provide a steady income stream but may not be as financially beneficial as net metering in some cases. FiTs are part of a complex landscape of renewable energy incentives and may vary significantly between states. Learn more about feed-in tariffs and [their application in the U.S](https://www.energy.gov/scep/slsc/articles/feed-tariffs-best-practices-and-application-us)
 
 ### **The Need for a Plan: Managing Your Harvest**
 

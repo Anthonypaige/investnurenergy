@@ -29,7 +29,6 @@ By offering these unique properties, foam spray insulation has become a preferre
 Foam spray insulation is renowned for its unparalleled insulating properties, making it a valuable investment for any homeowner. Here's why:
 
 - **High R-Value**: The R-value is a measure of thermal resistance, and a high R-value translates to superior insulation. Foam spray insulation's high R-value ensures that it provides excellent protection against heat loss or gain.
-
 - **Sealing Gaps**: Even the smallest gaps can lead to significant energy wastage. Foam spray insulation excels at sealing these gaps, preventing air leakage that can undermine the efficiency of your heating and cooling systems.
 - **Optimized HVAC Performance**: By creating an airtight barrier, foam spray insulation allows your HVAC systems to operate optimally. This efficiency reduces the workload on your heating and cooling systems, leading to substantial energy savings.
 - **Significant Savings**: According to the U.S. Department of Energy, homeowners can save an average of 15% on heating and cooling costs by air sealing their homes and adding insulation. Over time, these savings can add up, making foam spray insulation a wise financial decision.

@@ -64,7 +64,7 @@ Ductless Mini-Split Systems have unique features that set them apart from tradit
 
 - **Design Flexibility**: With various styles and mounting options, mini-splits can seamlessly blend into your home's decor.
 
-For more on Ductless Mini-Split Systems,check out our [detailed guide](link to article).
+For more on Ductless Mini-Split Systems,check out our [detailed guide](investinyourenergy.com/whats-a-ductless-mini-split-heat-pump).
 
 ### **Finding the Right Size: A Crucial Step for Efficiency**
 

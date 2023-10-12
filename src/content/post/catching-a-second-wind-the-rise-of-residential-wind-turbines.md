@@ -14,7 +14,7 @@ In the wake of the Inflation Reduction Act, residential wind turbines are gainin
 
 ### **The Basics of Residential Wind Turbines**
 
-Residential wind turbines function similarly to commercial ones but on a smaller scale. The rotor blades capture the wind's power, while the hub, main shaft, gearbox, and generator work together to produce electricity efficiently. The design and technology behind wind turbines have evolved, making them more accessible to homeowners. For a comprehensive understanding, the Department of Energy provides an [interactive animation of a wind turbine](insert link).
+Residential wind turbines function similarly to commercial ones but on a smaller scale. The rotor blades capture the wind's power, while the hub, main shaft, gearbox, and generator work together to produce electricity efficiently. The design and technology behind wind turbines have evolved, making them more accessible to homeowners. For a comprehensive understanding, the Department of Energy provides an [interactive animation of a wind turbine](https://www.energy.gov/eere/wind/explore-wind-turbine).
 
 ### **Assessing Your Property**
 
@@ -24,7 +24,7 @@ Before installing a wind turbine, it's essential to evaluate your property's sui
 
 - **Site Selection**: Choosing the right site for your wind turbine is vital. Factors such as elevation, obstructions, and proximity to neighbors can affect the turbine's efficiency.
 
-To understand if your home is a good candidate for wind power, check out out article on [residential wind assessment](link to the article).
+To understand if your home is a good candidate for wind power, check out out article on [residential wind assessment](investinyourenergy.com/is-your-home-a-good-candidate-for-residential-wind-power).
 
 Consideration of how the wind turbine will integrate with your existing power system, including potential battery storage, is essential for a seamless operation.
 
@@ -41,7 +41,6 @@ A hybrid wind/solar system is a forward-thinking solution that combines the stre
 ### **Other Key Factors to Consider**
 
 - **Cost and Incentives**: Understanding the costs involved in installation and maintenance, as well as available incentives like the Residential Clean Energy Credit, will help you evaluate the economic viability of the project.
-  Responsible planning and compliance with legal requirements are also essential aspects of a wind turbine installation:
 
 - **Permits and Regulations**: Compliance with local regulations regarding turbine height, noise levels, and setbacks is mandatory. Obtaining the necessary permits ensures that your installation adheres to community standards and legal requirements.
 

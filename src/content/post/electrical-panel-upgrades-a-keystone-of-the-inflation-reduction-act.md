@@ -30,7 +30,7 @@ The Energy Efficient Home Improvement Credit (25C) under the Inflation Reduction
 - Have a load capacity of not less than 200 amps.
 - Enable the installation and use of qualified energy efficiency improvements or property.
 
-Whether you're considering upgrading your HVAC system, installing a Heat Pump, or adding an Energy Star certified appliance, this credit can make your home more energy-efficient and future-ready. For eligibility and application details, refer to [Energy Star’s guidelines](https://www.energystar.gov/). Learn more about 25C at [www.EnergyEfficientHomeUpgrades.com](https://www.EnergyEfficientHomeUpgrades.com).
+Whether you're considering upgrading your HVAC system, installing a Heat Pump, or adding an Energy Star certified appliance, this credit can make your home more energy-efficient and future-ready. For eligibility and application details, refer to [Energy Star’s guidelines](https://www.energystar.gov/). Learn more about 25C at [Energy Efficient Home Upgrades](https://www.investonyourenergy.com/energy-efficient-home-upgrades).
 
 ### **The Alternative Fuel Vehicle Refueling Property Credit (30C)**
 

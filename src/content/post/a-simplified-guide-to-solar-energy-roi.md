@@ -73,4 +73,4 @@ Armed with the knowledge of how to calculate Solar ROI, we've simplified the pro
 
 While our calculator is straightforward and provides a good starting point, it's important to note that it doesn't include all factors. State incentives, net-metering, and battery storage are not factored in, but they can significantly impact your Solar ROI. Also, keep in mind that some solar companies may include hidden dealer fees that aren't accounted for in this basic calculation.
 
-Now that you understand how to calculate your Solar ROI, you might be wondering how you can maximize it. In our next article,[Maximizing Your Solar ROI: A Guide to Controllable Factors](link to the article), we delve into the controllable factors that can help you get the most out of your solar investment.
+Now that you understand how to calculate your Solar ROI, you might be wondering how you can maximize it. In our next article, we'll cover [what factors effect your Solar ROI](investinyourenergy.com/what-factors-will-effect-my-solar-roi), we delve into the controllable factors that can help you get the most out of your solar investment.

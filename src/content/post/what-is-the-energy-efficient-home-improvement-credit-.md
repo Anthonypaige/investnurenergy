@@ -28,11 +28,11 @@ Heating and cooling systems are the cornerstone of home comfort, accounting for 
 
 #### **Heat Pumps: The Powerhouses of Energy Efficiency**
 
-Heat pumps stand as the unsung heroes within the provisions of the Inflation Reduction Act. Their remarkable efficiency, operating at three times the efficiency of traditional heating systems, makes them a smart investment for homeowners keen on reducing their energy footprint. The Act encompasses both ducted and mini-ductless air source heat pumps, offering a substantial credit that covers 30% of the cost, capped at a maximum of $2000. To explore the manifold advantages of heat pump technology, we invite you to visit our [dedicated page on heat pumps](#).
+Heat pumps stand as the unsung heroes within the provisions of the Inflation Reduction Act. Their remarkable efficiency, operating at three times the efficiency of traditional heating systems, makes them a smart investment for homeowners keen on reducing their energy footprint. The Act encompasses both ducted and mini-ductless air source heat pumps, offering a substantial credit that covers 30% of the cost, capped at a maximum of $2000. To explore the manifold advantages of heat pump technology, we invite you to visit our [dedicated page on heat pumps](investinyourenergy.com/heat-pump-page).
 
 #### **Biomass Boilers: The Vanguard of Eco-Friendly Heating**
 
-Biomass boilers represent a modern, eco-friendly solution for home heating, utilizing natural waste as a fuel source. Their incredible efficiency has not gone unnoticed by the Inflation Reduction Act, which allocates a 30% credit of the cost, up to $2000, for the installation of biomass stoves and boilers. Dive deeper into this innovative heating solution in our [overview of Biomass boilers](#).
+Biomass boilers represent a modern, eco-friendly solution for home heating, utilizing natural waste as a fuel source. Their incredible efficiency has not gone unnoticed by the Inflation Reduction Act, which allocates a 30% credit of the cost, up to $2000, for the installation of biomass stoves and boilers. Dive deeper into this innovative heating solution in our [overview of Biomass boilers](investinyourenergy.com/biomass-boilers-explained).
 
 #### **Additional Heating and Cooling Options**
 
@@ -42,7 +42,7 @@ The Inflation Reduction Act extends its benefits to a variety of other heating a
 - **Central Air Conditioners**: These units, boasting a SEER2 rating equal to or greater than 16, promise efficient cooling throughout your home.
 - **Gas Furnaces**: With an AFUE rating equal to or greater than 97%, these furnaces provide powerful heating while keeping energy consumption in check.
 
-For more details on the eligibility criteria, visit [Energy Star](#).
+For more details on the eligibility criteria, visit [Energy Star](https://www.energystar.gov/about/federal_tax_credits/central_air_conditioning).
 
 ### **Water Heaters**
 
@@ -50,15 +50,15 @@ Water heating, encompassing showers, laundry, and dishwashing, constitutes nearl
 
 #### **Heat Pump Water Heaters**
 
-Standing as the zenith of water heater technology, heat pump water heaters offer a remarkable blend of efficiency and performance. These units utilize heat pump technology to heat water, significantly reducing energy consumption compared to traditional water heaters. Learn more about the benefits and potential savings associated with heat pump water heaters on our [dedicated page](#).
+Standing as the zenith of water heater technology, heat pump water heaters offer a remarkable blend of efficiency and performance. These units utilize heat pump technology to heat water, significantly reducing energy consumption compared to traditional water heaters. Learn more about the benefits and potential savings associated with heat pump water heaters in [our guide](investinyourenergy.com/heat-pump-water-heaters-are-the-model-of-efficiency).
 
 #### **Tankless Water Heaters**
 
-Tankless water heaters have surged in popularity due to their energy-saving potential. Unlike traditional units, they only heat water on demand, eliminating the energy wastage associated with maintaining a tank of hot water. Discover the benefits and features of tankless water heaters on our [information page](#).
+Tankless water heaters have surged in popularity due to their energy-saving potential. Unlike traditional units, they only heat water on demand, eliminating the energy wastage associated with maintaining a tank of hot water. Discover the benefits and features of [tankless water heaters here.](investinyourenergy.com/tankless-water-heaters-are-compact-efficiency) 
 
 ### **Weatherization: Your Secret Weapon Against Wasting Energy**
 
-Weatherization is a big deal when it comes to the Energy-Efficient Home Improvement Credit. It's all about insulation and sealant, and you can get a credit of 30% of the cost, up to $1200. We're talking everything from batts and rolls to blow-in fibers, rigid boards, expanding spray, and pour-in-place. Even products that help seal up air leaks are included. Proper insulation offers a cost effective solution to an energy efficient home. If you want to lear more check out our [detailed guide on insulating your home](https://app.stackbit.com/studio/64d6608f12525200bdbe6a49#/blog/weatherize-article/)
+Weatherization is a big deal when it comes to the Energy-Efficient Home Improvement Credit. It's all about insulation and sealant, and you can get a credit of 30% of the cost, up to $1200. We're talking everything from batts and rolls to blow-in fibers, rigid boards, expanding spray, and pour-in-place. Even products that help seal up air leaks are included. Proper insulation offers a cost effective solution to an energy efficient home. If you want to learn more check out our [detailed guide on insulating your home](investinyourenergy.com/a-comprehensive-guide-to-weatherization-and-energy-efficiency)
 
 ### **Exterior Doors, Skylights, and Windows: Opening the Door to Energy Efficiency**
 

@@ -16,9 +16,11 @@ Geothermal heat pumps (GHPs), also known as ground-source heat pumps, have been 
 
 Geothermal heat pumps, also known as ground-source heat pumps, are heating and cooling systems that use the Earth's constant temperature as a medium for heat exchange. These systems consist of a heat pump connected to a series of buried pipes, known as a ground loop. A fluid circulates through these pipes, absorbing or relinquishing heat within the ground, depending on the season.
 
-### **Understanding Your Area's Geothermal Potential is a Prerequisite**
+![Super wide](https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/page-art/GEO-map-page-art.png?raw=true)
 
-Before you start making investment plans, you have to check your area's geothermal potential. The geothermal potential varies across the United States, with some areas being more favorable than others. As depicted on the Geothermal potential map courtesy of the [\*\*U.S. Energy Atlas]() certain regions have more potential than others. You can check the geothermal potential of your specific neighborhood using this interactive map.
+### **Understanding Your Property's Geothermal Potential**
+
+Before you start making investment plans, you have to check your area's geothermal potential. The geothermal potential varies across the United States, with some areas being more favorable than others. As depicted on the Geothermal potential map courtesy of the U.S. Energy Atlas, certain regions have more potential than others. You can check the geothermal potential of your specific neighborhood using this [interactive map.](https://atlas.eia.gov/datasets/eia::geothermal-potential/explore)
 
 ### **What are thre different types of Geothermal Heat Pump Systems?**
 

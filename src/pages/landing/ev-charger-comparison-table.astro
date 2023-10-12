@@ -1,0 +1,197 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+
+---
+
+<Layout>
+  <head>
+    <title>EV Charger Comparison Table</title>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.css">
+    <script defer src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script defer src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.js"></script>
+  </head>
+
+  <style>
+   <style>
+    #comparisonTable {
+        font-family: Arial, sans-serif;
+        width: 100%;
+        border-collapse: collapse;
+        text-align: center;
+    }
+    #comparisonTable td, #comparisonTable th {
+        padding: 10px;
+        border: 1px solid #dddddd;
+    }
+    #comparisonTable th {
+        background-color: #4CAF50;
+        color: white; /* Added this to make the text white */
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+    }
+    #comparisonTable tr:nth-child(even) {
+        background-color: #f9f9f9;
+    }
+    #comparisonTable tr:hover {
+        background-color: #f1f1f1; /* Changed this to a lighter color for a hover effect */
+    }
+    </style>
+ 
+
+  <table id="comparisonTable">
+    <table id='comparisonTable'>
+<thead>
+<tr>
+<th>Shop Here</th>
+<th>Charger Name</th>
+<th>Price</th>
+<th>Max Power Output (Amps)</th>
+<th>Wifi</th>
+<th>Bluetooth</th>
+<th>Chord Management</th>
+<th>Installation</th>
+<th>Outdoor Rating</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href='http://affiliate-link.com' target='_blank' rel='noopener noreferrer'><img src='https://via.placeholder.com/150' alt='Placeholder Image' style='width:50px; height:auto;' /> Shop Here</a></td>
+<td>Grizzl-E Level 2 EV Charger</td>
+<td>$349.99</td>
+<td>40 Amps</td>
+<td>No</td>
+<td>No</td>
+<td>Wall Mount</td>
+<td>NEMA 14-50 or 6-50</td>
+<td>NEMA 4X/IP67</td>
+</tr>
+<tr>
+<td><a href='http://affiliate-link.com' target='_blank' rel='noopener noreferrer'><img src='https://via.placeholder.com/150' alt='Placeholder Image' style='width:50px; height:auto;' /> Shop Here</a></td>
+<td>Lectron 240V 40 Amp Level 2 EV Charger</td>
+<td>$449.00</td>
+<td>40 Amps</td>
+<td>No</td>
+<td>No</td>
+<td>J-Hook</td>
+<td>NEMA 14-50 plug</td>
+<td>NEMA 4X/IP55</td>
+</tr>
+<tr>
+<td><a href='http://affiliate-link.com' target='_blank' rel='noopener noreferrer'><img src='https://via.placeholder.com/150' alt='Placeholder Image' style='width:50px; height:auto;' /> Shop Here</a></td>
+<td>Autel MaxiCharger Elite Home 40A Plug-In EV Charger</td>
+<td>$559.00</td>
+<td>40 Amps</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Separate holster</td>
+<td>NEMA 14-50 or 6-50</td>
+<td>NEMA 4X</td>
+</tr>
+<tr>
+<td><a href='http://affiliate-link.com' target='_blank' rel='noopener noreferrer'><img src='https://via.placeholder.com/150' alt='Placeholder Image' style='width:50px; height:auto;' /> Shop Here</a></td>
+<td>JuiceBox 40 Smart Electric Vehicle (EV) Charging Station</td>
+<td>$599.00</td>
+<td>40 Amps</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Wall Mount</td>
+<td>NEMA 14-50 plug</td>
+<td>NEMA 4X/IP66</td>
+</tr>
+<tr>
+<td><a href='http://affiliate-link.com' target='_blank' rel='noopener noreferrer'><img src='https://via.placeholder.com/150' alt='Placeholder Image' style='width:50px; height:auto;' /> Shop Here</a></td>
+<td>Electrify America Level 2 EV Charger</td>
+<td>$649.00</td>
+<td>40 Amps</td>
+<td>Yes</td>
+<td>No</td>
+<td>Separate holster</td>
+<td>NEMA 14-50 plug</td>
+<td>NEMA 3R</td>
+</tr>
+<tr>
+    <td><a href='http://affiliate-link.com' target='_blank' rel='noopener noreferrer'><img src='https://via.placeholder.com/150' alt='Placeholder Image' style='width:50px; height:auto;' /> Shop Here</a></td>
+    <td>Wallbox Pulsar Plus 40A Level 2 EV Charger</td>
+    <td>$649.00</td>
+    <td>40 Amps</td>
+    <td>Yes</td>
+    <td>Yes</td>
+    <td>Separate holster</td>
+    <td>NEMA 14-50 plug</td>
+    <td>NEMA-4</td>
+</tr>
+<tr>
+    <td><a href='http://affiliate-link.com' target='_blank' rel='noopener noreferrer'><img src='https://via.placeholder.com/150' alt='Placeholder Image' style='width:50px; height:auto;' /> Shop Here</a></td>
+    <td>Lectron 240V 48 Amp Level 2 EV Charger</td>
+    <td>$499.00</td>
+    <td>48 amps</td>
+    <td>No</td>
+    <td>No</td>
+    <td>J-Hook</td>
+    <td>NEMA 14-50 plug</td>
+    <td>NEMA 4X/IP55</td>
+</tr>  
+<tr>
+    <td><a href='http://affiliate-link.com' target='_blank' rel='noopener noreferrer'><img src='https://via.placeholder.com/150' alt='Placeholder Image' style='width:50px; height:auto;' /> Shop Here</a></td>
+    <td>Emporia Vue Smart EV Charger</td>
+    <td>$399.00</td>
+    <td>48 amps</td>
+    <td>Yes</td>
+    <td>No</td>
+    <td>Wall Mount</td>
+    <td>Hardwired or 14-50 Plug in</td>
+    <td>NEMA-4</td>
+</tr>
+<tr>
+    <td><a href='http://affiliate-link.com' target='_blank' rel='noopener noreferrer'><img src='https://via.placeholder.com/150' alt='Placeholder Image' style='width:50px; height:auto;' /> Shop Here</a></td>
+    <td>JuiceBox 48 amp Smart EV Charging Station</td>
+    <td>$639.00</td>
+    <td>48 amps</td>
+    <td>Yes</td>
+    <td>Yes</td>
+    <td>Wall Mount</td>
+    <td>Hardwired</td>
+    <td>NEMA 4X/IP66</td>
+</tr> 
+<tr>
+    <td><a href='http://affiliate-link.com' target='_blank' rel='noopener noreferrer'><img src='https://via.placeholder.com/150' alt='Placeholder Image' style='width:50px; height:auto;' /> Shop Here</a></td>
+    <td>Wallbox Pulsar Plus 48A Level 2 EV Charger</td>
+    <td>$699.00</td>
+    <td>48 amps</td>
+    <td>Yes</td>
+    <td>Yes</td>
+    <td>Separate holster</td>
+    <td>NEMA 14-50 plug</td>
+    <td>NEMA 4X</td>
+</tr> 
+<tr>
+    <td><a href='http://affiliate-link.com' target='_blank' rel='noopener noreferrer'><img src='https://via.placeholder.com/150' alt='Placeholder Image' style='width:50px; height:auto;' /> Shop Here</a></td>
+    <td>Autel Maxicharge 50 amp hardwired EV Charger</td>
+    <td>$599.00</td>
+    <td>50 Amps</td>
+    <td>Yes</td>
+    <td>Yes</td>
+    <td>Separate holster</td>
+    <td>Hardwired</td>
+    <td>NEMA 4X</td>
+</tr>
+<tr>
+    <td><a href='http://affiliate-link.com' target='_blank' rel='noopener noreferrer'><img src='https://via.placeholder.com/150' alt='Placeholder Image' style='width:50px; height:auto;' /> Shop Here</a></td>
+    <td>ChargePoint Home Flex 50A plug-in EV Charger</td>
+    <td>$682.00</td>
+    <td>50 Amps</td>
+    <td>Yes</td>
+    <td>Yes</td>
+    <td>Built In</td>
+    <td>Hardwired/Plug-in</td>
+    <td>NEMA 3R</td>
+</tr>
+</tbody>
+</table>
+<script type="module">
+    window.addEventListener('load', function() {
+      const table = $('#comparisonTable').DataTable();
+      $('input[type="search"]').attr('placeholder', 'Search');
+    });
+  </script>

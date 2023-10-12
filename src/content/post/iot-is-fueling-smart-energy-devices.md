@@ -20,7 +20,7 @@ Smart thermostats are thermostats that connect to Wi-Fi, enabling remote control
 
 Some smart thermostats go beyond basic remote control by communicating with other smart home devices. This interconnectivity allows them to work together to optimize energy consumption, adjusting temperatures based on other factors like outdoor weather or occupancy.
 
-Additionally, certain smart thermostats have learning capabilities, meaning they can adapt to your routines and preferences over time. This "intelligence" helps in automating temperature adjustments, further enhancing energy savings. To learn more check out our [comprehensive guide on smart thermostats](https://app.stackbit.com/studio/64d6608f12525200bdbe6a49#/blog/article-on-smart-thermostats/)
+Additionally, certain smart thermostats have learning capabilities, meaning they can adapt to your routines and preferences over time. This "intelligence" helps in automating temperature adjustments, further enhancing energy savings. To learn more check out our comprehensive guide on [smart thermostats](investinyourenergy.com/smart-thermostat-shopping-guide-what-you-need-to-know)
 
 ### **Home Energy Monitoring Systems: From Whole Home to Appliance Level Insights**
 
@@ -30,9 +30,9 @@ Additionally, certain smart thermostats have learning capabilities, meaning they
 
 - **Circuit Level:** Circuit level monitoring takes it a step further. By allowing monitoring at this level, you can identify inefficiencies in specific areas of your home, leading to targeted improvements. This comes in handy since most of your major appliance upgrades would have their own dedicated circuit.
 
-- **Appliance Level:** Appliance level monitoring allows you to analyze the energy usage of individual appliances, empowering you to make informed upgrade decisions. This can be achieved through Machine Learning, which is [the Sense way of appliance level monitoring](https://app.stackbit.com/studio/64d6608f12525200bdbe6a49#/blog/utility-provider-rebates-article/), or the addition of smart plugs, which is [the Emporia way of appliance level monitoring](https://app.stackbit.com/studio/64d6608f12525200bdbe6a49#/blog/electric-stove-article/).
+- **Appliance Level:** Appliance level monitoring allows you to analyze the energy usage of individual appliances, empowering you to make informed upgrade decisions. This can be achieved through Machine Learning, which is [the Sense way](investinyourenergy.com/senses-home-energy-monitoring-system-driven-by-machine-learning) of appliance level monitoring, or the addition of smart plugs, which is [the Emporia way](investinyourenergy.com/emporias-home-energy-monitoring-systems) of appliance level monitoring
 
-Want to dive deeper into how Home Energy Monitoring Systems can help you make smarter energy choices? [Check out our article on HEMS here](https://app.stackbit.com/studio/64d6608f12525200bdbe6a49#/blog/home-energy-monitoring/).
+Want to learn more how Home Energy Monitoring Systems can help you make smarter energy choices? Check out our [article on HEMS here](investinyourenergy.com/home-energy-monitoring-your-guide-to-energy-efficiency).
 
 ### **Smart Plugs: From Monitoring to Managing**
 

@@ -1,6 +1,6 @@
 ---
 publishDate: 2023-09-29T00:00:00Z
-title: Unlocking Energy Independence with Sonnen's Solar Batteries
+title: Unlocking Energy Independence with Sonnen Solar Batteries
 excerpt: Explore the unmatched efficiency and intelligent features of Sonnen's solar batteries. Designed for longevity and optimal performance, they stand as the pinnacle choice for a sustainable, grid-independent future
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/SLRB-2-cover-art.png?raw=true
 category: Home Energy Storage
@@ -24,19 +24,20 @@ Sonnen offers many battery options with a modular design, allowing you to custom
 
 The Sonnen core+ is a sleek model designed for indoor storage. It's the most affordable option of the three. Its 10KW model has a continuous power of 4.8KW and a surge power of 6KW. It boasts an 85.8% round trip efficiency and can be stacked in 10KW modules for a total of up to 30KW. The 10-year or 10,000 life cycle warranty is one of the best in the industry.
 
-![](/images/2.png)
+![Super wide](https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/In-article-images/Sonnen-2-article.png?raw=true)
 
 #### **Sonnen Batterie Evo**
 
 The Sonnen Batterie Evo is a more rugged model, designed for both indoor and outdoor use. It can also be stacked three deep for a total of 30KW expanded power and carries the same 10/10,000 warranty. However, there are differences in its features. It has a storage capacity of 10 kWh and a continuous power output of 5 kW and a surge of 7.05KW, while boasting an 87% round trip efficiency. The Evo model offers more features, but the price is also about 10-20% higher in most cases.
 
-![](/images/1.png)
+![Super wide](https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/In-article-images/Sonnen1-in-article.png?raw=true)
+
 
 #### **Sonnen Ecolinx**
 
 The EcoLinx is a unique model in the Sonnen lineup, designed for indoor use. It starts with a 12KW model and can be upgraded in 2KW increments up to 20KW. The EcoLinx comes with an impressive 15-year or 15,000 life cycle warranty. Its 12KW battery system offers a continuous power output of 7KW, a round trip efficiency of 82%, and a surge of 7.05 KW. Despite the round trip efficiency of 82%, it's an upgrade in almost every way. However, the real value of the EcoLinx lies in its energy automation, offering additional smart features. The only price found on the web is $25,000 before installation, which may be too expensive for some to consider.
 
-![](/images/3.png)
+![Super wide](https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/In-article-images/Sonnen-3-inarticle.png?raw=true)
 
 #### **Conclusion**
 

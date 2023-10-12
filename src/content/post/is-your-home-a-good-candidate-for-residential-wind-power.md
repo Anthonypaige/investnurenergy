@@ -20,9 +20,9 @@ Wind speed is a critical factor as the power available in the wind is proportion
 
 ![Super wide](https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/page-art/WND-map-page-art.png?raw=true)
 
-For a more detailed look at wind resources in your specific area, head over to the Wind [Exchange's Residential Maps and Data page] ( https://windexchange.energy.gov/maps-data?category=residential) This tool allows you to zoom in on your location and get a more precise idea of the wind resources available to you. However, these maps are just the starting point. They provide a general idea of wind potential, but other factors also significantly influence the feasibility and performance of a wind turbine.
+For a more detailed look at wind resources in your specific area, head over to the Wind [Exchange's Residential Maps and Data page]( https://windexchange.energy.gov/maps-data?category=residential) This tool allows you to zoom in on your location and get a more precise idea of the wind resources available to you. However, these maps are just the starting point. They provide a general idea of wind potential, but other factors also significantly influence the feasibility and performance of a wind turbine.
 
-### **Assessing Your Property: Is Your Home Suitable for a Wind Turbine?**
+### **Assessing Your Property for a Wind Turbine?**
 
 A detailed wind assessment is necessary to determine if your property is a good candidate for a wind turbine. This involves analyzing your site's average wind speed and direction, considering the local topography, and any potential obstructions.
 
@@ -33,7 +33,7 @@ A property with high average wind speeds and few obstructions would be an ideal 
 The BTMETER BT-100 Handheld Anemometer is a practical tool that plays a crucial role in wind assessment and site placement for wind turbines. This device measures wind speed and direction, providing real-time data that complements the general information provided by wind maps. With this data, you can
 accurately determine the optimal site for your wind turbine.
 
-<Insert BTMETER BT-100 Amazon affiliate code>
+<iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=investinyoure-20&language=en_US&marketplace=amazon&region=US&placement=B07J64TCBQ&asins=B07J64TCBQ&linkId=99b7f46fd9fd8b7a239de83532da713a&show_border=false&link_opens_in_new_window=true"></iframe>
 
 The BTMETER BT-100 is user-friendly, featuring a large, backlit LCD display for clear readings in various light conditions. It offers the flexibility to select your preferred wind speed unit and includes a Beaufort Scale Display for easy comprehension of wind speed.
 

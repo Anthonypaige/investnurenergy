@@ -12,7 +12,7 @@ tags:
 
 Bluetti has established itself as a global leader in the renewable energy sector, particularly renowned for its portable power stations. Recently, the company has expanded its portfolio to include home energy storage systems, offering a range of products that not only meet but exceed the requirements for the Residential Clean Energy Credit (25D) under the Inflation Reduction Act. In this article, we will explore the starter models from Bluetti, each boasting a capacity of over 3kWh, making them eligible for significant benefits under the aforementioned credit program.
 
-#### **Features All Bluetti Models Share**
+### **Features All Bluetti Models Share**
 
 - **Safety and Longevity**: Bluetti power stations are equipped with LiFePO4 battery cells, known for their safety, longevity, and high energy density. These systems promise a battery life cycle exceeding 3500 cycles to 80% capacity, ensuring years of reliable service.
 

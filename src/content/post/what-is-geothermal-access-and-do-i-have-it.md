@@ -26,7 +26,8 @@ This guide will explore these essential elements, helping you evaluate if your h
 
 - **Geothermal Gradient and Ground Temperature**: This map considers the geothermal gradient, which is the rate of increase in the Earth's temperature with depth. The ground temperature, which remains relatively stable throughout the year, is used for heat exchange.
 
-- **Additional Resources**: For a more detailed view, visit the [U.S. Energy Atlas Interactive Map](https://www.eia.gov/).
+- **Additional Resources**: For a more detailed view, visit the [U.S. Energy Atlas Interactive Map](https://atlas.eia.gov/datasets/eia::geothermal-potential/explore
+).
 
 ### Soil Composition Plays a Significant Role in Heat Transfer
 
@@ -38,7 +39,7 @@ This guide will explore these essential elements, helping you evaluate if your h
 
 - **Importance of Soil Moisture**: Soil moisture plays a vital role in the efficiency of a geothermal system. Moist soils conduct heat better than dry soils.
 
-- **Soil Moisture Resources**: The[**National Water and Climate Center**](https://www.wcc.nrcs.usda.gov/) provides resources to check soil moisture levels in your area.
+- **Soil Moisture Resources**: The[National Water and Climate Center](https://www.wcc.nrcs.usda.gov/) provides resources to check soil moisture levels in your area.
 
 ### Land Availability is A Crucial Factor in Geothermal System Feasibility
 

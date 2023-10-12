@@ -40,7 +40,7 @@ By charging a home battery system during off-peak hours and using it during peak
 
 Investing in a backup battery solely for energy arbitrage won’t be enough justification on its own. However, when you factor in the benefits of helping the grid, having backup power in case of blackouts, and complementing renewable energy sources like solar and wind, it becomes a valuable and responsible investment.
 
-### **How to Calculating Savings with Energy Arbitrage**
+### **How to Calculate Savings with Energy Arbitrage**
 
 When considering energy arbitrage, the battery size you choose will be crucial. For example, the average family uses around 1200 watts per hour. If they plan to use their battery for 4 hours during the early evening peak demand and another 4 hours during the summer demand block, a 5 kWh sized battery could theoretically suffice. If you have early morning peak hours, you could charge your battery overnight and utilize it again in the morning.
 

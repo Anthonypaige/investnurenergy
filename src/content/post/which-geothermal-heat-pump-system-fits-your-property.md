@@ -16,28 +16,28 @@ We'll guide you through the four main types of geothermal heat pump systems: hor
 
 Remember, these systems are not just about immediate benefits. They're a long-term investment, with a lifespan of up to 50 years, offering decades of energy savings. So, let's delve into the specifics and help you make an informed decision for a sustainable, energy-efficient future.
 
-### **Horizontal Geothermal Heat Pump Systems: The Cost-Effective Solution for Large Plots**
+### **Horizontal Geothermal Heat Pump Systems**
 
 - **Installation**: Installed about four to six feet underground, utilizing a network of pipes. This shallow installation makes it more accessible and less disruptive to the landscape.
 - **Cost**: Lower upfront costs due to less intricate installation, making it an attractive option for budget-conscious homeowners.
 - **Efficiency**: Enhanced efficiency with longer loops, leading to reduced energy bills. The larger your plot, the more you can save in the long run.
 - **Suitability**: Ideal for properties with ample land, providing a balance between cost and performance.
 
-### **Vertical Geothermal Heat Pump Systems: The Compact Solution for Smaller Properties**
+### **Vertical Geothermal Heat Pump Systems**
 
 - **Installation**: Requires drilling deep boreholes, up to 400 feet, for ground loop installation. This allows for more flexibility in areas with limited space.
 - **Cost**: Higher initial cost due to specialized drilling equipment, but potential long-term savings can offset this investment.
 - **Efficiency**: Less influenced by surface conditions; reliable even in regions with extreme weather. In areas with high geothermal gradient, drilling may not need to be as deep, potentially increasing efficiency.
 - **Suitability**: Perfect for properties with limited land area, preserving aesthetics and maximizing the use of available space.
 
-### \*\*Pond/Lake Geothermal Heat Pump Systems:
+### **Pond/Lake Geothermal Heat Pump Systems**
 
 - **Installation**: Involves placing a coiled pipe system 8-10 feet deep in the water, a unique approach that leverages natural water bodies.
-  Cost\*\*: Less complex and costly than ground drilling, offering an affordable alternative.
+- **Cost**: Less complex and costly than ground drilling, offering an affordable alternative.
 - **Efficiency**: Stable water temperature enhances efficiency, providing consistent heating and cooling throughout the year.
 - **Suitability**: Requires access to a suitable body of water, making it an exclusive option for properties near ponds or lakes.
 
-### **Open-Loop Geothermal Heat Pump Systems: Leveraging Abundant Clean Water**
+### **Open-Loop Geothermal Heat Pump Systems**
 
 - **Installation**: Utilizes a large volume of clean water as a heat exchange medium, offering a unique approach to geothermal energy.
 - **Cost**: Varies depending on water source and system design, but can provide significant energy savings.
@@ -47,7 +47,7 @@ Remember, these systems are not just about immediate benefits. They're a long-te
 ### **Hybrid Systems: Combining Different Geothermal Resources**
 
 - **Installation**: Uses different geothermal resources or a combination with outdoor air, offering a versatile approach to heating and cooling.
-  Cost\*\*: Dependent on the combination of resources used, providing flexibility in budget and design.
+-  **Cost:** Dependent on the combination of resources used, providing flexibility in budget and design.
 - **Efficiency**: Effective where cooling needs are significantly larger than heating needs, allowing for tailored solutions.
 - **Suitability**: Flexible and adaptable to various property needs, making it a future-proof option for diverse climates and landscapes.
 

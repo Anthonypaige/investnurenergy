@@ -18,7 +18,7 @@ Understanding the nuances of this intricate legislation can be daunting. That's 
 
 ### **The Energy-Efficient Home Improvement Credit (25C)**
 
-Embrace a greener future with the Energy-Efficient Home Improvement Credit, commonly known as 25C. This federal program incentivizes energy-efficient home upgrades, particularly in the areas of heating and cooling. [EnergyEfficientHomeUpgrades.com](https://EnergyEfficientHomeUpgrades.com)
+Embrace a greener future with the Energy-Efficient Home Improvement Credit, commonly known as 25C. This federal program incentivizes energy-efficient home upgrades, particularly in the areas of heating and cooling. [Energy Efficient Home Upgrades](investinyourenergy.com/energy-efficient-home-upgrades)
 
 #### **Heat Pumps**
 
@@ -37,7 +37,7 @@ Weatherization plays a crucial role in energy efficiency by reducing energy cons
 
 ### **The Residential Clean Energy Credit 25D**
 
-Step into the future of sustainable living with the Residential Clean Energy Credit 25D. This federal tax incentive, introduced under the Inflation Reduction Act of 2022, encourages homeowners to invest in clean energy technologies, offering a 30% reduction on eligible costs, with no cap. [HomeCleanEnergyCredit.com](https://HomeCleanEnergyCredit.com)
+Step into the future of sustainable living with the Residential Clean Energy Credit 25D. This federal tax incentive, introduced under the Inflation Reduction Act of 2022, encourages homeowners to invest in clean energy technologies, offering a 30% reduction on eligible costs, with no cap. [Home Clean Energy Credit](investinyourenergy.com/home-clean-energy-credit)
 
 #### **Geothermal Heat Pumps**
 
@@ -68,7 +68,7 @@ The Electrification Rebate Act, also known as the High-Efficiency Electric Home 
 - 100% of electrification project costs up to $14,000 for low-income households.
 - 50% of costs up to $14,000 for moderate-income households.
 
-##### **Qualified Electrification Projects**
+#### **Qualified Electrification Projects**
 
 - **Heat Pump Technology**: This includes heat pump HVAC systems, heat pump water heaters, and heat pump clothes dryers.
 - **Electrical Panel Upgrades**: These are enabling measures like upgrading circuit panels and wiring. For more check out our article on the importance of electrical upgrades.
@@ -79,17 +79,17 @@ The Electrification Rebate Act, also known as the High-Efficiency Electric Home 
 
 State-level rebates offer diverse opportunities for homeowners to save on energy-efficient upgrades. These rebates often extend beyond federal incentives, covering additional products and sometimes even combining with federal incentives for greater savings.
 
-##### **Items Not Included in Federal Tax Incentive Programs**
+#### **Items Not Included in Federal Tax Incentive Programs**
 
 - **Smart Thermostats and Smart LED Lighting**: Many states offer incentives for these popular energy-saving devices.
 - **Air Quality Devices**: Rebates are often available for ENERGY STAR certified air purifiers and dehumidifiers.
 
-##### **Products and Services Included in Federal Tax Incentive Programs**
+#### **Products and Services Included in Federal Tax Incentive Programs**
 
 - **EV Chargers**: ENERGY STAR certified Level 2 chargers may qualify for both federal incentives and state rebates.
 - **Heat Pump Water Heaters (HPWH) and Mini-Ductless Heat Pumps**: These energy-efficient items are commonly included in both federal and state-level programs.
 
-##### **Conclusion**
+#### **Conclusion**
 
 The Inflation Reduction Act of 2022 opens doors to a more sustainable future, offering homeowners incentives to invest in clean energy and energy-efficient upgrades. From solar and wind energy to heat pumps and smart devices, the opportunities are diverse and accessible.
 
