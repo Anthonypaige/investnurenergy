@@ -32,7 +32,6 @@ The Sonnen Batterie Evo is a more rugged model, designed for both indoor and out
 
 ![Super wide](https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/In-article-images/Sonnen1-in-article.png?raw=true)
 
-
 #### **Sonnen Ecolinx**
 
 The EcoLinx is a unique model in the Sonnen lineup, designed for indoor use. It starts with a 12KW model and can be upgraded in 2KW increments up to 20KW. The EcoLinx comes with an impressive 15-year or 15,000 life cycle warranty. Its 12KW battery system offers a continuous power output of 7KW, a round trip efficiency of 82%, and a surge of 7.05 KW. Despite the round trip efficiency of 82%, it's an upgrade in almost every way. However, the real value of the EcoLinx lies in its energy automation, offering additional smart features. The only price found on the web is $25,000 before installation, which may be too expensive for some to consider.

@@ -26,8 +26,7 @@ This guide will explore these essential elements, helping you evaluate if your h
 
 - **Geothermal Gradient and Ground Temperature**: This map considers the geothermal gradient, which is the rate of increase in the Earth's temperature with depth. The ground temperature, which remains relatively stable throughout the year, is used for heat exchange.
 
-- **Additional Resources**: For a more detailed view, visit the [U.S. Energy Atlas Interactive Map](https://atlas.eia.gov/datasets/eia::geothermal-potential/explore
-).
+- **Additional Resources**: For a more detailed view, visit the [U.S. Energy Atlas Interactive Map](https://atlas.eia.gov/datasets/eia::geothermal-potential/explore).
 
 ### Soil Composition Plays a Significant Role in Heat Transfer
 

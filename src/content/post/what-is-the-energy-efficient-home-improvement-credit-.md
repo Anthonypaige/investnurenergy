@@ -54,7 +54,7 @@ Standing as the zenith of water heater technology, heat pump water heaters offer
 
 #### **Tankless Water Heaters**
 
-Tankless water heaters have surged in popularity due to their energy-saving potential. Unlike traditional units, they only heat water on demand, eliminating the energy wastage associated with maintaining a tank of hot water. Discover the benefits and features of [tankless water heaters here.](investinyourenergy.com/tankless-water-heaters-are-compact-efficiency) 
+Tankless water heaters have surged in popularity due to their energy-saving potential. Unlike traditional units, they only heat water on demand, eliminating the energy wastage associated with maintaining a tank of hot water. Discover the benefits and features of [tankless water heaters here.](investinyourenergy.com/tankless-water-heaters-are-compact-efficiency)
 
 ### **Weatherization: Your Secret Weapon Against Wasting Energy**
 

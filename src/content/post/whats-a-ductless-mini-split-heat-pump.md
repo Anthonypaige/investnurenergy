@@ -36,7 +36,6 @@ Ductless Mini Split Heat Pumps are incredibly versatile, offering solutions for 
 - **Home Offices or Studios:** Quiet operation and ease of installation make it an attractive option for workspaces.
 - **Emergency Heating/Cooling During Blackouts:** Maintain comfort in critical spaces during emergencies.
 
-
 ### **Eligibility and Financial Incentives**
 
 Certain models of Ductless Mini Split Heat Pumps are covered under the Inflation Reduction Act, including:

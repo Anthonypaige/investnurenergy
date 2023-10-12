@@ -20,7 +20,7 @@ Wind speed is a critical factor as the power available in the wind is proportion
 
 ![Super wide](https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/page-art/WND-map-page-art.png?raw=true)
 
-For a more detailed look at wind resources in your specific area, head over to the Wind [Exchange's Residential Maps and Data page]( https://windexchange.energy.gov/maps-data?category=residential) This tool allows you to zoom in on your location and get a more precise idea of the wind resources available to you. However, these maps are just the starting point. They provide a general idea of wind potential, but other factors also significantly influence the feasibility and performance of a wind turbine.
+For a more detailed look at wind resources in your specific area, head over to the Wind [Exchange's Residential Maps and Data page](https://windexchange.energy.gov/maps-data?category=residential) This tool allows you to zoom in on your location and get a more precise idea of the wind resources available to you. However, these maps are just the starting point. They provide a general idea of wind potential, but other factors also significantly influence the feasibility and performance of a wind turbine.
 
 ### **Assessing Your Property for a Wind Turbine?**
 

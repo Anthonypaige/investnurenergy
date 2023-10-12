@@ -29,13 +29,13 @@ When evaluating solar water heaters, two key metrics to consider are the Solar F
 Active solar water heaters come with pumps and control systems that actively circulate water or a heat-transfer fluid. There are two main types:
 
 - **Direct Circulation Systems**:
-  
+
   - **How It Works**: In this system, pumps circulate household water directly through the solar collectors, where it gets heated by the sun's energy before flowing back into the home.
   - **Climate Suitability**: These systems are best suited for regions where freezing temperatures are rare, as the water could freeze in the pipes.
   - **Efficiency**: Generally efficient but may require a backup water heater for cloudy days or during nighttime.
 
 - **Indirect Circulation Systems**:
-  
+
   - **How It Works**: Instead of circulating household water, these systems use a non-freezing, heat-transfer fluid. This fluid absorbs the sun's heat in the solar collectors and then passes through a heat exchanger, which transfers the heat to the home's water supply.
   - **Climate Suitability**: Ideal for colder regions where freezing temperatures are common, as the heat-transfer fluid prevents freezing.
   - **Efficiency**: Highly efficient and often come with well-insulated storage tanks to minimize heat loss.
@@ -45,13 +45,13 @@ Active solar water heaters come with pumps and control systems that actively cir
 Passive systems rely on natural convection rather than pumps to circulate water, making them simpler but generally less efficient. There are two main types:
 
 - **Integral Collector-Storage Systems**:
-  
+
   - **How It Works**: These systems combine the solar collector and water storage into a single unit. Water gets heated in the collector and is then drawn into the home when a hot water tap is opened.
   - **Climate Suitability**: Best for areas where temperatures rarely fall below freezing.
   - **Efficiency**: Generally less efficient than active systems but are more reliable and have fewer moving parts.
 
 - **Thermosyphon Systems**:
-  
+
   - **How It Works**: These systems rely on the natural convection of warm water rising to circulate water. The collector heats the water, which then rises into the storage tank, while cooler water from the tank flows back into the collector.
   - **Climate Suitability**: Suitable for a variety of climates but may require additional insulation in colder regions.
   - **Efficiency**: More efficient than integral collector-storage systems and have a longer lifespan due to fewer moving parts.

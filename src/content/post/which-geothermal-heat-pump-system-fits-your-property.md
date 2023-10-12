@@ -47,7 +47,7 @@ Remember, these systems are not just about immediate benefits. They're a long-te
 ### **Hybrid Systems: Combining Different Geothermal Resources**
 
 - **Installation**: Uses different geothermal resources or a combination with outdoor air, offering a versatile approach to heating and cooling.
--  **Cost:** Dependent on the combination of resources used, providing flexibility in budget and design.
+- **Cost:** Dependent on the combination of resources used, providing flexibility in budget and design.
 - **Efficiency**: Effective where cooling needs are significantly larger than heating needs, allowing for tailored solutions.
 - **Suitability**: Flexible and adaptable to various property needs, making it a future-proof option for diverse climates and landscapes.
 

@@ -22,7 +22,7 @@ More importantly, here's where solar storage comes into play. By storing excess 
 
 If you want to check your enrollment in TOU rates and understand the difference in those rates, you can access your energy data through your utility provider's dedicated app or website. Compare the amount of energy used (measured in kWh) with the corresponding price differences during various times of the day, or you can visit the Department of Energy's [guide to Time Variable pricing](<https://www.energy.gov/femp/demand-response-and-time-variable-pricing-programs#:~:text=Time%2Dvariable%20pricing%20(TVP),for%20any%20given%20customer%20class>) to see what programs your utility provider offers.
 
-By mastering TOU rates and strategically using solar storage, you can optimize your energy usage and save money on your energy bills. To learn 
+By mastering TOU rates and strategically using solar storage, you can optimize your energy usage and save money on your energy bills. To learn
 more on [mastering TOU rates](investinyourenergy.com/mastering-time-of-use-rate-strategies-for-smart-energy).
 
 ### **Net Metering: The Rollover Plan**
@@ -34,7 +34,6 @@ With net metering, if your solar panels produce more energy than you use in a gi
 ![Super wide](https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/In-article-images/FYI-2-rickroll-in-article.jpg?raw=true)
 
 This mechanism allows you to balance out your energy production and consumption over time, leading to significant savings on your energy bills. It's a smart way to make the most of your solar investment, ensuring that every kilowatt-hour produced by your solar system is put to good use.
-
 
 ### **Battery Storage: The Prepaid Phone Card**
 

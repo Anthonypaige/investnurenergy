@@ -24,16 +24,15 @@ Before diving into upgrades, identify your home's energy weak spots. While hirin
 
 ### **Know Your State Level Rebates**
 
-State-level rebates can significantly reduce the cost of energy-efficient appliances and can often be stacked with federal incentives. These rebates are often allocated on a first-come, first-served basis, so prioritize them in your planning. Many even offer immediate value as an instant credit on your power bill. For a deeper dive, read our [Overview on State-Level Rebates](investinyourenegy.com/state-level-energy-efficient-incentives-overview). For a comprehensive list, visit the 
+State-level rebates can significantly reduce the cost of energy-efficient appliances and can often be stacked with federal incentives. These rebates are often allocated on a first-come, first-served basis, so prioritize them in your planning. Many even offer immediate value as an instant credit on your power bill. For a deeper dive, read our [Overview on State-Level Rebates](investinyourenegy.com/state-level-energy-efficient-incentives-overview). For a comprehensive list, visit the
 [Database of State Incentives for Renewables & Efficiency](https://www.dsireusa.org/).
 
 ## **Next, Prioritize Impactful Upgrades**
 
 ### **The Smart Move: Investing in a Smart Thermostat**
 
-Smart thermostats aren't just a techy luxury; they're a cornerstone of an energy-efficient home. Heating and cooling account for nearly half of your energy consumption. Controlling this aspect of your home's energy use is vital, and a smart thermostat can help, potentially reducing energy consumption by 10-15%. Given their relatively low cost and the fact that many states offer rebate incentives for smart thermostats, this is a wise initial investment on your energy efficiency path. If you want to learn more check out our 
+Smart thermostats aren't just a techy luxury; they're a cornerstone of an energy-efficient home. Heating and cooling account for nearly half of your energy consumption. Controlling this aspect of your home's energy use is vital, and a smart thermostat can help, potentially reducing energy consumption by 10-15%. Given their relatively low cost and the fact that many states offer rebate incentives for smart thermostats, this is a wise initial investment on your energy efficiency path. If you want to learn more check out our
 [Smart Thermostat Shopping Guide](investinyourenergy.com/smart-thermostat-shopping-guide-what-you-need-to-know).
-
 
 ### **Insulation: Your First Line of Defense**
 
@@ -45,7 +44,7 @@ Heat pumps are the unsung heroes of energy efficiency. They can provide up to th
 
 ### **The Water Heater Equation: Efficiency and Savings**
 
-Water heaters are more than just a convenience; they're responsible for nearly 20% of your home's energy use. Upgrading to an energy-efficient model can make a noticeable dent in your utility bills, and state-level rebates often make this upgrade more affordable. Check out our federal incentive overivew to Explore your [upgrade options](investinyourenergy.com/water-heaters-federal-incentives-overview) included in the Inflation reduction Act. 
+Water heaters are more than just a convenience; they're responsible for nearly 20% of your home's energy use. Upgrading to an energy-efficient model can make a noticeable dent in your utility bills, and state-level rebates often make this upgrade more affordable. Check out our federal incentive overivew to Explore your [upgrade options](investinyourenergy.com/water-heaters-federal-incentives-overview) included in the Inflation reduction Act.
 
 Each of these upgrades not only contributes to a more energy-efficient home but also offers immediate and long-term financial benefits. Prioritize these changes in your energy-saving plan for maximum impact.
 
