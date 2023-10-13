@@ -47,10 +47,6 @@ export const headerData = {
           href: getPermalink('landing/water-heaters-page'),
         },
         {
-          text: 'EV Charger Comparison Table',
-          href: getPermalink('landing/ev-charger-comparison-table'),
-        },
-        {
           text: 'Weatherization',
           href: getPermalink('landing/weatherization-page'),
         },
@@ -93,57 +89,47 @@ export const headerData = {
 export const footerData = {
   links: [
     {
-      title: 'Product',
+      title: 'Tax Code Breakdowns',
       links: [
-        { text: 'Features', href: '#' },
-        { text: 'Security', href: '#' },
-        { text: 'Team', href: '#' },
-        { text: 'Enterprise', href: '#' },
-        { text: 'Customer stories', href: '#' },
-        { text: 'Pricing', href: '#' },
-        { text: 'Resources', href: '#' },
+        { text: 'Home Clean Energy Credit', href: 'investinyourenergy-home-clean-energy-credit' },
+        { text: 'Energy Efficient Home Upgrades', href: 'investinyourenergy-energy-efficient-home-upgrades' },
+        { text: 'Energy Efficient Rebates', href: 'investinyourenergy-energy-efficient-rebates' },
+        
       ],
     },
     {
-      title: 'Platform',
+      title: 'Top Pages',
       links: [
-        { text: 'Developer API', href: '#' },
-        { text: 'Partners', href: '#' },
-        { text: 'Atom', href: '#' },
-        { text: 'Electron', href: '#' },
-        { text: 'AstroWind Desktop', href: '#' },
+        { text: 'Smart Energy Devices', href: 'investinyourenergy.com/smart-energy-devices' },
+        { text: 'Home Energy Storage', href: 'investinyourenergy.com/home-energy-storage' },
+        { text: 'Solar tax Incentive', href: 'investinyourenergy.com/solar-tax-incentive' },
+        
       ],
     },
     {
-      title: 'Support',
+      title: 'Clean Energy Pages',
       links: [
-        { text: 'Docs', href: '#' },
-        { text: 'Community Forum', href: '#' },
-        { text: 'Professional Services', href: '#' },
-        { text: 'Skills', href: '#' },
-        { text: 'Status', href: '#' },
+        { text: 'Solar Basics', href: 'investinyourenergy.com/solar-basics-page' },
+        { text: 'Geothermal Energy', href: 'investinyourenergy.com/geothermal-page' },
+        { text: 'Wind Energy', href: 'investinyourenergy.com/wind-energy-page' },
       ],
     },
     {
-      title: 'Company',
-      links: [
-        { text: 'About', href: '#' },
-        { text: 'Blog', href: '#' },
-        { text: 'Careers', href: '#' },
-        { text: 'Press', href: '#' },
-        { text: 'Inclusion', href: '#' },
-        { text: 'Social Impact', href: '#' },
-        { text: 'Shop', href: '#' },
-      ],
+        title: 'Energy Efficiency Pages',
+        links: [
+          { text: 'Heat Pumps', href: 'investinyourenergy.com/heat-pump-page' },
+          { text: 'Water Heaters', href: 'investinyourenergy.com/water-heaters-page' },
+          { text: 'Weatherization', href: 'investinyourenergy.com/weatherization-page' },
+        ],
     },
   ],
   secondaryLinks: [
-    { text: 'Terms', href: getPermalink('/terms') },
-    { text: 'Privacy Policy', href: getPermalink('/privacy') },
+    { text: 'About Us', href: getPermalink('/about-us') },
+    { text: 'Contact Us', href: getPermalink('/contact-us') },
   ],
   socialLinks: [
-    { ariaLabel: 'X', icon: 'tabler:brand-x', href: '#' },
-    { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: '#' },
+    { ariaLabel: 'X', icon: 'tabler:brand-x', href: 'https://twitter.com/investnurenergy' },
+    { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: 'https://www.facebook.com/InvestInYourEnergy' },
   ],
   footNote: `
     <span class="w-5 h-5 md:w-6 md:h-6 md:-mt-0.5 bg-cover mr-1.5 rtl:mr-0 rtl:ml-1.5 float-left rtl:float-right rounded-sm bg-[url(https://onwidget.com/favicon/favicon-32x32.png)]"></span>

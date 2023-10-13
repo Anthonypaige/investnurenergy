@@ -1,0 +1,65 @@
+---
+import FAQs from '~/components/widgets/FAQs.astro';
+
+//import Hero from '~/components/widgets/Hero.astro';
+
+
+import Layout from '~/layouts/PageLayout.astro';
+
+const metadata = {
+  title: 'About us',
+};
+---
+
+<Layout metadata={metadata}>
+  
+<!-- About Us Widget ******************* -->
+
+<FAQs
+  title="About Us"
+  columns={1}
+  items={[
+    {
+      title: 'Our Mission',
+      description: 'Our mission is to empower homeowners to make informed decisions about energy efficiency, starting with a deep understanding of the Inflation Reduction Act of 2022. We aim to be a reliable resource that provides clear, accurate, and actionable information.',
+    },
+    {
+      title: 'Who We Are',
+      description: 'We are a collective of energy efficiency enthusiasts, policy analysts, and homeowners just like you. Our platform is backed by extensive research and a commitment to cut through the noise and misinformation that often clouds the topic of energy efficiency.',
+    },
+    {
+      title: 'The Genesis of Invest In Your Energy',
+      description: 'Navigating the complex landscape of solar energy and the Inflation Reduction Act, we found a maze of inconsistent information and varying terminologies. The internet was filled with articles that sounded good but provided little value, often churned out to sell ads rather than to inform. This sparked the creation of Invest In Your Energy, a platform dedicated to providing clear, accurate, and unimposing information.',
+    },
+    {
+      title: 'What We Do',
+      description: 'We provide comprehensive guides and FAQs to help you make the best energy choices for your home. Every article on our site serves a purpose, whether it\'s to inform you of your benefits, delve deep into a new technology, offer a streamlined shopping guide, or provide additional resources to assist you.',
+    },
+    {
+      title: 'How We\'re Different',
+      description: 'Unlike other platforms, we focus exclusively on residential energy efficiency. We offer tailored advice and resources to help you maximize the benefits of the Inflation Reduction Act. While we do provide affiliate marketing links, our primary goal is for users to visit the site multiple times, gain a comprehensive understanding of their options, and develop a solid investment plan before making any purchases.',
+    },
+    {
+      title: 'Designing to Inform',
+      description: 'The internet, as it stands, is designed to sell. We aim to stand out by designing to inform. Our vision is a comprehensive resource that provides reliable, valuable information on clean energy, energy efficiency, and the associated legislation.',
+    },
+    {
+      title: 'Join Our Community',
+      description: 'We invite you to join our growing community of energy-conscious homeowners. Subscribe to our newsletter and follow us on social media to stay updated. We\'re at the beginning of a significant green transition, and many are still unaware of the opportunities presented by the Inflation Reduction Act. We\'ll be here to guide you every step of the way.',
+    },
+    {
+      title: 'Contact Us',
+      description: 'We\'re always here to help. If you have any questions or need personalized advice, feel free to reach out.',
+    },
+  ]}
+>
+  <Fragment slot="bg">
+    <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+  </Fragment>
+</FAQs>
+
+  
+
+
+
+</Layout>
