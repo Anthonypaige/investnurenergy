@@ -94,7 +94,6 @@ export const footerData = {
         { text: 'Home Clean Energy Credit', href: 'investinyourenergy-home-clean-energy-credit' },
         { text: 'Energy Efficient Home Upgrades', href: 'investinyourenergy-energy-efficient-home-upgrades' },
         { text: 'Energy Efficient Rebates', href: 'investinyourenergy-energy-efficient-rebates' },
-        
       ],
     },
     {
@@ -103,7 +102,6 @@ export const footerData = {
         { text: 'Smart Energy Devices', href: 'investinyourenergy.com/smart-energy-devices' },
         { text: 'Home Energy Storage', href: 'investinyourenergy.com/home-energy-storage' },
         { text: 'Solar tax Incentive', href: 'investinyourenergy.com/solar-tax-incentive' },
-        
       ],
     },
     {
@@ -115,12 +113,12 @@ export const footerData = {
       ],
     },
     {
-        title: 'Energy Efficiency Pages',
-        links: [
-          { text: 'Heat Pumps', href: 'investinyourenergy.com/heat-pump-page' },
-          { text: 'Water Heaters', href: 'investinyourenergy.com/water-heaters-page' },
-          { text: 'Weatherization', href: 'investinyourenergy.com/weatherization-page' },
-        ],
+      title: 'Energy Efficiency Pages',
+      links: [
+        { text: 'Heat Pumps', href: 'investinyourenergy.com/heat-pump-page' },
+        { text: 'Water Heaters', href: 'investinyourenergy.com/water-heaters-page' },
+        { text: 'Weatherization', href: 'investinyourenergy.com/weatherization-page' },
+      ],
     },
   ],
   secondaryLinks: [
