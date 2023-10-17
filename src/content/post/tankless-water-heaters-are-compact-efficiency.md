@@ -34,9 +34,9 @@ Bid farewell to the constant energy drain of maintaining a hot water tank. Tankl
 
 ### **Top Recommended Brands**
 
-- [**Rinnai**](https://www.rinnai.us/): Renowned for its innovative technology, Rinnai offers models suitable for both residential and commercial use. Their units feature Wi-Fi connectivity for remote monitoring and control.
+- [**Rinnai**](https://amzn.to/3RY2i4t): Renowned for its innovative technology, Rinnai offers models suitable for both residential and commercial use. Their units feature Wi-Fi connectivity for remote monitoring and control.
 
-- [**Rheem**](https://www.rheem.com/): Rheem specializes in energy-efficient solutions with advanced features like self-modulating technology that adjusts energy usage based on demand.
+- [**Rheem**](https://amzn.to/3Sk2RG3): Rheem specializes in energy-efficient solutions with advanced features like self-modulating technology that adjusts energy usage based on demand.
 
 ### **Additional Considerations**
 

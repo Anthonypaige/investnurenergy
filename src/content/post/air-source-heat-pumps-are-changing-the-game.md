@@ -3,7 +3,7 @@ publishDate: 2023-09-27T00:00:00Z
 title: Air Source Heat Pumps are Changing The Game
 excerpt: Discover the transformative power of air source heat pumps in revolutionizing home comfort. Learn how these systems work and why they are becoming a popular choice for energy-efficient heating and cooling.
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/HPQ-2-cover-art.jpg?raw=true
-category: Energy Efficiency
+category: Energy Efficienct Home Upgrades
 tags:
   - Energy Savings
   - Heat Pumps

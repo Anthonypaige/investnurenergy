@@ -3,7 +3,7 @@ publishDate: 2023-09-27T00:00:00Z
 title: Water Heaters Federal Incentives Overview
 excerpt: Water heating is a fundamental aspect of our daily routines, encompassing activities from refreshing morning showers to essential tasks like dishwashing.
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/WTR-1-cover-art.png?raw=true
-category: Water Heaters
+category: Energy Efficient Home Upgrades
 tags:
   - Heat Pump Water Heaters
   - Tankless Water Heaters
