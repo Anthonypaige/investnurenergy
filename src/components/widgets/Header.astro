@@ -1,6 +1,5 @@
 ---
 import { Icon } from "astro-icon/components";
-import Logo from "~/components/Logo.astro";
 import ToggleMenu from "~/components/common/ToggleMenu.astro";
 import Button from "~/components/ui/Button.astro"
 
@@ -63,9 +62,17 @@ const currentPath = `/${trimSlash(new URL(Astro.url).pathname)}`
     ]}
   >
     <div class:list={[{ "mr-auto rtl:mr-0 rtl:ml-auto": position === "right" }, "flex justify-between"]}>
-      <a class="flex items-center" href={getHomePermalink()}>
-        <Logo />
-      </a>
+      <div class="flex flex-col items-center">
+        <a class="flex items-center text-xl font-bold" href={getHomePermalink()}>
+          <span style="color:#228B22; font-weight: 700;">Invest</span>&nbsp;in&nbsp;<span>Your</span>&nbsp;<span style="color:#228B22; font-weight: 700;">Energy</span>
+        </a>
+        
+        
+        <div class="text-sm text-muted mt-1">
+          <a class="text-muted hover:text-gray-700 dark:text-gray-400 hover:underline transition duration-150 ease-in-out mr-2 rtl:mr-0 rtl:ml-2" href="/about-us">About Us</a>
+          <a class="text-muted hover:text-gray-700 dark:text-gray-400 hover:underline transition duration-150 ease-in-out mr-2 rtl:mr-0 rtl:ml-2" href="/contact-us">Contact Us</a>
+        </div>
+      </div>
       <div class="flex items-center md:hidden">
         <ToggleMenu />
       </div>

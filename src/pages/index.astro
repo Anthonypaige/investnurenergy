@@ -30,19 +30,35 @@ const metadata = {
       Navigating the Inflation Reduction Act can be complex, but you don't have to do it alone. We're committed to helping you understand and take full advantage of the Act's energy-efficient incentives.
     </Fragment>
   </Hero>
-
   
-  <!-- Stats Widget ******************* -->
-
-  <Stats
-  title=" Federal Sub-acts of the Inflation Reduction Act"
-  stats={[
-    { title: 'Home Clean Energy', amount: '25D' },
-    { title: 'Home EV Charger', amount: '30C' },
-    { title: 'Energy Efficient Home', amount: '25C' },
-    { title: 'EV Rebate', amount: '30D' },
+  
+  <Features3
+  title="Navigate Key Tax Benefits and Incentives"
+  subtitle="Bookmark these crucial guides—they'll be your up-to-date resource for navigating tax codes as new changes unfold."
+  columns={3}
+  defaultIcon="tabler:point-filled"
+  items={[
+    {
+      title: 'Home Clean Energy Credit',
+      description: 'Your guide to the Residential Clean Energy Tax Credit. Stay updated on how to maximize tax benefits from clean energy installations.',
+      link: 'https://investinyourenergy.com/home-clean-energy-credit',
+    },
+    {
+      title: 'Energy-Efficient Home Upgrades',
+      description: 'Your live handbook for the Energy Efficient Home Improvement Tax Credit. Keep tabs on what qualifies for tax credits as new updates roll in.',
+      link: 'https://investinyourenergy.com/energy-efficient-home-upgrades',
+    },
+    {
+      title: 'Energy-Efficient Rebates',
+      description: 'Your real-time source for HEEHRA and state-level rebates. Learn how to save more with the latest rebate offerings.',
+      link: 'https://investinyourenergy.com/energy-efficient-rebates',
+    },
   ]}
 />
+
+
+  
+ 
 
  <Features3
   title="Explore Our Themed Pages of Products and Services Covered in the Inflation Reduction Act"
@@ -155,43 +171,57 @@ const metadata = {
 
 
 
- <!-- FAQs Widget ******************* -->
+
+
+<!-- FAQs Widget ******************* -->
 
 <FAQs
-title="Frequently Asked Questions"
-subtitle="Dive into the following questions to gain insights into the Inflation Reduction Act and how it impacts your energy choices."
-classes={{ container: 'max-w-6xl' }}
-items={[
-   {
+  title="Frequently Asked Questions"
+  subtitle="Explore these FAQs to unlock valuable insights into the Inflation Reduction Act and its impact on your energy-efficient lifestyle."
+  classes={{ container: 'max-w-6xl' }}
+  items={[
+    {
       title: 'What Benefits Does the Inflation Reduction Act of 2022 Offer?',
       description:
-        "The Inflation Reduction Act is a landmark legislation that aims to tackle various economic and environmental challenges. One of its key provisions is the focus on energy efficiency and clean energy production. The act allocates significant funds for energy security and climate change programs. If you're looking to make your home more energy-efficient or invest in clean energy, this act provides various tax credits and incentives to help you do so.",
+        "The Inflation Reduction Act is a landmark legislation that aims to tackle various economic and environmental challenges. One of its key provisions is the focus on energy efficiency and clean energy production. The act allocates significant funds for energy security and climate change programs. If you are looking to make your home more energy-efficient or invest in clean energy, this act provides various tax credits and incentives to help you do so.",
     },
     {
-      title: 'What clean energy is included in the Residential Clean Energy Property Credit? (25D)',
+      title: 'What Clean Energy Options are Included in the Residential Clean Energy Property Credit? (25D)',
       description:
-        "The 25D tax credit covers solar panels, solar water heaters, geothermal heat pumps, small wind turbines, and fuel cells. These systems must be installed in your primary residence or a second home, but not rental properties. The credit covers 30% of the installation costs with no cap.",
+        "The 25D tax credit encompasses a range of clean energy solutions, including solar panels, solar water heaters, geothermal heat pumps, small wind turbines, and fuel cells. These systems must be installed in your primary residence or a second home, but rental properties are excluded. The credit generously covers 30% of the total installation costs, without any upper limit.",
     },
     {
-      title: 'What is the difference in Tax Credits and Rebates',
+      title: 'How Do Electric Vehicles (EVs) Fit Into the Energy Efficiency Equation?',
       description:
-        "Tax credits like 25C, 25D, and 30C reduce the amount of taxes you owe. HEEHRA and 30D are instant rebates.",
+        "Electric vehicles are a cornerstone of a sustainable future. The 30D tax credit offers a substantial incentive for purchasing a new EV, covering up to $7,500 of the cost. Additionally, the 30C credit provides a 30% rebate for the installation of an EV charging station at your residence, further promoting the adoption of clean transportation.",
     },
     {
-      title: 'Can federal tax credits be carried forward to the next tax year?',
+      title: 'Can I Benefit from Energy Efficiency Home Improvement Credits?',
       description:
-        "Clean Energy covered under 25D has a rollover option, allowing you to carry forward unused credits to future tax years. However, the Energy Efficient Home Improvement Credit (25C) does not offer a rollover option, so it's use-it-or-lose-it within the same tax year.",
+        "Absolutely! The Energy Efficiency Home Improvement Credit, also known as 25C, offers tax credits for specific energy-saving improvements made to your primary residence. This includes insulation, energy-efficient windows and doors, and certain HVAC systems. Unlike 25D, this credit does not roll over, so it is crucial to claim it in the tax year the improvements are made.",
     },
     {
-    title: 'Can I claim credits for improvements made to my second home or rental property?',
-    description:
-      "Yes, credits are available for certain improvements made to second homes. Renters may also be eligible if they make eligible improvements to their principal residence.",
-  },
+      title: 'What is the Difference Between Tax Credits and Rebates?',
+      description:
+        "Tax credits, such as those under 25C, 25D, and 30C, directly reduce your tax liability, offering substantial savings when you file your taxes. On the other hand, HEEHRA and 30D offer instant rebates, providing immediate financial relief at the point of purchase or installation.",
+    },
+    {
+      title: 'Can Federal Tax Credits Be Carried Forward to the Next Tax Year?',
+      description:
+        "Tax credits under the 25D provision offer flexibility with a rollover option, allowing you to carry forward any unused credits to future tax years. However, the Energy Efficient Home Improvement Credit (25C) is a one-time opportunity; unused credits cannot be rolled over to the next tax year.",
+    }
   ]}
+  
 />
+ <!-- Stats Widget ******************* -->
 
-<!--   
-  <BlogLatestPosts
-  title="Find more content in our Blog"
-  />  -->
+ <Stats
+ title=" Federal Sub-acts and their tax codes in the Inflation Reduction Act"
+ stats={[
+   { title: 'Home Clean Energy', amount: '25D' },
+   { title: 'Home EV Charger', amount: '30C' },
+   { title: 'Energy Efficient Home', amount: '25C' },
+   { title: 'EV Rebate', amount: '30D' },
+ ]}
+/>
 

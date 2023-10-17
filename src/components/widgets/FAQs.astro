@@ -10,13 +10,19 @@ const {
   tagline = '',
   items = [],
   columns = 2,
-
   id,
   isDark = false,
   classes = {},
   bg = await Astro.slots.render('bg'),
 } = Astro.props as Faqs;
 ---
+
+<style>
+  .non-clickable-title {
+    pointer-events: none;
+    cursor: default;
+  }
+</style>
 
 <WidgetWrapper id={id} isDark={isDark} containerClass={`max-w-7xl mx-auto ${classes?.container ?? ''}`} bg={bg}>
   <Headline title={title} subtitle={subtitle} tagline={tagline} />
@@ -28,6 +34,8 @@ const {
       container: `${columns === 1 ? 'max-w-4xl' : ''} gap-y-8 md:gap-y-12`,
       panel: 'max-w-none',
       icon: 'flex-shrink-0 mt-1 w-6 h-6 text-primary',
+      title: 'non-clickable-title'  // Add this line to add the class to the titles
     }}
   />
 </WidgetWrapper>
+

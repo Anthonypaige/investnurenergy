@@ -6,8 +6,8 @@ image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/c
 category: Solar Energy
 tags:
   - Solar loans
-  - tax credit liability
-  - Home Energy tax credit
+  - solar energy
+  - Home Clean Energy credit
 ---
 
 **Is Blue Raven Solar legitimate?** This is a question that many potential customers find themselves asking as they consider transitioning to renewable energy. While the company presents itself as a beacon of sustainability and financial savings, there's a darker reality that needs to be exposed. This article aims to shed light on the unethical business practices of Blue Raven Solar and its parent company, SunPower.
