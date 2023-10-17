@@ -21,7 +21,7 @@ We've delved into the complexities of solar loans in our previous article on [na
 
 By employing these cunning tactics, Blue Raven Solar not only jeopardizes the financial stability of homeowners but also tarnishes the reputation of the solar industry. Their practices serve as a cautionary tale, highlighting the urgent need for consumer awareness and industry regulation.
 
-
+![Super Wide](https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/In-article-images/SLR-7-in-article.png?raw=true)
 
 ### **The Mirage of the "Net Price": A Masterclass in Deception**
 Blue Raven Solar employs the term "net price" in a way that deliberately misleads customers into believing it encompasses all associated costs. What they don't reveal is that this so-called "net price" is bloated with an exorbitant 40% in dealer fees. But the deception doesn't end there.
