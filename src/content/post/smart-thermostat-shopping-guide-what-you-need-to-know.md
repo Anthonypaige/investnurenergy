@@ -26,13 +26,11 @@ Navigating the world of smart thermostats can be overwhelming, especially when y
 
 - **Occupancy Sensing**: [According to the CEE](https://library.cee1.org/system/files/library/14493/CEE_ResHVAC_ThermostatSpecs_15Jan2021.pdf), a smart thermostat should be capable of reducing HVAC use when the home is unoccupied, thanks to features like sensors or geofencing.
 
-![](/images/smart%20thermostat%20in%20article%20art.png)
-
-### **The Smart Thermostat: Basic yet effective**
+### **The Smart Thermostat**
 
 At its core, a smart thermostat allows you to set schedules that save energy and optimize usage based on TOU rates. It enables participation in Demand Response programs, monitors your HVAC system, and provides helpful hints along with monthly usage reports. Geofencing capabilities, usually via your smartphone, can automatically adjust the thermostat based on your location. These base models are generally priced around $100 or less.
 
-### **The Smarter Thermostat: A Step Up in Convenience and Control**
+### **The Smarter Thermostat**
 
 If you're looking for a thermostat that offers more than just the basics, the "smarter" category is where you'll find additional features that offer enhanced control and convenience. Here's what sets these thermostats apart:
 
@@ -48,7 +46,7 @@ If you're looking for a thermostat that offers more than just the basics, the "s
 
 These smarter thermostats generally fall within the $120 to $190 price range, offering a balanced mix of advanced features without breaking the bank.
 
-### **The Smartest Thermostats: The Pinnacle of Home Comfort**
+### **The Smartest Thermostats**
 
 For those who seek the ultimate in smart thermostat technology, the "smartest" category offers a range of advanced features that elevate your home's comfort, energy efficiency, and safety to new heights. Here's what sets these premium models apart:
 
