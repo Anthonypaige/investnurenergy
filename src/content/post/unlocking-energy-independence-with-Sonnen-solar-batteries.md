@@ -14,25 +14,25 @@ Sonnen, a world-class manufacturer in smart solar battery storage, provides adva
 
 Sonnen batteries, designed to integrate seamlessly with solar power systems, allow you to store excess energy generated during the day for use at night or during power outages. This not only reduces your reliance on the grid but also helps you save on your electricity bills. All Sonnen batteries share key elements such as Lithium Iron Phosphate (LFP) batteries, known for their long lifespan and safety, and AC-coupling. They all have an industry-leading 100% Depth of Discharge (DoD), making it easier to compare since the total battery capacity and usable battery capacity are the same.
 
-#### **Smart Energy Management**
+### **Smart Energy Management**
 
 One of the standout features of Sonnen batteries is their smart technology. They automatically manage your energy usage, ensuring that you're using your stored solar power in the most efficient way possible, avoiding drawing from the grid during peak times. They all have four modes: Time-of-Use (TOU), Modified TOU, Self-Consumption, and Back-up Power. The mode choice will depend on your situation, your solar system size, your battery size, your net-metering policy, and time-varying rates. The modes can be changed rather easily, so it's something you can test out and find what suits your needs. This level of intelligence sets Sonnen batteries apart from many other products on the market.
 
 Sonnen offers many battery options with a modular design, allowing you to customize your battery size. For the sake of comparison, we're going to focus on three US options: 12K EcoLinx, 10K Eco+, and 10K Evo.
 
-#### **Sonnen core+**
+### **Sonnen core+**
 
 The Sonnen core+ is a sleek model designed for indoor storage. It's the most affordable option of the three. Its 10KW model has a continuous power of 4.8KW and a surge power of 6KW. It boasts an 85.8% round trip efficiency and can be stacked in 10KW modules for a total of up to 30KW. The 10-year or 10,000 life cycle warranty is one of the best in the industry.
 
 ![Super wide](https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/In-article-images/Sonnen-2-article.png?raw=true)
 
-#### **Sonnen Batterie Evo**
+### **Sonnen Batterie Evo**
 
 The Sonnen Batterie Evo is a more rugged model, designed for both indoor and outdoor use. It can also be stacked three deep for a total of 30KW expanded power and carries the same 10/10,000 warranty. However, there are differences in its features. It has a storage capacity of 10 kWh and a continuous power output of 5 kW and a surge of 7.05KW, while boasting an 87% round trip efficiency. The Evo model offers more features, but the price is also about 10-20% higher in most cases.
 
 ![Super wide](https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/In-article-images/Sonnen1-in-article.png?raw=true)
 
-#### **Sonnen Ecolinx**
+### **Sonnen Ecolinx**
 
 The EcoLinx is a unique model in the Sonnen lineup, designed for indoor use. It starts with a 12KW model and can be upgraded in 2KW increments up to 20KW. The EcoLinx comes with an impressive 15-year or 15,000 life cycle warranty. Its 12KW battery system offers a continuous power output of 7KW, a round trip efficiency of 82%, and a surge of 7.05 KW. Despite the round trip efficiency of 82%, it's an upgrade in almost every way. However, the real value of the EcoLinx lies in its energy automation, offering additional smart features. The only price found on the web is $25,000 before installation, which may be too expensive for some to consider.
 

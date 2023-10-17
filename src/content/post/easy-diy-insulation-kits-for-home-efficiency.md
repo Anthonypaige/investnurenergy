@@ -19,7 +19,7 @@ Home insulation is not just a winter concern; it's a year-round strategy for imp
 
 - **Why Choose This**: If your garage serves as a workspace or if it's attached to your home, insulating it can significantly impact your energy bills and comfort.
 
-- **Popular Brands**: Owens Corning and Matador offer reliable and easy-to-install kits. [Owens Corning on Amazon](https://www.amazon.com/), [Matador on Amazon](https://www.amazon.com/)
+- **Popular Brands**: Reach Barrier and NASA tech offer reliable and easy-to-install kits. [Reach Barrier on Amazon](https://amzn.to/46w6Pzz), [NASA tech by US Energy Products](https://amzn.to/3M5dsQX)
 
 ### **Window Shrinking Film Kits**
 
@@ -29,7 +29,7 @@ Home insulation is not just a winter concern; it's a year-round strategy for imp
 
 - **Why Choose This**: These are an excellent option for renters or those living in older homes with less efficient windows.
 
-- **Popular Brands**: Duck and 3M are trusted brands for window insulation. [Duck on Amazon](https://www.amazon.com/), [3M on Amazon](https://www.amazon.com/)
+- **Popular Brands**: Duck and Frost King are trusted brands for window insulation. [Duck on Amazon](https://amzn.to/3rMHG4z), [Frost King on Amazon](https://amzn.to/3rSUjuH)
 
 ### **Spray Foam Insulation Kits**
 
@@ -39,7 +39,7 @@ Home insulation is not just a winter concern; it's a year-round strategy for imp
 
 - **Why Choose This**: Spray foam is versatile and can be used in various applications, from wall cavities to gaps around windows and doors.
 
-- **Popular Brands**: Great Stuff and Loctite are go-to brands for spray foam insulation. [Great Stuff on Amazon](https://www.amazon.com/), [Loctite on Amazon](https://www.amazon.com/)
+- **Popular Brands**: Great Stuff and Loctite are go-to brands for spray foam insulation. [Great Stuff on Amazon](https://amzn.to/45DUA2u), [Loctite on Amazon](https://amzn.to/45zPd4c)
 
 ### **Attic Door Insulation Covers**
 
@@ -49,7 +49,7 @@ Home insulation is not just a winter concern; it's a year-round strategy for imp
 
 - **Why Choose This**: If you live in a colder climate, insulating your attic door is a must to prevent heat loss.
 
-- **Popular Brands**: Owens Corning and Battic Door are reputable brands for attic door insulation. [Owens Corning on Amazon](https://www.amazon.com/), [Battic Door on Amazon](https://www.amazon.com/)
+- **Popular Brands**: The attic door insulation kit is simple and straight-forward. They're all basically the same. You can [see for yourself here](https://amzn.to/46JajOO).
 
 ### **Water Heater Insulation Blankets**
 
@@ -59,7 +59,7 @@ Home insulation is not just a winter concern; it's a year-round strategy for imp
 
 - **Why Choose This**: If you have an older water heater or are looking to maximize energy efficiency, this is a simple yet effective solution.
 
-- **Popular Brands**: Frost King and SmartJacket are reliable choices for water heater insulation. [Frost King on Amazon](https://www.amazon.com/), [SmartJacket on Amazon](https://www.amazon.com/)
+- **Popular Brands**: Frost King and SmartJacket are reliable choices for water heater insulation. [Frost King on Amazon](https://amzn.to/3Q1vyEE), [Insulation MarketPlace on Amazon](https://amzn.to/3txULzc)
 
 #### **Conclusion**
 

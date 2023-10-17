@@ -42,17 +42,24 @@ const zoomMap = (event) => {
     transform: scale(1.5); /* Add hover effect */
   }
   .credit {
-    font-size: 24px;  /* Increase font size */
-    font-weight: bold;  /* Make it bold */
+    font-size: 24px;  
+    font-weight: bold;  
     margin-top: 30px;
-    text-align: center;  /* Center the text */
+    text-align: center; 
+  }
+  .credit a {
+    margin-left: 5px;
+    text-decoration: underline;
+    transition: color 0.3s ease;
+  }
+  .credit a:hover {
+    color: #228B22; /* Change to whatever color you prefer */
   }
 </style>
 
 <div class="map-container">
   <div class="map-title">Geothermal Potential</div>
   <div class="map-subtitle">United States</div>
-  <img src="https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/page-art/GEO-map-page-art.png?raw=true" alt="Geothermal Potential Map" class="map-image" @click={zoomMap}>
+  <img src="https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/page-art/GEO-map-page-art.png?raw=true" alt="Geothermal Potential Map of US" class="map-image" @click={zoomMap}>
   <div class="credit">Map Courtesy of <a href="https://www.eia.gov/">US Energy Atlas</a></div>
 </div>
-

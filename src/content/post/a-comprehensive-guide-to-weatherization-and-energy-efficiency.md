@@ -53,7 +53,7 @@ Sealing gaps and cracks is a vital yet cost-effective DIY project that can signi
   - **For Gaps up to 1"**: Expanding spray foam is excellent for sealing gaps up to 1 inch.
   - **For Larger Gaps (up to 3")**: This type of foam is also suitable for sealing larger gaps.
 
-For more details, refer to our [Foam Spray Insulation Buying Guide](link article).
+For more details, refer to our [Foam Spray Insulation Buying Guide](foam-spray-insulation-buying-guide).
 
 ### **Additional DIY Measures for Energy Conservation**
 
@@ -66,12 +66,12 @@ Focusing on certain areas can have a substantial impact on your utility bills by
 
 - **Windows and Doors**:
 
-  - **Windows**: Identify leaks using a candle or incense stick or by feeling for drafts. Seal any gaps with suitable sealants or consider using [Window Insulation Kits](insert link).
+  - **Windows**: Identify leaks using a candle or incense stick or by feeling for drafts. Seal any gaps with suitable sealants or consider using [Window Insulation Kits](https://amzn.to/3FjOiu9).
   - **Doors**: Inspect for drafts and gaps and apply weatherstripping and door sweeps to seal any openings.
 
 - **Garages**:
 
-  - **Insulation**: Enhance your garage's insulation using [Garage Door Insulation Kits](insert link) and weather strips. Door sweeps can also be utilized to ensure a tight seal on garage doors.
+  - **Insulation**: Enhance your garage's insulation using [Garage Door Insulation Kits](https://amzn.to/3FjOl9j) and weather strips. Door sweeps can also be utilized to ensure a tight seal on garage doors.
 
 #### **Conclusion**
 
