@@ -16,13 +16,12 @@ jobs:
     - name: Setup Node.js
       uses: actions/setup-node@v2
       with:
-        node-version: '16.x'  # Astro recommends Node.js 16.x
+        node-version: '>=18.14.1'
 
     - name: Install dependencies and build
       run: |
         npm install
         npm run build  # replace with your build command if different
-
     - name: Deploy to AWS S3
       uses: jakejarvis/s3-sync-action@master
       with:
