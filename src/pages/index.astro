@@ -3,8 +3,7 @@ import Layout from '~/layouts/PageLayout.astro';
 import FeaturedArticles from '~/components/widgets/FeaturedArticles.astro';
 import Hero from '~/components/widgets/Hero.astro';
 import Stats from '~/components/widgets/Stats.astro';
-import Features2 from '~/components/widgets/Features2.astro';
-//import Features3 from '~/components/widgets/Features3.astro';
+import FeaturesLink from '~/components/widgets/FeaturesLink.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
 
 
@@ -13,6 +12,7 @@ const metadata = {
   ignoreTitleTemplate: true,
 };
 ---
+
 <Layout metadata={metadata}>
   <Fragment slot="head">
   <script src="https://embed.rewiringamerica.org/calculator.js"></script>
@@ -22,98 +22,106 @@ const metadata = {
   <Hero actions={[]}>
     <Fragment slot="title">
       <div style="font-size: 1em; font-weight: bold; margin-bottom: 8px;">Welcome to <span style="color:#228B22; font-weight: 700;">Invest</span> in your <span style="color:#228B22; font-weight: 700;">Energy</span></div>
-      
-    </Fragment>
+      </Fragment>
   
     <Fragment slot="subtitle">
-      Navigating the Inflation Reduction Act can be complex, but you don't have to do it alone. We're committed to helping you understand and take full advantage of the Act's clean energy and energy-efficient incentives.
+      Navigating the Inflation Reduction Act can be complex, but you don't have to do it alone. We're here to help you unpack the Act's clean energy and energy-efficient incentives.
     </Fragment>
   </Hero>
   
-  
-  <Features2
+  <FeaturesLink
   title="Navigate Key Tax Benefits and Incentives"
   subtitle="These dedicated pages will serve as guides for their respective sub-acts."
   columns={3}
   items={[
     {
       title: 'Home Clean Energy Credit',
-      description: 'Your guide to the Residential Clean Energy Tax Credit (25D). Stay updated on how to maximize tax benefits from clean energy installations.',
+      description: 'Unlock tax advantages with the Residential Clean Energy Tax Credit (25D). Learn how to optimize your clean energy investments.',
       icon: 'tabler:sun-wind',
+      link: 'https://investinyourenergy.com/cleanenergy/home-clean-energy-credit'
     },
     {
       title: 'Energy-Efficient Home Upgrades',
-      description: 'Your live handbook for the Energy Efficient Home Improvement Tax Credit. Keep tabs on what qualifies for tax credits as new updates roll in.',
+      description: 'Your go-to resource for the Energy Efficient Home Improvement Tax Credit (25C). Make informed decisions on home upgrades.',
       icon: 'tabler:home-eco',
+      link: 'https://investinyourenergy.com/landing/energy-efficient-home-upgrades'
     },
     {
       title: 'Energy-Efficient Rebates',
-      description: 'Your real-time source for HEEHRA and state-level rebates. Learn how to save more with the latest rebate offerings.',
+      description: 'Stay ahead with real-time updates on HEEHRA and state-level rebates. Maximize your savings with the latest incentives.',
       icon: 'tabler:arrows-diff',
+      link: 'https://investinyourenergy.com/energyefficientrebates/energy-efficient-rebates'
     },
   ]}
 />
 
-
-  
- 
-
-<Features2
-  title="Explore Our Themed Pages of Products and Services Covered in the Inflation Reduction Act"
+<FeaturesLink
+  title="Explore Our Themed Pages of Products and Services Covered in the IRA"
   subtitle="The Inflation Reduction Act offers a wide range of opportunities for homeowners to make their homes more energy-efficient and sustainable. Our themed pages dive deep into the various products and services that are covered under this act, providing you with all the information you need to make informed decisions."
   items={[
     {
       title: 'Heat Pumps',
-      description: 'Discover the cost-effectiveness and efficiency of heat pumps for home heating and cooling.',
+      description: 'Uncover the efficiency and cost benefits of heat pumps for home climate control.',
       icon: 'tabler:air-conditioning',
+      link: 'https://investinyourenergy.com/landing/heat-pump-page'
     },
     {
       title: 'Weatherization',
-      description: 'Learn how weatherization can lower energy bills and enhance home comfort.',
-      icon: 'tabler:home-shield',
+      description: 'Get insights on how weatherization can reduce your energy bills and improve home comfort.',
+      icon: 'tabler:home-heart',
+      link: 'https://investinyourenergy.com/landing/weatherization-page'
     },
     {
       title: 'Solar Basics',
-      description: 'Understand the fundamentals of solar energy and its sustainability benefits.',
+      description: 'Delve into the essentials of solar energy and its role in sustainable living.',
       icon: 'tabler:solar-panel',
+      link: 'https://investinyourenergy.com/cleanenergy/solar-basics-page'
     },
     {
       title: 'Home Energy Storage',
-      description: 'Find out how battery storage maximizes solar or wind energy benefits.',
+      description: 'Learn how battery storage can amplify the benefits of your solar or wind energy systems.',
       icon: 'tabler:battery-charging',
+      link: 'https://investinyourenergy.com/cleanenergy/home-energy-storage'
     },
     {
       title: 'Wind Energy',
-      description: 'Explore wind energy\'s potential as a renewable source for residential use.',
+      description: 'Explore the untapped potential of wind energy for residential applications.',
       icon: 'tabler:wind',
+      link: 'https://investinyourenergy.com/cleanenergy/wind-energy-page'
     },
     {
       title: 'Geothermal Energy',
-      description: 'Learn about geothermal energy as a consistent heating and cooling solution.',
+      description: 'Understand the reliability of geothermal energy for home heating and cooling.',
       icon: 'tabler:world',
+      link: 'https://investinyourenergy.com/cleanenergy/geothermal-page'
     },
     {
       title: 'Water Heating',
-      description: 'Investigate efficient and eco-friendly water heating options.',
+      description: 'Discover sustainable and efficient solutions for water heating needs.',
       icon: 'tabler:droplet-half-2-filled',
+      link: 'https://investinyourenergy.com/landing/water-heaters-page'
     },
     {
       title: 'Smart Energy Devices',
-      description: 'See how smart devices and HEMS offer control over energy use.',
+      description: 'Home energy monitoring and control with smart thermostats and HEMS.',
       icon: 'tabler:smart-home',
+      link: 'https://investinyourenergy.com/energyefficientrebates/smart-energy-devices'
     },
     {
       title: 'Solar Tax Incentive',
-      description: 'Grasp the financial benefits of solar energy incentives.',
+      description: 'Navigate the financial landscape of solar energy tax incentives.',
       icon: 'tabler:solar-panel-2',
+      link: 'https://investinyourenergy.com/cleanenergy/solar-tax-incentive'
     },
   ]}
 >
   <Fragment slot="bg">
     <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
   </Fragment>
-</Features2>
+</FeaturesLink>
 
+
+<!-- IRA Eligibility Widget ******************* -->
 
 <Fragment>
   <div id="calculator-section">

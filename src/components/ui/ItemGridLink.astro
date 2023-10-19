@@ -1,0 +1,102 @@
+---
+import { Icon } from "astro-icon/components";
+import { twMerge } from "tailwind-merge";
+import type { ItemGrid } from "~/types";
+import Button from "./Button.astro";
+
+const {
+  items = [],
+  columns,
+  defaultIcon = "",
+  classes = {},
+} = Astro.props as ItemGrid;
+
+const {
+  container: containerClass = "",
+  panel: panelClass = "",
+  title: titleClass = "",
+  description: descriptionClass = "",
+  icon: defaultIconClass = "text-primary",
+} = classes;
+---
+
+{
+  items && (
+    <div
+      class={twMerge(
+        `grid gap-8 gap-x-12 sm:gap-y-8 ${
+          columns === 4
+            ? "lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2"
+            : columns === 3
+            ? "lg:grid-cols-3 sm:grid-cols-2"
+            : columns === 2
+            ? "sm:grid-cols-2 "
+            : ""
+        }`,
+        containerClass
+      )}
+    >
+      {items.map(
+        ({
+          title,
+          description,
+          icon,
+          callToAction,
+          link,  // <-- Add this line
+          limit,
+          classes: itemClasses = {},
+        }) => (
+          <a href={link ?? '#'} class="block">  <!-- Add this line -->
+            <div
+              class={twMerge(
+                "relative flex flex-col",
+                panelClass,
+                itemClasses?.panel
+              )}
+            >
+              {(icon || defaultIcon) && (
+                <Icon
+                  name={icon || defaultIcon}
+                  class={twMerge(
+                    "mb-2 w-10 h-10",
+                    defaultIconClass,
+                    itemClasses?.icon
+                  )}
+                />
+              )}
+              <div
+                class={twMerge(
+                  "text-xl font-bold",
+                  titleClass,
+                  itemClasses?.title
+                )}
+              >
+                {title}
+              </div>
+              {description && (
+                <p
+                  class={twMerge(
+                    "text-muted mt-2",
+                    descriptionClass,
+                    itemClasses?.description
+                  )}
+                  set:html={description}
+                />
+              )}
+              {limit && (
+                <div class="text-green-600 font-semibold mt-2">
+                  {limit}
+                </div>
+              )}
+              {callToAction && (
+                <div class="mt-2">
+                  <Button {...callToAction} />
+                </div>
+              )}
+            </div>
+          </a>  <!-- Add this line -->
+        )
+      )}
+    </div>
+  )
+}

@@ -4,7 +4,7 @@ import Hero from '~/components/widgets/Hero.astro';
 import FeaturedArticles from '~/components/widgets/FeaturedArticles.astro';
 import Stats from '~/components/widgets/Stats.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
-import Features2 from '~/components/widgets/Features2.astro';
+import FeaturesLink from '~/components/widgets/FeaturesLink.astro';
 
 const metadata = {
   title: 'Home Clean Energy Credit',
@@ -19,57 +19,56 @@ const metadata = {
     </Fragment>
   
     <Fragment slot="subtitle">
-      In this era of rising utility costs and dwindling fossil fuels, it's time we take a closer look at our energy choices. The Residential Clean Energy Credit (25D) has given us that opportunity.
+      The Home Clean Energy Credit offers federal tax incentives for adopting renewable technologies and home energy storage, enabling homeowners to achieve grid independence, realize significant energy savings, and contribute to a more sustainable future.
     </Fragment>
   </Hero>
-  
-<!-- Features2 Widget ************** -->
-<Features2
-title="What is included in the Home Clean Energy Credit?"
-subtitle="The Home Clean Energy Credit was designed for grid independence. It's a combination of elemental forces at play, and modern technology."
+ <!-- FeaturesLink Widget ************** -->
+<FeaturesLink
+title="Explore what's included in the Home Clean Energy Credit"
+subtitle="In this era of rising utility costs, power grid strain, and dwindling fossil fuels, it's time we take a closer look at our energy choices"
 items={[
   {
     title: 'Solar Energy',
-    description:
-      'Solar Energy has the potential to completely up-end what we know about power.',
+    description: 'Harness the sun’s power to generate electricity for your home. Solar panels are a cornerstone of renewable energy and a key component for achieving grid independence.',
     icon: 'tabler:solar-panel-2',
+    link: 'https://investinyourenergy.com/cleanenergy/solar-basics-page'
   },
   {
     title: 'Home Energy Storage',
-    description:
-      'Home Energy Storage is the most important aspect of the green transition and grid independence.',
+    description: 'Energy storage systems allow you to store excess solar or wind energy for later use. This is crucial for maintaining power during peak hours and unexpected outages.',
     icon: 'tabler:battery-charging',
+    link: 'https://investinyourenergy.com/cleanenergy/home-energy-storage'
   },
   {
     title: 'Geothermal Heat Pumps',
-    description:
-      'Geothermal heat pumps can last up to 50 years, making them possibly the most profitable choice in your greeen energy transition.',
-    icon: 'tabler:world-download',
+    description: 'Geothermal Heat Pumps offer a durable and cost-effective solution for home heating and cooling, with a remarkable lifespan of up to 50 years.',
+    icon: 'tabler:world',
+    link: 'https://investinyourenergy.com/cleanenergy/geothermal-page'
   },
   {
     title: 'Residential Wind Turbines',
-    description:
-      'Wind turbines offer another source of energy during non-sunny hours that is vital to a true independent electrical system.',
+    description: 'Wind turbines offer a complementary energy source to solar, providing power during non-sunny hours. They are an essential part of a diversified home energy system.',
     icon: 'tabler:wind',
+    link: 'https://investinyourenergy.com/cleanenergy/wind-energy-page'
   },
   {
     title: 'Solar Water Heaters',
-    description:
-      'Solar Water Heaters offer a sustainable, eco friendly, and incredibly efficient alternative to traditional water heaters',
+    description: 'Solar water heaters use the sun’s energy to heat water for your home, offering an eco-friendly and efficient alternative to traditional water heating methods.',
     icon: 'tabler:sun-high',
+    link: 'https://investinyourenergy.com/cleanenergy/solar-water-heater-article'
   },
   {
-    title: 'Stand alone Back-up Batteries',
-    description:
-      'Due to our power grid strain, the purchase of stand alone batteries for the purpose of avoding drawing expensive power during peak time is eligible for the 25D credit.',
+    title: 'Stand-alone Back-up Batteries',
+    description: 'Stand-alone batteries can be used to store energy and draw upon it during peak hours, helping you avoid higher energy costs and contributing to grid stability.',
     icon: 'tabler:battery-charging',
+    link: 'https://investinyourenergy.com/cleanenergy/home-energy-storage'
   },
 ]}
 >
 <Fragment slot="bg">
   <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
 </Fragment>
-</Features2>
+</FeaturesLink>
 
 
 

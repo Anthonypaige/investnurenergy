@@ -6,6 +6,7 @@ import Stats from '~/components/widgets/Stats.astro';
 import FeaturedArticles from '~/components/widgets/FeaturedArticles.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
 
+
 const metadata = {
   title: 'Energy Efficient Home Upgrades',
 };
@@ -17,73 +18,84 @@ const metadata = {
     <link rel="stylesheet" type="text/css" href="https://embed.rewiringamerica.org/rewiring-fonts.css"/>
     </Fragment>
 
-  <!-- Hero Widget ******************* -->
-  <Hero actions={[]}>
-    <Fragment slot="title">
-      <div style="font-size: 1em; font-weight: bold; margin-bottom: 8px;">The <span style="color:#228B22; font-weight: 700;">Energy</span> Efficient Home Improvement Credit</div>
-    </Fragment>
-    <Fragment slot="subtitle">
-      In a world where every penny counts and sustainability is key, the Energy Efficient Home Improvement Credit (25C) offers a pathway to smarter, greener living.
-    </Fragment>
-  </Hero>
+<!-- Hero Widget ******************* -->
+<Hero actions={[]}>
+  <Fragment slot="title">
+    <div style="font-size: 1em; font-weight: bold; margin-bottom: 8px;">The <span style="color:#228B22; font-weight: 700;">Energy</span> Efficient Home Improvement Credit</div>
+  </Fragment>
+  <Fragment slot="subtitle">
+    In a world where every penny counts and sustainability is key, the Energy Efficient Home Improvement Credit (25C) allows you to make essential upgrades for the inevitable green transition. It's a strategic way to enhance your home's efficiency while capitalizing on government incentives.
+  </Fragment>
+</Hero>
 
- 
- <!-- Features2 Widget ************** -->
+<div class="mt-[-6]"> 
+  
+  <!-- Features2 Widget ************** -->
 <Features2
-title="What is included in the Energy Efficient Home Improvement Credit?"
-subtitle="Discover the range of improvements eligible for tax credits under Section 25C."
+title="Most Efficient Home Improvements"
 items={[
   {
     title: 'Heat Pumps',
     description: 'Switch to heat pumps for a dual heating and cooling solution that can significantly lower your energy consumption.',
+    icon: 'tabler:air-conditioning',  
     limit: 'Up to $2,000',
   },
   {
     title: 'Heat Pump Water Heaters',
     description: 'Invest in heat pump water heaters to achieve hot water efficiency and reduce your monthly utility expenses.',
+    icon: 'tabler:droplet-filled', 
     limit: 'Up to $2,000',
   },
   {
     title: 'Biomass Boilers',
     description: 'Opt for biomass boilers that utilize renewable fuels, reducing both your carbon footprint and energy costs.',
     limit: 'Up to $2,000',
+    icon: 'tabler:campfire', 
   },
   {
     title: 'Weatherization Items',
     description: 'Enhance your home’s insulation and seal leaks to optimize indoor temperature and reduce energy waste.',
     limit: 'Up to $1,200',
+    icon: 'tabler:home-heart', 
   },
   {
     title: 'Electrical Panel Upgrade',
     description: 'Modernize your electrical panel to accommodate energy-efficient appliances and improve electrical safety.',
     limit: 'Up to $600',
+    icon: 'tabler:bulb', 
   },
   {
     title: 'Tankless Water Heaters',
     description: 'Adopt tankless water heaters for on-demand hot water, minimizing energy usage and maximizing convenience.',
     limit: 'Up to $600',
+    icon: 'tabler:droplet',  
   },
   {
     title: 'Windows and Skylights',
     description: 'Install energy-efficient windows and skylights to enhance natural lighting and thermal insulation.',
     limit: 'Up to $600',
+    icon: 'tabler:window', 
   },
   {
     title: 'Exterior Doors',
     description: 'Upgrade to energy-efficient exterior doors to bolster thermal insulation and enhance security.',
     limit: 'Up to $500',
+    icon: 'tabler:door', 
   },
   {
     title: 'Home Energy Audit',
     description: 'Conduct a home energy audit to identify areas for improvement and create a roadmap for energy-efficient upgrades.',
     limit: 'Up to $150',
-  }, 
+    icon: 'tabler:list-tree',  
+  },
 ]}
 >
 <Fragment slot="bg">
   <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
 </Fragment>
 </Features2>
+</div>
+
 
 
   <!-- Featured Articles Widget ******************* -->
@@ -115,38 +127,35 @@ items={[
  ]}
 />
 
-  <!-- FAQs Widget ******************* -->
-
-  <FAQs
-  title="Frequently Asked Questions about Energy Efficient Home Improvement Credit"
+<FAQs
+  title="Frequently asked Questions"
+  columns={1}
   items={[
     {
-      title: 'What Is the Energy Efficient Home Improvement Credit (25C)?',
-      description: 'The Energy Efficient Home Improvement Credit is a tax credit that provides financial incentives for homeowners to make energy-efficient upgrades to their residential properties. The credit covers a range of improvements, from insulation to energy-efficient windows and doors.',
+      title: 'What Is the Energy Efficient Home Improvement Tax Credit (25C)?',
+      description: '25C is a federal tax credit designed to encourage homeowners to make energy-efficient upgrades, especially in heating and cooling, which accounts for 50% of home energy costs. The credit covers a variety of home improvements, including insulation, windows, heat pumps, and water heaters.'
     },
     {
-      title: 'What Qualifies for the Energy Efficient Home Improvement Credit?',
-      description: 'Eligible improvements include insulation systems, exterior windows, skylights, doors, and certain energy-efficient appliances like heat pumps and water heaters. The credit has been expanded to cover certain biomass stoves and boilers, electric panels, and home energy audits.',
+      title: 'What Is the Annual Limit of 25C?',
+      description: 'As of January 1, 2023, the annual limit for the 25C credit is $3,200, a significant increase from the previous lifetime limit of $500. This makes it even more beneficial for homeowners to invest in energy-efficient improvements.'
     },
     {
-      title: 'What Is the Annual Limit of the Energy Efficient Home Improvement Credit (25C)?',
-      description: 'The annual limit for the 25C credit has been updated. Starting from January 1, 2023, you may qualify for a tax credit up to $3,200. This is a significant change from the previous lifetime limit of $500.',
+      title: 'How to Determine 25C Eligibility?',
+      description: 'Eligibility for the 25C credit is based on specific energy-efficient upgrades, as outlined by the IRS. Since it is a tax credit, you need sufficient tax liability to claim it. For a personalized assessment, consult our IRA Eligibility Calculator.'
+    },    
+    {
+      title: '25C vs HEEHRA: What Are the Differences?',
+      description: 'Both 25C and HEEHRA focus on energy-efficient home improvements, specifically for controlling heating and cooling costs. However, 25C is a federal tax credit, while HEEHRA is a federally approved, state-level rebate program offering point-of-sale rebates for approved low and moderate-income households.'
     },
     {
-      title: 'What Is the Difference Between 25C and HEEHRA?',
-      description: 'The 25C credit, also known as the Energy Efficient Home Improvement Credit, focuses on a variety of home improvements like insulation and windows. HEEHRA (High Efficiency Electric Home Rebate Act) is a voluntary program that provides point-of-sale rebates for electrification projects, covering up to 100% of the costs for low-income households and 50% for moderate-income households.',
-    },
-    {
-      title: 'How Do I Know My Eligibility for The Energy Efficient Home Improvement Credit?',
-      description: 'To be eligible for the Energy Efficient Home Improvement Credit, you must make qualified energy-efficient improvements to your home after January 1, 2023. These improvements can include insulation systems, exterior windows, and certain energy-efficient appliances. The credit is available through 2032. For a more personalized assessment, you can use our [IRA Eligibility Calculator](#placeholder).',
-    },
-    {
-      title: 'Is there a rollover with th Energy Efficient Home Improvement Credit?',
-      description: 'Under 25c a taxpayer may not carry the credit forward. Thus, if a taxpayer does not have sufficient tax liability to claim all or a portion of the credit in the year in which therelated property for which the qualifying expenditure is placed in service, the unused amount of the credit may never be claimed.',
+      title: '25C vs 25D: What Are the Differences?',
+      description: 'Both 25C and 25D offer a 30% tax credit, but they target different aspects of home energy. 25C focuses on energy-efficient upgrades and improvements with an annual limit of $3,200 and no rollover option. On the other hand, 25D is geared towards renewable energy systems like solar panels and wind turbines, has no annual limit, and offers a rollover option.'
     }
   ]}
 >
   <Fragment slot="bg">
     <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
   </Fragment>
+</FAQs>
+
 

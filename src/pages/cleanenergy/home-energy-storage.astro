@@ -3,9 +3,10 @@ import Layout from '~/layouts/PageLayout.astro';
 import Hero from '~/components/widgets/Hero.astro';
 import FeaturedArticles from '~/components/widgets/FeaturedArticles.astro';
 import Content from '~/components/widgets/Content.astro';
+import FAQs from '~/components/widgets/FAQs.astro';
 
 const metadata = {
-  title: 'Home Energy Storage page',
+  title: 'Home Energy Storage',
 };
 ---
 
@@ -16,43 +17,46 @@ const metadata = {
     </Fragment>
   
     <Fragment slot="subtitle">
-      Thanks to the Inflation Reduction Act of 2022, Home Energy Storage has become more attainable than ever. This enables you to achieve energy independence, enjoy significant cost savings, and enhance resilience and sustainability right in your own home, all while safeguarding against power outages.
+      Home energy storage is gaining practicality, and thanks to the Home Clean Energy Credit, it's now more accessible for a variety of households. From backup power solutions to storing energy from solar and wind, to even capitalizing on energy arbitrage, there's an opportunity here that could make sense for your situation.
     </Fragment>
   </Hero>
   
 
-  <!-- Content Widget -->
-  <Content
-    isReversed
-    items={[
-      {
-        title: 'Backup Battery',
-        description: 'A home energy storage system serves as a backup battery during power outages, ensuring that your essential appliances keep running.',
-      },
-      {
-        title: 'Energy Arbitrage',
-        description: 'Store energy when electricity rates are low and use it during peak hours to save money. This strategy, known as energy arbitrage, can significantly reduce your electricity bills.',
-      },
-      {
-        title: 'Wind or Solar Storage',
-        description: 'Home energy storage allows you to store excess energy generated from your wind or solar installations. This stored energy can be used when renewable sources are not producing, ensuring a consistent power supply.',
-      },
-    ]}
-    image={{
-      src: 'https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/page-art/HES-qualify-page-art.png?raw=true',
-      alt: 'Qualifications for Battery Storage eligibility',
-    }}
-  >
-    <Fragment slot="content">
-      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Why Home Energy Storage?</h3>
-      Home Batteries are becoming essential in today's World for many reasons.
-    </Fragment>
+ <!-- Content Widget -->
+<Content
+isReversed
+class="flex flex-col-reverse sm:flex-row" 
+items={[
+  {
+    title: 'Backup Battery',
+    description: 'A home energy storage system serves as a backup battery during power outages, ensuring that your essential appliances keep running.',
+  },
+  {
+    title: 'Energy Arbitrage',
+    description: 'Store energy when electricity rates are low and use it during peak hours to save money. This strategy, known as energy arbitrage, can significantly reduce your electricity bills.',
+  },
+  {
+    title: 'Wind or Solar Storage',
+    description: 'Home energy storage allows you to store excess energy generated from your wind or solar installations. This stored energy can be used when renewable sources are not producing, ensuring a consistent power supply.',
+  },
+]}
+image={{
+  src: 'https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/page-art/HES-qualify-page-art.png?raw=true',
+  alt: 'Qualifications for Battery Storage eligibility',
+  class: "order-1 sm:order-none" 
+}}
+>
+<Fragment slot="content" class="order-2 sm:order-none">  <!-- Add this line -->
+  <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Why Home Energy Storage?</h3>
+  Home Batteries are becoming essential in today's World for many reasons.
+</Fragment>
 
-    <Fragment slot="bg">
-      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
-    </Fragment>
+<Fragment slot="bg">
+  <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+</Fragment>
 
-  </Content>
+</Content>
+
 
   <!-- Featured Articles Widget -->
   <FeaturedArticles 
@@ -67,5 +71,36 @@ const metadata = {
       'unlocking-energy-independence-with-sonnen-solar-batteries',
     ]}
   />
+
+  <FAQs
+  title="Frequently Asked Questions"
+  columns={1}
+  items={[
+    {
+      title: 'What is Home Energy Storage?',
+      description: 'Home energy storage uses advanced battery systems to store electricity for future use. These systems can capture energy from various sources, including the grid, solar panels, and wind turbines. They serve as a backup power source during outages and help optimize energy costs.'
+    },
+    {
+      title: 'Are Solar Panels Required to Claim a Home Battery Tax Credit?',
+      description: 'As of early 2023, you can claim the Residential Clean Energy Credit for a standalone battery purchase. While pairing a battery with solar panels maximizes savings and grid independence, a home battery alone can also provide benefits like emergency backup power and energy arbitrage opportunities.'
+    },
+    {
+      title: 'What Are Time-of-Use (TOU) Rates?',
+      description: 'Time-of-Use rates are fluctuating electricity prices that depend on the time of day. These rates are lower during off-peak hours and higher during peak demand times. A home energy storage system enables you to strategically use stored energy to avoid higher rates.'
+    },
+    {
+      title: 'Can I Integrate a Home Battery with My Existing Solar Panel System?',
+      description: 'Integrating a home battery with an existing solar panel system largely depends on your current inverter setup and the type of battery you choose. However, many universal home battery options are designed to be compatible with a variety of solar inverter systems, making integration relatively straightforward.'
+    }
+  ]}
+>
+  <Fragment slot="bg">
+    <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+  </Fragment>
+</FAQs>
+
+
+
+
 </Layout>
 
