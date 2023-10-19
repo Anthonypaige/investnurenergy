@@ -280,18 +280,19 @@ export interface InfoCard {
 }
 
 export interface Card {
-  title: string;
-  imageSrc?: string; // New field for image
-  topSellingPoints?: string[]; // New field for top selling points
-  priceRange?: string; // New field for price range
-  coveredBy?: string; // New field for which act it's covered by
-  taxCode: string;
-  creditAmount: string;
-  verifiedEnergySavings: string;
+  title: string; // The title of the product
+  imageSrc?: string; // Image of the product
+  topSellingPoints?: string[]; // Key features or selling points
+  priceRange?: string; // Price range for the product
+  shopButton?: string; // Text for the "Shop Here" button
+  taxCode: string; // Tax code related to the product
+  creditAmount: string; // Credit amount for the product
+  verifiedEnergySavings: string; // Energy savings info
   callToAction?: {
-    target: string;
-    text: string;
-    href: string;
+    // Call to action details
+    target: string; // Target for the link
+    text: string; // Text to display
+    href: string; // URL for the action
   };
 }
 

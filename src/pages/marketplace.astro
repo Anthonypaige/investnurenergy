@@ -1,0 +1,106 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import MarketplaceGrid from '~/components/ui/MarketplaceGrid.astro';
+
+const items = [
+  {
+    title: 'Eco Flow Delta Pro',
+    imageSrc: 'https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/HES-4-cover-art.png?raw=true',
+    topSellingPoints: ['Point 1', 'Point 2', 'Point 3'],
+    priceRange: '$100 - $200',
+    shopButton: {
+      text: 'Shop Here',
+      href: 'https://www.amazon.com/your-affiliate-link-1',
+    }
+  },
+  {
+    title: 'Eco Flow Delta Pro 2',
+    imageSrc: 'https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/HES-4-cover-art.png?raw=true',
+    topSellingPoints: ['Point 1', 'Point 2', 'Point 3'],
+    priceRange: '$200 - $300',
+    shopButton: {
+      text: 'Shop Here',
+      href: 'https://www.amazon.com/your-affiliate-link-2',
+    }
+  },
+  {
+    title: 'Eco Flow Delta Pro 3',
+    imageSrc: 'https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/HES-4-cover-art.png?raw=true',
+    topSellingPoints: ['Point 1', 'Point 2', 'Point 3'],
+    priceRange: '$300 - $400',
+    shopButton: {
+      text: 'Shop Here',
+      href: 'https://www.amazon.com/your-affiliate-link-3',
+    }
+  },
+  // 6 more Delta Pros
+  {
+    title: 'Eco Flow Delta Pro 4',
+    imageSrc: 'https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/HES-4-cover-art.png?raw=true',
+    topSellingPoints: ['Fake Point 1', 'Fake Point 2', 'Fake Point 3'],
+    priceRange: '$400 - $500',
+    shopButton: {
+      text: 'Shop Here',
+      href: 'https://www.amazon.com/your-affiliate-link-4',
+    }
+  },
+  {
+    title: 'Eco Flow Delta Pro 5',
+    imageSrc: 'https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/HES-4-cover-art.png?raw=true',
+    topSellingPoints: ['Fake Point 1', 'Fake Point 2', 'Fake Point 3'],
+    priceRange: '$500 - $600',
+    shopButton: {
+      text: 'Shop Here',
+      href: 'https://www.amazon.com/your-affiliate-link-5',
+    }
+  },
+  {
+    title: 'Eco Flow Delta Pro 6',
+    imageSrc: 'https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/HES-4-cover-art.png?raw=true',
+    topSellingPoints: ['Fake Point 1', 'Fake Point 2', 'Fake Point 3'],
+    priceRange: '$600 - $700',
+    shopButton: {
+      text: 'Shop Here',
+      href: 'https://www.amazon.com/your-affiliate-link-6',
+    }
+  },
+  {
+    title: 'Eco Flow Delta Pro 7',
+    imageSrc: 'https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/HES-4-cover-art.png?raw=true',
+    topSellingPoints: ['Fake Point 1', 'Fake Point 2', 'Fake Point 3'],
+    priceRange: '$700 - $800',
+    shopButton: {
+      text: 'Shop Here',
+      href: 'https://www.amazon.com/your-affiliate-link-7',
+    }
+  },
+  {
+    title: 'Eco Flow Delta Pro 8',
+    imageSrc: 'https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/HES-4-cover-art.png?raw=true',
+    topSellingPoints: ['Fake Point 1', 'Fake Point 2', 'Fake Point 3'],
+    priceRange: '$800 - $900',
+    shopButton: {
+      text: 'Shop Here',
+      href: 'https://www.amazon.com/your-affiliate-link-8',
+    }
+  },
+  {
+    title: 'Eco Flow Delta Pro 9',
+    imageSrc: 'https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/HES-4-cover-art.png?raw=true',
+    topSellingPoints: ['Fake Point 1', 'Fake Point 2', 'Fake Point 3'],
+    priceRange: '$900 - $1000',
+    shopButton: {
+      text: 'Shop Here',
+      href: 'https://www.amazon.com/your-affiliate-link-9',
+    }
+  }
+];
+
+const columns = 3;
+---
+
+---
+
+<Layout>
+  <MarketplaceGrid items={items} columns={columns} />
+</Layout>
