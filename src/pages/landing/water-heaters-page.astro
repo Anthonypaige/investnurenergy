@@ -15,51 +15,54 @@ const metadata = {
 
   <Hero
   title="Water Heaters"
-  subtitle="Nearly 20% of your household energy bill is spent on water heating alone. Thanks to the Inflation Reduction Act, knowing your options can lead to significant savings and a more sustainable lifestyle."
+  subtitle="With 20% of our average utility bill going to water heating, it's time we consider more energy efficient upgrade options"
     />
 
     <!-- Content Widget **************** -->
-<Content
-class="flex flex-col-reverse md:flex-row"
-isReversed
-items={[
-  {
-    title: 'The Solution',
-    description:
-      'Modern water heaters come with advanced technologies like on-demand heating, solar energy capture, and heat pump systems. These options are not only more efficient but also environmentally friendly. Upgrading to any of these solutions would be a significant improvement over traditional water heating methods',
-  },
-  {
-    title: 'The Financial Assistance',
-    description:
-      'Water heater upgrades are supported by various acts like the Inflation Reduction Act, 25D, 25C, and HEEHRA. Additionally, many states offer rebates that can be stacked with federal',
-  },
-  {
-    title: 'The Result',
-    description:
-      'Depending on the option you choose, you can expect significant savings on your energy bills, reduced carbon emissions, and a more sustainable lifestyle. Each option comes with its own set of benefits, allowing you to choose the one that best suits your needs',
-  },
-  ]}
-image={{
-  src: 'https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/page-art/WTR-page-art.jpg?raw=true',
-  alt: 'Thermal image showing air leaking from a home',
-}}
->
-<Fragment slot="content">We spend almost 20% of our energy on heating water</Fragment>
-
-<Fragment slot="bg">
-  <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
-</Fragment>
-</Content>
+    <Content
+    class="flex flex-col-reverse md:flex-row"
+    isReversed
+    items={[
+      {
+        title: 'The Solution',
+        description:
+          'Switch to a modern water heater featuring on-demand heating, solar energy capture, or heat pump technology for substantial energy savings',
+      },
+      {
+        title: 'The Financial Assistance',
+        description:
+          'Take advantage of federal tax credits and leverage possible state rebates for modern water heater upgrades',
+      },
+      {
+        title: 'The Result',
+        description:
+          'Use government incentives to fund your upgrade, then enjoy ongoing savings, increased energy efficiency, and greater grid independence',
+      },
+      ]}
+    image={{
+      src: 'https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/page-art/WTR-page-art.jpg?raw=true',
+      alt: 'hot running shower',
+    }}
+    >
+    <Fragment slot="content">
+          <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Efficient Water Heating Solutions,</h3>
+          <!-- Make Your Home More Energy-Efficient with the Right Water Heater -->
+        </Fragment>
+    
+        <Fragment slot="bg">
+          <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+        </Fragment>
+      </Content>
 
 
 
  <Pricing
- title="Average Savings on Water Heaters Covered in the Inflation Reduction Act"
+ title="Average Savings on Water Heater Upgrades"
  subtitle="Discover the unique value propositions of each water heater to find the one that best suits your situation"
  prices={[
    {
      title: 'Heat Pump Water Heaters',
-     price: '50%',
+     price: '30-50%',
      period: 'More Energy-Efficient',
      items: [
        {
@@ -72,7 +75,7 @@ image={{
          description: 'Smart Features for easier control',
        },
        {
-         description: 'option to stack with a state rebate',
+         description: 'Eligible for state rebates as well',
        },
      ],
      callToAction: {
@@ -83,8 +86,8 @@ image={{
    },
    {
      title: 'Tankless Water Heaters',
-     price: '$108',
-     period: 'avg annual savings',
+     price: '15-25%',
+     period: 'More Energy-Efficient',
      items: [
        {
          description: 'On Demand Hot Water',
