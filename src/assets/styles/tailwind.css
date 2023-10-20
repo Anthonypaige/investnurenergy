@@ -19,6 +19,10 @@
     color: var(--aw-color-text-muted);
   }
 }
+/* Add your custom styles here */
+body {
+  @apply bg-dark;
+}
 
 @layer components {
   .btn {
