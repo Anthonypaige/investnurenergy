@@ -8,14 +8,15 @@ const { items = [], columns, classes = {} } = Astro.props as { items: Card[], co
 const {
   container: containerClass = '',
   card: cardClass = '',
-  title: titleClass = 'text-2xl font-bold text-white',  // Increased size and changed color
-  image: imageClass = 'w-full h-48 object-cover mb-4 rounded',  
-  topSellingPoints: topSellingPointsClass = 'text-lg text-white mb-1',  // Increased size and changed color
-  priceRange: priceRangeClass = 'text-xl font-semibold mb-2 text-white',  // Increased size and changed color
+  title: titleClass = 'text-2xl font-bold text-white',
+  image: imageClass = 'w-full h-48 object-cover mb-4 rounded',
+  topSellingPoints: topSellingPointsClass = 'text-lg text-white mb-1',
+  avgPrice: avgPriceClass = 'text-xl font-semibold mb-2 text-white',
   price: priceClass = ''
 } = classes;
 ---
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 {
   items && (
     <div
@@ -26,33 +27,50 @@ const {
             : columns === 3
             ? 'lg:grid-cols-3 sm:grid-cols-2'
             : columns === 2
-            ? 'sm:grid-cols-2 '
+            ? 'sm:grid-cols-2'
             : ''
         }`,
         containerClass
       )}
     >
-      {items.map(({ title, imageSrc, topSellingPoints, priceRange, shopButton }) => (
-        <div class={twMerge('flex flex-col max-w-md p-4 border rounded shadow-lg bg-gray-800', cardClass)}>  <!-- Changed background color -->
-          {imageSrc && (
-            <img src={imageSrc} alt={title} class={imageClass} />
-          )}
-          {title && (
-            <h3 class={twMerge(titleClass)}>{title}</h3>
-          )}
-          {topSellingPoints && topSellingPoints.map(point => (
-            <p class={topSellingPointsClass}>• {point}</p>
-          ))}
-          {priceRange && (
-            <p class={twMerge(priceRangeClass, priceClass)}>{priceRange}</p>
-          )}
-          {shopButton && (
-            <div class={twMerge('mt-auto')}>
-              <Button variant="primary" class="bg-blue-500 text-white px-4 py-2 rounded" {...(shopButton as unknown as object)} />
-            </div>
-          )}
+    {items.map(({ title, imageSrc, topSellingPoints, avgPrice, shopButton, rating, reviewCount }) => (
+    <div class={twMerge('flex flex-col max-w-md p-4 border rounded shadow-lg bg-gray-800 hover:bg-gray-700 hover:shadow-xl transition duration-300', cardClass)}>
+    {imageSrc && (
+      <img src={imageSrc} alt={title} class={imageClass} />
+    )}
+    {title && (
+      <h3 class={twMerge(titleClass, 'mb-2')}>{title}</h3>
+    )}
+    {topSellingPoints && topSellingPoints.map((point, index, array) => (
+      <>
+        <p class={twMerge(topSellingPointsClass, 'mb-1')}>• {point}</p>
+        {index === array.length - 1 && <hr class="border-t border-gray-600 my-2" />}
+      </>
+    ))}
+    <div class="flex justify-between items-center mt-2 mb-4">
+      {avgPrice && (
+        <p class={twMerge(avgPriceClass)}>Avg Price: {avgPrice}</p>
+      )}
+    </div>
+    <div class="flex justify-between items-center mt-auto">
+      {shopButton && (
+        <div>
+          <Button variant="primary" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-200 transition duration-300" {...(shopButton as unknown as object)} />
         </div>
-      ))}
+      )}
+      {rating && reviewCount && (
+        <div class="flex items-center">
+          <span class="text-yellow-400 text-lg">
+            {Array.from({ length: 5 }, (_, i) => (
+              <i class={`fas fa-star ${i < rating ? 'text-yellow-400' : 'text-gray-300'}`}></i>
+            ))}
+          </span>
+          <span class="ml-2 text-white text-sm">{`${reviewCount} reviews`}</span>
+        </div>
+      )}
+    </div>
+  </div>
+))}
     </div>
   )
 }

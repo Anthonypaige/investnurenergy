@@ -65,10 +65,10 @@ const {
                 />
               )}
               <div
-                class={twMerge(
-                  "text-xl font-bold",
-                  titleClass,
-                  itemClasses?.title
+  class={twMerge(
+    "text-xl font-bold hover:text-green-500 hover:underline",
+    titleClass,
+    itemClasses?.title
                 )}
               >
                 {title}
@@ -84,7 +84,7 @@ const {
                 />
               )}
               {limit && (
-                <div class="text-green-600 font-semibold mt-2">
+                <div class="text-green-500 font-semibold mt-2">
                   {limit}
                 </div>
               )}

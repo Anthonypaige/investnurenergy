@@ -7,17 +7,24 @@ import FeaturedArticles from '~/components/widgets/FeaturedArticles.astro';
 
 
 const metadata = {
-  title: 'Wind Energy',
+  title: 'Residential Wind Energy',
 };
 ---
 
 <Layout metadata={metadata}>
   <!-- Hero Widget ******************* -->
 
-  <Hero
-    title="Residential Wind Turbines"
-    subtitle="Residential wind turbines offer a perfect complement to solar energy's off-production times and can be seamlessly integrated with home energy storage systems."
-  />
+  <Hero actions={[]}>
+    <Fragment slot="title">
+      <div style="font-size: 1em; font-weight: bold; margin-bottom: 8px;">Residential Wind <span style="color:#228B22; font-weight: 700;">Energy</span></div>
+    </Fragment>
+  
+    <Fragment slot="subtitle">
+      Residential wind turbines offer a perfect complement to solar energy's off-production times and can be seamlessly integrated with home energy storage systems.
+    </Fragment>
+  </Hero>
+  
+
 <section>
   <WindMapZoom />
 </section>

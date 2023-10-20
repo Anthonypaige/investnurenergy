@@ -6,17 +6,24 @@ import Hero from '~/components/widgets/Hero.astro';
 import Content from '~/components/widgets/Content.astro';
 
 const metadata = {
-  title: 'Water Heaters',
+  title: 'Energy Efficient Water Heaters',
 };
 ---
 
 <Layout metadata={metadata}>
   <!-- Hero Widget ******************* -->
 
-  <Hero
-  title="Water Heaters"
-  subtitle="With 20% of our average utility bill going to water heating, it's time we consider more energy efficient upgrade options"
-    />
+  <Hero actions={[]}>
+    <Fragment slot="title">
+      <div style="font-size: 1em; font-weight: bold; margin-bottom: 8px;"><span style="color:#228B22; font-weight: 700;">Energy</span> Efficient Water Heaters</div>
+    </Fragment>
+  
+    <Fragment slot="subtitle">
+      With 20% of our average utility bill going to water heating, it's time we consider more energy efficient upgrade options
+    </Fragment>
+  </Hero>
+  
+  
 
     <!-- Content Widget **************** -->
     <Content

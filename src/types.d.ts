@@ -283,11 +283,16 @@ export interface Card {
   title: string; // The title of the product
   imageSrc?: string; // Image of the product
   topSellingPoints?: string[]; // Key features or selling points
-  priceRange?: string; // Price range for the product
-  shopButton?: string; // Text for the "Shop Here" button
+  avgPrice?: string; // Average price for the product
+  shopButton?: {
+    text: string; // Text for the "Shop Here" button
+    href: string; // URL for the action
+  };
   taxCode: string; // Tax code related to the product
   creditAmount: string; // Credit amount for the product
   verifiedEnergySavings: string; // Energy savings info
+  rating?: number; // New field for ratings
+  reviewCount?: number; // New field for the number of reviews
   callToAction?: {
     // Call to action details
     target: string; // Target for the link
