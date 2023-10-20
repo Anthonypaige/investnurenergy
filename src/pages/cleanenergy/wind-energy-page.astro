@@ -7,17 +7,24 @@ import FeaturedArticles from '~/components/widgets/FeaturedArticles.astro';
 
 
 const metadata = {
-  title: 'Wind Energy page',
+  title: 'Residential Wind Energy',
 };
 ---
 
 <Layout metadata={metadata}>
   <!-- Hero Widget ******************* -->
 
-  <Hero
-    title="Residential Wind Turbines"
-    subtitle="Discover how residential wind turbines contribute to grid independence and play a key role in the green transition. Learn how they work, their benefits, and how they can complement other renewable energy sources."
-  />
+  <Hero actions={[]}>
+    <Fragment slot="title">
+      <div style="font-size: 1em; font-weight: bold; margin-bottom: 8px;">Residential Wind <span style="color:#228B22; font-weight: 700;">Energy</span></div>
+    </Fragment>
+  
+    <Fragment slot="subtitle">
+      Residential wind turbines offer a perfect complement to solar energy's off-production times and can be seamlessly integrated with home energy storage systems.
+    </Fragment>
+  </Hero>
+  
+
 <section>
   <WindMapZoom />
 </section>

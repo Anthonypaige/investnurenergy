@@ -16,11 +16,12 @@ const metadata = {
   <!-- HeroText Widget ******************* -->
   <Hero
   title="Heat Pumps"
-  subtitle="Heat Pumps are revolutionizing the way we think about home climate control. These versatile systems are incredibly efficient, generating up to three times more energy than they consume. They offer both heating and cooling solutions, making them a year-round choice for energy-conscious homeowners."
+  subtitle="Heat Pump technology regulates home climate for heating and cooling, generating up to three times more energy than consumed."
   />
 
 <!-- Content Widget **************** -->
 <Content
+  class="flex flex-col-reverse md:flex-row"
   isReversed
   items={[
     {
@@ -57,7 +58,6 @@ const metadata = {
 
 <!-- Content Widget **************** -->
 
-
 <Features2
   title="Types of Heat Pumps"
   subtitle="Discover the most efficient heat pump solutions for your home."
@@ -65,12 +65,12 @@ const metadata = {
   items={[
     {
       title: 'Ducted Split Systems',
-      description: 'Ducted Split Systems seamlessly integrate with your home\'s existing ductwork, providing efficient air distribution. Ideal for larger homes.',
+      description: 'These are the whole-home systems using existing ductwork most households are used to. They are just 3 times more efficient than our traditional HVAC systems.',
       icon: 'tabler:home',
     },
     {
       title: 'Mini Split Ductless',
-      description: 'Mini Split Ductless systems are perfect for homes without ducts, offering targeted climate control for individual rooms.',
+      description: 'These systems provide precise, room-by-room climate control, making them a versatile solution or addition for homes with varying temperature needs.',
       icon: 'tabler:air-conditioning',
     },
     {
@@ -90,11 +90,12 @@ const metadata = {
     },
     {
       title: 'Geothermal Heat Pump',
-      description: 'Geothermal Heat Pumps use stable ground temperatures for efficient heating and cooling, offering significant energy cost reductions.',
+      description: 'Geothermal Heat Pumps use stable ground temperatures for efficient heating and cooling, offering significant energy cost reductions and eco-benefits.',
       icon: 'tabler:world',
     },    
   ]}
 />
+
 
 
 
@@ -109,43 +110,32 @@ const metadata = {
   stats={[
     { title: 'Tax Code', amount: '25C' },
     { title: 'Tax Credit', amount: '30%' },
-    { title: 'Cap', amount: '$2,000' },
+    { title: 'Annual Limit', amount: '$2,000' },
     { title: 'Energy Savings', amount: '40%' },
   ]}
 />
-
 <FAQs
-  title="Frequently Asked Questions on Air-Source Heat Pumps"
+  title="Frequently Asked Questions"
+  columns={1}
   items={[
     {
-      title: 'What is an Air-Source Heat Pump and How Does It Work?',
+      title: 'What is an Air-Source Heat Pump?',
       description:
-        'An air-source heat pump is an all-in-one heating and cooling system that extracts heat from the air inside your home during the summer and transfers it outside. In the winter, it reverses the process, collecting heat from the outside air and transferring it inside.',
+        'An air-source heat pump serves as a comprehensive climate control solution. During the hot summer months, it extracts heat from the interior of your home and expels it outside. Conversely, in the winter, it reverses this process by capturing heat from the external air and transferring it into your home, providing a consistent indoor temperature year-round.',
     },
     {
-      title: 'What Are the Advantages of Using an Air-Source Heat Pump?',
+      title: 'What Makes Air-Source Heat Pumps a Good Choice?',
       description:
-        'They are more energy-efficient than traditional heating systems, reducing your electricity bills. They also have a lower carbon footprint and can both heat and cool your home.',
+        'Air-source heat pumps are known for their energy efficiency, which often translates to reduced electricity bills. They are versatile, capable of both heating and cooling your home. This dual functionality makes them a cost-effective and practical option for maintaining indoor comfort throughout the year.',
     },
     {
-      title: 'What Are the Disadvantages of an Air-Source Heat Pump?',
+      title: 'Any Drawbacks to Using Air-Source Heat Pumps?',
       description:
-        'They may not be ideal for areas with extended periods of subfreezing temperatures. The initial installation cost can be higher but is often offset by long-term energy savings.',
+        'While they have been less effective in extremely cold climates, recent technological advancements are enhancing their performance even in such conditions. For those who live in colder areas and are still concerned, dual-source hybrid systems are available, combining the benefits of heat pumps and traditional furnaces.',
     },
     {
-      title: 'How Do Ductless Mini-Splits Differ from Traditional Air-Source Heat Pumps?',
-      description:
-        'Ductless mini-splits are a type of air-source heat pump that can be installed in individual rooms, offering more precise temperature control without the need for ductwork.',
-    },
-    {
-      title: 'How Do I Maintain My Air-Source Heat Pump?',
-      description:
-        'Regular maintenance includes replacing the air filter as recommended and scheduling yearly inspections. Keeping the exterior unit clean and free from obstructions is also crucial.',
-    },
-    {
-      title: 'Is It Best to Leave My Air-Source Heat Pump On All the Time?',
-      description:
-        'For optimal efficiency, it\'s recommended to maintain a steady temperature rather than frequently adjusting the thermostat.',
+      title: 'How Do Ductless Mini-Splits Compare?',
+      description: 'Ductless mini-splits are a specialized type of air-source heat pump. They can function as standalone units for individual rooms or be integrated into your existing HVAC system for a more comprehensive solution. Whether you are looking to control the climate in a single room or multiple zones, ductless mini-splits offer precise temperature control without the need for extensive ductwork.',
     },
   ]}
 >
