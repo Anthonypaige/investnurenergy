@@ -15,6 +15,10 @@ const {
 } = classes;
 
 let showAccordion = false;
+
+function toggleAccordion() {
+  showAccordion = !showAccordion;
+}
 ---
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
@@ -24,9 +28,17 @@ let showAccordion = false;
     <div class={twMerge(`grid mx-auto gap-8 md:gap-y-12 ${columns === 4 ? 'lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2' : columns === 3 ? 'lg:grid-cols-3 sm:grid-cols-2' : columns === 2 ? 'sm:grid-cols-2' : ''}`, containerClass)}>
       {items.map(({ title, imageSrc, topSellingPoints, avgPrice, shopButton, rating, reviewCount, taxCode }) => (
         <div class={twMerge('relative flex flex-col max-w-md p-4 border rounded shadow-lg bg-gray-800 hover:bg-gray-700 hover:shadow-xl transition duration-300', cardClass)}>
-          {taxCode && <div class="absolute top-0 right-0 bg-red-500 text-white py-1 px-3">{taxCode}</div>}
-          {title && <h3 class={twMerge(titleClass, 'mb-2 text-center')}>{title}</h3>}
-          {imageSrc && <img src={imageSrc} alt={title} class={imageClass} />}
+          {taxCode && (
+            <div class="absolute top-0 right-0 bg-red-500 text-white py-1 px-3 text-xs font-bold">
+              Tax Code: {taxCode}
+            </div>
+          )}
+          {title && (
+            <h3 class={twMerge(titleClass, 'mb-2 text-center')}>{title}</h3>
+          )}
+          {imageSrc && (
+            <img src={imageSrc} alt={title} class={imageClass} />
+          )}
           {topSellingPoints && topSellingPoints.map((point, index, array) => (
             <>
               <p class={twMerge(topSellingPointsClass, 'mb-1')}>• {point}</p>
@@ -55,7 +67,7 @@ let showAccordion = false;
               </div>
             )}
           </div>
-          <button class="text-white mt-2" @click={showAccordion = !showAccordion}>More Info</button>
+          <button class="text-white mt-2 bg-blue-500 py-1 px-3 rounded text-sm" @click={toggleAccordion}>More Info</button>
           {showAccordion && <div class="text-white mt-2"> {/* Add your additional information here */} </div>}
         </div>
       ))}
