@@ -2,7 +2,7 @@
 publishDate: 2023-08-12T00:00:00Z
 title: Solar Loans A Guide to Avoiding Pitfalls and Maximizing Benefits
 excerpt: Solar loans, while promising, may conceal dealer fees, a tactic used by some companies to obscure the system's true cost. With dealer fees as high as 40%, hidden amidst confusing terminology
-image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/SLR-3-cover-art.jpg?raw=true
+image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/SLR-3-cover-art.png?raw=true
 category: Solar Energy
 tags:
   - solar energy

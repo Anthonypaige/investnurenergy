@@ -2,7 +2,7 @@
 publishDate: 2023-09-27T00:00:00Z
 title: Electrical Panel Upgrades A Keystone of the Inflation Reduction Act
 excerpt: Delve into the critical role of electrical panel upgrades under the Inflation Reduction Act. Understand how these upgrades can be a cornerstone in enhancing energy efficiency and safety in homes.
-image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/IIYE-3-cover-art.jpg?raw=true
+image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/IIYE-3-cover-art.png?raw=true
 category: Inflation Reduction Act
 tags:
   - Electrical Panel Upgrade
