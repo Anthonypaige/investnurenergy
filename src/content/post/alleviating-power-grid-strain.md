@@ -5,7 +5,7 @@ excerpt: Just as we've learned to manage and enhance the internet, we must now a
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/HCE-2-cover-art.jpg?raw=true
 category: Inflation Reduction Act
 tags:
-  - Grid Idependence
+  - Grid Independence
   - TOU Rates
   - Home Energy Storage
 ---
