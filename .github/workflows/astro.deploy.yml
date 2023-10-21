@@ -3,7 +3,7 @@ name: Deploy Astro to AWS
 on:
   push:
     branches:
-      - main  # replace with your default branch if not 'main'
+      - main  
 
 jobs:
   deploy:
