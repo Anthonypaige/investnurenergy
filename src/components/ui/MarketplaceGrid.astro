@@ -8,17 +8,11 @@ const { items = [], columns, classes = {} } = Astro.props as { items: Card[], co
 const {
   container: containerClass = '',
   card: cardClass = '',
-  title: titleClass = 'text-2xl font-bold text-white',
+  title: titleClass = 'text-2xl font-bold text-white h-10',
   image: imageClass = 'w-full h-48 object-cover mb-4 rounded',
-  topSellingPoints: topSellingPointsClass = 'text-lg text-white mb-1',
-  avgPrice: avgPriceClass = 'text-xl font-semibold mb-2 text-white',
+  topSellingPoints: topSellingPointsClass = 'text-lg text-white mb-1 truncate w-48',
+  avgPrice: avgPriceClass = 'text-xl font-semibold mb-2 text-green-500',
 } = classes;
-
-let showAccordion = false;
-
-function toggleAccordion() {
-  showAccordion = !showAccordion;
-}
 ---
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
@@ -28,17 +22,21 @@ function toggleAccordion() {
     <div class={twMerge(`grid mx-auto gap-8 md:gap-y-12 ${columns === 4 ? 'lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2' : columns === 3 ? 'lg:grid-cols-3 sm:grid-cols-2' : columns === 2 ? 'sm:grid-cols-2' : ''}`, containerClass)}>
       {items.map(({ title, imageSrc, topSellingPoints, avgPrice, shopButton, rating, reviewCount, taxCode }) => (
         <div class={twMerge('relative flex flex-col max-w-md p-4 border rounded shadow-lg bg-gray-800 hover:bg-gray-700 hover:shadow-xl transition duration-300', cardClass)}>
+          {/* Tax Code Ribbon */}
           {taxCode && (
-            <div class="absolute top-0 right-0 bg-red-500 text-white py-1 px-3 text-xs font-bold">
+            <div class="absolute top-0 left-0 bg-red-500 text-white py-1 px-3 text-xs font-bold transform -rotate-45">
               Tax Code: {taxCode}
             </div>
           )}
+          {/* Product Title */}
           {title && (
             <h3 class={twMerge(titleClass, 'mb-2 text-center')}>{title}</h3>
           )}
+          {/* Product Image */}
           {imageSrc && (
             <img src={imageSrc} alt={title} class={imageClass} />
           )}
+          {/* Top Selling Points */}
           {topSellingPoints && topSellingPoints.map((point, index, array) => (
             <>
               <p class={twMerge(topSellingPointsClass, 'mb-1')}>• {point}</p>
@@ -67,10 +65,9 @@ function toggleAccordion() {
               </div>
             )}
           </div>
-          <button class="text-white mt-2 bg-blue-500 py-1 px-3 rounded text-sm" @click={toggleAccordion}>More Info</button>
-          {showAccordion && <div class="text-white mt-2"> {/* Add your additional information here */} </div>}
         </div>
       ))}
     </div>
   )
 }
+
