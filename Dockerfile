@@ -1,19 +1,12 @@
-# Use Amazon Linux 2 as the base image
-FROM amazonlinux:2
-
-# Install curl and other dependencies
-RUN yum update -y && yum install -y curl gcc-c++ make
-
-# Install Node.js v18
-RUN curl -fsSL https://rpm.nodesource.com/setup_18.x | bash -
-RUN yum install -y nodejs
+# Use Node.js v18 as the base image
+FROM node:18
 
 # Set environment variables
 ENV NODE_ENV=production
 ENV SHARP_IGNORE_GLOBAL_LIBVIPS=true
 
-# Install necessary build tools
-RUN yum groupinstall -y "Development Tools"
+# Install necessary build tools (if needed)
+RUN apt-get update && apt-get install -y build-essential
 
 # Set the working directory
 WORKDIR /app
