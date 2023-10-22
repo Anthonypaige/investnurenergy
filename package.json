@@ -20,9 +20,11 @@
     "@fontsource-variable/inter": "^5.0.8",
     "astro": "^3.1.2",
     "astro-icon": "^1.0.0-next.2",
+    "bootstrap-icons": "^1.11.1",
     "jquery": "^3.7.1",
     "limax": "4.1.0",
     "lodash.merge": "^4.6.2",
+    "preline": "^1.9.0",
     "styled-components": "^6.0.8",
     "unpic": "^3.10.0"
   },
@@ -51,6 +53,6 @@
     "typescript": "^5.2.2"
   },
   "engines": {
-    "node": ">=18.14.1"
+    "node": "20.6.1"
   }
 }

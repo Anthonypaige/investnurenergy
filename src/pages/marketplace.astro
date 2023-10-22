@@ -1,0 +1,130 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import MarketplaceGrid from '~/components/ui/MarketplaceGrid.astro';
+import Hero from '~/components/widgets/Hero.astro';
+
+const items = [
+  {
+    title: 'Eco Flow Delta Pro',
+    imageSrc: 'https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/HES-4-cover-art.png?raw=true',
+    topSellingPoints: ['3.6 kwh AC continuous output', 'easy integration with solar and wind', 'modular design allows for scaling'],
+    rating: 4.5,
+    reviewCount: 120,
+    avgPrice: '$3000',
+    shopButton: {
+      text: 'Shop Here',
+      href: 'https://www.amazon.com/your-affiliate-link-1',
+    }
+  },
+  {
+    title: 'Ecobee Smart Thermostat Premium',
+    imageSrc: 'https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/THRM-2-cover-art.png?raw=true',
+    topSellingPoints: ['one of the 2 smartest thermostats','comes with a smart sensor usually $40', 'Built in air safety and fire alarm' ],
+    rating: 4.5,
+    reviewCount: 120,
+    avgPrice: '$225',
+    shopButton: {
+      text: 'Shop Here',
+      href: 'https://www.amazon.com/your-affiliate-link-2',
+    }
+  },
+  {
+    title: 'Google Nest Learning Thermostat',
+    imageSrc: 'https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/google-nest%20learning.png?raw=true',
+    topSellingPoints: ['one of the 2 smartest thermostats','easy smart home integration', 'advance machine learning capabilties'],
+    rating: 4.5,
+    reviewCount: 120,
+    avgPrice: '$225',
+    shopButton: {
+      text: 'Shop Here',
+      href: 'https://www.amazon.com/your-affiliate-link-3',
+    }
+  },
+
+  {
+    title: 'Emporia EV Charger',
+    imageSrc: 'https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/emporia-evse.png?raw=true',
+    topSellingPoints: ['Wifi enabled for smart control', 'easy integration with solar', 'Best Bang for Buck charger'],
+    rating: 4.8,
+    reviewCount: 120,
+    avgPrice: '$400',
+    shopButton: {
+      text: 'Shop Here',
+      href: 'https://www.amazon.com/your-affiliate-link-4',
+    }
+  },
+  {
+    title: 'Wall Box EV Charger',
+    imageSrc: 'https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/wallbox-evse.jpg?raw=true',
+    topSellingPoints: ['Wifi enabled for smart control', 'easy integration with solar', 'one of the most advanced chargers'],
+    rating: 4.5,
+    reviewCount: 120,
+    avgPrice: ' $600',
+    shopButton: {
+      text: 'Shop Here',
+      href: 'https://www.amazon.com/your-affiliate-link-5',
+    }
+  },
+  {
+    title: 'Eco Flow Delta Pro X 2',
+    imageSrc: 'https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/Delta-pro-double-%20up.png?raw=true',
+    topSellingPoints: ['Fake Point 1', 'Fake Point 2', 'Fake Point 3'],
+    rating: 4.5,
+    reviewCount: 120,
+    avgPrice: '$3500',
+    shopButton: {
+      text: 'Shop Here',
+      href: 'https://www.amazon.com/your-affiliate-link-6',
+    }
+  },
+  {
+    title: 'Eco Flow Delta Pro 7',
+    imageSrc: 'https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/Delta-Pro-kit.png?raw=true',
+    topSellingPoints: ['Fake Point 1', 'Fake Point 2', 'Fake Point 3'],
+    rating: 4.5,
+    reviewCount: 120,
+    avgPrice: '$3000',
+    shopButton: {
+      text: 'Shop Here',
+      href: 'https://www.amazon.com/your-affiliate-link-7',
+    }
+  },
+  {
+    title: 'Google Nest Thermostat',
+    imageSrc: 'https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/Google-nest-base.png?raw=true',
+    topSellingPoints: ['Fake Point 1', 'Fake Point 2', 'Fake Point 3'],
+    rating: 4.5,
+    reviewCount: 120,
+    avgPrice: '$125',
+    shopButton: {
+      text: 'Shop Here',
+      href: 'https://www.amazon.com/your-affiliate-link-8',
+    }
+  },
+  {
+    title: 'Eco Flow Delta Pro 9',
+    imageSrc: 'https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/bluetti-ac-500.png?raw=true',
+    topSellingPoints: ['Fake Point 1', 'Fake Point 2', 'Fake Point 3'],
+    rating: 4.5,
+    reviewCount: 120,
+    avgPrice: '$5,000',
+    shopButton: {
+      text: 'Shop Here',
+      href: 'https://www.amazon.com/your-affiliate-link-9',
+    }
+  }
+];
+
+const columns = 3;
+---
+
+
+<Layout>
+  <!-- HeroText Widget ******************* -->
+  <Hero
+  title="Some of our favorite items from Affiliates "
+  />
+
+
+  <MarketplaceGrid items={items} columns={columns} />
+</Layout>

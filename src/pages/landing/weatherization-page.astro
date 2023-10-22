@@ -14,12 +14,13 @@ const metadata = {
   <!-- Hero  Widget ******************* -->
   <Hero
     title=" Weatherization"
-    subtitle="Weatherization is more than just insulation; it's a comprehensive approach to making your home energy-efficient. The Inflation Reduction Act offers new avenues for cost-effective upgrades."
+    subtitle="Weatherization is a comprehensive approach to making your home energy-efficient. The Inflation Reduction Act offers new avenues for cost-effective upgrades."
   />
 
   <!-- Content Widget **************** -->
 
   <Content
+  class="flex flex-col-reverse md:flex-row"
     isReversed
     items={[
       {
@@ -54,6 +55,15 @@ const metadata = {
   </Content>
  
   <!-- Content Widget **************** -->
+  <Stats
+  title="Weatherization"
+  stats={[
+    { title: 'Tax Code', amount: '25C' },
+    { title: 'Tax Credit', amount: '30%' },
+    { title: 'Annual Limit', amount: '$1,200' },
+    { title: 'Energy Savings', amount: '20%' },
+  ]}
+/>
 
  <!--Featured Articles Widget -->
 
@@ -67,14 +77,5 @@ const metadata = {
  ]}  
 />
 
-<Stats
-  title="Weatherization"
-  stats={[
-    { title: 'Tax Code', amount: '25C' },
-    { title: 'Tax Credit', amount: '30%' },
-    { title: 'Cap', amount: '$1,200' },
-    { title: 'Energy Savings', amount: '20%' },
-  ]}
-/>
 
 </Layout>

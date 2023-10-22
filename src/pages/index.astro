@@ -3,8 +3,7 @@ import Layout from '~/layouts/PageLayout.astro';
 import FeaturedArticles from '~/components/widgets/FeaturedArticles.astro';
 import Hero from '~/components/widgets/Hero.astro';
 import Stats from '~/components/widgets/Stats.astro';
-import Features3 from '~/components/widgets/Features3.astro';
-//import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
+import FeaturesLink from '~/components/widgets/FeaturesLink.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
 
 
@@ -13,6 +12,7 @@ const metadata = {
   ignoreTitleTemplate: true,
 };
 ---
+
 <Layout metadata={metadata}>
   <Fragment slot="head">
   <script src="https://embed.rewiringamerica.org/calculator.js"></script>
@@ -22,36 +22,36 @@ const metadata = {
   <Hero actions={[]}>
     <Fragment slot="title">
       <div style="font-size: 1em; font-weight: bold; margin-bottom: 8px;">Welcome to <span style="color:#228B22; font-weight: 700;">Invest</span> in your <span style="color:#228B22; font-weight: 700;">Energy</span></div>
-      <!-- <div style="font-size: 0.8em; font-weight: bold; margin-bottom: 4px;">We are here to help you Unpack the</div>
-      <div style="font-size: 0.8em; font-weight: bold;">Inflation Reduction Act</div> -->
-    </Fragment>
+      </Fragment>
   
     <Fragment slot="subtitle">
-      Navigating the Inflation Reduction Act can be complex, but you don't have to do it alone. We're committed to helping you understand and take full advantage of the Act's energy-efficient incentives.
+      Navigating the Inflation Reduction Act can be complex, but you don't have to do it alone. We're here to help you unpack the Act's clean energy and energy-efficient incentives.
     </Fragment>
   </Hero>
   
   
-  <Features3
+  <FeaturesLink
   title="Navigate Key Tax Benefits and Incentives"
-  subtitle="These pages will serve as guides—they'll be your up-to-date resource for navigating tax codes as new changes unfold."
+  subtitle="These dedicated pages will serve as guides for their respective sub-acts."
   columns={3}
-  defaultIcon="tabler:point-filled"
   items={[
     {
       title: 'Home Clean Energy Credit',
-      description: 'Your guide to the Residential Clean Energy Tax Credit (25D). Stay updated on how to maximize tax benefits from clean energy installations.',
-      link: 'https://investinyourenergy.com/home-clean-energy-credit',
+      description: 'Leverage tax advantages with the Residential Clean Energy Tax Credit (25D). Learn how to optimize your clean energy investments.',
+      icon: 'tabler:sun-wind',
+      link: 'https://investinyourenergy.com/cleanenergy/home-clean-energy-credit'
     },
     {
       title: 'Energy-Efficient Home Upgrades',
-      description: 'Your live handbook for the Energy Efficient Home Improvement Tax Credit. Keep tabs on what qualifies for tax credits as new updates roll in.',
-      link: 'https://investinyourenergy.com/energy-efficient-home-upgrades',
+      description: 'Your go-to resource for the Energy Efficient Home Improvement Tax Credit (25C). Make informed decisions on home upgrades.',
+      icon: 'tabler:home-eco',
+      link: 'https://investinyourenergy.com/landing/energy-efficient-home-upgrades'
     },
     {
       title: 'Energy-Efficient Rebates',
-      description: 'Your real-time source for HEEHRA and state-level rebates. Learn how to save more with the latest rebate offerings.',
-      link: 'https://investinyourenergy.com/energy-efficient-rebates',
+      description: 'Your Guide to State-Level and HEEHRA Rebate Programs for Energy Efficiency Home Improvements',
+      icon: 'tabler:arrows-diff',
+      link: 'https://investinyourenergy.com/energyefficientrebates/energy-efficient-rebates'
     },
   ]}
 />
@@ -59,60 +59,74 @@ const metadata = {
 
   
  
-
-<Features3
+<FeaturesLink
   title="Explore Our Themed Pages of Products and Services Covered in the Inflation Reduction Act"
   subtitle="The Inflation Reduction Act offers a wide range of opportunities for homeowners to make their homes more energy-efficient and sustainable. Our themed pages dive deep into the various products and services that are covered under this act, providing you with all the information you need to make informed decisions."
   columns={3}
-  defaultIcon="tabler:point-filled"
   items={[
     {
-      title: "Heat Pumps",
-      description: "Discover the cost-effectiveness and efficiency of heat pumps for home heating and cooling.",
-      link: "#",
+      title: 'Heat Pumps',
+      description: 'Uncover the efficiency and cost benefits of heat pumps for home climate control.',
+      icon: 'tabler:air-conditioning',
+      link: 'https://investinyourenergy.com/landing/heat-pump-page'
     },
     {
-      title: "Weatherization",
-      description: "Learn how weatherization can lower energy bills and enhance home comfort.",
-      link: "#",
+      title: 'Weatherization',
+      description: 'Get insights on how weatherization can reduce your energy bills and improve home comfort.',
+      icon: 'tabler:home-heart',
+      link: 'https://investinyourenergy.com/landing/weatherization-page'
     },
     {
-      title: "Solar Basics",
-      description: "Understand the fundamentals of solar energy and its sustainability benefits.",
-      link: "cleanenergy/solar-basics-page",
+      title: 'Solar Basics',
+      description: 'Delve into the essentials of solar energy and its role in sustainable living.',
+      icon: 'tabler:solar-panel',
+      link: 'https://investinyourenergy.com/cleanenergy/solar-basics-page'
     },
     {
-      title: "Home Energy Storage",
-      description: "Find out how battery storage maximizes solar or wind energy benefits.",
-      link: "#",
+      title: 'Home Energy Storage',
+      description: 'Learn how battery storage can amplify the benefits of your solar or wind energy systems.',
+      icon: 'tabler:battery-charging',
+      link: 'https://investinyourenergy.com/cleanenergy/home-energy-storage'
     },
     {
-      title: "Wind Energy",
-      description: "Explore wind energys potential as a renewable source for residential use.",
-      link: "#",
+      title: 'Wind Energy',
+      description: 'Explore the untapped potential of wind energy for residential applications.',
+      icon: 'tabler:wind',
+      link: 'https://investinyourenergy.com/cleanenergy/wind-energy-page'
     },
     {
-      title: "Geothermal Energy",
-      description: "Learn about geothermal energy as a consistent heating and cooling solution.",
-      link: "#",
+      title: 'Geothermal Energy',
+      description: 'Understand the reliability of geothermal energy for home heating and cooling.',
+      icon: 'tabler:world',
+      link: 'https://investinyourenergy.com/cleanenergy/geothermal-page'
     },
     {
-      title: "Water Heating",
-      description: "Investigate efficient and eco-friendly water heating options.",
-      link: "#",
+      title: 'Water Heating',
+      description: 'Discover sustainable and efficient solutions for water heating needs.',
+      icon: 'tabler:droplet-half-2-filled',
+      link: 'https://investinyourenergy.com/landing/water-heaters-page'
     },
     {
-      title: "Smart Energy Devices",
-      description: "See how smart devices and HEMS offer control over energy use.",
-      link: "#",
+      title: 'Smart Energy Devices',
+      description: 'Home energy monitoring and control with smart thermostats and HEMS.',
+      icon: 'tabler:smart-home',
+      link: 'https://investinyourenergy.com/energyefficientrebates/smart-energy-devices'
     },
     {
-      title: "Solar Tax Incentive",
-      description: "Grasp the financial benefits of solar energy incentives.",
-      link: "#",
+      title: 'Solar Tax Incentive',
+      description: 'Navigate the financial landscape of solar energy tax incentives.',
+      icon: 'tabler:solar-panel-2',
+      link: 'https://investinyourenergy.com/cleanenergy/solar-tax-incentive'
     },
   ]}
-/>
+>
+  <Fragment slot="bg">
+    <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+  </Fragment>
+</FeaturesLink>
+
+
+<!-- IRA Eligibility Widget ******************* -->
 
 <Fragment>
   <div id="calculator-section">
@@ -176,47 +190,47 @@ const metadata = {
 <!-- FAQs Widget ******************* -->
 
 <FAQs
-  title="Frequently Asked Questions"
-  subtitle="Explore these FAQs to unlock valuable insights into the Inflation Reduction Act and its impact on your energy-efficient lifestyle."
+  title="Frequently Asked Questions."
   classes={{ container: 'max-w-6xl' }}
+  columns={1}
   items={[
     {
       title: 'What Benefits Does the Inflation Reduction Act of 2022 Offer?',
       description:
-        "The Inflation Reduction Act is a landmark legislation that aims to tackle various economic and environmental challenges. One of its key provisions is the focus on energy efficiency and clean energy production. The act allocates significant funds for energy security and climate change programs. If you are looking to make your home more energy-efficient or invest in clean energy, this act provides various tax credits and incentives to help you do so.",
+    "The Inflation Reduction Act is a landmark legislation that aims to tackle various economic and environmental challenges. One of its key provisions is the focus on energy efficiency and clean energy production. The act allocates significant funds for energy security and climate change programs. If you are looking to make your home more energy-efficient or invest in clean energy, this act provides various tax credits and incentives to help you do so.",
     },
     {
-      title: 'What Clean Energy Options are Included in the Residential Clean Energy Property Credit? (25D)',
-      description:
-        "The 25D tax credit encompasses a range of clean energy solutions, including solar panels, solar water heaters, geothermal heat pumps, small wind turbines, and fuel cells. These systems must be installed in your primary residence or a second home, but rental properties are excluded. The credit generously covers 30% of the total installation costs, without any upper limit.",
-    },
-    {
-      title: 'How Do Electric Vehicles (EVs) Fit Into the Energy Efficiency Equation?',
-      description:
-        "Electric vehicles are a cornerstone of a sustainable future. The 30D tax credit offers a substantial incentive for purchasing a new EV, covering up to $7,500 of the cost. Additionally, the 30C credit provides a 30% rebate for the installation of an EV charging station at your residence, further promoting the adoption of clean transportation.",
-    },
-    {
-      title: 'Can I Benefit from Energy Efficiency Home Improvement Credits?',
-      description:
-        "Absolutely! The Energy Efficiency Home Improvement Credit, also known as 25C, offers tax credits for specific energy-saving improvements made to your primary residence. This includes insulation, energy-efficient windows and doors, and certain HVAC systems. Unlike 25D, this credit does not roll over, so it is crucial to claim it in the tax year the improvements are made.",
-    },
-    {
-      title: 'What is the Difference Between Tax Credits and Rebates?',
-      description:
-        "Tax credits, such as those under 25C, 25D, and 30C, directly reduce your tax liability, offering substantial savings when you file your taxes. On the other hand, HEEHRA and 30D offer instant rebates, providing immediate financial relief at the point of purchase or installation.",
-    },
-    {
-      title: 'Can Federal Tax Credits Be Carried Forward to the Next Tax Year?',
-      description:
-        "Tax credits under the 25D provision offer flexibility with a rollover option, allowing you to carry forward any unused credits to future tax years. However, the Energy Efficient Home Improvement Credit (25C) is a one-time opportunity; unused credits cannot be rolled over to the next tax year.",
-    }
+  title: 'What Clean Energy Options are Included in the Residential Clean Energy Property Credit? (25D)',
+  description:
+    "The 25D tax credit covers solar panels, solar water heaters, geothermal heat pumps, small wind turbines, and fuel cells. Must be installed in your primary or second home. Covers 30% of installation costs, no upper limit.",
+},
+{
+  title: 'How Do Electric Vehicles (EVs) Fit Into the Energy Efficiency Equation?',
+  description:
+    "The 30D tax credit offers up to $7,500 for a new EV, and up to $4,000 for a qualified used EV. The 30C credit provides a 30% rebate for home EV charging station installation.",
+},
+{
+  title: 'How do I Benefit from The Energy Efficiency Home Improvement Credits?',
+  description:
+    "The 25C credit offers tax benefits for energy-saving home improvements like heat pumps, heat pump water heaters, insulation, energy-efficient windows, and exterior doors",
+},
+{
+  title: 'What is the Difference Between Tax Credits and Rebates?',
+  description:
+    "Tax credits like 25C, 25D, and 30C reduce your tax liability. HEEHRA and 30D offer instant rebates at the time of purchase or installation.",
+},
+{
+  title: 'Can Federal Tax Credits Be Carried Forward to the Next Tax Year?',
+  description:
+    "Tax credits under 25D can be carried forward to future tax years. The 25C credit is available annually but must be claimed in the same tax year the improvements are made; it cannot be rolled over."
+}
   ]}
   
 />
  <!-- Stats Widget ******************* -->
 
  <Stats
- title=" Federal Sub-acts and their tax codes in the Inflation Reduction Act"
+ title=" Federal Sub-acts and their tax codes"
  stats={[
    { title: 'Home Clean Energy', amount: '25D' },
    { title: 'Home EV Charger', amount: '30C' },

@@ -2,7 +2,7 @@
 import styled from 'styled-components';
 import type { Card as CardType } from '~/types';
 import WidgetWrapper from '~/components/ui/WidgetWrapper.astro';
-import LandingLayout from '~/layouts/LandingLayout.astro';
+
 
 const CardContainer = styled.div`
   border: 1px solid #ccc;
@@ -17,8 +17,7 @@ const {
   title = '',
   imageSrc = '',
   topSellingPoints = [],
-  priceRange = '',
-  coveredBy = '',
+  avgPrice = '',
   taxCode = '',
   creditAmount = '',
   verifiedEnergySavings = '',
@@ -27,7 +26,6 @@ const {
 ---
 
 <WidgetWrapper>
-  <LandingLayout>
     <CardContainer>
       {imageSrc && <img src={imageSrc} alt={title} style={{width: '100%', height: 'auto', marginBottom: '16px'}} />}
       <h2 style={{fontSize: '24px', marginBottom: '8px'}}>{title}</h2>
@@ -35,8 +33,7 @@ const {
         <p style={{fontSize: '16px', marginBottom: '8px'}}>• {point}</p>
       ))}
       
-      <p style={{fontSize: '16px', marginBottom: '8px'}}>Price Range: {priceRange}</p>
-      <p style={{fontSize: '16px', marginBottom: '8px'}}>Covered By: {coveredBy}</p>
+      <p style={{fontSize: '16px', marginBottom: '8px'}}>Avg Price: {avgPrice}</p>
       <p style={{fontSize: '16px', marginBottom: '8px'}}>Tax Code: {taxCode}</p>
       <p style={{fontSize: '16px', marginBottom: '8px'}}>Credit Amount: {creditAmount}</p>
       <p style={{fontSize: '16px', marginBottom: '8px'}}>Verified Energy Savings: {verifiedEnergySavings}</p>
@@ -46,5 +43,4 @@ const {
         </a>
       )}
     </CardContainer>
-  </LandingLayout>
 </WidgetWrapper>
