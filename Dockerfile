@@ -4,11 +4,9 @@ FROM amazonlinux:2
 # Install curl and other dependencies
 RUN yum update -y && yum install -y curl gcc-c++ make
 
-# Install NVM
-RUN curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash
-
 # Install Node.js v18
-RUN /bin/bash -c "source ~/.nvm/nvm.sh && nvm install 18 && nvm alias default 18 && nvm use default"
+RUN curl -fsSL https://rpm.nodesource.com/setup_18.x | bash -
+RUN yum install -y nodejs
 
 # Set environment variables
 ENV NODE_ENV=production
