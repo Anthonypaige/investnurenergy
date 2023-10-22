@@ -4,8 +4,7 @@ FROM node:18.18.2
 # Set environment variables (if any)
 ENV NODE_ENV=production
 
-# Install any global dependencies
-RUN npm install -g yarn
+
 
 # Set the working directory
 WORKDIR /app
