@@ -13,8 +13,8 @@ WORKDIR /app
 # Copy package.json and package-lock.json
 COPY package*.json ./
 
-# Install sharp separately
-RUN npm install --ignore-scripts=false --verbose sharp
+# Install sharp globally
+RUN npm install --global sharp
 
 # Install project dependencies
 RUN npm install
