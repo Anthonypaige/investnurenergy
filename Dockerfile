@@ -1,5 +1,10 @@
-# Use an official Node.js runtime as the base image
-FROM node:18.18.2
+# Use a base image that includes the required GLIBC version
+FROM ubuntu:latest
+
+# Install Node.js and npm
+RUN apt-get update && apt-get install -y curl
+RUN curl -sL https://deb.nodesource.com/setup_18.x | bash -
+RUN apt-get install -y nodejs
 
 # Set environment variables (if any)
 ENV NODE_ENV=production
@@ -12,9 +17,6 @@ WORKDIR /app
 
 # Copy package.json and package-lock.json
 COPY package*.json ./
-
-# Install sharp globally
-RUN npm install --global sharp
 
 # Install project dependencies
 RUN npm install
