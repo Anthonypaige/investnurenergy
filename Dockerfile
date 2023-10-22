@@ -1,16 +1,18 @@
 # Use Amazon Linux 2 as the base image
 FROM amazonlinux:2
 
-# Install curl
-RUN yum update -y && yum install -y curl
+# Install curl and other dependencies
+RUN yum update -y && yum install -y curl gcc-c++ make
+
+# Install NVM
+RUN curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash
+
+# Install Node.js v18
+RUN /bin/bash -c "source ~/.nvm/nvm.sh && nvm install 18 && nvm alias default 18 && nvm use default"
 
 # Set environment variables
 ENV NODE_ENV=production
 ENV SHARP_IGNORE_GLOBAL_LIBVIPS=true
-
-# Install Node.js and npm
-RUN curl -sL https://rpm.nodesource.com/pub_21.x/nodistro/repo/nodesource-release-nodistro-1.noarch.rpm | rpm -i -
-RUN yum install -y nodejs --setopt=nodesource-nodejs.module_hotfixes=1
 
 # Install necessary build tools
 RUN yum groupinstall -y "Development Tools"
