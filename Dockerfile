@@ -1,16 +1,19 @@
-# Use a base image that includes the required GLIBC version
-FROM ubuntu:latest
+# Use Amazon Linux 2 as the base image
+FROM amazonlinux:2
+
+# Install curl
+RUN yum update -y && yum install -y curl
+
+# Set environment variables
+ENV NODE_ENV=production
+ENV SHARP_IGNORE_GLOBAL_LIBVIPS=true
 
 # Install Node.js and npm
-RUN apt-get update && apt-get install -y curl
-RUN curl -sL https://deb.nodesource.com/setup_18.x | bash -
-RUN apt-get install -y nodejs
-
-# Set environment variables (if any)
-ENV NODE_ENV=production
+RUN curl -sL https://rpm.nodesource.com/setup_18.x | bash -
+RUN yum install -y nodejs
 
 # Install necessary build tools
-RUN apt-get update && apt-get install -y build-essential libcairo2-dev libpango1.0-dev libjpeg-dev libgif-dev librsvg2-dev
+RUN yum groupinstall -y "Development Tools"
 
 # Set the working directory
 WORKDIR /app
@@ -18,15 +21,14 @@ WORKDIR /app
 # Copy package.json and package-lock.json
 COPY package*.json ./
 
+# Install sharp with verbose logging
+RUN npm install --ignore-scripts=false --foreground-scripts --verbose sharp
+
 # Install project dependencies
 RUN npm install
-
-# Install sharp for Linux x64
-RUN npm install --platform=linux --arch=x64 sharp
 
 # Copy the current directory contents into the container
 COPY . .
 
 # Run your build commands
 RUN npm run build
-
