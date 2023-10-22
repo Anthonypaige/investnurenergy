@@ -21,8 +21,12 @@ COPY package*.json ./
 # Install project dependencies
 RUN npm install
 
+# Install sharp with verbose logging
+RUN npm install --ignore-scripts=false --foreground-scripts --verbose sharp
+
 # Copy the current directory contents into the container
 COPY . .
 
 # Run your build commands
 RUN npm run build
+
