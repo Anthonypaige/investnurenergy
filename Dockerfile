@@ -13,6 +13,11 @@ WORKDIR /app
 # Copy package.json and package-lock.json
 COPY package*.json ./
 
+# Install sharp with verbose logging (choose one)
+RUN npm install --ignore-scripts=false --verbose sharp
+# OR install sharp for a specific platform and architecture
+# RUN npm install --platform=linux --arch=x64 sharp
+
 # Install project dependencies
 RUN npm install
 
@@ -21,4 +26,5 @@ COPY . .
 
 # Run your build commands
 RUN npm run build
+
 
