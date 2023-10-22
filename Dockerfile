@@ -17,8 +17,14 @@ COPY package*.json ./
 # Install sharp with verbose logging
 RUN npm install --ignore-scripts=false --foreground-scripts --verbose sharp
 
+# Install sharp for linux-x64
+RUN npm install --platform=linux --arch=x64 sharp
+
 # Install project dependencies
 RUN npm install
+
+# Rebuild native modules
+RUN npm rebuild
 
 # Copy the current directory contents into the container
 COPY . .
