@@ -1,13 +1,1 @@
-export type AmplifyDependentResourcesAttributes = {
-  "auth": {
-    "investinyourenergyf8749959": {
-      "AppClientID": "string",
-      "AppClientIDWeb": "string",
-      "IdentityPoolId": "string",
-      "IdentityPoolName": "string",
-      "UserPoolArn": "string",
-      "UserPoolId": "string",
-      "UserPoolName": "string"
-    }
-  }
-}
+export type AmplifyDependentResourcesAttributes = {}
