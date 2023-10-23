@@ -6,7 +6,6 @@ RUN mkdir -p /app
 
 # Set environment variables
 ENV NODE_ENV=production
-ENV BACKEND_ENV=dev
 ENV SHARP_IGNORE_GLOBAL_LIBVIPS=true
 
 # Set the working directory
