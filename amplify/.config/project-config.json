@@ -1,7 +1,5 @@
 {
-  "providers": [
-    "awscloudformation"
-  ],
+  "providers": ["awscloudformation"],
   "projectName": "iiyewebsiteapp",
   "version": "3.1",
   "frontend": "javascript",
