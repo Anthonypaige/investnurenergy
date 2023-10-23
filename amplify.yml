@@ -3,8 +3,8 @@ frontend:
   phases:
     preBuild:
       commands:
-        - nvm install 18.18.2
-        - nvm use 18.18.2
+        - nvm install 18-alpine  # Update this to the Node.js version you're using
+        - nvm use 18-alpine      # Update this to the Node.js version you're using
         - npm install
     build:
       commands:
