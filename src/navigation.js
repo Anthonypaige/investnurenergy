@@ -71,7 +71,7 @@ export const headerData = {
         {
           text: 'Affiliate Marketplace',
           href: getPermalink('resources/affiliate-marketplace'),
-        }, 
+        },
         {
           text: 'Top Smart Thermostats',
           href: getPermalink('resources/smart-thermostat-comparison-table'),
@@ -82,13 +82,12 @@ export const headerData = {
         },
         {
           text: 'Portable Power Stations',
-          href: getPermalink('resources/smart-thermostat-comparison-table'),
-        },     
+          href: getPermalink('resources/portable-power-stations-comparison-table'),
+        },
       ],
     },
   ],
 };
-
 
 export const footerData = {
   links: [
@@ -138,4 +137,3 @@ export const footerData = {
     Made by <a class="text-blue-600 hover:underline dark:text-gray-200" href="https://onwidget.com/"> onWidget</a> · All rights reserved.
   `,
 };
-

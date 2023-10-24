@@ -15,6 +15,13 @@ import Hero from '~/components/widgets/Hero.astro';
         /* General Styles */
         .dataTables_wrapper {
             color: #FFF;  /* White text for better visibility on dark background */
+            width: 100%;  /* Ensures full-width */
+        }
+    
+        /* Fixes for DataTables layout */
+        .dataTables_filter {
+            float: none;
+            text-align: left;
         }
     
         /* Table Styles */
@@ -31,17 +38,21 @@ import Hero from '~/components/widgets/Hero.astro';
             background-color: #333;  /* Default dark background for rows */
         } 
         #comparisonTable th {
-            background-color: #444;  /* Slightly different dark color for header */
+            background-color: #4CAF50;  /* Green background for header */
             color: white;
             padding-top: 12px;
             padding-bottom: 12px;
             text-align: left;
+            position: sticky;  
+            top: 0; 
+            z-index: 100; 
         }
         /* Hover effect for rows */
         #comparisonTable tr:hover {
             background-color: #555;  /* Darker on hover */
         }
     </style>
+    
     
 <table id='comparisonTable'>
 <thead>
