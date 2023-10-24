@@ -1,5 +1,5 @@
 ---
-import Layout from '~/layouts/PageLayout.astro';
+import Layout from '~/layouts/Layout.astro';
 import Hero from '~/components/widgets/Hero.astro';
 ---
 
@@ -42,6 +42,7 @@ import Hero from '~/components/widgets/Hero.astro';
             background-color: #555;  /* Darker on hover */
         }
     </style>
+    
     
 <table id='comparisonTable'>
 <thead>
@@ -136,26 +137,26 @@ import Hero from '~/components/widgets/Hero.astro';
 <td>7.2 KW</td>
 <td>2.7 hours</td>
 </tr>  
-    <td><a href='https://amzn.to/3EI78La' target='_blank' rel='noopener noreferrer'><img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/lycan-5000.png?raw=true' alt='Lectron' style='width:50px; height:auto;' /> Shop Now</a></td>
-    <td>Renogy Lycan 5000 </td>
+<td><a href='https://amzn.to/3EI78La' target='_blank' rel='noopener noreferrer'><img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/lycan-5000.png?raw=true' alt='Lectron' style='width:50px; height:auto;' /> Shop Now</a></td>
+<td>Renogy Lycan 5000 </td>
 <td>$5,000</td>
 <td>LiFePO4</td>
 <td>3,500 to 80% </td>
 <td>4.8 kwh</td>
 <td>3.5 KW</td>
 <td>7 KW</td>
-<td> Dunno </td>
+<td>Dunno</td>
 </tr>  
 <tr>
-    <td><a href='https://amzn.to/3ri8cSY' target='_blank' rel='noopener noreferrer'><img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/jackery-4000.png?raw=true' alt='Jackerty 4000' style='width:50px; height:auto;' /> Shop Now</a></td>
-    <td>Jackery 4000, Explorer 2000+E2000 </td>
-    <td>$5,000</td>
-    <td>LiFePO4</td>
-    <td>4,000 to 70% </td>
-    <td>4.085 kwh</td>
-    <td>3KW</td>
-    <td>6 KW</td>
-    <td>2.3 hours</td>
+<td><a href='https://amzn.to/3ri8cSY' target='_blank' rel='noopener noreferrer'><img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/jackery-4000.png?raw=true' alt='Jackerty 4000' style='width:50px; height:auto;' /> Shop Now</a></td>
+<td>Jackery 4000, Explorer 2000+E2000 </td>
+<td>$5,000</td>
+<td>LiFePO4</td>
+<td>4,000 to 70% </td>
+<td>4.085 kwh</td>
+<td>3KW</td>
+<td>6 KW</td>
+<td>2.3 hours</td>
 </tr>
 <tr>
     <td><a href='https://amzn.to/3ri8cSY' target='_blank' rel='noopener noreferrer'><img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/jackery-3000.png?raw=true' alt='Jackery 3000' style='width:50px; height:auto;' /> Shop Now</a></td>
@@ -168,9 +169,6 @@ import Hero from '~/components/widgets/Hero.astro';
     <td>6 KW</td>
     <td>2.3 hours</td>
 </tr>
-
-
-
 </tbody>
 </table>
 
@@ -180,7 +178,7 @@ import Hero from '~/components/widgets/Hero.astro';
   });
 </script>
 </section>
-</Layout>
+<Layout>
 
 
             
