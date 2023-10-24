@@ -188,9 +188,11 @@ import Layout from '~/layouts/PageLayout.astro';
 </tbody>
 </table>
 <script>
-$(document).ready( function () {
+document.addEventListener("DOMContentLoaded", function() {
+    // Your code here
     $('#comparisonTable').DataTable();
-} );
+});
+
 </script>
 </body>
 </html>
