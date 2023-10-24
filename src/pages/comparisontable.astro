@@ -1,44 +1,48 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
-import * as $ from 'jquery';
-import 'datatables.net';
-
+import Hero from '~/components/widgets/Hero.astro';
 ---
 
 <Layout>
+  <!-- Hero Widget ******************* -->
+  <Hero title="EV Charger Comparison Table" />
+
   <section class="container mx-auto p-6">
-    <h1 class="text-2xl font-bold mb-4">EV Charger Comparison</h1>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+
+    <style>
+        /* General Styles */
+        .dataTables_wrapper {
+            color: #FFF;  /* White text for better visibility on dark background */
+        }
     
-    <link rel='stylesheet' href='https://cdn.datatables.net/1.10.25/css/jquery.dataTables.css'>
-<script src='https://code.jquery.com/jquery-3.5.1.js'></script>
-<script src='https://cdn.datatables.net/1.10.25/js/jquery.dataTables.js'></script>
-<style>
-    #comparisonTable {
-        font-family: Arial, sans-serif;
-        width: 100%;
-        border-collapse: collapse;
-        text-align: center;
-    }
-    #comparisonTable td, #comparisonTable th {
-        padding: 10px;
-        border: 1px solid #dddddd;
-    }
-    #comparisonTable th {
-        background-color: #4CAF50;
-        color: white; /* Added this to make the text white */
-        padding-top: 12px;
-        padding-bottom: 12px;
-        text-align: left;
-    }
-    #comparisonTable tr:nth-child(even) {
-        background-color: #f9f9f9;
-    }
-    #comparisonTable tr:hover {
-        background-color: #f1f1f1; /* Changed this to a lighter color for a hover effect */
-    }
+        /* Table Styles */
+        #comparisonTable {
+            font-family: Arial, sans-serif;
+            width: 100%;
+            border-collapse: collapse;
+            text-align: center;
+        }
+        #comparisonTable td, #comparisonTable th {
+            padding: 10px;
+            border: 1px solid #dddddd;
+            color: #FFF;  /* White text */
+            background-color: #333;  /* Default dark background for rows */
+        } 
+        #comparisonTable th {
+            background-color: #444;  /* Slightly different dark color for header */
+            color: white;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+        }
+        /* Hover effect for rows */
+        #comparisonTable tr:hover {
+            background-color: #555;  /* Darker on hover */
+        }
     </style>
-    </head>
-<body>
+    
 <table id='comparisonTable'>
 <thead>
 <tr>
@@ -56,7 +60,7 @@ import 'datatables.net';
 <tbody>
 <tr>
 <td><a href='http://affiliate-link.com' target='_blank' rel='noopener noreferrer'><img src='https://via.placeholder.com/150' alt='Placeholder Image' style='width:50px; height:auto;' /> Shop Here</a></td>
-<td>Grizzl-E Level 2 EV Charger</td>
+<td>Grizzl-E Level 2 </td>
 <td>$349.99</td>
 <td>40 Amps</td>
 <td>No</td>
@@ -67,7 +71,7 @@ import 'datatables.net';
 </tr>
 <tr>
 <td><a href='http://affiliate-link.com' target='_blank' rel='noopener noreferrer'><img src='https://via.placeholder.com/150' alt='Placeholder Image' style='width:50px; height:auto;' /> Shop Here</a></td>
-<td>Lectron 240V 40 Amp Level 2 EV Charger</td>
+<td>Lectron 40 Amp Level 2 </td>
 <td>$449.00</td>
 <td>40 Amps</td>
 <td>No</td>
@@ -78,7 +82,7 @@ import 'datatables.net';
 </tr>
 <tr>
 <td><a href='http://affiliate-link.com' target='_blank' rel='noopener noreferrer'><img src='https://via.placeholder.com/150' alt='Placeholder Image' style='width:50px; height:auto;' /> Shop Here</a></td>
-<td>Autel MaxiCharger Elite Home 40A Plug-In EV Charger</td>
+<td>Autel MaxiCharger 40A Smart Charger </td>
 <td>$559.00</td>
 <td>40 Amps</td>
 <td>Yes</td>
@@ -89,7 +93,7 @@ import 'datatables.net';
 </tr>
 <tr>
 <td><a href='http://affiliate-link.com' target='_blank' rel='noopener noreferrer'><img src='https://via.placeholder.com/150' alt='Placeholder Image' style='width:50px; height:auto;' /> Shop Here</a></td>
-<td>JuiceBox 40 Smart Electric Vehicle (EV) Charging Station</td>
+<td>JuiceBox 40A Smart Charger</td>
 <td>$599.00</td>
 <td>40 Amps</td>
 <td>Yes</td>
@@ -100,7 +104,7 @@ import 'datatables.net';
 </tr>
 <tr>
 <td><a href='http://affiliate-link.com' target='_blank' rel='noopener noreferrer'><img src='https://via.placeholder.com/150' alt='Placeholder Image' style='width:50px; height:auto;' /> Shop Here</a></td>
-<td>Electrify America Level 2 EV Charger</td>
+<td>Electrify America Level 2</td>
 <td>$649.00</td>
 <td>40 Amps</td>
 <td>Yes</td>
@@ -111,7 +115,7 @@ import 'datatables.net';
 </tr>
 <tr>
     <td><a href='http://affiliate-link.com' target='_blank' rel='noopener noreferrer'><img src='https://via.placeholder.com/150' alt='Placeholder Image' style='width:50px; height:auto;' /> Shop Here</a></td>
-    <td>Wallbox Pulsar Plus 40A Level 2 EV Charger</td>
+    <td>Wallbox Pulsar Plus 40A Smart Charger</td>
     <td>$649.00</td>
     <td>40 Amps</td>
     <td>Yes</td>
@@ -122,7 +126,7 @@ import 'datatables.net';
 </tr>
 <tr>
     <td><a href='http://affiliate-link.com' target='_blank' rel='noopener noreferrer'><img src='https://via.placeholder.com/150' alt='Placeholder Image' style='width:50px; height:auto;' /> Shop Here</a></td>
-    <td>Lectron 240V 48 Amp Level 2 EV Charger</td>
+    <td>Lectron 48 Amp Level 2 </td>
     <td>$499.00</td>
     <td>48 amps</td>
     <td>No</td>
@@ -133,7 +137,7 @@ import 'datatables.net';
 </tr>  
 <tr>
     <td><a href='http://affiliate-link.com' target='_blank' rel='noopener noreferrer'><img src='https://via.placeholder.com/150' alt='Placeholder Image' style='width:50px; height:auto;' /> Shop Here</a></td>
-    <td>Emporia Vue Smart EV Charger</td>
+    <td>Emporia Vue 48A Smart Charger</td>
     <td>$399.00</td>
     <td>48 amps</td>
     <td>Yes</td>
@@ -144,7 +148,7 @@ import 'datatables.net';
 </tr>
 <tr>
     <td><a href='http://affiliate-link.com' target='_blank' rel='noopener noreferrer'><img src='https://via.placeholder.com/150' alt='Placeholder Image' style='width:50px; height:auto;' /> Shop Here</a></td>
-    <td>JuiceBox 48 amp Smart EV Charging Station</td>
+    <td>JuiceBox 48A Smart Charger</td>
     <td>$639.00</td>
     <td>48 amps</td>
     <td>Yes</td>
@@ -155,7 +159,7 @@ import 'datatables.net';
 </tr> 
 <tr>
     <td><a href='http://affiliate-link.com' target='_blank' rel='noopener noreferrer'><img src='https://via.placeholder.com/150' alt='Placeholder Image' style='width:50px; height:auto;' /> Shop Here</a></td>
-    <td>Wallbox Pulsar Plus 48A Level 2 EV Charger</td>
+    <td>Wallbox Pulsar Plus 40A Smart Charger</td>
     <td>$699.00</td>
     <td>48 amps</td>
     <td>Yes</td>
@@ -166,7 +170,7 @@ import 'datatables.net';
 </tr> 
 <tr>
     <td><a href='http://affiliate-link.com' target='_blank' rel='noopener noreferrer'><img src='https://via.placeholder.com/150' alt='Placeholder Image' style='width:50px; height:auto;' /> Shop Here</a></td>
-    <td>Autel Maxicharge 50 amp hardwired EV Charger</td>
+    <td>Autel Maxicharge 50A Smart Charger</td>
     <td>$599.00</td>
     <td>50 Amps</td>
     <td>Yes</td>
@@ -176,8 +180,8 @@ import 'datatables.net';
     <td>NEMA 4X</td>
 </tr>
 <tr>
-    <td><a href='http://affiliate-link.com' target='_blank' rel='noopener noreferrer'><img src='https://via.placeholder.com/150' alt='Placeholder Image' style='width:50px; height:auto;' /> Shop Here</a></td>
-    <td>ChargePoint Home Flex 50A plug-in EV Charger</td>
+    <td><a href='https://amzn.to/3Rqq2hg' target='_blank' rel='noopener noreferrer'><img src='https://via.placeholder.com/150' alt='Placeholder Image' style='width:50px; height:auto;' /> Shop Here</a></td>
+    <td>ChargePoint 50A Smart Charger </td>
     <td>$682.00</td>
     <td>50 Amps</td>
     <td>Yes</td>
@@ -185,16 +189,20 @@ import 'datatables.net';
     <td>Built In</td>
     <td>Hardwired/Plug-in</td>
     <td>NEMA 3R</td>
-</tr>
-</tr>
+
 </tbody>
 </table>
-<script>
-document.addEventListener("DOMContentLoaded", function() {
-    $('#comparisonTable').DataTable();
-});
 
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+      $('#comparisonTable').DataTable();
+  });
 </script>
-</body>
-</html>
-<Layout
+</section>
+</Layout>
+
+
+            
+  
+          
+                   
