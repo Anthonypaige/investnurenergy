@@ -122,3 +122,42 @@ import { UI } from '~/utils/config';
     document.querySelector("#header nav")?.classList.add("hidden");
   };
 </script>
+<script>
+// Function to populate the comparison table
+function populateComparisonTable(data) {
+  const tableBody = document.getElementById('comparisonTable').getElementsByTagName('tbody')[0];
+  data.forEach(row => {
+    const newRow = tableBody.insertRow();
+    Object.keys(row).forEach(key => {
+      const cell = newRow.insertCell();
+      if (key === 'Shop Here') {
+        cell.innerHTML = `<a href='${row[key].link}' target='_blank' rel='noopener noreferrer'><img src='${row[key].imgSrc}' alt='${row[key].alt}' style='width:50px; height:auto;' /> Shop Here</a>`;
+      } else {
+        cell.innerHTML = row[key];
+      }
+    });
+  });
+}
+
+// Sample data for the comparison table
+const comparisonData = [
+  {
+    'Shop Here': { link: 'https://amzn.to/3EL2HPT', imgSrc: 'https://github.com/Anthonypaige/IIYE-main-site/blob/main/public/images/evse-comp-table-images/grizlee-evse.jpg?raw=true', alt: 'Grizlee EV Charger' },
+    'Charger Name': 'Grizzl-E 40A Level 2 EV Charger',
+    'Price': '$349.99',
+    'Max Power Output (Amps)': '40 Amps',
+    'Wifi': 'No',
+    'Bluetooth': 'No',
+    'Chord Management': 'Wall Mount',
+    'Installation': 'NEMA 14-50 or 6-50',
+    'Outdoor Rating': 'NEMA 4X/IP67'
+  },
+  // ...more rows
+];
+
+// Populate the table when the page loads
+window.onload = function () {
+  // ...existing code
+  populateComparisonTable(comparisonData);
+};
+</script>

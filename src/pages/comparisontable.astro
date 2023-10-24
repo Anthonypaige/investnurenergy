@@ -1,0 +1,31 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import ComparisonTable from '~/components/ui/ComparisonTable.astro';
+
+const comparisonData = [
+  {
+    'Shop Here': { link: 'https://amzn.to/3EL2HPT', imgSrc: 'https://github.com/Anthonypaige/IIYE-main-site/blob/main/public/images/evse-comp-table-images/grizlee-evse.jpg?raw=true', alt: 'Grizlee EV Charger' },
+    'Charger Name': 'Grizzl-E 40A Level 2 EV Charger',
+    'Price': '$349.99',
+    'Max Power Output (Amps)': '40 Amps',
+    'Wifi': 'No',
+    'Bluetooth': 'No',
+    'Chord Management': 'Wall Mount',
+    'Installation': 'NEMA 14-50 or 6-50',
+    'Outdoor Rating': 'NEMA 4X/IP67'
+  },
+  // ...more rows
+];
+---
+
+<Layout>
+  <ComparisonTable rows={comparisonData} />
+</Layout>
+
+<script type="text/javascript">
+  // This ensures the code runs only on the client side
+  if (typeof window !== 'undefined') {
+    // Call the function to populate the table
+    populateComparisonTable(comparisonData);
+  }
+</script>
