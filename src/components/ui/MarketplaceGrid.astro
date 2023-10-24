@@ -14,6 +14,7 @@ const {
   avgPrice: avgPriceClass = 'text-xl font-semibold mb-2 text-green-500',
   ribbon: ribbonClass = 'absolute top-0 left-0 text-white py-1 px-3 text-xs font-bold transform -rotate-45 ribbon'
 } = classes;
+
 ---
 
 <style>
@@ -41,11 +42,13 @@ const {
   }
 </style>
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
 {
   items && (
     <div class={twMerge(`grid mx-auto gap-8 md:gap-y-12 ${columns === 4 ? 'lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2' : columns === 3 ? 'lg:grid-cols-3 sm:grid-cols-2' : columns === 2 ? 'sm:grid-cols-2' : ''}`, containerClass)}>
       {items.map(({ title, imageSrc, topSellingPoints, avgPrice, shopButton, rating, reviewCount, taxCode }) => (
-        <div class={twMerge('relative flex flex-col max-w-sm p-4 border rounded shadow-lg bg-gray-800 hover:bg-gray-700 hover:shadow-xl transition duration-300', cardClass)}>
+        <div class={twMerge('card-hover relative flex flex-col max-w-sm p-4 border rounded shadow-lg bg-gray-800 hover:bg-gray-700 hover:shadow-xl transition duration-300', cardClass)}>
           {/* Tax Code Ribbon */}
           {taxCode && (
             <div class="ribbon">
@@ -58,7 +61,7 @@ const {
           )}
           {/* Product Image */}
           {imageSrc && (
-            <img src={imageSrc} alt={title} class={imageClass} />
+            <img src={imageSrc} alt={title} class="w-full h-64 object-cover mb-4 rounded" />
           )}
           {/* Top Selling Points */}
           {topSellingPoints && topSellingPoints.map((point, index, array) => (
@@ -74,13 +77,6 @@ const {
                 <span class={twMerge(avgPriceClass)}>{avgPrice}</span>
               </div>
             )}
-          </div>
-          <div class="flex justify-between items-center mt-auto">
-            {shopButton && (
-              <div>
-                <Button variant="primary" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-200 transition duration-300" {...(shopButton as unknown as object)} />
-              </div>
-            )}
             {rating && reviewCount && (
               <div class="flex items-center">
                 <span class="text-yellow-400 text-lg">
@@ -92,8 +88,15 @@ const {
               </div>
             )}
           </div>
-        </div>
-      ))}
-    </div>
-  )
-}
+<div class="flex justify-between items-center mt-auto">
+  {shopButton && (
+    <Button variant="primary" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-200 transition duration-300" {...(shopButton as unknown as object)} />
+  )}
+  <Button variant="secondary" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-gray-600 focus:outline-none focus:ring-2 focus:ring-gray-200 transition duration-300">
+    Learn More
+  </Button>
+</div>
+</div>
+))}
+</div>
+)
