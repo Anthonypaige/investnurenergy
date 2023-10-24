@@ -1,0 +1,189 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import Hero from '~/components/widgets/Hero.astro';
+---
+
+<Layout>
+  <!-- Hero Widget ******************* -->
+  <Hero title="Portable Power Station Comparison Table" />
+
+  <section class="container mx-auto p-6">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+
+    <style>
+        /* General Styles */
+        .dataTables_wrapper {
+            color: #FFF;  /* White text for better visibility on dark background */
+        }
+    
+        /* Table Styles */
+        #comparisonTable {
+            font-family: Arial, sans-serif;
+            width: 100%;
+            border-collapse: collapse;
+            text-align: center;
+        }
+        #comparisonTable td, #comparisonTable th {
+            padding: 10px;
+            border: 1px solid #dddddd;
+            color: #FFF;  /* White text */
+            background-color: #333;  /* Default dark background for rows */
+        } 
+        #comparisonTable th {
+            background-color: #444;  /* Slightly different dark color for header */
+            color: white;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+        }
+        /* Hover effect for rows */
+        #comparisonTable tr:hover {
+            background-color: #555;  /* Darker on hover */
+        }
+    </style>
+    
+<table id='comparisonTable'>
+<thead>
+<tr>
+<th>Shop Here</th>
+<th>Battery System</th>
+<th>System Price</th>
+<th>Cell Type</th>
+<th>Life Cycles</th>
+<th>Usable Capacity</th>
+<th>Continuous Output Power</th>
+<th>Surge Power</th>
+<th>Charging Time AC</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href='https://amzn.to/3EL2HPT' target='_blank' rel='noopener noreferrer'><img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/bluetti-ac-300.png?raw=true' alt='Bluetti AC 300 battery system' style='width:50px; height:auto;' /> Shop Here</a></td>
+<td>Bluetti AC300 + B300 System </td>
+<td>$2,600</td>
+<td>LiFePO4</td>
+<td>3,500 to 80%</td>
+<td>3.07 kwh</td>
+<td>3KW</td>
+<td>6 KW</td>
+<td>1.5 hours (with charging cable)</td>
+</tr>
+<tr>
+<td><a href='https://amzn.to/3EI78La' target='_blank' rel='noopener noreferrer'><img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/bluetti-ac-500.png?raw=true' alt='Lectron' style='width:50px; height:auto;' /> Shop Now</a></td>
+<td>Bluetti AC500 + 300S System </td>
+<td>$4,800</td>
+<td>LiFePO4</td>
+                <td>3,500 to 80%</td>
+                <td>3.07 kwh</td>
+                <td>5KW</td>
+                <td>10KW</td>
+                <td>80 minutes</td>
+
+</tr>
+<tr>
+<td><a href='https://amzn.to/3RpBs51' target='_blank' rel='noopener noreferrer'><img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/EP-Pro-500.png?raw=true' alt='Autel' style='width:50px; height:auto;' /> Shop Now</a></td>
+<td>Bluetti EP 500 </td>
+<td>$4,800</td>
+<td>LiFePO4</td>
+<td>3,500 to 80%</td>
+<td>5.1 kwh</td>
+<td>2KW</td>
+<td>4.8KW</td>
+<td>9 hours</td>
+</tr>
+<tr>
+<td><a href='https://amzn.to/45VXuR2' target='_blank' rel='noopener noreferrer'><img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/EP-Pro-500.png?raw=true' alt='Juicebox' style='width:50px; height:auto;' /> Shop Now</a></td>
+<td>Bluetti EP 500 PRO </td>
+<td>$5,000</td>
+<td>LiFePO4</td>
+<td>3,500 to 80% </td>
+<td>5.1 kwh</td>
+<td>3KW</td>
+<td>6 KW</td>
+<td>1.5 hours</td>
+</tr>
+<tr>
+    <td><a href='https://amzn.to/46hAzPR' target='_blank' rel='noopener noreferrer'><img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/Delta-pro-base-unit.png?raw=true' alt='Electrify America' style='width:50px; height:auto;' /> Shop Now</a></td>
+    <td>Eco Flow Delta Pro </td>
+    <td>$5,000</td>
+    <td>LiFePO4</td>
+    <td>3,500 to 80% </td>
+    <td>3.6 kwh</td>
+    <td>3.6 KW</td>
+    <td>7.2 KW</td>
+    <td>2.7 hours</td>
+</tr>
+<tr>
+    <td><a href='https://amzn.to/3PoQpkW' target='_blank' rel='noopener noreferrer'><img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/wallbox-evse.png?raw=true' alt='Wallbox Pulsar Plus' style='width:50px; height:auto;' /> Shop Now</a></td>
+    <td>Eco Flow Delta Pro w/extra battery</td>
+<td>$5,200</td>
+<td>LiFePO4</td>
+<td>3,500 to 80% </td>
+<td>7.2 kwh</td>
+<td>3.6 KW</td>
+<td>7.2 KW</td>
+<td>2.7 hours</td>
+</tr>
+<tr>
+    <td><a href='https://amzn.to/3EI78La' target='_blank' rel='noopener noreferrer'><img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/Delta-pro-double-%20up.png?raw=true' alt='Lectron' style='width:50px; height:auto;' /> Shop Now</a></td>
+    <td>Eco Flow Delta Pro Double Up Kit </td>
+<td>$5,900</td>
+<td>LiFePO4</td>
+<td>3,500 to 80% </td>
+<td>7.2 kwh</td>
+<td>7.2 KW</td>
+<td>7.2 KW</td>
+<td>2.7 hours</td>
+</tr>  
+    <td><a href='https://amzn.to/3EI78La' target='_blank' rel='noopener noreferrer'><img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/lycan-5000.png?raw=true' alt='Lectron' style='width:50px; height:auto;' /> Shop Now</a></td>
+    <td>Renogy Lycan 5000 </td>
+<td>$5,000</td>
+<td>LiFePO4</td>
+<td>3,500 to 80% </td>
+<td>4.8 kwh</td>
+<td>3.5 KW</td>
+<td>7 KW</td>
+<td> Dunno </td>
+</tr>  
+<tr>
+    <td><a href='https://amzn.to/3ri8cSY' target='_blank' rel='noopener noreferrer'><img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/jackery-4000.png?raw=true' alt='Jackerty 4000' style='width:50px; height:auto;' /> Shop Now</a></td>
+    <td>Jackery 4000, Explorer 2000+E2000 </td>
+    <td>$5,000</td>
+    <td>LiFePO4</td>
+    <td>4,000 to 70% </td>
+    <td>4.085 kwh</td>
+    <td>3KW</td>
+    <td>6 KW</td>
+    <td>2.3 hours</td>
+</tr>
+<tr>
+    <td><a href='https://amzn.to/3ri8cSY' target='_blank' rel='noopener noreferrer'><img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/jackery-3000.png?raw=true' alt='Jackery 3000' style='width:50px; height:auto;' /> Shop Now</a></td>
+    <td>Jackery 3000 </td>
+    <td>$5,000</td>
+    <td>LiFePO4</td>
+    <td>4,000 to 70% </td>
+    <td>4.085 kwh</td>
+    <td>3KW</td>
+    <td>6 KW</td>
+    <td>2.3 hours</td>
+</tr>
+
+
+
+</tbody>
+</table>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+      $('#comparisonTable').DataTable();
+  });
+</script>
+</section>
+</Layout>
+
+
+            
+  
+          
+                   

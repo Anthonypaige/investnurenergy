@@ -1,0 +1,174 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import Hero from '~/components/widgets/Hero.astro';
+---
+
+<Layout>
+  <!-- Hero Widget ******************* -->
+  <Hero title="Smart Thermostat Comparison Table" />
+
+  <section class="container mx-auto p-6">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+
+    <style>
+        /* General Styles */
+        .dataTables_wrapper {
+            color: #FFF;  /* White text for better visibility on dark background */
+        }
+    
+        /* Table Styles */
+        #comparisonTable {
+            font-family: Arial, sans-serif;
+            width: 100%;
+            border-collapse: collapse;
+            text-align: center;
+        }
+        #comparisonTable td, #comparisonTable th {
+            padding: 10px;
+            border: 1px solid #dddddd;
+            color: #FFF;  /* White text */
+            background-color: #333;  /* Default dark background for rows */
+        } 
+        #comparisonTable th {
+            background-color: #444;  /* Slightly different dark color for header */
+            color: white;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+        }
+        /* Hover effect for rows */
+        #comparisonTable tr:hover {
+            background-color: #555;  /* Darker on hover */
+        }
+    </style>
+    
+<table id='comparisonTable'>
+<thead>
+<tr>
+<th>Shop Here</th>
+<th>Smart Thermostat</th>
+<th>Price</th>
+<th>Profile</th>
+<th>Wifi</th>
+<th>Bluetooth</th>
+<th>Sensor Capability</th>
+<th>Machine Learning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href='https://amzn.to/3EL2HPT' target='_blank' rel='noopener noreferrer'><img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/grizlee-evse.png?raw=true' alt='Placeholder Image' style='width:50px; height:auto;' /> Shop Here</a></td>
+<td>Ecobee 3 Lite </td>
+<td>$145</td>
+<td>Smarter</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+</tr>
+<tr>
+<td><a href='https://amzn.to/3EI78La' target='_blank' rel='noopener noreferrer'><img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/lectron-evse.png?raw=true' alt='Lectron' style='width:50px; height:auto;' /> Shop Now</a></td>
+<td>Amazon Smart Thermostat </td>
+<td>$100</td>
+<td>Smart</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td><a href='https://amzn.to/3RpBs51' target='_blank' rel='noopener noreferrer'><img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/autel-evse.png?raw=true' alt='Autel' style='width:50px; height:auto;' /> Shop Now</a></td>
+<td>Ecobee Smart Premium </td>
+<td>$225</td>
+<td>Smartest</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+</tr>
+<tr>
+<td><a href='https://amzn.to/45VXuR2' target='_blank' rel='noopener noreferrer'><img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/juice-evse.png?raw=true' alt='Juicebox' style='width:50px; height:auto;' /> Shop Now</a></td>
+<td>Honeywell Home T9 </td>
+<td>$145</td>
+<td>Smarter</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+</tr>
+<tr>
+    <td><a href='https://amzn.to/46hAzPR' target='_blank' rel='noopener noreferrer'><img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/electrify-america-evse.png?raw=true' alt='Electrify America' style='width:50px; height:auto;' /> Shop Now</a></td>
+    <td>Google Nest Smart Thermostat </td>
+    <td>$130</td>
+    <td>Smarter</td>
+    <td>Yes</td>
+    <td>Yes</td>
+    <td>Yes</td>
+    <td>No</td>
+</tr>
+<tr>
+    <td><a href='https://amzn.to/3PoQpkW' target='_blank' rel='noopener noreferrer'><img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/wallbox-evse.png?raw=true' alt='Wallbox Pulsar Plus' style='width:50px; height:auto;' /> Shop Now</a></td>
+    <td>Google Nest Learning Thermostat </td>
+<td>$225</td>
+<td>Smartest</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+</tr>
+<tr>
+    <td><a href='https://amzn.to/3EI78La' target='_blank' rel='noopener noreferrer'><img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/lectron-evse.png?raw=true' alt='Lectron' style='width:50px; height:auto;' /> Shop Now</a></td>
+    <td>Emerson Sensi Wifi-Smart thermostat </td>
+<td>$100</td>
+<td>Smart</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+</tr>  
+<tr>
+    <td><a href='https://amzn.to/3ri8cSY' target='_blank' rel='noopener noreferrer'><img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/emporia-evse.png?raw=true' alt='Emporia' style='width:50px; height:auto;' /> Shop Now</a></td>
+    <td>Emerson Sensi Touchcolor Display</td>
+    <td>$125</td>
+    <td>Smarter</td>
+    <td>Yes</td>
+    <td>Yes</td>
+    <td>Yes</td>
+    <td>No</td>
+</tr>
+<tr>
+    <td><a href='https://amzn.to/3PIT22G' target='_blank' rel='noopener noreferrer'><img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/juice-evse.png?raw=true' alt='Juicebox' style='width:50px; height:auto;' /> Shop Now</a></td>
+    <td>Honeywell Home (RTH9585WF 1004)</td>
+<td>$160</td>
+<td>Smarter</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+</tr> 
+<tr>
+    <td><a href='https://amzn.to/3PHtAdK' target='_blank' rel='noopener noreferrer'><img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/wallbox-evse.png?raw=true' alt='Wallbox Pulsar Plus' style='width:50px; height:auto;' /> Shop Now</a></td>
+    <td>Ecobee Smart Enhanced </td>
+<td>$180</td>
+<td>Smarter</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+</tr> 
+</table>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+      $('#comparisonTable').DataTable();
+  });
+</script>
+</section>
+</Layout>
+
+
+            
+  
+          
+                   
