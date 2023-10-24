@@ -36,19 +36,19 @@ export const headerData = {
       links: [
         {
           text: 'Energy Efficient Home Upgrades',
-          href: getPermalink('landing/energy-efficient-home-upgrades'),
+          href: getPermalink('efficient/energy-efficient-home-upgrades'),
         },
         {
           text: 'Heat Pumps',
-          href: getPermalink('landing/heat-pump-page'),
+          href: getPermalink('efficient/heat-pump-page'),
         },
         {
           text: 'Water Heaters',
-          href: getPermalink('landing/water-heaters-page'),
+          href: getPermalink('efficient/water-heaters-page'),
         },
         {
           text: 'Weatherization',
-          href: getPermalink('landing/weatherization-page'),
+          href: getPermalink('efficient/weatherization-page'),
         },
       ],
     },
@@ -65,26 +65,30 @@ export const headerData = {
         },
       ],
     },
-    //  {
-    // text: 'Blog',
-    // links: [
-    //   {
-    //     text: 'Blog List',
-    //     href: getBlogPermalink(),
-    //   },
-    //   {
-    //     text: 'Category Page',
-    //     href: getPermalink('clean-energy', 'category'),
-    //   },
-    //   {
-    //     text: 'Tag Page',
-    //     href: getPermalink('tou-rates', 'tag'),
-    //   },
+    {
+      text: 'Resources',
+      links: [
+        {
+          text: 'Affiliate Marketplace',
+          href: getPermalink('resources/affiliate-marketplace'),
+        }, 
+        {
+          text: 'Top Smart Thermostats',
+          href: getPermalink('resources/smart-thermostat-comparison-table'),
+        },
+        {
+          text: 'EV Chargers',
+          href: getPermalink('resources/ev-charger-comparison-table'),
+        },
+        {
+          text: 'Portable Power Stations',
+          href: getPermalink('resources/smart-thermostat-comparison-table'),
+        },     
+      ],
+    },
   ],
 };
-// ],
-// actions: [{ text: 'Download', href: 'https://github.com/onwidget/astrowind', target: '_blank' }],
-// };
+
 
 export const footerData = {
   links: [
@@ -113,11 +117,11 @@ export const footerData = {
       ],
     },
     {
-      title: 'Energy Efficiency Pages',
+      title: 'Resources',
       links: [
-        { text: 'Heat Pumps', href: 'investinyourenergy.com/heat-pump-page' },
-        { text: 'Water Heaters', href: 'investinyourenergy.com/water-heaters-page' },
-        { text: 'Weatherization', href: 'investinyourenergy.com/weatherization-page' },
+        { text: 'Affiliate Marketplace', href: 'investinyourenergy.com/heat-pump-page' },
+        { text: 'Top Smart Thermostats', href: 'investinyourenergy.com/water-heaters-page' },
+        { text: 'EV Chargers', href: 'investinyourenergy.com/weatherization-page' },
       ],
     },
   ],
@@ -135,5 +139,3 @@ export const footerData = {
   `,
 };
 
-// getBlogPermalink, getAsset
-// { ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss.xml') },
