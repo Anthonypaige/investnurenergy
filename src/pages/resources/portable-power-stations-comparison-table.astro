@@ -3,7 +3,14 @@ import Layout from '~/layouts/PageLayout.astro';
 import Header from '~/components/widgets/Header.astro';
 import Features3 from '~/components/widgets/Features3.astro';
 ---
-
+<style>
+  .table-sticky-header {
+    z-index: 2;
+  }
+  .page-header {
+    z-index: 1;
+  }
+</style>
 
     <Layout>
       <Fragment slot="header">
@@ -22,7 +29,7 @@ import Features3 from '~/components/widgets/Features3.astro';
     <Features3
       title="Portable Power Station Comparison Table"
       subtitle="These are the key features that differ among the portable power stations."
-      columns={2}
+      columns={3}
       items={[
         {
           title: 'Cell Type',
