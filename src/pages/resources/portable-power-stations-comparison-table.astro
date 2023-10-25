@@ -1,36 +1,36 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
-import Header from '~/components/widgets/Header.astro';
-import Features3 from '~/components/widgets/Features3.astro';
+//import Header from '~/components/widgets/Header.astro';
+//import Features3 from '~/components/widgets/Features3.astro';
 
 ---
 
-    <Layout>
-      <Fragment slot="header">
-        <Header
-          position="left"
-          links={[
-            { text: 'EV Charger Comp Table', href: '#' },
-            { text: 'Affiliate Marketplace', href: '#' },
-            { text: 'Smart Thermostats Comp Table', href: '#' },
-          ]}
-          isSticky
-        />
-      </Fragment>
-      
-      <thead>
+<Layout>
+  <!-- <Fragment slot="header">
+    <Header
+      position="left"
+      links={[
+        { text: 'EV Charger Comp Table', href: '#' },
+        { text: 'Affiliate Marketplace', href: '#' },
+        { text: 'Smart Thermostats Comp Table', href: '#' },
+      ]}
+      isSticky
+    />
+  </Fragment> -->
+
+      <section class="container mx-auto p-6">
         <!-- DataTables CSS -->
         <link rel="stylesheet" href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.css">
         <!-- jQuery -->
         <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
         <!-- DataTables Script -->
         <script src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>
-        <thead>
+        
 
 
 
       <!-- Features3 to Compare Section -->
-    <Features3
+    <!-- <Features3
       title="Portable Power Station Comparison Table"
       subtitle="These are the key features that differ among the portable power stations."
       columns={3}
@@ -66,7 +66,7 @@ import Features3 from '~/components/widgets/Features3.astro';
           icon: 'tabler:plug'
        },
       ]}
-    />
+    /> -->
   
  
  <!-- Table -->
@@ -264,15 +264,14 @@ import Features3 from '~/components/widgets/Features3.astro';
   <td class="py-2 px-4 border border-gray-600">6 KW</td>
   <td class="py-2 px-4 border border-gray-600">2.3 hours</td>
 </tr>
-
-  <!-- ... other rows -->
 </tbody>
-    </table>
+</table>
 
     <script>
-      document.addEventListener("DOMContentLoaded", function() {
-        $('#comparisonTable').DataTable();
-      });
+      document.addEventListener("client:load", function() {
+        $('#comparisonTable').DataTable({
+       "ordering": true
+     });
+    });
     </script>
-  </section>
 </Layout>
