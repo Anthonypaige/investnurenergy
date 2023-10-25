@@ -1,14 +1,28 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
-import Features from '~/components/widgets/Features.astro';
+import Header from '~/components/widgets/Header.astro';
+import Features3 from '~/components/widgets/Features3.astro';
 ---
 
-  <Layout>
+
+    <Layout>
+      <Fragment slot="header">
+        <Header
+          position="left"
+          links={[
+            { text: 'EV Charger Comp Table', href: '#' },
+            { text: 'Affiliate Marketplace', href: '#' },
+            { text: 'Smart Thermostats Comp Table', href: '#' },
+          ]}
+          isSticky
+        />
+      </Fragment>
     
-    <!-- Features to Compare Section -->
-    <Features
+      <!-- Features3 to Compare Section -->
+    <Features3
       title="Portable Power Station Comparison Table"
       subtitle="These are the key features that differ among the portable power stations."
+      columns={2}
       items={[
         {
           title: 'Cell Type',
