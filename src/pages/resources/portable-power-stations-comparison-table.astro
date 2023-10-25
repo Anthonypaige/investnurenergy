@@ -1,13 +1,13 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
-import Features3 from '~/components/widgets/Features3.astro';
+//import Features3 from '~/components/widgets/Features3.astro';
 
 ---
 
 <!-- <link rel="stylesheet" href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.css"> -->
 
 <Layout>
-      <!-- Features3 to Compare Section -->
+<!--       
      <Features3
       title="Portable Power Station Comparison Table"
       subtitle="These are the key features that differ among the portable power stations."
@@ -46,7 +46,7 @@ import Features3 from '~/components/widgets/Features3.astro';
       ]}
     />
   
- 
+  -->
  <!-- Table -->
  <table id="comparisonTable" class="min-w-full bg-gray-800 text-white border border-gray-600">
   <thead class="bg-green-900 sticky top-0 rounded-t-lg">
@@ -245,15 +245,15 @@ import Features3 from '~/components/widgets/Features3.astro';
 </tbody>
 </table>
 
-    <section>
+    
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
     
     <!-- <script src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>    -->
     
     <script>
-      document.addEventListener("client:load", function() {$('#comparisonTable').DataTable({
+      document.addEventListener("client:load", function() {
+        $('#comparisonTable').DataTable({
      });
     });
     </script>
-    <section>
 </Layout>
