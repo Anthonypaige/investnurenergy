@@ -1,36 +1,14 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
-//import Header from '~/components/widgets/Header.astro';
-//import Features3 from '~/components/widgets/Features3.astro';
+import Features3 from '~/components/widgets/Features3.astro';
 
 ---
 
+<link rel="stylesheet" href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.css">
+
 <Layout>
-  <!-- <Fragment slot="header">
-    <Header
-      position="left"
-      links={[
-        { text: 'EV Charger Comp Table', href: '#' },
-        { text: 'Affiliate Marketplace', href: '#' },
-        { text: 'Smart Thermostats Comp Table', href: '#' },
-      ]}
-      isSticky
-    />
-  </Fragment> -->
-
-      <section class="container mx-auto p-6">
-        <!-- DataTables CSS -->
-        <link rel="stylesheet" href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.css">
-        <!-- jQuery -->
-        <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
-        <!-- DataTables Script -->
-        <script src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>
-        
-
-
-
       <!-- Features3 to Compare Section -->
-    <!-- <Features3
+     <Features3
       title="Portable Power Station Comparison Table"
       subtitle="These are the key features that differ among the portable power stations."
       columns={3}
@@ -66,7 +44,7 @@ import Layout from '~/layouts/PageLayout.astro';
           icon: 'tabler:plug'
        },
       ]}
-    /> -->
+    />
   
  
  <!-- Table -->
@@ -266,6 +244,13 @@ import Layout from '~/layouts/PageLayout.astro';
 </tr>
 </tbody>
 </table>
+
+        
+        <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+        <!-- DataTables Script -->
+        <script src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>
+        
+
 
     <script>
       document.addEventListener("client:load", function() {
