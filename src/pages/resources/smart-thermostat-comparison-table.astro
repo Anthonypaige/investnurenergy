@@ -122,12 +122,12 @@ import Hero from '~/components/widgets/Hero.astro';
 </table>
 
 <script>
-  document.addEventListener("DOMContentLoaded", function() {
-      $('#comparisonTable').DataTable();
-  });
-</script>
-</section>
-<Layout>
+      document.addEventListener("client:load", function() {
+        $('#comparisonTable').DataTable({
+     });
+    });
+    </script>
+</Layout>
 
             
   

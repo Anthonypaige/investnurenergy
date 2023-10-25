@@ -9,7 +9,7 @@ import Hero from '~/components/widgets/Hero.astro';
   <Hero title="EV Charger Comparison Table" />
 
 
-  <section class="container mx-auto p-6">
+
     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.css">
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
 
@@ -28,17 +28,6 @@ import Hero from '~/components/widgets/Hero.astro';
 </tr>
 </thead>
 <tbody>
-<tr>
-<td><a href='https://amzn.to/3EL2HPT' target='_blank' rel='noopener noreferrer'><img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/grizlee-evse.png?raw=true' alt='Placeholder Image' style='width:50px; height:auto;' /> Shop Here</a></td>
-<td>Grizzl-E Level 2 </td>
-<td>$349.99</td>
-<td>40 Amps</td>
-<td>No</td>
-<td>No</td>
-<td>Wall Mount</td>
-<td>NEMA 14-50 or 6-50</td>
-<td>NEMA 4X/IP67</td>
-</tr>
 <tr>
 <td><a href='https://amzn.to/3EI78La' target='_blank' rel='noopener noreferrer'><img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/lectron-evse.png?raw=true' alt='Lectron' style='width:50px; height:auto;' /> Shop Now</a></td>
 <td>Lectron 40 Amp Level 2 </td>
@@ -163,11 +152,11 @@ import Hero from '~/components/widgets/Hero.astro';
 </tbody>
 
 <script>
-  document.addEventListener("DOMContentLoaded", function() {
-      $('#comparisonTable').DataTable();
+    document.addEventListener("client:load", function() {
+      $('#comparisonTable').DataTable({
+   });
   });
-</script>
-</section>
+  </script>
 </Layout>
 
 

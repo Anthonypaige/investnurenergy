@@ -4,8 +4,9 @@ import Layout from '~/layouts/PageLayout.astro';
 
 ---
 
-<!-- <link rel="stylesheet" href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.css"> -->
-
+<link rel="stylesheet" href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.css">
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>  
 <Layout>
 <!--       
      <Features3
@@ -47,6 +48,7 @@ import Layout from '~/layouts/PageLayout.astro';
     />
   
   -->
+
  <!-- Table -->
  <table id="comparisonTable" class="min-w-full bg-gray-800 text-white border border-gray-600">
   <thead class="bg-green-900 sticky top-0 rounded-t-lg">
@@ -245,11 +247,6 @@ import Layout from '~/layouts/PageLayout.astro';
 </tbody>
 </table>
 
-    
-    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
-    
-    <!-- <script src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>    -->
-    
     <script>
       document.addEventListener("client:load", function() {
         $('#comparisonTable').DataTable({

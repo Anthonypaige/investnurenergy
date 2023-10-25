@@ -2,16 +2,14 @@
 import { UI } from '~/utils/config';
 ---
 
-<script is:inline define:vars={{ defaultTheme: UI.theme }}>
-  function applyTheme(theme) {
-    if (theme === 'dark') {
-      document.documentElement.classList.add('dark');
-    } else {
-      document.documentElement.classList.remove('dark');
-    }
+<script is:inline>
+  // Function to always set the theme to dark
+  function applyTheme() {
+    document.documentElement.classList.add('dark');
   }
-  applyTheme('dark');
 
+  // Apply the dark theme
+  applyTheme();
 
   function attachEvent(selector, event, fn) {
     const matches = typeof selector === 'string' ? document.querySelectorAll(selector) : selector;
@@ -44,47 +42,6 @@ import { UI } from '~/utils/config';
       document.getElementById("header")?.classList.toggle("bg-page");
       document.querySelector("#header nav")?.classList.toggle("hidden");
       document.querySelector("#header > div > div:last-child")?.classList.toggle("hidden");
-    });
-
-    attachEvent('[data-aw-toggle-color-scheme]', 'click', function () {
-      if (defaultTheme.endsWith(':only')) {
-        return;
-      }
-      document.documentElement.classList.toggle('dark');
-      localStorage.theme = document.documentElement.classList.contains('dark') ? 'dark' : 'light';
-    });
-
-    attachEvent('[data-aw-social-share]', 'click', function (_, elem) {
-      const network = elem.getAttribute('data-aw-social-share');
-      const url = encodeURIComponent(elem.getAttribute('data-aw-url'));
-      const text = encodeURIComponent(elem.getAttribute('data-aw-text'));
-
-      let href;
-      switch (network) {
-        case 'facebook':
-          href = `https://www.facebook.com/sharer.php?u=${url}`;
-          break;
-        case 'twitter':
-          href = `https://twitter.com/intent/tweet?url=${url}&text=${text}`;
-          break;
-        case 'linkedin':
-          href = `https://www.linkedin.com/shareArticle?mini=true&url=${url}&title=${text}`;
-          break;
-        case 'whatsapp':
-          href = `https://wa.me/?text=${text}%20${url}`;
-          break;
-        case 'mail':
-          href = `mailto:?subject=%22${text}%22&body=${text}%20${url}`;
-          break;
-
-        default:
-          return;
-      }
-
-      const newlink = document.createElement('a');
-      newlink.target = '_blank';
-      newlink.href = href;
-      newlink.click();
     });
 
     function appyHeaderStylesOnScroll() {
@@ -121,43 +78,4 @@ import { UI } from '~/utils/config';
     document.getElementById("header")?.classList.remove("expanded");
     document.querySelector("#header nav")?.classList.add("hidden");
   };
-</script>
-<script>
-// Function to populate the comparison table
-function populateComparisonTable(data) {
-  const tableBody = document.getElementById('comparisonTable').getElementsByTagName('tbody')[0];
-  data.forEach(row => {
-    const newRow = tableBody.insertRow();
-    Object.keys(row).forEach(key => {
-      const cell = newRow.insertCell();
-      if (key === 'Shop Here') {
-        cell.innerHTML = `<a href='${row[key].link}' target='_blank' rel='noopener noreferrer'><img src='${row[key].imgSrc}' alt='${row[key].alt}' style='width:50px; height:auto;' /> Shop Here</a>`;
-      } else {
-        cell.innerHTML = row[key];
-      }
-    });
-  });
-}
-
-// Sample data for the comparison table
-const comparisonData = [
-  {
-    'Shop Here': { link: 'https://amzn.to/3EL2HPT', imgSrc: 'https://github.com/Anthonypaige/IIYE-main-site/blob/main/public/images/evse-comp-table-images/grizlee-evse.jpg?raw=true', alt: 'Grizlee EV Charger' },
-    'Charger Name': 'Grizzl-E 40A Level 2 EV Charger',
-    'Price': '$349.99',
-    'Max Power Output (Amps)': '40 Amps',
-    'Wifi': 'No',
-    'Bluetooth': 'No',
-    'Chord Management': 'Wall Mount',
-    'Installation': 'NEMA 14-50 or 6-50',
-    'Outdoor Rating': 'NEMA 4X/IP67'
-  },
-  // ...more rows
-];
-
-// Populate the table when the page loads
-window.onload = function () {
-  // ...existing code
-  populateComparisonTable(comparisonData);
-};
 </script>
