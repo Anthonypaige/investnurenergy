@@ -4,7 +4,7 @@ import Features3 from '~/components/widgets/Features3.astro';
 
 ---
 
-<link rel="stylesheet" href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.css">
+<!-- <link rel="stylesheet" href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.css"> -->
 
 <Layout>
       <!-- Features3 to Compare Section -->
@@ -245,18 +245,15 @@ import Features3 from '~/components/widgets/Features3.astro';
 </tbody>
 </table>
 
-        
-        <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
-        <!-- DataTables Script -->
-        <script src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>
-        
-
-
+    <section>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    
+    <!-- <script src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>    -->
+    
     <script>
-      document.addEventListener("client:load", function() {
-        $('#comparisonTable').DataTable({
-       "ordering": true
+      document.addEventListener("client:load", function() {$('#comparisonTable').DataTable({
      });
     });
     </script>
+    <section>
 </Layout>
