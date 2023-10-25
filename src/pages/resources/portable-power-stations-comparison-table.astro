@@ -1,19 +1,55 @@
 ---
-import Layout from '~/layouts/Layout.astro';
-import Hero from '~/components/widgets/Hero.astro';
+import Layout from '~/layouts/PageLayout.astro';
+import Features from '~/components/widgets/Features.astro';
 ---
 
-<Layout>
-  <!-- Hero Widget -->
-  <Hero title="Portable Power Station Comparison Table" />
-
-<section class="container mx-auto p-6">
-    <!-- DataTables CSS -->
-    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.css">
-    <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
-    <!-- DataTables Script -->
-    <script src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>
+  <Layout>
+    
+    <!-- Features to Compare Section -->
+    <Features
+      title="Features to Compare"
+      subtitle="These are the key features that differ among the portable power stations."
+      items={[
+        {
+          title: 'Cell Type',
+          description: 'The type of battery cells used in the system.',
+          icon: 'tabler:cell'
+        },
+        {
+          title: 'Life Cycles',
+          description: 'The number of charge cycles the battery can withstand.',
+          icon: 'tabler:arrows-diff'
+        },
+        {
+          title: 'Usable Capacity',
+          description: 'The amount of energy that can be stored and used.',
+          icon: 'tabler:battery-2-filled'
+        },
+        {
+          title: 'Continuous Output',
+          description: 'The amount of power the system can output continuously.',
+          icon: 'tabler:battery-charging'
+        },
+        {
+          title: 'Surge Power',
+          description: 'The cost of the entire system, including any add-ons.',
+          icon: 'tabler:bolt'
+       },
+       {
+          title: 'AC Charging Time',
+          description: 'The cost of the entire system, including any add-ons.',
+          icon: 'tabler:plug'
+       },
+      ]}
+    />
+  
+    <section>
+   <!-- DataTables CSS -->
+   <link rel="stylesheet" href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.css">
+   <!-- jQuery -->
+   <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+   <!-- DataTables Script -->
+   <script src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>
 
  <!-- Table -->
 <table id="comparisonTable" class="min-w-full bg-gray-800 text-white border border-gray-600">
@@ -32,7 +68,7 @@ import Hero from '~/components/widgets/Hero.astro';
   </thead>
 <!-- Table Body -->
 <tbody>
-  <tr class="hover:bg-gray-700">
+  <tr class="bg-gray-800 hover:bg-gray-700">
     <td class="py-2 px-4 border border-gray-600">
       <a href='https://amzn.to/3qes8Wj' target='_blank' rel='noopener noreferrer'>
         <img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/bluetti-ac-300.png?raw=true' alt='Bluetti AC 300 battery system' class="w-12 h-auto" />
@@ -48,11 +84,171 @@ import Hero from '~/components/widgets/Hero.astro';
     <td class="py-2 px-4 border border-gray-600">6 KW</td>
     <td class="py-2 px-4 border border-gray-600">1.5 hours</td>
   </tr>
+  <!-- Bluetti AC500 + 300S System -->
+  <tr class="bg-gray-800 hover:bg-gray-700">
+  <td class="py-2 px-4 border border-gray-600">
+    <a href='https://amzn.to/3qes8Wj' target='_blank' rel='noopener noreferrer'>
+      <img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/bluetti-ac-500.png?raw=true' alt='Lectron' class="w-12 h-auto" />
+      Shop Now
+    </a>
+  </td>
+  <td class="py-2 px-4 border border-gray-600">Bluetti AC500 + 300S System</td>
+  <td class="py-2 px-4 border border-gray-600">$4,800</td>
+  <td class="py-2 px-4 border border-gray-600">LiFePO4</td>
+  <td class="py-2 px-4 border border-gray-600">3,500 to 80%</td>
+  <td class="py-2 px-4 border border-gray-600">3.07 kwh</td>
+  <td class="py-2 px-4 border border-gray-600">5KW</td>
+  <td class="py-2 px-4 border border-gray-600">10KW</td>
+  <td class="py-2 px-4 border border-gray-600">80 minutes</td>
+</tr>
+
+<!-- Bluetti EP 500 -->
+<tr class="bg-gray-800 hover:bg-gray-700">
+  <td class="py-2 px-4 border border-gray-600">
+    <a href='https://amzn.to/3qes8Wj' target='_blank' rel='noopener noreferrer'>
+      <img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/EP-Pro-500.png?raw=true' alt='Autel' class="w-12 h-auto" />
+      Shop Now
+    </a>
+  </td>
+  <td class="py-2 px-4 border border-gray-600">Bluetti EP 500</td>
+  <td class="py-2 px-4 border border-gray-600">$4,800</td>
+  <td class="py-2 px-4 border border-gray-600">LiFePO4</td>
+  <td class="py-2 px-4 border border-gray-600">3,500 to 80%</td>
+  <td class="py-2 px-4 border border-gray-600">5.1 kwh</td>
+  <td class="py-2 px-4 border border-gray-600">2KW</td>
+  <td class="py-2 px-4 border border-gray-600">4.8KW</td>
+  <td class="py-2 px-4 border border-gray-600">9 hours</td>
+</tr>
+<!-- Bluetti EP 500 PRO -->
+<tr class="bg-gray-800 hover:bg-gray-700">
+  <td class="py-2 px-4 border border-gray-600">
+    <a href='https://amzn.to/3qes8Wj' target='_blank' rel='noopener noreferrer'>
+      <img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/EP-Pro-500.png?raw=true' alt='Juicebox' class="w-12 h-auto" />
+      Shop Now
+    </a>
+  </td>
+  <td class="py-2 px-4 border border-gray-600">Bluetti EP 500 PRO</td>
+  <td class="py-2 px-4 border border-gray-600">$5,000</td>
+  <td class="py-2 px-4 border border-gray-600">LiFePO4</td>
+  <td class="py-2 px-4 border border-gray-600">3,500 to 80%</td>
+  <td class="py-2 px-4 border border-gray-600">5.1 kwh</td>
+  <td class="py-2 px-4 border border-gray-600">3KW</td>
+  <td class="py-2 px-4 border border-gray-600">6 KW</td>
+  <td class="py-2 px-4 border border-gray-600">1.5 hours</td>
+</tr>
+
+<!-- Eco Flow Delta Pro -->
+<tr class="hover:bg-gray-700">
+  <td class="py-2 px-4 border border-gray-600">
+    <a href='https://amzn.to/46hAzPR' target='_blank' rel='noopener noreferrer'>
+      <img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/Delta-pro-base-unit.png?raw=true' alt='Electrify America' class="w-12 h-auto" />
+      Shop Now
+    </a>
+  </td>
+  <td class="py-2 px-4 border border-gray-600">Eco Flow Delta Pro</td>
+  <td class="py-2 px-4 border border-gray-600">$5,000</td>
+  <td class="py-2 px-4 border border-gray-600">LiFePO4</td>
+  <td class="py-2 px-4 border border-gray-600">3,500 to 80%</td>
+  <td class="py-2 px-4 border border-gray-600">3.6 kwh</td>
+  <td class="py-2 px-4 border border-gray-600">3.6 KW</td>
+  <td class="py-2 px-4 border border-gray-600">7.2 KW</td>
+  <td class="py-2 px-4 border border-gray-600">2.7 hours</td>
+</tr>
+
+<!-- Eco Flow Delta Pro w/extra battery -->
+<tr class="hover:bg-gray-700">
+  <td class="py-2 px-4 border border-gray-600">
+    <a href='https://amzn.to/3PoQpkW' target='_blank' rel='noopener noreferrer'>
+      <img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/wallbox-evse.png?raw=true' alt='Wallbox Pulsar Plus' class="w-12 h-auto" />
+      Shop Now
+    </a>
+  </td>
+  <td class="py-2 px-4 border border-gray-600">Eco Flow Delta Pro w/extra battery</td>
+  <td class="py-2 px-4 border border-gray-600">$5,200</td>
+  <td class="py-2 px-4 border border-gray-600">LiFePO4</td>
+  <td class="py-2 px-4 border border-gray-600">3,500 to 80%</td>
+  <td class="py-2 px-4 border border-gray-600">7.2 kwh</td>
+  <td class="py-2 px-4 border border-gray-600">3.6 KW</td>
+  <td class="py-2 px-4 border border-gray-600">7.2 KW</td>
+  <td class="py-2 px-4 border border-gray-600">2.7 hours</td>
+</tr>
+
+<!-- Eco Flow Delta Pro Double Up Kit -->
+<tr class="hover:bg-gray-700">
+  <td class="py-2 px-4 border border-gray-600">
+    <a href='https://amzn.to/46hAzPR' target='_blank' rel='noopener noreferrer'>
+      <img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/Delta-pro-base-unit.png?raw=true' alt='Electrify America' class="w-12 h-auto" />
+      Shop Now
+    </a>
+  </td>
+  <td class="py-2 px-4 border border-gray-600">Eco Flow Delta Pro Double Up Kit</td>
+  <td class="py-2 px-4 border border-gray-600">$5,900</td>
+  <td class="py-2 px-4 border border-gray-600">LiFePO4</td>
+  <td class="py-2 px-4 border border-gray-600">3,500 to 80%</td>
+  <td class="py-2 px-4 border border-gray-600">7.2 kwh</td>
+  <td class="py-2 px-4 border border-gray-600">7.2 KW</td>
+  <td class="py-2 px-4 border border-gray-600">7.2 KW</td>
+  <td class="py-2 px-4 border border-gray-600">2.7 hours</td>
+</tr>
+
+<!-- Renogy Lycan 5000 -->
+<tr class="hover:bg-gray-700">
+  <td class="py-2 px-4 border border-gray-600">
+    <a href='https://amzn.to/3EI78La' target='_blank' rel='noopener noreferrer'>
+      <img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/lycan-5000.png?raw=true' alt='Lectron' class="w-12 h-auto" />
+      Shop Now
+    </a>
+  </td>
+  <td class="py-2 px-4 border border-gray-600">Renogy Lycan 5000</td>
+  <td class="py-2 px-4 border border-gray-600">$5,000</td>
+  <td class="py-2 px-4 border border-gray-600">LiFePO4</td>
+  <td class="py-2 px-4 border border-gray-600">3,500 to 80%</td>
+  <td class="py-2 px-4 border border-gray-600">4.8 kwh</td>
+  <td class="py-2 px-4 border border-gray-600">3.5 KW</td>
+  <td class="py-2 px-4 border border-gray-600">7 KW</td>
+  <td class="py-2 px-4 border border-gray-600"></td>
+</tr>
+
+<!-- Jackery 4000, Explorer 2000+E2000 -->
+<tr class="hover:bg-gray-700">
+  <td class="py-2 px-4 border border-gray-600">
+    <a href='https://amzn.to/3ri8cSY' target='_blank' rel='noopener noreferrer'>
+      <img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/jackery-4000.png?raw=true' alt='Jackerty 4000' class="w-12 h-auto" />
+      Shop Now
+    </a>
+  </td>
+  <td class="py-2 px-4 border border-gray-600">Jackery 4000, Explorer 2000+E2000</td>
+  <td class="py-2 px-4 border border-gray-600">$5,000</td>
+  <td class="py-2 px-4 border border-gray-600">LiFePO4</td>
+  <td class="py-2 px-4 border border-gray-600">4,000 to 70%</td>
+  <td class="py-2 px-4 border border-gray-600">4.085 kwh</td>
+  <td class="py-2 px-4 border border-gray-600">3KW</td>
+  <td class="py-2 px-4 border border-gray-600">6 KW</td>
+  <td class="py-2 px-4 border border-gray-600">2.3 hours</td>
+</tr>
+
+<!-- Jackery 3000 -->
+<tr class="hover:bg-gray-700">
+  <td class="py-2 px-4 border border-gray-600">
+    <a href='https://amzn.to/3ri8cSY' target='_blank' rel='noopener noreferrer'>
+      <img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/jackery-3000.png?raw=true' alt='Jackery 3000' class="w-12 h-auto" />
+      Shop Now
+    </a>
+  </td>
+  <td class="py-2 px-4 border border-gray-600">Jackery 3000</td>
+  <td class="py-2 px-4 border border-gray-600">$5,000</td>
+  <td class="py-2 px-4 border border-gray-600">LiFePO4</td>
+  <td class="py-2 px-4 border border-gray-600">4,000 to 70%</td>
+  <td class="py-2 px-4 border border-gray-600">4.085 kwh</td>
+  <td class="py-2 px-4 border border-gray-600">3KW</td>
+  <td class="py-2 px-4 border border-gray-600">6 KW</td>
+  <td class="py-2 px-4 border border-gray-600">2.3 hours</td>
+</tr>
+
   <!-- ... other rows -->
 </tbody>
     </table>
 
-    <!-- DataTables Initialization -->
     <script>
       document.addEventListener("DOMContentLoaded", function() {
         $('#comparisonTable').DataTable();
