@@ -1,139 +1,187 @@
-<!-- ---
+---
 import Layout from '~/layouts/PageLayout.astro';
 import Hero from '~/components/widgets/Hero.astro';
 ---
 
 <Layout>
-  
   <Hero title="Smart Thermostat Comparison Table" />
   
   <section class="container mx-auto p-6">
     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.css">
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
-
-  
     
-    
+    <table id="comparisonTable" class="min-w-full divide-y divide-gray-200">
+      <thead>
+          <tr class="bg-green-900 text-white">
+          <th>Shop Here</th>
+          <th>Smart Thermostat</th>
+          <th>Price</th>
+          <th>Profile</th>
+          <th>Wifi</th>
+          <th>Bluetooth</th>
+          <th>Sensor Capability</th>
+          <th>Machine Learning</th>
+        </tr>
+      </thead>
+      <tbody>
+<!-- Row 1 -->
+<tr class="bg-gray-800 hover:bg-gray-700">
+  <td class="px-6 py-4 border border-gray-600">
+    <a href='https://amzn.to/47dBUJ0' target='_blank' rel='noopener noreferrer'>
+      <img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/ecobee-3-lite.png?raw=true' alt='Ecobee 3 Lite' class='w-12 h-auto' />
+      Shop Here
+    </a>
+  </td>
+  <td class="px-6 py-4 text-white text-sm">Ecobee 3 Lite</td>
+  <td class="px-6 py-4 text-white text-sm">$145</td>
+  <td class="px-6 py-4 text-white text-sm">Smarter</td>
+  <td class="px-6 py-4 text-white text-sm">Yes</td>
+  <td class="px-6 py-4 text-white text-sm">Yes</td>
+  <td class="px-6 py-4 text-white text-sm">Yes</td>
+  <td class="px-6 py-4 text-white text-sm">No</td>
+</tr>
 
-<thead>
-<tr>
-<th>Shop Here</th>
-<th>Smart Thermostat</th>
-<th>Price</th>
-<th>Profile</th>
-<th>Wifi</th>
-<th>Bluetooth</th>
-<th>Sensor Capability</th>
-<th>Machine Learning</th>
+         <!-- Row 2 -->
+         <tr class="bg-gray-800 hover:bg-gray-700">
+          <td class="px-6 py-4 border border-gray-600">
+      <a href='https://amzn.to/3EI78La' target='_blank' rel='noopener noreferrer'>
+        <img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/amazon-smart-thermostat.png?raw=true' alt='Amazon Smart Thermostat' class='w-12 h-auto' />
+  Shop Here
+    </a>
+  </td>
+  <td class="px-6 py-4 text-white text-sm">Amazon Smart Thermostat</td>
+  <td class="px-6 py-4 text-white text-sm">$100</td>
+  <td class="px-6 py-4 text-white text-sm">Smart</td>
+  <td class="px-6 py-4 text-white text-sm">Yes</td>
+  <td class="px-6 py-4 text-white text-sm">Yes</td>
+  <td class="px-6 py-4 text-white text-sm">Yes</td>
+  <td class="px-6 py-4 text-white text-sm">Yes</td>
 </tr>
-</thead>
-<tbody>
-<tr>
-<td><a href='https://amzn.to/47dBUJ0' target='_blank' rel='noopener noreferrer'><img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/ecobee-3-lite.png?raw=true' alt='Placeholder Image' style='width:50px; height:auto;' /> Shop Here</a></td>
-<td>Ecobee 3 Lite </td>
-<td>$145</td>
-<td>Smarter</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>No</td>
-</tr>
-<tr>
-<td><a href='https://amzn.to/3EI78La' target='_blank' rel='noopener noreferrer'><img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/amazon-smart-thermostat.png?raw=true' alt='Amazon Smart Thermostat' style='width:50px; height:auto;' /> Shop Now</a></td>
-<td>Amazon Smart Thermostat </td>
-<td>$100</td>
-<td>Smart</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-</tr>
-<tr>
-<td><a href='https://amzn.to/47dBUJ0' target='_blank' rel='noopener noreferrer'><img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/ecobee-premium.png?raw=true' alt='Ecobee Smart Premium' style='width:50px; height:auto;' /> Shop Now</a></td>
-<td> Ecobee Smart Premium </td>
-<td>$225</td>
-<td>Smartest</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>No</td>
-</tr>
-<tr>
-<td><a href='https://amzn.to/45VXuR2' target='_blank' rel='noopener noreferrer'><img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/honeywell-t9.png?raw=true' alt='Honeywell Home T9' style='width:50px; height:auto;' /> Shop Now</a></td>
-<td>Honeywell Home T9 </td>
-<td>$145</td>
-<td>Smarter</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>No</td>
-</tr>
-<tr>
-<td><a href='https://amzn.to/46hAzPR' target='_blank' rel='noopener noreferrer'><img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/google-nest-base.png?raw=true' alt='Google Nest Smart Thermostat' style='width:50px; height:auto;' /> Shop Now</a></td>
-<td>Google Nest Smart Thermostat </td>
-<td>$130</td>
-<td>Smarter</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>No</td>
-</tr>
-<tr>
-<td><a href='https://amzn.to/3PoQpkW' target='_blank' rel='noopener noreferrer'><img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/google-learning-thermostat.png?raw=true' alt='Google Nest Learning Thermostat' style='width:50px; height:auto;' /> Shop Now</a></td>
-<td>Google Nest Learning Thermostat </td>
-<td>$225</td>
-<td>Smartest</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>No</td>
-</tr>  
-<tr>
-<td><a href='https://amzn.to/3ri8cSY' target='_blank' rel='noopener noreferrer'><img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/emporia-evse.png?raw=true' alt='Emporia' style='width:50px; height:auto;' /> Shop Now</a></td>
-<td>Emerson Sensi Touchcolor Display</td>
-<td>$125</td>
-<td>Smarter</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>No</td>
-</tr>
-<tr>
-<td><a href='https://amzn.to/3PIT22G' target='_blank' rel='noopener noreferrer'><img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/juice-evse.png?raw=true' alt='Juicebox' style='width:50px; height:auto;' /> Shop Now</a></td>
-<td>Honeywell Home (RTH9585WF 1004)</td>
-<td>$160</td>
-<td>Smarter</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>No</td>
-</tr> 
-<tr>
-<td><a href='https://amzn.to/47dBUJ0' target='_blank' rel='noopener noreferrer'><img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/wallbox-evse.png?raw=true' alt='Wallbox Pulsar Plus' style='width:50px; height:auto;' /> Shop Now</a></td>
-<td>Ecobee Smart Enhanced </td>
-<td>$180</td>
-<td>Smarter</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>No</td>
-</tr>
-</tbody>
-</table>
 
-<script>
-      document.addEventListener("client:load", function() {
-        $('#comparisonTable').DataTable({
-     });
-    });
+  <!-- Row 3 -->
+  <tr class="bg-gray-800 hover:bg-gray-700">
+    <td class="px-6 py-4 border border-gray-600">
+      <a href='https://amzn.to/47dBUJ0' target='_blank' rel='noopener noreferrer'>
+        <img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/ecobee-premium.png?raw=true' alt='Ecobee Smart Premium' class='w-12 h-auto' />
+        Shop Now
+      </a>
+    </td>
+    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Ecobee Smart Premium</td>
+    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">$225</td>
+    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Smartest</td>
+    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Yes</td>
+    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Yes</td>
+    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Yes</td>
+    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">No</td>
+  </tr>
+
+      <!-- Row 4 -->
+      <tr class="bg-gray-800 hover:bg-gray-700">
+        <td class="px-6 py-4 border border-gray-600">
+      <a href='https://amzn.to/3EI78La' target='_blank' rel='noopener noreferrer'>
+        <img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/amazon-smart-thermostat.png?raw=true' alt='Amazon Smart Thermostat' class='w-12 h-auto' />
+        Shop Now
+      </a>
+    </td>
+    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Amazon Smart Thermostat</td>
+    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">$100</td>
+    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Smart</td>
+    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Yes</td>
+    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Yes</td>
+    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Yes</td>
+    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Yes</td>
+  </tr>
+  <!-- Row 5 -->
+  <tr class="bg-gray-800 hover:bg-gray-700">
+    <td class="px-6 py-4 border border-gray-600">
+      <a href='https://amzn.to/47dBUJ0' target='_blank' rel='noopener noreferrer'>
+        <img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/ecobee-premium.png?raw=true' alt='Ecobee Smart Premium' class='w-12 h-auto' />
+        Shop Now
+      </a>
+    </td>
+    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Ecobee Smart Premium</td>
+    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">$225</td>
+    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Smartest</td>
+    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Yes</td>
+    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Yes</td>
+    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Yes</td>
+    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">No</td>
+  </tr>
+  <!-- Row 6 -->
+  <tr class="bg-gray-800 hover:bg-gray-700">
+    <td class="px-6 py-4 border border-gray-600">
+      <a href='https://amzn.to/45VXuR2' target='_blank' rel='noopener noreferrer'>
+        <img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/honeywell-t9.png?raw=true' alt='Honeywell Home T9' class='w-12 h-auto' />
+        Shop Now
+      </a>
+    </td>
+    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Honeywell Home T9</td>
+    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">$145</td>
+    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Smarter</td>
+    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Yes</td>
+    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Yes</td>
+    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Yes</td>
+    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">No</td>
+  </tr>
+  <!-- Row 7 -->
+  <tr class="bg-gray-800 hover:bg-gray-700">
+    <td class="px-6 py-4 border border-gray-600">
+      <a href='https://amzn.to/46hAzPR' target='_blank' rel='noopener noreferrer'>
+        <img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/google-nest-base.png?raw=true' alt='Google Nest Smart Thermostat' class='w-12 h-auto' />
+        Shop Now
+      </a>
+    </td>
+    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Google Nest Smart Thermostat</td>
+    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">$130</td>
+    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Smarter</td>
+    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Yes</td>
+    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Yes</td>
+    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Yes</td>
+    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">No</td>
+  </tr>
+  <!-- Row 8 -->
+  <tr class="bg-gray-800 hover:bg-gray-700">
+          <td class="px-6 py-4 border border-gray-600">
+      <a href='https://amzn.to/3PoQpkW' target='_blank' rel='noopener noreferrer'>
+        <img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/google-learning-thermostat.png?raw=true' alt='Google Nest Learning Thermostat' class='w-12 h-auto' />
+        Shop Now
+      </a>
+    </td>
+    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Google Nest Learning Thermostat</td>
+    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">$225</td>
+    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Smartest</td>
+    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Yes</td>
+    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Yes</td>
+    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Yes</td>
+    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">No</td>
+  </tr>
+  <!-- Row 9 -->
+  <tr class="bg-white">
+    <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
+      <a href='https://amzn.to/3ri8cSY' target='_blank' rel='noopener noreferrer'>
+        <img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/emporia-evse.png?raw=true' alt='Emporia' class='w-12 h-auto' />
+        Shop Now
+      </a>
+    </td>
+    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Emerson Sensi Touchcolor Display</td>
+    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">$125</td>
+    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Smarter</td>
+    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Yes</td>
+    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Yes</td>
+    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Yes</td>
+    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">No</td>
+  </tr>
+
+      
+      </tbody>
+    </table>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        $('#comparisonTable').DataTable();
+      });
     </script>
+  </section>
 </Layout>
 
-            
-  
-          
-                   
-            
-   -->
-          
                    
