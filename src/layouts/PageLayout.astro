@@ -3,7 +3,6 @@ import Layout from '~/layouts/Layout.astro';
 import Header from '~/components/widgets/Header.astro';
 import Footer from '~/components/widgets/Footer.astro';
 
-
 import { headerData, footerData } from '~/navigation';
 
 import type { MetaData } from '~/types';
@@ -16,6 +15,14 @@ const { metadata } = Astro.props;
 ---
 
 <Layout metadata={metadata}>
+  <head>
+    <!-- DataTables CSS -->
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.css">
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <!-- DataTables Script -->
+    <script src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>
+  </head>
   <slot name="header">
     <Header {...headerData} isSticky  />
   </slot>

@@ -2,15 +2,8 @@
 import Layout from '~/layouts/PageLayout.astro';
 import Header from '~/components/widgets/Header.astro';
 import Features3 from '~/components/widgets/Features3.astro';
+
 ---
-<style>
-  .table-sticky-header {
-    z-index: 2;
-  }
-  .page-header {
-    z-index: 1;
-  }
-</style>
 
     <Layout>
       <Fragment slot="header">
@@ -24,7 +17,18 @@ import Features3 from '~/components/widgets/Features3.astro';
           isSticky
         />
       </Fragment>
-    
+      
+      <thead>
+        <!-- DataTables CSS -->
+        <link rel="stylesheet" href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.css">
+        <!-- jQuery -->
+        <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+        <!-- DataTables Script -->
+        <script src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>
+        <thead>
+
+
+
       <!-- Features3 to Compare Section -->
     <Features3
       title="Portable Power Station Comparison Table"
@@ -64,14 +68,7 @@ import Features3 from '~/components/widgets/Features3.astro';
       ]}
     />
   
-    <section>
-   <!-- DataTables CSS -->
-   <link rel="stylesheet" href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.css">
-   <!-- jQuery -->
-   <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
-   <!-- DataTables Script -->
-   <script src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>
-
+ 
  <!-- Table -->
  <table id="comparisonTable" class="min-w-full bg-gray-800 text-white border border-gray-600">
   <thead class="bg-green-900 sticky top-0 rounded-t-lg">
