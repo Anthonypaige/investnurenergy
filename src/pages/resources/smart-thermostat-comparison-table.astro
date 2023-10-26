@@ -1,11 +1,9 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
-// import Hero from '~/components/widgets/Hero.astro';
-import Features from '~/components/widgets/Features3.astro';
+import Features2 from '~/components/widgets/Features2.astro';
 ---
 
 <Layout>
-  <!-- <Hero title="Smart Thermostats Comparison" /> -->
   
   <style scoped>
     .bg-gray-800 {
@@ -21,7 +19,7 @@ import Features from '~/components/widgets/Features3.astro';
     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.css">
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
  
-<Features
+<Features2
 title="Smart Thermostat Comparison Table Legend"
 columns={3}
 items={[
@@ -36,17 +34,17 @@ items={[
     icon: 'tabler:bulb'
   },
   {
-    title: 'Bluetooth',
+    title: 'Smart Home Integration',
     description: 'Specifies if the thermostat has Bluetooth capabilities.',
     icon: 'tabler:bolt'
   },
   {
-    title: 'Sensor Capability',
+    title: 'Sensor Ready',
     description: 'Indicates if the thermostat can use additional sensors.',
     icon: 'tabler:bulb'
   },
   {
-    title: 'Machine Learning',
+    title: 'Advanced Learning',
     description: 'Specifies if the thermostat adapts to your behavior over time.',
     icon: 'tabler:bolt'
   }
@@ -61,7 +59,7 @@ items={[
     <tr>
       <th class="py-2 px-4 border border-gray-600 bg-green-700 rounded-tl-lg">Shop Here</th>
       <th class="py-2 px-4 border border-gray-600 bg-green-700">Smart Thermostat</th>
-      <th class="py-2 px-4 border border-gray-600 bg-green-700">System Price</th>
+      <th class="py-2 px-4 border border-gray-600 bg-green-700">Avg Price</th>
       <th class="py-2 px-4 border border-gray-600 bg-green-700">Profile</th>
       <th class="py-2 px-4 border border-gray-600 bg-green-700">Wifi</th>
       <th class="py-2 px-4 border border-gray-600 bg-green-700">Bluetooth</th>
@@ -76,7 +74,7 @@ items={[
   <!-- Ecobee 3 Lite-->
   <tr class="bg-gray-800 hover:bg-gray-700">
     <td class="py-2 px-4 border border-gray-600">
-      <a href='https://amzn.to/47dBUJ0' target='_blank' rel='noopener noreferrer'>
+      <a href='https://amzn.to/46Zu8C9' target='_blank' rel='noopener noreferrer'>
         <img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/ecobee-3-lite.png?raw=true' alt='Ecobee 3 Lite' class="w-12 h-auto" />
         Shop Here
       </a>
@@ -93,7 +91,7 @@ items={[
   <!-- Amazon Smart Thermostat -->
   <tr class="bg-gray-800 hover:bg-gray-700">
   <td class="py-2 px-4 border border-gray-600">
-    <a href='https://amzn.to/3qes8Wj' target='_blank' rel='noopener noreferrer'>
+    <a href='https://amzn.to/45MCawo' target='_blank' rel='noopener noreferrer'>
       <img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/amazon-smart-thermostat.png?raw=true' alt='Amazon Smart Thermostat' class="w-12 h-auto" />
       Shop Now
     </a>
@@ -110,7 +108,7 @@ items={[
 <!--Ecobee Smart Premium -->
 <tr class="bg-gray-800 hover:bg-gray-700">
   <td class="py-2 px-4 border border-gray-600">
-    <a href='https://amzn.to/3qes8Wj' target='_blank' rel='noopener noreferrer'>
+    <a href='https://amzn.to/47529Al' target='_blank' rel='noopener noreferrer'>
       <img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/ecobee-premium.png?raw=true' alt='Ecobee Smart Premium' class="w-12 h-auto" />
       Shop Now
     </a>
@@ -127,7 +125,7 @@ items={[
 <!-- Honeywell Home T9 -->
 <tr class="bg-gray-800 hover:bg-gray-700">
   <td class="py-2 px-4 border border-gray-600">
-    <a href='https://amzn.to/3qes8Wj' target='_blank' rel='noopener noreferrer'>
+    <a href='https://amzn.to/407LoSZ' target='_blank' rel='noopener noreferrer'>
       <img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/honeywell-t9.png?raw=true' 'alt='Honeywell Home T9' class="w-12 h-auto" />
       Shop Now
     </a>
@@ -144,7 +142,7 @@ items={[
 <!-- Google Nest Learning -->
 <tr class="bg-gray-800 hover:bg-gray-700">
   <td class="py-2 px-4 border border-gray-600">
-    <a href='https://amzn.to/3qes8Wj' target='_blank' rel='noopener noreferrer'>
+    <a href='https://amzn.to/3tNnwYK' target='_blank' rel='noopener noreferrer'>
       <img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/google-nest%20learning.png?raw=true' 'alt='Google Nest Learning' class="w-12 h-auto" />
       Shop Now
     </a>
@@ -161,13 +159,13 @@ items={[
 <!-- Google Nest Smart-->
 <tr class="bg-gray-800 hover:bg-gray-700">
   <td class="py-2 px-4 border border-gray-600">
-    <a href='https://amzn.to/3qes8Wj' target='_blank' rel='noopener noreferrer'>
+    <a href='https://amzn.to/3tW5ljm' target='_blank' rel='noopener noreferrer'>
       <img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/Google-nest-base.png?raw=true' 'alt='Google Nest Smart' class="w-12 h-auto" />
       Shop Now
     </a>
   </td>
   <td class="py-2 px-4 border border-gray-600">Google Nest Smart</td>
-  <td class="py-2 px-4 border border-gray-600">$125</td>
+  <td class="py-2 px-4 border border-gray-600">$130</td>
   <td class="py-2 px-4 border border-gray-600">Smarter</td>
   <td class="py-2 px-4 border border-gray-600">Yes</td>
   <td class="py-2 px-4 border border-gray-600">Yes</td>

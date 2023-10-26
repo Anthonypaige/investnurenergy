@@ -1,12 +1,10 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
-//import Hero from '~/components/widgets/Hero.astro';
-import Features from '~/components/widgets/Features.astro';
+import Features2 from '~/components/widgets/Features2.astro';
 ---
 
 <Layout>
-  <!-- Hero Widget ******************* -->
-  <!-- <Hero title="EV Charger Comparison Table" /> -->
+  
 
   <style scoped>
     .bg-gray-800 {
@@ -22,7 +20,7 @@ import Features from '~/components/widgets/Features.astro';
     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.css">
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
  
-    <Features
+    <Features2
     title="EV Charger Comparison Table Legend"
     columns={3}
     items={[
@@ -68,7 +66,7 @@ import Features from '~/components/widgets/Features.astro';
       <tr>
         <th class="py-2 px-4 border border-gray-600 bg-green-700 rounded-tl-lg">Shop Here</th>
         <th class="py-2 px-4 border border-gray-600 bg-green-700">Ev Charger</th>
-        <th class="py-2 px-4 border border-gray-600 bg-green-700"> Price</th>
+        <th class="py-2 px-4 border border-gray-600 bg-green-700">AvgPrice</th>
         <th class="py-2 px-4 border border-gray-600 bg-green-700">Max Amps</th>
         <th class="py-2 px-4 border border-gray-600 bg-green-700">Wifi</th>
         <th class="py-2 px-4 border border-gray-600 bg-green-700">Bluetooth</th>
@@ -89,13 +87,13 @@ import Features from '~/components/widgets/Features.astro';
         Shop Now
       </a>
     </td>
-    <td class="py-2 px-4 border border-gray-600">Autel MaxiCharger 40A Smart Charger</td>
-    <td class="py-2 px-4 border border-gray-600">$559.00</td>
-    <td class="py-2 px-4 border border-gray-600">40 Amps</td>
+    <td class="py-2 px-4 border border-gray-600">Autel MaxiCharger 50A Smart Charger</td>
+    <td class="py-2 px-4 border border-gray-600">$600</td>
+    <td class="py-2 px-4 border border-gray-600">50 Amps</td>
     <td class="py-2 px-4 border border-gray-600">Yes</td>
     <td class="py-2 px-4 border border-gray-600">Yes</td>
     <td class="py-2 px-4 border border-gray-600">Separate holster</td>
-    <td class="py-2 px-4 border border-gray-600">NEMA 14-50 or 6-50</td>
+    <td class="py-2 px-4 border border-gray-600">Hardwired</td>
     <td class="py-2 px-4 border border-gray-600">NEMA 4X</td>
   </tr>
   
@@ -108,7 +106,7 @@ import Features from '~/components/widgets/Features.astro';
       </a>
     </td>
     <td class="py-2 px-4 border border-gray-600">JuiceBox 40A Smart Charger</td>
-    <td class="py-2 px-4 border border-gray-600">$599.00</td>
+    <td class="py-2 px-4 border border-gray-600">$600</td>
     <td class="py-2 px-4 border border-gray-600">40 Amps</td>
     <td class="py-2 px-4 border border-gray-600">Yes</td>
     <td class="py-2 px-4 border border-gray-600">Yes</td>
@@ -125,8 +123,8 @@ import Features from '~/components/widgets/Features.astro';
         Shop Now
       </a>
     </td>
-    <td class="py-2 px-4 border border-gray-600">Lectron 40 Amp Level 2</td>
-    <td class="py-2 px-4 border border-gray-600">$449.00</td>
+    <td class="py-2 px-4 border border-gray-600">Lectron 48 Amp Level 2</td>
+    <td class="py-2 px-4 border border-gray-600">$450</td>
     <td class="py-2 px-4 border border-gray-600">40 Amps</td>
     <td class="py-2 px-4 border border-gray-600">No</td>
     <td class="py-2 px-4 border border-gray-600">No</td>
@@ -144,7 +142,7 @@ import Features from '~/components/widgets/Features.astro';
       </a>
     </td>
     <td class="py-2 px-4 border border-gray-600">Electrify America Level 2</td>
-    <td class="py-2 px-4 border border-gray-600">$649.00</td>
+    <td class="py-2 px-4 border border-gray-600">$650</td>
     <td class="py-2 px-4 border border-gray-600">40 Amps</td>
     <td class="py-2 px-4 border border-gray-600">Yes</td>
     <td class="py-2 px-4 border border-gray-600">No</td>
@@ -162,7 +160,7 @@ import Features from '~/components/widgets/Features.astro';
       </a>
     </td>
     <td class="py-2 px-4 border border-gray-600">Wallbox Pulsar Plus 40A Smart Charger</td>
-    <td class="py-2 px-4 border border-gray-600">$649.00</td>
+    <td class="py-2 px-4 border border-gray-600">$650</td>
     <td class="py-2 px-4 border border-gray-600">40 Amps</td>
     <td class="py-2 px-4 border border-gray-600">Yes</td>
     <td class="py-2 px-4 border border-gray-600">Yes</td>
@@ -181,7 +179,7 @@ import Features from '~/components/widgets/Features.astro';
       </a>
     </td>
     <td class="py-2 px-4 border border-gray-600">Emporia 48A Smart Charger</td>
-    <td class="py-2 px-4 border border-gray-600">$399.00</td>
+    <td class="py-2 px-4 border border-gray-600">$400</td>
     <td class="py-2 px-4 border border-gray-600">48 Amps</td>
     <td class="py-2 px-4 border border-gray-600">No</td>
     <td class="py-2 px-4 border border-gray-600">No</td>
@@ -199,7 +197,7 @@ import Features from '~/components/widgets/Features.astro';
       </a>
     </td>
     <td class="py-2 px-4 border border-gray-600">ChargePoint 50A Smart Charger</td>
-    <td class="py-2 px-4 border border-gray-600">$682</td>
+    <td class="py-2 px-4 border border-gray-600">$600</td>
     <td class="py-2 px-4 border border-gray-600">50 Amps</td>
     <td class="py-2 px-4 border border-gray-600">Yes</td>
     <td class="py-2 px-4 border border-gray-600">Yes</td>
