@@ -26,7 +26,7 @@ export const headerData = {
       ],
     },
     {
-      text: 'Energy Efficient Rebates',
+      text: 'State Level Rebates',
       links: [
         { text: 'Energy Efficient Rebates', href: getPermalink('/energyefficientrebates/energy-efficient-rebates') },
         { text: 'Smart Energy Devices', href: getPermalink('/energyefficientrebates/smart-energy-devices') },
@@ -45,7 +45,6 @@ export const headerData = {
       text: 'Blog',
       links: [
         { text: 'Blog List', href: getBlogPermalink() },
-        { text: 'Article (with MDX)', href: getPermalink('what-is-energy-arbitrage', 'post') },
         { text: 'Category Page', href: getPermalink('home-clean-energy-credit', 'category') },
         { text: 'Tag Page', href: getPermalink('solar-energy', 'tag') },
       ],
@@ -58,9 +57,9 @@ export const footerData = {
     {
       title: 'Tax Code Breakdowns',
       links: [
-        { text: 'Home Clean Energy Credit', href: getPermalink('cleanenergy/home-clean-energy-credit') },
-        { text: 'Energy Efficient Home Upgrades', href: getPermalink('energyefficient/energy-efficient-home-upgrades') },
-        { text: 'Energy Efficient Rebates', href: getPermalink('energyefficientrebates/energy-efficient-rebates') },
+        { text: 'Home Clean Energy Credit', href: getPermalink('/cleanenergy/home-clean-energy-credit') },
+        { text: 'Energy Efficient Home Upgrades', href: getPermalink('/energyefficient/energy-efficient-home-upgrades') },
+        { text: 'Energy Efficient Rebates', href: getPermalink('/energyefficientrebates/energy-efficient-rebates') },
       ],
     },
     {
@@ -78,7 +77,7 @@ export const footerData = {
         { text: 'Geothermal Energy', href: getPermalink('/cleanenergy/geothermal-energy') },
         { text: 'Wind Energy', href: getPermalink('/cleanenergy/wind-energy') },
         { text: 'Heat Pumps', href: getPermalink('/energyefficient/air-source-heat-pumps') },
-        { text: 'Water Heaters', href: getPermalink('/energyefficient/energy-efficient-water-heaters-') },
+        { text: 'Water Heaters', href: getPermalink('/energyefficient/energy-efficient-water-heaters') },
       ],
     },
     {
