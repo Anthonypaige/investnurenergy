@@ -18,7 +18,9 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: us-east-1
       - name: Install modules
-        run: npm ci
+        run: nvm install 18.18.2
+             nvm use 18.18.2
+             npm install
       - name: Build application
         run: npm run build
       - name: Deploy to S3
