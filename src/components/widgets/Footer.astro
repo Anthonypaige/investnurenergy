@@ -1,12 +1,11 @@
 ---
 import { Icon } from 'astro-icon/components';
-// Removed unused import of SITE
-import { getHomePermalink } from '~/utils/permalinks';
+import { getPermalink } from '~/utils/permalinks';
 
 interface Link {
   text?: string;
   href?: string;
-  ariaLabel?: string;  // Make this optional
+  ariaLabel?: string; 
   icon?: string;
 }
 
@@ -27,35 +26,43 @@ const newLinks = [
   {
     title: 'Tax Code Breakdowns',
     links: [
-      { text: 'Home Clean Energy Credit', href: 'investinyourenergy-home-clean-energy-credit' },
-      { text: 'Energy Efficient Home Upgrades', href: 'investinyourenergy-energy-efficient-home-upgrades' },
-      { text: 'Energy Efficient Rebates', href: 'investinyourenergy-energy-efficient-rebates' },
-    ]
-  },
-  {
-    title: 'Top Pages',
-    links: [
-      { text: 'Smart Energy Devices', href: 'investinyourenergy.com/smart-energy-devices' },
-      { text: 'Home Energy Storage', href: 'investinyourenergy.com/home-energy-storage' },
-      { text: 'Solar Tax Incentive', href: 'investinyourenergy.com/solar-tax-incentive' },
-    ]
-  },
-  {
-    title: 'Clean Energy Pages',
-    links: [
-      { text: 'Solar Basics', href: 'investinyourenergy.com/solar-basics-page' },
-      { text: 'Geothermal Energy', href: 'investinyourenergy.com/geothermal-page' },
-      { text: 'Wind Energy', href: 'investinyourenergy.com/wind-energy-page' },
-    ]
-  },
-  {
-    title: 'Energy Efficiency Pages',
-    links: [
-      { text: 'Heat Pumps', href: 'investinyourenergy.com/heat-pump-page' },
-      { text: 'Water Heaters', href: 'investinyourenergy.com/water-heaters-page' },
-      { text: 'Weatherization', href: 'investinyourenergy.com/weatherization-page' },
-    ]
-  }
+    {
+      title: 'Tax Code Breakdowns',
+      links: [
+        { text: 'Home Clean Energy Credit', href: getPermalink('investinyourenergy/home-clean-energy-credit') },
+        { text: 'Energy Efficient Home Upgrades', href: getPermalink('investinyourenergy/energy-efficient-home-upgrades') },
+        { text: 'Energy Efficient Rebates', href: getPermalink('investinyourenergy/energy-efficient-rebates') },
+      ],
+    },
+    {
+      title: 'Top Pages',
+      links: [
+        { text: 'Smart Energy Devices', href: getPermalink('investinyourenergy/smart-energy-devices') },
+        { text: 'Home Energy Storage', href: getPermalink('investinyourenergy/home-energy-storage') },
+        { text: 'Solar Tax Incentive', href: getPermalink('investinyourenergy/solar-tax-incentive') },
+	 { text: 'Solar Basics', href: getPermalink('cleanenergy/solar-basics') },
+      ],
+    },
+    {
+     title: 'Other Pages',
+      links: [
+        { text: 'Geothermal Energy', href: getPermalink('cleanenergy/geothermal-energy') },
+        { text: 'Wind Energy', href: getPermalink('cleanenergy/wind-energy') },
+        { text: 'Heat Pumps', href: getPermalink('energyefficient/air-source-heat-pumps') },
+        { text: 'Water Heaters', href: getPermalink('energyefficient/energy-efficient-water-heaters-') },
+      ],
+    },
+    {
+         title: 'Shopping',
+      links: [
+        { text: 'Affiliate Marketplace', href: getPermalink('shopping/affiliate-marketplace') },
+        { text: 'Top Smart Thermostats', href: getPermalink('shopping/smart-thermostat-comparison-table') },
+        { text: 'Portable Power Stations', href: getPermalink('shopping/portable-power-stations-comparison-table') },
+        { text: 'EV Chargers', href: getPermalink('shopping/ev-charger-comparison-table') },
+      ],
+    },
+  ],
+};  }
 ];
 
 const siteName = "Invest in Your Energy";
