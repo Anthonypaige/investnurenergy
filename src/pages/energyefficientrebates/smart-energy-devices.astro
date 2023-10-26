@@ -4,48 +4,32 @@ import SmartEnergyDeviceNote from '~/components/widgets/SmartEnergyDeviceNote.as
 import Hero from '~/components/widgets/Hero.astro';
 import FeaturedArticles from '~/components/widgets/FeaturedArticles.astro';
 
-
 const metadata = {
   title: 'Smart Energy Devices',
 };
 ---
 <Layout metadata={metadata}>
  
-<!-- Hero Widget ******************* -->
-<Hero actions={[]}>
-  <Fragment slot="title">
-    <div style="font-size: 1em; font-weight: bold; margin-bottom: 8px;">Smart <span style="color:#228B22; font-weight: 700;">Energy</span> Devices</div>
-  </Fragment>
-
-  <Fragment slot="subtitle">
-    Enhance your home's energy efficiency and convenience with smart devices that adapt to your lifestyle.
-  </Fragment>
-
-  <!-- Adding Autoplay Video -->
-  <Fragment slot="background">
-    <video autoplay muted loop class="object-cover w-full h-full">
-      <source src="/images/smart-home-video.mp4" type="video/mp4">
-    </video>
-  </Fragment>
-</Hero>
-
+  <!-- Hero Widget ******************* -->
+  <Hero actions={[]} videoSrc="/images/smart-home-video.mp4">
+    <Fragment slot="title">
+      <div class="text-right text-green-600 font-bold" style="font-size: 1em; margin-bottom: 8px;">Smart Energy Devices</div>
+    </Fragment>
+  </Hero>
 
   <SmartEnergyDeviceNote />
 
   <!-- Featured Articles Widget ******************* -->
-<FeaturedArticles 
-  title="Featured Articles" 
-  articleSlugs={[
-    'iot-is-fueling-smart-energy-devices',
-    'home-energy-monitoring-your-guide-to-energy-efficiency',
-    'emporias-home-energy-monitoring-systems',
-    'senses-home-energy-monitoring-system-driven-by-machine-learning',
-    'smart-thermostat-shopping-guide-what-you-need-to-know',
-    'ecobee-smart-thermostats-buying-guide',
-    'your-comprehensive-google-nest-buying-guide',
-  ]}
-  
-
+  <FeaturedArticles 
+    title="Featured Articles" 
+    articleSlugs={[
+      'iot-is-fueling-smart-energy-devices',
+      'home-energy-monitoring-your-guide-to-energy-efficiency',
+      'emporias-home-energy-monitoring-systems',
+      'senses-home-energy-monitoring-system-driven-by-machine-learning',
+      'smart-thermostat-shopping-guide-what-you-need-to-know',
+      'ecobee-smart-thermostats-buying-guide',
+      'your-comprehensive-google-nest-buying-guide',
+    ]}
   />
-
 </Layout>

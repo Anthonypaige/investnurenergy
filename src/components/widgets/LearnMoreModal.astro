@@ -1,0 +1,36 @@
+---
+// Astro component logic here
+const { modalId, modalTitle, modalContent } = Astro.props;
+---
+
+<!-- Include Modal CSS and JS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tw-elements/modal@1.0.0/dist/modal.min.css">
+<script type="module">
+  import 'https://cdn.jsdelivr.net/npm/@tw-elements/modal@1.0.0/dist/modal.min.js';
+</script>
+
+<!-- Button to trigger modal -->
+<button class="btn btn-primary" data-tw-toggle="modal" data-tw-target={`#${modalId}`}>
+    Learn More
+  </button>
+  
+
+<!-- Modal Structure -->
+<div class="tw-modal" id={modalId}>
+  <div class="tw-modal-dialog">
+    <div class="tw-modal-content">
+      <div class="tw-modal-header">
+        <h5 class="tw-modal-title">{modalTitle}</h5>
+        <button type="button" class="tw-close" data-tw-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="tw-modal-body">
+        {modalContent || Astro.slots.default}
+      </div>
+      <div class="tw-modal-footer">
+        <button type="button" class="btn btn-secondary" data-tw-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
