@@ -14,7 +14,6 @@ const {
   avgPrice: avgPriceClass = 'text-xl font-semibold mb-2 text-green-500',
   ribbon: ribbonClass = 'absolute top-0 left-0 text-white py-1 px-3 text-xs font-bold transform -rotate-45 ribbon'
 } = classes;
-
 ---
 
 <style>
@@ -51,7 +50,7 @@ const {
         <div class={twMerge('card-hover relative flex flex-col max-w-sm p-4 border rounded shadow-lg bg-gray-800 hover:bg-gray-700 hover:shadow-xl transition duration-300', cardClass)}>
           {/* Tax Code Ribbon */}
           {taxCode && (
-            <div class="ribbon">
+            <div class={ribbonClass}>
               <span>Tax Code: {taxCode}</span>
             </div>
           )}
@@ -61,7 +60,7 @@ const {
           )}
           {/* Product Image */}
           {imageSrc && (
-            <img src={imageSrc} alt={title} class="w-full h-auto object-cover mb-4 rounded" loading="lazy" />
+            <img src={imageSrc} alt={title} class={imageClass} loading="lazy" />
           )}
           {/* Top Selling Points */}
           {topSellingPoints && topSellingPoints.map((point, index, array) => (
@@ -88,15 +87,16 @@ const {
               </div>
             )}
           </div>
-<div class="flex justify-between items-center mt-auto">
-  {shopButton && (
-    <Button variant="primary" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-200 transition duration-300" {...(shopButton as unknown as object)} />
-  )}
-  <Button variant="secondary" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-gray-600 focus:outline-none focus:ring-2 focus:ring-gray-200 transition duration-300">
-    Learn More
-  </Button>
-</div>
-</div>
-))}
-</div>
-)
+          <div class="flex justify-between items-center mt-auto">
+            {shopButton && (
+              <Button variant="primary" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-200 transition duration-300" {...(shopButton as unknown as object)} />
+            )}
+            <Button variant="secondary" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-gray-600 focus:outline-none focus:ring-2 focus:ring-gray-200 transition duration-300">
+              Learn More
+            </Button>
+          </div>
+        </div>
+      ))}
+    </div>
+  )
+}
