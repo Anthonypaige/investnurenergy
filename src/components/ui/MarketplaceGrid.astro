@@ -61,7 +61,7 @@ const {
           )}
           {/* Product Image */}
           {imageSrc && (
-            <img src={imageSrc} alt={title} class="w-full h-64 object-cover mb-4 rounded" />
+            <img src={imageSrc} alt={title} class="w-full h-auto object-cover mb-4 rounded" loading="lazy" />
           )}
           {/* Top Selling Points */}
           {topSellingPoints && topSellingPoints.map((point, index, array) => (
