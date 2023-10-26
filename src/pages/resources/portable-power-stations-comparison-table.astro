@@ -1,13 +1,67 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
+//import Hero from '~/components/widgets/Hero.astro';
+import Features from '~/components/widgets/Features3.astro';
 ---
-<link rel='stylesheet' href='https://cdn.datatables.net/1.10.25/css/jquery.dataTables.css'>
-<script src='https://code.jquery.com/jquery-3.5.1.js'></script>
-<script src='https://cdn.datatables.net/1.10.25/js/jquery.dataTables.js'></script>
 
 <Layout>
+  <!-- <Hero title="Portable Power Stations Comparison" /> -->
+  
+  <style scoped>
+    .bg-gray-800 {
+      background-color: #2d3748;
+    }
+    tr.bg-gray-800:hover {
+      background-color: #4A5568; /* or any other color you prefer */
+    }
+    /* Add any other custom styles here */
+  </style>
+  
+  <section class="container mx-auto p-6">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+ 
+    
+     <Features
+      title="Portable Power Station Comparison Table"
+      subtitle="These are the key features that differ among the portable power stations."
+      columns={3}
+      items={[
+        {
+          title: 'Cell Type',
+          description: 'The type of battery cells used in the system.',
+          icon: 'tabler:cell'
+        },
+        {
+          title: 'Life Cycles',
+          description: 'The number of charge cycles the battery can withstand.',
+          icon: 'tabler:arrows-diff'
+        },
+        {
+          title: 'Usable Capacity',
+          description: 'The amount of energy that can be stored and used.',
+          icon: 'tabler:battery-2-filled'
+        },
+        {
+          title: 'Continuous Output',
+          description: 'The amount of power the system can output continuously.',
+          icon: 'tabler:battery-charging'
+        },
+        {
+          title: 'Surge Power',
+          description: 'The maximum power the system can output for short periods',
+          icon: 'tabler:bolt'
+       },
+       {
+          title: 'AC Charging Time',
+          description: 'The time it takes to fully charge the system using an AC outlet',
+          icon: 'tabler:plug'
+       },
+      ]}
+    />
+  
 
- <!-- Table -->
+    <!-- Table -->
  <table id="comparisonTable" class="min-w-full bg-gray-800 text-white border border-gray-600">
   <thead class="bg-green-900 sticky top-0 rounded-t-lg">
     <tr>
@@ -25,6 +79,8 @@ import Layout from '~/layouts/PageLayout.astro';
 
 <!-- Table Body -->
 <tbody>
+  
+  <!-- Bluetti AC500 + 300S System -->
   <tr class="bg-gray-800 hover:bg-gray-700">
     <td class="py-2 px-4 border border-gray-600">
       <a href='https://amzn.to/3qes8Wj' target='_blank' rel='noopener noreferrer'>
@@ -204,10 +260,9 @@ import Layout from '~/layouts/PageLayout.astro';
 </tr>
 </tbody>
 </table>
-    <script>
-      document.addEventListener("client:load", function() {
-        $('#comparisonTable').DataTable({
-     });
-    });
-    </script>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    $('#comparisonTable').DataTable();
+  });
+</script>
 </Layout>
