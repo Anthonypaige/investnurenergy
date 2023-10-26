@@ -1,0 +1,126 @@
+---
+import WidgetWrapper from '../ui/WidgetWrapper.astro';
+---
+<WidgetWrapper>
+    <style>
+        h1 {
+          color: #fff;
+          text-align: center;
+          font-size: 24px;
+          margin-bottom: 20px;
+        }
+        form {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          background-color: #444;
+          padding: 20px;
+          border-radius: 5px;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .input-container {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+        }
+        .input-group {
+          flex: 0 0 calc(50% - 10px);
+          margin-bottom: 20px;
+        }
+        label, input {
+          color: #fff;
+        }
+        label {
+          display: inline-block;
+          width: 55%;
+          text-align: right;
+          margin-right: 5px;
+        }
+        input {
+          width: 30%;
+        }
+        button {
+          background-color: #4CAF50;
+          color: white;
+          padding: 10px 20px;
+          border: none;
+          cursor: pointer;
+          border-radius: 5px;
+          width: 100%;
+          font-size: 16px;
+        }
+        button:hover {
+          background-color: #45a049;
+        }
+        #results {
+          background-color: #444;
+          padding: 20px;
+          border-radius: 5px;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+          margin-top: 20px;
+        }
+      </style>
+      
+      
+      
+
+    <!-- Rest of your component -->
+ 
+  
+
+ <h1>The Energy Arbitrage Savings Calculator</h1>
+  <form id="calculator-form">
+    <div class="input-container">
+      <div class="input-group">
+        <label for="batteryCapacity">Battery Usable Capacity (kWh):</label>
+        <input type="number" id="batteryCapacity" required>
+      </div>
+      <div class="input-group">
+        <label for="peakRate">Peak Rate (cents/kWh):</label>
+        <input type="number" id="peakRate" required>
+      </div>
+      <div class="input-group">
+        <label for="offPeakRate">Off-Peak Rate (cents/kWh):</label>
+        <input type="number" id="offPeakRate" required>
+      </div>
+      <div class="input-group">
+        <label for="summerPeakHours">Summer Peak Hours:</label>
+        <input type="number" id="summerPeakHours" required>
+      </div>
+      <div class="input-group">
+        <label for="nonSummerPeakHours">Non-Summer Peak Hours:</label>
+        <input type="number" id="nonSummerPeakHours" required>
+      </div>
+      <div class="input-group">
+        <label for="averageConsumption">Avg Consumption/Hour (kWh):</label>
+        <input type="number" id="averageConsumption" required>
+      </div>
+    </div>
+    <button type="button" onclick="calculateSavings()">Calculate</button>
+  </form>
+  <h2>Results:</h2>
+  <p id="results"></p>
+
+  <script>
+    function calculateSavings() {
+      var batteryCapacity = document.getElementById("batteryCapacity").value;
+      var peakRate = document.getElementById("peakRate").value;
+      var offPeakRate = document.getElementById("offPeakRate").value;
+      var summerPeakHours = document.getElementById("summerPeakHours").value;
+      var nonSummerPeakHours = document.getElementById("nonSummerPeakHours").value;
+      var averageConsumption = document.getElementById("averageConsumption").value;
+  
+      var summerDays = 122;
+      var nonSummerDays = 243;
+  
+      var savingsPerKWh = peakRate - offPeakRate;
+  
+      var summerSavings = savingsPerKWh * averageConsumption * summerPeakHours * summerDays;
+      var nonSummerSavings = savingsPerKWh * averageConsumption * nonSummerPeakHours * nonSummerDays;
+  
+      var totalSavings = summerSavings + nonSummerSavings;
+  
+      document.getElementById("results").innerHTML = "Total Savings Per Year: $" + totalSavings.toFixed(2);
+    }
+  </script>
+</WidgetWrapper>
