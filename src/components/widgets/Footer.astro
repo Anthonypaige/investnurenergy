@@ -23,9 +23,7 @@ export interface Props {
 }
 
 const newLinks = [
-  {
-    title: 'Tax Code Breakdowns',
-    links: [
+  
     {
       title: 'Tax Code Breakdowns',
       links: [
@@ -40,7 +38,7 @@ const newLinks = [
         { text: 'Smart Energy Devices', href: getPermalink('investinyourenergy/smart-energy-devices') },
         { text: 'Home Energy Storage', href: getPermalink('investinyourenergy/home-energy-storage') },
         { text: 'Solar Tax Incentive', href: getPermalink('investinyourenergy/solar-tax-incentive') },
-	 { text: 'Solar Basics', href: getPermalink('cleanenergy/solar-basics') },
+	      { text: 'Solar Basics', href: getPermalink('cleanenergy/solar-basics') },
       ],
     },
     {
@@ -53,7 +51,7 @@ const newLinks = [
       ],
     },
     {
-         title: 'Shopping',
+      title: 'Shopping',
       links: [
         { text: 'Affiliate Marketplace', href: getPermalink('shopping/affiliate-marketplace') },
         { text: 'Top Smart Thermostats', href: getPermalink('shopping/smart-thermostat-comparison-table') },
@@ -61,9 +59,7 @@ const newLinks = [
         { text: 'EV Chargers', href: getPermalink('shopping/ev-charger-comparison-table') },
       ],
     },
-  ],
-};  }
-];
+  ];
 
 const siteName = "Invest in Your Energy";
 const newSecondaryLinks = [
@@ -75,15 +71,17 @@ const { socialLinks = [
   { ariaLabel: 'Follow us on Facebook', href: 'https://www.facebook.com/YourPage', icon: 'facebook' },
   { ariaLabel: 'Follow us on Twitter', href: 'https://twitter.com/YourHandle', icon: 'twitter' }
 ], theme = 'light' } = Astro.props;
+
 const links = newLinks;
 
 ---
+
 <footer class:list={[{ dark: theme === 'dark' }, 'relative border-t border-gray-200 dark:border-slate-800 not-prose']}>
   <div class="relative max-w-7xl mx-auto px-4 sm:px-6 dark:text-slate-300">
     <div class="grid grid-cols-12 gap-4 gap-y-8 sm:gap-8 py-8 md:py-12">
       <div class="col-span-12 lg:col-span-4">
         <div class="mb-2">
-          <a class="inline-block font-bold text-xl" href={getHomePermalink()}>
+          <a class="inline-block font-bold text-xl" href={getPermalink()}>
             <span style="color:#228B22; font-weight: 700;">Invest</span> in Your <span style="color:#228B22; font-weight: 700;">Energy</span>
           </a>
           
