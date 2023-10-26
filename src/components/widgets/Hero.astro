@@ -24,10 +24,9 @@ const {
   image = await Astro.slots.render('image'),
   videoSrc // New property for video source
 } = Astro.props;
----
 
+---
 <section class="relative md:-mt-[76px] not-prose" {...id ? { id } : {}}>
-  <!-- Conditionally add video if videoSrc is provided -->
   {videoSrc && (
     <video autoplay muted loop class="absolute inset-0 object-cover w-full h-full z-0">
       <source src={videoSrc} type="video/mp4">
@@ -60,12 +59,12 @@ const {
       </div>
       <div>
         {image && (
-          <div class="relative m-auto max-w-5xl">
+          <div class="relative m-auto max-w-full">
             {typeof image === 'string' ? (
               <Fragment set:html={image} />
             ) : (
               <Image
-                class="mx-auto rounded-md w-full"
+                class="mx-auto rounded-md w-full h-[400px] object-cover"
                 widths={[400, 768, 1024, 2040]}
                 sizes="(max-width: 767px) 400px, (max-width: 1023px) 768px, (max-width: 2039px) 1024px, 2040px"
                 loading="eager"
