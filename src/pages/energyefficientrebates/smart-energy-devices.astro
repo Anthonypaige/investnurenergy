@@ -11,9 +11,8 @@ const metadata = {
 ---
 <Layout metadata={metadata}>
  
-
- <!-- Hero Widget ******************* -->
- <Hero actions={[]}>
+<!-- Hero Widget ******************* -->
+<Hero actions={[]}>
   <Fragment slot="title">
     <div style="font-size: 1em; font-weight: bold; margin-bottom: 8px;">Smart <span style="color:#228B22; font-weight: 700;">Energy</span> Devices</div>
   </Fragment>
@@ -21,7 +20,15 @@ const metadata = {
   <Fragment slot="subtitle">
     Enhance your home's energy efficiency and convenience with smart devices that adapt to your lifestyle.
   </Fragment>
+
+  <!-- Adding Autoplay Video -->
+  <Fragment slot="background">
+    <video autoplay muted loop class="object-cover w-full h-full">
+      <source src="/images/smart-home-video.mp4" type="video/mp4">
+    </video>
+  </Fragment>
 </Hero>
+
 
   <SmartEnergyDeviceNote />
 
