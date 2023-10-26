@@ -5,6 +5,7 @@ import FeaturedArticles from '~/components/widgets/FeaturedArticles.astro';
 import Content from '~/components/widgets/Content.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
 // EnergyArbitrageCalculator from '~/components/widgets/EnergyArbitrageCalculator.astro';
+import HomeEnergyStorageNote from '~/components/widgets/HomeEnergyStorageNote.astro';
 
 const metadata = {
   title: 'Home Energy Storage',
@@ -15,10 +16,11 @@ const metadata = {
   <!-- Hero Widget ******************* -->
   <Hero actions={[]} videoSrc="/images/home-energy-storage-video.mp4">
     <Fragment slot="title">
-      <div class="text-right text-green-600 font-bold" style="font-size: 1em; margin-bottom: 8px;">Home Energy Storage</div>
+      <div class="text-right font-bold" style="font-size: 1em; margin-bottom: 8px; margin-left: 25px;">Home <span class="text-green-600">Energy</span> Storage</div>
     </Fragment>
   </Hero>
-
+  
+  <HomeEnergyStorageNote />
 
  <!-- Content Widget -->
 <Content
@@ -97,9 +99,6 @@ image={{
     <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
   </Fragment>
 </FAQs>
-
-
-
 
 </Layout>
 

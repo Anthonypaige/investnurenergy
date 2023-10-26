@@ -58,24 +58,24 @@ const {
         {content && <Fragment set:html={content} />}
       </div>
       <div>
-        {image && (
-          <div class="relative m-auto max-w-full">
-            {typeof image === 'string' ? (
-              <Fragment set:html={image} />
-            ) : (
-              <Image
-                class="mx-auto rounded-md w-full h-[400px] object-cover"
-                widths={[400, 768, 1024, 2040]}
-                sizes="(max-width: 767px) 400px, (max-width: 1023px) 768px, (max-width: 2039px) 1024px, 2040px"
-                loading="eager"
-                width={1024}
-                height={576}
-                {...image}
-              />
-            )}
-          </div>
-        )}
-      </div>
+  {image && (
+    <div class="relative m-auto max-w-full">
+      {typeof image === 'string' ? (
+        <Fragment set:html={image} />
+      ) : (
+        <Image
+          class="mx-auto rounded-md w-full h-[400px] object-cover"
+          widths={[400, 768, 1024, 2040]}
+          sizes="(max-width: 767px) 400px, (max-width: 1023px) 768px, (max-width: 2039px) 1024px, 2040px"
+          loading="eager"
+          width={1024}
+          height={576}
+          {...image}
+        />
+      )}
     </div>
-  </div>
+  )}
+</div>
+</div>
+</div>
 </section>
