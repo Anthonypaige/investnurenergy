@@ -36,19 +36,19 @@ export const headerData = {
       links: [
         {
           text: 'Energy Efficient Home Upgrades',
-          href: getPermalink('efficient/energy-efficient-home-upgrades'),
+          href: getPermalink('energyefficient/energy-efficient-home-upgrades'),
         },
         {
           text: 'Heat Pumps',
-          href: getPermalink('efficient/heat-pump-page'),
+          href: getPermalink('energyefficient/air-source-heat-pumps'),
         },
         {
           text: 'Water Heaters',
-          href: getPermalink('efficient/water-heaters-page'),
+          href: getPermalink('energyefficient/energy-efficient-water-heaters-'),
         },
         {
           text: 'Weatherization',
-          href: getPermalink('efficient/weatherization-page'),
+          href: getPermalink('energyefficient/weatherization-page'),
         },
       ],
     },
