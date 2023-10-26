@@ -58,12 +58,9 @@ export const footerData = {
     {
       title: 'Tax Code Breakdowns',
       links: [
-        { text: 'Home Clean Energy Credit', href: getPermalink('/cleanenergy/home-clean-energy-credit') },
-        {
-          text: 'Energy Efficient Home Upgrades',
-          href: getPermalink('/energyefficient/energy-efficient-home-upgrades'),
-        },
-        { text: 'Energy Efficient Rebates', href: getPermalink('/energyefficientrebates/energy-efficient-rebates') },
+        { text: 'Home Clean Energy Credit', href: getPermalink('cleanenergy/home-clean-energy-credit') },
+        { text: 'Energy Efficient Home Upgrades', href: getPermalink('energyefficient/energy-efficient-home-upgrades') },
+        { text: 'Energy Efficient Rebates', href: getPermalink('energyefficientrebates/energy-efficient-rebates') },
       ],
     },
     {
