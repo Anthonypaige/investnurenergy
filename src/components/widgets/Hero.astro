@@ -28,9 +28,10 @@ const {
 ---
 <section class="relative md:-mt-[76px] not-prose" {...id ? { id } : {}}>
   {videoSrc && (
-    <video autoplay muted loop class="absolute inset-0 object-cover w-full h-full z-0">
-      <source src={videoSrc} type="video/mp4">
-    </video>
+    <video autoplay muted loop playsinline class="absolute inset-0 object-cover w-full h-full z-0">
+  <source src={videoSrc} type="video/mp4">
+  </video>
+
   )}
   <div class="absolute inset-0 pointer-events-none" aria-hidden="true"></div>
   <div class="relative max-w-7xl mx-auto px-4 sm:px-6">
@@ -58,24 +59,35 @@ const {
         {content && <Fragment set:html={content} />}
       </div>
       <div>
-  {image && (
-    <div class="relative m-auto max-w-full">
-      {typeof image === 'string' ? (
-        <Fragment set:html={image} />
-      ) : (
-        <Image
-          class="mx-auto rounded-md w-full h-[400px] object-cover"
-          widths={[400, 768, 1024, 2040]}
-          sizes="(max-width: 767px) 400px, (max-width: 1023px) 768px, (max-width: 2039px) 1024px, 2040px"
-          loading="eager"
-          width={1024}
-          height={576}
-          {...image}
-        />
-      )}
-    </div>
-  )}
+        {image && (
+  <div class="relative m-auto max-w-full">
+    {typeof image === 'string' ? (
+      <Fragment set:html={image} />
+    ) : (
+      <Image
+        class="mx-auto rounded-md w-full h-[400px] object-cover"
+        widths={[400, 768, 1024, 2040]}
+        sizes="(max-width: 767px) 400px, (max-width: 1023px) 768px, (max-width: 2039px) 1024px, 2040px"
+        loading="eager"
+        width={1024}
+        height={576}
+        {...image}
+      />
+    )}
+  </div>
+)}
 </div>
 </div>
 </div>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const videoElement = document.querySelector("video");
+    if (videoElement) {
+      videoElement.play().catch(_ => {
+        // Autoplay was prevented.
+        // Show a "Play" button so that user can start playback.
+      });
+    }
+  });
+</script>
 </section>
