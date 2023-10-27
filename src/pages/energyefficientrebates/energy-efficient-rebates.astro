@@ -2,9 +2,9 @@
 import Layout from '~/layouts/PageLayout.astro';
 import Hero from '~/components/widgets/Hero.astro';
 import Features2 from '~/components/widgets/Features2.astro';
-// import Features from '~/components/widgets/Features.astro';
 import FeaturedArticles from '~/components/widgets/FeaturedArticles.astro';
 import EnergyEfficientRebateNote from '~/components/widgets/EnergyEfficientRebateNote.astro';
+import HeehraNote from '~/components/widgets/HeehraNote.astro';
 
 
 const metadata = {
@@ -19,10 +19,11 @@ const metadata = {
     </Fragment>
   
     <Fragment slot="subtitle">
-      Your Guide to State-Level and HEEHRA Rebate Programs for Energy Efficiency Home Improvements
+      Your Home for State-Level Rebate Programs
     </Fragment>
   </Hero>
   
+  <EnergyEfficientRebateNote/>
 
 
  <!-- Features2 Widget ************** -->
@@ -84,12 +85,12 @@ const metadata = {
   ]}
   />
   
-  <EnergyEfficientRebateNote/>
+  <HeehraNote/>
   
 <!-- Features Widget *************** -->
 
 <Features2
-  title="What is Included in the Electrification Rebate Act?"
+  title="Included in the Electrification Rebate Act?"
   subtitle="HEEHRA focuses on heating and cooling, safe appliances, and weatherization."
   items={[
     {
