@@ -4,6 +4,7 @@ import Pricing from '~/components/widgets/Pricing.astro';
 import FeaturedArticles from '~/components/widgets/FeaturedArticles.astro';
 import Hero from '~/components/widgets/Hero.astro';
 import Content from '~/components/widgets/Content.astro';
+import WaterHeatersNote from '~/components/widgets/WaterHeatersNote.astro';
 
 const metadata = {
   title: 'Energy Efficient Water Heaters',
@@ -12,12 +13,17 @@ const metadata = {
 
 <Layout metadata={metadata}>
 
-  <Hero
-    title=" Weatherization"
-    subtitle="Weatherization is a comprehensive approach to making your home energy-efficient. The Inflation Reduction Act offers new avenues for cost-effective upgrades."
-    image="/assets/images/wtr-hero-art.png"
-  />
+  <Hero actions={[]}>
+    <Fragment slot="title">
+      <div style="font-size: 1em; font-weight: bold; margin-bottom: 8px;"><span style="color:#228B22; font-weight: 700;">Energy</span> Efficient Water Heaters</div>
+    </Fragment>
+    <Fragment slot="subtitle">
+      It's time to take a look at our water heating options
+    </Fragment>
+  </Hero>
   
+  <WaterHeatersNote />
+
     <!-- Content Widget **************** -->
     <Content
     class="flex flex-col-reverse md:flex-row"
@@ -40,7 +46,7 @@ const metadata = {
       },
       ]}
     image={{
-      src: 'https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/page-art/WTR-page-art.jpg?raw=true',
+      src: 'https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/page-art/WTR-page-art.png?raw=true',
       alt: 'hot running shower',
     }}
     >

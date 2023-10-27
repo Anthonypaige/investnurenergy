@@ -4,6 +4,7 @@ import Hero from '~/components/widgets/Hero.astro';
 import Content from '~/components/widgets/Content.astro';
 import Stats from '~/components/widgets/Stats.astro';
 import FeaturedArticles from '~/components/widgets/FeaturedArticles.astro';
+import WeatherizationNote from '~/components/widgets/WeatherizationNote.astro';
 
 const metadata = {
   title: 'Weatherize',
@@ -16,8 +17,12 @@ const metadata = {
     title=" Weatherization"
     subtitle="Weatherization is a comprehensive approach to making your home energy-efficient. The Inflation Reduction Act offers new avenues for cost-effective upgrades."
   />
+  
+  <WeatherizationNote />
+   
 
   <!-- Content Widget **************** -->
+  
 
   <Content
   class="flex flex-col-reverse md:flex-row"
