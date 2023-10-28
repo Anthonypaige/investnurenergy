@@ -18,9 +18,7 @@ import Features2 from '~/components/widgets/Features2.astro';
   <section class="container mx-auto p-6">
     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.css">
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
-    <link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.2.9/css/responsive.dataTables.min.css">
-     <script src="https://cdn.datatables.net/responsive/2.2.9/js/dataTables.responsive.min.js"></script>
-
+    
 
 
 <Features2
@@ -180,11 +178,9 @@ items={[
 </tbody>
 </table>
 <script>
-document.addEventListener("DOMContentLoaded", function() {
-  $('#comparisonTable').DataTable({
-    responsive: true
+  document.addEventListener("DOMContentLoaded", function() {
+    $('#comparisonTable').DataTable();
   });
-});
 </script>
 </Layout>
                    
