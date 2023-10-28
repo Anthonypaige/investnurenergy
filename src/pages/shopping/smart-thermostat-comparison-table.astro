@@ -180,10 +180,11 @@ items={[
 </tbody>
 </table>
 <script>
-  document.addEventListener("DOMContentLoaded", function() {
-    $('#comparisonTable').DataTable();
-    responsive:true
+document.addEventListener("DOMContentLoaded", function() {
+  $('#comparisonTable').DataTable({
+    responsive: true
   });
+});
 </script>
 </Layout>
                    
