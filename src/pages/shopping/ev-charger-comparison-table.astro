@@ -1,5 +1,6 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
+import Hero from '~/components/widgets/Hero.astro';
 import Features2 from '~/components/widgets/Features2.astro';
 ---
 
@@ -20,6 +21,15 @@ import Features2 from '~/components/widgets/Features2.astro';
     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.css">
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
  
+    
+  <!-- Hero Widget ******************* -->
+  <Hero actions={[]} videoSrc="/images/ev-charger-video.mp4">
+    <Fragment slot="title">
+      <div class="text-right text-green-600 font-bold" style="font-size: 1em; margin-bottom: 8px;">Smart Ev Chargers</div>
+    </Fragment>
+  </Hero>
+
+
     <Features2
     title="Features Included"
     columns={3}
