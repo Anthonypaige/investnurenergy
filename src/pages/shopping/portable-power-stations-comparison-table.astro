@@ -4,6 +4,7 @@ import Features2 from '~/components/widgets/Features2.astro';
 ---
 
 <Layout>
+  
   <!-- <Hero title="Portable Power Stations Comparison" /> -->
   
   <style scoped>
@@ -21,43 +22,7 @@ import Features2 from '~/components/widgets/Features2.astro';
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
  
     
-     <Features2
-      title="Portable Power Station Comparison Table"
-      columns={3}
-      items={[
-        {
-          title: 'Cell Type',
-          description: 'The type of battery cells used in the system.',
-          icon: 'tabler:cell'
-        },
-        {
-          title: 'Life Cycles',
-          description: 'The number of charge cycles the battery can withstand.',
-          icon: 'tabler:arrows-diff'
-        },
-        {
-          title: 'Usable Capacity',
-          description: 'The amount of energy that can be stored and used.',
-          icon: 'tabler:battery-2-filled'
-        },
-        {
-          title: 'Continuous Output',
-          description: 'The amount of power the system can output continuously.',
-          icon: 'tabler:battery-charging'
-        },
-        {
-          title: 'Surge Power',
-          description: 'The maximum power the system can output for short periods',
-          icon: 'tabler:bolt'
-       },
-       {
-          title: 'AC Charging Time',
-          description: 'The time it takes to fully charge the system using an AC outlet',
-          icon: 'tabler:plug'
-       },
-      ]}
-    />
-  
+   
 
     <!-- Table -->
  
@@ -261,6 +226,45 @@ import Features2 from '~/components/widgets/Features2.astro';
 </tr>
 </tbody>
 </table>
+
+<Features2
+title="Portable Power Station Comparison Table"
+columns={3}
+items={[
+  {
+    title: 'Cell Type',
+    description: 'The type of battery cells used in the system.',
+    icon: 'tabler:cell'
+  },
+  {
+    title: 'Life Cycles',
+    description: 'The number of charge cycles the battery can withstand.',
+    icon: 'tabler:arrows-diff'
+  },
+  {
+    title: 'Usable Capacity',
+    description: 'The amount of energy that can be stored and used.',
+    icon: 'tabler:battery-2-filled'
+  },
+  {
+    title: 'Continuous Output',
+    description: 'The amount of power the system can output continuously.',
+    icon: 'tabler:battery-charging'
+  },
+  {
+    title: 'Surge Power',
+    description: 'The maximum power the system can output for short periods',
+    icon: 'tabler:bolt'
+ },
+ {
+    title: 'AC Charging Time',
+    description: 'The time it takes to fully charge the system using an AC outlet',
+    icon: 'tabler:plug'
+ },
+]}
+/>
+
+
 
 <script>
   document.addEventListener("DOMContentLoaded", function() {

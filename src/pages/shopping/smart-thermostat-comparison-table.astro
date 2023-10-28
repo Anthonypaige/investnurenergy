@@ -1,6 +1,7 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
 import Features2 from '~/components/widgets/Features2.astro';
+
 ---
 
 <Layout>
@@ -19,35 +20,39 @@ import Features2 from '~/components/widgets/Features2.astro';
     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.css">
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
     
-
-
-<Features2
-title="Smart Thermostat Comparison Table Legend"
-columns={3}
-items={[
+    
+    <Features2
+  title="Features Included"
+  columns={3}
+  items={[
   {
-    title: 'Profile',
-    description: 'The level of intelligence or automation the thermostat offers.',
-    icon: 'tabler:bolt'
-  },
-  {
-    title: 'Wifi',
-    description: 'Indicates if the thermostat can connect to a Wi-Fi network.',
+    title: 'Wi-Fi Enabled',
+    description: 'Control your thermostat remotely via smartphone  for added convenience.',
     icon: 'tabler:wifi-2'
   },
   {
-    title: 'Smart Home Integration',
-    description: 'Specifies if the thermostat has Bluetooth capabilities.',
+    title: 'Occupancy Sensing',
+    description: 'Utilizes sensors and geofencing to reduce HVAC use when home is unoccupied.',
     icon: 'tabler:smart-home'
   },
   {
-    title: 'Sensor Ready',
-    description: 'Indicates if the thermostat can use additional sensors.',
+    title: 'Customized Scheduling',
+    description: 'Set schedules to maximize energy savings with Time-of-Use rates.',
+    icon: 'tabler:smart-home'
+  },
+  {
+    title: 'Utility Program Sync',
+    description: 'Works with utility programs for peak times and offers manual override.',
     icon: 'tabler:bulb'
   },
   {
-    title: 'Advanced Learning',
-    description: 'Specifies if the thermostat adapts to your behavior over time.',
+    title: 'Energy Insights',
+    description: 'Gives real-time feedback and monthly data for energy-efficient choices.',
+    icon: 'tabler:bolt'
+  },
+  {
+    title: 'HVAC Energy Use Insights',
+    description: 'Provides monthly run-time data to understand HVAC energy use.',
     icon: 'tabler:brain'
   }
 ]}
@@ -63,10 +68,11 @@ items={[
       <th class="py-2 px-4 border border-gray-600 bg-green-700">Smart Thermostat</th>
       <th class="py-2 px-4 border border-gray-600 bg-green-700">Avg Price</th>
       <th class="py-2 px-4 border border-gray-600 bg-green-700">Profile</th>
-      <th class="py-2 px-4 border border-gray-600 bg-green-700">Wifi</th>
-      <th class="py-2 px-4 border border-gray-600 bg-green-700">Bluetooth</th>
-      <th class="py-2 px-4 border border-gray-600 bg-green-700">Sensor Capability</th>
-      <th class="py-2 px-4 border border-gray-600 bg-green-700 rounded-tr-lg">Machine Learning</th>
+      <th class="py-2 px-4 border border-gray-600 bg-green-700">Touchcolor Display</th>
+      <th class="py-2 px-4 border border-gray-600 bg-green-700">Smart Home Integration</th>
+      <th class="py-2 px-4 border border-gray-600 bg-green-700">Sensor Compatability</th>
+      <th class="py-2 px-4 border border-gray-600 bg-green-700">Built-in Extra Sensors</th>
+      <th class="py-2 px-4 border border-gray-600 bg-green-700 rounded-tr-lg">Advanced Learning</th>
     </tr>
   </thead>
 
@@ -84,6 +90,7 @@ items={[
     <td class="py-2 px-4 border border-gray-600">Ecobee 3 Lite</td>
     <td class="py-2 px-4 border border-gray-600">$145</td>
     <td class="py-2 px-4 border border-gray-600">Smarter</td>
+    <td class="py-2 px-4 border border-gray-600">No</td>
     <td class="py-2 px-4 border border-gray-600">Yes</td>
     <td class="py-2 px-4 border border-gray-600">Yes</td>
     <td class="py-2 px-4 border border-gray-600">Yes</td>
@@ -101,9 +108,10 @@ items={[
   <td class="py-2 px-4 border border-gray-600">Amazon Smart Thermostat</td>
   <td class="py-2 px-4 border border-gray-600">$90</td>
   <td class="py-2 px-4 border border-gray-600">Smart</td>
-  <td class="py-2 px-4 border border-gray-600">Yes</td>
+  <td class="py-2 px-4 border border-gray-600">No</td>
     <td class="py-2 px-4 border border-gray-600">Yes</td>
-    <td class="py-2 px-4 border border-gray-600">Yes</td>
+    <td class="py-2 px-4 border border-gray-600">No</td>
+    <td class="py-2 px-4 border border-gray-600">No</td>
     <td class="py-2 px-4 border border-gray-600">No</td>
 </tr>
 
@@ -118,10 +126,11 @@ items={[
   <td class="py-2 px-4 border border-gray-600">Ecobee Smart Premium</td>
   <td class="py-2 px-4 border border-gray-600">$225</td>
   <td class="py-2 px-4 border border-gray-600">smartest</td>
-  <td class="py-2 px-4 border border-gray-600">Yes</td>
+  <td class="py-2 px-4 border border-gray-600">No</td>
     <td class="py-2 px-4 border border-gray-600">Yes</td>
     <td class="py-2 px-4 border border-gray-600">Yes</td>
-    <td class="py-2 px-4 border border-gray-600">No</td>
+    <td class="py-2 px-4 border border-gray-600">Yes</td>
+    <td class="py-2 px-4 border border-gray-600">Yes</td>
 </tr>
 
 <!-- Honeywell Home T9 -->
@@ -136,10 +145,31 @@ items={[
   <td class="py-2 px-4 border border-gray-600">$145</td>
   <td class="py-2 px-4 border border-gray-600">Smarter</td>
   <td class="py-2 px-4 border border-gray-600">Yes</td>
+  <td class="py-2 px-4 border border-gray-600">No</td>
+  <td class="py-2 px-4 border border-gray-600">Yes</td>
+  <td class="py-2 px-4 border border-gray-600">No</td>
+  <td class="py-2 px-4 border border-gray-600">No</td>
+</tr>
+
+<!-- Emerson Sensi Touchcolor Display-->
+<tr class="bg-gray-800 hover:bg-gray-700">
+  <td class="py-2 px-4 border border-gray-600">
+    <a href='https://amzn.to/49es8ra' target='_blank' rel='noopener noreferrer'class="hover:text-green-500">
+      <img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/emerson-sensi-touch-color-display.png?raw=true' alt='Emerson Sensi Touchcolor Display' 	class="w-12 h-auto" />
+      Shop Here
+    </a>
+  </td>
+  <td class="py-2 px-4 border border-gray-600">Emerson Sensi Touchcolor Display</td>
+  <td class="py-2 px-4 border border-gray-600">$125</td>
+  <td class="py-2 px-4 border border-gray-600">Smarter</td>
   <td class="py-2 px-4 border border-gray-600">Yes</td>
   <td class="py-2 px-4 border border-gray-600">Yes</td>
   <td class="py-2 px-4 border border-gray-600">No</td>
+  <td class="py-2 px-4 border border-gray-600">No</td>
+  <td class="py-2 px-4 border border-gray-600">No</td>
 </tr>
+
+
 
 <!-- Google Nest Learning -->
 <tr class="bg-gray-800 hover:bg-gray-700">
@@ -152,6 +182,7 @@ items={[
   <td class="py-2 px-4 border border-gray-600">Google Nest Learning</td>
   <td class="py-2 px-4 border border-gray-600">$225</td>
   <td class="py-2 px-4 border border-gray-600">Smartest</td>
+  <td class="py-2 px-4 border border-gray-600">No</td>
   <td class="py-2 px-4 border border-gray-600">Yes</td>
   <td class="py-2 px-4 border border-gray-600">Yes</td>
   <td class="py-2 px-4 border border-gray-600">Yes</td>
@@ -169,14 +200,56 @@ items={[
   <td class="py-2 px-4 border border-gray-600">Google Nest Smart</td>
   <td class="py-2 px-4 border border-gray-600">$130</td>
   <td class="py-2 px-4 border border-gray-600">Smarter</td>
+  <td class="py-2 px-4 border border-gray-600">No</td>
   <td class="py-2 px-4 border border-gray-600">Yes</td>
-  <td class="py-2 px-4 border border-gray-600">Yes</td>
-  <td class="py-2 px-4 border border-gray-600">Yes</td>
+  <td class="py-2 px-4 border border-gray-600">No</td>
+  <td class="py-2 px-4 border border-gray-600">No</td>
   <td class="py-2 px-4 border border-gray-600">No</td>
 </tr>
 
 </tbody>
 </table>
+
+<Features2
+  title="Varying Features"
+  columns={3}
+  items={[
+  {
+    title: 'Profile',
+    description: 'Determines the level of intelligence and automation features the thermostat offers.',
+    icon: 'tabler:bolt'
+  },
+  {
+    title: 'Smart Home Integration',
+    description: 'Enables voice control and seamless integration via Bluetooth capabilities.',
+    icon: 'tabler:smart-home'
+  },
+  {
+    title: 'Touchscreen Color Display',
+    description: 'Offers enhanced visuals with an intuitive navigation experience.',
+    icon: 'tabler:wifi-2'
+  },
+  {
+    title: 'Built-In Extra Sensors',
+    description: 'Comes with integrated sensors for enhanced functionality and control.',
+    icon: 'tabler:bulb'
+  },
+  {
+    title: 'Sensor Compatibility',
+    description: 'Supports additional hardware like temperature sensors for precise control.',
+    icon: 'tabler:bulb'
+  },
+  {
+    title: 'Advanced Learning',
+    description: 'Automatically learns and adapts to your daily temperature preferences.',
+    icon: 'tabler:brain'
+  },
+  
+]}
+/>
+
+
+
 <script>
   document.addEventListener("DOMContentLoaded", function() {
     $('#comparisonTable').DataTable();

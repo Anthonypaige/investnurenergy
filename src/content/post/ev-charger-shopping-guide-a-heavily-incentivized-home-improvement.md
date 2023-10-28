@@ -10,7 +10,7 @@ tags:
   - State level Incentives
 ---
 
-Investing in a Level 2 home charger is now more affordable, thanks to the [Alternative Fuel Vehicle Refueling Property Credit](https://afdc.energy.gov/laws/10513) or 30C tax code. This federal incentive offers a tax credit of 30% of the installation cost, up to $1000. Additionally, many utility providers offer rebates ranging from $150-$750. For state-level incentives, check out the [Database of State Incentives for Renewables & Efficiency (DSIRE.org)](https://www.dsireusa.org/).
+Investing in a Level 2 home charger is now more affordable, thanks to the Alternative Fuel Vehicle Refueling Property Credit or [30C tax code.](https://afdc.energy.gov/laws/10513) This federal incentive offers a tax credit of 30% of the installation cost, up to $1000. Additionally, many utility providers offer rebates ranging from $150-$750. For state-level incentives, check out the [Database of State Incentives for Renewables & Efficiency](https://www.dsireusa.org/).
 
 ### **What's a Level 2 Charger?**
 
@@ -32,9 +32,9 @@ When shopping for an EV charger, you might come across various comparison articl
 
 For those who prefer straightforward Level 2 charging options without the bells and whistles of smart features, brands like Lectron and Grizzlee offer reliable and cost-effective solutions.
 
-**Lectron**: Lectron offers a range of EV chargers that are compatible with various electric vehicles. They provide a simple yet effective charging solution that is easy to install and use. [Check out Lectron on Amazon](https://amzn.to/3MfsNyy).
+**Lectron**: Lectron offers a range of EV chargers that are compatible with various electric vehicles. They provide a simple yet effective charging solution that is easy to install and use. Check out [Lectron on Amazon](https://amzn.to/3MfsNyy).
 
-**Grizzlee**: Grizzlee's Level 2 EV charger is a heavy-duty and portable electric vehicle charging station suitable for normal and cold weather. It offers adjustable amperage and is compatible with all EVs and PHEVs sold in North America. [Check out Grizzlee on Amazon](https://amzn.to/499NTbp).
+**Grizzlee**: Grizzlee's Level 2 EV charger is a heavy-duty and portable electric vehicle charging station suitable for normal and cold weather. It offers adjustable amperage and is compatible with all EVs and PHEVs sold in North America. Check out [Grizzlee on Amazon](https://amzn.to/499NTbp).
 
 Both Lectron and Grizzlee offer warranties and customer support, adding an extra layer of security to your purchase
 
@@ -58,15 +58,15 @@ By offering these advanced features, smart EV chargers don't just provide conven
 
 #### **Emporia Vue Smart EV Charger**
 
-Emporia offers a smart charger that not only charges your EV but also provides real-time electricity usage data. Integrated into Emporia's comprehensive smart energy platform, you can monitor your energy consumption, set charging schedules, and even integrate with solar power systems.[Check it out on Amazon](https://amzn.to/46H7jCQ)
+Emporia offers a smart charger that not only charges your EV but also provides real-time electricity usage data. Integrated into Emporia's comprehensive smart energy platform, you can monitor your energy consumption, set charging schedules, and even integrate with solar power systems. Check out [Emporia on Amazon](https://amzn.to/46H7jCQ)
 
-#### **JuiceBox 40 Smart Electric Vehicle EV Charging Station**
+#### **JuiceBox 48A Smart Charging Station**
 
-JuiceBox offers a feature-rich smart charging experience. With voice control via Amazon Echo, you can easily start or stop charging sessions without lifting a finger. The free JuiceNet app allows you to control and monitor your charging remotely, set reminders, and even get notified when your car is fully charged. Plus, you can participate in the Enel X JuicePoints program to earn cash rewards for smart charging in eligible areas. [Check it out on Amazon](https://amzn.to/3Qx9xPy)
+JuiceBox offers a feature-rich smart charging experience. With voice control via Amazon Echo, you can easily start or stop charging sessions without lifting a finger. The free JuiceNet app allows you to control and monitor your charging remotely, set reminders, and even get notified when your car is fully charged. Plus, you can participate in the Enel X JuicePoints program to earn cash rewards for smart charging in eligible areas. Check out Juicebpox 48A [Juicebox on Amazon](https://amzn.to/3s9m964)
 
 #### **ChargePoint Home Flex Electric Vehicle Charger**
 
-ChargePoint is a well-known name in the EV charging industry, and their Home Flex charger is no exception. It offers up to 50 amps of power and can be set to work with any home electrical supply. The ChargePoint app allows you to schedule charging during off-peak hours to save on electricity costs. Additionally, owning a ChargePoint home charger gives you access to their extensive public charging network. [Check it out on Amazon](https://amzn.to/46ZA3qa)
+ChargePoint is a well-known name in the EV charging industry, and their Home Flex charger is no exception. It offers up to 50 amps of power and can be set to work with any home electrical supply. The ChargePoint app allows you to schedule charging during off-peak hours to save on electricity costs. Additionally, owning a ChargePoint home charger gives you access to their extensive public charging network. Check out [ChargePoint on Amazon](https://amzn.to/46ZA3qa)
 
 These smart chargers are generally compatible with a wide range of electric vehicles, making them a versatile choice.
 
