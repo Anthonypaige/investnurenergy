@@ -21,7 +21,42 @@ import Features2 from '~/components/widgets/Features2.astro';
     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.css">
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
  
-    
+    <Features2
+  title="Features Included"
+  columns={3}
+  items={[
+    {
+     title: 'Min. 3kWh Capacity',
+      description: 'Meets the 3kWh minimum capacity required for 30C tax credit eligibility.',
+      icon: 'tabler:receipt-tax'
+    },
+    {
+     title: 'Portable & Modular',
+      description: 'Designed for on-the-go and home use, and easily expandable.',
+      icon: 'tabler:walk'
+    },
+    {
+     title: 'Energy Arbitrage',
+     description: 'Allows you to capitalize on low-cost energy periods, saving money when rates soar.',
+     icon: 'tabler:clock-dollar'
+    },
+    {
+      title: 'Clean Energy Integration',
+      description: 'Integrates with solar panels or wind turbines for clean energy use.',
+      icon: 'tabler:sun-wind'
+    },
+    {
+      title: 'Emergency Backup',
+      description: 'Reliable power source for grid failures, offering grid independence',
+      icon: 'tabler:urgent'
+    },
+  {
+     title: 'User-Friendly Setup',
+     description: 'Gives you the power to install it yourself, dodging costly professional fees.',
+     icon: 'tabler:user-check'    
+    }
+  ]}
+/>
    
 
     <!-- Table -->
@@ -228,9 +263,9 @@ import Features2 from '~/components/widgets/Features2.astro';
 </table>
 
 <Features2
-title="Portable Power Station Comparison Table"
-columns={3}
-items={[
+ title="Features That Vary"
+ columns={3}
+ items={[
   {
     title: 'Cell Type',
     description: 'The type of battery cells used in the system.',

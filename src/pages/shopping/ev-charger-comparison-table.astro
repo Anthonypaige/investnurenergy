@@ -21,38 +21,46 @@ import Features2 from '~/components/widgets/Features2.astro';
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
  
     <Features2
-    title="EV Charger Comparison Table Legend"
+    title="Features Included"
     columns={3}
     items={[
       {
-        title: 'Max Amps',
-        description: 'Indicates the chargers maximum current output. A higher amp rating will result in faster charging.',
+        title: 'Level 2 Charging',
+        description: 'Offers faster charging speeds compared to Level 1, typically up to 7.2 kW.',
         icon: 'tabler:charging-pile'
       },
       {
-        title: 'Bluetooth',
-        description: 'Specifies if the charger has Bluetooth capabilities for local control.',
-        icon: 'tabler:bluetooth'
+        title: 'Wi-Fi Connectivity',
+        description: 'Enables remote control and monitoring of charging sessions via a mobile app.',
+        icon: 'tabler:wifi-2'
       },
       {
-        title: 'Chord Management',
-        description: 'Describes how the charging cable is stored or managed.',
-        icon: 'tabler:plug'
+        title: 'Energy Star Certified',
+        description: 'Meets Energy Star guidelines for energy efficiency and environmental impact.',
+        icon: 'tabler:star'
       },
       {
-        title: 'Installation',
-        description: 'Type of plug or if the unit needs to be hardwired.',
-        icon: 'tabler:plug-connected'
+        title: 'Energy Tracking',
+        description: 'Provides real-time energy usage data to optimize cost and efficiency.',
+        icon: 'tabler:device-analytics'
       },
       {
-        title: 'Outdoor Rating',
-        description: 'The NEMA rating indicating outdoor suitability. The higher the more outdoor suited.',
-        icon: 'tabler:cloud-storm'
+        title: 'TOU Scheduling',
+        description: 'Allows scheduling during off-peak hours for reduced electricity rates.',
+        icon: 'tabler:clock-dollar'
+      },
+      {
+        title: 'Safety Certified',
+        description: 'Meets UL or ETL safety standards for electrical components and charging.',
+        icon: 'tabler:certificate-2'
       }
     ]}
   />
   
-
+    
+    
+    
+    
 
 
 <!-- Table -->
@@ -185,6 +193,46 @@ import Features2 from '~/components/widgets/Features2.astro';
   
 </tbody>
 </table>
+
+<Features2
+    title="Varying features"
+    columns={3}
+    items={[
+      {
+        title: 'Max Power Output',
+        description: 'Indicates the charger\'s max current output. Higher amps mean faster charging.',
+        icon: 'tabler:charging-pile'
+      },
+      {
+        title: 'Bluetooth',
+        description: 'Features Bluetooth for local control and connectivity options.',
+        icon: 'tabler:bluetooth'
+      },
+      {
+        title: 'Chord Management',
+        description: 'Offers solutions for organized cable storage and easy access.',
+        icon: 'tabler:plug'
+      },
+      {
+        title: 'Installation',
+        description: 'Specifies plug type or if hardwiring is required for setup.',
+        icon: 'tabler:plug-connected'
+      },
+      {
+        title: 'Solar Compatibility',
+        description: 'Syncs with solar panels to use excess solar energy for charging.',
+        icon: 'tabler:solar-panel-2'
+      },
+      {
+        title: 'Outdoor Rating',
+        description: 'Indicates NEMA rating for outdoor suitability. Higher is better.',
+        icon: 'tabler:cloud-storm'
+      }
+    ]}
+  />
+  
+
+
 <script>
   document.addEventListener("DOMContentLoaded", function() {
     $('#comparisonTable').DataTable();
