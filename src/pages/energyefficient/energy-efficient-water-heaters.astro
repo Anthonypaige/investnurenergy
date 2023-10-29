@@ -2,9 +2,10 @@
 import Layout from '~/layouts/PageLayout.astro';
 import Pricing from '~/components/widgets/Pricing.astro';
 import FeaturedArticles from '~/components/widgets/FeaturedArticles.astro';
-import Hero from '~/components/widgets/Hero.astro';
+//import Hero from '~/components/widgets/JumboTronHero.astro';
 import Content from '~/components/widgets/Content.astro';
 import WaterHeatersNote from '~/components/widgets/WaterHeatersNote.astro';
+import JumboTronHero from '~/components/widgets/JumboTronHero.astro';
 
 const metadata = {
   title: 'Energy Efficient Water Heaters',
@@ -13,14 +14,16 @@ const metadata = {
 
 <Layout metadata={metadata}>
 
-  <Hero actions={[]}>
+  <JumboTronHero />
+
+  <!-- <Hero actions={[]}>
     <Fragment slot="title">
       <div style="font-size: 1em; font-weight: bold; margin-bottom: 8px;"><span style="color:#228B22; font-weight: 700;">Energy</span> Efficient Water Heaters</div>
     </Fragment>
     <Fragment slot="subtitle">
       It's time to take a look at our water heating options
     </Fragment>
-  </Hero>
+  </Hero> -->
   
   <WaterHeatersNote />
 
