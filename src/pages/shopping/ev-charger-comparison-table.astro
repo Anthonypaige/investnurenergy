@@ -2,6 +2,7 @@
 import Layout from '~/layouts/PageLayout.astro';
 import Hero from '~/components/widgets/Hero.astro';
 import Features2 from '~/components/widgets/Features2.astro';
+import EvChargerNote from '~/components/widgets/EvChargerNote.astro';
 ---
 
 <Layout>
@@ -16,11 +17,19 @@ import Features2 from '~/components/widgets/Features2.astro';
     }
     /* Add any other custom styles here */
   </style>
-  
   <section class="container mx-auto p-6">
+    <!-- DataTables Main CSS -->
     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.css">
+    <!-- DataTables Responsive Extension CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/responsive/2.2.9/css/responsive.dataTables.min.css">
+
+    <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
- 
+    <!-- DataTables Main JS -->
+    <script src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.js"></script>
+    <!-- DataTables Responsive Extension JS -->
+    <script type="text/javascript" src="https://cdn.datatables.net/responsive/2.2.9/js/dataTables.responsive.min.js"></script>
+    
     
 <!-- Hero Widget ******************* -->
 <Hero actions={[]} videoSrc="/images/ev-charger-video.mp4">
@@ -31,6 +40,7 @@ import Features2 from '~/components/widgets/Features2.astro';
   </Fragment>
 </Hero>
 
+<EvChargerNote />
 
     <Features2
     title="Features Included"
@@ -246,9 +256,12 @@ import Features2 from '~/components/widgets/Features2.astro';
   
 
 
-<script>
-  document.addEventListener("DOMContentLoaded", function() {
-    $('#comparisonTable').DataTable();
-  });
-</script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      $('#comparisonTable').DataTable({
+        responsive: true
+      });
+    });
+  </script>
+</section>
 </Layout>
