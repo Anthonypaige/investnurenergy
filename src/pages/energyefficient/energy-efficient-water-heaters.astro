@@ -2,10 +2,9 @@
 import Layout from '~/layouts/PageLayout.astro';
 import Pricing from '~/components/widgets/Pricing.astro';
 import FeaturedArticles from '~/components/widgets/FeaturedArticles.astro';
-//import Hero from '~/components/widgets/JumboTronHero.astro';
-import Content from '~/components/widgets/Content.astro';
+import Hero from '~/components/widgets/JumboWaterHero.astro';
 import WaterHeatersNote from '~/components/widgets/WaterHeatersNote.astro';
-import JumboTronHero from '~/components/widgets/JumboTronHero.astro';
+import JumboWaterHero from '~/components/widgets/JumboWaterHero.astro';
 
 const metadata = {
   title: 'Energy Efficient Water Heaters',
@@ -14,57 +13,21 @@ const metadata = {
 
 <Layout metadata={metadata}>
 
-  <JumboTronHero />
+ 
 
-  <!-- <Hero actions={[]}>
-    <Fragment slot="title">
-      <div style="font-size: 1em; font-weight: bold; margin-bottom: 8px;"><span style="color:#228B22; font-weight: 700;">Energy</span> Efficient Water Heaters</div>
+  <Hero actions={[]}>
+   
+    <Fragment>
+    <JumboWaterHero />
     </Fragment>
-    <Fragment slot="subtitle">
-      It's time to take a look at our water heating options
-    </Fragment>
-  </Hero> -->
+  </Hero>
   
+
   <WaterHeatersNote />
 
-    <!-- Content Widget **************** -->
-    <Content
-    class="flex flex-col md:flex-row"
-    isReversed
-    image={{
-      src: 'https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/page-art/WTR-page-art.png?raw=true',
-      alt: 'hot running shower',
-    }}
-    items={[
-      {
-        title: 'The Solution',
-        description:
-          'Switch to a modern water heater featuring on-demand heating, solar energy capture, or heat pump technology for substantial energy savings',
-      },
-      {
-        title: 'The Financial Assistance',
-        description:
-          'Take advantage of federal tax credits and leverage possible state rebates for modern water heater upgrades',
-      },
-      {
-        title: 'The Result',
-        description:
-          'Use government incentives to fund your upgrade, then enjoy ongoing savings, increased energy efficiency, and greater grid independence',
-      },
-      ]}
-  
-    >
-    <Fragment slot="content">
-          <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Efficient Water Heating Solutions,</h3>
-          <!-- Make Your Home More Energy-Efficient with the Right Water Heater -->
-        </Fragment>
     
-        <Fragment slot="bg">
-          <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
-        </Fragment>
-      </Content>
-
-
+     
+          
 
  <Pricing
  title="Average Savings on Water Heater Upgrades"
@@ -155,7 +118,5 @@ const metadata = {
     'tankless-water-heaters-are-compact-efficiency',
   ]}
   />
-
-
 
 </Layout>
