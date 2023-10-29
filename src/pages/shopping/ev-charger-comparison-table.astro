@@ -8,7 +8,7 @@ import EvChargerNote from '~/components/widgets/EvChargerNote.astro';
 <Layout>
   
 
-  <style scoped>
+    <style scoped>
     .bg-gray-800 {
       background-color: #2d3748;
     }
@@ -16,21 +16,18 @@ import EvChargerNote from '~/components/widgets/EvChargerNote.astro';
       background-color: #4A5568; /* or any other color you prefer */
     }
     /* Add any other custom styles here */
-  </style>
-  <section class="container mx-auto p-6">
-    <!-- DataTables Main CSS -->
-    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.css">
-    <!-- DataTables Responsive Extension CSS -->
-    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/responsive/2.2.9/css/responsive.dataTables.min.css">
+  </style> 
 
-    <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
-    <!-- DataTables Main JS -->
-    <script src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.js"></script>
-    <!-- DataTables Responsive Extension JS -->
-    <script type="text/javascript" src="https://cdn.datatables.net/responsive/2.2.9/js/dataTables.responsive.min.js"></script>
-    
-    
+
+  <section class="container mx-auto p-6">
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+
+  <!-- Load DataTables Responsive plugin if needed
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/responsive/2.2.9/css/responsive.dataTables.min.css">
+<script type="text/javascript" src="https://cdn.datatables.net/responsive/2.2.9/js/dataTables.responsive.min.js"></script> -->
+
+
 <!-- Hero Widget ******************* -->
 <Hero actions={[]} videoSrc="/images/ev-charger-video.mp4">
   <Fragment slot="title">
@@ -253,15 +250,13 @@ import EvChargerNote from '~/components/widgets/EvChargerNote.astro';
       }
     ]}
   />
-  
-
-
-  <script>
-    document.addEventListener("DOMContentLoaded", function() {
-      $('#comparisonTable').DataTable({
-        responsive: true
-      });
+<!-- Your custom script -->
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    $('#comparisonTable').DataTable({
+      responsive: true
     });
-  </script>
-</section>
+  });
+</script>
+
 </Layout>
