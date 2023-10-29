@@ -5,7 +5,7 @@ import Content from '~/components/widgets/Content.astro';
 import Stats from '~/components/widgets/Stats.astro';
 import FeaturedArticles from '~/components/widgets/FeaturedArticles.astro';
 import WeatherizationNote from '~/components/widgets/WeatherizationNote.astro';
-import Image from '~/components/common/Image.astro';
+//import Image from '~/components/common/Image.astro';
 
 const metadata = {
   title: 'Weatherize',
@@ -44,8 +44,12 @@ const metadata = {
           'Improved indoor air quality by reducing outdoor pollutants benefits those with allergies or respiratory issues.',
       },
       ]}
-  image={<Image src="/assets/images/WTHR-page-art.jpg" alt="Thermal image showing air leaking from a home" />}
+      image={{
+       src: 'https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/page-art/WTHR-page-art.jpg?raw=true',
+       alt: 'Thermal image showing air leaking from a home',
+  }}
 >
+
 
     <Fragment slot="content">
       <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Included in 25C and HEEHRA</h3>
