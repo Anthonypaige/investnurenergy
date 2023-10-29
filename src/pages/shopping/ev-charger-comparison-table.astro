@@ -6,27 +6,10 @@ import EvChargerNote from '~/components/widgets/EvChargerNote.astro';
 ---
 
 
-    <style scoped>
-    .bg-gray-800 {
-      background-color: #2d3748;
-    }
-    tr.bg-gray-800:hover {
-      background-color: #4A5568; /* or any other color you prefer */
-    }
-    /* Add any other custom styles here */
-  </style> 
 
-<section class="container mx-auto p-6">
-  <!-- <link rel="stylesheet" href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.css"> -->
-  <!-- <script src="https://code.jquery.com/jquery-3.5.1.js"></script> -->
-  
  
- 
-  <!-- DataTables Responsive Extension CSS -->
-  <!-- <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/responsive/2.2.9/css/responsive.dataTables.min.css"> -->
-  
-<!-- DataTables Responsive Extension JS -->
-<!-- <script type="text/javascript" src="https://cdn.datatables.net/responsive/2.2.9/js/dataTables.responsive.min.js"></script> -->
+  <!-- <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+   -->
 
 <Layout>
 
@@ -38,6 +21,8 @@ import EvChargerNote from '~/components/widgets/EvChargerNote.astro';
     </div>
   </Fragment>
 </Hero>
+
+<section class="container mx-auto p-9"></section>
 
 <EvChargerNote />
 
@@ -257,7 +242,7 @@ import EvChargerNote from '~/components/widgets/EvChargerNote.astro';
 <script>
   document.addEventListener("DOMContentLoaded", function() {
     $('#comparisonTable').DataTable({
-      responsive: true
+      responsive: false
     });
   });
 </script>
