@@ -1,5 +1,5 @@
 ---
-import Layout from '~/layouts/PageLayout.astro';
+import Layout from '~/layouts/DataTableLayout.astro';
 import Hero from '~/components/widgets/Hero.astro';
 import Features2 from '~/components/widgets/Features2.astro';
 import EvChargerNote from '~/components/widgets/EvChargerNote.astro';
@@ -16,17 +16,21 @@ import EvChargerNote from '~/components/widgets/EvChargerNote.astro';
     /* Add any other custom styles here */
   </style> 
 
-
-  <section class="container mx-auto p-6">
-  <link rel="stylesheet" href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.css">
-  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
-
-  <!-- Load DataTables Responsive plugin if needed
-<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/responsive/2.2.9/css/responsive.dataTables.min.css">
-<script type="text/javascript" src="https://cdn.datatables.net/responsive/2.2.9/js/dataTables.responsive.min.js"></script> -->
+<section class="container mx-auto p-6">
+  <!-- <link rel="stylesheet" href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.css"> -->
+  <!-- <script src="https://code.jquery.com/jquery-3.5.1.js"></script> -->
+  
+ 
+ 
+  <!-- DataTables Responsive Extension CSS -->
+  <!-- <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/responsive/2.2.9/css/responsive.dataTables.min.css"> -->
+  
+<!-- DataTables Responsive Extension JS -->
+<!-- <script type="text/javascript" src="https://cdn.datatables.net/responsive/2.2.9/js/dataTables.responsive.min.js"></script> -->
 
 <Layout>
-<!-- Hero Widget ******************* -->
+
+  <!-- Hero Widget ******************* -->
 <Hero actions={[]} videoSrc="/images/ev-charger-video.mp4">
   <Fragment slot="title">
     <div class="absolute bottom-5 right-10 text-right font-bold text-white" style="font-size: 1em;">
@@ -248,6 +252,7 @@ import EvChargerNote from '~/components/widgets/EvChargerNote.astro';
       }
     ]}
   />
+  
 <!-- Your custom script -->
 <script>
   document.addEventListener("DOMContentLoaded", function() {
@@ -256,5 +261,5 @@ import EvChargerNote from '~/components/widgets/EvChargerNote.astro';
     });
   });
 </script>
-
+</section>
 </Layout>
