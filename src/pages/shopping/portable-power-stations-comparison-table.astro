@@ -1,12 +1,9 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
 import Features2 from '~/components/widgets/Features2.astro';
+import Hero from '~/components/widgets/Hero.astro';
 ---
 
-<Layout>
-  
-  <!-- <Hero title="Portable Power Stations Comparison" /> -->
-  
   <style scoped>
     .bg-gray-800 {
       background-color: #2d3748;
@@ -21,6 +18,20 @@ import Features2 from '~/components/widgets/Features2.astro';
     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.css">
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
  
+<Layout>   
+<!-- Hero Widget ******************* -->
+<Hero actions={[]}>
+  <Fragment slot="title">
+    <div style="font-size: 1em; font-weight: bold; margin-bottom: 8px;">Portable Power Stations Comparison Table</div>
+  </Fragment>
+  <Fragment slot="subtitle">
+    Navigate the portable power station market with ease using our comprehensive comparison table. We detail essential features, battery capacity, and pricing to help you make an informed decision.
+  </Fragment>
+</Hero>
+
+
+
+
     <Features2
   title="Features Included"
   subtitle="All portable power stations in this table meet a minimum 3kWh capacity, and offer these features"

@@ -6,17 +6,19 @@ import SolarMapZoom from '~/components/widgets/SolarMapZoom.astro';
 import FeaturedArticles from '~/components/widgets/FeaturedArticles.astro';
 
 const metadata = {
-  title: 'solar-basics-page',
+  title: 'solar energy basics',
 };
 ---
 
 <Layout metadata={metadata}>
   <!-- Hero Widget ******************* -->
-
   <Hero actions={[]}>
     <Fragment slot="title">
-      <div style="font-size: 1em; font-weight: bold; margin-bottom: 8px;"> Solar Basics</div>
+      <div style="font-size: 1em; font-weight: bold; margin-bottom: 8px;"> 
+        Solar <span style="color: green;">Energy</span> Basics
+      </div>
     </Fragment>
+    
     <Fragment slot="subtitle">
       Discover the fundamentals of solar energy to assess your home's suitability for solar adoption and make an informed decision
     </Fragment>
