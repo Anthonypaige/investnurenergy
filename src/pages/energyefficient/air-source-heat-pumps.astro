@@ -5,7 +5,7 @@ import FeaturedArticles from '~/components/widgets/FeaturedArticles.astro';
 import Stats from '~/components/widgets/Stats.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
 import Hero from '~/components/widgets/Hero.astro';
-import Content from '~/components/widgets/Content.astro';
+//import Content from '~/components/widgets/Content.astro';
 import AirSourceHeatPumpNote from '~/components/widgets/AirSourceHeatPumpNote.astro';
 
 const metadata = {
@@ -14,50 +14,15 @@ const metadata = {
 ---
 
 <Layout metadata={metadata}>
-  
-  <!-- HeroText Widget ******************* -->
-  <Hero
-  title="Heat Pumps"
-  subtitle="Heat Pump technology regulates home climate for heating and cooling, generating up to three times more energy than consumed."
-  />
+  <!-- Hero Widget ******************* -->
+  <Hero actions={[]} videoSrc="/images/heat-pump-video.mp4">
+    <Fragment slot="title">
+      <div class="text-right font-bold" style="font-size: 1em; margin-bottom: 8px; margin-left: 25px;">Heat <span class="text-green-600">Energy</span>Pumps</div>
+    </Fragment>
+  </Hero>
 
   <AirSourceHeatPumpNote />
 
-<!-- Content Widget **************** -->
-<Content
-  class="flex flex-col-reverse md:flex-row"
-  isReversed
-  items={[
-    {
-      title: 'Maximize Energy Efficiency with Heat Pumps',
-      description:
-        'Heat pumps are a game-changer in energy efficiency. They can produce up to three times more heat energy than the electricity consumed, offering you significant savings on your energy bills.',
-    },
-    {
-      title: 'All-Season Climate Control',
-      description:
-        'Say goodbye to separate heating and cooling systems. Heat pumps offer an all-in-one solution, providing consistent temperature control throughout the year, whether it\'s scorching hot or freezing cold outside.',
-    },
-    {
-      title: 'Lower Your Carbon Footprint',
-      description:
-        'Heat pumps are designed for efficiency, consuming less electricity than traditional HVAC systems. This reduced energy usage not only saves you money but also contributes to a smaller carbon footprint.',
-    },
-  ]}
-  image={{
-    src: 'https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/page-art/HPQ-page-art.png?raw=true',
-    alt: 'Heat pump system',
-  }}
->
-  <Fragment slot="content">
-    <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Included in 25C and HEEHRA</h3>
-     <!-- Heat pumps are a versatile and efficient choice for home heating and cooling. -->
-  </Fragment>
-
-  <Fragment slot="bg">
-    <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
-  </Fragment>
-</Content>
 
 
 <!-- Content Widget **************** -->
