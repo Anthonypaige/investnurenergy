@@ -22,16 +22,19 @@ import Features2 from '~/components/widgets/Features2.astro';
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
  
     
-  <!-- Hero Widget ******************* -->
-  <Hero actions={[]} videoSrc="/images/ev-charger-video.mp4">
-    <Fragment slot="title">
-      <div class="text-right text-green-600 font-bold" style="font-size: 1em; margin-bottom: 8px;">Smart Ev Chargers</div>
-    </Fragment>
-  </Hero>
+<!-- Hero Widget ******************* -->
+<Hero actions={[]} videoSrc="/images/ev-charger-video.mp4">
+  <Fragment slot="title">
+    <div class="absolute bottom-5 right-10 text-right font-bold text-white" style="font-size: 1em;">
+      <span class="text-green-600">Smart</span> EV Chargers
+    </div>
+  </Fragment>
+</Hero>
 
 
     <Features2
     title="Features Included"
+    subtitle="All chargers in this table are Level 2, Energy Star certified, and share these features"
     columns={3}
     items={[
       {
@@ -68,144 +71,144 @@ import Features2 from '~/components/widgets/Features2.astro';
   />
   
     
-    
-    
-    
-
-
-<!-- Table -->
-<table id="comparisonTable" class="min-w-full bg-gray-800 text-white border border-gray-600">
-    <thead class="bg-green-900 sticky top-0 rounded-t-lg">
-      <tr>
-        <th class="py-2 px-4 border border-gray-600 bg-green-700 rounded-tl-lg">Shop Here</th>
-        <th class="py-2 px-4 border border-gray-600 bg-green-700">Ev Charger</th>
-        <th class="py-2 px-4 border border-gray-600 bg-green-700">AvgPrice</th>
-        <th class="py-2 px-4 border border-gray-600 bg-green-700">Max Amps</th>
-        <th class="py-2 px-4 border border-gray-600 bg-green-700">Wifi</th>
-        <th class="py-2 px-4 border border-gray-600 bg-green-700">Bluetooth</th>
-        <th class="py-2 px-4 border border-gray-600 bg-green-700">Chord Management</th>
-        <th class="py-2 px-4 border border-gray-600 bg-green-700">Installation</th>
-        <th class="py-2 px-4 border border-gray-600 bg-green-700 rounded-tr-lg">Outdoor Rating</th>
-      </tr>
-    </thead>
-
-<tbody>
-
-
-<!-- Autel MaxiCharger 40A Smart Charger -->
+  <!-- Responsive Table Wrapper -->
+<div class="flex flex-col overflow-x-auto">
+  <div class="sm:-mx-6 lg:-mx-8">
+    <div class="inline-block min-w-full py-2 sm:px-6 lg:px-8">
+      <div class="overflow-x-auto">
+        <table id="comparisonTable" class="min-w-full bg-gray-800 text-white border border-gray-600">
+          <thead class="bg-green-900 sticky top-0 rounded-t-lg">
+            <tr>
+              <th class="py-2 px-4 border border-gray-600 bg-green-700 rounded-tl-lg">Shop Here</th>
+              <th class="py-2 px-4 border border-gray-600 bg-green-700">Ev Charger</th>
+              <th class="py-2 px-4 border border-gray-600 bg-green-700">AvgPrice</th>
+              <th class="py-2 px-4 border border-gray-600 bg-green-700">Max Amps</th>
+              <th class="py-2 px-4 border border-gray-600 bg-green-700">Wifi</th>
+              <th class="py-2 px-4 border border-gray-600 bg-green-700">Bluetooth</th>
+              <th class="py-2 px-4 border border-gray-600 bg-green-700">Chord Management</th>
+              <th class="py-2 px-4 border border-gray-600 bg-green-700">Installation</th>
+              <th class="py-2 px-4 border border-gray-600 bg-green-700 rounded-tr-lg">Outdoor Rating</th>
+            </tr>
+          </thead>
+          <tbody>
+            
+            <!-- Autel MaxiCharger 50A Smart Charger -->
+            <tr class="bg-gray-800 hover:bg-gray-700">
+              <td class="py-2 px-4 border border-gray-600">
+                <a href='https://amzn.to/3RpBs51' target='_blank' rel='noopener noreferrer' class="hover:text-green-500">
+                  <img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/autel-evse.png?raw=true' alt='Autel MaxiCharger 40A Smart Charger' class="w-12 h-auto" />
+                  Shop Now
+                </a>
+              </td>
+              <td class="py-2 px-4 border border-gray-600">Autel MaxiCharger 50A Smart Charger</td>
+              <td class="py-2 px-4 border border-gray-600">$600</td>
+              <td class="py-2 px-4 border border-gray-600">50 Amps</td>
+              <td class="py-2 px-4 border border-gray-600">Yes</td>
+              <td class="py-2 px-4 border border-gray-600">Yes</td>
+              <td class="py-2 px-4 border border-gray-600">Separate holster</td>
+              <td class="py-2 px-4 border border-gray-600">Hardwired</td>
+              <td class="py-2 px-4 border border-gray-600">NEMA 4X</td>
+            </tr>
+  
+<!-- Emporia 48A Smart Charger -->
 <tr class="bg-gray-800 hover:bg-gray-700">
-    <td class="py-2 px-4 border border-gray-600">
-      <a href='https://amzn.to/3RpBs51' target='_blank' rel='noopener noreferrer'class="hover:text-green-500">
-        <img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/autel-evse.png?raw=true' alt='Autel MaxiCharger 40A Smart Charger' class="w-12 h-auto" />
-        Shop Now
-      </a>
-    </td>
-    <td class="py-2 px-4 border border-gray-600">Autel MaxiCharger 50A Smart Charger</td>
-    <td class="py-2 px-4 border border-gray-600">$600</td>
-    <td class="py-2 px-4 border border-gray-600">50 Amps</td>
-    <td class="py-2 px-4 border border-gray-600">Yes</td>
-    <td class="py-2 px-4 border border-gray-600">Yes</td>
-    <td class="py-2 px-4 border border-gray-600">Separate holster</td>
-    <td class="py-2 px-4 border border-gray-600">Hardwired</td>
-    <td class="py-2 px-4 border border-gray-600">NEMA 4X</td>
-  </tr>
-  
-  <!-- JuiceBox 40A Smart Charger -->
-  <tr class="bg-gray-800 hover:bg-gray-700">
-    <td class="py-2 px-4 border border-gray-600">
-      <a href='https://amzn.to/45VXuR2' target='_blank' rel='noopener noreferrer'class="hover:text-green-500">
-        <img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/juice-evse.png?raw=true' alt='JuiceBox 40A Smart Charger' class="w-12 h-auto" />
-        Shop Now
-      </a>
-    </td>
-    <td class="py-2 px-4 border border-gray-600">JuiceBox 40A Smart Charger</td>
-    <td class="py-2 px-4 border border-gray-600">$600</td>
-    <td class="py-2 px-4 border border-gray-600">40 Amps</td>
-    <td class="py-2 px-4 border border-gray-600">Yes</td>
-    <td class="py-2 px-4 border border-gray-600">Yes</td>
-    <td class="py-2 px-4 border border-gray-600">Wall Mount</td>
-    <td class="py-2 px-4 border border-gray-600">NEMA 14-50 plug</td>
-    <td class="py-2 px-4 border border-gray-600">NEMA 4X/IP66</td>
-  </tr>
-  
-  <!-- Electrify America Level 2 -->
-  <tr class="bg-gray-800 hover:bg-gray-700">
-    <td class="py-2 px-4 border border-gray-600">
-      <a href='https://amzn.to/46hAzPR' target='_blank' rel='noopener noreferrer'class="hover:text-green-500">
-        <img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/electrify-america-evse.png?raw=true' alt='Electrify America Level 2' class="w-12 h-auto" />
-        Shop Now
-      </a>
-    </td>
-    <td class="py-2 px-4 border border-gray-600">Electrify America Level 2</td>
-    <td class="py-2 px-4 border border-gray-600">$650</td>
-    <td class="py-2 px-4 border border-gray-600">40 Amps</td>
-    <td class="py-2 px-4 border border-gray-600">Yes</td>
-    <td class="py-2 px-4 border border-gray-600">No</td>
-    <td class="py-2 px-4 border border-gray-600">Separate holster</td>
-    <td class="py-2 px-4 border border-gray-600">NEMA 14-50 plug</td>
-    <td class="py-2 px-4 border border-gray-600">NEMA 3R</td>
-  </tr>
-  
-  <!-- Wallbox Pulsar Plus 40A Smart Charger -->
-  <tr class="bg-gray-800 hover:bg-gray-700">
-    <td class="py-2 px-4 border border-gray-600">
-      <a href='https://amzn.to/3PoQpkW' target='_blank' rel='noopener noreferrer'class="hover:text-green-500">
-        <img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/wallbox-evse.png?raw=true' alt='Wallbox Pulsar Plus 40A Smart Charger' class="w-12 h-auto" />
-        Shop Now
-      </a>
-    </td>
-    <td class="py-2 px-4 border border-gray-600">Wallbox Pulsar Plus 40A Smart Charger</td>
-    <td class="py-2 px-4 border border-gray-600">$650</td>
-    <td class="py-2 px-4 border border-gray-600">40 Amps</td>
-    <td class="py-2 px-4 border border-gray-600">Yes</td>
-    <td class="py-2 px-4 border border-gray-600">Yes</td>
-    <td class="py-2 px-4 border border-gray-600">Separate holster</td>
-    <td class="py-2 px-4 border border-gray-600">NEMA 14-50 plug</td>
-    <td class="py-2 px-4 border border-gray-600">NEMA-4</td>
-  </tr>
-  
-  
-  <!-- Emporia 48A Smart Charger -->
-  <tr class="bg-gray-800 hover:bg-gray-700">
-    <td class="py-2 px-4 border border-gray-600">
-      <a href='https://amzn.to/3EI78La' target='_blank' rel='noopener noreferrer'class="hover:text-green-500">
-        <img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/lectron-evse.png?raw=true' alt='Emporia 48A Smart Charger' class="w-12 h-auto" />
-        Shop Now
-      </a>
-    </td>
-    <td class="py-2 px-4 border border-gray-600">Emporia 48A Smart Charger</td>
-    <td class="py-2 px-4 border border-gray-600">$400</td>
-    <td class="py-2 px-4 border border-gray-600">48 Amps</td>
-    <td class="py-2 px-4 border border-gray-600">No</td>
-    <td class="py-2 px-4 border border-gray-600">No</td>
-    <td class="py-2 px-4 border border-gray-600">Wall Mount</td>
-    <td class="py-2 px-4 border border-gray-600">Hardwired/Plug-in</td>
-    <td class="py-2 px-4 border border-gray-600">NEMA-4</td>
-  </tr>
-  
-  <!-- ChargePoint 50A Smart Charger -->
-  <tr class="bg-gray-800 hover:bg-gray-700">
-    <td class="py-2 px-4 border border-gray-600">
-      <a href='https://amzn.to/3Rqq2hg' target='_blank' rel='noopener noreferrer'class="hover:text-green-500">
-        <img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/autel-evse.png?raw=true' alt='ChargePoint 50A Smart Charger' class="w-12 h-auto" />
-        Shop Now
-      </a>
-    </td>
-    <td class="py-2 px-4 border border-gray-600">ChargePoint 50A Smart Charger</td>
-    <td class="py-2 px-4 border border-gray-600">$600</td>
-    <td class="py-2 px-4 border border-gray-600">50 Amps</td>
-    <td class="py-2 px-4 border border-gray-600">Yes</td>
-    <td class="py-2 px-4 border border-gray-600">Yes</td>
-    <td class="py-2 px-4 border border-gray-600">Built in</td>
-    <td class="py-2 px-4 border border-gray-600">Hardwired/Plug-in</td>
-    <td class="py-2 px-4 border border-gray-600">NEMA 3R</td>
-  </tr>
-  
+  <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">
+    <a href='https://amzn.to/3EI78La' target='_blank' rel='noopener noreferrer' class="hover:text-green-500">
+      <img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/lectron-evse.png?raw=true' alt='Emporia 48A Smart Charger' class="w-12 h-auto" />
+      Shop Now
+    </a>
+  </td>
+  <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">Emporia 48A Smart Charger</td>
+  <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">$400</td>
+  <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">48 Amps</td>
+  <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">No</td>
+  <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">No</td>
+  <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">Wall Mount</td>
+  <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">Hardwired/Plug-in</td>
+  <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">NEMA-4</td>
+</tr>
+
+<!-- ChargePoint 50A Smart Charger -->
+<tr class="bg-gray-800 hover:bg-gray-700">
+  <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">
+    <a href='https://amzn.to/3Rqq2hg' target='_blank' rel='noopener noreferrer' class="hover:text-green-500">
+      <img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/autel-evse.png?raw=true' alt='ChargePoint 50A Smart Charger' class="w-12 h-auto" />
+      Shop Now
+    </a>
+  </td>
+  <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">ChargePoint 50A Smart Charger</td>
+  <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">$600</td>
+  <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">50 Amps</td>
+  <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">Yes</td>
+  <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">Yes</td>
+  <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">Built in</td>
+  <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">Hardwired/Plug-in</td>
+  <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">NEMA 3R</td>
+</tr>
+
+<!-- JuiceBox 40A Smart Charger -->
+<tr class="bg-gray-800 hover:bg-gray-700">
+  <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">
+    <a href='https://amzn.to/45VXuR2' target='_blank' rel='noopener noreferrer' class="hover:text-green-500">
+      <img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/juice-evse.png?raw=true' alt='JuiceBox 40A Smart Charger' class="w-12 h-auto" />
+      Shop Now
+    </a>
+  </td>
+  <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">JuiceBox 40A Smart Charger</td>
+  <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">$600</td>
+  <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">40 Amps</td>
+  <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">Yes</td>
+  <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">Yes</td>
+  <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">Wall Mount</td>
+  <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">NEMA 14-50 plug</td>
+  <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">NEMA 4X/IP66</td>
+</tr>
+
+<!-- Electrify America Level 2 -->
+<tr class="bg-gray-800 hover:bg-gray-700">
+  <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">
+    <a href='https://amzn.to/46hAzPR' target='_blank' rel='noopener noreferrer' class="hover:text-green-500">
+      <img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/electrify-america-evse.png?raw=true' alt='Electrify America Level 2' class="w-12 h-auto" />
+      Shop Now
+    </a>
+  </td>
+  <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">Electrify America Level 2</td>
+  <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">$650</td>
+  <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">40 Amps</td>
+  <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">Yes</td>
+  <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">No</td>
+  <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">Separate holster</td>
+  <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">NEMA 14-50 plug</td>
+  <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">NEMA 3R</td>
+</tr>
+
+<!-- Wallbox Pulsar Plus 40A Smart Charger -->
+<tr class="bg-gray-800 hover:bg-gray-700">
+  <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">
+    <a href='https://amzn.to/3PoQpkW' target='_blank' rel='noopener noreferrer' class="hover:text-green-500">
+      <img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/wallbox-evse.png?raw=true' alt='Wallbox Pulsar Plus 40A Smart Charger' class="w-12 h-auto" />
+      Shop Now
+    </a>
+  </td>
+  <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">Wallbox Pulsar Plus 40A Smart Charger</td>
+  <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">$650</td>
+  <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">40 Amps</td>
+  <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">Yes</td>
+  <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">Yes</td>
+  <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">Separate holster</td>
+  <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">NEMA 14-50 plug</td>
+  <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">NEMA-4</td>
+</tr>
 </tbody>
 </table>
+</div>
+</div>
+</div>
+</div>
 
 <Features2
     title="Varying features"
+    subtitle="Optional features to consider based on your home setup"
     columns={3}
     items={[
       {

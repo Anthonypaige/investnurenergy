@@ -1,6 +1,7 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
 import Features2 from '~/components/widgets/Features2.astro';
+import Hero from '~/components/widgets/Hero.astro';
 
 ---
 
@@ -20,41 +21,53 @@ import Features2 from '~/components/widgets/Features2.astro';
     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.css">
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
     
+<!-- Hero Widget ******************* -->
+<Hero actions={[]}>
+  <Fragment slot="title">
+    <div style="font-size: 1em; font-weight: bold; margin-bottom: 8px;">Top Smart Thermostats</div>
+  </Fragment>
+  <Fragment slot="subtitle">
+    Cut through the noise with our comparison table, designed to help you find the perfect smart thermostat. We break down key features, compatibility, and pricing to make your choice easier.
+  </Fragment>
+</Hero>
+
+
     
-    <Features2
-  title="Features Included"
-  columns={3}
-  items={[
-  {
-    title: 'Wi-Fi Enabled',
-    description: 'Control your thermostat remotely via smartphone  for added convenience.',
-    icon: 'tabler:wifi-2'
-  },
-  {
-    title: 'Occupancy Sensing',
-    description: 'Utilizes sensors and geofencing to reduce HVAC use when home is unoccupied.',
-    icon: 'tabler:home-signal'
-  },
-  {
-    title: 'Customized Scheduling',
-    description: 'Set schedules to maximize energy savings with Time-of-Use rates.',
-    icon: 'tabler:clock-dollar'
-  },
-  {
-    title: 'Utility Program Sync',
-    description: 'Works with utility programs for peak times and offers manual override.',
-    icon: 'tabler:home-link'
-  },
-  {
-    title: 'HVAC Energy Use Insights',
-    description: 'Provides monthly run-time data to understand HVAC energy use.',
-    icon: 'tabler:air-conditioning'
-  },
-  {
-    title: 'Energy Insights',
-    description: 'Gives real-time feedback and monthly data for energy-efficient choices.',
-    icon: 'tabler:eye-bolt'
-  }
+<Features2
+title="Features Included"
+subtitle="All thermostats in this table are Energy Star certified, Wi-Fi enabled and share these base features"
+columns={3}
+items={[
+{
+  title: 'Wi-Fi Enabled',
+  description: 'Control your thermostat remotely via smartphone  for added convenience.',
+  icon: 'tabler:wifi-2'
+},
+{
+  title: 'Occupancy Sensing',
+  description: 'Utilizes sensors and geofencing to reduce HVAC use when home is unoccupied.',
+  icon: 'tabler:home-signal'
+},
+{
+  title: 'Customized Scheduling',
+  description: 'Set schedules to maximize energy savings with Time-of-Use rates.',
+  icon: 'tabler:clock-dollar'
+},
+{
+  title: 'Utility Program Sync',
+  description: 'Works with utility programs for peak times and offers manual override.',
+  icon: 'tabler:home-link'
+},
+{
+  title: 'HVAC Energy Use Insights',
+  description: 'Provides monthly run-time data to understand HVAC energy use.',
+  icon: 'tabler:air-conditioning'
+},
+{
+  title: 'Energy Insights',
+  description: 'Gives real-time feedback and monthly data for energy-efficient choices.',
+  icon: 'tabler:eye-bolt'
+}
 ]}
 />
 
@@ -212,6 +225,7 @@ import Features2 from '~/components/widgets/Features2.astro';
 
 <Features2
   title="Varying Features"
+  subtitle="Optional features to narrow down your choice based on personal preferences"
   columns={3}
   items={[
   {
