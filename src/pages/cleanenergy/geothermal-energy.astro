@@ -4,7 +4,7 @@ import Hero from '~/components/widgets/Hero.astro';
 import FeaturedArticles from '~/components/widgets/FeaturedArticles.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
 import Stats from '~/components/widgets/Stats.astro';
-import MapZoom from '~/components/widgets/GeoMapZoom.astro';
+import GeoMapZoom from '~/components/widgets/GeoMapZoom.astro';
 
 
 const metadata = {
@@ -14,25 +14,21 @@ const metadata = {
 
 <Layout metadata={metadata}>
   
-  <!-- Hero Widget ******************* -->
+ 
 
-  <Hero actions={[]}>
-    <Fragment slot="title">
-      <div style="font-size: 1em; font-weight: bold; margin-bottom: 8px;">
-        <span style="color: rgb(76, 76, 252);">Geothermal</span> Heat Pumps
-      </div>
-    </Fragment>
-    
-    <Fragment slot="subtitle">
-      With a 50-year shelf life and immediate energy savings, geothermal heat pumps are a long-term investment that continues to add value to your home.
-    </Fragment>
-  </Hero>
+  <!-- Geothermal Heat Pumps Hero Widget -->
+<Hero actions={[]} videoSrc="/images/geothermal-energy-video.mp4">
+  <Fragment slot="title">
+    <div class="text-center text-white font-bold" style="font-size: 1em;">Geothermal Heat Pumps</div>
+  </Fragment>
+</Hero>
+<section class="container mx-auto p-9"></section>
   
   
   
 
   <section>
-    <MapZoom />
+    <GeoMapZoom />
     </section>
     
   <!-- Geothermal energy page Featured Articles Widget -->

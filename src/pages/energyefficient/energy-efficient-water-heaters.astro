@@ -3,7 +3,7 @@ import Layout from '~/layouts/PageLayout.astro';
 import Pricing from '~/components/widgets/Pricing.astro';
 import FeaturedArticles from '~/components/widgets/FeaturedArticles.astro';
 import WaterHeatersNote from '~/components/widgets/WaterHeatersNote.astro';
-import JumboTron from '~/components/widgets/JumboTron.astro';
+import Hero from '~/components/widgets/Hero.astro';
 
 const metadata = {
   title: 'Energy Efficient Water Heaters',
@@ -12,17 +12,15 @@ const metadata = {
 
 <Layout metadata={metadata}>
 
- 
-  <JumboTron 
-  id="water-heater-section"
-  titleWords={["Energy", "Efficient"]}
-  coloredWordIndex={0}
-  coloredWordColor="text-green-700"
-  subtitle="Water Heaters"
-  content="Tax code 25D"
-  image="https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/page-art/hot-water-hero.png?raw=true"
-/>
-
+<!-- Energy Efficient Water Heaters Hero Widget -->
+<Hero actions={[]} videoSrc="/images/water-heater-video.mp4">
+  <Fragment slot="title">
+    <div class="text-center font-bold" style="font-size: 1em;">
+      <span class="text-green-600">Energy</span> 
+      <span class="text-white">Efficient Water Heaters</span>
+    </div>
+  </Fragment>
+</Hero>
 
   
   
@@ -31,7 +29,7 @@ const metadata = {
 
     
      
-          
+         
 
  <Pricing
  title="Average Savings on Water Heater Upgrades"

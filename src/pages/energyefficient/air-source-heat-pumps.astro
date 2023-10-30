@@ -4,7 +4,7 @@ import Features2 from '~/components/widgets/Features2.astro';
 import FeaturedArticles from '~/components/widgets/FeaturedArticles.astro';
 import Stats from '~/components/widgets/Stats.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
-import JumboTronLeft from '~/components/widgets/JumboTronLeft.astro';
+import Hero from '~/components/widgets/Hero.astro';
 import AirSourceHeatPumpNote from '~/components/widgets/AirSourceHeatPumpNote.astro';
 
 const metadata = {
@@ -15,20 +15,14 @@ const metadata = {
    
       <Layout metadata={metadata}>
 
-        <JumboTronLeft
-          id="air-source-heat-pumps"
-          titleWords={["Air-Source",]}
-          coloredWordIndex={-1}
-          coloredWordColor="text-blue-700"
-          textColor="text-blue-700"
-          subtitle="Heat Pumps"
-          content="Tax code 25C"
-          image="https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/page-art/heat-pump-hero.png?raw=true"
-          titleAlignment="left"
-        />
-      
+    <!-- AirSource Heat Pumps Hero Widget -->
+<Hero actions={[]} videoSrc="/images/heat-pump-video.mp4">
+  <Fragment slot="title">
+    <div class="text-right text-blue-600 font-bold" style="font-size: 1em; margin-top: -8px; margin-right: 8px;">AirSource Heat Pumps</div>
+  </Fragment>
+</Hero>
 
-
+<section class="container mx-auto p-9"></section>
 
 
   <AirSourceHeatPumpNote />
