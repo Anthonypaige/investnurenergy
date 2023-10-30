@@ -1,7 +1,6 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
-import Hero from '~/components/widgets/Hero.astro';
-import Content from '~/components/widgets/Content.astro';
+import JumboTron from '~/components/widgets/JumboTron.astro';
 import Stats from '~/components/widgets/Stats.astro';
 import FeaturedArticles from '~/components/widgets/FeaturedArticles.astro';
 import WeatherizationNote from '~/components/widgets/WeatherizationNote.astro';
@@ -13,56 +12,21 @@ const metadata = {
 ---
 
 <Layout metadata={metadata}>
-  <!-- Hero  Widget ******************* -->
-  <Hero
-    title=" Weatherization"
-    subtitle="Weatherization is a comprehensive approach to making your home energy-efficient. The Inflation Reduction Act offers new avenues for cost-effective upgrades."
-  />
-  
+
+  <JumboTron 
+  id="weatherization"
+  titleWords={["Weatherization",]}
+  coloredWordIndex={-1}
+  coloredWordColor="text-green-700"
+  subtitle=" "
+  content="Tax code 25C"
+  image="https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/page-art/WTHR-page-art.jpeg?raw=true
+"
+/>
+
   <WeatherizationNote />
    
-
-  <!-- Content Widget **************** -->
-  
-
-  <Content
-  class="flex flex-col md:flex-row"
-  isReversed
-  image={{
-    src: 'https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/page-art/WTHR-page-art.jpg?raw=true',
-    alt: 'Thermal image showing air leaking from a home',
-     }}
-
-    items={[
-      {
-        title: 'Energy Savings',
-        description:
-          'By sealing gaps and insulating properly, you can significantly reduce energy consumption, lowering utility bills. The average household can save up to $350 per year through proper weatherization..',
-      },
-      {
-        title: 'Comfort and Passive Survivability',
-        description:
-          'Well-insulated buildings retain a safe indoor temperature for longer in the event of energy disruptions.',
-      },
-      {
-        title: 'Health',
-        description:
-          'Improved indoor air quality by reducing outdoor pollutants benefits those with allergies or respiratory issues.',
-      },
-      ]}
-      >
-
-    <Fragment slot="content">
-      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Included in 25C and HEEHRA</h3>
-       Weatherization is a vital aspect of home maintenance that offers numerous benefits
-    </Fragment>
-
-    <Fragment slot="bg">
-      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
-    </Fragment>
-  </Content>
- 
-  <!-- Content Widget **************** -->
+  <!-- Stats Widget **************** -->
   <Stats
   title="Weatherization"
   stats={[
@@ -74,7 +38,6 @@ const metadata = {
 />
 
  <!--Featured Articles Widget -->
-
  <FeaturedArticles 
  title="Featured Articles" 
  articleSlugs={[
@@ -84,6 +47,5 @@ const metadata = {
    'crafting-an-energy-efficient-strategy',
  ]}  
 />
-
 
 </Layout>
