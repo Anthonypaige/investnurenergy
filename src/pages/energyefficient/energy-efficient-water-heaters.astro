@@ -2,7 +2,6 @@
 import Layout from '~/layouts/PageLayout.astro';
 import Pricing from '~/components/widgets/Pricing.astro';
 import FeaturedArticles from '~/components/widgets/FeaturedArticles.astro';
-//import Hero from '~/components/widgets/JumboWaterHero.astro';
 import WaterHeatersNote from '~/components/widgets/WaterHeatersNote.astro';
 import JumboTron from '~/components/widgets/JumboTron.astro';
 
@@ -14,14 +13,16 @@ const metadata = {
 <Layout metadata={metadata}>
 
  
-  
   <JumboTron 
-    id="water-heater-section"
-    title="Energy"
-    subtitle="Efficient Water Heaters"
-    content="Tax code 25D"
-    image="https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/page-art/hot-water-hero.png?raw=true"
-  />
+  id="water-heater-section"
+  titleWords={["Energy", "Efficient"]}
+  coloredWordIndex={0}
+  coloredWordColor="text-green-700"
+  subtitle="Water Heaters"
+  content="Tax code 25D"
+  image="https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/page-art/hot-water-hero.png?raw=true"
+/>
+
 
   
   

@@ -4,28 +4,29 @@ import Features2 from '~/components/widgets/Features2.astro';
 import FeaturedArticles from '~/components/widgets/FeaturedArticles.astro';
 import Stats from '~/components/widgets/Stats.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
-import Hero from '~/components/widgets/Hero.astro';
-import JumboHeatHero from '~/components/widgets/JumboHeatHero.astro';
+import JumboTron from '~/components/widgets/JumboTron.astro';
 import AirSourceHeatPumpNote from '~/components/widgets/AirSourceHeatPumpNote.astro';
 
 const metadata = {
   title: 'Air-Source-Heat Pumps',
 };
 ---
+
+
 <Layout metadata={metadata}>
-
-  <!-- Hero Widget for Air-Source Heat Pumps -->
-
-  <Hero
   
-<JumboHeatHero />
+  <JumboTron 
+  id="air-source-heat-pumps"
+  titleWords={["Air-Source",]}
+  coloredWordIndex={0}
+  coloredWordColor="text-blue-700"
+  subtitle="Heat Pumps"
+  content="Tax code 25C"
+  image="https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/page-art/heat-pump-hero.png?raw=true"
+/>
 
-  <Hero actions={[]}>
-   
-    <Fragment>
-    <JumboHeatHero />
-    </Fragment>
-  </Hero>
+
+
 
   <AirSourceHeatPumpNote />
 
