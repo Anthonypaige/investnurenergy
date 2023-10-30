@@ -26,7 +26,7 @@ const { id, subtitle, content, actions, image, titleWords, coloredWordIndex, col
   <div class="relative overflow-hidden bg-cover bg-no-repeat" style={`background-position: 50%; background-image: url('${image}'); height: 500px;`}>
     <div class="flex h-full items-center justify-center">
       <div class={`text-center mx-auto ${textColor}`}>
-        <div class={`text-${titleAlignment} mx-auto ${textColor}`}>
+        <div class={`text-${titleAlignment} mx-auto ${textColor}${titleAlignment === 'left' ? 'ml-10' : ''}`}>
           <h1 class={`mt-2 mb-2 text-5xl font-bold tracking-tight md:text-6xl xl:text-7xl ${textColor}`}>
             {titleWords && titleWords.map((word, index) => (
               <span class={coloredWordIndex === -1 || index === coloredWordIndex ? coloredWordColor : ''}>{word} </span>
