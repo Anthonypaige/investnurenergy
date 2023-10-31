@@ -5,17 +5,8 @@ import Features2 from '~/components/widgets/Features2.astro';
 import Button from '~/components/ui/Button.astro';
 import EvChargerNote from '~/components/widgets/EvChargerNote.astro';
 ---
-
-  <!-- <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
-   -->
    
    <style>
-    .sticky-col {
-      position: sticky;
-      left: 0;
-      background-color: #222223; /* Match the background color */
-      z-index: 1;
-    }
      .checkmark {
     color: green;
     }
@@ -87,27 +78,169 @@ import EvChargerNote from '~/components/widgets/EvChargerNote.astro';
     
   <!-- Responsive Table Wrapper -->
 <div class="flex flex-col overflow-x-auto ml-20 mr-20 ">
-  <div class="sm:-mx-6 lg:-mx-8">
-    <div class="inline-block min-w-full py-2 sm:px-6 lg:px-8">
-      <div class="overflow-x-auto">
-        <table id="comparisonTable" class="min-w-full bg-gray-800 text-white border border-gray-600">
-          <thead class="bg-green-900 sticky top-0 rounded-t-lg">
-            <tr>
-              <th class="py-2 px-4 border border-gray-600 bg-green-700 whitespace-nowrap rounded-tl-lg">Shop Here</th>
-              <th class="py-2 px-4 border border-gray-600 bg-green-700">Ev Charger</th>
-              <th class="py-2 px-4 border border-gray-600 bg-green-700">AvgPrice</th>
-              <th class="py-2 px-4 border border-gray-600 bg-green-700">Max Amps</th>
-              <th class="py-2 px-4 border border-gray-600 bg-green-700">Wifi</th>
-              <th class="py-2 px-4 border border-gray-600 bg-green-700">Bluetooth</th>
-              <th class="py-2 px-4 border border-gray-600 bg-green-700">Chord Management</th>
-              <th class="py-2 px-4 border border-gray-600 bg-green-700">Installation</th>
-              <th class="py-2 px-4 border border-gray-600 bg-green-700 rounded-tr-lg">Outdoor Rating</th>
-            </tr>
-          </thead>
-          <tbody>
+  <!-- Search Input -->
+  <div class="relative m-[2px] mb-3 mr-5 float-left">
+    <label for="inputSearch" class="sr-only">Search </label>
+    <input id="inputSearch" type="text" placeholder="Search..." class="block w-64 rounded-lg border dark:border-none dark:bg-neutral-600 py-2 pl-10 pr-4 text-sm focus:border-blue-400 focus:outline-none focus:ring-1 focus:ring-blue-400" />
+    <span class="pointer-events-none absolute left-3 top-1/2 -translate-y-1/2 transform">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-4 w-4 text-neutral-500 dark:text-neutral-200">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+      </svg>
+    </span>
+  </div>
+
+<!-- Table -->
+<table class="min-w-full text-left text-xs whitespace-nowrap">
+
+  <!-- Table head -->
+  <thead class="uppercase tracking-wider sticky top-0 dark:bg-neutral-700 outline outline-2 outline-neutral-200 dark:outline-neutral-600 bg-neutral-50 dark:bg-neutral-800 border-t">
+    <tr>
+      <th scope="col" class="px-6 py-4 border-x dark:border-neutral-600">
+        Shop Here
+          <a href="" class="inline">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 320 512"
+              class="w-[0.65rem] h-[0.65rem] inline ml-1 text-neutral-500 dark:text-neutral-200 mb-[1px]"
+              fill="currentColor"
+            >
+              {/* Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. */}
+              <path d="M137.4 41.4c12.5-12.5 32.8-12.5 45.3 0l128 128c9.2 9.2 11.9 22.9 6.9 34.9s-16.6 19.8-29.6 19.8H32c-12.9 0-24.6-7.8-29.6-19.8s-2.2-25.7 6.9-34.9l128-128zm0 429.3l-128-128c-9.2-9.2-11.9-22.9-6.9-34.9s16.6-19.8 29.6-19.8H288c12.9 0 24.6 7.8 29.6 19.8s2.2 25.7-6.9 34.9l-128 128c-12.5 12.5-32.8 12.5-45.3 0z" />
+            </svg>
+          </a>
+        </th>
+
+<th scope="col" class="px-6 py-4 border-x dark:border-neutral-600">
+        EV Charger
+          <a href="" class="inline">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 320 512"
+              class="w-[0.65rem] h-[0.65rem] inline ml-1 text-neutral-500 dark:text-neutral-200 mb-[1px]"
+              fill="currentColor"
+            >
+              {/* Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. */}
+              <path d="M137.4 41.4c12.5-12.5 32.8-12.5 45.3 0l128 128c9.2 9.2 11.9 22.9 6.9 34.9s-16.6 19.8-29.6 19.8H32c-12.9 0-24.6-7.8-29.6-19.8s-2.2-25.7 6.9-34.9l128-128zm0 429.3l-128-128c-9.2-9.2-11.9-22.9-6.9-34.9s16.6-19.8 29.6-19.8H288c12.9 0 24.6 7.8 29.6 19.8s2.2 25.7-6.9 34.9l-128 128c-12.5 12.5-32.8 12.5-45.3 0z" />
+            </svg>
+          </a>
+
+</th>
+
+<th scope="col" class="px-6 py-4 border-x dark:border-neutral-600">
+Avg Price
+<a href="" class="inline">
+<svg
+xmlns="http://www.w3.org/2000/svg"
+viewBox="0 0 320 512"
+class="w-[0.65rem] h-[0.65rem] inline ml-1 text-neutral-500 dark:text-neutral-200 mb-[1px]"
+fill="currentColor"
+>
+{/* Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. */}
+<path d="M137.4 41.4c12.5-12.5 32.8-12.5 45.3 0l128 128c9.2 9.2 11.9 22.9 6.9 34.9s-16.6 19.8-29.6 19.8H32c-12.9 0-24.6-7.8-29.6-19.8s-2.2-25.7 6.9-34.9l128-128zm0 429.3l-128-128c-9.2-9.2-11.9-22.9-6.9-34.9s16.6-19.8 29.6-19.8H288c12.9 0 24.6 7.8 29.6 19.8s2.2 25.7-6.9 34.9l-128 128c-12.5 12.5-32.8 12.5-45.3 0z" />
+</svg>
+</a>
+</th>
 
 
-<!-- Autel MaxiCharger 50A Smart Charger -->
+<th scope="col" class="px-6 py-4 border-x dark:border-neutral-600">
+Max Amps
+<a href="" class="inline">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 320 512"
+              class="w-[0.65rem] h-[0.65rem] inline ml-1 text-neutral-500 dark:text-neutral-200 mb-[1px]"
+              fill="currentColor"
+            >
+              {/* Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. */}
+              <path d="M137.4 41.4c12.5-12.5 32.8-12.5 45.3 0l128 128c9.2 9.2 11.9 22.9 6.9 34.9s-16.6 19.8-29.6 19.8H32c-12.9 0-24.6-7.8-29.6-19.8s-2.2-25.7 6.9-34.9l128-128zm0 429.3l-128-128c-9.2-9.2-11.9-22.9-6.9-34.9s16.6-19.8 29.6-19.8H288c12.9 0 24.6 7.8 29.6 19.8s2.2 25.7-6.9 34.9l-128 128c-12.5 12.5-32.8 12.5-45.3 0z" />
+            </svg>
+          </a>
+</th>
+
+<th scope="col" class="px-6 py-4 border-x dark:border-neutral-600">
+Wi-Fi
+<a href="" class="inline">
+      <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 320 512"
+      class="w-[0.65rem] h-[0.65rem] inline ml-1 text-neutral-500 dark:text-neutral-200 mb-[1px]"
+      fill="currentColor"
+      >
+      {/* Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. */}
+      <path d="M137.4 41.4c12.5-12.5 32.8-12.5 45.3 0l128 128c9.2 9.2 11.9 22.9 6.9 34.9s-16.6 19.8-29.6 19.8H32c-12.9 0-24.6-7.8-29.6-19.8s-2.2-25.7 6.9-34.9l128-128zm0 429.3l-128-128c-9.2-9.2-11.9-22.9-6.9-34.9s16.6-19.8 29.6-19.8H288c12.9 0 24.6 7.8 29.6 19.8s2.2 25.7-6.9 34.9l-128 128c-12.5 12.5-32.8 12.5-45.3 0z" />
+      </svg>
+      </a>    
+    </th>
+    
+<th scope="col" class="px-6 py-4 border-x dark:border-neutral-600">
+Bluetooth
+<a href="" class="inline">
+    <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 320 512"
+    class="w-[0.65rem] h-[0.65rem] inline ml-1 text-neutral-500 dark:text-neutral-200 mb-[1px]"
+    fill="currentColor"
+    >
+    {/* Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. */}
+    <path d="M137.4 41.4c12.5-12.5 32.8-12.5 45.3 0l128 128c9.2 9.2 11.9 22.9 6.9 34.9s-16.6 19.8-29.6 19.8H32c-12.9 0-24.6-7.8-29.6-19.8s-2.2-25.7 6.9-34.9l128-128zm0 429.3l-128-128c-9.2-9.2-11.9-22.9-6.9-34.9s16.6-19.8 29.6-19.8H288c12.9 0 24.6 7.8 29.6 19.8s2.2 25.7-6.9 34.9l-128 128c-12.5 12.5-32.8 12.5-45.3 0z" />
+    </svg>
+    </a>
+</th>
+
+<th scope="col" class="px-6 py-4 border-x dark:border-neutral-600">
+Chord Management
+<a href="" class="inline">
+<svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 320 512"
+      class="w-[0.65rem] h-[0.65rem] inline ml-1 text-neutral-500 dark:text-neutral-200 mb-[1px]"
+      fill="currentColor"
+      >
+      {/* Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. */}
+      <path d="M137.4 41.4c12.5-12.5 32.8-12.5 45.3 0l128 128c9.2 9.2 11.9 22.9 6.9 34.9s-16.6 19.8-29.6 19.8H32c-12.9 0-24.6-7.8-29.6-19.8s-2.2-25.7 6.9-34.9l128-128zm0 429.3l-128-128c-9.2-9.2-11.9-22.9-6.9-34.9s16.6-19.8 29.6-19.8H288c12.9 0 24.6 7.8 29.6 19.8s2.2 25.7-6.9 34.9l-128 128c-12.5 12.5-32.8 12.5-45.3 0z" />
+      </svg>
+      </a>    
+</th>
+
+<th scope="col" class="px-6 py-4 border-x dark:border-neutral-600">
+Installation
+<a href="" class="inline">
+    <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 320 512"
+    class="w-[0.65rem] h-[0.65rem] inline ml-1 text-neutral-500 dark:text-neutral-200 mb-[1px]"
+    fill="currentColor"
+    >
+    {/* Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. */}
+    <path d="M137.4 41.4c12.5-12.5 32.8-12.5 45.3 0l128 128c9.2 9.2 11.9 22.9 6.9 34.9s-16.6 19.8-29.6 19.8H32c-12.9 0-24.6-7.8-29.6-19.8s-2.2-25.7 6.9-34.9l128-128zm0 429.3l-128-128c-9.2-9.2-11.9-22.9-6.9-34.9s16.6-19.8 29.6-19.8H288c12.9 0 24.6 7.8 29.6 19.8s2.2 25.7-6.9 34.9l-128 128c-12.5 12.5-32.8 12.5-45.3 0z" />
+    </svg>
+    </a>
+  </th>
+
+<th scope="col" class="px-6 py-4 border-x dark:border-neutral-600">
+Outdoor Rating
+<a href="" class="inline">
+      <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 320 512"
+      class="w-[0.65rem] h-[0.65rem] inline ml-1 text-neutral-500 dark:text-neutral-200 mb-[1px]"
+      fill="currentColor"
+      >
+      {/* Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. */}
+      <path d="M137.4 41.4c12.5-12.5 32.8-12.5 45.3 0l128 128c9.2 9.2 11.9 22.9 6.9 34.9s-16.6 19.8-29.6 19.8H32c-12.9 0-24.6-7.8-29.6-19.8s-2.2-25.7 6.9-34.9l128-128zm0 429.3l-128-128c-9.2-9.2-11.9-22.9-6.9-34.9s16.6-19.8 29.6-19.8H288c12.9 0 24.6 7.8 29.6 19.8s2.2 25.7-6.9 34.9l-128 128c-12.5 12.5-32.8 12.5-45.3 0z" />
+      </svg>
+      </a>    
+    </th>
+  </tr>
+  </thead>
+
+  
+
+
+<!-- TABLE BODY -->
+<tbody>
+
+  <!-- Autel MaxiCharger 50A Smart Charger -->
 <tr class="bg-gray-800 hover:bg-gray-700">
   <td class="py-2 px-4 border border-gray-600 flex flex-col items-center justify-center whitespace-nowrap">
     <img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/autel-evse.png?raw=true' alt='Autel MaxiCharger 40A Smart Charger' class="w-12 h-auto mb-2" />
@@ -257,7 +390,7 @@ import EvChargerNote from '~/components/widgets/EvChargerNote.astro';
 <script>
   document.addEventListener("DOMContentLoaded", function() {
     $('#comparisonTable').DataTable({
-      responsive: false
+      responsive: true
     });
   });
 </script>
