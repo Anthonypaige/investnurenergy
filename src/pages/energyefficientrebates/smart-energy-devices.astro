@@ -9,13 +9,21 @@ const metadata = {
 };
 ---
 <Layout metadata={metadata}>
- 
-  <!-- Hero Widget ******************* -->
+
+
   <Hero actions={[]} videoSrc="/images/smart-home-video.mp4">
     <Fragment slot="title">
-      <div class="text-right text-green-600 font-bold" style="font-size: 1em; margin-bottom: 8px;">Smart Energy Devices</div>
+      <div class="text-right text-green-600 font-bold" style="font-size: 1em;">
+        <div class="inline-block text-right">
+          <div>Smart Energy</div>
+          <div class="text-center" style="margin: 0 auto;">
+            Devices
+          </div>
+        </div>
+      </div>
     </Fragment>
   </Hero>
+  
   
   <section class="container mx-auto p-9"></section>
 

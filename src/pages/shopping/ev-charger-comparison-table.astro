@@ -27,14 +27,20 @@ import EvChargerNote from '~/components/widgets/EvChargerNote.astro';
 
 <Layout>
 
-  <!-- Hero Widget ******************* -->
-  <Hero actions={[]} videoSrc="/images/ev-charger-video.mp4">
-    <Fragment slot="title">
-      <div class="absolute bottom-5 right-10 font-bold" style="font-size: 1em; text-align: center;">
-      <span class="text-green-600">Smart</span><br>Ev Chargers 
-  </div>
-    </Fragment>
-  </Hero>
+
+  <!-- Smart EV Charger Hero Widget -->
+<Hero actions={[]} videoSrc="/images/ev-charger-video.mp4">
+  <Fragment slot="title">
+    <div class="text-right text-blue-600 font-bold" style="font-size: 1em;">
+      <div class="inline-block text-right">
+        <div>Smart EV</div>
+        <div class="text-center" style="margin: 0 auto;">
+          Charger
+        </div>
+      </div>
+    </div>
+  </Fragment>
+</Hero>
 
 <section class="container mx-auto p-6"></section>
 

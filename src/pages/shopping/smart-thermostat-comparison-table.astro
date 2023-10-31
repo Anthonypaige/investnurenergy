@@ -14,15 +14,20 @@ import Hero from '~/components/widgets/Hero.astro';
     }
   </style>
   
-  <section class="container mx-auto p-6">
-    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.css">
-    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+  
    
 <Layout>
 <!-- Smart Thermostats Hero Widget -->
 <Hero actions={[]} videoSrc="/images/smart-thermostat-video.mp4">
   <Fragment slot="title">
-    <div class="text-center text-green-600 font-bold" style="font-size: 1em; margin-top: 8px; margin-right: 8px;">Smart Thermostats</div>
+    <div class="text-right text-green-600 font-bold" style="font-size: 1em;">
+      <div class="inline-block text-right">
+        <div>Smart</div>
+        <div class="text-center" style="margin: 0 auto;">
+          Thermostats
+        </div>
+      </div>
+    </div>
   </Fragment>
 </Hero>
 
