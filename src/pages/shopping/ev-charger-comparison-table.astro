@@ -2,14 +2,28 @@
 import Layout from '~/layouts/TablePageLayout.astro';
 import Hero from '~/components/widgets/Hero.astro';
 import Features2 from '~/components/widgets/Features2.astro';
+import Button from '~/components/ui/Button.astro';
 import EvChargerNote from '~/components/widgets/EvChargerNote.astro';
 ---
 
-
-
- 
   <!-- <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
    -->
+   
+   <style>
+    .sticky-col {
+      position: sticky;
+      left: 0;
+      background-color: #222223; /* Match the background color */
+      z-index: 1;
+    }
+    .checkmark {
+    color: green;
+    }
+     .cross {
+    color: red;
+    }
+  </style>
+
 
 <Layout>
 
@@ -66,7 +80,7 @@ import EvChargerNote from '~/components/widgets/EvChargerNote.astro';
   
     
   <!-- Responsive Table Wrapper -->
-<div class="flex flex-col overflow-x-auto">
+<div class="flex flex-col overflow-x-auto ml-20 mr-20 ">
   <div class="sm:-mx-6 lg:-mx-8">
     <div class="inline-block min-w-full py-2 sm:px-6 lg:px-8">
       <div class="overflow-x-auto">
@@ -85,20 +99,22 @@ import EvChargerNote from '~/components/widgets/EvChargerNote.astro';
             </tr>
           </thead>
           <tbody>
-            
-            <!-- Autel MaxiCharger 50A Smart Charger -->
-            <tr class="bg-gray-800 hover:bg-gray-700">
-              <td class="py-2 px-4 border border-gray-600">
-                <a href='https://amzn.to/3RpBs51' target='_blank' rel='noopener noreferrer' class="hover:text-green-500">
-                  <img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/autel-evse.png?raw=true' alt='Autel MaxiCharger 40A Smart Charger' class="w-12 h-auto" />
-                  Shop Now
-                </a>
-              </td>
-              <td class="py-2 px-4 border border-gray-600">Autel MaxiCharger 50A Smart Charger</td>
-              <td class="py-2 px-4 border border-gray-600">$600</td>
-              <td class="py-2 px-4 border border-gray-600">50 Amps</td>
-              <td class="py-2 px-4 border border-gray-600">Yes</td>
-              <td class="py-2 px-4 border border-gray-600">Yes</td>
+
+
+<!-- Autel MaxiCharger 50A Smart Charger -->
+<tr class="bg-gray-800 hover:bg-gray-700">
+  <td class="py-2 px-4 border border-gray-600 flex flex-col items-center justify-center">
+    <img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/autel-evse.png?raw=true' alt='Autel MaxiCharger 40A Smart Charger' class="w-12 h-auto mb-2" />
+    <Button variant="primary" target="_blank" text="Shop Now" class="w-full text-center" />
+  </td>
+
+
+
+<td class="py-2 px-4 border border-gray-600 text-center break-words">Autel MaxiCharger 50A</td>
+ <td class="py-2 px-4 border border-gray-600">$600</td>
+<td class="py-2 px-4 border border-gray-600">50 Amps</td>
+<td class="py-2 px-4 border border-gray-600">&#10004</td>
+              <td class="py-2 px-4 border border-gray-600">&#10004</td>
               <td class="py-2 px-4 border border-gray-600">Separate holster</td>
               <td class="py-2 px-4 border border-gray-600">Hardwired</td>
               <td class="py-2 px-4 border border-gray-600">NEMA 4X</td>
@@ -106,17 +122,17 @@ import EvChargerNote from '~/components/widgets/EvChargerNote.astro';
   
 <!-- Emporia 48A Smart Charger -->
 <tr class="bg-gray-800 hover:bg-gray-700">
-  <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">
+  <td class="py-2 px-4 border border-gray-600 sticky-col">
     <a href='https://amzn.to/3EI78La' target='_blank' rel='noopener noreferrer' class="hover:text-green-500">
       <img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/lectron-evse.png?raw=true' alt='Emporia 48A Smart Charger' class="w-12 h-auto" />
       Shop Now
     </a>
   </td>
-  <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">Emporia 48A Smart Charger</td>
+  <td class="py-2 px-4 border border-gray-600 text-center break-words ">Emporia  Vue 48A</td>
   <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">$400</td>
   <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">48 Amps</td>
-  <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">No</td>
-  <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">No</td>
+  <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">&#10008</td>
+  <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">&#10008</td>
   <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">Wall Mount</td>
   <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">Hardwired/Plug-in</td>
   <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">NEMA-4</td>
@@ -124,17 +140,17 @@ import EvChargerNote from '~/components/widgets/EvChargerNote.astro';
 
 <!-- ChargePoint 50A Smart Charger -->
 <tr class="bg-gray-800 hover:bg-gray-700">
-  <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">
+  <td class="py-2 px-4 border border-gray-600 sticky-col">
     <a href='https://amzn.to/3Rqq2hg' target='_blank' rel='noopener noreferrer' class="hover:text-green-500">
       <img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/autel-evse.png?raw=true' alt='ChargePoint 50A Smart Charger' class="w-12 h-auto" />
       Shop Now
     </a>
   </td>
-  <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">ChargePoint 50A Smart Charger</td>
+  <td class="py-2 px-4 border border-gray-600 text-center break-words ">ChargePoint 50A</td>
   <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">$600</td>
   <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">50 Amps</td>
-  <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">Yes</td>
-  <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">Yes</td>
+  <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">&#10004</td>
+  <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">&#10004</td>
   <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">Built in</td>
   <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">Hardwired/Plug-in</td>
   <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">NEMA 3R</td>
@@ -142,17 +158,17 @@ import EvChargerNote from '~/components/widgets/EvChargerNote.astro';
 
 <!-- JuiceBox 40A Smart Charger -->
 <tr class="bg-gray-800 hover:bg-gray-700">
-  <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">
+  <td class="py-2 px-4 border border-gray-600 sticky-col">
     <a href='https://amzn.to/45VXuR2' target='_blank' rel='noopener noreferrer' class="hover:text-green-500">
       <img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/juice-evse.png?raw=true' alt='JuiceBox 40A Smart Charger' class="w-12 h-auto" />
       Shop Now
     </a>
   </td>
-  <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">JuiceBox 40A Smart Charger</td>
+  <td class="py-2 px-4 border border-gray-600 text-center break-words">JuiceBox 40A</td>
   <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">$600</td>
   <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">40 Amps</td>
-  <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">Yes</td>
-  <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">Yes</td>
+  <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">&#10004</td>
+  <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">&#10004</td>
   <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">Wall Mount</td>
   <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">NEMA 14-50 plug</td>
   <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">NEMA 4X/IP66</td>
@@ -160,17 +176,17 @@ import EvChargerNote from '~/components/widgets/EvChargerNote.astro';
 
 <!-- Electrify America Level 2 -->
 <tr class="bg-gray-800 hover:bg-gray-700">
-  <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">
+  <td class="py-2 px-4 border border-gray-600 sticky-col">
     <a href='https://amzn.to/46hAzPR' target='_blank' rel='noopener noreferrer' class="hover:text-green-500">
       <img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/electrify-america-evse.png?raw=true' alt='Electrify America Level 2' class="w-12 h-auto" />
       Shop Now
     </a>
   </td>
-  <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">Electrify America Level 2</td>
+  <td class="py-2 px-4 border border-gray-600 text-center break-words">Electrify America 40A</td>
   <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">$650</td>
   <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">40 Amps</td>
-  <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">Yes</td>
-  <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">No</td>
+  <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">&#10004</td>
+  <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">&#10008</td>
   <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">Separate holster</td>
   <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">NEMA 14-50 plug</td>
   <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">NEMA 3R</td>
@@ -178,17 +194,17 @@ import EvChargerNote from '~/components/widgets/EvChargerNote.astro';
 
 <!-- Wallbox Pulsar Plus 40A Smart Charger -->
 <tr class="bg-gray-800 hover:bg-gray-700">
-  <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">
+  <td class="py-2 px-4 border border-gray-600 sticky-col">
     <a href='https://amzn.to/3PoQpkW' target='_blank' rel='noopener noreferrer' class="hover:text-green-500">
       <img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/wallbox-evse.png?raw=true' alt='Wallbox Pulsar Plus 40A Smart Charger' class="w-12 h-auto" />
       Shop Now
     </a>
   </td>
-  <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">Wallbox Pulsar Plus 40A Smart Charger</td>
+  <td class="py-2 px-4 border border-gray-600 text-center break-words">Wallbox Pulsar Plus 40A</td>
   <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">$650</td>
   <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">40 Amps</td>
-  <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">Yes</td>
-  <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">Yes</td>
+  <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">&#10004</td>
+  <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">&#10004</td>
   <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">Separate holster</td>
   <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">NEMA 14-50 plug</td>
   <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">NEMA-4</td>
