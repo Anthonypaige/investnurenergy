@@ -4,6 +4,12 @@ import Hero from '~/components/widgets/Hero.astro';
 import Features2 from '~/components/widgets/Features2.astro';
 import Button from '~/components/ui/Button.astro';
 import EvChargerNote from '~/components/widgets/EvChargerNote.astro';
+
+const metadata = {
+  title: 'Smart Level 2 EV Chargers Comparison Table',
+};
+
+
 ---
    
    <style>
@@ -16,22 +22,19 @@ import EvChargerNote from '~/components/widgets/EvChargerNote.astro';
   </style>
 
 
-<Layout>
-
-
-  <!-- Smart EV Charger Hero Widget -->
-<Hero actions={[]} videoSrc="/images/ev-charger-video.mp4">
-  <Fragment slot="title">
-    <div class="text-right text-blue-600 font-bold" style="font-size: 1em;">
-      <div class="inline-block text-right">
-        <div>Smart EV</div>
-        <div class="text-center" style="margin: 0 auto;">
-          Charger
+<Layout metadata={metadata}>
+  <Hero actions={[]} videoSrc="/images/ev-charger-video.mp4">
+    <Fragment slot="title">
+      <div class="text-right text-green-700 font-bold lg:text-6xl md:text-4xl sm:text-2xl text-xl">
+        <div class="inline-block text-right">
+          <div>Smart EV</div>
+          <div class="text-center lg:text-6xl md:text-4xl sm:text-2xl text-xl" style="margin: 0 auto;">
+            Chargers
+          </div>
         </div>
       </div>
-    </div>
-  </Fragment>
-</Hero>
+    </Fragment>
+  </Hero>
 
 <section class="container mx-auto p-6"></section>
 
@@ -93,9 +96,9 @@ import EvChargerNote from '~/components/widgets/EvChargerNote.astro';
 <table class="min-w-full text-left text-xs whitespace-nowrap">
 
   <!-- Table head -->
-  <thead class="uppercase tracking-wider sticky top-0 dark:bg-neutral-700 outline outline-2 outline-neutral-200 dark:outline-neutral-600 bg-neutral-50 dark:bg-neutral-800 border-t">
+  <thead class="uppercase tracking-wider sticky top-0 dark:bg-neutral-700 outline outline-2 outline-neutral-200 dark:outline-neutral-600 bg-neutral-50 border-t">
     <tr>
-      <th scope="col" class="px-6 py-4 border-x dark:border-neutral-600">
+      <th scope="col" class="px-6 py-4 border-x dark:border-neutral-600 bg-green-700">
         Shop Here
           <a href="" class="inline">
             <svg
@@ -110,7 +113,7 @@ import EvChargerNote from '~/components/widgets/EvChargerNote.astro';
           </a>
         </th>
 
-<th scope="col" class="px-6 py-4 border-x dark:border-neutral-600">
+        <th scope="col" class="px-6 py-4 border-x dark:border-neutral-600 bg-green-700">
         EV Charger
           <a href="" class="inline">
             <svg
@@ -125,8 +128,7 @@ import EvChargerNote from '~/components/widgets/EvChargerNote.astro';
           </a>
 
 </th>
-
-<th scope="col" class="px-6 py-4 border-x dark:border-neutral-600">
+<th scope="col" class="px-6 py-4 border-x dark:border-neutral-600 bg-green-700">
 Avg Price
 <a href="" class="inline">
 <svg
@@ -142,7 +144,7 @@ fill="currentColor"
 </th>
 
 
-<th scope="col" class="px-6 py-4 border-x dark:border-neutral-600">
+<th scope="col" class="px-6 py-4 border-x dark:border-neutral-600 bg-green-700">
 Max Amps
 <a href="" class="inline">
             <svg
@@ -157,7 +159,7 @@ Max Amps
           </a>
 </th>
 
-<th scope="col" class="px-6 py-4 border-x dark:border-neutral-600">
+<th scope="col" class="px-6 py-4 border-x dark:border-neutral-600 bg-green-700">
 Wi-Fi
 <a href="" class="inline">
       <svg
@@ -172,7 +174,7 @@ Wi-Fi
       </a>    
     </th>
     
-<th scope="col" class="px-6 py-4 border-x dark:border-neutral-600">
+    <th scope="col" class="px-6 py-4 border-x dark:border-neutral-600 bg-green-700">
 Bluetooth
 <a href="" class="inline">
     <svg
@@ -187,7 +189,7 @@ Bluetooth
     </a>
 </th>
 
-<th scope="col" class="px-6 py-4 border-x dark:border-neutral-600">
+<th scope="col" class="px-6 py-4 border-x dark:border-neutral-600 bg-green-700">
 Chord Management
 <a href="" class="inline">
 <svg
@@ -202,7 +204,7 @@ Chord Management
       </a>    
 </th>
 
-<th scope="col" class="px-6 py-4 border-x dark:border-neutral-600">
+<th scope="col" class="px-6 py-4 border-x dark:border-neutral-600 bg-green-700">
 Installation
 <a href="" class="inline">
     <svg
@@ -248,7 +250,7 @@ Outdoor Rating
   </td>
 
 <td class="py-2 px-4 border border-gray-600 text-center break-words">Autel MaxiCharger 50A</td>
- <td class="py-2 px-4 border border-gray-600">$600</td>
+<td class="py-2 px-4 border border-gray-600">$600</td>
 <td class="py-2 px-4 border border-gray-600">50 Amps</td>
 <td class="py-2 px-4 border border-gray-600">&#10004</td>
 <td class="py-2 px-4 border border-gray-600">&#10004</td>
@@ -341,21 +343,21 @@ Outdoor Rating
   <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">NEMA 14-50 plug</td>
   <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">NEMA-4</td>
 </tr>
-</tbody>
+
 </table>
 </div>
 </div>
-</div>
-</div>
+
 
 <Features2
+
     title="Varying features"
     subtitle="Optional features to consider based on your home setup"
     columns={3}
     items={[
       {
         title: 'Max Power Output',
-        description: 'Indicates the charger\'s max current output. Higher amps mean faster charging.',
+        description: 'Indicates the chargers max current output. Higher amps mean faster charging.',
         icon: 'tabler:charging-pile'
       },
       {
@@ -385,6 +387,8 @@ Outdoor Rating
       }
     ]}
   />
+
+
   
 <!-- Your custom script -->
 <script>
@@ -394,5 +398,4 @@ Outdoor Rating
     });
   });
 </script>
-</section>
 </Layout>

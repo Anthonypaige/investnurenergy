@@ -3,6 +3,10 @@ import Layout from '~/layouts/PageLayout.astro';
 import Features2 from '~/components/widgets/Features2.astro';
 import Hero from '~/components/widgets/Hero.astro';
 
+const metadata = {
+  title: 'Top Smart Thermostat Comparison Table',
+};
+
 ---
 
   <style scoped>
@@ -15,23 +19,19 @@ import Hero from '~/components/widgets/Hero.astro';
   </style>
   
   
-   
-<Layout>
-<!-- Smart Thermostats Hero Widget -->
-<Hero actions={[]} videoSrc="/images/smart-thermostat-video.mp4">
-  <Fragment slot="title">
-    <div class="text-right text-green-600 font-bold" style="font-size: 1em;">
-      <div class="inline-block text-right">
-        <div>Top Smart</div>
-        <div class="text-center" style="margin: 0 auto;">
-          Thermostats
+  <Layout metadata={metadata}>
+    <Hero actions={[]} videoSrc="/images/smart-thermostat-video.mp4">
+      <Fragment slot="title">
+        <div class="text-right text-green-700 font-bold lg:text-6xl md:text-4xl sm:text-2xl text-xl">
+          <div class="inline-block text-center">
+            <div>Top Smart</div>
+            <div class="text-center lg:text-6xl md:text-4xl sm:text-2xl text-xl" style="margin: 0 auto;">
+            Thermostats
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
-  </Fragment>
-</Hero>
-
-
+      </Fragment>
+    </Hero>
 
     
 <Features2
