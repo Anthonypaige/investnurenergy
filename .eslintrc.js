@@ -4,6 +4,7 @@ module.exports = {
     node: true,
     es2022: true,
     browser: true,
+    jquery: true,  // Add this line
   },
   extends: ['eslint:recommended', 'plugin:astro/recommended'],
   parser: '@typescript-eslint/parser',
