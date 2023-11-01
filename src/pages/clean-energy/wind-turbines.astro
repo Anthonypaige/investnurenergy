@@ -2,6 +2,7 @@
 import Layout from '~/layouts/PageLayout.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
 import Hero from '~/components/widgets/Hero.astro';
+import WindTurbineNote from '~/components/widgets/WindTurbineNote.astro';
 import WindMapZoom from '~/components/widgets/WindMapZoom.astro';
 import FeaturedArticles from '~/components/widgets/FeaturedArticles.astro';
 
@@ -14,13 +15,20 @@ const metadata = {
 <Layout metadata={metadata}>
   <Hero actions={[]} videoSrc="/images/wind-turbine-video.mp4">
   <Fragment slot="title">
-  <div class="text-right font-bold lg:text-7xl md:text-6xl sm:text-5xl text-xl mp-20 ">
+  <div class="text-right font-bold lg:text-7xl md:text-7xl sm:text-7xl text-xl mp-20 ">
   <div><span class="text-blue-700"> Wind </span> Turbines </div>
   </div>
   </Fragment>
   </Hero>
 
+  <section class="container mx-auto p-9"></section>
+
+<section>
+<WindTurbineNote />
+</section>
+
 <section class="container mx-auto p-9"></section>
+
 
 <section>
   <WindMapZoom />

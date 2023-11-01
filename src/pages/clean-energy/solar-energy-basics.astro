@@ -2,6 +2,7 @@
 import Layout from '~/layouts/PageLayout.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
 import Hero from '~/components/widgets/Hero.astro';
+import SolarBasicsNote from '~/components/widgets/SolarBasicsNote.astro';
 import SolarMapZoom from '~/components/widgets/SolarMapZoom.astro';
 import FeaturedArticles from '~/components/widgets/FeaturedArticles.astro';
 
@@ -13,7 +14,7 @@ const metadata = {
 <Layout metadata={metadata}>
   <Hero actions={[]} videoSrc="/images/solar-energy-basics-video.mp4">
     <Fragment slot="title">
-      <div class="text-right font-bold lg:text-7xl md:text-5xl sm:text-4xl text-xl mp-60 ">
+      <div class="text-right font-bold lg:text-7xl md:text-6xl sm:text-6xl text-xl mp-60 ">
       <div>Solar Basics</div>
       </div>
     </Fragment>
@@ -21,7 +22,12 @@ const metadata = {
 
 <section class="container mx-auto p-9"></section>
   
-    
+<section>
+    <SolarBasicsNote />
+  </section>
+  
+  <section class="container mx-auto p-9"></section>
+
     <section>
       <SolarMapZoom />
     </section>
@@ -69,7 +75,5 @@ const metadata = {
     <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
   </Fragment>
 </FAQs>
-
-
 
 </Layout>
