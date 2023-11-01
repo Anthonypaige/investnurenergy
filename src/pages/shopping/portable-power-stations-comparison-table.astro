@@ -28,12 +28,15 @@ color: red;
 Stations
 </div>
 </div>
-</div>
 </Fragment>
 </Hero>
 
+
 <section class="container mx-auto p-9"></section>
 
+<!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
+<!-- <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.css"> -->
+<!-- <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.js"></script> --> -->
 
   <Features2
   title="Features Included"
@@ -91,7 +94,7 @@ Stations
   </div>
 
 <!-- Start of Table -->
-<table class="min-w-full text-left text-xs whitespace-nowrap">
+<table id="comparisonTable" class="min-w-full text-xs sm:text-sm md:text-base whitespace-nowrap break-words">
   
   <!-- Table header -->
    <thead class="uppercase tracking-wider sticky top-0 dark:bg-neutral-700 bg-neutral-50 border-t">
@@ -483,9 +486,13 @@ Stations
 
 
 
+<!-- Your custom script -->
 <script>
   document.addEventListener("DOMContentLoaded", function() {
-    $('#comparisonTable').DataTable();
+    $('#comparisonTable').DataTable({
+      responsive: true
+    });
   });
 </script>
+
 </Layout>

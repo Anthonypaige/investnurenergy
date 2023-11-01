@@ -11,6 +11,7 @@ const metadata = {
 
 ---
 
+
 <style>
   .checkmark {
  color: green;
@@ -21,14 +22,15 @@ const metadata = {
 </style>
   
 
-  <Layout metadata={metadata}>
-    <Hero actions={[]} videoSrc="/images/smart-thermostat-video.mp4">
-      <Fragment slot="title">
-        <div class="text-left font-bold lg:text-6xl md:text-6xl sm:text-4xl text-xl mp-20">
-          <div>Smart Thermostats</div>
-        </div>
-      </Fragment>
-    </Hero>
+
+<Layout metadata={metadata}>
+<Hero actions={[]} videoSrc="/images/smart-thermostat-video.mp4">
+<Fragment slot="title">
+<div class="text-left font-bold lg:text-6xl md:text-6xl sm:text-4xl text-xl mp-20">
+ <div>Smart Thermostats</div>
+</div>
+</Fragment>
+</Hero>
     
     
     <section class="container mx-auto p-9"></section>
@@ -422,7 +424,8 @@ items={[
     </ul>
   </nav>
   
-  </div>
+
+
   <Features2
   title="Varying Features"
   subtitle="Optional features to narrow down your choice based on personal preferences"
@@ -462,11 +465,15 @@ items={[
 />
 
 
+<!-- Your custom script -->
 <script>
   document.addEventListener("DOMContentLoaded", function() {
-    $('#comparisonTable').DataTable();
+    $('#comparisonTable').DataTable({
+      responsive: true
+    });
   });
 </script>
+
 </Layout>
 
 
