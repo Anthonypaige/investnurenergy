@@ -5,12 +5,12 @@ export const headerData = {
     {
       text: 'Clean Energy Tax Credit',
       links: [
-        { text: 'Home Clean Energy Credit', href: getPermalink('/cleanenergy/home-clean-energy-credit') },
-        { text: 'Home Energy Storage', href: getPermalink('/cleanenergy/home-energy-storage') },
-        { text: 'Solar Basics', href: getPermalink('/cleanenergy/solar-basics') },
-        { text: 'Solar Tax Incentive', href: getPermalink('/cleanenergy/solar-tax-incentive') },
-        { text: 'Geothermal Heat Pumps', href: getPermalink('/cleanenergy/geothermal-energy') },
-        { text: 'Residential Wind Turbines', href: getPermalink('/cleanenergy/wind-energy') },
+        { text: 'Home Clean Energy Credit', href: getPermalink('/clean-energy/home-clean-energy-credit') },
+        { text: 'Home Energy Storage', href: getPermalink('/clean-energy/home-energy-storage') },
+        { text: 'Solar Basics', href: getPermalink('/clean-energy/solar-basics') },
+        { text: 'Solar Tax Incentive', href: getPermalink('/clean-energy/solar-tax-incentive') },
+        { text: 'Geothermal Heat Pumps', href: getPermalink('/clean-energy/geothermal-energy') },
+        { text: 'Residential Wind Turbines', href: getPermalink('/clean-energy/wind-energy') },
       ],
     },
     {
@@ -57,7 +57,7 @@ export const footerData = {
     {
       title: 'Tax Code Breakdowns',
       links: [
-        { text: 'Home Clean Energy Credit', href: getPermalink('/cleanenergy/home-clean-energy-credit') },
+        { text: 'Home Clean Energy Credit', href: getPermalink('/clean-energy/home-clean-energy-credit') },
         {
           text: 'Energy Efficient Home Upgrades',
           href: getPermalink('/energyefficient/energy-efficient-home-upgrades'),
@@ -69,16 +69,16 @@ export const footerData = {
       title: 'Top Pages',
       links: [
         { text: 'Smart Energy Devices', href: getPermalink('/energyefficientrebates/smart-energy-devices') },
-        { text: 'Home Energy Storage', href: getPermalink('/cleanenergy/home-energy-storage') },
-        { text: 'Solar Tax Incentive', href: getPermalink('/cleanenergy/solar-tax-incentive') },
-        { text: 'Solar Basics', href: getPermalink('/cleanenergy/solar-basics') },
+        { text: 'Home Energy Storage', href: getPermalink('/clean-energy/home-energy-storage') },
+        { text: 'Solar Tax Incentive', href: getPermalink('/clean-energy/solar-tax-incentive') },
+        { text: 'Solar Basics', href: getPermalink('/clean-energy/solar-basics') },
       ],
     },
     {
       title: 'Themed Pages',
       links: [
-        { text: 'Geothermal Energy', href: getPermalink('/cleanenergy/geothermal-energy') },
-        { text: 'Wind Energy', href: getPermalink('/cleanenergy/wind-energy') },
+        { text: 'Geothermal Energy', href: getPermalink('/clea-nenergy/geothermal-energy') },
+        { text: 'Wind Energy', href: getPermalink('/clean-energy/wind-energy') },
         { text: 'Heat Pumps', href: getPermalink('/energyefficient/air-source-heat-pumps') },
         { text: 'Water Heaters', href: getPermalink('/energyefficient/energy-efficient-water-heaters') },
       ],
