@@ -6,7 +6,7 @@ import Button from '~/components/ui/Button.astro';
 import EvChargerNote from '~/components/widgets/EvChargerNote.astro';
 
 const metadata = {
-  title: 'Smart Level 2 EV Chargers Comparison Table',
+  title: 'Smart EV Chargers ',
 };
 
 
@@ -24,9 +24,9 @@ const metadata = {
 <Layout metadata={metadata}>
   <Hero actions={[]} videoSrc="/images/ev-charger-video.mp4">
     <Fragment slot="title">
-      <div class="text-right text-green-800 font-bold lg:text-7xl md:text-6xl sm:text-4xl text-xl mt-20">
-        <div class="inline-block text-right">
-          <div>Smart EV</div>
+      <div class="text-right font-bold lg:text-7xl md:text-6xl sm:text-4xl text-xl mt-20">
+        <div class="inline-block text-center">
+          <div><span class="text-blue-700"> Smart </span> EV</div>
           <div class="text-center lg:text-7xl md:text-6xl sm:text-5xl text-xl" style="margin: 0 auto;">
             Chargers
           </div>
@@ -38,6 +38,8 @@ const metadata = {
 
 
 <section class="container mx-auto p-6"></section>
+
+
 
 <EvChargerNote />
 
@@ -75,32 +77,32 @@ const metadata = {
         title: 'Safety Certified',
         description: 'Meets UL or ETL safety standards for electrical components and charging.',
         icon: 'tabler:certificate-2'
-      }
+      },
     ]}
   />
   
-  <!-- Responsive Table Wrapper -->
+<!-- Responsive Table Wrapper -->
 <div class="flex flex-col overflow-x-auto ml-5 mr-5 sm:ml-20 sm:mr-20">
-  <!-- Search Input -->
-  <div class="relative m-[2px] mb-3 mr-5 float-left">
-    <label for="inputSearch" class="sr-only">Search </label>
-    <input id="inputSearch" type="text" placeholder="Search..." class="block w-64 rounded-lg border dark:border-none dark:bg-neutral-600 py-2 pl-10 pr-4 text-sm focus:border-blue-400 focus:outline-none focus:ring-1 focus:ring-blue-400" />
-    <span class="pointer-events-none absolute left-3 top-1/2 -translate-y-1/2 transform">
-      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-4 w-4 text-neutral-500 dark:text-neutral-200">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
-      </svg>
-    </span>
-  </div>
+<!-- Search Input -->
+<div class="relative m-[2px] mb-3 mr-5 float-left">
+<label for="inputSearch" class="sr-only">Search </label>
+<input id="inputSearch" type="text" placeholder="Search..." class="block w-64 rounded-lg border dark:border-none dark:bg-neutral-600 py-2 pl-10 pr-4 text-sm focus:border-blue-400 focus:outline-none focus:ring-1 focus:ring-blue-400" />
+<span class="pointer-events-none absolute left-3 top-1/2 -translate-y-1/2 transform">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-4 w-4 text-neutral-500 dark:text-neutral-200">
+<path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+</svg>
+</span>
+</div>
 
-<!-- Table -->
+<!-- Start of Table -->
 <table class="min-w-full text-left text-xs whitespace-nowrap">
-
-  <!-- Table head -->
+  
+<!-- Table header -->
  <thead class="uppercase tracking-wider sticky top-0 dark:bg-neutral-700 bg-neutral-50 border-t">
-    <tr>
-
- <!-- Sticky first column -->
- <th scope="col" class="sticky left-0 px-4 py-2 w-1/4 border-x dark:border-neutral-600 bg-green-700">
+    
+<!-- Sticky first column with z-index and background color -->
+<tr>
+<th scope="col" class="sticky left-0 z-10 px-6 py-4 w-1/4 border-x dark:border-neutral-600 bg-green-700">
   Shop Here
           <a href="" class="inline">
             <svg
@@ -114,7 +116,8 @@ const metadata = {
             </svg>
           </a>
         </th>
-<th scope="col" class="px-6 py-4 border-x dark:border-neutral-600 bg-green-700">
+
+<th scope="col" class="sticky left-0 z-10 px-6 py-4 w-1/4 border-x dark:border-neutral-600 bg-green-700">
 EV Charger
           <a href="" class="inline">
             <svg
@@ -128,7 +131,8 @@ EV Charger
             </svg>
           </a>
 </th>
-<th scope="col" class="px-2 py-2 w-1/12 border-x dark:border-neutral-600 bg-green-700">
+
+<th scope="col" class="sticky left-0 z-10 px-6 py-4 w-1/4 border-x dark:border-neutral-600 bg-green-700">
 Avg Price
 <a href="" class="inline">
 <svg
@@ -143,9 +147,7 @@ fill="currentColor"
 </a>
 </th>
 
-
-
-<th scope="col" class="px-2 py-2 w-1/12 border-x dark:border-neutral-600 bg-green-700">
+<th scope="col" class="sticky left-0 z-10 px-6 py-4 w-1/4 border-x dark:border-neutral-600 bg-green-700">
 Max Amps
 <a href="" class="inline">
             <svg
@@ -160,7 +162,7 @@ Max Amps
           </a>
 </th>
 
-<th scope="col" class="px-2 py-2 w-1/12 border-x dark:border-neutral-600 bg-green-700">
+<th scope="col" class="sticky left-0 z-10 px-6 py-4 w-1/4 border-x dark:border-neutral-600 bg-green-700">
 Wi-Fi
 <a href="" class="inline">
       <svg
@@ -175,7 +177,7 @@ Wi-Fi
       </a>    
     </th>
     
-    <th scope="col" class="px-2 py-2 w-1/12 border-x dark:border-neutral-600 bg-green-700">
+<th scope="col" class="sticky left-0 z-10 px-6 py-4 w-1/4 border-x dark:border-neutral-600 bg-green-700">
 Bluetooth
 <a href="" class="inline">
     <svg
@@ -190,10 +192,10 @@ Bluetooth
     </a>
 </th>
 
-<th scope="col" class="px-6 py-4 border-x dark:border-neutral-600 bg-green-700">
-Chord Management
+<th scope="col" class="sticky left-0 z-10 px-6 py-4 w-1/4 border-x dark:border-neutral-600 bg-green-700">
+Chord Mgmt
 <a href="" class="inline">
-<svg
+      <svg
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 320 512"
       class="w-[0.65rem] h-[0.65rem] inline ml-1 text-neutral-500 dark:text-neutral-200 mb-[1px]"
@@ -205,7 +207,7 @@ Chord Management
       </a>    
 </th>
 
-<th scope="col" class="px-6 py-4 border-x dark:border-neutral-600 bg-green-700">
+<th scope="col" class="sticky left-0 z-10 px-6 py-4 w-1/4 border-x dark:border-neutral-600 bg-green-700">
 Installation
 <a href="" class="inline">
     <svg
@@ -220,8 +222,8 @@ Installation
     </a>
   </th>
 
-<th scope="col" class="px-6 py-4 border-x dark:border-neutral-600">
-Outdoor Rating
+<th scope="col" class="sticky left-0 z-10 px-6 py-4 w-1/4 border-x dark:border-neutral-600 bg-green-700">
+Weather
 <a href="" class="inline">
       <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -239,13 +241,13 @@ Outdoor Rating
 
   
 
-
-<!-- TABLE BODY -->
+<!--Start of TABLE BODY -->
 <tbody>
 
   <!-- Autel MaxiCharger 50A Smart Charger -->
 <tr class="bg-gray-800 hover:bg-gray-700">
-  <td class="sticky left-0 py-1 px-2 border border-gray-600 flex flex-col items-center justify-center whitespace-nowrap">
+  <td class="sticky left-0 z-10 py-1 px-2 border border-gray-600 flex flex-col items-center justify-center whitespace-nowrap bg-gray-800">
+    <img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/autel-evse.png?raw=true' alt='Autel 50A Smart Charger' class="w-12 h-auto mb-2" />
     <Button href="https://amzn.to/3RpBs51" variant="primary" target="_blank" text="Shop Now" class="w-5/6 text-sm text-center rounded-full py-1 px-3" />
   </td>
 
@@ -261,9 +263,10 @@ Outdoor Rating
   
 <!-- Emporia 48A Smart Charger -->
 <tr class="bg-gray-800 hover:bg-gray-700">
-  <td class="py-2 px-4 border border-gray-600 flex flex-col items-center justify-center whitespace-nowrap">
-    <img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/emporia-evse.png?raw=true' alt='Emporia 48A Smart Charger' class="w-12 h-auto mb-2" />
-    <Button href="https://amzn.to/3EI78La" variant="primary" target="_blank" text="Shop Now" class="w-5/6 text-sm text-center rounded-full py-1 px-3" />
+<td class="sticky left-0 z-10 py-1 px-2 border border-gray-600 flex flex-col items-center justify-center whitespace-nowrap bg-gray-800">
+    
+  <img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/emporia-evse.png?raw=true' alt='Emporia 48A Smart Charger' class="w-12 h-auto mb-2" />
+  <Button href="https://amzn.to/3EI78La" variant="primary" target="_blank" text="Shop Now" class="w-5/6 text-sm text-center rounded-full py-1 px-3" />
   </td>
 
   <td class="py-2 px-4 border border-gray-600 text-center break-words ">Emporia  Vue 48A</td>
@@ -278,7 +281,8 @@ Outdoor Rating
 
 <!-- ChargePoint 50A Smart Charger -->
 <tr class="bg-gray-800 hover:bg-gray-700">
-  <td class="py-2 px-4 border border-gray-600 flex flex-col items-center justify-center whitespace-nowrap">
+  
+  <td class="sticky left-0 z-10 py-1 px-2 border border-gray-600 flex flex-col items-center justify-center whitespace-nowrap bg-gray-800">
     <img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/autel-evse.png?raw=true' alt='ChargePoint 50A Smart Charger' class="w-12 h-auto mb-2" />
     <Button href="https://amzn.to/3Rqq2hg" variant="primary" target="_blank" text="Shop Now" class="w-5/6 text-sm text-center rounded-full py-1 px-3" />
 </td>
@@ -294,9 +298,10 @@ Outdoor Rating
 
 <!-- JuiceBox 40A Smart Charger -->
 <tr class="bg-gray-800 hover:bg-gray-700">
-  <td class="py-2 px-4 border border-gray-600 flex flex-col items-center justify-center whitespace-nowrap">
-    <img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/juice-evse.png?raw=true' alt='JuiceBox 40A Smart Charger' class="w-12 h-auto mb-2" />
-    <Button href="https://amzn.to/45VXuR2" variant="primary" target="_blank" text="Shop Now" class="w-5/6 text-sm text-center rounded-full py-1 px-3" />
+  
+  <td class="sticky left-0 z-10 py-1 px-2 border border-gray-600 flex flex-col items-center justify-center whitespace-nowrap bg-gray-800">
+  <img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/juice-evse.png?raw=true' alt='JuiceBox 40A Smart Charger' class="w-12 h-auto mb-2" />
+  <Button href="https://amzn.to/45VXuR2" variant="primary" target="_blank" text="Shop Now" class="w-5/6 text-sm text-center rounded-full py-1 px-3" />
   </td>
 
   <td class="py-2 px-4 border border-gray-600 text-center break-words">JuiceBox 40A</td>
@@ -312,7 +317,8 @@ Outdoor Rating
 
 <!-- Electrify America -->
 <tr class="bg-gray-800 hover:bg-gray-700">
-  <td class="py-2 px-4 border border-gray-600 flex flex-col items-center justify-center whitespace-nowrap">
+  
+  <td class="sticky left-0 z-10 py-1 px-2 border border-gray-600 flex flex-col items-center justify-center whitespace-nowrap bg-gray-800">
     <img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/electrify-america-evse.png?raw=true' alt='Electrify America Level 2' class="w-12 h-auto mb-2" />
     <Button href="https://amzn.to/46hAzPR" variant="primary" target="_blank" text="Shop Now" class="w-5/6 text-sm text-center rounded-full py-1 px-3" />
   </td>
@@ -329,7 +335,8 @@ Outdoor Rating
 
 <!-- Wallbox Pulsar Plus 40A Smart Charger -->
 <tr class="bg-gray-800 hover:bg-gray-700">
-  <td class="py-2 px-4 border border-gray-600 flex flex-col items-center justify-center whitespace-nowrap">
+  
+  <td class="sticky left-0 z-10 py-1 px-2 border border-gray-600 flex flex-col items-center justify-center whitespace-nowrap bg-gray-800">
     <img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/wallbox-evse.png?raw=true' alt='Wallbox Pulsar Plus 40A Smart Charger' class="w-12 h-auto mb-2" />
     <Button href="https://amzn.to/3PoQpkW" variant="primary" target="_blank" text="Shop Now" class="w-5/6 text-sm text-center rounded-full py-1 px-3" />
   </td>
@@ -346,7 +353,61 @@ Outdoor Rating
 
 </tbody>
 </table>
+
+<nav class="mt-5 flex items-center justify-between text-sm" aria-label="Page navigation example">
+  <p>
+    Showing <strong>1-5</strong> of <strong>10</strong>
+  </p>
+
+  <ul class="list-style-none flex">
+    <li>
+      <a
+        class="relative block rounded bg-transparent px-3 py-1.5 text-sm text-neutral-600 transition-all duration-300 hover:bg-neutral-100 dark:text-white dark:hover:bg-neutral-700 dark:hover:text-white"
+        href="#!"
+      >
+        Previous
+      </a>
+    </li>
+    <li>
+      <a
+        class="relative block rounded bg-transparent px-3 py-1.5 text-sm text-neutral-600 transition-all duration-300 hover:bg-neutral-100 dark:text-white dark:hover:bg-neutral-700 dark:hover:text-white"
+        href="#!"
+      >
+        1
+      </a>
+    </li>
+    <li aria-current="page">
+      <a
+        class="relative block rounded bg-blue-100 px-3 py-1.5 text-sm font-medium text-blue-700 transition-all duration-300"
+        href="#!"
+      >
+        2
+        <span class="absolute -m-px h-px w-px overflow-hidden whitespace-nowrap border-0 p-0 [clip:rect(0,0,0,0)]">
+          (current)
+        </span>
+      </a>
+    </li>
+    <li>
+      <a
+        class="relative block rounded bg-transparent px-3 py-1.5 text-sm text-neutral-600 transition-all duration-300 hover:bg-neutral-100 dark:text-white dark:hover:bg-neutral-700 dark:hover:text-white"
+        href="#!"
+      >
+        3
+      </a>
+    </li>
+    <li>
+      <a
+        class="relative block rounded bg-transparent px-3 py-1.5 text-sm text-neutral-600 transition-all duration-300 hover:bg-neutral-100 dark:text-white dark:hover:bg-neutral-700 dark:hover:text-white"
+        href="#!"
+      >
+        Next
+      </a>
+    </li>
+  </ul>
+</nav>
+
 </div>
+
 
 
 <Features2
@@ -370,7 +431,7 @@ Outdoor Rating
         icon: 'tabler:plug'
       },
       {
-        title: 'Installation',
+        title: 'Installation Options',
         description: 'Specifies plug type or if hardwiring is required for setup.',
         icon: 'tabler:plug-connected'
       },
@@ -380,12 +441,12 @@ Outdoor Rating
         icon: 'tabler:solar-panel-2'
       },
       {
-        title: 'Outdoor Rating',
+        title: 'Weather Rating',
         description: 'Indicates NEMA rating for outdoor suitability. Higher is better.',
         icon: 'tabler:cloud-storm'
-      }
-    ]}
-  />
+      },
+  ]}
+/>
 
 
 <!-- Your custom script -->
@@ -396,4 +457,5 @@ Outdoor Rating
     });
   });
 </script>
+
 </Layout>

@@ -5,7 +5,7 @@ import Hero from '~/components/widgets/Hero.astro';
 import Button from '~/components/ui/Button.astro';
 
 const metadata = {
-  title: 'Portable Power Stations Comparison Table',
+  title: 'Portable Power Stations',
 };
 
 ---
@@ -19,18 +19,18 @@ color: red;
 </style>
 
 <Layout metadata={metadata}>
-  <Hero actions={[]} videoSrc="/images/portable-power-video.mp4">
-    <Fragment slot="title">
-      <div class="text-right text-green-700 font-bold lg:text-6xl md:text-5xl sm:text-4xl text-xl mt-20">
-        <div class="inline-block text-right">
-          <div>Portable Power</div>
-          <div class="text-center lg:text-6xl md:text-5xl sm:text-4xl text-xl" style="margin: 0 auto;">
-            Stations
-          </div>
-        </div>
-      </div>
-    </Fragment>
-  </Hero>
+<Hero actions={[]} videoSrc="/images/portable-power-video.mp4">
+<Fragment slot="title">
+<div class="text-right font-bold lg:text-7xl md:text-6xl sm:text-5xl text-xl mt-20">
+<div class="inline-block text-right">
+<div>Portable <span class="text-green-700">Power </span></div>
+<div class="text-center lg:text-7xl md:text-6xl sm:text-5xl text-xl" style="margin: 0 auto;">
+Stations
+</div>
+</div>
+</div>
+</Fragment>
+</Hero>
 
 <section class="container mx-auto p-9"></section>
 
@@ -77,151 +77,105 @@ color: red;
 
 <!-- Table -->
    
-  <!-- Responsive Table Wrapper -->
-<div class="flex flex-col overflow-x-auto ml-20 mr-20 ">
+<!-- Responsive Table Wrapper -->
+<div class="flex flex-col overflow-x-auto ml-5 mr-5 sm:ml-20 sm:mr-20">
   <!-- Search Input -->
   <div class="relative m-[2px] mb-3 mr-5 float-left">
-    <label for="inputSearch" class="sr-only">Search </label>
-    <input id="inputSearch" type="text" placeholder="Search..." class="block w-64 rounded-lg border dark:border-none dark:bg-neutral-600 py-2 pl-10 pr-4 text-sm focus:border-blue-400 focus:outline-none focus:ring-1 focus:ring-blue-400" />
-    <span class="pointer-events-none absolute left-3 top-1/2 -translate-y-1/2 transform">
-      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-4 w-4 text-neutral-500 dark:text-neutral-200">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
-      </svg>
-    </span>
+  <label for="inputSearch" class="sr-only">Search </label>
+  <input id="inputSearch" type="text" placeholder="Search..." class="block w-64 rounded-lg border dark:border-none dark:bg-neutral-600 py-2 pl-10 pr-4 text-sm focus:border-blue-400 focus:outline-none focus:ring-1 focus:ring-blue-400" />
+  <span class="pointer-events-none absolute left-3 top-1/2 -translate-y-1/2 transform">
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-4 w-4 text-neutral-500 dark:text-neutral-200">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+  </svg>
+  </span>
   </div>
 
-<!-- Table -->
+<!-- Start of Table -->
 <table class="min-w-full text-left text-xs whitespace-nowrap">
-
-  <!-- Table head -->
-  <thead class="uppercase tracking-wider sticky top-0 dark:bg-neutral-700 outline outline-2 outline-neutral-200 dark:outline-neutral-600 bg-green-500 border-t">
-    <tr>
-      <th scope="col" class="px-6 py-4 border-x dark:border-neutral-600 bg-green-700">
-        Shop Here
-          <a href="" class="inline">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 320 512"
-              class="w-[0.65rem] h-[0.65rem] inline ml-1 text-neutral-500 dark:text-neutral-200 mb-[1px]"
-              fill="currentColor"
-             >
-              {/* Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. */}
-              <path d="M137.4 41.4c12.5-12.5 32.8-12.5 45.3 0l128 128c9.2 9.2 11.9 22.9 6.9 34.9s-16.6 19.8-29.6 19.8H32c-12.9 0-24.6-7.8-29.6-19.8s-2.2-25.7 6.9-34.9l128-128zm0 429.3l-128-128c-9.2-9.2-11.9-22.9-6.9-34.9s16.6-19.8 29.6-19.8H288c12.9 0 24.6 7.8 29.6 19.8s2.2 25.7-6.9 34.9l-128 128c-12.5 12.5-32.8 12.5-45.3 0z" />
-            </svg>
-          </a>
-        </th>
-
-<th scope="col" class="px-6 py-4 border-x dark:border-neutral-600 bg-green-700">
-Battery System
-<a href="" class="inline">
-<svg
- xmlns="http://www.w3.org/2000/svg"
- viewBox="0 0 320 512"
- class="w-[0.65rem] h-[0.65rem] inline ml-1 text-neutral-500 dark:text-neutral-200 mb-[1px]"
-fill="currentColor"
->
- {/* Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. */}
-<path d="M137.4 41.4c12.5-12.5 32.8-12.5 45.3 0l128 128c9.2 9.2 11.9 22.9 6.9 34.9s-16.6 19.8-29.6 19.8H32c-12.9 0-24.6-7.8-29.6-19.8s-2.2-25.7 6.9-34.9l128-128zm0 429.3l-128-128c-9.2-9.2-11.9-22.9-6.9-34.9s16.6-19.8 29.6-19.8H288c12.9 0 24.6 7.8 29.6 19.8s2.2 25.7-6.9 34.9l-128 128c-12.5 12.5-32.8 12.5-45.3 0z" />
-</svg>
-</a>
-</th>
-
-<th scope="col" class="px-6 py-4 border-x dark:border-neutral-600 bg-green-700">
-Avg Price
-<a href="" class="inline">
-<svg
-xmlns="http://www.w3.org/2000/svg"
-viewBox="0 0 320 512"
-class="w-[0.65rem] h-[0.65rem] inline ml-1 text-neutral-500 dark:text-neutral-200 mb-[1px]"
-fill="currentColor"
->
-{/* Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. */}
-<path d="M137.4 41.4c12.5-12.5 32.8-12.5 45.3 0l128 128c9.2 9.2 11.9 22.9 6.9 34.9s-16.6 19.8-29.6 19.8H32c-12.9 0-24.6-7.8-29.6-19.8s-2.2-25.7 6.9-34.9l128-128zm0 429.3l-128-128c-9.2-9.2-11.9-22.9-6.9-34.9s16.6-19.8 29.6-19.8H288c12.9 0 24.6 7.8 29.6 19.8s2.2 25.7-6.9 34.9l-128 128c-12.5 12.5-32.8 12.5-45.3 0z" />
-</svg>
-</a>
-</th>
-
-
-<th scope="col" class="px-6 py-4 border-x dark:border-neutral-600 bg-green-700">
-Cell System
-<a href="" class="inline">
-<svg
-xmlns="http://www.w3.org/2000/svg"
-viewBox="0 0 320 512"
-class="w-[0.65rem] h-[0.65rem] inline ml-1 text-neutral-500 dark:text-neutral-200 mb-[1px]"
-fill="currentColor"
->
-
-{/* Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. */}
-<path d="M137.4 41.4c12.5-12.5 32.8-12.5 45.3 0l128 128c9.2 9.2 11.9 22.9 6.9 34.9s-16.6 19.8-29.6 19.8H32c-12.9 0-24.6-7.8-29.6-19.8s-2.2-25.7 6.9-34.9l128-128zm0 429.3l-128-128c-9.2-9.2-11.9-22.9-6.9-34.9s16.6-19.8 29.6-19.8H288c12.9 0 24.6 7.8 29.6 19.8s2.2 25.7-6.9 34.9l-128 128c-12.5 12.5-32.8 12.5-45.3 0z" />
-</svg>
-</a>
-</th>
-
-
-<th scope="col" class="px-6 py-4 border-x dark:border-neutral-600 bg-green-700">
-Life Cycles
-<a href="" class="inline">
-<svg
-      xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 320 512"
-      class="w-[0.65rem] h-[0.65rem] inline ml-1 text-neutral-500 dark:text-neutral-200 mb-[1px]"
-      fill="currentColor"
-      >
-      {/* Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. */}
-      <path d="M137.4 41.4c12.5-12.5 32.8-12.5 45.3 0l128 128c9.2 9.2 11.9 22.9 6.9 34.9s-16.6 19.8-29.6 19.8H32c-12.9 0-24.6-7.8-29.6-19.8s-2.2-25.7 6.9-34.9l128-128zm0 429.3l-128-128c-9.2-9.2-11.9-22.9-6.9-34.9s16.6-19.8 29.6-19.8H288c12.9 0 24.6 7.8 29.6 19.8s2.2 25.7-6.9 34.9l-128 128c-12.5 12.5-32.8 12.5-45.3 0z" />
-      </svg>
-      </a>    
-    </th>
-    
-    <th scope="col" class="px-6 py-4 border-x dark:border-neutral-600 bg-green-700">
-Usable Capacity
-<a href="" class="inline">
-    <svg
-    xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 320 512"
-    class="w-[0.65rem] h-[0.65rem] inline ml-1 text-neutral-500 dark:text-neutral-200 mb-[1px]"
-    fill="currentColor"
-    >
-    {/* Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. */}
-    <path d="M137.4 41.4c12.5-12.5 32.8-12.5 45.3 0l128 128c9.2 9.2 11.9 22.9 6.9 34.9s-16.6 19.8-29.6 19.8H32c-12.9 0-24.6-7.8-29.6-19.8s-2.2-25.7 6.9-34.9l128-128zm0 429.3l-128-128c-9.2-9.2-11.9-22.9-6.9-34.9s16.6-19.8 29.6-19.8H288c12.9 0 24.6 7.8 29.6 19.8s2.2 25.7-6.9 34.9l-128 128c-12.5 12.5-32.8 12.5-45.3 0z" />
-    </svg>
-    </a>
-</th>
-
-<th scope="col" class="px-6 py-4 border-x dark:border-neutral-600 bg-green-700">
-Continuous Output
-<a href="" class="inline">
-<svg
-      xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 320 512"
-      class="w-[0.65rem] h-[0.65rem] inline ml-1 text-neutral-500 dark:text-neutral-200 mb-[1px]"
-      fill="currentColor"
-      >
-      {/* Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. */}
-      <path d="M137.4 41.4c12.5-12.5 32.8-12.5 45.3 0l128 128c9.2 9.2 11.9 22.9 6.9 34.9s-16.6 19.8-29.6 19.8H32c-12.9 0-24.6-7.8-29.6-19.8s-2.2-25.7 6.9-34.9l128-128zm0 429.3l-128-128c-9.2-9.2-11.9-22.9-6.9-34.9s16.6-19.8 29.6-19.8H288c12.9 0 24.6 7.8 29.6 19.8s2.2 25.7-6.9 34.9l-128 128c-12.5 12.5-32.8 12.5-45.3 0z" />
-      </svg>
-      </a>    
-</th>
-
-<th scope="col" class="px-6 py-4 border-x dark:border-neutral-600 bg-green-700">
-Surge Power
-<a href="" class="inline">
-    <svg
-    xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 320 512"
-    class="w-[0.65rem] h-[0.65rem] inline ml-1 text-neutral-500 dark:text-neutral-200 mb-[1px]"
-    fill="currentColor"
-    >
-    {/* Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. */}
-    <path d="M137.4 41.4c12.5-12.5 32.8-12.5 45.3 0l128 128c9.2 9.2 11.9 22.9 6.9 34.9s-16.6 19.8-29.6 19.8H32c-12.9 0-24.6-7.8-29.6-19.8s-2.2-25.7 6.9-34.9l128-128zm0 429.3l-128-128c-9.2-9.2-11.9-22.9-6.9-34.9s16.6-19.8 29.6-19.8H288c12.9 0 24.6 7.8 29.6 19.8s2.2 25.7-6.9 34.9l-128 128c-12.5 12.5-32.8 12.5-45.3 0z" />
-    </svg>
-    </a>
+  
+  <!-- Table header -->
+   <thead class="uppercase tracking-wider sticky top-0 dark:bg-neutral-700 bg-neutral-50 border-t">
+      
+  <!-- Sticky first column with z-index and background color -->
+  <tr>
+  <th scope="col" class="sticky left-0 z-10 px-6 py-4 w-1/4 border-x dark:border-neutral-600 bg-green-700">
+    Shop Here
+            <a href="" class="inline">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 320 512"
+                class="w-[0.65rem] h-[0.65rem] inline ml-1 text-neutral-500 dark:text-neutral-200 mb-[1px]"
+                fill="currentColor"
+              >
+                {/* Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. */}
+                <path d="M137.4 41.4c12.5-12.5 32.8-12.5 45.3 0l128 128c9.2 9.2 11.9 22.9 6.9 34.9s-16.6 19.8-29.6 19.8H32c-12.9 0-24.6-7.8-29.6-19.8s-2.2-25.7 6.9-34.9l128-128zm0 429.3l-128-128c-9.2-9.2-11.9-22.9-6.9-34.9s16.6-19.8 29.6-19.8H288c12.9 0 24.6 7.8 29.6 19.8s2.2 25.7-6.9 34.9l-128 128c-12.5 12.5-32.8 12.5-45.3 0z" />
+              </svg>
+            </a>
+          </th>
+  
+  <th scope="col" class="sticky left-0 z-10 px-6 py-4 w-1/4 border-x dark:border-neutral-600 bg-green-700">
+ System
+            <a href="" class="inline">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 320 512"
+                class="w-[0.65rem] h-[0.65rem] inline ml-1 text-neutral-500 dark:text-neutral-200 mb-[1px]"
+                fill="currentColor"
+              >
+                {/* Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. */}
+                <path d="M137.4 41.4c12.5-12.5 32.8-12.5 45.3 0l128 128c9.2 9.2 11.9 22.9 6.9 34.9s-16.6 19.8-29.6 19.8H32c-12.9 0-24.6-7.8-29.6-19.8s-2.2-25.7 6.9-34.9l128-128zm0 429.3l-128-128c-9.2-9.2-11.9-22.9-6.9-34.9s16.6-19.8 29.6-19.8H288c12.9 0 24.6 7.8 29.6 19.8s2.2 25.7-6.9 34.9l-128 128c-12.5 12.5-32.8 12.5-45.3 0z" />
+              </svg>
+            </a>
   </th>
-
-  <th scope="col" class="px-6 py-4 border-x dark:border-neutral-600 bg-green-700">
-Charging Time AC
-<a href="" class="inline">
+  
+  <th scope="col" class="sticky left-0 z-10 px-6 py-4 w-1/4 border-x dark:border-neutral-600 bg-green-700">
+  Avg Price
+  <a href="" class="inline">
+  <svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 320 512"
+  class="w-[0.65rem] h-[0.65rem] inline ml-1 text-neutral-500 dark:text-neutral-200 mb-[1px]"
+  fill="currentColor"
+  >
+  {/* Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. */}
+  <path d="M137.4 41.4c12.5-12.5 32.8-12.5 45.3 0l128 128c9.2 9.2 11.9 22.9 6.9 34.9s-16.6 19.8-29.6 19.8H32c-12.9 0-24.6-7.8-29.6-19.8s-2.2-25.7 6.9-34.9l128-128zm0 429.3l-128-128c-9.2-9.2-11.9-22.9-6.9-34.9s16.6-19.8 29.6-19.8H288c12.9 0 24.6 7.8 29.6 19.8s2.2 25.7-6.9 34.9l-128 128c-12.5 12.5-32.8 12.5-45.3 0z" />
+  </svg>
+  </a>
+  </th>
+  
+  <th scope="col" class="sticky left-0 z-10 px-6 py-4 w-1/4 border-x dark:border-neutral-600 bg-green-700">
+  Cell
+  <a href="" class="inline">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 320 512"
+                class="w-[0.65rem] h-[0.65rem] inline ml-1 text-neutral-500 dark:text-neutral-200 mb-[1px]"
+                fill="currentColor"
+              >
+                {/* Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. */}
+                <path d="M137.4 41.4c12.5-12.5 32.8-12.5 45.3 0l128 128c9.2 9.2 11.9 22.9 6.9 34.9s-16.6 19.8-29.6 19.8H32c-12.9 0-24.6-7.8-29.6-19.8s-2.2-25.7 6.9-34.9l128-128zm0 429.3l-128-128c-9.2-9.2-11.9-22.9-6.9-34.9s16.6-19.8 29.6-19.8H288c12.9 0 24.6 7.8 29.6 19.8s2.2 25.7-6.9 34.9l-128 128c-12.5 12.5-32.8 12.5-45.3 0z" />
+              </svg>
+            </a>
+  </th>
+  
+  <th scope="col" class="sticky left-0 z-10 px-6 py-4 w-1/4 border-x dark:border-neutral-600 bg-green-700">
+  Life Cycles
+  <a href="" class="inline">
+        <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 320 512"
+        class="w-[0.65rem] h-[0.65rem] inline ml-1 text-neutral-500 dark:text-neutral-200 mb-[1px]"
+        fill="currentColor"
+        >
+        {/* Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. */}
+        <path d="M137.4 41.4c12.5-12.5 32.8-12.5 45.3 0l128 128c9.2 9.2 11.9 22.9 6.9 34.9s-16.6 19.8-29.6 19.8H32c-12.9 0-24.6-7.8-29.6-19.8s-2.2-25.7 6.9-34.9l128-128zm0 429.3l-128-128c-9.2-9.2-11.9-22.9-6.9-34.9s16.6-19.8 29.6-19.8H288c12.9 0 24.6 7.8 29.6 19.8s2.2 25.7-6.9 34.9l-128 128c-12.5 12.5-32.8 12.5-45.3 0z" />
+        </svg>
+        </a>    
+      </th>
+      
+  <th scope="col" class="sticky left-0 z-10 px-6 py-4 w-1/4 border-x dark:border-neutral-600 bg-green-700">
+ Capacity
+  <a href="" class="inline">
       <svg
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 320 512"
@@ -231,16 +185,66 @@ Charging Time AC
       {/* Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. */}
       <path d="M137.4 41.4c12.5-12.5 32.8-12.5 45.3 0l128 128c9.2 9.2 11.9 22.9 6.9 34.9s-16.6 19.8-29.6 19.8H32c-12.9 0-24.6-7.8-29.6-19.8s-2.2-25.7 6.9-34.9l128-128zm0 429.3l-128-128c-9.2-9.2-11.9-22.9-6.9-34.9s16.6-19.8 29.6-19.8H288c12.9 0 24.6 7.8 29.6 19.8s2.2 25.7-6.9 34.9l-128 128c-12.5 12.5-32.8 12.5-45.3 0z" />
       </svg>
-      </a>    
+      </a>
+  </th>
+  
+  <th scope="col" class="sticky left-0 z-10 px-6 py-4 w-1/4 border-x dark:border-neutral-600 bg-green-700">
+  Continuous
+  <a href="" class="inline">
+        <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 320 512"
+        class="w-[0.65rem] h-[0.65rem] inline ml-1 text-neutral-500 dark:text-neutral-200 mb-[1px]"
+        fill="currentColor"
+        >
+        {/* Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. */}
+        <path d="M137.4 41.4c12.5-12.5 32.8-12.5 45.3 0l128 128c9.2 9.2 11.9 22.9 6.9 34.9s-16.6 19.8-29.6 19.8H32c-12.9 0-24.6-7.8-29.6-19.8s-2.2-25.7 6.9-34.9l128-128zm0 429.3l-128-128c-9.2-9.2-11.9-22.9-6.9-34.9s16.6-19.8 29.6-19.8H288c12.9 0 24.6 7.8 29.6 19.8s2.2 25.7-6.9 34.9l-128 128c-12.5 12.5-32.8 12.5-45.3 0z" />
+        </svg>
+        </a>    
+  </th>
+  
+  <th scope="col" class="sticky left-0 z-10 px-6 py-4 w-1/4 border-x dark:border-neutral-600 bg-green-700">
+  Surge
+  <a href="" class="inline">
+      <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 320 512"
+      class="w-[0.65rem] h-[0.65rem] inline ml-1 text-neutral-500 dark:text-neutral-200 mb-[1px]"
+      fill="currentColor"
+      >
+      {/* Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. */}
+      <path d="M137.4 41.4c12.5-12.5 32.8-12.5 45.3 0l128 128c9.2 9.2 11.9 22.9 6.9 34.9s-16.6 19.8-29.6 19.8H32c-12.9 0-24.6-7.8-29.6-19.8s-2.2-25.7 6.9-34.9l128-128zm0 429.3l-128-128c-9.2-9.2-11.9-22.9-6.9-34.9s16.6-19.8 29.6-19.8H288c12.9 0 24.6 7.8 29.6 19.8s2.2 25.7-6.9 34.9l-128 128c-12.5 12.5-32.8 12.5-45.3 0z" />
+      </svg>
+      </a>
     </th>
-  </tr>
-  </thead>
-
+  
+  <th scope="col" class="sticky left-0 z-10 px-6 py-4 w-1/4 border-x dark:border-neutral-600 bg-green-700">
+  Charge Time AC
+  <a href="" class="inline">
+        <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 320 512"
+        class="w-[0.65rem] h-[0.65rem] inline ml-1 text-neutral-500 dark:text-neutral-200 mb-[1px]"
+        fill="currentColor"
+        >
+        {/* Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. */}
+        <path d="M137.4 41.4c12.5-12.5 32.8-12.5 45.3 0l128 128c9.2 9.2 11.9 22.9 6.9 34.9s-16.6 19.8-29.6 19.8H32c-12.9 0-24.6-7.8-29.6-19.8s-2.2-25.7 6.9-34.9l128-128zm0 429.3l-128-128c-9.2-9.2-11.9-22.9-6.9-34.9s16.6-19.8 29.6-19.8H288c12.9 0 24.6 7.8 29.6 19.8s2.2 25.7-6.9 34.9l-128 128c-12.5 12.5-32.8 12.5-45.3 0z" />
+        </svg>
+        </a>    
+      </th>
+    </tr>
+    </thead>
+  
+<!--Start of TABLE BODY -->
+<tbody>  
+  
 <!-- Bluetti AC300 + B300 System -->
 <tr class="bg-gray-800 hover:bg-gray-700">
-  <td class="py-2 px-4 border border-gray-600 flex flex-col items-center justify-center whitespace-nowrap">
-    <img src="https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/bluetti-ac-300.png?raw=true" alt="Bluetti AC 300 battery system" class="w-12 h-auto mb-2" />
-    <Button href="https://amzn.to/40dCXFR" variant="primary" target="_blank" text="Shop Now" class="w-5/6 text-sm text-center rounded-full py-1 px-3" />
+  <td class="sticky left-0 z-10 py-1 px-2 border border-gray-600 flex flex-col items-center justify-center whitespace-nowrap bg-gray-800">
+    
+  <img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/bluetti-ac-300.png?raw=true' alt='Bluetti AC300 + B300 System' class="w-12 h-auto mb-2" />
+  <Button href="https://amzn.to/3qes8Wj",
+    variant="primary" target="_blank" text="Shop Now" class="w-5/6 text-sm text-center rounded-full py-1 px-3" />
   </td>
 
     <td class="py-2 px-4 border border-gray-600 text-center break-words">Bluetti AC300 + B300 System</td>
@@ -253,13 +257,12 @@ Charging Time AC
     <td class="py-2 px-4 border border-gray-600">1.5 hours</td>
   </tr>
   
-  
-
 
 <!-- Bluetti EP 500 PRO -->
 <tr class="bg-gray-800 hover:bg-gray-700">
-  <td class="py-2 px-4 border border-gray-600 flex flex-col items-center justify-center whitespace-nowrap">
-   <img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/EP-Pro-500.png?raw=true' alt='Bluetti EP 500 PRO ' class="w-12 h-auto" />
+  <td class="sticky left-0 z-10 py-1 px-2 border border-gray-600 flex flex-col items-center justify-center whitespace-nowrap bg-gray-800">
+
+<img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/EP-Pro-500.png?raw=true' alt='Bluetti EP 500 PRO ' class="w-12 h-auto" />
 <Button href='https://amzn.to/3qes8Wj' variant="primary" target="_blank" text="Shop Now" class="w-5/6 text-sm text-center rounded-full py-1 px-3" />
  </td>
 
@@ -276,11 +279,11 @@ Charging Time AC
 
 <!-- Eco Flow Delta Pro -->
 <tr class="bg-gray-800 hover:bg-gray-700">
-  <td class="py-2 px-4 border border-gray-600 flex flex-col items-center justify-center whitespace-nowrap">
-     <img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/Delta-pro-base-unit.png?raw=true' alt='Eco Flow Delta Pro ' class="w-12 h-auto" />
- <Button href='https://amzn.to/460nJoB' variant="primary" target="_blank" text="Shop Now" class="w-5/6 text-sm text-center rounded-full py-1 px-3" />
- </td>
-
+<td class="sticky left-0 z-10 py-1 px-2 border border-gray-600 flex flex-col items-center justify-center whitespace-nowrap bg-gray-800">
+  
+<img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/Delta-pro-double-%20up.png?raw=true' alt='Eco Flow Delta Pro Double Up' class="w-12 h-auto" />
+<Button href='https://amzn.to/46hAzPR' variant="primary" target="_blank" text="Shop Now" class="w-5/6 text-sm text-center rounded-full py-1 px-3" />
+</td>
   <td class="py-2 px-4 border border-gray-600 text-center break-words">Eco Flow Delta Pro</td>
   <td class="py-2 px-4 border border-gray-600">$3,000</td>
   <td class="py-2 px-4 border border-gray-600">LiFePO4</td>
@@ -293,11 +296,11 @@ Charging Time AC
 
 <!-- Eco Flow Delta Pro Double Up Kit -->
 <tr class="bg-gray-800 hover:bg-gray-700">
-  <td class="py-2 px-4 border border-gray-600 flex flex-col items-center justify-center whitespace-nowrap">
+<td class="sticky left-0 z-10 py-1 px-2 border border-gray-600 flex flex-col items-center justify-center whitespace-nowrap bg-gray-800">
+    
     <img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/Delta-pro-double-%20up.png?raw=true' alt='Eco Flow Delta Pro Double Up' class="w-12 h-auto" />
     <Button href='https://amzn.to/46hAzPR' variant="primary" target="_blank" text="Shop Now" class="w-5/6 text-sm text-center rounded-full py-1 px-3" />
   </td>
-
   <td class="py-2 px-4 border border-gray-600 text-center break-words">Eco Flow Delta Pro Double Up</td>
   <td class="py-2 px-4 border border-gray-600">$5,900</td>
   <td class="py-2 px-4 border border-gray-600">LiFePO4</td>
@@ -310,9 +313,10 @@ Charging Time AC
 
 <!-- Renogy Lycan 5000 -->
 <tr class="bg-gray-800 hover:bg-gray-700">
-  <td class="py-2 px-4 border border-gray-600 flex flex-col items-center justify-center whitespace-nowrap">
-    <img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/lycan-5000.png?raw=true' alt='Renogy Lycan 5000' class="w-12 h-auto" />
-    <Button href='https://amzn.to/45P85fT' variant="primary" target="_blank" text="Shop Now" class="w-5/6 text-sm text-center rounded-full py-1 px-3" />
+<td class="sticky left-0 z-10 py-1 px-2 border border-gray-600 flex flex-col items-center justify-center whitespace-nowrap bg-gray-800">
+    
+<img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/lycan-5000.png?raw=true' alt='Renogy Lycan 5000' class="w-12 h-auto" />
+<Button href='https://amzn.to/45P85fT' variant="primary" target="_blank" text="Shop Now" class="w-5/6 text-sm text-center rounded-full py-1 px-3" />
   </td>
 
   <td class="py-2 px-4 border border-gray-600 text-center break-words">Renogy Lycan 5000</td>
@@ -327,9 +331,10 @@ Charging Time AC
 
 <!-- Jackery 4000, Explorer 2000+E2000 -->
 <tr class="bg-gray-800 hover:bg-gray-700">
-  <td class="py-2 px-4 border border-gray-600 flex flex-col items-center justify-center whitespace-nowrap">
-    <img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/jackery-4000.png?raw=true' alt='Jackery 4000' class="w-12 h-auto" />
-    <Button href='https://amzn.to/3QxGw6w' variant="primary" target="_blank" text="Shop Now" class="w-5/6 text-sm text-center rounded-full py-1 px-3" />
+<td class="sticky left-0 z-10 py-1 px-2 border border-gray-600 flex flex-col items-center justify-center whitespace-nowrap bg-gray-800">
+    
+  <img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/jackery-4000.png?raw=true' alt='Jackery 4000' class="w-12 h-auto" />
+  <Button href='https://amzn.to/3QxGw6w' variant="primary" target="_blank" text="Shop Now" class="w-5/6 text-sm text-center rounded-full py-1 px-3" />
   </td>
 
   <td class="py-2 px-4 border border-gray-600 text-center break-words">Jackery 4000, Explorer 2000+E2000</td>
@@ -341,11 +346,13 @@ Charging Time AC
   <td class="py-2 px-4 border border-gray-600">6 KW</td>
   <td class="py-2 px-4 border border-gray-600">2.3 hours</td>
 </tr>
+
 <!-- Bluetti AC500 + 300S System -->
 <tr class="bg-gray-800 hover:bg-gray-700">
-  <td class="py-2 px-4 border border-gray-600 flex flex-col items-center justify-center whitespace-nowrap">
-    <img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/bluetti-ac-500.png?raw=true' alt='Bluetti AC500 + 300S System' class="w-12 h-auto" />
-  <Button href='https://amzn.to/3FxljmN' variant="primary" target="_blank" text="Shop Now" class="w-5/6 text-sm text-center rounded-full py-1 px-3" />
+<td class="sticky left-0 z-10 py-1 px-2 border border-gray-600 flex flex-col items-center justify-center whitespace-nowrap bg-gray-800">
+   
+<img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/bluetti-ac-300.png?raw=true' alt='Bluetti AC500 + 300S System' class="w-12 h-auto" />
+<Button href='https://amzn.to/3FxljmN' variant="primary" target="_blank" text="Shop Now" class="w-5/6 text-sm text-center rounded-full py-1 px-3" />
 </td>
 
 <td class="py-2 px-4 border border-gray-600 text-center break-words">Bluetti AC500 + 300S System</td>
@@ -362,10 +369,11 @@ Charging Time AC
 
 <!-- Jackery 3000 -->
 <tr class="bg-gray-800 hover:bg-gray-700">
-  <td class="py-2 px-4 border border-gray-600 flex flex-col items-center justify-center whitespace-nowrap">
-    <img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/jackery-3000.png?raw=true' alt='Jackery 3000' class="w-12 h-auto" />
-    <Button href='https://amzn.to/3MiaZ61' variant="primary" target="_blank" text="Shop Now" class="w-5/6 text-sm text-center rounded-full py-1 px-3" />
-  </td>
+  <td class="sticky left-0 z-10 py-1 px-2 border border-gray-600 flex flex-col items-center justify-center whitespace-nowrap bg-gray-800">
+
+<img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/jackery-3000.png?raw=true' alt='Jackery 3000' class="w-12 h-auto" />
+<Button href='https://amzn.to/3MiaZ61' variant="primary" target="_blank" text="Shop Now" class="w-5/6 text-sm text-center rounded-full py-1 px-3" />
+</td>
 
   <td class="py-2 px-4 border border-gray-600 text-center break-words">Jackery 3000</td>
   <td class="py-2 px-4 border border-gray-600">$2,800</td>
@@ -376,7 +384,62 @@ Charging Time AC
   <td class="py-2 px-4 border border-gray-600">6 KW</td>
   <td class="py-2 px-4 border border-gray-600">2.3 hours</td>
 </tr>
+</tbody>
 </table>
+
+
+<nav class="mt-5 flex items-center justify-between text-sm" aria-label="Page navigation example">
+  <p>
+    Showing <strong>1-5</strong> of <strong>10</strong>
+  </p>
+
+  <ul class="list-style-none flex">
+    <li>
+      <a
+        class="relative block rounded bg-transparent px-3 py-1.5 text-sm text-neutral-600 transition-all duration-300 hover:bg-neutral-100 dark:text-white dark:hover:bg-neutral-700 dark:hover:text-white"
+        href="#!"
+      >
+        Previous
+      </a>
+    </li>
+    <li>
+      <a
+        class="relative block rounded bg-transparent px-3 py-1.5 text-sm text-neutral-600 transition-all duration-300 hover:bg-neutral-100 dark:text-white dark:hover:bg-neutral-700 dark:hover:text-white"
+        href="#!"
+      >
+        1
+      </a>
+    </li>
+    <li aria-current="page">
+      <a
+        class="relative block rounded bg-blue-100 px-3 py-1.5 text-sm font-medium text-blue-700 transition-all duration-300"
+        href="#!"
+      >
+        2
+        <span class="absolute -m-px h-px w-px overflow-hidden whitespace-nowrap border-0 p-0 [clip:rect(0,0,0,0)]">
+          (current)
+        </span>
+      </a>
+    </li>
+    <li>
+      <a
+        class="relative block rounded bg-transparent px-3 py-1.5 text-sm text-neutral-600 transition-all duration-300 hover:bg-neutral-100 dark:text-white dark:hover:bg-neutral-700 dark:hover:text-white"
+        href="#!"
+      >
+        3
+      </a>
+    </li>
+    <li>
+      <a
+        class="relative block rounded bg-transparent px-3 py-1.5 text-sm text-neutral-600 transition-all duration-300 hover:bg-neutral-100 dark:text-white dark:hover:bg-neutral-700 dark:hover:text-white"
+        href="#!"
+      >
+        Next
+      </a>
+    </li>
+  </ul>
+</nav>
+
 </div>
 
 
@@ -417,6 +480,8 @@ Charging Time AC
  },
 ]}
 />
+
+
 
 <script>
   document.addEventListener("DOMContentLoaded", function() {
