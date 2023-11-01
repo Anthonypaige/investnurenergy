@@ -2,6 +2,7 @@
 import Layout from '~/layouts/PageLayout.astro';
 import Features2 from '~/components/widgets/Features2.astro';
 import Hero from '~/components/widgets/Hero.astro';
+import Button from '~/components/ui/Button.astro';
 
 const metadata = {
   title: 'Top Smart Thermostats',
@@ -9,20 +10,19 @@ const metadata = {
 
 ---
 
-  <style scoped>
-    .bg-gray-800 {
-      background-color: #2d3748;
-    }
-    tr.bg-gray-800:hover {
-      background-color: #4A5568; 
-    }
-  </style>
-  
+<style>
+  .checkmark {
+ color: green;
+ }
+  .cross {
+ color: red;
+ }
+</style>
   
   <Layout metadata={metadata}>
     <Hero actions={[]} videoSrc="/images/smart-thermostat-video.mp4">
       <Fragment slot="title">
-        <div class="text-left font-bold lg:text-6xl md:text-5xl sm:text-4xl text-xl mt-20">
+        <div class="text-left font-bold lg:text-6xl md:text-6xl sm:text-4xl text-xl mp-20">
           <div>Smart Thermostats</div>
         </div>
       </Fragment>
@@ -70,160 +70,354 @@ items={[
 }
 ]}
 />
-
-
-
-    <!-- Table -->
- <table id="comparisonTable" class="min-w-full bg-gray-800 text-white border border-gray-600">
-  <thead class="bg-green-900 sticky top-0 rounded-t-lg">
-    <tr>
-      <th class="py-2 px-4 border border-gray-600 bg-green-700 rounded-tl-lg">Shop Here</th>
-      <th class="py-2 px-4 border border-gray-600 bg-green-700">Smart Thermostat</th>
-      <th class="py-2 px-4 border border-gray-600 bg-green-700">Avg Price</th>
-      <th class="py-2 px-4 border border-gray-600 bg-green-700">Profile</th>
-      <th class="py-2 px-4 border border-gray-600 bg-green-700">Touchcolor Display</th>
-      <th class="py-2 px-4 border border-gray-600 bg-green-700">Smart Home Integration</th>
-      <th class="py-2 px-4 border border-gray-600 bg-green-700">Sensor Compatability</th>
-      <th class="py-2 px-4 border border-gray-600 bg-green-700">Built-in Extra Sensors</th>
-      <th class="py-2 px-4 border border-gray-600 bg-green-700 rounded-tr-lg">Advanced Learning</th>
-    </tr>
-  </thead>
-
-<!-- Table Body -->
-<tbody>
+<!-- Responsive Table Wrapper -->
+<div class="flex flex-col overflow-x-auto ml-5 mr-5 sm:ml-20 sm:mr-20">
+  <!-- Search Input -->
+  <div class="relative m-[2px] mb-3 mr-5 float-left">
+  <label for="inputSearch" class="sr-only">Search </label>
+  <input id="inputSearch" type="text" placeholder="Search..." class="block w-64 rounded-lg border dark:border-none dark:bg-neutral-600 py-2 pl-10 pr-4 text-sm focus:border-blue-400 focus:outline-none focus:ring-1 focus:ring-blue-400" />
+  <span class="pointer-events-none absolute left-3 top-1/2 -translate-y-1/2 transform">
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-4 w-4 text-neutral-500 dark:text-neutral-200">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+  </svg>
+  </span>
+  </div>
   
-  <!-- Ecobee 3 Lite-->
-  <tr class="bg-gray-800 hover:bg-gray-700">
-    <td class="py-2 px-4 border border-gray-600">
-      <a href='https://amzn.to/46Zu8C9' target='_blank' rel='noopener noreferrer'class="hover:text-green-500">
-        <img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/ecobee-3-lite.png?raw=true' alt='Ecobee 3 Lite' class="w-12 h-auto" />
-        Shop Here
+  <!-- Start of Table -->
+  <table class="min-w-full text-left text-xs whitespace-nowrap">
+    
+  <!-- Table header -->
+   <thead class="uppercase tracking-wider sticky top-0 dark:bg-neutral-700 bg-neutral-50 border-t">
+      
+  <!-- Sticky first column with z-index and background color -->
+  <tr>
+  <th scope="col" class="sticky left-0 z-10 px-6 py-4 w-1/4 border-x dark:border-neutral-600 bg-green-700">
+    Shop Here
+            <a href="" class="inline">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 320 512"
+                class="w-[0.65rem] h-[0.65rem] inline ml-1 text-neutral-500 dark:text-neutral-200 mb-[1px]"
+                fill="currentColor"
+              >
+                {/* Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. */}
+                <path d="M137.4 41.4c12.5-12.5 32.8-12.5 45.3 0l128 128c9.2 9.2 11.9 22.9 6.9 34.9s-16.6 19.8-29.6 19.8H32c-12.9 0-24.6-7.8-29.6-19.8s-2.2-25.7 6.9-34.9l128-128zm0 429.3l-128-128c-9.2-9.2-11.9-22.9-6.9-34.9s16.6-19.8 29.6-19.8H288c12.9 0 24.6 7.8 29.6 19.8s2.2 25.7-6.9 34.9l-128 128c-12.5 12.5-32.8 12.5-45.3 0z" />
+              </svg>
+            </a>
+          </th>
+  
+  <th scope="col" class="sticky left-0 z-10 px-6 py-4 w-1/4 border-x dark:border-neutral-600 bg-green-700">
+  Smart Thermostat
+            <a href="" class="inline">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 320 512"
+                class="w-[0.65rem] h-[0.65rem] inline ml-1 text-neutral-500 dark:text-neutral-200 mb-[1px]"
+                fill="currentColor"
+              >
+                {/* Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. */}
+                <path d="M137.4 41.4c12.5-12.5 32.8-12.5 45.3 0l128 128c9.2 9.2 11.9 22.9 6.9 34.9s-16.6 19.8-29.6 19.8H32c-12.9 0-24.6-7.8-29.6-19.8s-2.2-25.7 6.9-34.9l128-128zm0 429.3l-128-128c-9.2-9.2-11.9-22.9-6.9-34.9s16.6-19.8 29.6-19.8H288c12.9 0 24.6 7.8 29.6 19.8s2.2 25.7-6.9 34.9l-128 128c-12.5 12.5-32.8 12.5-45.3 0z" />
+              </svg>
+            </a>
+  </th>
+  
+  <th scope="col" class="sticky left-0 z-10 px-6 py-4 w-1/4 border-x dark:border-neutral-600 bg-green-700">
+  Avg Price
+  <a href="" class="inline">
+  <svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 320 512"
+  class="w-[0.65rem] h-[0.65rem] inline ml-1 text-neutral-500 dark:text-neutral-200 mb-[1px]"
+  fill="currentColor"
+  >
+  {/* Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. */}
+  <path d="M137.4 41.4c12.5-12.5 32.8-12.5 45.3 0l128 128c9.2 9.2 11.9 22.9 6.9 34.9s-16.6 19.8-29.6 19.8H32c-12.9 0-24.6-7.8-29.6-19.8s-2.2-25.7 6.9-34.9l128-128zm0 429.3l-128-128c-9.2-9.2-11.9-22.9-6.9-34.9s16.6-19.8 29.6-19.8H288c12.9 0 24.6 7.8 29.6 19.8s2.2 25.7-6.9 34.9l-128 128c-12.5 12.5-32.8 12.5-45.3 0z" />
+  </svg>
+  </a>
+  </th>
+  
+  <th scope="col" class="sticky left-0 z-10 px-6 py-4 w-1/4 border-x dark:border-neutral-600 bg-green-700">
+  Profile
+  <a href="" class="inline">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 320 512"
+                class="w-[0.65rem] h-[0.65rem] inline ml-1 text-neutral-500 dark:text-neutral-200 mb-[1px]"
+                fill="currentColor"
+              >
+                {/* Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. */}
+                <path d="M137.4 41.4c12.5-12.5 32.8-12.5 45.3 0l128 128c9.2 9.2 11.9 22.9 6.9 34.9s-16.6 19.8-29.6 19.8H32c-12.9 0-24.6-7.8-29.6-19.8s-2.2-25.7 6.9-34.9l128-128zm0 429.3l-128-128c-9.2-9.2-11.9-22.9-6.9-34.9s16.6-19.8 29.6-19.8H288c12.9 0 24.6 7.8 29.6 19.8s2.2 25.7-6.9 34.9l-128 128c-12.5 12.5-32.8 12.5-45.3 0z" />
+              </svg>
+            </a>
+  </th>
+  
+  <th scope="col" class="sticky left-0 z-10 px-6 py-4 w-1/4 border-x dark:border-neutral-600 bg-green-700">
+  Touch Color Display
+  <a href="" class="inline">
+        <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 320 512"
+        class="w-[0.65rem] h-[0.65rem] inline ml-1 text-neutral-500 dark:text-neutral-200 mb-[1px]"
+        fill="currentColor"
+        >
+        {/* Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. */}
+        <path d="M137.4 41.4c12.5-12.5 32.8-12.5 45.3 0l128 128c9.2 9.2 11.9 22.9 6.9 34.9s-16.6 19.8-29.6 19.8H32c-12.9 0-24.6-7.8-29.6-19.8s-2.2-25.7 6.9-34.9l128-128zm0 429.3l-128-128c-9.2-9.2-11.9-22.9-6.9-34.9s16.6-19.8 29.6-19.8H288c12.9 0 24.6 7.8 29.6 19.8s2.2 25.7-6.9 34.9l-128 128c-12.5 12.5-32.8 12.5-45.3 0z" />
+        </svg>
+        </a>    
+      </th>
+      
+  <th scope="col" class="sticky left-0 z-10 px-6 py-4 w-1/4 border-x dark:border-neutral-600 bg-green-700">
+  Smart Home Integration
+  <a href="" class="inline">
+      <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 320 512"
+      class="w-[0.65rem] h-[0.65rem] inline ml-1 text-neutral-500 dark:text-neutral-200 mb-[1px]"
+      fill="currentColor"
+      >
+      {/* Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. */}
+      <path d="M137.4 41.4c12.5-12.5 32.8-12.5 45.3 0l128 128c9.2 9.2 11.9 22.9 6.9 34.9s-16.6 19.8-29.6 19.8H32c-12.9 0-24.6-7.8-29.6-19.8s-2.2-25.7 6.9-34.9l128-128zm0 429.3l-128-128c-9.2-9.2-11.9-22.9-6.9-34.9s16.6-19.8 29.6-19.8H288c12.9 0 24.6 7.8 29.6 19.8s2.2 25.7-6.9 34.9l-128 128c-12.5 12.5-32.8 12.5-45.3 0z" />
+      </svg>
       </a>
-    </td>
-    <td class="py-2 px-4 border border-gray-600">Ecobee 3 Lite</td>
-    <td class="py-2 px-4 border border-gray-600">$145</td>
-    <td class="py-2 px-4 border border-gray-600">Smarter</td>
-    <td class="py-2 px-4 border border-gray-600">No</td>
-    <td class="py-2 px-4 border border-gray-600">Yes</td>
-    <td class="py-2 px-4 border border-gray-600">Yes</td>
-    <td class="py-2 px-4 border border-gray-600">Yes</td>
-    <td class="py-2 px-4 border border-gray-600">No</td>
-  </tr>
+  </th>
   
-  <!-- Amazon Smart Thermostat -->
-  <tr class="bg-gray-800 hover:bg-gray-700">
-  <td class="py-2 px-4 border border-gray-600">
-    <a href='https://amzn.to/45MCawo' target='_blank' rel='noopener noreferrer'class="hover:text-green-500">
-      <img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/amazon-smart-thermostat.png?raw=true' alt='Amazon Smart Thermostat' class="w-12 h-auto" />
-      Shop Now
-    </a>
-  </td>
-  <td class="py-2 px-4 border border-gray-600">Amazon Smart Thermostat</td>
-  <td class="py-2 px-4 border border-gray-600">$90</td>
-  <td class="py-2 px-4 border border-gray-600">Smart</td>
-  <td class="py-2 px-4 border border-gray-600">No</td>
-    <td class="py-2 px-4 border border-gray-600">Yes</td>
-    <td class="py-2 px-4 border border-gray-600">No</td>
-    <td class="py-2 px-4 border border-gray-600">No</td>
-    <td class="py-2 px-4 border border-gray-600">No</td>
-</tr>
+  <th scope="col" class="sticky left-0 z-10 px-6 py-4 w-1/4 border-x dark:border-neutral-600 bg-green-700">
+  Sensor Compatable
+  <a href="" class="inline">
+        <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 320 512"
+        class="w-[0.65rem] h-[0.65rem] inline ml-1 text-neutral-500 dark:text-neutral-200 mb-[1px]"
+        fill="currentColor"
+        >
+        {/* Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. */}
+        <path d="M137.4 41.4c12.5-12.5 32.8-12.5 45.3 0l128 128c9.2 9.2 11.9 22.9 6.9 34.9s-16.6 19.8-29.6 19.8H32c-12.9 0-24.6-7.8-29.6-19.8s-2.2-25.7 6.9-34.9l128-128zm0 429.3l-128-128c-9.2-9.2-11.9-22.9-6.9-34.9s16.6-19.8 29.6-19.8H288c12.9 0 24.6 7.8 29.6 19.8s2.2 25.7-6.9 34.9l-128 128c-12.5 12.5-32.8 12.5-45.3 0z" />
+        </svg>
+        </a>    
+  </th>
+  
+  <th scope="col" class="sticky left-0 z-10 px-6 py-4 w-1/4 border-x dark:border-neutral-600 bg-green-700">
+  Extra Sensors
+  <a href="" class="inline">
+      <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 320 512"
+      class="w-[0.65rem] h-[0.65rem] inline ml-1 text-neutral-500 dark:text-neutral-200 mb-[1px]"
+      fill="currentColor"
+      >
+      {/* Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. */}
+      <path d="M137.4 41.4c12.5-12.5 32.8-12.5 45.3 0l128 128c9.2 9.2 11.9 22.9 6.9 34.9s-16.6 19.8-29.6 19.8H32c-12.9 0-24.6-7.8-29.6-19.8s-2.2-25.7 6.9-34.9l128-128zm0 429.3l-128-128c-9.2-9.2-11.9-22.9-6.9-34.9s16.6-19.8 29.6-19.8H288c12.9 0 24.6 7.8 29.6 19.8s2.2 25.7-6.9 34.9l-128 128c-12.5 12.5-32.8 12.5-45.3 0z" />
+      </svg>
+      </a>
+    </th>
+  
+  <th scope="col" class="sticky left-0 z-10 px-6 py-4 w-1/4 border-x dark:border-neutral-600 bg-green-700">
+  Advanced Learning
+  <a href="" class="inline">
+        <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 320 512"
+        class="w-[0.65rem] h-[0.65rem] inline ml-1 text-neutral-500 dark:text-neutral-200 mb-[1px]"
+        fill="currentColor"
+        >
+        {/* Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. */}
+        <path d="M137.4 41.4c12.5-12.5 32.8-12.5 45.3 0l128 128c9.2 9.2 11.9 22.9 6.9 34.9s-16.6 19.8-29.6 19.8H32c-12.9 0-24.6-7.8-29.6-19.8s-2.2-25.7 6.9-34.9l128-128zm0 429.3l-128-128c-9.2-9.2-11.9-22.9-6.9-34.9s16.6-19.8 29.6-19.8H288c12.9 0 24.6 7.8 29.6 19.8s2.2 25.7-6.9 34.9l-128 128c-12.5 12.5-32.8 12.5-45.3 0z" />
+        </svg>
+        </a>    
+      </th>
+    </tr>
+    </thead>
+  
+    
+  
+  <!--Start of TABLE BODY -->
+  <tbody>
+  
+   <!-- Ecobee 3 Lite-->
+   <tr class="bg-gray-800 hover:bg-gray-700">
+    <td class="sticky left-0 z-10 py-1 px-2 border border-gray-600 flex flex-col items-center justify-center whitespace-nowrap bg-gray-800">
+      <img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/ecobee-3-lite.png?raw=true alt=Ecobee 3 Lite' class="w-12 h-auto mb-2" />
+      <Button href="https://amzn.to/46Zu8C9" variant="primary" target="_blank" text="Shop Now" class="w-5/6 text-sm text-center rounded-full py-1 px-3" />
+    </td>
+  
+ <td class="py-2 px-4 border border-gray-600 text-center break-words">Ecobee 3 Lite</td>
+ <td class="py-2 px-4 border border-gray-600">$145</td>
+ <td class="py-2 px-4 border border-gray-600">Smarter</td>
+ <td class="py-2 px-4 border border-gray-600">&#10008</td>
+ <td class="py-2 px-4 border border-gray-600">&#10004</td>
+ <td class="py-2 px-4 border border-gray-600">&#10004</td>
+ <td class="py-2 px-4 border border-gray-600">&#10004</td>
+ <td class="py-2 px-4 border border-gray-600">&#10008</td>
+  </tr>
+    
+      <!-- Amazon Smart Thermostat -->
+      <tr class="bg-gray-800 hover:bg-gray-700">
+        <td class="sticky left-0 z-10 py-1 px-2 border border-gray-600 flex flex-col items-center justify-center whitespace-nowrap bg-gray-800">
+        <img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/amazon-smart-thermostat.png?raw=true alt='Amazon Smart Thermostat' class="w-12 h-auto mb-2" />
+          <Button href="https://amzn.to/45MCawo" variant="primary" target="_blank" text="Shop Now" class="w-5/6 text-sm text-center rounded-full py-1 px-3" />
+        </td>
+      
+     <td class="py-2 px-4 border border-gray-600 text-center break-words">Amazon Smart ThermostatLite</td>
+     <td class="py-2 px-4 border border-gray-600">$90</td>
+     <td class="py-2 px-4 border border-gray-600">Smart</td>
+     <td class="py-2 px-4 border border-gray-600">&#10008</td>
+     <td class="py-2 px-4 border border-gray-600">&#10004</td>
+     <td class="py-2 px-4 border border-gray-600">&#10008</td>
+     <td class="py-2 px-4 border border-gray-600">&#10008</td>
+     <td class="py-2 px-4 border border-gray-600">&#10008</td>
+      </tr>
+        
 
 <!--Ecobee Smart Premium -->
 <tr class="bg-gray-800 hover:bg-gray-700">
-  <td class="py-2 px-4 border border-gray-600">
-    <a href='<a href='https://amzn.to/4705a5e' target='_blank' rel='noopener noreferrer'class="hover:text-green-500">
-    <img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/THRM-2-cover-art.png?raw=tru' alt='Ecobee Smart Premium' class="w-12 h-auto" />
-      Shop Now
-    </a>
+  <td class="sticky left-0 z-10 py-1 px-2 border border-gray-600 flex flex-col items-center justify-center whitespace-nowrap bg-gray-800">
+  <img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/THRM-2-cover-art.png?raw=true' alt='Ecobee Smart Premium' class="w-12 h-auto mb-2" />
+    <Button href="https://amzn.to/4705a5e" variant="primary" target="_blank" text="Shop Now" class="w-5/6 text-sm text-center rounded-full py-1 px-3" />
   </td>
-  <td class="py-2 px-4 border border-gray-600">Ecobee Smart Premium</td>
-  <td class="py-2 px-4 border border-gray-600">$225</td>
-  <td class="py-2 px-4 border border-gray-600">smartest</td>
-  <td class="py-2 px-4 border border-gray-600">No</td>
-    <td class="py-2 px-4 border border-gray-600">Yes</td>
-    <td class="py-2 px-4 border border-gray-600">Yes</td>
-    <td class="py-2 px-4 border border-gray-600">Yes</td>
-    <td class="py-2 px-4 border border-gray-600">Yes</td>
+
+<td class="py-2 px-4 border border-gray-600 text-center break-words">Ecobee Smart Premium</td>
+<td class="py-2 px-4 border border-gray-600">$230</td>
+<td class="py-2 px-4 border border-gray-600">Smartest</td>
+<td class="py-2 px-4 border border-gray-600">&#10008</td>
+<td class="py-2 px-4 border border-gray-600">&#10004</td>
+<td class="py-2 px-4 border border-gray-600">&#10004</td>
+<td class="py-2 px-4 border border-gray-600">&#10004</td>
+<td class="py-2 px-4 border border-gray-600">&#10004</td>
 </tr>
+  
+
+
+  
 
 <!-- Honeywell Home T9 -->
 <tr class="bg-gray-800 hover:bg-gray-700">
-  <td class="py-2 px-4 border border-gray-600">
-    <a href='https://amzn.to/407LoSZ' target='_blank' rel='noopener noreferrer'class="hover:text-green-500">
-      <img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/honeywell-t9.png?raw=true' 'alt='Honeywell Home T9' class="w-12 h-auto" />
-      Shop Now
-    </a>
+  <td class="sticky left-0 z-10 py-1 px-2 border border-gray-600 flex flex-col items-center justify-center whitespace-nowrap bg-gray-800">
+  <img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/honeywell-t9.png?raw=true' alt='Honeywell Home T9' class="w-12 h-auto mb-2" />
+    <Button href="https://amzn.to/407LoSZ" variant="primary" target="_blank" text="Shop Now" class="w-5/6 text-sm text-center rounded-full py-1 px-3" />
   </td>
-  <td class="py-2 px-4 border border-gray-600">Honeywell Home T9</td>
-  <td class="py-2 px-4 border border-gray-600">$145</td>
-  <td class="py-2 px-4 border border-gray-600">Smarter</td>
-  <td class="py-2 px-4 border border-gray-600">Yes</td>
-  <td class="py-2 px-4 border border-gray-600">No</td>
-  <td class="py-2 px-4 border border-gray-600">Yes</td>
-  <td class="py-2 px-4 border border-gray-600">No</td>
-  <td class="py-2 px-4 border border-gray-600">No</td>
+
+<td class="py-2 px-4 border border-gray-600 text-center break-words">Honeywell Home T9</td>
+<td class="py-2 px-4 border border-gray-600">$145</td>
+<td class="py-2 px-4 border border-gray-600">Smarter</td>
+<td class="py-2 px-4 border border-gray-600">&#10004</td>
+<td class="py-2 px-4 border border-gray-600">&#10008</td>
+<td class="py-2 px-4 border border-gray-600">&#10004</td>
+<td class="py-2 px-4 border border-gray-600">&#10008</td>
+<td class="py-2 px-4 border border-gray-600">&#10008</td>
 </tr>
+  
+<!-- Google Nest Learning -->
+<tr class="bg-gray-800 hover:bg-gray-700">
+  <td class="sticky left-0 z-10 py-1 px-2 border border-gray-600 flex flex-col items-center justify-center whitespace-nowrap bg-gray-800">
+  <img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/google-nest%20learning.png?raw=true' alt='Google Nest Learning' class="w-12 h-auto mb-2" />
+    <Button href="https://amzn.to/3tNnwYK" variant="primary" target="_blank" text="Shop Now" class="w-5/6 text-sm text-center rounded-full py-1 px-3" />
+  </td>
+
+<td class="py-2 px-4 border border-gray-600 text-center break-words">Google Nest Learning</td>
+<td class="py-2 px-4 border border-gray-600">$225</td>
+<td class="py-2 px-4 border border-gray-600">Smartest</td>
+<td class="py-2 px-4 border border-gray-600">&#10008</td>
+<td class="py-2 px-4 border border-gray-600">&#10004</td>
+<td class="py-2 px-4 border border-gray-600">&#10004</td>
+<td class="py-2 px-4 border border-gray-600">&#10004</td>
+<td class="py-2 px-4 border border-gray-600">&#10004</td>
+</tr>
+  
+
 
 <!-- Emerson Sensi Touchcolor Display-->
 <tr class="bg-gray-800 hover:bg-gray-700">
-  <td class="py-2 px-4 border border-gray-600">
-    <a href='https://amzn.to/49es8ra' target='_blank' rel='noopener noreferrer'class="hover:text-green-500">
-      <img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/emerson-sensi-touch-color-display.png?raw=true' alt='Emerson Sensi Touchcolor Display' 	class="w-12 h-auto" />
-      Shop Here
-    </a>
+  <td class="sticky left-0 z-10 py-1 px-2 border border-gray-600 flex flex-col items-center justify-center whitespace-nowrap bg-gray-800">
+  <img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/emerson-sensi-touch-color-display.png?raw=true' alt='Emerson Sensi Touchcolor Display' class="w-12 h-auto mb-2" />
+    <Button href="https://amzn.to/49es8ra" variant="primary" target="_blank" text="Shop Now" class="w-5/6 text-sm text-center rounded-full py-1 px-3" />
   </td>
-  <td class="py-2 px-4 border border-gray-600">Emerson Sensi Touchcolor Display</td>
-  <td class="py-2 px-4 border border-gray-600">$125</td>
-  <td class="py-2 px-4 border border-gray-600">Smarter</td>
-  <td class="py-2 px-4 border border-gray-600">Yes</td>
-  <td class="py-2 px-4 border border-gray-600">Yes</td>
-  <td class="py-2 px-4 border border-gray-600">No</td>
-  <td class="py-2 px-4 border border-gray-600">No</td>
-  <td class="py-2 px-4 border border-gray-600">No</td>
+
+<td class="py-2 px-4 border border-gray-600 text-center break-words">Emerson Sensi Touchcolor Display</td>
+<td class="py-2 px-4 border border-gray-600">$125</td>
+<td class="py-2 px-4 border border-gray-600">Smarter</td>
+<td class="py-2 px-4 border border-gray-600">&#10004</td>
+<td class="py-2 px-4 border border-gray-600">&#10004</td>
+<td class="py-2 px-4 border border-gray-600">&#10008</td>
+<td class="py-2 px-4 border border-gray-600">&#10008</td>
+<td class="py-2 px-4 border border-gray-600">&#10008</td>
 </tr>
-
-
-
-<!-- Google Nest Learning -->
-<tr class="bg-gray-800 hover:bg-gray-700">
-  <td class="py-2 px-4 border border-gray-600">
-    <a href='https://amzn.to/3tNnwYK' target='_blank' rel='noopener noreferrer'class="hover:text-green-500">
-      <img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/google-nest%20learning.png?raw=true' 'alt='Google Nest Learning' class="w-12 h-auto" />
-      Shop Now
-    </a>
-  </td>
-  <td class="py-2 px-4 border border-gray-600">Google Nest Learning</td>
-  <td class="py-2 px-4 border border-gray-600">$225</td>
-  <td class="py-2 px-4 border border-gray-600">Smartest</td>
-  <td class="py-2 px-4 border border-gray-600">No</td>
-  <td class="py-2 px-4 border border-gray-600">Yes</td>
-  <td class="py-2 px-4 border border-gray-600">Yes</td>
-  <td class="py-2 px-4 border border-gray-600">Yes</td>
-  <td class="py-2 px-4 border border-gray-600">Yes</td>
-</tr>
+  
 
 <!-- Google Nest Smart-->
 <tr class="bg-gray-800 hover:bg-gray-700">
-  <td class="py-2 px-4 border border-gray-600">
-    <a href='https://amzn.to/3tW5ljm' target='_blank' rel='noopener noreferrer'>
-      <img src= 'https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/google-nest-smart.png?raw=true' 'alt='Google Nest Smart' class="w-12 h-auto" />
-      Shop Now
-    </a>
+  <td class="sticky left-0 z-10 py-1 px-2 border border-gray-600 flex flex-col items-center justify-center whitespace-nowrap bg-gray-800">
+<img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/google-nest-smart.png?raw=true' alt='Google Nest Smart Thermostat' class="w-12 h-auto mb-2" />
+    <Button href="https://amzn.to/49es8ra" variant="primary" target="_blank" text="Shop Now" class="w-5/6 text-sm text-center rounded-full py-1 px-3" />
   </td>
-  <td class="py-2 px-4 border border-gray-600">Google Nest Smart</td>
-  <td class="py-2 px-4 border border-gray-600">$130</td>
-  <td class="py-2 px-4 border border-gray-600">Smarter</td>
-  <td class="py-2 px-4 border border-gray-600">No</td>
-  <td class="py-2 px-4 border border-gray-600">Yes</td>
-  <td class="py-2 px-4 border border-gray-600">No</td>
-  <td class="py-2 px-4 border border-gray-600">No</td>
-  <td class="py-2 px-4 border border-gray-600">No</td>
+
+<td class="py-2 px-4 border border-gray-600 text-center break-words">Google Nest Smart</td>
+<td class="py-2 px-4 border border-gray-600">$130</td>
+<td class="py-2 px-4 border border-gray-600">Smarter</td>
+<td class="py-2 px-4 border border-gray-600">&#10008</td>
+<td class="py-2 px-4 border border-gray-600">&#10004</td>
+<td class="py-2 px-4 border border-gray-600">&#10008</td>
+<td class="py-2 px-4 border border-gray-600">&#10008</td>
+<td class="py-2 px-4 border border-gray-600">&#10008</td>
 </tr>
+  
 
-</tbody>
-</table>
-
-<Features2
+  </tbody>
+  </table>
+  
+  <nav class="mt-5 flex items-center justify-between text-sm" aria-label="Page navigation example">
+    <p>
+      Showing <strong>1-5</strong> of <strong>10</strong>
+    </p>
+  
+    <ul class="list-style-none flex">
+      <li>
+        <a
+          class="relative block rounded bg-transparent px-3 py-1.5 text-sm text-neutral-600 transition-all duration-300 hover:bg-neutral-100 dark:text-white dark:hover:bg-neutral-700 dark:hover:text-white"
+          href="#!"
+        >
+          Previous
+        </a>
+      </li>
+      <li>
+        <a
+          class="relative block rounded bg-transparent px-3 py-1.5 text-sm text-neutral-600 transition-all duration-300 hover:bg-neutral-100 dark:text-white dark:hover:bg-neutral-700 dark:hover:text-white"
+          href="#!"
+        >
+          1
+        </a>
+      </li>
+      <li aria-current="page">
+        <a
+          class="relative block rounded bg-blue-100 px-3 py-1.5 text-sm font-medium text-blue-700 transition-all duration-300"
+          href="#!"
+        >
+          2
+          <span class="absolute -m-px h-px w-px overflow-hidden whitespace-nowrap border-0 p-0 [clip:rect(0,0,0,0)]">
+            (current)
+          </span>
+        </a>
+      </li>
+      <li>
+        <a
+          class="relative block rounded bg-transparent px-3 py-1.5 text-sm text-neutral-600 transition-all duration-300 hover:bg-neutral-100 dark:text-white dark:hover:bg-neutral-700 dark:hover:text-white"
+          href="#!"
+        >
+          3
+        </a>
+      </li>
+      <li>
+        <a
+          class="relative block rounded bg-transparent px-3 py-1.5 text-sm text-neutral-600 transition-all duration-300 hover:bg-neutral-100 dark:text-white dark:hover:bg-neutral-700 dark:hover:text-white"
+          href="#!"
+        >
+          Next
+        </a>
+      </li>
+    </ul>
+  </nav>
+  
+  </div>
+  <Features2
   title="Varying Features"
   subtitle="Optional features to narrow down your choice based on personal preferences"
   columns={3}
@@ -262,11 +456,11 @@ items={[
 />
 
 
-
 <script>
   document.addEventListener("DOMContentLoaded", function() {
     $('#comparisonTable').DataTable();
   });
 </script>
 </Layout>
-                   
+
+

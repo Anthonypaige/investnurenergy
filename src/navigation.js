@@ -7,10 +7,10 @@ export const headerData = {
       links: [
         { text: 'Home Clean Energy Credit', href: getPermalink('/clean-energy/home-clean-energy-credit') },
         { text: 'Home Energy Storage', href: getPermalink('/clean-energy/home-energy-storage') },
-        { text: 'Solar Basics', href: getPermalink('/clean-energy/solar-basics') },
+        { text: 'Solar Basics', href: getPermalink('/clean-energy/solar-energy-basics') },
         { text: 'Solar Tax Incentive', href: getPermalink('/clean-energy/solar-tax-incentive') },
-        { text: 'Geothermal Heat Pumps', href: getPermalink('/clean-energy/geothermal-energy') },
-        { text: 'Residential Wind Turbines', href: getPermalink('/clean-energy/wind-energy') },
+        { text: 'Geothermal Heat Pumps', href: getPermalink('/clean-energy/geothermal-heat-pumps') },
+        { text: 'Wind Turbines', href: getPermalink('/clean-energy/wind-turbines') },
       ],
     },
     {
@@ -18,18 +18,18 @@ export const headerData = {
       links: [
         {
           text: 'Energy Efficient Home Upgrades',
-          href: getPermalink('/energyefficient/energy-efficient-home-upgrades'),
+          href: getPermalink('/energy-efficient/energy-efficient-home-upgrades'),
         },
-        { text: 'Heat Pumps', href: getPermalink('/energyefficient/air-source-heat-pumps') },
-        { text: 'Water Heaters', href: getPermalink('/energyefficient/energy-efficient-water-heaters') },
-        { text: 'Weatherization', href: getPermalink('/energyefficient/weatherization') },
+        { text: 'Heat Pumps', href: getPermalink('/energy-efficient/air-source-heat-pumps') },
+        { text: 'Water Heaters', href: getPermalink('/energy-efficient/energy-efficient-water-heaters') },
+        { text: 'Weatherization', href: getPermalink('/energy-efficient/weatherization') },
       ],
     },
     {
       text: 'State Level Rebates',
       links: [
-        { text: 'Energy Efficient Rebates', href: getPermalink('/energyefficientrebates/energy-efficient-rebates') },
-        { text: 'Smart Energy Devices', href: getPermalink('/energyefficientrebates/smart-energy-devices') },
+        { text: 'Energy Efficient Rebates', href: getPermalink('/energy-efficient-rebates/energy-efficient-rebates') },
+        { text: 'Smart Energy Devices', href: getPermalink('/energy-efficient-rebates/smart-energy-devices') },
       ],
     },
     {
@@ -62,25 +62,25 @@ export const footerData = {
           text: 'Energy Efficient Home Upgrades',
           href: getPermalink('/energyefficient/energy-efficient-home-upgrades'),
         },
-        { text: 'Energy Efficient Rebates', href: getPermalink('/energyefficientrebates/energy-efficient-rebates') },
+        { text: 'Energy Efficient Rebates', href: getPermalink('/energy-efficient-rebates/energy-efficient-rebates') },
       ],
     },
     {
       title: 'Top Pages',
       links: [
-        { text: 'Smart Energy Devices', href: getPermalink('/energyefficientrebates/smart-energy-devices') },
+        { text: 'Smart Energy Devices', href: getPermalink('/energy-efficient-rebates/smart-energy-devices') },
         { text: 'Home Energy Storage', href: getPermalink('/clean-energy/home-energy-storage') },
         { text: 'Solar Tax Incentive', href: getPermalink('/clean-energy/solar-tax-incentive') },
-        { text: 'Solar Basics', href: getPermalink('/clean-energy/solar-basics') },
+        { text: 'Solar Basics', href: getPermalink('/clean-energy/solar-energy-basics') },
       ],
     },
     {
       title: 'Themed Pages',
       links: [
-        { text: 'Geothermal Energy', href: getPermalink('/clea-nenergy/geothermal-energy') },
-        { text: 'Wind Energy', href: getPermalink('/clean-energy/wind-energy') },
-        { text: 'Heat Pumps', href: getPermalink('/energyefficient/air-source-heat-pumps') },
-        { text: 'Water Heaters', href: getPermalink('/energyefficient/energy-efficient-water-heaters') },
+        { text: 'Geothermal Energy', href: getPermalink('/clean-energy/geothermal-heat-pumps') },
+        { text: 'Wind Energy', href: getPermalink('/clean-energy/wind-turbines') },
+        { text: 'Heat Pumps', href: getPermalink('/energy-efficient/air-source-heat-pumps') },
+        { text: 'Water Heaters', href: getPermalink('/energy-efficient/energy-efficient-water-heaters') },
       ],
     },
     {
