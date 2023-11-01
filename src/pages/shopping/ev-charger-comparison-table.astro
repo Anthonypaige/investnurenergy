@@ -79,9 +79,8 @@ const metadata = {
     ]}
   />
   
-    
   <!-- Responsive Table Wrapper -->
-<div class="flex flex-col overflow-x-auto ml-20 mr-20 ">
+<div class="flex flex-col overflow-x-auto ml-5 mr-5 sm:ml-20 sm:mr-20">
   <!-- Search Input -->
   <div class="relative m-[2px] mb-3 mr-5 float-left">
     <label for="inputSearch" class="sr-only">Search </label>
@@ -97,10 +96,12 @@ const metadata = {
 <table class="min-w-full text-left text-xs whitespace-nowrap">
 
   <!-- Table head -->
-  <thead class="uppercase tracking-wider sticky top-0 dark:bg-neutral-700 outline outline-2 outline-neutral-200 dark:outline-neutral-600 bg-neutral-50 border-t">
+ <thead class="uppercase tracking-wider sticky top-0 dark:bg-neutral-700 bg-neutral-50 border-t">
     <tr>
-      <th scope="col" class="px-6 py-4 w 1/4 border-x dark:border-neutral-600 bg-green-700">
-        Shop Here
+
+ <!-- Sticky first column -->
+ <th scope="col" class="sticky left-0 px-4 py-2 w-1/4 border-x dark:border-neutral-600 bg-green-700">
+  Shop Here
           <a href="" class="inline">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -113,9 +114,8 @@ const metadata = {
             </svg>
           </a>
         </th>
-
-        <th scope="col" class="px-6 py-4 border-x dark:border-neutral-600 bg-green-700">
-        EV Charger
+<th scope="col" class="px-6 py-4 border-x dark:border-neutral-600 bg-green-700">
+EV Charger
           <a href="" class="inline">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -127,9 +127,8 @@ const metadata = {
               <path d="M137.4 41.4c12.5-12.5 32.8-12.5 45.3 0l128 128c9.2 9.2 11.9 22.9 6.9 34.9s-16.6 19.8-29.6 19.8H32c-12.9 0-24.6-7.8-29.6-19.8s-2.2-25.7 6.9-34.9l128-128zm0 429.3l-128-128c-9.2-9.2-11.9-22.9-6.9-34.9s16.6-19.8 29.6-19.8H288c12.9 0 24.6 7.8 29.6 19.8s2.2 25.7-6.9 34.9l-128 128c-12.5 12.5-32.8 12.5-45.3 0z" />
             </svg>
           </a>
-
 </th>
-<th scope="col" class="py-4 px-6 w-1/12 border-x dark:border-neutral-600 bg-green-700">
+<th scope="col" class="px-2 py-2 w-1/12 border-x dark:border-neutral-600 bg-green-700">
 Avg Price
 <a href="" class="inline">
 <svg
@@ -145,7 +144,8 @@ fill="currentColor"
 </th>
 
 
-<th scope="col" class="px-6 py-4 border-x dark:border-neutral-600 bg-green-700">
+
+<th scope="col" class="px-2 py-2 w-1/12 border-x dark:border-neutral-600 bg-green-700">
 Max Amps
 <a href="" class="inline">
             <svg
@@ -160,7 +160,7 @@ Max Amps
           </a>
 </th>
 
-<th scope="col" class="px-6 py-4 w-1/12 border-x dark:border-neutral-600 bg-green-700">
+<th scope="col" class="px-2 py-2 w-1/12 border-x dark:border-neutral-600 bg-green-700">
 Wi-Fi
 <a href="" class="inline">
       <svg
@@ -175,7 +175,7 @@ Wi-Fi
       </a>    
     </th>
     
-    <th scope="col" class="px-6 py-4 w-1/12 border-x dark:border-neutral-600 bg-green-700">
+    <th scope="col" class="px-2 py-2 w-1/12 border-x dark:border-neutral-600 bg-green-700">
 Bluetooth
 <a href="" class="inline">
     <svg
@@ -245,8 +245,7 @@ Outdoor Rating
 
   <!-- Autel MaxiCharger 50A Smart Charger -->
 <tr class="bg-gray-800 hover:bg-gray-700">
-  <td class="py-2 px-4 border border-gray-600 flex flex-col items-center justify-center whitespace-nowrap">
-    <img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/autel-evse.png?raw=true' alt='Autel MaxiCharger 40A Smart Charger' class="w-12 h-auto mb-2" />
+  <td class="sticky left-0 py-1 px-2 border border-gray-600 flex flex-col items-center justify-center whitespace-nowrap">
     <Button href="https://amzn.to/3RpBs51" variant="primary" target="_blank" text="Shop Now" class="w-5/6 text-sm text-center rounded-full py-1 px-3" />
   </td>
 
@@ -345,13 +344,12 @@ Outdoor Rating
   <td class="py-2 px-4 border border-gray-600 whitespace-nowrap">NEMA-4</td>
 </tr>
 
+</tbody>
 </table>
-</div>
 </div>
 
 
 <Features2
-
     title="Varying features"
     subtitle="Optional features to consider based on your home setup"
     columns={3}
@@ -390,7 +388,6 @@ Outdoor Rating
   />
 
 
-  
 <!-- Your custom script -->
 <script>
   document.addEventListener("DOMContentLoaded", function() {
