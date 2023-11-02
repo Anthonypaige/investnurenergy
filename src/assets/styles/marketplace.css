@@ -1,0 +1,49 @@
+/* marketplace.css */
+
+/* Grid Layout Enhancements */
+.grid-layout {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+/* Card Design Enhancements */
+.card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Typography Enhancements */
+.card-title {
+  font-size: 1.25rem; /* 20px */
+  color: #333;
+}
+
+/* Image Optimization */
+.card-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Button Customizations */
+.button-primary {
+  background-color: #0056b3;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  transition: background-color 0.3s ease;
+}
+
+.button-primary:hover {
+  background-color: #004494;
+}
+
+/* Accessibility Improvements */
+.card {
+  position: relative;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  height: 100%;
+}
