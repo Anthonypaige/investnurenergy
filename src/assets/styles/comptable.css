@@ -1,0 +1,33 @@
+
+/* comptable.css */
+.dataTables_wrapper .dataTables_filter input {
+    background-color: #f2f2f2; /* Light grey background */
+    border: 1px solid #ddd; /* Light grey border */
+    padding: 8px; /* Padding inside the search box */
+    margin-bottom: 10px; /* Space below the search box */
+    width: 100%; /* Full width */
+    max-width: 300px; /* Max width for larger screens */
+    font-size: 16px; /* Readable text size */
+    color: #333; /* Dark grey for readability */
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Modern font stack */
+    border-radius: 4px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: border-color 0.2s, box-shadow 0.2s; /* Smooth transitions for interactions */
+  }
+  
+  .dataTables_wrapper .dataTables_filter input::placeholder {
+    color: #aaa; /* Lighter text for placeholder */
+    font-style: italic; /* Italic style for placeholder */
+  }
+  
+  .dataTables_wrapper .dataTables_filter input:focus {
+    outline: none; /* Remove default focus outline */
+    border-color: #555; /* Darker border on focus */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Slightly deeper shadow to highlight focus */
+  }
+  
+  .dataTables_wrapper .dataTables_filter input:hover {
+    border-color: #bbb; /* Slightly darker border on hover */
+  }
+  
+
