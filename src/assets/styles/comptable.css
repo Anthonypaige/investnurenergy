@@ -64,7 +64,3 @@
   /* Other styles */
 }
 
-.dataTables_wrapper .dataTables_scrollBody {
-  max-height: calc(100% - 60px); /* Replace 36px with the actual calculated total height */
-  overflow-y: auto;
-}

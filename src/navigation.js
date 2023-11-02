@@ -3,7 +3,7 @@ import { getPermalink, getBlogPermalink } from './utils/permalinks';
 export const headerData = {
   links: [
     {
-      text: 'Clean Energy Tax Credit',
+      text: 'Clean Energy Tax Credits',
       links: [
         { text: 'Home Clean Energy Credit', href: getPermalink('/clean-energy/home-clean-energy-credit') },
         { text: 'Home Energy Storage', href: getPermalink('/clean-energy/home-energy-storage') },
@@ -14,7 +14,7 @@ export const headerData = {
       ],
     },
     {
-      text: 'Energy Efficiency Tax Credit',
+      text: 'Energy Efficiency Tax Credits',
       links: [
         {
           text: 'Energy Efficient Home Upgrades',
@@ -28,25 +28,25 @@ export const headerData = {
     {
       text: 'State Level Rebates',
       links: [
-        { text: 'Energy Efficient Rebates', href: getPermalink('/energy-efficient-rebates/energy-efficient-rebates') },
-        { text: 'Smart Energy Devices', href: getPermalink('/energy-efficient-rebates/smart-energy-devices') },
+        { text: 'Energy Efficient Rebates', href: getPermalink('/state-level-rebates/energy-efficient-rebates') },
+        { text: 'Smart Energy Devices', href: getPermalink('/state-level-rebates/smart-energy-devices') },
       ],
     },
     {
       text: 'Shopping',
       links: [
         { text: 'Affiliate Marketplace', href: getPermalink('/shopping/affiliate-marketplace') },
-        { text: 'Top Smart Thermostats', href: getPermalink('/shopping/smart-thermostat-comparison-table') },
-        { text: 'EV Chargers', href: getPermalink('/shopping/ev-charger-comparison-table') },
-        { text: 'Portable Power Stations', href: getPermalink('/shopping/portable-power-stations-comparison-table') },
+        { text: 'Top Smart Thermostats', href: getPermalink('/shopping/top-smart-thermostats') },
+        { text: 'EV Chargers', href: getPermalink('/shopping/smart-ev-chargers') },
+        { text: 'Portable Power Stations', href: getPermalink('/shopping/portable-power-stations') },
       ],
     },
     {
       text: 'Blog',
       links: [
         { text: 'Blog List', href: getBlogPermalink() },
-        { text: 'Category Page', href: getPermalink('home-clean-energy-credit', 'category') },
-        { text: 'Tag Page', href: getPermalink('solar-energy', 'tag') },
+        // { text: 'Category Page', href: getPermalink('home-clean-energy-credit', 'category') },
+        // { text: 'Tag Page', href: getPermalink('solar-energy', 'tag') },
       ],
     },
   ],
