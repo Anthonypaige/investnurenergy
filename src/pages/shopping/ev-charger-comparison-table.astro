@@ -38,6 +38,13 @@ const metadata = {
 
 
 <section class="container mx-auto p-6"></section>
+<!-- DataTables Main CSS -->
+<link rel="stylesheet" href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.css">
+
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<!-- DataTables Main JS -->
+<script src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.js"></script>
 
 
 
@@ -95,7 +102,7 @@ const metadata = {
 </div>
 
 <!-- Start of Table -->
-<table class="min-w-full text-left text-xs whitespace-nowrap">
+<table id="comparisonTable"class="min-w-full text-xs sm:text-sm md:text-base whitespace-nowrap break-words">
   
 <!-- Table header -->
  <thead class="uppercase tracking-wider sticky top-0 dark:bg-neutral-700 bg-neutral-50 border-t">
