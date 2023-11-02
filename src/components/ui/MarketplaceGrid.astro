@@ -9,66 +9,44 @@ const {
   container: containerClass = '',
   card: cardClass = '',
   title: titleClass = 'text-2xl font-bold text-white h-16',
-  image: imageClass = 'w-full h-64 object-cover mb-4 rounded',
+  image: imageClass = 'transition-transform duration-300 ease-in-out hover:scale-125 sale-80 w-full h-64 object-cover mb-4 rounded',
   topSellingPoints: topSellingPointsClass = 'text-lg text-white mb-1 truncate w-96',
   avgPrice: avgPriceClass = 'text-xl font-semibold mb-2 text-green-500',
-  ribbon: ribbonClass = 'absolute top-0 left-0 text-white py-1 px-3 text-xs font-bold transform -rotate-45 ribbon'
+  
 } = classes;
 ---
 
 <style>
-  .ribbon {
-    position: absolute;
-    right: -5px;
-    top: -5px;
-    height: 100px;
-    width: 100px;
-    overflow: hidden;
-    text-align: right;
+  <style>
+  .max-w-custom {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
   }
-  .ribbon span {
-    position: absolute;
-    top: 19px;
-    right: -21px;
-    display: block;
-    width: 100%;
-    background: green;
-    text-align: center;
-    font-size: 10px;
-    font-weight: bold;
-    color: white;
-    transform: rotate(45deg);
-  }
+
 </style>
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
 {
   items && (
-    <div class={twMerge(`grid mx-auto gap-8 md:gap-y-12 ${columns === 4 ? 'lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2' : columns === 3 ? 'lg:grid-cols-3 sm:grid-cols-2' : columns === 2 ? 'sm:grid-cols-2' : ''}`, containerClass)}>
-      {items.map(({ title, imageSrc, topSellingPoints, avgPrice, shopButton, rating, reviewCount, taxCode }) => (
+  <div class={twMerge(`grid gap-8 md:gap-y-12 max-w-custom ${columns === 4 ? 'lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2' : columns === 3 ? 'lg:grid-cols-3 sm:grid-cols-2' : columns === 2 ? 'sm:grid-cols-2' : ''}`, containerClass)}>
+      {items.map(({ title, imageSrc, topSellingPoints, avgPrice, shopButton, rating, reviewCount, }) => (
         <div class={twMerge('card-hover relative flex flex-col max-w-sm p-4 border rounded shadow-lg bg-gray-800 hover:bg-gray-700 hover:shadow-xl transition duration-300', cardClass)}>
-          {/* Tax Code Ribbon */}
-          {taxCode && (
-            <div class={ribbonClass}>
-              <span>Tax Code: {taxCode}</span>
-            </div>
-          )}
           {/* Product Title */}
           {title && (
             <h3 class={twMerge(titleClass, 'mb-2 text-center')}>{title}</h3>
           )}
           {/* Product Image */}
           {imageSrc && (
-            <img src={imageSrc} alt={title} class={imageClass} loading="lazy" />
+          <img src={imageSrc} alt={title} class={twMerge('transition-transform duration-300 ease-in-out hover:scale-105', imageClass)} loading="lazy" />
           )}
-          {/* Top Selling Points */}
-          {topSellingPoints && topSellingPoints.map((point, index, array) => (
-            <>
-              <p class={twMerge(topSellingPointsClass, 'mb-1')}>• {point}</p>
-              {index === array.length - 1 && <hr class="border-t border-gray-600 my-2" />}
-            </>
-          ))}
+         {/* Top Selling Points */}
+{topSellingPoints && topSellingPoints.map((point) => (
+  <p class={twMerge(topSellingPointsClass)}>
+    <i class="fas fa-check text-green-500 mr-2"></i>{point}
+  </p>
+))}
           <div class="flex justify-between items-center mt-2 mb-4">
             {avgPrice && (
               <div>
