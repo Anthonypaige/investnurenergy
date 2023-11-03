@@ -75,7 +75,7 @@ color: red;
 <!-- Responsive Table Wrapper -->
 <div class="flex flex-col overflow-x-auto ml-5 mr-5 sm:ml-20 sm:mr-20">
   <!-- Start of Table -->
-  <table id="comparisonTable" class="min-w-full text-xs sm:text-sm md:text-base whitespace-nowrap break-words">
+  <table id="portablecomparisonTable" class="min-w-full text-xs sm:text-sm md:text-base whitespace-nowrap break-words">
   <!-- Table header -->
   <thead class="uppercase tracking-wider sticky top-0 dark:bg-neutral-700 bg-neutral-50 border-t">
   <!-- Sticky first column with z-index and background color -->
@@ -375,12 +375,12 @@ color: red;
 <script defer>
   document.addEventListener("DOMContentLoaded", function() {
     // Initialize DataTables
-    $('#comparisonTable').DataTable({
+    $('#portablecomparisonTable').DataTable({
       responsive: true
     });
 
     // Prevent any default action that might cause the page to jump when the header is clicked
-    $('#comparisonTable').on('click', 'th', function(e) {
+    $('#portablecomparisonTable').on('click', 'th', function(e) {
       e.preventDefault();
     });
   });
