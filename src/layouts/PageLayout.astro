@@ -2,7 +2,7 @@
 import Layout from '~/layouts/Layout.astro';
 import Header from '~/components/widgets/Header.astro';
 import Footer from '~/components/widgets/Footer.astro';
-
+import { ViewTransitions } from 'astro:transitions';
 import { headerData, footerData } from '~/navigation';
 
 import type { MetaData } from '~/types';
@@ -17,6 +17,7 @@ const { metadata } = Astro.props;
 <Layout metadata={metadata}>
   <slot name="header">
     <Header {...headerData} isSticky />
+    <ViewTransitions />
   </slot>
   <main>
     <slot />
