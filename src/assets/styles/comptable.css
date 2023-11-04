@@ -11,7 +11,9 @@
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   border-radius: 20px; /* Large border radius for pill shape */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  transition: border-color 0.2s, box-shadow 0.2s;
+  transition:
+    border-color 0.2s,
+    box-shadow 0.2s;
 }
 
 .dataTables_wrapper .dataTables_filter input::placeholder {
@@ -33,7 +35,6 @@
 .dataTables_length {
   display: none;
 }
-
 
 /* Style the pagination */
 .dataTables_wrapper .dataTables_paginate .paginate_button {
@@ -63,4 +64,3 @@
   font-size: 0.85em; /* Smaller font size */
   /* Other styles */
 }
-

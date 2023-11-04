@@ -433,23 +433,40 @@ items={[
 </tbody>
 </table>
 </div>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js" defer></script>
-<script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js" defer></script>
 
-<script >
+<script src="https://code.jquery.com/jquery-3.7.0.js" defer></script>
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js" defer></script>
+
+<script defer>
   document.addEventListener("DOMContentLoaded", function() {
-    $('#comparisonTable').DataTable({
+    // Initialize DataTables with scrollY
+    var table = $('#comparisonTable').DataTable({
       scrollX: true,
       responsive: true,
-      scrollY:600
+      scrollY: 600
     });
 
-    // Attach a click event listener to the table headers within the DataTables callback
-    $(document).on('click', '#comparisonTable th', function(e) {
-  e.preventDefault();
+    // Handle click event on table headers
+    $('#comparisonTable th').on('click', function(e) {
+      var colIndex = $(this).index();
+      
+      // Get the current scroll position
+      var oldScrollPos = $(window).scrollTop();
+
+      // Prevent the default action
+      e.preventDefault();
+
+      // Order by the selected column and direction
+      var isAsc = table.order()[0] && table.order()[0][1] === 'asc';
+      table.order([colIndex, isAsc ? 'desc' : 'asc']).draw();
+
+      // Restore the scroll position
+      $(window).scrollTop(oldScrollPos);
     });
   });
 </script>
+
+
 
 
 
