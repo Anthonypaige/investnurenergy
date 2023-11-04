@@ -28,7 +28,7 @@
 
 /* Button Customizations */
 .button-primary {
-  background-color: #0056b3;
+  background-color: #036dde;
   color: white;
   padding: 0.5rem 1rem;
   border-radius: 0.25rem;
@@ -36,7 +36,7 @@
 }
 
 .button-primary:hover {
-  background-color: #004494;
+  background-color: #046add;
 }
 
 /* Accessibility Improvements */
