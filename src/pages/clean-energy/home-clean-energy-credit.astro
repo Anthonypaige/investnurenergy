@@ -1,6 +1,7 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
 import Hero from '~/components/widgets/Hero.astro';
+import HomeCleanEnergyNote from '~/components/Notes/HomeCleanEnergyNote.astro';
 import FeaturedArticles from '~/components/widgets/FeaturedArticles.astro';
 import Stats from '~/components/widgets/Stats.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
@@ -14,24 +15,26 @@ const metadata = {
 <Layout metadata={metadata}>
   <Hero actions={[]} videoSrc="/images/home-clean-energy-video.mp4">
     <Fragment slot="title">
-      <div class="text-left text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight tracking-tighter mb-4 font-heading">
+      <div class="text-left  text-blue-900 text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight tracking-tighter mb-4 font-heading">
         <div> Home Clean Energy Credit</div>
       </div>
     </Fragment>
   </Hero>
 
 
-  <!-- Hero Widget ******************* -->
-  <!-- <Hero actions={[]}>
-    <Fragment slot="title">
-      <div style="font-size: 1em; font-weight: bold; margin-bottom: 8px;">The Home Clean <span style="color:#228B22; font-weight: 700;">Energy</span> Credit</div>
-    </Fragment>
-  
-    <Fragment slot="subtitle">
-      In this era of rising utility costs, power grid strain, and dwindling fossil fuels, it's time we take a closer look at our energy choices
-    </Fragment>
-  </Hero> -->
- 
+<HomeCleanEnergyNote />
+
+<!-- Stats Widget ******************* -->
+<Stats
+title="Home Clean Energy Credit"
+ stats={[
+   { title: 'Tax Code', amount: '25D' },
+   { title: 'Tax Credit', amount: '30%' },
+   { title: 'Annual Limit', amount: 'No Cap'},
+ ]}
+/>
+
+
    <!-- FeaturesLink Widget ************** -->
 <FeaturesLink
 title="Included in the Home Clean Energy Credit"
@@ -95,16 +98,6 @@ items={[
     'devising-your-solar-offset-strategy-a-monopoly-game-approach',
     'which-geothermal-heat-pump-system-fits-your-property',
   ]}  
-/>
-
-<!-- Stats Widget ******************* -->
-<Stats
-title="Home Clean Energy Credit"
- stats={[
-   { title: 'Tax Code', amount: '25D' },
-   { title: 'Tax Credit', amount: '30%' },
-   { title: 'Annual Limit', amount: 'No Cap'},
- ]}
 />
 
 

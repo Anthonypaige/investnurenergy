@@ -2,6 +2,7 @@
 import Layout from '~/layouts/PageLayout.astro';
 import Features2 from '~/components/widgets/Features2.astro';
 import Hero from '~/components/widgets/Hero.astro';
+import PortablePowerNote from '~/components/Notes/PortablePowerNote.astro';
 import '~/assets/styles/comptable.css';
 import Button from '~/components/ui/Button.astro';
 
@@ -30,21 +31,21 @@ color: red;
   </Fragment>
   </Hero>
 
-  <section class="container mx-auto p-9"></section>
 
+ <PortablePowerNote />
   
   <Features2
-  title="Features Included"
+  title="How They got their Seat at the Table"
   subtitle="All portable power stations in this table meet a minimum 3kWh capacity, and offer these features"
   columns={3}
   items={[
     {
-     title: 'Min. 3kWh Capacity',
-      description: 'Meets the 3kWh minimum capacity required for 30C tax credit eligibility.',
-      icon: 'tabler:receipt-tax'
+     title: 'Modular',
+      description: '.',
+      icon: 'tabler:build'
     },
     {
-     title: 'Portable & Modular',
+     title: 'Portable ',
       description: 'Designed for on-the-go and home use, and easily expandable.',
       icon: 'tabler:walk'
     },
