@@ -4,7 +4,7 @@ import Features2 from '~/components/widgets/Features2.astro';
 import Hero from '~/components/widgets/Hero.astro';
 import Button from '~/components/ui/Button.astro';
 import SmartThermostatNote from '~/components/Notes/SmartThermostatNote.astro';
-import '~/assets/styles/comptable.css';
+//import '~/assets/styles/comptable.css';
 
 const metadata = {
   title: 'Top Smart Thermostats',
@@ -22,7 +22,8 @@ const metadata = {
 
  
 </style>
-  
+ 
+
 
 <Layout metadata={metadata}>
 
@@ -40,6 +41,8 @@ const metadata = {
 
     <SmartThermostatNote />  
         
+<!-- DataTables CSS -->
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
 
     
 <Features2
@@ -95,138 +98,41 @@ items={[
   <tr>
   <th scope="col" class="sticky left-0 z-10 px-6 py-4 w-1/4 border-x dark:border-neutral-600 bg-green-700">
     Shop Here
-            <a href="" class="inline">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 320 512"
-                class="w-[0.65rem] h-[0.65rem] inline ml-1 text-neutral-500 dark:text-neutral-200 mb-[1px]"
-                fill="currentColor"
-              >
-                {/* Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. */}
-                <path d="M137.4 41.4c12.5-12.5 32.8-12.5 45.3 0l128 128c9.2 9.2 11.9 22.9 6.9 34.9s-16.6 19.8-29.6 19.8H32c-12.9 0-24.6-7.8-29.6-19.8s-2.2-25.7 6.9-34.9l128-128zm0 429.3l-128-128c-9.2-9.2-11.9-22.9-6.9-34.9s16.6-19.8 29.6-19.8H288c12.9 0 24.6 7.8 29.6 19.8s2.2 25.7-6.9 34.9l-128 128c-12.5 12.5-32.8 12.5-45.3 0z" />
-              </svg>
-            </a>
           </th>
   
   <th scope="col" class="sticky left-0 z-10 px-6 py-4 w-1/4 border-x dark:border-neutral-600 bg-green-700">
   Smart Thermostat
-            <a href="" class="inline">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 320 512"
-                class="w-[0.65rem] h-[0.65rem] inline ml-1 text-neutral-500 dark:text-neutral-200 mb-[1px]"
-                fill="currentColor"
-              >
-                {/* Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. */}
-                <path d="M137.4 41.4c12.5-12.5 32.8-12.5 45.3 0l128 128c9.2 9.2 11.9 22.9 6.9 34.9s-16.6 19.8-29.6 19.8H32c-12.9 0-24.6-7.8-29.6-19.8s-2.2-25.7 6.9-34.9l128-128zm0 429.3l-128-128c-9.2-9.2-11.9-22.9-6.9-34.9s16.6-19.8 29.6-19.8H288c12.9 0 24.6 7.8 29.6 19.8s2.2 25.7-6.9 34.9l-128 128c-12.5 12.5-32.8 12.5-45.3 0z" />
-              </svg>
-            </a>
   </th>
   
   <th scope="col" class="sticky left-0 z-10 px-6 py-4 w-1/4 border-x dark:border-neutral-600 bg-green-700">
   Avg Price
-  <a href="" class="inline">
-  <svg
-  xmlns="http://www.w3.org/2000/svg"
-  viewBox="0 0 320 512"
-  class="w-[0.65rem] h-[0.65rem] inline ml-1 text-neutral-500 dark:text-neutral-200 mb-[1px]"
-  fill="currentColor"
-  >
-  {/* Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. */}
-  <path d="M137.4 41.4c12.5-12.5 32.8-12.5 45.3 0l128 128c9.2 9.2 11.9 22.9 6.9 34.9s-16.6 19.8-29.6 19.8H32c-12.9 0-24.6-7.8-29.6-19.8s-2.2-25.7 6.9-34.9l128-128zm0 429.3l-128-128c-9.2-9.2-11.9-22.9-6.9-34.9s16.6-19.8 29.6-19.8H288c12.9 0 24.6 7.8 29.6 19.8s2.2 25.7-6.9 34.9l-128 128c-12.5 12.5-32.8 12.5-45.3 0z" />
-  </svg>
-  </a>
   </th>
   
   <th scope="col" class="sticky left-0 z-10 px-6 py-4 w-1/4 border-x dark:border-neutral-600 bg-green-700">
   Profile
-  <a href="" class="inline">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 320 512"
-                class="w-[0.65rem] h-[0.65rem] inline ml-1 text-neutral-500 dark:text-neutral-200 mb-[1px]"
-                fill="currentColor"
-              >
-                {/* Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. */}
-                <path d="M137.4 41.4c12.5-12.5 32.8-12.5 45.3 0l128 128c9.2 9.2 11.9 22.9 6.9 34.9s-16.6 19.8-29.6 19.8H32c-12.9 0-24.6-7.8-29.6-19.8s-2.2-25.7 6.9-34.9l128-128zm0 429.3l-128-128c-9.2-9.2-11.9-22.9-6.9-34.9s16.6-19.8 29.6-19.8H288c12.9 0 24.6 7.8 29.6 19.8s2.2 25.7-6.9 34.9l-128 128c-12.5 12.5-32.8 12.5-45.3 0z" />
-              </svg>
-            </a>
   </th>
   
   <th scope="col" class="sticky left-0 z-10 px-6 py-4 w-1/4 border-x dark:border-neutral-600 bg-green-700">
   Touch Color
-  <a href="" class="inline">
-        <svg
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 320 512"
-        class="w-[0.65rem] h-[0.65rem] inline ml-1 text-neutral-500 dark:text-neutral-200 mb-[1px]"
-        fill="currentColor"
-        >
-        {/* Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. */}
-        <path d="M137.4 41.4c12.5-12.5 32.8-12.5 45.3 0l128 128c9.2 9.2 11.9 22.9 6.9 34.9s-16.6 19.8-29.6 19.8H32c-12.9 0-24.6-7.8-29.6-19.8s-2.2-25.7 6.9-34.9l128-128zm0 429.3l-128-128c-9.2-9.2-11.9-22.9-6.9-34.9s16.6-19.8 29.6-19.8H288c12.9 0 24.6 7.8 29.6 19.8s2.2 25.7-6.9 34.9l-128 128c-12.5 12.5-32.8 12.5-45.3 0z" />
-        </svg>
-        </a>    
+  
       </th>
       
   <th scope="col" class="sticky left-0 z-10 px-6 py-4 w-1/4 border-x dark:border-neutral-600 bg-green-700">
   Smart Home 
-  <a href="" class="inline">
-      <svg
-      xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 320 512"
-      class="w-[0.65rem] h-[0.65rem] inline ml-1 text-neutral-500 dark:text-neutral-200 mb-[1px]"
-      fill="currentColor"
-      >
-      {/* Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. */}
-      <path d="M137.4 41.4c12.5-12.5 32.8-12.5 45.3 0l128 128c9.2 9.2 11.9 22.9 6.9 34.9s-16.6 19.8-29.6 19.8H32c-12.9 0-24.6-7.8-29.6-19.8s-2.2-25.7 6.9-34.9l128-128zm0 429.3l-128-128c-9.2-9.2-11.9-22.9-6.9-34.9s16.6-19.8 29.6-19.8H288c12.9 0 24.6 7.8 29.6 19.8s2.2 25.7-6.9 34.9l-128 128c-12.5 12.5-32.8 12.5-45.3 0z" />
-      </svg>
-      </a>
-  </th>
+   </th>
   
   <th scope="col" class="sticky left-0 z-10 px-6 py-4 w-1/4 border-x dark:border-neutral-600 bg-green-700">
   Sensor Comp
-  <a href="" class="inline">
-        <svg
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 320 512"
-        class="w-[0.65rem] h-[0.65rem] inline ml-1 text-neutral-500 dark:text-neutral-200 mb-[1px]"
-        fill="currentColor"
-        >
-        {/* Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. */}
-        <path d="M137.4 41.4c12.5-12.5 32.8-12.5 45.3 0l128 128c9.2 9.2 11.9 22.9 6.9 34.9s-16.6 19.8-29.6 19.8H32c-12.9 0-24.6-7.8-29.6-19.8s-2.2-25.7 6.9-34.9l128-128zm0 429.3l-128-128c-9.2-9.2-11.9-22.9-6.9-34.9s16.6-19.8 29.6-19.8H288c12.9 0 24.6 7.8 29.6 19.8s2.2 25.7-6.9 34.9l-128 128c-12.5 12.5-32.8 12.5-45.3 0z" />
-        </svg>
-        </a>    
+  
   </th>
   
   <th scope="col" class="sticky left-0 z-10 px-6 py-4 w-1/4 border-x dark:border-neutral-600 bg-green-700">
   Extra Sens.
-  <a href="" class="inline">
-      <svg
-      xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 320 512"
-      class="w-[0.65rem] h-[0.65rem] inline ml-1 text-neutral-500 dark:text-neutral-200 mb-[1px]"
-      fill="currentColor"
-      >
-      {/* Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. */}
-      <path d="M137.4 41.4c12.5-12.5 32.8-12.5 45.3 0l128 128c9.2 9.2 11.9 22.9 6.9 34.9s-16.6 19.8-29.6 19.8H32c-12.9 0-24.6-7.8-29.6-19.8s-2.2-25.7 6.9-34.9l128-128zm0 429.3l-128-128c-9.2-9.2-11.9-22.9-6.9-34.9s16.6-19.8 29.6-19.8H288c12.9 0 24.6 7.8 29.6 19.8s2.2 25.7-6.9 34.9l-128 128c-12.5 12.5-32.8 12.5-45.3 0z" />
-      </svg>
-      </a>
     </th>
   
   <th scope="col" class="sticky left-0 z-10 px-6 py-4 w-1/4 border-x dark:border-neutral-600 bg-green-700">
   Adv. Learning
-  <a href="" class="inline">
-        <svg
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 320 512"
-        class="w-[0.65rem] h-[0.65rem] inline ml-1 text-neutral-500 dark:text-neutral-200 mb-[1px]"
-        fill="currentColor"
-        >
-        {/* Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. */}
-        <path d="M137.4 41.4c12.5-12.5 32.8-12.5 45.3 0l128 128c9.2 9.2 11.9 22.9 6.9 34.9s-16.6 19.8-29.6 19.8H32c-12.9 0-24.6-7.8-29.6-19.8s-2.2-25.7 6.9-34.9l128-128zm0 429.3l-128-128c-9.2-9.2-11.9-22.9-6.9-34.9s16.6-19.8 29.6-19.8H288c12.9 0 24.6 7.8 29.6 19.8s2.2 25.7-6.9 34.9l-128 128c-12.5 12.5-32.8 12.5-45.3 0z" />
-        </svg>
-        </a>    
-      </th>
+   </th>
     </tr>
     </thead>
   
@@ -431,10 +337,10 @@ items={[
 
 </tbody>
 </table>
-</div>
+
 
 <script src="https://code.jquery.com/jquery-3.7.0.js" defer></script>
-<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js" defer></script>
+<script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js" defer></script>
 
 <script defer>
   document.addEventListener("DOMContentLoaded", function() {
@@ -445,15 +351,20 @@ items={[
       scrollY: 600
     });
 
-    // Handle click event on table headers
+    // Recalculate column widths
+    setTimeout(function() {
+      table.columns.adjust().draw();
+    }, 0);
+
     $('#comparisonTable th').on('click', function(e) {
+      // Prevent default action and stop propagation
+      e.preventDefault();
+      e.stopPropagation();
+      
       var colIndex = $(this).index();
       
       // Get the current scroll position
       var oldScrollPos = $(window).scrollTop();
-
-      // Prevent the default action
-      e.preventDefault();
 
       // Order by the selected column and direction
       var isAsc = table.order()[0] && table.order()[0][1] === 'asc';
@@ -464,7 +375,6 @@ items={[
     });
   });
 </script>
-
 
 
 

@@ -36,31 +36,3 @@
   display: none;
 }
 
-/* Style the pagination */
-.dataTables_wrapper .dataTables_paginate .paginate_button {
-  padding: 0.5em 1em; /* Add some padding */
-  margin: 0 2px; /* Space out the buttons */
-  border: 1px solid #ddd; /* Add a border */
-  background-color: #f9f9f9; /* Background color */
-  color: #333; /* Text color */
-  text-decoration: none; /* No underlines */
-  border-radius: 4px; /* Match the border radius with your input styles */
-  cursor: pointer; /* Change cursor to pointer */
-}
-
-.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
-  background-color: #e9e9e9; /* Slightly darker on hover */
-}
-
-.dataTables_wrapper .dataTables_paginate .paginate_button.current,
-.dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
-  color: #fff; /* White text for active button */
-  background-color: #666; /* Darker background for active button */
-  border-color: #666; /* Matching border color */
-}
-/* Adjust the size of the pagination buttons */
-.dataTables_wrapper .dataTables_paginate .paginate_button {
-  padding: 0.2em 0.5em; /* Reduced padding */
-  font-size: 0.85em; /* Smaller font size */
-  /* Other styles */
-}
