@@ -12,8 +12,17 @@ const metadata = {
 ---
 
 <Layout metadata={metadata}>
+  <Hero actions={[]} videoSrc="/images/home-clean-energy-video.mp4">
+    <Fragment slot="title">
+      <div class="text-left text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight tracking-tighter mb-4 font-heading">
+        <div> Home Clean Energy Credit</div>
+      </div>
+    </Fragment>
+  </Hero>
+
+
   <!-- Hero Widget ******************* -->
-  <Hero actions={[]}>
+  <!-- <Hero actions={[]}>
     <Fragment slot="title">
       <div style="font-size: 1em; font-weight: bold; margin-bottom: 8px;">The Home Clean <span style="color:#228B22; font-weight: 700;">Energy</span> Credit</div>
     </Fragment>
@@ -21,7 +30,7 @@ const metadata = {
     <Fragment slot="subtitle">
       In this era of rising utility costs, power grid strain, and dwindling fossil fuels, it's time we take a closer look at our energy choices
     </Fragment>
-  </Hero>
+  </Hero> -->
  
    <!-- FeaturesLink Widget ************** -->
 <FeaturesLink
