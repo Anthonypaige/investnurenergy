@@ -5,7 +5,7 @@ import FeaturedArticles from '~/components/widgets/FeaturedArticles.astro';
 import Stats from '~/components/widgets/Stats.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
 import Hero from '~/components/widgets/Hero.astro';
-import AirSourceHeatPumpNote from '~/components/widgets/AirSourceHeatPumpNote.astro';
+import AirSourceHeatPumpNote from '~/components/Notes/AirSourceHeatPumpNote.astro';
 
 const metadata = {
   title: 'Air-Source-Heat Pumps',
@@ -16,17 +16,13 @@ const metadata = {
   <Hero actions={[]} videoSrc="/images/heat-pump-video.mp4">
     <Fragment slot="title">
       <div class="flex justify-start">
-        <div class="text-blue-700 text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight tracking-tighter mb-4 font-heading pl-36">
-          <div> Air Source</div>
-          <div> Heat Pumps </div>
+        <div class="text-blue-700 text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight tracking-tighter mb-4 font-heading">
+          <div> Air Source Heat Pumps </div>
         </div>
       </div>
     </Fragment>
   </Hero>
 
-
-
-<section class="container mx-auto p-9"></section>
 
   <AirSourceHeatPumpNote />
 

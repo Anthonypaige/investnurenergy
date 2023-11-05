@@ -2,6 +2,7 @@
 import Layout from '~/layouts/PageLayout.astro';
 import Hero from '~/components/widgets/Hero.astro';
 import Features2 from '~/components/widgets/Features2.astro';
+import EnergyEfficientHomeNote from '~/components/Notes/EnergyEfficientHomeNote.astro';
 import Stats from '~/components/widgets/Stats.astro';
 import FeaturedArticles from '~/components/widgets/FeaturedArticles.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
@@ -15,13 +16,17 @@ const metadata = {
   <Layout metadata={metadata}>
     <Hero actions={[]} videoSrc="/images/energy-efficient-home-upgrades-video.mp4">
       <Fragment slot="title">
-        <div class="text-center text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight tracking-tighter mb-4 font-heading" style="margin-top: 100px;">
+        <div class="text-center text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight tracking-tighter mb-4 font-heading" >
             <div> Energy Efficient Home Upgrades </div>
           </div>
       </Fragment>
     </Hero> 
     
-    <section class="container mx-auto p-9"></section>
+  
+
+
+  <EnergyEfficientHomeNote />
+
 
  <!-- Stats Widget ************** -->
 
@@ -96,11 +101,6 @@ items={[
   },
 ]}
 >
-<Fragment slot="bg">
-  <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
-</Fragment>
-</Features2>
-</div>
 
 
 
