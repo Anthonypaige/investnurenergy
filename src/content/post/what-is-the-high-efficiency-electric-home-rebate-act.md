@@ -1,5 +1,5 @@
 ---
-publishDate: 2023-09-27T00:00:00Z
+publishDate: 2023-11-01T00:00:00Z
 title: What is the High-Efficiency Electric Home Rebate Act?
 excerpt: The High-Efficiency Electric Home Rebate Act (HEEHRA) is a groundbreaking piece of legislation that's part of the larger Inflation Reduction Act. It's designed to make energy-efficient home upgrades more accessible, especially for LMI households.
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/EER-1-cover-art.png?raw=true
@@ -24,7 +24,7 @@ The act covers a range of products and services focused on Home Climate and Hous
 
 - **Heat Pump**: Heating and cooling are responsible for almost half of residential energy costs. Upgrading to a heat pump HVAC system, which produces three times the amount of energy it uses, can significantly reduce heating and cooling costs, making homes more comfortable year-round.
 
-- **Weatherization**: Insulation and Sealant improvements aid in the efficiency of the HVAC unit. Proper insulation helps keep homes warm in winter and cool in summer, cutting energy costs. Learn more about weatherization in our [comprehensive guide](investinyourenergy.com/a-comprehensive-guide-to-weatherization-and-energy-efficiency).
+- **Weatherization**: Insulation and Sealant improvements aid in the efficiency of the HVAC unit. Proper insulation helps keep homes warm in winter and cool in summer, cutting energy costs. Learn more about weatherization in our [comprehensive guide](a-comprehensive-guide-to-weatherization-and-energy-efficiency).
 
 - **Ventilation**: Proper ventilation ensures healthy indoor air quality and aids in the efficiency of the HVAC unit, enhancing overall well-being.
 
@@ -42,9 +42,9 @@ These provisions collectively offer up to $14,000 for low-income households and 
 
 Wondering how these provisions apply to you? [Rewiring America's IRA Calculator](https://investinyourenergy.com) is a valuable tool to check your eligibility for HEEHRA and the rest of the Inflation Reduction Act. By entering specific details about your home and energy usage, you can get an estimate of the potential rebates and annual savings you could enjoy.
 
-If not covered by HEERA, you’ll more than likely be eligible for the broader Energy Efficient Home Improvement Credit 25C. Visit [Energy Efficient Home Upgrades.com](investinyourenergy.com/energy-efficient-home-upgrades) to learn more.
+If not covered by HEERA, you’ll more than likely be eligible for the broader Energy Efficient Home Improvement Credit 25C. Visit [Energy Efficient Home Upgrades](energy-efficient-home-upgrades) to learn more.
 
-Also, many of these items can also be eligible for state rebates, allowing you to stack them. Check the [Database of State Incentives for Renewables & Efficiency](www.dsireusa.org) for your eligibility for state-level rebates.
+Also, many of these items can also be eligible for state rebates, allowing you to stack them. Check the [Database](www.dsireusa.org) of State Incentives for Renewables & Efficiency] for your eligibility for state-level rebates.
 
 #### **Conclusion**
 

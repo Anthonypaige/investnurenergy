@@ -1,5 +1,5 @@
 ---
-publishDate: 2023-09-27T00:00:00Z
+publishDate: 2023-10-15T00:00:00Z
 title: A Simplified Guide to Solar Energy ROI
 excerpt: This simplified guide helps you understand the factors that influence ROI, aiding in making informed decisions.
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/SLR-4-cover-art.png?raw=true
@@ -22,7 +22,7 @@ To provide a realistic example, let's consider national averages alongside a hyp
 
 In our hypothetical case, we look at a home using 12,000 kWh annually, offsetting half of its energy needs with a 6KW solar system. This system consists of 15 panels, each at 400 watts, costing a total of $18,000. The homeowners pay $0.15 per kWh to their utility provider.
 
-These examples serve as a baseline, but individual circumstances like location and home size can vary. For a tailored estimate, we recommend using our [Solar ROI calculator](link to Solar ROI calculator)
+These examples serve as a baseline, but individual circumstances like location and home size will vary. 
 
 ### **Start with Understanding the TRUE Net System Cost**
 
@@ -68,9 +68,6 @@ Now, let's calculate the Solar ROI:
 So, in this example, considering the 30% federal tax credit and a 5% interest rate over 25 years, the Solar ROI would be 58.64%. This means that over 25 years, you would get a return of 58.64% on your initial investment of $22,097.50 (after tax credit and including the loan repayment).
 
 ### **Conclusion**
-
-Armed with the knowledge of how to calculate Solar ROI, we've simplified the process for you. On our website, we offer a user-friendly Solar ROI calculator. This tool allows you to input specific details such as the cost of your solar system, your average electricity bill, and any incentives or rebates you've received. The calculator then provides a personalized estimate of your Solar ROI, offering a clear snapshot of your potential savings.
-
-While our calculator is straightforward and provides a good starting point, it's important to note that it doesn't include all factors. State incentives, net-metering, and battery storage are not factored in, but they can significantly impact your Solar ROI. Also, keep in mind that some solar companies may include hidden dealer fees that aren't accounted for in this basic calculation.
+We've aimed to streamline the decision-making process for you, but remember, this is just the starting point. There are additional elements like state incentives, net-metering, and battery storage options that could further influence your Solar Return on Investment (ROI). Plus, be aware of potential hidden costs from solar providers, such as dealer fees, which may not be included in a basic ROI calculation.
 
 Now that you understand how to calculate your Solar ROI, you might be wondering how you can maximize it. In our next article, we'll cover [what factors effect your Solar ROI](investinyourenergy.com/what-factors-will-effect-my-solar-roi), we delve into the controllable factors that can help you get the most out of your solar investment.

@@ -28,25 +28,17 @@ Before we delve deeper into the specifics of each model, it's important to note 
 
 ### **Bluetti AC300 + B300: A Versatile Power Solution**
 
-<iframe style="width:300px;height:400px;margin:auto;display:block;" sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=investinyoure-20&language=en_US&marketplace=amazon&region=US&placement=B0CCV9MB81&asins=B0CCV9MB81&linkId=3ca75eb0aed46ab0cd99dc253db4f17e&show_border=true&link_opens_in_new_window=true"></iframe>
-
 Priced at only $2600, the Bluetti AC300 + B300 system offers a lot. It is a versatile power station with a capacity of 3.07kWh. It comes with a 3000-Watt Pure Sine Wave inverter, allowing for an impressive 6 KW of Surge Power and 3KW of Continuous AC Output Power. The AC charging input is 3000W (with the addition of a 30A charging cable), allowing for a fairly good charging time of 1.5 hours. They have a DC/solar input of 2400W, which if used at that max would charge the system in a quick 2 hours.
 
 ### **Bluetti AC500+ B300S: Powering High-Demand Devices**
-
-<iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=investinyoure-20&language=en_US&marketplace=amazon&region=US&placement=B0BPRVQGVF&asins=B0BPRVQGVF&linkId=8bf4418398506ae4f24073e008c90b06&show_border=true&link_opens_in_new_window=true"></iframe>
 
 Priced at $4800, the AC500+ B300S system offers considerable power. While sharing the same battery system capacity as the AC300 + B300S system, it comes with a rather large 5000-Watt Pure Sine Wave inverter. This allows for a robust 10KW Surge power and a very manageable 5KW of Continuous AC Output Power. The AC charging input is 4500W, allowing for a ridiculous 80-minute charge time. They have a higher DC/solar input of 3500W, which if used at that max would charge the system in 1.5 hours.
 
 ### **Bluetti EP500: Your Portable Power Companion**
 
-<iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=investinyoure-20&language=en_US&marketplace=amazon&region=US&placement=B0BPRVQGVF&asins=B0BPRVQGVF&linkId=8bf4418398506ae4f24073e008c90b06&show_border=true&link_opens_in_new_window=true"></iframe>
-
 Currently on sale for $4000, the EP500 offers a higher battery system capacity of 5.1kWh. However, its smaller 2000-Watt Pure Sine Wave inverter only allows for a Continuous AC Output Power of 2KW and a Surge Power of 4.8kw. This makes it a great fit for those who need a long-lasting power supply for less demanding devices.The AC charging input of 600 W makes for a rather long charging time of 9 hours. Its compact design and the fact it comes on wheels enhances its portability, making it a versatile choice for both indoor and outdoor use.
 
 ### **Bluetti EP500 Pro: The Powerhouse**
-
-<iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=investinyoure-20&language=en_US&marketplace=amazon&region=US&placement=B0BCJ7HTS2&asins=B0BCJ7HTS2&linkId=dcf05081b2097816539b0d32df21a6b5&show_border=true&link_opens_in_new_window=true"></iframe>
 
 Priced at $5000, the Bluetti EP500 Pro, like the EP500, offers a higher battery system capacity of 5.1kWh. It comes with a 3000-Watt Pure Sine Wave inverter, allowing for a Continuous AC Output Power of 3KW and a Surge Power of 6KW. The AC charging input is 3000W, allowing for a 1.5-hour charge time. They have a DC/solar input of 2400W, which if used at that max would charge the system in 2 hours.
 

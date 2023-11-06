@@ -1,5 +1,5 @@
 ---
-publishDate: 2023-09-27T00:00:00Z
+publishDate: 2023-10-15T00:00:00Z
 title: Air Source Heat Pumps are Changing The Game
 excerpt: Discover the transformative power of air source heat pumps in revolutionizing home comfort. Learn how these systems work and why they are becoming a popular choice for energy-efficient heating and cooling.
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/HPQ-2-cover-art.jpg?raw=true
@@ -22,13 +22,13 @@ When it comes to making your home more energy-efficient, financial incentives ca
 
 ### Federal Incentives
 
-- **Electrification Rebates Act (HEEHRA)**: This transformative legislation offers a point-of-sale rebate ranging from 50% to 100% for low- and moderate-income households. It aims to make energy-efficient solutions like ASHPs more accessible. [Read more about HEEHRA](insert article link).
+- **Electrification Rebates Act (HEEHRA)**: This transformative legislation offers a point-of-sale rebate ranging from 50% to 100% for low- and moderate-income households. It aims to make energy-efficient solutions like ASHPs more accessible.[Read more about HEEHRA](what-is-the-high-efficiency-electric-home-rebate-act).
 
-- **Energy Efficient Home Improvement Credit (25C)**: This tax credit covers 30% of the installation cost of an ASHP, up to $2,000. It's available to all taxpayers and offers flexibility for those with multi-story properties. [Learn more about the 25C tax credit](insert article link).
+- **Energy Efficient Home Improvement Credit**: This tax credit covers 30% of the installation cost of an ASHP, up to $2,000. It's available to all taxpayers and offers flexibility for those with multi-story properties. Learn more about the [25C tax credit](what-is-the-energy-efficient-home-improvement-credit-).
 
 ### State-Level Rebates
 
-- **State-Specific Programs**: Many states offer additional rebates and incentives for installing ASHPs. These can range from direct rebates to property tax reductions. It's advisable to check the[Database of State Incentives for Renewables & Efficiency](https://www.dsireusa.org/) for the most current information.
+- **State-Specific Programs**: Many states offer additional rebates and incentives for installing ASHPs. These can range from direct rebates to property tax reductions. It's advisable to check the[Database](https://www.dsireusa.org/) of State Incentives for Renewables & Efficiency] for the most current information.
 
 By taking advantage of these federal and state-level incentives, you can significantly reduce the upfront costs of installing an ASHP, making it an even more attractive option for energy-efficient home heating and cooling.
 
@@ -64,7 +64,7 @@ Ductless Mini-Split Systems have unique features that set them apart from tradit
 
 - **Design Flexibility**: With various styles and mounting options, mini-splits can seamlessly blend into your home's decor.
 
-For more on Ductless Mini-Split Systems,check out our [detailed guide](investinyourenergy.com/whats-a-ductless-mini-split-heat-pump).
+For more on Ductless Mini-Split Systems,check out our [detailed guide](whats-a-ductless-mini-split-heat-pump).
 
 ### **Finding the Right Size: A Crucial Step for Efficiency**
 
