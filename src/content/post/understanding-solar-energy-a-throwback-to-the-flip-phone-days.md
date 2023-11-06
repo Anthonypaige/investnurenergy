@@ -1,5 +1,5 @@
 ---
-publishDate: 2023-09-27T00:00:00Z
+publishDate: 2023-10-30T00:00:00Z
 title: Understanding Solar Energy A Throwback to The Flip Phone Days
 excerpt: Understanding solar energy might seem as daunting as mastering texting on a flip phone, but with patience and perseverance, you can unlock its full potential.
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/FYI-2-cover-art.png?raw=true
@@ -20,10 +20,10 @@ TOU rates fluctuate depending on the time of day, with electricity often being m
 
 More importantly, here's where solar storage comes into play. By storing excess solar energy produced during the day, you can use it during peak demand times, avoiding higher electricity costs. It's like having a reserve of minutes to use when regular call rates are high.
 
-If you want to check your enrollment in TOU rates and understand the difference in those rates, you can access your energy data through your utility provider's dedicated app or website. Compare the amount of energy used (measured in kWh) with the corresponding price differences during various times of the day, or you can visit the Department of Energy's [guide to Time Variable pricing](<https://www.energy.gov/femp/demand-response-and-time-variable-pricing-programs#:~:text=Time%2Dvariable%20pricing%20(TVP),for%20any%20given%20customer%20class>) to see what programs your utility provider offers.
+If you want to check your enrollment in TOU rates and understand the difference in those rates, you can access your energy data through your utility provider's dedicated app or website. Compare the amount of energy used (measured in kWh) with the corresponding price differences during various times of the day, or you can visit the Department of Energy's guide to [Time Variable pricing](<https://www.energy.gov/femp/demand-response-and-time-variable-pricing-programs#:~:text=Time%2Dvariable%20pricing%20(TVP),for%20any%20given%20customer%20class>) to see what programs your utility provider offers.
 
 By mastering TOU rates and strategically using solar storage, you can optimize your energy usage and save money on your energy bills. To learn
-more on [mastering TOU rates](investinyourenergy.com/mastering-time-of-use-rate-strategies-for-smart-energy).
+more on [mastering TOU rates](mastering-time-of-use-rate-strategies-for-smart-energy).
 
 ### **Net Metering: The Rollover Plan**
 
@@ -45,7 +45,7 @@ Battery storage is particularly useful during power outages or during peak usage
 
 Like the safety net of a prepaid card, battery storage offers a sense of energy security and control. It's a way to make the most of your solar energy production, ensuring that every bit of energy is utilized efficiently.
 
-For more on battery storage and how it can enhance your solar energy system, visit [Home Energy Storage.](investinyourenergy.com/home-energy-storage)
+For more on battery storage and how it can enhance your solar energy system, visit [Home Energy Storage.](clean-energy/home-energy-storage)
 
 ### **Evolution of Solar Technology: The Leap from Flip Phones to Solar Homes**
 
@@ -57,4 +57,4 @@ Just as mobile phones evolved from bulky flip phones to sleek smartphones, solar
 
 Understanding solar energy might seem as daunting as mastering texting on a flip phone, but with patience and perseverance, you can unlock its full potential. The innovations in solar technology, such as intelligent micro-inverters and solar storage batteries, enhance our ability to harness renewable energy and underscore the importance of concepts like battery storage, net metering, and Time-of-use (TOU) rates.
 
-Now that you've got the basics down, You can either [Learn more about net metering here](investinyourenergy.com/net-metering-harvesting-the-fruits-of-your-solar-investment). Or maybe you're ready to dive into [devising a solar offset strategy?](investinyourenergy.com/devising-your-solar-offset-strategy-a-monopoly-game-approach).
+Now that you've got the basics down, You can either Learn more about [net metering here](net-metering-harvesting-the-fruits-of-your-solar-investment). Or maybe you're ready to dive into [devising a solar offset strategy?](devising-your-solar-offset-strategy-a-monopoly-game-approach).

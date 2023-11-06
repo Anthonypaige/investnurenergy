@@ -1,5 +1,5 @@
 ---
-publishDate: 2023-09-27T00:00:00Z
+publishDate: 2023-10-18T00:00:00Z
 title: IoT is fueling Smart Energy Devices
 excerpt: The term "smart" refers to their ability to communicate with each other through the Internet of Things (IoT), enhancing energy management and control.
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/SED-1-cover-art.jpg?raw=true
@@ -20,7 +20,7 @@ Smart thermostats are thermostats that connect to Wi-Fi, enabling remote control
 
 Some smart thermostats go beyond basic remote control by communicating with other smart home devices. This interconnectivity allows them to work together to optimize energy consumption, adjusting temperatures based on other factors like outdoor weather or occupancy.
 
-Additionally, certain smart thermostats have learning capabilities, meaning they can adapt to your routines and preferences over time. This "intelligence" helps in automating temperature adjustments, further enhancing energy savings. To learn more check out our comprehensive guide on [smart thermostats](investinyourenergy.com/smart-thermostat-shopping-guide-what-you-need-to-know)
+Additionally, certain smart thermostats have learning capabilities, meaning they can adapt to your routines and preferences over time. This "intelligence" helps in automating temperature adjustments, further enhancing energy savings. To learn more check out our comprehensive guide on [smart thermostats](smart-thermostat-shopping-guide-what-you-need-to-know)
 
 ### **Home Energy Monitoring Systems**
 
@@ -30,9 +30,9 @@ Additionally, certain smart thermostats have learning capabilities, meaning they
 
 - **Circuit Level:** Circuit level monitoring takes it a step further. By allowing monitoring at this level, you can identify inefficiencies in specific areas of your home, leading to targeted improvements. This comes in handy since most of your major appliance upgrades would have their own dedicated circuit.
 
-- **Appliance Level:** Appliance level monitoring allows you to analyze the energy usage of individual appliances, empowering you to make informed upgrade decisions. This can be achieved through Machine Learning, which is [the Sense way](investinyourenergy.com/senses-home-energy-monitoring-system-driven-by-machine-learning) of appliance level monitoring, or the addition of smart plugs, which is [the Emporia way](investinyourenergy.com/emporias-home-energy-monitoring-systems) of appliance level monitoring
+- **Appliance Level:** Appliance level monitoring allows you to analyze the energy usage of individual appliances, empowering you to make informed upgrade decisions. This can be achieved through Machine Learning, which is [the Sense way](senses-home-energy-monitoring-system-driven-by-machine-learning) of appliance level monitoring, or the addition of smart plugs, which is [the Emporia way](emporias-home-energy-monitoring-systems) of appliance level monitoring
 
-Want to learn more how Home Energy Monitoring Systems can help you make smarter energy choices? Check out our [article on HEMS here](investinyourenergy.com/home-energy-monitoring-your-guide-to-energy-efficiency).
+Want to learn more how Home Energy Monitoring Systems can help you make smarter energy choices? Check out our [article here](home-energy-monitoring-your-guide-to-energy-efficiency).
 
 ### **Smart Plugs**
 
@@ -40,7 +40,7 @@ Smart plugs connect to your Wi-Fi, allowing control and monitoring of electrical
 
 ### **Smart Circuit Breakers**
 
-Smart circuit breakers are essential components that transform traditional electrical panels into intelligent energy management hubs. By controlling individual circuits, they enable homeowners to monitor and automate energy usage in real time. This upgrade to a smart electrical panel facilitates load shifting, a critical strategy in today's energy landscape. With the grid under increasing strain and the opportunity to leverage Time-of-Use (TOU) rates, smart circuit breakers make energy management both convenient and profitable.To delve deeper into this innovative technology, check out our [article on Smart Electrical Panels here](insert link to the article).
+Smart circuit breakers are essential components that transform traditional electrical panels into intelligent energy management hubs. By controlling individual circuits, they enable homeowners to monitor and automate energy usage in real time. This upgrade to a smart electrical panel facilitates load shifting, a critical strategy in today's energy landscape. With the grid under increasing strain and the opportunity to leverage Time-of-Use (TOU) rates, smart circuit breakers make energy management both convenient and profitable.
 
 #### **Smart Lighting**
 

@@ -1,5 +1,5 @@
 ---
-publishDate: 2023-09-27T00:00:00Z
+publishDate: 2023-10-20T00:00:00Z
 title: What's a Ductless Mini Split Heat Pump?
 excerpt: Uncover the potential of ductless mini-split heat pumps as a modern solution for temperature control in your home. This guide highlights the operational efficiency and the ease of installation that these systems bring to the table.
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/HPQ-3-cover-art.jpg?raw=true
@@ -44,7 +44,7 @@ Certain models of Ductless Mini Split Heat Pumps are covered under the Inflation
 
 **High-Efficiency Electric Home Rebate Act (HEEHRA)**:Designed for low-income and low to mid-income households, this program can cover between 50%-100% of the upfront costs, depending on your eligibility. Check your eligibility via [**Inflation Reduction Act Eligibility Calculator**](link IRA Caclulator).
 
-**State-Level Rebates:** Many state governments and local utilities offer rebates that can be stacked with the federal incentive, providing even more savings on the upfront cost of the unit. To check for eligibility of state-level incentives, you can visit the [Database of State Incentives for Renewables & Efficiency](DSIRE.org).
+**State-Level Rebates:** Many state governments and local utilities offer rebates that can be stacked with the federal incentive, providing even more savings on the upfront cost of the unit. To check for eligibility of state-level incentives, you can visit the [Database](www.dsireusa.org)of State Incentives for Renewables & Efficiency.
 
 ### **DIY Option Mr. Cool**
 

@@ -1,5 +1,5 @@
 ---
-publishDate: 2023-09-27T00:00:00Z
+publishDate: 2023-10-19T00:00:00Z
 title: Tankless Water Heaters are compact efficiency
 excerpt: Bid farewell to the constant energy drain of maintaining a hot water tank. Tankless water heaters deliver hot water precisely when you need it.
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/WTR-3-cover-art.png?raw=true
@@ -10,7 +10,7 @@ tags:
   - On Demand energy source
 ---
 
-The Inflation Reduction Act has incorporated tankless water heaters into its provisions under the Energy Efficient Home Improvement Credit (25C), covering 30% up to $600 for ENERGY STAR models with a UEF greater than 0.95. [Verify with Energy Star](EnergyStar.gov) This decision was made to recognize their exceptional ability to save energy. Additionally, many state governments and local utilities offer rebates and incentives, which you can explore through the [Database of State Incentives for Renewables & Efficiency](https://www.dsireusa.org/). This inclusion offers homeowners both immediate comfort and long-term financial advantages. In this comprehensive guide, we'll explore everything you need to know about tankless water heaters, with a special focus on top recommended brands like Rinnai and Rheem.
+The Inflation Reduction Act has incorporated tankless water heaters into its provisions under the Energy Efficient Home Improvement Credit (25C), covering 30% up to $600 for ENERGY STAR models with a UEF greater than 0.95. Verify with [Energy Star](EnergyStar.gov) This decision was made to recognize their exceptional ability to save energy. Additionally, many state governments and local utilities offer rebates and incentives, which you can explore through the [Database](https://www.dsireusa.org/) of State Incentives for Renewables & Efficiency. This inclusion offers homeowners both immediate comfort and long-term financial advantages. In this comprehensive guide, we'll explore everything you need to know about tankless water heaters, with a special focus on top recommended brands like Rinnai and Rheem.
 
 ### **How Tankless Water Heaters Operate**
 

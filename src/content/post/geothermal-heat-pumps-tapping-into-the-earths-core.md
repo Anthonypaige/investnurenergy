@@ -1,5 +1,5 @@
 ---
-publishDate: 2023-09-27T00:00:00Z
+publishDate: 2023-10-15T00:00:00Z
 title: Geothermal Heat Pumps Tapping into the Earth's Core
 excerpt: Uncover the potential of geothermal heat pumps, a technology that leverages the Earth's core temperature to heat and cool your home efficiently.
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/GEO-1-cover-art.png?raw=true

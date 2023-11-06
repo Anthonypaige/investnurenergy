@@ -1,5 +1,5 @@
 ---
-publishDate: 2023-09-27T00:00:00Z
+publishDate: 2023-10-18T00:00:00Z
 title: State Level Solar Incentives Overview
 excerpt: Discover the array of state-level solar incentives that can make renewable energy more affordable for homeowners. This guide outlines the various programs and strategies to leverage them for a cost-effective transition to solar energy.
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/SLR-6-cover-art.png?raw=true
@@ -22,7 +22,7 @@ State credit and rebate programs for solar installation are essential incentives
 
 ### **What Is Net-Metering?**
 
-Net-metering is a crucial policy that allows homeowners to sell excess electricity back to the grid when their solar panels produce more energy than they use. The utility company then credits the homeowners for this excess electricity, offsetting the cost of electricity drawn from the grid when solar panels are not producing enough energy. Some states offer 1-1 net-metering, where homeowners receive full retail credit for the excess energy they produce. This approach is highly commendable and is implemented in states like California, New York, and New Jersey. Unfortunately, not all states offer net-metering, and some have unfavorable policies that limit the financial benefits of solar energy. The political implications of these policies and the importance of self-reliance in energy production cannot be overstated. For detailed information on net-metering policies across various states, you can refer to the [Database of State Incentives for Renewables & Efficiency (DSIRE)](https://www.dsireusa.org/).
+Net-metering is a crucial policy that allows homeowners to sell excess electricity back to the grid when their solar panels produce more energy than they use. The utility company then credits the homeowners for this excess electricity, offsetting the cost of electricity drawn from the grid when solar panels are not producing enough energy. Some states offer 1-1 net-metering, where homeowners receive full retail credit for the excess energy they produce. This approach is highly commendable and is implemented in states like California, New York, and New Jersey. Unfortunately, not all states offer net-metering, and some have unfavorable policies that limit the financial benefits of solar energy. The political implications of these policies and the importance of self-reliance in energy production cannot be overstated. For detailed information on net-metering policies across various states, you can refer to the [Database](https://www.dsireusa.org/) of State Incentives for Renewables & Efficiency (DSIRE).
 
 ### **What Are Feed-in Tariffs?**
 
@@ -30,7 +30,7 @@ Feed-in Tariffs (FiTs) are another policy that affects solar energy production, 
 
 ### **What Are Solar Renewable Energy Certificates (SRECs)?**
 
-Solar Renewable Energy Certificates (SRECs) are a valuable aspect of solar energy investment. For every 1,000 kilowatt-hours (kWh) of electricity your solar panels produce, you earn one SREC. Many states require utility companies to generate a portion of their electricity from renewable sources, and your SRECs can help them meet these targets. You can sell your SRECs on open markets, much like stocks or bonds, and the price varies based on supply and demand. For example, if your system generates 10 SRECs in a year, and you sell each for $200, that's an extra $2,000 in your pocket. Websites like the [Database of State Incentives for Renewables & Efficiency (DSIRE)](https://www.dsireusa.org/) provide information on SRECs in your state. By understanding and leveraging SRECs, you can enhance your solar ROI, turning your solar system into a revenue-generating asset. If you're lucky enough to live in a state that values SRECs, don't miss out on this opportunity to further capitalize on your solar investment.
+Solar Renewable Energy Certificates (SRECs) are a valuable aspect of solar energy investment. For every 1,000 kilowatt-hours (kWh) of electricity your solar panels produce, you earn one SREC. Many states require utility companies to generate a portion of their electricity from renewable sources, and your SRECs can help them meet these targets. You can sell your SRECs on open markets, much like stocks or bonds, and the price varies based on supply and demand. For example, if your system generates 10 SRECs in a year, and you sell each for $200, that's an extra $2,000 in your pocket. Websites like the [Database](https://www.dsireusa.org/) of State Incentives for Renewables & Efficiency provide information on SRECs in your state. By understanding and leveraging SRECs, you can enhance your solar ROI, turning your solar system into a revenue-generating asset. If you're lucky enough to live in a state that values SRECs, don't miss out on this opportunity to further capitalize on your solar investment.
 
 #### **Conclusion**
 

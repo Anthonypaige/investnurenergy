@@ -1,5 +1,5 @@
 ---
-publishDate: 2023-09-27T00:00:00Z
+publishDate: 2023-10-18T00:00:00Z
 title: Water Heaters Federal Incentives Overview
 excerpt: Water heating is a fundamental aspect of our daily routines, encompassing activities from refreshing morning showers to essential tasks like dishwashing.
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/WTR-1-cover-art.png?raw=true
@@ -18,7 +18,7 @@ Heat Pump Water Heaters (HPWH) are a key component of the Inflation Reduction Ac
 
 #### **Why it's included in the Inflation Reduction Act**
 
-HPWHs, unlike traditional water heaters, extract heat from the surrounding air to heat water, a process that renders them 3-5 times more efficient. Learn more about their advantages in our article on [Heat Pump Water Heaters](investinyourenergy.com/heat-pump-water-heaters-are-the-model-of-efficiency).
+HPWHs, unlike traditional water heaters, extract heat from the surrounding air to heat water, a process that renders them 3-5 times more efficient. Learn more about their advantages in our article on [Heat Pump Water Heaters](heat-pump-water-heaters-are-the-model-of-efficiency).
 
 #### **Federal Incentives**
 
@@ -29,7 +29,7 @@ HPWHs, unlike traditional water heaters, extract heat from the surrounding air t
 
 #### **Why it's included in the IRA**
 
-Tankless or on-demand water heaters have surged in popularity due to their energy-saving potential. These units heat water only when needed, eliminating the energy wastage associated with maintaining a hot water tank. Explore more in our article on [Tankless Water Heaters](investinyourenergy.com/tankless-water-heaters-are-compact-efficiency).
+Tankless or on-demand water heaters have surged in popularity due to their energy-saving potential. These units heat water only when needed, eliminating the energy wastage associated with maintaining a hot water tank. Explore more in our article on [Tankless Water Heaters](tankless-water-heaters-are-compact-efficiency).
 
 #### **Federal Incentive**
 
@@ -39,7 +39,7 @@ The **Energy Efficient Home Improvement Credit 25C** grants a 30% tax credit on 
 
 #### **Why it's included in the IRA**
 
-Solar water heaters utilize the sun's thermal energy, offering a renewable and efficient solution for water heating. These systems significantly reduce reliance on fossil fuels, fostering a sustainable future. Discover more in our article on [Solar Water Heaters](investinyourenergy.com/solar-water-heaters-are-a-sustainable-solution-for-your-home).
+Solar water heaters utilize the sun's thermal energy, offering a renewable and efficient solution for water heating. These systems significantly reduce reliance on fossil fuels, fostering a sustainable future. Discover more in our article on [Solar Water Heaters](solar-water-heaters-are-a-sustainable-solution-for-your-home).
 
 #### **Federal Incentive**
 
@@ -57,7 +57,7 @@ The Energy Efficient Home Improvement Credit (25C) awards a 30% tax credit on th
 
 ### **State-Level Incentives**
 
-Various state governments and local utilities offer rebates for energy-efficient water heating solutions. Although HPWHs are the most common recipients due to their high efficiency, some states also incentivize tankless and solar water heaters. To find offers in your state, visit the [Database of State Incentives for Renewables & Efficiency](dsireusa.org).
+Various state governments and local utilities offer rebates for energy-efficient water heating solutions. Although HPWHs are the most common recipients due to their high efficiency, some states also incentivize tankless and solar water heaters. To find offers in your state, visit the [Database](wwwdsireusa.org) of State Incentives for Renewables & Efficiency.
 
 #### **Conclusion**
 

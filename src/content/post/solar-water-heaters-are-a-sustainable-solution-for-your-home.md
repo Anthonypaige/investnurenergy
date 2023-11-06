@@ -1,5 +1,5 @@
 ---
-publishDate: 2023-09-27T00:00:00Z
+publishDate: 2023-10-25T00:00:00Z
 title: Solar Water Heaters are a Sustainable Solution for Your Home
 excerpt: Step into the world of solar water heaters, where we guide you through the benefits and considerations of this sustainable home solution.
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/HCE-3-cover-art.png?raw=true

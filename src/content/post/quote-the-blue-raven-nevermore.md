@@ -1,5 +1,5 @@
 ---
-publishDate: 2023-10-16T00:00:00Z
+publishDate: 2023-11-3T00:00:00Z
 title: Quote the Blue Raven? Nevermore!
 excerpt: Blue Raven Solar not only jeopardizes the financial stability of homeowners but also tarnishes the reputation of the solar industry. Their practices serve as a cautionary tale, highlighting the urgent need for consumer awareness and industry regulation.
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/SLR-7-cover-art.png?raw=true
@@ -18,7 +18,7 @@ Blue Raven Solar entices customers with the alluring offer of **"18 months free,
 
 ##### **The Bridge Loan Trap: A Financial Quicksand**
 
-We've delved into the complexities of solar loans in our previous article on [navigating the pitfalls of solar loans](investinyourenergy.com/solar-loans-a-guide-to-avoiding-pitfalls-and-maximizing-benefits), and bridge loans stand out as particularly treacherous. Blue Raven Solar fails to disclose that if the tax credit isn't applied to the bridge loan within the stipulated time frame, the interest rate can soar dramatically. This sudden and unexpected surge in monthly payments can financially cripple homeowners, effectively obliterating any chance of a return on investment (ROI).
+We've delved into the complexities of solar loans in our previous article on [navigating the pitfalls of solar loans](solar-loans-a-guide-to-avoiding-pitfalls-and-maximizing-benefits), and bridge loans stand out as particularly treacherous. Blue Raven Solar fails to disclose that if the tax credit isn't applied to the bridge loan within the stipulated time frame, the interest rate can soar dramatically. This sudden and unexpected surge in monthly payments can financially cripple homeowners, effectively obliterating any chance of a return on investment (ROI).
 
 By employing these cunning tactics, Blue Raven Solar not only jeopardizes the financial stability of homeowners but also tarnishes the reputation of the solar industry. Their practices serve as a cautionary tale, highlighting the urgent need for consumer awareness and industry regulation.
 

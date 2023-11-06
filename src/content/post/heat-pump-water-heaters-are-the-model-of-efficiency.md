@@ -1,5 +1,5 @@
 ---
-publishDate: 2023-09-27T00:00:00Z
+publishDate: 2023-10-17T00:00:00Z
 title: Heat Pump Water Heaters are The Model of Efficiency
 excerpt: Heat pump water heaters (HPWHs) stand out not just for their efficiency but also for their innovative design and user-centric features.
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/WTR-2-cover-art.png?raw=true
@@ -49,7 +49,7 @@ When considering a heat pump water heater (HPWH), it's essential to understand t
 
 The electrical requirements for installing a heat pump water heater are no different than those for a standard electric tank. Some homes may need an electric panel upgrade to accommodate the new 240V outlet, a task that can be handled by a licensed electrician. The good news is that this electrical panel upgrade can also be included if needed, offering a seamless transition to your new energy-efficient heating solution.
 
-Read more about how [electrical panel upgrades can be included](investinyourenergy.com/electrical-panel-upgrades-a-keystone-of-the-inflation-reduction-act) with heat pump water heater installations
+Read more about how [electrical panel upgrades](electrical-panel-upgrades-a-keystone-of-the-inflation-reduction-act)can be included with heat pump water heater installations
 
 #### **Conclusion**
 

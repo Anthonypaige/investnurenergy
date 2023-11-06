@@ -1,5 +1,5 @@
 ---
-publishDate: 2023-09-27T00:00:00Z
+publishDate: 2023-10-30T00:00:00Z
 title: Sunbathing 101 A Guide to Solar Panel Placement
 excerpt: Qualifying your home for solar panel installation is like planning the perfect day of sunbathing. Both tasks require a keen understanding of the sun's position and the optimal times to catch its rays.
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/FYI-1-cover-art.png?raw=true
@@ -56,4 +56,4 @@ The PV Watts calculator helps you understand how your particular solar panel sys
 #### **Conclusion**
 
 Determining whether your home is a good candidate for solar energy is no day at the beach, but with the right tools and knowledge, it becomes a manageable and insightful process. By understanding peak sun hours, scouting the perfect spot for solar panels, interpreting shade reports, and utilizing tools like the PV Watts calculator, you're laying the groundwork for a well-informed decision.
-After understanding these essential concepts, the next steps in your qualification process will involve analyzing your energy consumption, understanding TOU rates and, and considering battery storage options. If you're ready to continue your research, read our next step [from flip phones to solar homes](insert article)
+After understanding these essential concepts, the next steps in your qualification process will involve analyzing your energy consumption, understanding TOU rates and, and considering battery storage options. If you're ready to continue your research, read our next step [from flip phones to solar homes](understanding-solar-energy-a-throwback-to-the-flip-phone-days)

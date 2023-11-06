@@ -1,5 +1,5 @@
 ---
-publishDate: 2023-09-27T00:00:00Z
+publishDate: 2023-10-25T00:00:00Z
 title: Smart Thermostat Shopping Guide What You Need to Know
 excerpt: With features ranging from advanced learning algorithms to geofencing and air quality monitoring, smart thermostats offer a comprehensive solution for optimizing your heating and cooling systems.
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/THRM-1-cover-art.png?raw=true
@@ -14,7 +14,7 @@ Navigating the world of smart thermostats can be overwhelming, especially when y
 
 ### **What to Look for When Buying a Smart Thermostat**
 
-[According to Energy Star](https://www.energystar.gov/products/heating_cooling/smart_thermostats/key_product_criteria) and the Consortium for Energy Efficiency (CEE), a smart thermostat must meet specific criteria to earn the "smart" label. Here's what you should consider:
+According to [Energy Star](https://www.energystar.gov/products/heating_cooling/smart_thermostats/key_product_criteria) and the Consortium for Energy Efficiency (CEE), a smart thermostat must meet specific criteria to earn the "smart" label. Here's what you should consider:
 
 - **Energy Feedback**: Smart thermostats should provide feedback on the energy impact of your settings, guiding you toward energy-efficient choices.
 
@@ -24,7 +24,7 @@ Navigating the world of smart thermostats can be overwhelming, especially when y
 
 - **Utility Program Compatibility**: These thermostats should work seamlessly with utility programs to mitigate brownouts and blackouts, while also offering you the option to override these settings.
 
-- **Occupancy Sensing**: [According to the CEE](https://library.cee1.org/system/files/library/14493/CEE_ResHVAC_ThermostatSpecs_15Jan2021.pdf), a smart thermostat should be capable of reducing HVAC use when the home is unoccupied, thanks to features like sensors or geofencing.
+- **Occupancy Sensing**: According to [The CEE](https://library.cee1.org/system/files/library/14493/CEE_ResHVAC_ThermostatSpecs_15Jan2021.pdf), a smart thermostat should be capable of reducing HVAC use when the home is unoccupied, thanks to features like sensors or geofencing.
 
 ### **The Smart Thermostat**
 
@@ -62,15 +62,15 @@ These smartest thermostats are generally priced at $200 and above, making them a
 
 When it comes to smart thermostats, choosing the right brand is crucial for ensuring both quality and reliability. Here are the top brands in the smart thermostat industry:
 
-**Google Nest**: The OG of smart thermostats, Google Nest has narrowed it down to two main buying options to cover most household needs. Their "smarter" thermostat is known for its intuitive design and user-friendliness, while their "smartest" model comes with advanced features like learning algorithms and voice control. Both are aesthetically pleasing and packed with functionality. Dive deeper with our [Google Nest Buying Guide](https://investinyourenergy.com/your-comprehensive-google-nest-buying-guide) or check out [Google Nest options on Amazon](https://amzn.to/3sP3zQw).
+**Google Nest**: The OG of smart thermostats, Google Nest has narrowed it down to two main buying options to cover most household needs. Their "smarter" thermostat is known for its intuitive design and user-friendliness, while their "smartest" model comes with advanced features like learning algorithms and voice control. Both are aesthetically pleasing and packed with functionality. Dive deeper with our Google Nest [Buying Guide](your-comprehensive-google-nest-buying-guide) or check out [Google Nest options on Amazon](https://amzn.to/3sP3zQw).
 
 - **Honeywell Home**: A reliable name in the thermostat industry for decades, Honeywell Home offers an extensive, user-friendly line of smart thermostats in the "smarter" category. Known for their user-friendly designs and touchscreen color displays, these thermostats are a solid choice. [Honeywell Home on Amazon](https://amzn.to/3EnWc5o).
 
-- **Ecobee**: Ecobee boasts an interesting range of smart thermostats from "smart" to "smartest," with a focus on smart sensors. These sensors can be built-in, included in buying packages, or sold separately. This unique approach allows Ecobee to offer more than just heating and cooling solutions. They also provide options for air quality, fire safety, and even home security. For a comprehensive look, check out our [Ecobee Buying Guide](https://investinyourenergy.com/your-comprehensive-ecobee-buying-guide) or look at [Ecobee options on Amazon](https://amzn.to/3sP3zQw).
+- **Ecobee**: Ecobee boasts an interesting range of smart thermostats from "smart" to "smartest," with a focus on smart sensors. These sensors can be built-in, included in buying packages, or sold separately. This unique approach allows Ecobee to offer more than just heating and cooling solutions. They also provide options for air quality, fire safety, and even home security. For a comprehensive look, check out our [Ecobee Buying Guide](ecobee-smart-thermostats-buying-guide) or look at [Ecobee options on Amazon](https://amzn.to/3sP3zQw).
 
 ### **State Level Rebates**
 
-When considering a smart thermostat, it's important not to overlook the rebates offered by your utility provider! Many utility providers offer rebates that can cover a **significant** portion of the cost of a smart thermostat, enhancing the value of your investment. Some states would cover the total cost. For more information, visit the [Database of State Incentives for Renewables & Efficiency](https://www.dsireusa.org/).
+When considering a smart thermostat, it's important not to overlook the rebates offered by your utility provider! Many utility providers offer rebates that can cover a **significant** portion of the cost of a smart thermostat, enhancing the value of your investment. Some states would cover the total cost. For more information, visit the [Database](https://www.dsireusa.org/) of State Incentives for Renewables & Efficiency.
 
 #### **Conclusion**
 

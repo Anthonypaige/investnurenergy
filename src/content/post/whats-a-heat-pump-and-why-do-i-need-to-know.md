@@ -1,5 +1,5 @@
 ---
-publishDate: 2023-09-27T00:00:00Z
+publishDate: 2023-10-20T00:00:00Z
 title: What's a Heat Pump and Why Do I Need to Know
 excerpt: Rediscover heat pumps, an age-old technology that has been modernized to provide both heating and cooling solutions for your home.
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/HPQ-1-cover-art.png?raw=true
@@ -47,7 +47,7 @@ These heat pumps work by extracting heat from the outdoor air and transferring i
 - **Less Common: Ducted Packaged Systems**
   These are all-in-one systems that house the compressor, condenser, and evaporator in a single unit. Typically installed outside, they deliver air through ductwork and are less commonly used due to their bulkier size.
 
-For more information on Air Source heat pumps,[check out out Breakdown](investinyourenergy.com/air-source-heat-pumps-are-changing-the-game).
+For more information on Air Source heat pumps, check out [our Breakdown](air-source-heat-pumps-are-changing-the-game).
 
 ### **Geothermal Heat Pumps: Tapping into Earth's Core**
 
@@ -68,7 +68,7 @@ Geothermal heat pumps, also known as ground-source heat pumps, come with a highe
 
 These systems are highly efficient and can significantly reduce energy consumption and greenhouse gas emissions. With proper maintenance, they can last up to 50 years, far outlasting most traditional heating systems that last 10-15 years, thereby enhancing their long-term value.
 
-You can learn more about geothermal heat pumps in this [comprehensive guide](investinyourenergy.com/geothermal-heat-pumps-tapping-into-the-earths-core).
+You can learn more about geothermal heat pumps in this [comprehensive guide](geothermal-heat-pumps-tapping-into-the-earths-core).
 
 ### **Conclusion**
 

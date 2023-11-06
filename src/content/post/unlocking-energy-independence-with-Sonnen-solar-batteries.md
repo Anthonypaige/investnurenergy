@@ -1,5 +1,5 @@
 ---
-publishDate: 2023-09-29T00:00:00Z
+publishDate: 2023-10-15T00:00:00Z
 title: Unlocking Energy Independence with Sonnen Solar Batteries
 excerpt: Explore the unmatched efficiency and intelligent features of Sonnen's solar batteries. Designed for longevity and optimal performance, they stand as the pinnacle choice for a sustainable, grid-independent future
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/SLRB-2-cover-art.png?raw=true

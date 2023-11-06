@@ -1,5 +1,5 @@
 ---
-publishDate: 2023-09-27T00:00:00Z
+publishDate: 2023-10-15T00:00:00Z
 title: Net Metering Harvesting the Fruits of Your Solar Investment
 excerpt: Net metering can be a fruitful endeavor, much like owning a tree that produces a bountiful harvest. It allows you to offset the cost of the power you draw from the grid, reducing your monthly electricity bills.
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/FYI-3-cover-art.png?raw=true
@@ -22,7 +22,7 @@ Net metering can be a fruitful endeavor, much like owning a tree that produces a
 
 Just as the value your neighbors place on your surplus fruit can vary, so too can net metering policies differ across the country. Some states offer full retail credit for excess solar energy, while others provide a partial credit. The difference in policies can significantly impact the financial benefits of your solar system. In states that offer full retail credit, you're rewarded with the maximum value for your excess energy, much like selling your surplus fruit at the best market price. In contrast, states with partial credit may offer less compensation, akin to selling your fruit at a discount.
 
-It's essential to understand your state's specific net metering policies to maximize your solar investment. Here is the link to the [Database of State Incentives for Renewables & Efficiency](https://www.dsireusa.org/) where you can find detailed information about your state's net metering policies. By familiarizing yourself with these policies, you can make informed decisions and ensure that you're receiving fair value for your solar energy.
+It's essential to understand your state's specific net metering policies to maximize your solar investment. Here is the link to the [Database](https://www.dsireusa.org/) of State Incentives for Renewables & Efficiency where you can find detailed information about your state's net metering policies. By familiarizing yourself with these policies, you can make informed decisions and ensure that you're receiving fair value for your solar energy.
 
 ### **Feed-in Tariffs: Another Option**
 

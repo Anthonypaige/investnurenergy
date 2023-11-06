@@ -1,5 +1,5 @@
 ---
-publishDate: 2023-09-27T00:00:00Z
+publishDate: 2023-10-28T00:00:00Z
 title: Devising Your Solar Offset Strategy A Monopoly Game Approach
 excerpt: Stepping into the realm of solar energy with a well-crafted offset strategy allows you to gradually transition to a greener, more sustainable lifestyle.
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/FYI-4-cover-art.png?raw=true

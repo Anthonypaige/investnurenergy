@@ -1,5 +1,5 @@
 ---
-publishDate: 2023-09-27T00:00:00Z
+publishDate: 2023-10-27T00:00:00Z
 title: Ecobee Smart Thermostats Buying Guide
 excerpt: Ecobee is the leading name in smart thermostats. This guide aims to simplify your buying options by breaking down Ecobee's unique features and capabilities.
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/THRM-2-cover-art.png?raw=true
@@ -14,7 +14,7 @@ If you're shopping for a smart thermostat, you'll likely encounter Ecobee—a ma
 
 ### **Ecobee3 Lite: The Budget-Friendly Smart Thermostat**
 
-The Ecobee3 Lite, priced at an affordable $140, is an Energy Star Certified smart thermostat that promises substantial energy savings. This user-friendly thermostat is designed for DIY installation and offers seamless integration with major smart home ecosystems, including Apple HomeKit. Additionally, it's Wi-Fi connected and compatible with all smart home systems.
+The [Ecobee3 Lite](shopping/affiliate-marketplace), priced at an affordable $140, is an Energy Star Certified smart thermostat that promises substantial energy savings. This user-friendly thermostat is designed for DIY installation and offers seamless integration with major smart home ecosystems, including Apple HomeKit. Additionally, it's Wi-Fi connected and compatible with all smart home systems.
 
 #### **Advanced Software Features**
 
@@ -48,7 +48,7 @@ Priced at $189, the Smart Thermostat Enhanced model offers a host of advanced fe
 
 ### **Ecobee Smart Thermostat Premium: The Ultimate Choice**
 
-Retailing at $249, the Smart Thermostat Premium is Ecobee's flagship model. It encompasses all the features of the Enhanced model, along with a host of additional capabilities.
+Retailing at $249, the [Ecobee Premium](shopping/affiliate-marketplace) is Ecobee's flagship model. It encompasses all the features of the Enhanced model, along with a host of additional capabilities.
 
 #### **Additional Features Over Enhanced Model**
 
