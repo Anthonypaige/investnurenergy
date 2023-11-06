@@ -1,6 +1,7 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
 import Hero from '~/components/widgets/Hero.astro';
+import Features3 from '~/components/widgets/Features3.astro';
 import FeaturedArticles from '~/components/widgets/FeaturedArticles.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
 import SolarTaxIncentiveNote from '~/components/widgets/SolarTaxIncentiveNote.astro';
@@ -22,6 +23,40 @@ const metadata = {
 
 
 <SolarTaxIncentiveNote />
+
+<Features3
+  id="features"
+  title="Solar Tax Incentive Breakdown"
+  subtitle="Understand the key benefits of the solar tax incentive, including the 30% credit with no annual cap and the ability to roll over unused amounts."
+  tagline="Your guide to maximizing solar investments"
+  columns={2}
+  items={[
+    {
+      title: '30% Tax Credit',
+      description: 'Claim a 30% tax credit on the total cost of solar installation, including equipment and labor.',
+      icon: 'tabler:receipt-refund',
+    },
+    {
+      title: 'No Annual Cap',
+      description: 'There’s no ceiling on the amount you can claim each year, making it easier to plan large-scale solar projects.',
+      icon: 'tabler:home',
+    },
+    {
+      title: 'Credit Rollover',
+      description: 'If your tax credit exceeds your liability, you can roll over the remaining credit to the next tax year.',
+      icon: 'tabler:smart-home',
+    },
+    {
+      title: 'Annual Reset',
+      description: 'The incentive resets each year, allowing you to claim credits annually for ongoing solar investments.',
+      icon: 'tabler:bulb',
+    },
+  ]}
+  image={{
+    src: 'https://images.unsplash.com/photo-1521517407911-565264e7d82d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80',
+    alt: 'Solar Panels',
+  }}
+/>
 
 <!-- Featured Articles Widget ******************* -->
 <FeaturedArticles 
