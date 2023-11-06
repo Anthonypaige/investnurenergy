@@ -2,7 +2,7 @@
 import Layout from '~/layouts/PageLayout.astro';
 import Hero from '~/components/widgets/Hero.astro';
 import FeaturedArticles from '~/components/widgets/FeaturedArticles.astro';
-import Content from '~/components/widgets/Content.astro';
+import Features3 from '~/components/widgets/Features3.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
 // EnergyArbitrageCalculator from '~/components/widgets/EnergyArbitrageCalculator.astro';
 import HomeEnergyStorageNote from '~/components/widgets/HomeEnergyStorageNote.astro';
@@ -25,40 +25,34 @@ const metadata = {
 
   <HomeEnergyStorageNote />
 
- <!-- Content Widget -->
-<Content
-isReversed
-class="flex flex-col-reverse sm:flex-row" 
-items={[
-  {
-    title: 'Backup Battery',
-    description: 'A home energy storage system serves as a backup battery during power outages, ensuring that your essential appliances keep running.',
-  },
-  {
-    title: 'Energy Arbitrage',
-    description: 'Store energy when electricity rates are low and use it during peak hours to save money. This strategy, known as energy arbitrage, can significantly reduce your electricity bills.',
-  },
-  {
-    title: 'Wind or Solar Storage',
-    description: 'Home energy storage allows you to store excess energy generated from your wind or solar installations. This stored energy can be used when renewable sources are not producing, ensuring a consistent power supply.',
-  },
-]}
-image={{
-  src: 'https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/page-art/HES-qualify-page-art.png?raw=true',
-  alt: 'Qualifications for Battery Storage eligibility',
-  class: "order-1 sm:order-none" 
-}}
->
-<Fragment slot="content" class="order-2 sm:order-none">  <!-- Add this line -->
-  <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Why Home Energy Storage?</h3>
-  Home Batteries are becoming essential in today's World for many reasons.
-</Fragment>
+  <Features3
+  id="features"
+  title="Home Batteries: Essential for Energy Resilience and Efficiency"
+  subtitle="Explore the resilience and efficiency of modern energy solutions with home battery storage."
+  columns={3}
+  items={[
+    {
+      title: 'Backup Battery',
+      description: 'A home energy storage system acts as a backup battery, keeping essential appliances running during outages and enhancing your homes energy independence.',
+      icon: 'tabler:battery-3',
+    },
+    {
+      title: 'Energy Arbitrage',
+      description: 'Store energy when electricity rates are low and use it during peak hours to save money. This strategy, known as energy arbitrage, can significantly reduce your electricity bills.',
+      icon: 'tabler:clock-bolt',
+    },
+    {
+      title: 'Wind or Solar Storage',
+      description: 'Home energy storage allows you to store excess energy generated from your wind or solar installations. This stored energy can be used when renewable sources are not producing, ensuring a consistent power supply.',
+      icon: 'tabler:sun-wind',
+    },
+  ]}
+  image={{
+    src: 'https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/page-art/HES-qualify-page-art.png?raw=true',
+    alt: 'Qualifications for Battery Storage eligibility',
+  }}
+/>
 
-<Fragment slot="bg">
-  <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
-</Fragment>
-
-</Content>
 
 <!-- <EnergyArbitrageCalculator /> -->
 
