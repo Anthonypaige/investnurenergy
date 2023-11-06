@@ -1,5 +1,5 @@
 ---
-publishDate: 2023-09-27T00:00:00Z
+publishDate: 2023-11-01T00:00:00Z
 title: Unpacking the Inflation Reduction Act A Comprehensive Guide
 excerpt: Unpack the intricacies of the Inflation Reduction Act of 2022 with our comprehensive guide. Get insights into the key components and understand how it aims to reshape the energy landscape for homeowners.
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/IIYE-1-cover-art.png?raw=true
@@ -16,34 +16,34 @@ Amidst the pressing challenges of escalating utility costs, dwindling fossil fue
 
 Understanding the nuances of this intricate legislation can be daunting. That's where Invest In Your Energy comes in, acting as the bridge between complexity and clarity.
 
-### **The Energy-Efficient Home Improvement Credit (25C)**
+### **The Energy-Efficient Home Improvement Credit**
 
-Embrace a greener future with the Energy-Efficient Home Improvement Credit, commonly known as 25C. This federal program incentivizes energy-efficient home upgrades, particularly in the areas of heating and cooling. [Energy Efficient Home Upgrades](investinyourenergy.com/energy-efficient-home-upgrades)
+Embrace a greener future with the Energy-Efficient Home Improvement Credit, commonly known as 25C. This federal program incentivizes energy-efficient home upgrades, particularly in the areas of heating and cooling. [Energy Efficient Home Upgrades](https://investinyourenergy.com/energy-efficient/energy-efficient-home-upgrades)
 
-#### **Heat Pumps**
+#### [**Heat Pumps**](https://investinyourenergy.com/energy-efficient/air-source-heat-pumps)
 
 Heat Pumps offer an excellent alternative to traditional heating and cooling methods, delivering up to three times more energy than the electricity they consume. Both ducted air source heat pumps and ductless mini-splits are eligible for a 30% tax credit, capped at $2,000.
 
-#### **Water Heating**
+#### [**Energy Efficient Water Heaters**](https://investinyourenergy.com/energy-efficient/energy-efficient-water-heaters)
 
-Water heating accounts for approximately 20% of household energy consumption. Under 25C, various options are covered:
+Water heating accounts for approximately 20% of our household energy consumption. Under 25C, various options are covered but the two that are most efficient are:
 
-- **Heat Pump Water Heaters**: Efficient retrofit upgrades eligible for a 30% tax credit, capped at $2,000. Additional state rebates may apply.
-- **Tankless Water Heaters**: Energy Star Certified, eligible for a 30% tax credit up to $600.
+- [**Heat Pump Water Heaters**](https://investinyourenergy.com/heat-pump-water-heaters-are-the-model-of-efficiency): Efficient retrofit upgrades eligible for a 30% tax credit, capped at $2,000. Additional state rebates may apply.
+- [**Tankless Water Heaters**](https://investinyourenergy.com/tankless-water-heaters-are-compact-efficiency): Energy Star Certified, eligible for a 30% tax credit up to $600.
 
-#### **Weatherization**
+#### [**Weatherization**](https://investinyourenergy.com/energy-efficient/weatherization)
 
 Weatherization plays a crucial role in energy efficiency by reducing energy consumption and costs through sealing leaks and adding insulation. Proper weatherization ensures that heating and cooling systems operate efficiently, minimizing energy waste. Under the 25C credit, weatherization includes all insulation and sealants, eligible for a 30% tax credit up to a $1,200 cap.
 
-### **The Residential Clean Energy Credit 25D**
+### **The Residential Clean Energy Credit**
 
 Step into the future of sustainable living with the Residential Clean Energy Credit 25D. This federal tax incentive, introduced under the Inflation Reduction Act of 2022, encourages homeowners to invest in clean energy technologies, offering a 30% reduction on eligible costs, with no cap. [Home Clean Energy Credit](investinyourenergy.com/home-clean-energy-credit)
 
-#### **Geothermal Heat Pumps**
+#### [**Geothermal Heat Pumps**](https://investinyourenergy.com/clean-energy/geothermal-heat-pumps)
 
 Utilizing the earth's constant temperature, geothermal heat pumps offer consistent and efficient heating and cooling. Though more expensive upfront, they can last up to 50 years, offering long-term savings and environmental benefits.
 
-#### **Residential Wind Turbines**
+#### [**Residential Wind Turbines**](https://investinyourenergy.com/clean-energy/wind-turbines)
 
 Tap into the power of the wind with small wind turbines. These are perfect companions for solar energy, as wind turbines can be used as stand-alone units or to complement your solar system, providing a renewable and clean energy source that reduces reliance on fossil fuels.
 
@@ -51,10 +51,10 @@ Tap into the power of the wind with small wind turbines. These are perfect compa
 
 Explore the following specialized pages to understand how you can benefit from solar energy:
 
-- **Solar Economics**: Navigate the financial landscape of solar energy with our dedicated page. We help you understand the numbers involved in solar investments, focusing on solar loans, ROI calculations, and offering guidance to make informed buying decisions.
-- **Solar Basics**: Learn the fundamentals of solar energy, including how to size your system and come up with an offset plan before speaking with sales reps. Understand how solar panels work, how they're installed, and how they can transform your home into a green energy powerhouse.
+- [**Solar Tax Incentive**](https://investinyourenergy.com/clean-energy/solar-tax-incentive): Navigate the financial landscape of solar energy with our dedicated page. We help you understand the numbers involved in solar investments, focusing on solar loans, ROI calculations, and offering guidance to make informed buying decisions.
+- [**Solar Basics**](https://investinyourenergy.com/clean-energy/solar-energy-basics): Learn the fundamentals of solar energy, including how to size your system and come up with an offset plan before speaking with sales reps. Understand how solar panels work, how they're installed, and how they can transform your home into a green energy powerhouse.
 
-#### **Battery Storage**
+#### [**Home Energy Storage**](https://investinyourenergy.com/clean-energy/home-energy-storage)
 
 Battery technology plays a vital role in clean energy solutions and in alleviating grid pressure.
 
@@ -63,7 +63,7 @@ Battery technology plays a vital role in clean energy solutions and in alleviati
 
 ### **Electrification Rebate Act (HEEHRA)**
 
-The Electrification Rebate Act, also known as the High-Efficiency Electric Home Rebate Act (HEEHRA), is a groundbreaking initiative aimed at enabling low- and moderate-income (LMI) households across America to electrify their homes. Recognizing that LMI households typically bear three times the energy burden compared to others, HEEHRA seeks to alleviate this by offering:
+The Electrification Rebate Act, also known as the [High-Efficiency Electric Home Rebate Act](https://investinyourenergy.com/what-is-the-high-efficiency-electric-home-rebate-act) (HEEHRA), is a groundbreaking initiative aimed at enabling low- and moderate-income (LMI) households across America to electrify their homes. Recognizing that LMI households typically bear three times the energy burden compared to others, HEEHRA seeks to alleviate this by offering:
 
 - 100% of electrification project costs up to $14,000 for low-income households.
 - 50% of costs up to $14,000 for moderate-income households.
@@ -77,16 +77,17 @@ The Electrification Rebate Act, also known as the High-Efficiency Electric Home 
 
 ### **State-Level Rebates**
 
-State-level rebates offer diverse opportunities for homeowners to save on energy-efficient upgrades. These rebates often extend beyond federal incentives, covering additional products and sometimes even combining with federal incentives for greater savings.
+[State-level rebates](https://investinyourenergy.com/state-level-energy-efficient-incentives-overview) offer diverse opportunities for homeowners to save on energy-efficient upgrades. These rebates often extend beyond federal incentives, covering additional products and sometimes even combining with federal incentives for greater savings.
 
 #### **Items Not Included in Federal Tax Incentive Programs**
 
-- **Smart Thermostats and Smart LED Lighting**: Many states offer incentives for these popular energy-saving devices.
+- [**Smart Thermostats**](https://investinyourenergy.com/shopping/top-smart-thermostats):Almost every utility provider offers a rebate on smart thermostats, due to their low cost and high efficiency.
+- **Smart LED Lighting**: Many states offer incentives for LED lighting for similar reasons to smart thermostats
 - **Air Quality Devices**: Rebates are often available for ENERGY STAR certified air purifiers and dehumidifiers.
 
 #### **Products and Services Included in Federal Tax Incentive Programs**
 
-- **EV Chargers**: ENERGY STAR certified Level 2 chargers may qualify for both federal incentives and state rebates.
+- [**EV Chargers**](https://investinyourenergy.com/shopping/smart-ev-chargers): ENERGY STAR certified Level 2 chargers may qualify for both federal incentives and state rebates.
 - **Heat Pump Water Heaters (HPWH) and Mini-Ductless Heat Pumps**: These energy-efficient items are commonly included in both federal and state-level programs.
 
 #### **Conclusion**
