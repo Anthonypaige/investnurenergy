@@ -1,9 +1,10 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
-import Features2 from '~/components/widgets/Features2.astro';
+import Features from '~/components/widgets/Features.astro';
 import Hero from '~/components/widgets/Hero.astro';
 import PortablePowerNote from '~/components/widgets/PortablePowerNote.astro';
 import Button from '~/components/ui/Button.astro';
+import FeaturedArticles from '~/components/widgets/FeaturedArticles.astro';
 
 
 
@@ -36,10 +37,10 @@ color: red;
  <!-- DataTables CSS -->
 <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
 
- <Features2
+ <Features
  title="How They got their Seat at the Table"
  subtitle="All portable power stations in this table meet a minimum 3kWh capacity, and offer these features"
- columns={3}
+ columns={2}
  items={[
    {
     title: 'User-Friendly Setup',
@@ -304,7 +305,7 @@ color: red;
     var table = $('#portablecomparisonTable').DataTable({
       scrollX: true,
       responsive: true,
-      scrollY: 600
+      scrollY: 500
     });
 
     // Recalculate column widths
@@ -335,10 +336,10 @@ color: red;
 
 
   
-<Features2
+<Features
  title="Features That Vary"
  Subtitle="Optional features that can influence your choice based on your specific needs."
- columns={3}
+ columns={2}
  items={[
   {
     title: 'Cell Type',
@@ -372,7 +373,17 @@ color: red;
  },
 ]}
 />
-
+  <!-- Featured Articles Widget -->
+  <FeaturedArticles 
+    title="Featured Articles" 
+    articleSlugs={[
+      'what-is-energy-arbitrage',
+      'decoding-portable-power-station-comparison-tables',
+      'ecoflow-delta-pro-buying-guide',
+      'bluetti-power-stations-buying-guide',
+      
+    ]}
+  />
 
 </Layout>
 

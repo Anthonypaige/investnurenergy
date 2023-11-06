@@ -1,6 +1,8 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
-import Features2 from '~/components/widgets/Features2.astro';
+//import Features2 from '~/components/widgets/Features2.astro';
+import FeaturedArticles from '~/components/widgets/FeaturedArticles.astro';
+import Features from '~/components/widgets/Features.astro';
 import Hero from '~/components/widgets/Hero.astro';
 import Button from '~/components/ui/Button.astro';
 import SmartThermostatNote from '~/components/widgets/SmartThermostatNote.astro';
@@ -45,10 +47,10 @@ const metadata = {
 <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
 
     
-<Features2
+<Features
 title="Features Included"
 subtitle="All thermostats in this table are Energy Star certified, Wi-Fi enabled and share these base features"
-columns={3}
+columns={2}
 items={[
 {
   title: 'Wi-Fi Enabled',
@@ -71,8 +73,8 @@ items={[
   icon: 'tabler:home-link'
 },
 {
-  title: 'HVAC Energy Use Insights',
-  description: 'Provides monthly run-time data to understand HVAC energy use.',
+  title: 'HVAC Use Insights',
+  description: 'Provides monthly run-time data to understand HVAC energy use and patterns.',
   icon: 'tabler:air-conditioning'
 },
 {
@@ -348,7 +350,7 @@ items={[
     var table = $('#comparisonTable').DataTable({
       scrollX: true,
       responsive: true,
-      scrollY: 600
+      scrollY: 500
     });
 
     // Recalculate column widths
@@ -379,10 +381,10 @@ items={[
 
 
 
-  <Features2
+  <Features
   title="Varying Features"
   subtitle="Optional features to narrow down your choice based on personal preferences"
-  columns={3}
+  columns={2}
   items={[
   {
     title: 'Profile',
@@ -417,6 +419,16 @@ items={[
   ]}
 />
 
+  <!-- Featured Articles Widget ******************* -->
+  <FeaturedArticles 
+    title="Featured Articles" 
+    articleSlugs={[
+      'iot-is-fueling-smart-energy-devices',
+      'smart-thermostat-shopping-guide-what-you-need-to-know',
+      'ecobee-smart-thermostats-buying-guide',
+      'your-comprehensive-google-nest-buying-guide',
+    ]}
+  />
 
 
 </Layout>

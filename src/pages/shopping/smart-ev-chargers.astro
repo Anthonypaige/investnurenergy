@@ -1,7 +1,8 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
 import Hero from '~/components/widgets/Hero.astro';
-import Features2 from '~/components/widgets/Features2.astro';
+//import Features2 from '~/components/widgets/Features2.astro';
+import Features from '~/components/widgets/Features.astro';
 import Button from '~/components/ui/Button.astro';
 import EvChargerNote from '~/components/widgets/EvChargerNote.astro';
 
@@ -38,10 +39,10 @@ const metadata = {
 <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
 
 
-    <Features2
+    <Features
     title="Features Included"
     subtitle="All chargers in this table are Level 2, Energy Star certified, and share these features"
-    columns={3}
+    columns={2}
     items={[
       {
         title: 'Level 2 Charging',
@@ -260,7 +261,7 @@ Weather
     var table = $('#evsecomparisonTable').DataTable({
       scrollX: true,
       responsive: true,
-      scrollY: 600
+      scrollY: 500
     });
 
     // Recalculate column widths
@@ -288,10 +289,10 @@ Weather
   });
 </script>
 
-<Features2
+<Features
     title="Varying features"
     subtitle="Optional features to consider based on your home setup"
-    columns={3}
+    columns={2}
     items={[
       {
         title: 'Max Power Output',
