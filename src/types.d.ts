@@ -288,14 +288,15 @@ export interface Card {
     text: string; // Text for the "Shop Here" button
     href: string; // URL for the action
   };
-  shopAmazonButton?: { // New field for the "Shop Amazon" button
+  shopAmazonButton?: {
+    // New field for the "Shop Amazon" button
     text: string; // Text for the "Shop Amazon" button
     href: string; // Amazon URL for the action
   };
   taxCode: string; // Tax code related to the product
   creditAmount: string; // Credit amount for the product
   verifiedEnergySavings: string; // Energy savings info
- 
+
   callToAction?: {
     // Call to action details
     target: string; // Target for the link

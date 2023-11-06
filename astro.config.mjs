@@ -10,7 +10,7 @@ import partytown from '@astrojs/partytown';
 import compress from 'astro-compress';
 import icon from 'astro-icon';
 import tasks from './src/utils/tasks';
-
+import react from '@astrojs/react'; // For React
 import { readingTimeRemarkPlugin } from './src/utils/frontmatter.mjs';
 
 import { ANALYTICS, SITE } from './src/utils/config.ts';
@@ -58,6 +58,8 @@ export default defineConfig({
         config: { forward: ['dataLayer.push'] },
       })
     ),
+
+    react(), // For React
 
     tasks(),
 
