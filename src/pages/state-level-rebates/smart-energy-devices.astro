@@ -2,6 +2,7 @@
 import Layout from '~/layouts/PageLayout.astro';
 import SmartEnergyDeviceNote from '~/components/widgets/SmartEnergyDeviceNote.astro';
 import Hero from '~/components/widgets/Hero.astro';
+import Features3 from '~/components/widgets/Features3.astro';
 import FeaturedArticles from '~/components/widgets/FeaturedArticles.astro';
 
 const metadata = {
@@ -20,8 +21,42 @@ const metadata = {
   </Hero>
   
 
-
   <SmartEnergyDeviceNote />
+
+  <Features3
+  id="features"
+  title="Smart Energy Devices"
+  subtitle="Optimize Your Home's Energy Use"
+  tagline="Seamless Control, Enhanced Efficiency"
+  columns={2}
+  items={[
+    {
+      title: 'Smart Thermostats',
+      description: 'Automate your home’s temperature for comfort and savings, adapting to your routine and preferences.',
+      icon: 'tabler:temperature-plus',
+    },
+    {
+      title: 'Home Energy Monitoring Systems',
+      description: 'Gain real-time insights into your energy consumption and make informed decisions to lower your utility bills',
+      icon: 'tabler:device-analytics',
+    },
+    {
+      title: 'Smart Lighting',
+      description: 'Illuminate your space efficiently with lights that adjust to your schedule and save energy.',
+      icon: 'tabler:bulb',
+    },
+    {
+      title: 'Smart Plugs',
+      description: 'Take control of your appliances remotely and track their energy usage for a smarter home ecosystem.',
+      icon: 'tabler:plug',
+    },
+  ]}
+  image={{
+    src: 'https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/page-art/smart-energy-device-page-art.jpg?raw=true',
+    alt: 'Smart Home Energy Devices',
+  }}
+/>
+
 
   <!-- Featured Articles Widget ******************* -->
   <FeaturedArticles 

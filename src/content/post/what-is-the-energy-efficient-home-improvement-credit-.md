@@ -1,7 +1,7 @@
 ---
 publishDate: 2023-11-01T00:00:00Z
 title: What is the Energy Efficient Home Improvement Credit?
-excerpt: The Energy Efficient Home Improvement Credit (25C) is more than just a tax incentive; it's a catalyst for change in the way we approach our energy 
+excerpt: The Energy Efficient Home Improvement Credit (25C) is more than just a tax incentive; it's a catalyst for change in the way we approach our energy
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/EEHU-1-cover-art.png?raw=true
 category: Energy Efficient Home Upgrades
 tags:
@@ -14,7 +14,7 @@ In an era where energy efficiency and sustainability are paramount, the Inflatio
 
 ### **What is the Energy-Efficient Home Improvement Credit?**
 
-The Energy-Efficient Home Improvement Credit also known by its tax code as [25C](https://www.irs.gov/credits-deductions/energy-efficient-home-improvement-credit)  is a federal incentive designed to promote energy-efficient home upgrades. It offers homeowners a deduction of up to 30%, capped annually at $3,200, for a range of energy-saving improvements.
+The Energy-Efficient Home Improvement Credit also known by its tax code as [25C](https://www.irs.gov/credits-deductions/energy-efficient-home-improvement-credit) is a federal incentive designed to promote energy-efficient home upgrades. It offers homeowners a deduction of up to 30%, capped annually at $3,200, for a range of energy-saving improvements.
 
 The credit primarily targets heating and cooling upgrades, recognizing their substantial contribution to home energy consumption. By encouraging these improvements, the Energy-Efficient Home Improvement Credit aims to foster investment in sustainable technologies and practices.
 

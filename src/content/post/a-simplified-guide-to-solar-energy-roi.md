@@ -22,7 +22,7 @@ To provide a realistic example, let's consider national averages alongside a hyp
 
 In our hypothetical case, we look at a home using 12,000 kWh annually, offsetting half of its energy needs with a 6KW solar system. This system consists of 15 panels, each at 400 watts, costing a total of $18,000. The homeowners pay $0.15 per kWh to their utility provider.
 
-These examples serve as a baseline, but individual circumstances like location and home size will vary. 
+These examples serve as a baseline, but individual circumstances like location and home size will vary.
 
 ### **Start with Understanding the TRUE Net System Cost**
 
@@ -68,6 +68,7 @@ Now, let's calculate the Solar ROI:
 So, in this example, considering the 30% federal tax credit and a 5% interest rate over 25 years, the Solar ROI would be 58.64%. This means that over 25 years, you would get a return of 58.64% on your initial investment of $22,097.50 (after tax credit and including the loan repayment).
 
 ### **Conclusion**
+
 We've aimed to streamline the decision-making process for you, but remember, this is just the starting point. There are additional elements like state incentives, net-metering, and battery storage options that could further influence your Solar Return on Investment (ROI). Plus, be aware of potential hidden costs from solar providers, such as dealer fees, which may not be included in a basic ROI calculation.
 
 Now that you understand how to calculate your Solar ROI, you might be wondering how you can maximize it. In our next article, we'll cover [what factors effect your Solar ROI](investinyourenergy.com/what-factors-will-effect-my-solar-roi), we delve into the controllable factors that can help you get the most out of your solar investment.
