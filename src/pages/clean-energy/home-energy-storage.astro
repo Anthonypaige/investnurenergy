@@ -15,11 +15,9 @@ const metadata = {
   
   <Hero actions={[]} videoSrc="/images/home-energy-storage-video.mp4">
     <Fragment slot="title">
-      <div class="absolute inset-x-0 bottom-0 p-4 bg-opacity-75 text-left">
-        <h1 class="text-white text-3xl sm:text-4xl md:text-4xl lg:text-5xl font-bold leading-tight tracking-tighter font-heading">
+        <h1 class="text-left text-3xl sm:text-4xl md:text-4xl lg:text-5xl font-bold leading-tight tracking-tighter font-heading">
           Home Energy Storage
         </h1>
-      </div>
     </Fragment>
   </Hero>
   
@@ -29,31 +27,37 @@ const metadata = {
 
   <section class="container mx-auto p-10"></section>
 
-
   <Features3
   id="features"
-  title="Home Batteries are becoming essential in today's World"
-  columns={3}
+  title="Take Charge with Home Energy Storage"
+  subtitle="Intelligent energy management allows you the opportunity to keep critical systems running with a robust backup battery, minimize expenses through strategic energy arbitrage, and capture excess renewable energy for uninterrupted power supply."
+  tagline="Empower Your Home - Sustain, Save, Secure"
+  columns={2}
   items={[
     {
       title: 'Backup Battery',
-      description: 'A home energy storage system acts as a backup battery, keeping essential appliances running during outages and enhancing your homes energy independence.',
+      description: 'Acting as a resilient backup, the home energy storage system ensures your critical appliances remain operational during outages, bolstering your home\'s energy self-reliance.',
       icon: 'tabler:battery-3',
     },
     {
       title: 'Energy Arbitrage',
-      description: 'Store energy when electricity rates are low and use it during peak hours to save money. This strategy, known as energy arbitrage, can significantly reduce your electricity bills.',
+      description: 'Capitalize on lower electricity rates by storing energy and utilizing it during high-cost peak hours, a savvy strategy known as energy arbitrage that trims down your energy expenses.',
       icon: 'tabler:clock-bolt',
     },
     {
       title: 'Wind or Solar Storage',
-      description: 'Home energy storage lets you bank excess power from wind or solar setups. Use this reserve when renewables are not active, guaranteeing steady electricity.',
+      description: 'Bank your surplus wind or solar energy for times when production dips, ensuring a consistent, uninterrupted electricity supply from your renewable installations.',
       icon: 'tabler:sun-wind',
+    },
+    {
+      title: 'Grid Independence',
+      description: 'Strengthen your home\'s energy sovereignty with a personal power reserve that curtails dependence on external energy sources and contributes to a more sustainable grid.',
+      icon: 'tabler:home-bolt',
     },
   ]}
   image={{
     src: 'https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/page-art/HES-qualify-page-art.png?raw=true',
-    alt: 'Qualifications for Battery Storage eligibility',
+    alt: 'sleek image of Lithium table',
   }}
 />
 

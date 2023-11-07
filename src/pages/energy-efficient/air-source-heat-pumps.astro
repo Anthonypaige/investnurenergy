@@ -26,6 +26,18 @@ const metadata = {
 
   <AirSourceHeatPumpNote />
 
+  <section class="container mx-auto p-9"></section>
+
+  <Stats
+  title="Air Source Heat Pumps"
+  stats={[
+    { title: 'Tax Code', amount: '25C' },
+    { title: 'Tax Credit', amount: '30%' },
+    { title: 'Annual Limit', amount: '$2,000' },
+    { title: 'Energy Savings', amount: '40%' },
+  ]}
+/>
+
 
 
 <Features2
@@ -70,15 +82,7 @@ const metadata = {
   title="Featured Articles" 
   articleSlugs={['whats-a-heat-pump-and-why-do-i-need-to-know', 'air-source-heat-pumps-are-changing-the-game', 'whats-a-ductless-mini-split-heat-pump', 'geothermal-heat-pumps-tapping-into-the-earths-core',]} 
 />
-<Stats
-  title="Air Source Heat Pumps"
-  stats={[
-    { title: 'Tax Code', amount: '25C' },
-    { title: 'Tax Credit', amount: '30%' },
-    { title: 'Annual Limit', amount: '$2,000' },
-    { title: 'Energy Savings', amount: '40%' },
-  ]}
-/>
+
 <FAQs
   title="Frequently Asked Questions"
   columns={1}
