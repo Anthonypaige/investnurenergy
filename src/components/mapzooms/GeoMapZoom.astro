@@ -24,13 +24,18 @@ const zoomMap = (event) => {
     margin: 20px;
   }
   .map-title {
-    font-size: 30px;
+    font-size: 38px;
     font-weight: bold;
+    margin-bottom: 16px; /* Adds space below the title */
   }
   .map-subtitle {
-    font-size: 24px;
-    margin-bottom: 10px;
-  }
+  font-size: 24px;
+  margin-bottom: 16px;
+  max-width: 60%; /* Constrain the maximum width */
+  margin-left: auto; /* Center the subtitle */
+  margin-right: auto; /* Center the subtitle */
+  text-align: center; /* Ensures text is centered within the div */
+}
   .map-image {
     max-width: 50%;
     max-height: 50%;
@@ -58,8 +63,12 @@ const zoomMap = (event) => {
 </style>
 
 <div class="map-container">
-  <div class="map-title">Geothermal Potential</div>
-  <div class="map-subtitle">United States</div>
+<div class="map-title">Geothermal Potential Across the U.S. 
+</div>
+<div class="map-subtitle">
+    Discover your home's geothermal potential. For an in-depth exploration, click the link below or consult our step-by-step guides to evaluate your property's suitability.
+</div>
+
   <img src="https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/page-art/GEO-map-page-art.png?raw=true" alt="Geothermal Potential Map of US" class="map-image" @click={zoomMap}>
   <div class="credit">Map Courtesy of <a href="https://www.eia.gov/">US Energy Atlas</a></div>
 </div>
