@@ -2,6 +2,7 @@
 import Layout from '~/layouts/PageLayout.astro';
 import Hero from '~/components/widgets/Hero.astro';
 import Stats from '~/components/widgets/Stats.astro';
+import Features3 from '~/components/widgets/Features3.astro';
 import FeaturedArticles from '~/components/widgets/FeaturedArticles.astro';
 import WeatherizationNote from '~/components/widgets/WeatherizationNote.astro';
 
@@ -36,6 +37,42 @@ const metadata = {
     { title: 'Energy Savings', amount: '20%' },
   ]}
 />
+
+
+<Features3
+  id="features"
+  title="Weatherization"
+  subtitle="A little care in weatherization goes a long way, offering a cost-effective path to significant energy savings and enhanced home comfort."
+  tagline="Seal in Comfort, Lock Out Waste"
+  columns={2}
+  items={[
+    {
+      title: 'Insulation',
+      description: 'Maximize thermal efficiency with high-quality insulation, creating a barrier that keeps your home warm in winter and cool in summer, slashing energy costs.',
+      icon: 'tabler:temperature-minus',
+    },
+    {
+      title: 'Spray Foam',
+      description: 'Seal gaps and prevent air leaks with spray foam insulation, a powerful solution for enhancing your home’s energy envelope and reducing heating and cooling expenses.',
+      icon: 'tabler:home',
+    },
+    {
+      title: 'DIY Kits',
+      description: 'Empower your energy efficiency projects with DIY weatherization kits, designed to improve your home’s comfort and lower utility bills through simple, effective upgrades.',
+      icon: 'tabler:home',
+    },
+    {
+      title: 'Caulk',
+      description: 'Prevent unwanted airflow and moisture with quality caulking, a straightforward fix for energy loss around windows, doors, and other leak-prone areas.',
+      icon: 'tabler:wind',
+    },
+  ]}
+  image={{
+    src: 'https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/page-art/WTHR-page-art.png?raw=true',
+    alt: 'thermal image showing leaking air',
+  }}
+/>
+
 
  <!--Featured Articles Widget -->
  <FeaturedArticles 
