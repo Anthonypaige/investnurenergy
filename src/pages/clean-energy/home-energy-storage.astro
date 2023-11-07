@@ -4,7 +4,7 @@ import Hero from '~/components/widgets/Hero.astro';
 import FeaturedArticles from '~/components/widgets/FeaturedArticles.astro';
 import Features3 from '~/components/widgets/Features3.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
-// EnergyArbitrageCalculator from '~/components/widgets/EnergyArbitrageCalculator.astro';
+//import EnergyArbitrageCalculator from '~/components/widgets/EnergyArbitrageCalculator.astro';
 import HomeEnergyStorageNote from '~/components/widgets/HomeEnergyStorageNote.astro';
 
 const metadata = {
@@ -25,7 +25,10 @@ const metadata = {
   
   <HomeEnergyStorageNote />
 
-  <section class="container mx-auto p-9"></section>
+  <!-- <EnergyArbitrageCalculator /> -->
+
+  <section class="container mx-auto p-10"></section>
+
 
   <Features3
   id="features"
@@ -93,9 +96,7 @@ const metadata = {
     }
   ]}
 >
-  <!-- <Fragment slot="bg">
-    <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
-  </Fragment> -->
+  
 </FAQs>
 
 </Layout>
