@@ -21,7 +21,10 @@ export const headerData = {
           href: getPermalink('/energy-efficient/energy-efficient-home-upgrades'),
         },
         { text: 'Air Source Heat Pumps', href: getPermalink('/energy-efficient/air-source-heat-pumps') },
-        { text: 'Energy Efficient Water Heaters', href: getPermalink('/energy-efficient/energy-efficient-water-heaters') },
+        {
+          text: 'Energy Efficient Water Heaters',
+          href: getPermalink('/energy-efficient/energy-efficient-water-heaters'),
+        },
         { text: 'Weatherization', href: getPermalink('/energy-efficient/weatherization') },
       ],
     },
@@ -80,7 +83,10 @@ export const footerData = {
         { text: 'Geothermal Heat Pumps', href: getPermalink('/clean-energy/geothermal-heat-pumps') },
         { text: 'Wind Turbines', href: getPermalink('/clean-energy/wind-turbines') },
         { text: 'Air Source Heat Pumps', href: getPermalink('/energy-efficient/air-source-heat-pumps') },
-        { text: 'Energy Efficient Water Heaters', href: getPermalink('/energy-efficient/energy-efficient-water-heaters') },
+        {
+          text: 'Energy Efficient Water Heaters',
+          href: getPermalink('/energy-efficient/energy-efficient-water-heaters'),
+        },
       ],
     },
     {
