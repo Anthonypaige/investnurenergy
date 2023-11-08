@@ -20,8 +20,8 @@ export const headerData = {
           text: 'Energy Efficient Home Upgrades',
           href: getPermalink('/energy-efficient/energy-efficient-home-upgrades'),
         },
-        { text: 'Heat Pumps', href: getPermalink('/energy-efficient/air-source-heat-pumps') },
-        { text: 'Water Heaters', href: getPermalink('/energy-efficient/energy-efficient-water-heaters') },
+        { text: 'Air Source Heat Pumps', href: getPermalink('/energy-efficient/air-source-heat-pumps') },
+        { text: 'Energy Efficient Water Heaters', href: getPermalink('/energy-efficient/energy-efficient-water-heaters') },
         { text: 'Weatherization', href: getPermalink('/energy-efficient/weatherization') },
       ],
     },
@@ -37,12 +37,12 @@ export const headerData = {
       links: [
         { text: 'Affiliate Marketplace', href: getPermalink('/shopping/affiliate-marketplace') },
         { text: 'Top Smart Thermostats', href: getPermalink('/shopping/top-smart-thermostats') },
-        { text: 'EV Chargers', href: getPermalink('/shopping/smart-ev-chargers') },
+        { text: 'Smart EV Chargers', href: getPermalink('/shopping/smart-ev-chargers') },
         { text: 'Portable Power Stations', href: getPermalink('/shopping/portable-power-stations') },
       ],
     },
     {
-      text: 'Blog',
+      text: 'Our Articles',
       links: [
         { text: 'Blog List', href: getBlogPermalink() },
         // { text: 'Category Page', href: getPermalink('home-clean-energy-credit', 'category') },
@@ -75,12 +75,12 @@ export const footerData = {
       ],
     },
     {
-      title: 'Themed Pages',
+      title: 'Home Improvements',
       links: [
-        { text: 'Geothermal Energy', href: getPermalink('/clean-energy/geothermal-heat-pumps') },
-        { text: 'Wind Energy', href: getPermalink('/clean-energy/wind-turbines') },
-        { text: 'Heat Pumps', href: getPermalink('/energy-efficient/air-source-heat-pumps') },
-        { text: 'Water Heaters', href: getPermalink('/energy-efficient/energy-efficient-water-heaters') },
+        { text: 'Geothermal Heat Pumps', href: getPermalink('/clean-energy/geothermal-heat-pumps') },
+        { text: 'Wind Turbines', href: getPermalink('/clean-energy/wind-turbines') },
+        { text: 'Air Source Heat Pumps', href: getPermalink('/energy-efficient/air-source-heat-pumps') },
+        { text: 'Energy Efficient Water Heaters', href: getPermalink('/energy-efficient/energy-efficient-water-heaters') },
       ],
     },
     {
@@ -89,7 +89,7 @@ export const footerData = {
         { text: 'Affiliate Marketplace', href: getPermalink('/shopping/affiliate-marketplace') },
         { text: 'Top Smart Thermostats', href: getPermalink('/shopping/smart-thermostat-comparison-table') },
         { text: 'Portable Power Stations', href: getPermalink('/shopping/portable-power-stations-comparison-table') },
-        { text: 'EV Chargers', href: getPermalink('/shopping/ev-charger-comparison-table') },
+        { text: 'Smart EV Chargers', href: getPermalink('/shopping/ev-charger-comparison-table') },
       ],
     },
   ],
