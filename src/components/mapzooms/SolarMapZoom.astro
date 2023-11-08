@@ -29,13 +29,19 @@ const zoomMap = (event) => {
     margin-bottom: 16px; /* Adds space below the title */
   }
   .map-subtitle {
-  font-size: 24px;
-  margin-bottom: 16px;
-  max-width: 60%; /* Constrain the maximum width */
-  margin-left: auto; /* Center the subtitle */
-  margin-right: auto; /* Center the subtitle */
-  text-align: center; /* Ensures text is centered within the div */
-}
+    font-size: 24px;
+    margin-bottom: 16px;
+    max-width: 60%; /* Constrain the maximum width */
+    margin-left: auto; /* Center the subtitle */
+    margin-right: auto; /* Center the subtitle */
+    text-align: center; /* Ensures text is centered within the div */
+  }
+  @media (max-width: 768px) {
+    .map-subtitle {
+      font-size: 18px; /* Smaller font size on smaller screens */
+      max-width: 80%; /* Wider max-width for better line distribution */
+    }
+  }
   .map-image {
     max-width: 50%;
     max-height: 50%;
@@ -65,8 +71,8 @@ const zoomMap = (event) => {
 <div class="map-container">
   <div class="map-title">Avg Annual Peak Sun Hours</div>
   <div class="map-subtitle">
-    Use this map as a starting point to evaluate solar potential. Dive deeper with our linked resources or our step-by-step articles for assessing your property.
-  </div>
+    Step 1: Identify your property's Peak Sun Hours here, and browse our guides for the next steps.
+  </div>  
   <img src="https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/page-art/FYI-map-page-art.jpg?raw=true" alt="Peak Sun Hours Map of US" class="map-image" @click={zoomMap}>
-  <div class="credit">Map Courtesy of <a href="https://www.nrel.gov/gis/solar-resource-maps.html"> NREL </a></div>
+  <div class="credit">Dive Deeper at <a href="https://www.nrel.gov/gis/solar-resource-maps.html"> NREL </a></div>
 </div>
