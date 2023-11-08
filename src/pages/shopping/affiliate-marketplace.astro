@@ -4,11 +4,12 @@ import MarketplaceGrid from '~/components/ui/MarketplaceGrid.astro';
 import Hero from '~/components/widgets/Hero.astro';
 
 const items = [
-  {
+  
+{
     title: 'Eco Flow Delta Pro',
     imageSrc: 'https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/HES-4-cover-art.png?raw=true',
     topSellingPoints: [
-  '3.6kWh AC Output',
+  '3.6kWh Continious Output',
   'Smart Energy Management',
   '2.7hr Fast Charge',
   'Solar/Wind Compatible',
@@ -24,6 +25,7 @@ const items = [
       href: 'https://amzn.to/460nJoB',
     }
   },
+  
   {
     title: 'Emporia Home Energy Monitoring System',
     imageSrc: 'https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/emporia-8-50.png?raw=true',
@@ -44,86 +46,28 @@ const items = [
       href: 'https://amzn.to/3sfTEDJ',
     }
   },
-    {
-    title: 'Ecobee 3 Lite',
-    imageSrc: 'https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/ecobee-3-lite.png?raw=true',
-    topSellingPoints: [
-  'Energy Star Certified',
-  'Time of Use Feature',
-  'Adjusts Temp for Humidity',
-  'Schedule Assistant',
-  'Smart Home & Away'
-],
-    avgPrice: '$145',
-    shopButton: {
-      text: 'Shop Here',
-      href: 'https://amzn.to/46Zu8C9',
-    },
-    shopAmazonButton: { // <-- Add this for each item
-      text: 'Shop Amazon',
-      href: 'https://amzn.to/46Zu8C9',
-    }
-  },
+  
   {
-    title: 'Ecobee Smart Thermostat Premium',
-    imageSrc: 'https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/THRM-2-cover-art.png?raw=true',
-    topSellingPoints: [
-  'Multi-Platform Compatibility',
-  'Security & Speaker',
-  'Air Quality Monitoring',
-  '$40 Smart Sensor Included',
-  'Advanced-Learning'
-],
-    avgPrice: '$225',
-    shopButton: {
-      text: 'Shop Here',
-      href: 'https://amzn.to/4705a5e',
-    },
-    shopAmazonButton: { // <-- Add this for each item
-      text: 'Shop Amazon',
-      href: 'https://amzn.to/4705a5e',
-    }
+
+  title:"Amazon Smart Thermostat",
+  imageSrc:"https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/amazon-smart-thermostat.png?raw=true",
+  topSellingPoints: [
+    "Energy Star Certified",
+    "Voice & App Control",
+    "Automatic Adjustments",
+    "DIY Installation",
+    "Rebate Eligible"
+  ],
+  "avgPrice": "$80",
+  "shopButton": {
+    "text": "Shop Here",
+    "href": "https://amzn.to/45MCawo"
   },
-  {
-    title: 'Google Nest Learning Thermostat',
-    imageSrc: 'https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/google-nest%20learning.png?raw=true',
-    topSellingPoints: [
-  'Energy-Saving Smarts',
-  'HVAC Monitoring',
-  'Easy Scheduling',
-  'Advanced Learning',
-  'Nest Renew Support'
-],
-  avgPrice: '$225',
-    shopButton: {
-      text: 'Shop Here',
-      href: 'https://amzn.to/3tNnwYK',
-    },
-    shopAmazonButton: { // <-- Add this for each item
-      text: 'Shop Amazon',
-      href: 'https://amzn.to/3tNnwYK',
-    }
-  },
-  {
-    title: 'Sense Home Energy Monitoring System',
-    imageSrc: 'https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/sense-hems.png?raw=true',
-    topSellingPoints: [
-  'Real-Time Energy Data',
-  'Appliance-Level Monitoring',
-  'Bill Tracking and goals',
-  'Machine-Learning Detection',
-  'Disaster Avoidance Alerts'
-],
-   avgPrice: '$300',
-    shopButton: {
-      text: 'Shop Here',
-      href: 'https://amzn.to/3Qau76Y',
-    },
-    shopAmazonButton: { // <-- Add this for each item
-      text: 'Shop Amazon',
-      href: 'https://amzn.to/3Qau76Y',
-    }
-  },
+  "shopAmazonButton": {
+    "text": "Shop Amazon",
+    "href": "https://amzn.to/45MCawo"
+  }
+  }, 
   {
     title: 'Bluetti 300AC +B300',
     imageSrc: 'https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/bluetti-ac-300.png?raw=true',
@@ -134,12 +78,12 @@ const items = [
   'Solar Compatibility',
   'Scalability Potential'
 ],
-   avgPrice: '$3,000',
+   avgPrice: '$2,700',
     shopButton: {
       text: 'Shop Here',
       href: 'https://amzn.to/3qes8Wj',
     },
-    shopAmazonButton: { // <-- Add this for each item
+    shopAmazonButton: { 
       text: 'Shop Amazon',
       href: 'https://amzn.to/3qes8Wj',
     }
@@ -160,9 +104,50 @@ const items = [
       text: 'Shop Here',
       href: 'https://amzn.to/40fpsoT',
     },
-    shopAmazonButton: { // <-- Add this for each item
+    shopAmazonButton: { 
       text: 'Shop Amazon',
       href: 'https://amzn.to/40fpsoT',
+    }
+  },
+  {
+    title: 'Ecobee 3 Lite',
+    imageSrc: 'https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/ecobee-3-lite.png?raw=true',
+    topSellingPoints: [
+  'Energy Star Certified',
+  'Time of Use Feature',
+  'Adjusts Temp for Humidity',
+  'Schedule Assistant',
+  'Smart Home & Away'
+ ],
+    avgPrice: '$145',
+    shopButton: {
+      text: 'Shop Here',
+      href: 'https://amzn.to/46Zu8C9',
+    },
+    shopAmazonButton: { // <-- Add this for each item
+      text: 'Shop Amazon',
+      href: 'https://amzn.to/46Zu8C9',
+    }
+  },
+  {
+    title: 'Renogy Lycan 5000',
+    imageSrc: 'https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/lycan-5000.png?raw=true',
+    topSellingPoints: [
+  '4.8kWh LiFePO4 Battery',
+  '3.5 kWh Continious Output',
+  'Portable & Modular Design',
+  'User friendly interface',
+  'Smart Power Management',
+],
+
+    avgPrice: '$3,200',
+    shopButton: {
+      text: 'Shop Here',
+      href: 'https://amzn.to/45P85fT',
+    },
+    shopAmazonButton: { 
+      text: 'Shop Amazon',
+      href: 'https://amzn.to/45P85fT',
     }
   },
   {
@@ -185,7 +170,30 @@ const items = [
       text: 'Shop Amazon',
       href: 'https://amzn.to/46ZA3qa',
     }
-  }
+  },
+  {
+    title: 'Ecobee Smart Thermostat Premium',
+    imageSrc: 'https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/ecobee-premium.png?raw=true',
+    topSellingPoints: [
+  'Multi-Platform Compatibility',
+  'Security & Speaker',
+  'Air Quality Monitoring',
+  '$40 Smart Sensor Included',
+  'Advanced-Learning'
+],
+
+    avgPrice: '$225',
+    shopButton: {
+      text: 'Shop Here',
+      href: 'https://amzn.to/4705a5e',
+    },
+    shopAmazonButton: { // <-- Add this for each item
+      text: 'Shop Amazon',
+      href: 'https://amzn.to/4705a5e',
+    }
+  },
+
+
 ];
 
 const columns = 3;
