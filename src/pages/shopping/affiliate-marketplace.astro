@@ -75,11 +75,7 @@ const items = [
   'Solar Compatibility',
   'Scalability Potential'
 ],
-   avgPrice: '$2,700',
-    // shopButton: {
-    //   text: 'Shop Here',
-    //   href: 'https://amzn.to/3qes8Wj',
-    // },
+   avgPrice: '$2,700',   
     shopAmazonButton: { 
       text: 'Shop Amazon',
       href: 'https://amzn.to/3qes8Wj',
@@ -97,10 +93,6 @@ const items = [
 ],
     
     avgPrice: '$400',
-    // shopButton: {
-    //   text: 'Shop Here',
-    //   href: 'https://amzn.to/40fpsoT',
-    // },
     shopAmazonButton: { 
       text: 'Shop Amazon',
       href: 'https://amzn.to/40fpsoT',
@@ -117,11 +109,7 @@ const items = [
   'Smart Home & Away'
  ],
     avgPrice: '$145',
-    // shopButton: {
-    //   text: 'Shop Here',
-    //   href: 'https://amzn.to/46Zu8C9',
-    // },
-    shopAmazonButton: { // <-- Add this for each item
+    shopAmazonButton: {
       text: 'Shop Amazon',
       href: 'https://amzn.to/46Zu8C9',
     }
@@ -138,10 +126,6 @@ const items = [
 ],
 
     avgPrice: '$3,200',
-    // shopButton: {
-    //   text: 'Shop Here',
-    //   href: 'https://amzn.to/45P85fT',
-    // },
     shopAmazonButton: { 
       text: 'Shop Amazon',
       href: 'https://amzn.to/45P85fT',
@@ -159,11 +143,7 @@ const items = [
 ],
    
     avgPrice: ' $600',
-    // shopButton: {
-    //   text: 'Shop Here',
-    //   href: 'https://amzn.to/46ZA3qa',
-    // },
-    shopAmazonButton: { // <-- Add this for each item
+    shopAmazonButton: {
       text: 'Shop Amazon',
       href: 'https://amzn.to/46ZA3qa',
     }
@@ -180,11 +160,7 @@ const items = [
 ],
 
     avgPrice: '$225',
-    // shopButton: {
-    //   text: 'Shop Here',
-    //   href: 'https://amzn.to/4705a5e',
-    // },
-    shopAmazonButton: { // <-- Add this for each item
+    shopAmazonButton: { 
       text: 'Shop Amazon',
       href: 'https://amzn.to/4705a5e',
     }
@@ -201,9 +177,8 @@ const columns = 3;
 <Layout>
   <!-- HeroText Widget ******************* -->
   <Hero
-  tagline="Curated Choices, Trusted Value"
   title=" Affiliate Marketplace "
-  subtitle='Explore handpicked solutions that kickstart your energy-efficient lifestyle. Stay tuned as our collection grows with you.'
+  subtitle='Browse our picks for products that deliver top energy savings and value, handpicked to give you the best bang for your buck'
   />
   <MarketplaceGrid items={items} columns={columns} />
 </Layout>

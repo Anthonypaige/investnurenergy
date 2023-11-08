@@ -107,14 +107,7 @@ export interface Headline {
   classes?: Record<string, string>;
 }
 
-interface TeamMember {
-  name?: string;
-  job?: string;
-  image?: Image;
-  socials?: Array<Social>;
-  description?: string;
-  classes?: Record<string, string>;
-}
+
 
 interface Social {
   icon?: string;
@@ -207,10 +200,6 @@ export interface Hero extends Headline, Widget {
   isReversed?: boolean;
 }
 
-export interface Team extends Headline, Widget {
-  team?: Array<TeamMember>;
-}
-
 export interface Stats extends Headline, Widget {
   stats?: Array<Stat>;
 }
@@ -219,10 +208,7 @@ export interface Pricing extends Headline, Widget {
   prices?: Array<Price>;
 }
 
-export interface Testimonials extends Headline, Widget {
-  testimonials?: Array<Testimonial>;
-  callToAction?: CallToAction;
-}
+
 
 export interface Features extends Headline, Widget {
   image?: string | unknown;
@@ -266,43 +252,22 @@ export interface Content extends Headline, Widget {
   callToAction?: CallToAction;
 }
 
-export interface InfoCard {
-  title?: string;
-  creditAmount: string;
-  tagline?: string;
-  cards?: Card[];
-  id?: string;
-  isDark?: boolean;
-  classes?: {
-    container?: string;
-  };
-  bg?: string;
-}
-
 export interface Card {
-  title: string; // The title of the product
-  imageSrc?: string; // Image of the product
+  title: string; 
+  imageSrc?: string; 
   topSellingPoints?: string[]; // Key features or selling points
-  avgPrice?: string; // Average price for the product
+  avgPrice?: number; 
   shopButton?: {
     text: string; // Text for the "Shop Here" button
     href: string; // URL for the action
   };
   shopAmazonButton?: {
-    // New field for the "Shop Amazon" button
     text: string; // Text for the "Shop Amazon" button
     href: string; // Amazon URL for the action
   };
-  taxCode: string; // Tax code related to the product
-  creditAmount: string; // Credit amount for the product
-  verifiedEnergySavings: string; // Energy savings info
+  hasRibbon?: boolean;
+  ribbonTitle?: string;
+  callToAction?: CallToAction;
+  }
 
-  callToAction?: {
-    // Call to action details
-    target: string; // Target for the link
-    text: string; // Text to display
-    href: string; // URL for the action
-  };
-}
 
-export interface Contact extends Headline, Form, Widget {}
