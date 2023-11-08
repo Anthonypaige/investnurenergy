@@ -36,7 +36,7 @@ const {
 
 {
   items && (
-    <div class={twMerge(`grid gap-8 md:gap-y-12 max-w-custom ${columns === 4 ? 'lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2' : columns === 3 ? 'lg:grid-cols-3 sm:grid-cols-2' : columns === 2 ? 'sm:grid-cols-2' : ''}`, containerClass)}>
+    <div class={twMerge(`grid gap-8 md:gap-y-12 max-w-custom ${columns === 4 ? 'lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 sm:ml-2' : columns === 3 ? 'lg:grid-cols-3 sm:grid-cols-2 sm:ml-2' : columns === 2 ? 'sm:grid-cols-2 sm:ml-2' : 'sm:ml-2'}`, containerClass)}>
       {items.map(({ title, imageSrc, topSellingPoints, avgPrice, shopButton, shopAmazonButton }) => (
         <div class={twMerge('card-hover relative flex flex-col max-w-sm p-4 border rounded shadow-lg bg-gray-800 hover:bg-gray-700 hover:shadow-xl transition duration-300', cardClass)}>
           {/* Product Title */}
