@@ -1,7 +1,7 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
 import Hero from '~/components/widgets/Hero.astro';
-import HomeCleanEnergyNote from '~/components/widgets/HomeCleanEnergyNote.astro';
+import HomeCleanEnergyNote from '~/components/notes/HomeCleanEnergyNote.astro';
 import FeaturedArticles from '~/components/widgets/FeaturedArticles.astro';
 import Stats from '~/components/widgets/Stats.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
@@ -14,11 +14,13 @@ const metadata = {
 
 <Layout metadata={metadata}>
   <Hero actions={[]} videoSrc="/images/home-clean-energy-video.mp4">
+
     <Fragment slot="title">
       <div class="text-left  text-blue-900 text-3xl sm:text-3xl md:text-4xl lg:text-5xl font-bold leading-tight tracking-tighter mb-4 font-heading">
         <div> Home Clean Energy Credit</div>
       </div>
     </Fragment>
+  
   </Hero>
 
 

@@ -29,13 +29,19 @@ const zoomMap = (event) => {
     margin-bottom: 16px; /* Adds space below the title */
   }
   .map-subtitle {
-  font-size: 24px;
-  margin-bottom: 16px;
-  max-width: 60%; /* Constrain the maximum width */
-  margin-left: auto; /* Center the subtitle */
-  margin-right: auto; /* Center the subtitle */
-  text-align: center; /* Ensures text is centered within the div */
-}
+    font-size: 24px;
+    margin-bottom: 16px;
+    max-width: 60%; /* Constrain the maximum width */
+    margin-left: auto; /* Center the subtitle */
+    margin-right: auto; /* Center the subtitle */
+    text-align: center; /* Ensures text is centered within the div */
+  }
+  @media (max-width: 768px) {
+    .map-subtitle {
+      font-size: 18px; /* Smaller font size on smaller screens */
+      max-width: 80%; /* Wider max-width for better line distribution */
+    }
+  }
   .map-image {
     max-width: 50%;
     max-height: 50%;

@@ -67,60 +67,83 @@ import WidgetWrapper from '../ui/WidgetWrapper.astro';
     <!-- Rest of your component -->
  
   
+    <h1>The Energy Arbitrage Savings Calculator</h1>
+    <form id="calculator-form">
+      <div class="input-container">
+        <div class="input-group">
+          <label for="batteryCapacity">Battery Usable Capacity (kWh):</label>
+          <input type="number" id="batteryCapacity" required>
+        </div>
+        <div class="input-group">
+          <label for="peakRate">Peak Rate (cents/kWh):</label>
+          <input type="number" id="peakRate" required>
+        </div>
+        <div class="input-group">
+          <label for="offPeakRate">Off-Peak Rate (cents/kWh):</label>
+          <input type="number" id="offPeakRate" required>
+        </div>
+        <div class="input-group">
+          <label for="summerPeakHours">Summer Peak Hours:</label>
+          <input type="number" id="summerPeakHours" required>
+        </div>
+        <div class="input-group">
+          <label for="nonSummerPeakHours">Non-Summer Peak Hours:</label>
+          <input type="number" id="nonSummerPeakHours" required>
+        </div>
+        <div class="input-group">
+          <label for="averageConsumption">Avg Consumption/Hour (kWh):</label>
+          <input type="number" id="averageConsumption" required>
+        </div>
+      </div>
+      <button type="submit">Calculate</button>
+    </form>
+    <h2>Results:</h2>
+    <p id="results"></p>
+  
 
- <h1>The Energy Arbitrage Savings Calculator</h1>
-  <form id="calculator-form">
-    <div class="input-container">
-      <div class="input-group">
-        <label for="batteryCapacity">Battery Usable Capacity (kWh):</label>
-        <input type="number" id="batteryCapacity" required>
-      </div>
-      <div class="input-group">
-        <label for="peakRate">Peak Rate (cents/kWh):</label>
-        <input type="number" id="peakRate" required>
-      </div>
-      <div class="input-group">
-        <label for="offPeakRate">Off-Peak Rate (cents/kWh):</label>
-        <input type="number" id="offPeakRate" required>
-      </div>
-      <div class="input-group">
-        <label for="summerPeakHours">Summer Peak Hours:</label>
-        <input type="number" id="summerPeakHours" required>
-      </div>
-      <div class="input-group">
-        <label for="nonSummerPeakHours">Non-Summer Peak Hours:</label>
-        <input type="number" id="nonSummerPeakHours" required>
-      </div>
-      <div class="input-group">
-        <label for="averageConsumption">Avg Consumption/Hour (kWh):</label>
-        <input type="number" id="averageConsumption" required>
-      </div>
-    </div>
-    <button type="button" onclick="calculateSavings()">Calculate</button>
-  </form>
-  <h2>Results:</h2>
-  <p id="results"></p>
-
-  <script>
-    function calculateSavings() {
-      var batteryCapacity = document.getElementById("batteryCapacity").value;
-      var peakRate = document.getElementById("peakRate").value;
-      var offPeakRate = document.getElementById("offPeakRate").value;
-      var summerPeakHours = document.getElementById("summerPeakHours").value;
-      var nonSummerPeakHours = document.getElementById("nonSummerPeakHours").value;
-      var averageConsumption = document.getElementById("averageConsumption").value;
+    <script type="module">
+      document.addEventListener('DOMContentLoaded', () => {
+        const form = document.getElementById('calculator-form');
+        form.addEventListener('submit', function(event) {
+          event.preventDefault();
+          calculateSavings();
+        });
   
-      var summerDays = 122;
-      var nonSummerDays = 243;
+        function calculateSavings() {
+          // Use type assertion to tell TypeScript the specific type of the element
+          const batteryCapacityElement = document.getElementById('batteryCapacity') as HTMLInputElement;
+          const peakRateElement = document.getElementById('peakRate') as HTMLInputElement;
+          const offPeakRateElement = document.getElementById('offPeakRate') as HTMLInputElement;
+          const summerPeakHoursElement = document.getElementById('summerPeakHours') as HTMLInputElement;
+          const nonSummerPeakHoursElement = document.getElementById('nonSummerPeakHours') as HTMLInputElement;
+          const averageConsumptionElement = document.getElementById('averageConsumption') as HTMLInputElement;
   
-      var savingsPerKWh = peakRate - offPeakRate;
+          // Now TypeScript knows that these are input elements and they have a 'value' property
+          const batteryCapacity = parseFloat(batteryCapacityElement.value);
+          const peakRate = parseFloat(peakRateElement.value);
+          const offPeakRate = parseFloat(offPeakRateElement.value);
+          const summerPeakHours = parseFloat(summerPeakHoursElement.value);
+          const nonSummerPeakHours = parseFloat(nonSummerPeakHoursElement.value);
+          const averageConsumption = parseFloat(averageConsumptionElement.value);
   
-      var summerSavings = savingsPerKWh * averageConsumption * summerPeakHours * summerDays;
-      var nonSummerSavings = savingsPerKWh * averageConsumption * nonSummerPeakHours * nonSummerDays;
+          if (isNaN(batteryCapacity) || isNaN(peakRate) || isNaN(offPeakRate) ||
+              isNaN(summerPeakHours) || isNaN(nonSummerPeakHours) || isNaN(averageConsumption)) {
+            document.getElementById("results").innerText = "Please enter all fields correctly.";
+            return;
+          }
   
-      var totalSavings = summerSavings + nonSummerSavings;
+          const summerDays = 122;
+          const nonSummerDays = 243;
   
-      document.getElementById("results").innerHTML = "Total Savings Per Year: $" + totalSavings.toFixed(2);
-    }
-  </script>
-</WidgetWrapper>
+          const savingsPerKWh = peakRate - offPeakRate;
+  
+          const summerSavings = savingsPerKWh * averageConsumption * summerPeakHours * summerDays;
+          const nonSummerSavings = savingsPerKWh * averageConsumption * nonSummerPeakHours * nonSummerDays;
+  
+          const totalSavings = summerSavings + nonSummerSavings;
+  
+          document.getElementById("results").innerText = "Total Savings Per Year: $" + totalSavings.toFixed(2);
+        }
+      });
+    </script>
+  </WidgetWrapper>

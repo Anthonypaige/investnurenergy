@@ -4,9 +4,8 @@ import Hero from '~/components/widgets/Hero.astro';
 import FeaturedArticles from '~/components/widgets/FeaturedArticles.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
 import Stats from '~/components/widgets/Stats.astro';
-import GeothermalNote from '~/components/widgets/GeothermalNote.astro';
+import GeothermalNote from '~/components/notes/GeothermalNote.astro';
 import GeoMapZoom from '~/components/mapzooms/GeoMapZoom.astro';
-
 
 const metadata = {
   title: 'Geothermal Heat Pumps',
@@ -16,7 +15,7 @@ const metadata = {
 <Layout metadata={metadata}>
   <Hero actions={[]} videoSrc="/images/geothermal-energy-video.mp4">
     <Fragment slot="title">
-      <div class="text-left text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight tracking-tighter sm:mb-4 font-heading mt-8 sm:mt-0">
+      <div class="text-left text-3xl sm:text-3xl md:text-4xl lg:text-5xl font-bold leading-tight tracking-tighter sm:mb-4 font-heading mt-8 sm:mt-0">
         <div><span class="text-blue-700">Geothermal </span> Heat Pumps</div>
       </div>
     </Fragment>
