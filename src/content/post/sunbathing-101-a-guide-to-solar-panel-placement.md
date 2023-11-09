@@ -15,9 +15,9 @@ Qualifying your home for solar panel installation is like planning the perfect d
 
 The first step to planning a day of sunbathing would be to plan a time when it’s going to be the sunniest out, those are your peak sun hours. Solar panels might be exposed to sunlight for about 7 hours on average per day, but the real energy production lies within the 4 to 5 peak sun hours. As you can see from The **National Renewable Energy Laboratory’s map**, some regions have more peak sun hours than others, giving them a higher production potential.
 
-![Super wide](https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/page-art/peak-sun-hous-map-NREL-page-art.jpg?raw=true)
+![Super wide](https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/page-art/FYI-map-page-art.jpg?raw=true)
 
-It’s important to note that this map gives a quick overview of peak sun hours across the country, helping you identify the areas with the most peak sun hours. However, this is an annual average. peak sun hours vary across seasons the same as they do across regions. The [National Renewable Energy Laboratory’s Solar Resource Data](https://www.nrel.gov/gis/solar-resource-maps.html) provides a detailed calculation of your area's average peak sun hours, and monthly seasonal difference.
+It’s important to note that this map gives a quick overview of peak sun hours across the country, helping you identify the areas with the most peak sun hours. However, this is an annual average. peak sun hours vary across seasons the same as they do across regions. The National Renewable Energy Laboratory’s [Solar Resource Data](https://www.nrel.gov/gis/solar-resource-maps.html) provides a detailed calculation of your area's average peak sun hours, and monthly seasonal difference.
 
 Not having the ideal amount of peak sun hours isn’t necessarily a deterrent for solar. New York may not look like an ideal region for solar, yet due to their high electricity rates and favorable state programs, they’re a great state to get solar in right now.
 
@@ -28,7 +28,7 @@ Once you have your tanning times down, the next step is to scout the perfect loc
 But these numbers are based on perfect conditions. You still have to consider factors like roof tilt and shading. The roof pitch affects solar panel orientation, with the ideal angle in the US being between 30 and 40 degrees. If your roof's pitch is suboptimal, it can be corrected with specific mounting systems. The last consideration is potential sun blockers like tall trees or nearby structures.
 
 It might seem like a complex process, but fortunately, there are tools to help.
-[Google's innovative Project Sunroof](https://www.google.com/get/sunroof) is a handy tool in this process. It creates a 3D model of your rooftop, highlighting areas with maximum solar potential and pointing out possible sun blockers. However, remember that this tool provides potential capacity, not a definitive recommendation. Your ultimate energy offset strategy will determine the size of your system, and the placement of the panels, considering these obstacles, is key to maximizing solar energy production.
+Google's innovative [Project Sunroof](https://www.google.com/get/sunroof) is a handy tool in this process. It creates a 3D model of your rooftop, highlighting areas with maximum solar potential and pointing out possible sun blockers. However, remember that this tool provides potential capacity, not a definitive recommendation. Your ultimate energy offset strategy will determine the size of your system, and the placement of the panels, considering these obstacles, is key to maximizing solar energy production.
 
 ![Super wide](https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/In-article-images/FYI-1-in-article-.jpg?raw=true)
 

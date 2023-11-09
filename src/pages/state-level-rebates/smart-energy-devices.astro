@@ -2,6 +2,7 @@
 import Layout from '~/layouts/PageLayout.astro';
 import SmartEnergyDeviceNote from '~/components/widgets/SmartEnergyDeviceNote.astro';
 import Hero from '~/components/widgets/Hero.astro';
+import Steps2 from '~/components/widgets/Steps2.astro';
 import Features3 from '~/components/widgets/Features3.astro';
 import FeaturedArticles from '~/components/widgets/FeaturedArticles.astro';
 
@@ -86,4 +87,35 @@ const metadata = {
       'your-comprehensive-google-nest-buying-guide',
     ]}
   />
+  <Steps2
+  title="Discover State-Level Energy Rebates"
+  subtitle="Your Gateway to Savings with Renewables & Efficiency Incentives"
+  
+  callToAction={{
+    text: 'Find Your State Rebates',
+    href: 'https://www.dsireusa.org/',
+  }}
+  items={[
+    {
+     
+    title: 'Input Your Zip Code',
+    description: 'Input your zip code to tailor the rebate search to your location.',
+    icon: 'tabler:zip',
+    },
+    {
+      title: 'Select a Rebate Program',
+      description: 'Filter results to find rebate programs that match your needs.',
+      icon: 'tabler:receipt-refund',
+    },
+    {
+      title: 'Check Eligibility Criteria',
+    description:
+      'Review buying restrictions to ensure your purchase qualifies for the rebate.',
+    icon: 'tabler:checklist',
+    },
+  ]}
+  />
+  
+
+
 </Layout>
