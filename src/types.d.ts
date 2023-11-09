@@ -107,8 +107,6 @@ export interface Headline {
   classes?: Record<string, string>;
 }
 
-
-
 interface Social {
   icon?: string;
   href?: string;
@@ -208,8 +206,6 @@ export interface Pricing extends Headline, Widget {
   prices?: Array<Price>;
 }
 
-
-
 export interface Features extends Headline, Widget {
   image?: string | unknown;
   video?: Video;
@@ -253,10 +249,10 @@ export interface Content extends Headline, Widget {
 }
 
 export interface Card {
-  title: string; 
-  imageSrc?: string; 
+  title: string;
+  imageSrc?: string;
   topSellingPoints?: string[]; // Key features or selling points
-  avgPrice?: number; 
+  avgPrice?: number;
   shopButton?: {
     text: string; // Text for the "Shop Here" button
     href: string; // URL for the action
@@ -268,6 +264,4 @@ export interface Card {
   hasRibbon?: boolean;
   ribbonTitle?: string;
   callToAction?: CallToAction;
-  }
-
-
+}

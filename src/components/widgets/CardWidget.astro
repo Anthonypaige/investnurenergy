@@ -1,5 +1,4 @@
 ---
-// Import the necessary components and types
 import type { Card as CardType } from '~/types';
 import WidgetWrapper from '~/components/ui/WidgetWrapper.astro';
 import Button from '~/components/ui/Button.astro';
@@ -12,37 +11,47 @@ const {
 ---
 
 <WidgetWrapper>
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <h2 class="text-2xl font-extrabold tracking-tight text-gray-900">{title}</h2>
+  <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-7">
+    <h2 class="text-3xl font-extrabold tracking-tight text-center">{title}</h2>
     <div class="mt-6 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-8">
       {cards.map((card: CardType) => (
-        <div class="group relative">
-          <div class="w-full min-h-80 bg-gray-200 aspect-w-1 aspect-h-1 rounded-md overflow-hidden group-hover:opacity-75 lg:h-80 lg:aspect-none">
+        <div class="group relative transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-lg"> <!-- Added hover effects here -->
+          <div class="w-full min-h-80 bg-gray-200 aspect-w-1 aspect-h-1 rounded-md overflow-hidden lg:h-80 lg:aspect-none">
             <img
               src={card.imageSrc}
               alt={card.title}
               class="w-full h-full object-center object-cover lg:w-full lg:h-full"
             />
           </div>
-          <div class="mt-4 flex justify-between">
-            <div>
-              <h3 class="text-sm text-gray-700">
-                <a href={card.shopButton.href}>
-                  <span aria-hidden="true" class="absolute inset-0"></span>
-                  {card.title}
-                </a>
-              </h3>
-              <p class="mt-1 text-sm text-gray-500">{card.topSellingPoints.join(', ')}</p>
+          <div class="mt-4 flex flex-col items-center">
+            <h3 class="text-xl font-bold my-4">
+              {card.title}
+            </h3>
+            <div class="w-full flex justify-center">
+              <ul class="text-left  text-lg pt-2">
+                {card.topSellingPoints.map((point) => (
+                  <li class="flex items-center text-lg">
+                    <span class="text-green-600 mr-2">✔️</span> {point}
+                  </li>
+                ))}
+              </ul>
             </div>
-            <p class="text-sm font-medium text-gray-900">{card.avgPrice}</p>
+            <div class="flex justify-center items-center w-full mt-2">
+              <span class="text-m font-bold text-white mr-2">Avg Price:</span>
+              <span class="text-m font-bold text-green-600">{card.avgPrice}</span>
+            </div>
           </div>
           {card.callToAction && (
-            <Button href={card.callToAction.href} class="mt-6">
-              {card.callToAction.text}
-            </Button>
+            <div class="flex justify-center w-full mt-4">
+              <Button href={card.callToAction.href}>
+                {card.callToAction.text}
+              </Button>
+            </div>
           )}
         </div>
       ))}
     </div>
   </div>
 </WidgetWrapper>
+
+
