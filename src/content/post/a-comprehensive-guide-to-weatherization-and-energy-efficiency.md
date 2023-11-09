@@ -26,7 +26,7 @@ Weatherization, often referred to as weatherproofing, is the process of modifyin
 
 - **HEEHRA**: Tailored for low to moderate-income households, HEEHRA underscores the importance of insulation and sealants. It also encompasses certain ventilation projects. For a detailed breakdown and eligibility criteria, refer to EnergyEfficientRebate.com, where we have a breakdown of what we know about [HEEHRA](what-is-the-high-efficiency-electric-home-rebate-act).
 
-- **State Level Incentives**: Numerous state governments and local utilities extend rebates for weatherization, recognizing its cost-effectiveness and potential for energy savings. Explore the [Database](dsireusa.org) of State Incentives for Renewables & Efficiency to discover incentives in your state.
+- **State Level Incentives**: Numerous state governments and local utilities extend rebates for weatherization, recognizing its cost-effectiveness and potential for energy savings. Explore the [Database](https://www.dsireusa.org) of State Incentives for Renewables & Efficiency to discover incentives in your state.
 
 - **Weatherization Assistance Program (WAP)**: This federal program assists low-income families in improving the energy efficiency of their homes, fostering healthier living conditions and reducing energy bills. You can learn more about how to [apply here](https://www.energy.gov/scep/wap/how-apply-weatherization-assistance)
 

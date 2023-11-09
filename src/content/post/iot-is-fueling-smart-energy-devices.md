@@ -1,5 +1,5 @@
 ---
-publishDate: 2023-10-18T00:00:00Z
+publishDate: 2023-10-30T00:00:00Z
 title: IoT is fueling Smart Energy Devices
 excerpt: The term "smart" refers to their ability to communicate with each other through the Internet of Things (IoT), enhancing energy management and control.
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/SED-1-cover-art.jpg?raw=true

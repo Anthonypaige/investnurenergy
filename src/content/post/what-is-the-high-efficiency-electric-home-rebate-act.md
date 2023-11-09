@@ -44,7 +44,7 @@ Wondering how these provisions apply to you? [Rewiring America's IRA Calculator]
 
 If not covered by HEERA, you’ll more than likely be eligible for the broader Energy Efficient Home Improvement Credit 25C. Visit [Energy Efficient Home Upgrades](energy-efficient-home-upgrades) to learn more.
 
-Also, many of these items can also be eligible for state rebates, allowing you to stack them. Check the [Database](www.dsireusa.org) of State Incentives for Renewables & Efficiency] for your eligibility for state-level rebates.
+Also, many of these items can also be eligible for state rebates, allowing you to stack them. Check the [Database](https://www.dsireusa.org/) of State Incentives for Renewables & Efficiency for your eligibility for state-level rebates.
 
 #### **Conclusion**
 

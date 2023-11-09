@@ -1,5 +1,5 @@
 ---
-publishDate: 2023-09-27T00:00:00Z
+publishDate: 2023-10-27T00:00:00Z
 title: Your Comprehensive Google Nest Buying Guide
 excerpt: This guide aims to help you make an informed decision on which model best suits your home.
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/THRM-3-cover-art.jpg?raw=true
@@ -14,7 +14,7 @@ In the fast-paced world of smart home technology, thermostats have become increa
 
 ### **Google Nest Thermostat: The Affordable Smart Solution**
 
-Priced between $111 and $130 depending on the color, the Google Nest Thermostat serves as an affordable entry into smart thermostat technology. Beyond its functionality, this thermostat also adds a modern touch to your home with its sleek mirrored display. Available in multiple colors, you can choose one that complements your interior design. You can install this Energy Star certified smart thermostat yourself in less than 30 minutes.
+Priced between $111 and $130 depending on the color, the [Google Nest Thermostat](https://amzn.to/3sAiqyB) serves as an affordable entry into smart thermostat technology. Beyond its functionality, this thermostat also adds a modern touch to your home with its sleek mirrored display. Available in multiple colors, you can choose one that complements your interior design. You can install this Energy Star certified smart thermostat yourself in less than 30 minutes.
 
 - **Remote Control**: Control the thermostat from your smartphone, tablet, or computer.
 - **Voice Assistants**: Compatibility with voice assistants like Google Assistant and Amazon Alexa makes it a versatile addition to your smart home ecosystem.
@@ -30,7 +30,7 @@ The Google Nest Thermostat is more than just a device; it's an investment in you
 
 ### **Google Nest Learning Thermostat: The Premium Choice**
 
-Priced between $200 and $245, the [Google Nest Learning Thermostat](shopping/affiliate-marketplace) premium model includes all the features of the base model and takes it a step further with enhanced capabilities such as:
+Priced between $200 and $245, the [Google Nest Learning Thermostat](https://amzn.to/3tNnwYK) premium model includes all the features of the base model and takes it a step further with enhanced capabilities such as:
 
 - **Machine Learning**: This thermostat learns your habits and preferences, automatically adjusting the temperature based on your routines. However, this feature may not be suitable for everyone, especially those with variable schedules.
 - **Nest Temperature Sensors**: These optional sensors, priced at around $40 each, allow for room-specific temperature control.

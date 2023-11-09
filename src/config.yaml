@@ -1,6 +1,6 @@
 site:
-  name: AstroWind
-  site: 'https://astrowind.vercel.app'
+  name: Invest in Your Energy
+  site: 'https://investinyourenergy.com'
   base: '/'
   trailingSlash: false
 
@@ -9,22 +9,22 @@ site:
 # Default SEO metadata
 metadata:
   title:
-    default: AstroWind
-    template: '%s — AstroWind'
-  description: "\U0001F680 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs."
+    default: Invest in Your Energy
+    template: '%s — Invest in Your Energy'
+  description: "\Navigate home energy savings with Invest in Your Energy. We're dedicated to helping you leverage tax credits and rebates for making energy-efficient improvements to your home."
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: AstroWind
+    site_name: Invest in Your Energy
     images:
-      - url: '~/assets/images/default.png'
+      - url: '~/assets/images/iiye-logo.png'
         width: 1200
         height: 628
     type: website
   twitter:
-    handle: '@onwidget'
-    site: '@onwidget'
+    handle: '@investnurenergy'
+    site: 'investinyourenergy.com'
     cardType: summary_large_image
 
 i18n:
@@ -34,7 +34,7 @@ i18n:
 apps:
   blog:
     isEnabled: true
-    postsPerPage: 6
+    postsPerPage: 5
 
     post:
       isEnabled: true
