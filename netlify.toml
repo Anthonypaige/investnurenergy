@@ -1,9 +1,80 @@
 [build]
   publish = "dist"
   command = "npm run build"
+
 [build.processing.html]
   pretty_urls = false
+
 [[headers]]
   for = "/assets/*"
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
+
+# Redirects
+[[redirects]]
+  from = "https://www.topsmartthermostats.com/*"
+  to = "https://investinyourenergy.com/shopping/top-smart-thermostats"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.batteriesforhome.com/*"
+  to = "https://investinyourenergy.com/clean-energy/home-energy-storage"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.energyefficientrebate.com/*"
+  to = "https://investinyourenergy.com/state-level-rebates/energy-efficient-rebates"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.smartenergydevice.com/*"
+  to = "https://investinyourenergy.com/state-level-rebates/smart-energy-devices"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.homepowercharger.com/*"
+  to = "https://investinyourenergy.com/shopping/smart-ev-chargers"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.homeenergycredit.com/*"
+  to = "https://investinyourenergy.com"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.homecleanenergycredit.com/*"
+  to = "https://investinyourenergy.com/clean-energy/home-clean-energy-credit"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.solartaxincentive.com/*"
+  to = "https://investinyourenergy.com/clean-energy/solar-tax-incentive"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.backupbatterykits.com/*"
+  to = "https://investinyourenergy.com/shopping/portable-power-stations"
+  status = 301
+  force = true
+
+
+[[redirects]]
+  from = "https://www.wholehomebatterybackup.com/*"
+  to = "https://investinyourenergy.com/clean-energy/home-energy-storage"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.energyefficienthomeupgrades.com/*"
+  to = "https://investinyourenergy.com/energy-efficient/energy-efficient-home-upgrades"
+  status = 301
+  force = true
+

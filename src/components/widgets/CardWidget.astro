@@ -1,46 +1,48 @@
 ---
-import styled from 'styled-components';
+// Import the necessary components and types
 import type { Card as CardType } from '~/types';
 import WidgetWrapper from '~/components/ui/WidgetWrapper.astro';
+import Button from '~/components/ui/Button.astro';
 
-
-const CardContainer = styled.div`
-  border: 1px solid #ccc;
-  padding: 16px;
-  margin: 16px;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-`;
-
-// Get Astro props
+// Props passed to this component
 const {
-  title = '',
-  imageSrc = '',
-  topSellingPoints = [],
-  avgPrice = '',
-  taxCode = '',
-  creditAmount = '',
-  verifiedEnergySavings = '',
-  callToAction = null
-} = Astro.props as CardType;
+  cards = [], // This will be an array of CardType
+  title = 'Featured Products' // You can set a default or pass this as a prop
+} = Astro.props;
 ---
 
 <WidgetWrapper>
-    <CardContainer>
-      {imageSrc && <img src={imageSrc} alt={title} style={{width: '100%', height: 'auto', marginBottom: '16px'}} />}
-      <h2 style={{fontSize: '24px', marginBottom: '8px'}}>{title}</h2>
-      {topSellingPoints.map((point) => (
-        <p style={{fontSize: '16px', marginBottom: '8px'}}>• {point}</p>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h2 class="text-2xl font-extrabold tracking-tight text-gray-900">{title}</h2>
+    <div class="mt-6 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-8">
+      {cards.map((card: CardType) => (
+        <div class="group relative">
+          <div class="w-full min-h-80 bg-gray-200 aspect-w-1 aspect-h-1 rounded-md overflow-hidden group-hover:opacity-75 lg:h-80 lg:aspect-none">
+            <img
+              src={card.imageSrc}
+              alt={card.title}
+              class="w-full h-full object-center object-cover lg:w-full lg:h-full"
+            />
+          </div>
+          <div class="mt-4 flex justify-between">
+            <div>
+              <h3 class="text-sm text-gray-700">
+                <a href={card.shopButton.href}>
+                  <span aria-hidden="true" class="absolute inset-0"></span>
+                  {card.title}
+                </a>
+              </h3>
+              <p class="mt-1 text-sm text-gray-500">{card.topSellingPoints.join(', ')}</p>
+            </div>
+            <p class="text-sm font-medium text-gray-900">{card.avgPrice}</p>
+          </div>
+          {card.callToAction && (
+            <Button href={card.callToAction.href} class="mt-6">
+              {card.callToAction.text}
+            </Button>
+          )}
+        </div>
       ))}
-      
-      <p style={{fontSize: '16px', marginBottom: '8px'}}>Avg Price: {avgPrice}</p>
-      <p style={{fontSize: '16px', marginBottom: '8px'}}>Tax Code: {taxCode}</p>
-      <p style={{fontSize: '16px', marginBottom: '8px'}}>Credit Amount: {creditAmount}</p>
-      <p style={{fontSize: '16px', marginBottom: '8px'}}>Verified Energy Savings: {verifiedEnergySavings}</p>
-      {callToAction && (
-        <a href={callToAction.href} target={callToAction.target} style={{display: 'inline-block', padding: '12px 24px', backgroundColor: '#007bff', color: 'white', textAlign: 'center', borderRadius: '4px', textDecoration: 'none'}}>
-          {callToAction.text}
-        </a>
-      )}
-    </CardContainer>
+    </div>
+  </div>
 </WidgetWrapper>
