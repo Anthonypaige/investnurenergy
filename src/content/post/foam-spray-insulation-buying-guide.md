@@ -8,6 +8,8 @@ tags:
   - Foam Spray
   - Insulation
   - Buying Guide
+metadata:
+  canonical: https://investinyourenergy.com/foam-spray-insulation-buying-guide
 ---
 
 With the Inflation Reduction Act, insulation, including foam spray insulation, has become a critical component in cost-saving home improvements. Through the Energy Efficient Home Improvement Credit, homeowners can now claim 30% of costs up to $1200 annually in tax incentives. Soon, the Electrification Rebate Act will offer 50% to 100% in point-of-sale rebates. Combine these incentives with the energy savings, and investing in insulation becomes a no-brainer. While not all of us are skilled in insulation installation, foam spray insulation presents an easy DIY option if you want to save even more by bypassing the installation costs. This comprehensive guide is designed to navigate you through the world of foam spray insulation. From small DIY projects to significant renovations, we'll explore how foam spray insulation can be a game-changer for your home and wallet.

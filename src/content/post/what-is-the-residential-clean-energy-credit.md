@@ -8,6 +8,8 @@ tags:
   - home energy storage
   - tax credit rollover
   - tax liability
+metadata:
+  canonical: https://investinyourenergy.com/what-is-the-residential-clean-energy-credit
 ---
 
 As we navigate towards a sustainable future, two key terms often surface: "clean energy" and "energy efficiency." While they may seem synonymous, they represent distinct facets of our energy landscape. Clean energy taps into natural forces like the sun, wind, and Earth's core, while energy efficiency optimizes consumption. Though both concepts are equally important, much like making and saving money in business, the focus of the Residential Clean Energy Credit Act is solely on creating energy. In this article, we'll explore the ways we can harness these natural forces to fuel our sustainable future.

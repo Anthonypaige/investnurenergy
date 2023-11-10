@@ -8,6 +8,8 @@ tags:
   - Ductless Mini Split
   - Heat Pumps
   - DIY
+metadata:
+  canonical: https://investinyourenergy.com/whats-a-ductless-mini-split-heat-pump
 ---
 
 In the pursuit of advanced energy efficiency and cost-effective home solutions, Ductless Mini Split Heat Pumps have gained significant attention. These versatile units offer a host of benefits, from personalized temperature control to effortless installation. This article aims to provide a comprehensive guide to Ductless Mini Split Heat Pumps, helping you understand their advantages and make an informed decision.

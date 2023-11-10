@@ -8,6 +8,8 @@ tags:
   - residential wind turbines
   - clean energy
   - property assessment
+metadata:
+  canonical: https://investinyourenergy.com/is-your-home-a-good-candidate-for-residential-wind-power
 ---
 
 Investing in wind power for your home is not just a smart decision, but also an eco-friendly one. With the potential to significantly reduce your energy bills and the added benefit of a 30% tax credit from the U.S. government, wind energy has become an appealing alternative for home power. This guide will assist you in determining if your property is a suitable candidate for wind power utilization.

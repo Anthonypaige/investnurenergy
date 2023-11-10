@@ -8,6 +8,8 @@ tags:
   - Solar loans
   - solar energy
   - Home Clean Energy credit
+metadata:
+  canonical: https://investinyourenergy.com/quote-the-blue-raven-nevermore
 ---
 
 **Is Blue Raven Solar legitimate?** This is a question that many potential customers find themselves asking as they consider transitioning to renewable energy. While the company presents itself as a beacon of sustainability and financial savings, there's a darker reality that needs to be exposed. This article aims to shed light on the unethical business practices of Blue Raven Solar and its parent company, SunPower.

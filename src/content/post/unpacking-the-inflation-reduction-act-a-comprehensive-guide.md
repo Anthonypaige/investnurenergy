@@ -8,6 +8,8 @@ tags:
   - Inflation Reduction Act
   - Home Clean Energy Credit
   - Energy Efficienct Home Upgrades
+metadata:
+  canonical: https://investinyourenergy.com/unpacking-the-inflation-reduction-act-a-comprehensive-guide
 ---
 
 ### **What is the Inflation Reduction Act of 2022?**

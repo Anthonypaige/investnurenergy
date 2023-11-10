@@ -8,6 +8,8 @@ tags:
   - Solar energy
   - SEIA
   - solar loans
+metadata:
+  canonical: https://investinyourenergy.com/spotlight-on-solar-industry-promoting-transparency-and-standards
 ---
 
 The solar energy industry, despite its numerous advantages, has often been misunderstood, leading to a negative perception. This unfortunate reputation is largely due to a lack of consumer awareness and the presence of novice installers and deceptive solar loans. However, with the right knowledge and the efforts of organizations like the Solar Energy Industries Association (SEIA), we can promote transparency and set industry standards.

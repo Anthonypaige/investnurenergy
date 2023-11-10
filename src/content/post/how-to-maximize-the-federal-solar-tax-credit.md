@@ -8,6 +8,8 @@ tags:
   - Home Clean Energy Credit
   - tax liability
   - tax credit rollover
+metadata:
+  canonical: https://investinyourenergy.com/how-to-maximize-the-federal-solar-tax-credit
 ---
 
 The Residential Clean Energy Credit, part of the Inflation Reduction Act of 2022, is a powerful incentive for homeowners to invest in solar energy. By offsetting a portion of energy reliance on the grid, this credit promotes sustainable living and offers significant financial benefits. This article explores the intricacies of the Residential Clean Energy Credit, known by its [tax code 25D](https://www.irs.gov/credits-deductions/residential-clean-energy-credit), and provides insights into maximizing your solar investment, understanding potential pitfalls, and planning for future energy needs.

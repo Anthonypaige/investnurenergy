@@ -8,6 +8,8 @@ tags:
   - heat pumps
   - weatherization
   - heat pump water heaters
+metadata:
+  canonical: https://investinyourenergy.com/what-is-the-energy-efficient-home-improvement-credit
 ---
 
 A key component of this legislation is the Energy-Efficient Home Improvement Credit, designed to encourage the adoption of technologies and practices that reduce energy consumption and environmental impact. From heat pumps to insulation enhancements, this credit provides financial support for a variety of upgrades that contribute to a more energy-efficient home. In this guide, we'll explore the details of the Energy-Efficient Home Improvement Credit, helping you understand how to leverage this opportunity to make your home more sustainable and cost-effective.

@@ -8,6 +8,8 @@ tags:
   - Solar Energy
   - Solar ROI
   - Solar offset strategy
+metadata:
+  canonical: https://investinyourenergy.com/a-simplified-guide-to-solar-energy-roi
 ---
 
 Combine setting the stage and average family

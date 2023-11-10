@@ -8,6 +8,8 @@ tags:
   - Biomass Boilers
   - grid independence
   - On Demand energy source
+metadata:
+  canonical: https://investinyourenergy.com/biomass-boilers-explained
 ---
 
 Are you considering making your home more energy-efficient but are unsure where to start? Biomass boilers offer an eco-friendly and efficient solution for home heating. This comprehensive guide will walk you through everything you need to know about biomass boilers, from the generous tax credits available under the 25C tax code to their high thermal efficiency rates. We'll also discuss who should consider investing in these systems and why they're a good fit for long-term energy savings.

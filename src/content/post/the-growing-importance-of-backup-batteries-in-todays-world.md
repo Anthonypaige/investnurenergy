@@ -8,6 +8,8 @@ tags:
   - TOU rates
   - grid independence
   - Energy Arbitrage
+metadata:
+  canonical: https://investinyourenergy.com/the-growing-importance-of-backup-batteries-in-todays-world
 ---
 
 In an era marked by frequent power outages and an increasingly strained electrical grid, backup batteries have transitioned from being a luxury to a necessity. The need for grid upgrades is a pressing issue, and until those upgrades occur, backup batteries serve as a vital safety net.

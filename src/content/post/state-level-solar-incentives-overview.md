@@ -8,6 +8,8 @@ tags:
   - State-Level Incentives
   - feed-in tariffs
   - net-metering
+metadata:
+  canonical: https://investinyourenergy.com/state-level-solar-incentives-overview
 ---
 
 Solar energy is at the forefront of the renewable energy movement, offering a sustainable and eco-friendly alternative to traditional energy sources. However, the adoption of solar energy is not solely a matter of environmental consciousness; it's also a financially strategic decision. State-level solar incentives play a pivotal role in this equation, making solar energy more accessible and appealing to homeowners across the nation.

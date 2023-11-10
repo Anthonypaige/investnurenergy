@@ -8,6 +8,8 @@ tags:
   - Energy Arbitrage
   - TOU Rates
   - portable power stations
+metadata:
+  canonical: https://investinyourenergy.com/what-is-energy-arbitrage
 ---
 
 As our electrical grid ages and struggles to meet modern energy demands, the importance of backup batteries has surged. These batteries are no longer just a convenience; they're a lifeline in emergencies, a bolster to your home's energy security, and a savvy financial investment in the era of Time-of-Use (TOU) rates. With TOU rates encouraging off-peak energy consumption, backup batteries also offer the opportunity for energy arbitrage—buying energy when it's cheap and using or selling it when prices soar. And with the added benefit of tax incentives through the Residential Clean Energy Credit, there's never been a better time to invest in a backup battery system.

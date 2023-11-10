@@ -8,6 +8,8 @@ tags:
   - TOU Rates
   - smart energy devices
   - home energy storage
+metadata:
+  canonical: https://investinyourenergy.com/mastering-time-of-use-rate-strategies-for-smart-energy
 ---
 
 As we become less reliant on fossil fuels and embrace more electrification

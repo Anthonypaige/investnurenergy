@@ -8,6 +8,8 @@ tags:
   - Geothermal Heat Pumps
   - property assessment
   - dual source heat pumps
+metadata:
+  canonical: https://investinyourenergy.com/geothermal-heat-pumps-tapping-into-the-earths-core
 ---
 
 Geothermal heat pumps (GHPs), also known as ground-source heat pumps, have been providing efficient, clean, and eco-friendly heating and cooling solutions since the 1970s. This isn't groundbreaking news, however, with advanced technology and the inclusion in the Inflation Reduction Act's Residential Clean Energy Tax Credit, GHPs are becoming increasingly popular. Unlike conventional heat pumps that rely on fluctuating outside air temperatures, GHPs tap into the stable temperature just a few feet below the earth's surface. This temperature remains consistent, ranging from 45°F (7°C) to 75°F (21°C) depending on latitude, regardless of the extreme temperatures experienced above ground. This technology is not only energy-efficient but also cost-effective, leading to significant savings over time.
