@@ -26,14 +26,14 @@ const metadata = {
       </Fragment>
   
     <Fragment slot="subtitle">
-      Unpacking the Inflation Reduction Act's Clean Energy and Energy Efficiency Incentives
+      Our platform serves as a one-stop shop for those looking to invest in their homes energy potential.
     </Fragment>
   </Hero>
   <Features3
   id="inflation-reduction-roadmap"
   title="Your Energy Efficiency Roadmap"
   tagline='Navigating the IRA'
-  subtitle="Explore the pathways outlined in the Inflation Reduction Act to enhance your home's energy independence and efficiency."
+  subtitle="Discover how the Inflation Reduction Act can be your guide to a more energy efficient and grid independent home."
 
 
   columns={2}
@@ -59,15 +59,16 @@ const metadata = {
       icon: 'tabler:home-eco',
     },
     {
-      title: 'Home Insulation & Sealing',
-      description: 'Improve your homes insulation and sealing to boost energy efficiency, resulting in significant long-term savings on heating and cooling expenses.',
-      icon: 'tabler:cloud-snow',
-    },
-    {
       title: 'Smart Energy Devices',
       description: 'Incorporate IoT-enabled smart energy devices for enhanced control over your home’s energy consumption, reducing waste and optimizing energy usage.',
       icon: 'tabler:smart-home',
     },
+    {
+      title: 'Home Insulation & Sealing',
+      description: 'Improve your homes insulation and sealing to boost energy efficiency, resulting in significant long-term savings on heating and cooling expenses.',
+      icon: 'tabler:cloud-snow',
+    },
+    
   ]}
   image={{
     src: 'https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/page-art/invest-in-your-energy-page-art.png?raw=true',
@@ -101,6 +102,16 @@ const metadata = {
   ]}
 />
 
+<!-- IRA Eligibility Widget ******************* -->
+
+<Fragment>
+  <div id="calculator-section">
+    <h2 id="calculator-title">Inflation Reduction Act Eligibility Calculator</h2>
+    <div id="calculator-wrapper">
+      <rewiring-america-calculator api-key="zpka_e218e73d2b60449ea4fd97122a5334bc_1dd9e2f0"></rewiring-america-calculator>
+    </div>
+  </div>
+</Fragment> 
 
 <FeaturesLink
   title="Home Improvements Covered in the IRA"
@@ -168,16 +179,6 @@ const metadata = {
  
 
 
-<!-- IRA Eligibility Widget ******************* -->
-
-<Fragment>
-  <div id="calculator-section">
-    <h2 id="calculator-title">Inflation Reduction Act Eligibility Calculator</h2>
-    <div id="calculator-wrapper">
-      <rewiring-america-calculator api-key="zpka_e218e73d2b60449ea4fd97122a5334bc_1dd9e2f0"></rewiring-america-calculator>
-    </div>
-  </div>
-</Fragment> 
 
 
 <FeaturedArticles 
