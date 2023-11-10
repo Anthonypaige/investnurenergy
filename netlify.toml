@@ -103,7 +103,7 @@ www.back-upbattery.com/*"
   status = 301
   force = true 
  
-[[redirects]
+[[redirects]]
   from = "www.whatsaheatpump.com/*
   to = "https://investinyourenergy.com/energy-efficient/air-source-heat-pumps.com"
   status = 301
