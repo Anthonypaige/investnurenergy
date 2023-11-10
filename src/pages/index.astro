@@ -2,6 +2,7 @@
 import Layout from '~/layouts/PageLayout.astro';
 import FeaturedArticles from '~/components/widgets/FeaturedArticles.astro';
 import Hero from '~/components/widgets/Hero.astro';
+import Features3 from '~/components/widgets/Features3.astro';
 import Stats from '~/components/widgets/Stats.astro';
 import FeaturesLink from '~/components/widgets/FeaturesLink.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
@@ -28,7 +29,51 @@ const metadata = {
       Unpacking the Inflation Reduction Act's Clean Energy and Energy Efficiency Incentives
     </Fragment>
   </Hero>
-  
+  <Features3
+  id="inflation-reduction-roadmap"
+  title="Your Energy Efficiency Roadmap"
+  tagline='Navigating the IRA'
+  subtitle="Explore the pathways outlined in the Inflation Reduction Act to enhance your home's energy independence and efficiency."
+
+
+  columns={2}
+  items={[
+    {
+      title: 'Federal Tax Credits',
+      description: 'Maximize savings with federal tax credits available under the IRA for qualifying energy-efficient home improvements and renewable energy installations.',
+      icon: 'tabler:coin-dollar',
+    },
+    {
+      title: 'State-Level Rebates',
+      description: 'Take advantage of state-specific rebates and incentives for energy-efficient upgrades and renewable energy systems, complementing federal tax credits.',
+      icon: 'tabler:map-pin',
+    },
+    {
+      title: 'Renewable Energy Solutions',
+      description: 'Embrace renewable energy options including solar, wind, geothermal systems, and home energy storage, reducing reliance on traditional power sources .',
+      icon: 'tabler:planet',
+    },
+    {
+      title: 'Energy Efficient Appliances',
+      description: 'Upgrade to energy-efficient appliances to optimize major energy users like heating, cooling, and water heating for notable utility bill savings.',
+      icon: 'tabler:home-bolt',
+    },
+    {
+      title: 'Home Insulation & Sealing',
+      description: 'Improve your homes insulation and sealing to boost energy efficiency, resulting in significant long-term savings on heating and cooling expenses.',
+      icon: 'tabler:thermometer-snowflake',
+    },
+    {
+      title: 'Smart Energy Devices',
+      description: 'Incorporate IoT-enabled smart energy devices for enhanced control over your home’s energy consumption, reducing waste and optimizing energy usage.',
+      icon: 'tabler:device-desktop-analytics',
+    },
+  ]}
+  image={{
+    src: 'https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/page-art/invest-in-your-energy-page-art.png?raw=true',
+    alt: 'The Inflation Reduction Act serving as a roadmap to a more energy independent and efficient home',
+  }}
+/>
   
   <FeaturesLink
   title="Key Tax Benefits and Incentives"
