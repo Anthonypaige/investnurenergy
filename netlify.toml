@@ -78,3 +78,35 @@
   status = 301
   force = true
 
+[[redirects]]
+  from = "https://
+www.back-upbattery.com/*"
+  to = "https://investinyourenergy.com/clean-energy/home-energy-storage.com"
+  status = 301
+  force = true
+
+[[redirects]]
+ from = "https://www.efficientenergyrebates.com/*"
+  to = "https://investinyourenergy.com/state-level-rebates/energy-efficient-rebates.com"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.homelevel2chargers.com/*"
+  to = "https://investinyourenergy.com/shopping/smart-ev-chargers" 
+  status = 301
+  force = true 
+
+[[reditects]]
+  from = "www.home-energystorage.com/*"
+  to = "https://investinyourenergy.com/clean-energy/home-energy-storage.com"
+  status = 301
+  force = true 
+ 
+[[redirects]]
+  from = "www.whatsaheatpump.com/*"
+  to = "https://investinyourenergy.com/energy-efficient/air-source-heat-pumps.com"
+  status = 301
+  force = true
+
+  
