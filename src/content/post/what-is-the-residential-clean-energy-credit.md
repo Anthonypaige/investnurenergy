@@ -1,7 +1,7 @@
 ---
-publishDate: 2023-11-01T00:00:00Z
+publishDate: 2023-11-08T00:00:00Z
 title: What is the Residential Clean Energy Credit?
-excerpt: The Residential Clean Energy Credit is more than just a tax incentive; it's a catalyst for change in the way we approach energy in our homes
+excerpt: The Residential Clean Energy Credit is more than just a tax incentive; it's a catalyst for change in the way we approach energy in our homes.
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/HCE-1-cover-art.png?raw=true
 category: Home Clean Energy Credit
 tags:
@@ -10,6 +10,8 @@ tags:
   - tax liability
 metadata:
   canonical: https://investinyourenergy.com/what-is-the-residential-clean-energy-credit
+  description: Discover how the Residential Clean Energy Credit can transform your homes energy efficiency and sustainability. Learn about the benefits, eligibility, and how to maximize this tax incentive for home energy upgrades.
+  keywords: Residential Clean Energy Credit, solar tax credit, geothermal heat pumps, home energy storage, residential wind turbines, solar water heaters
 ---
 
 As we navigate towards a sustainable future, two key terms often surface: "clean energy" and "energy efficiency." While they may seem synonymous, they represent distinct facets of our energy landscape. Clean energy taps into natural forces like the sun, wind, and Earth's core, while energy efficiency optimizes consumption. Though both concepts are equally important, much like making and saving money in business, the focus of the Residential Clean Energy Credit Act is solely on creating energy. In this article, we'll explore the ways we can harness these natural forces to fuel our sustainable future.

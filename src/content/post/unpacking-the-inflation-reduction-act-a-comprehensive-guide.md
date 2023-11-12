@@ -1,15 +1,18 @@
 ---
-publishDate: 2023-11-01T00:00:00Z
-title: Unpacking the Inflation Reduction Act A Comprehensive Guide
-excerpt: Unpack the intricacies of the Inflation Reduction Act of 2022 with our comprehensive guide. Get insights into the key components and understand how it aims to reshape the energy landscape for homeowners.
+publishDate: 2023-11-11T00:00:00Z
+title: Unpacking the Inflation Reduction Act: A Comprehensive Guide
+excerpt: Dive deep into the Inflation Reduction Act of 2022 and discover how it revolutionizes the energy landscape for homeowners, offering incentives for sustainable living.
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/IIYE-1-cover-art.png?raw=true
 category: Inflation Reduction Act
 tags:
   - Inflation Reduction Act
   - Home Clean Energy Credit
-  - Energy Efficienct Home Upgrades
+  - Energy Efficient Home Upgrades
 metadata:
   canonical: https://investinyourenergy.com/unpacking-the-inflation-reduction-act-a-comprehensive-guide
+  description: This comprehensive guide breaks down the Inflation Reduction Act, highlighting its key components and impact on homeowners. Understand how this legislation fosters a shift towards sustainable energy solutions, offering various incentives for energy-efficient home upgrades and clean energy adoption.
+  keywords: Inflation Reduction Act, sustainable energy, home energy efficiency, clean energy incentives, energy-efficient upgrades, homeowner benefits
+
 ---
 
 ### **What is the Inflation Reduction Act of 2022?**

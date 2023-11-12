@@ -1,7 +1,7 @@
 ---
-publishDate: 2023-09-27T00:00:00Z
+publishDate: 2023-11-05T00:00:00Z
 title: What is Energy Arbitrage?
-excerpt: Pairing TOU rates with backup batteries can be particularly beneficial, enabling energy arbitrage strategies that allow homeowners to buy electricity at low off-peak rates and use or sell it during high-cost peak hours.
+excerpt: Explore the strategy of energy arbitrage, where TOU rates and backup batteries combine to optimize home energy use, offering cost-effective solutions for managing electricity consumption.
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/HES-2-cover-art.png?raw=true
 category: Home Energy Storage
 tags:
@@ -10,6 +10,8 @@ tags:
   - portable power stations
 metadata:
   canonical: https://investinyourenergy.com/what-is-energy-arbitrage
+  description: Unravel the intricacies of energy arbitrage and its impact on home energy management. Understand how leveraging TOU rates with backup batteries can transform the way homeowners approach electricity usage, leading to efficient and cost-effective energy practices.
+  keywords: energy arbitrage, TOU rates, backup batteries, batteries for home, home energy storage
 ---
 
 As our electrical grid ages and struggles to meet modern energy demands, the importance of backup batteries has surged. These batteries are no longer just a convenience; they're a lifeline in emergencies, a bolster to your home's energy security, and a savvy financial investment in the era of Time-of-Use (TOU) rates. With TOU rates encouraging off-peak energy consumption, backup batteries also offer the opportunity for energy arbitrage—buying energy when it's cheap and using or selling it when prices soar. And with the added benefit of tax incentives through the Residential Clean Energy Credit, there's never been a better time to invest in a backup battery system.
@@ -45,7 +47,7 @@ Investing in a backup battery solely for energy arbitrage won’t be enough just
 ### **How to Calculate Savings with Energy Arbitrage**
 
 When considering energy arbitrage, the battery size you choose will be crucial. For example, the average family uses around 1200 watts per hour. If they plan to use their battery for 4 hours during the early evening peak demand and another 4 hours during the summer demand block, a 5 kWh sized battery could theoretically suffice. If you have early morning peak hours, you could charge your battery overnight and utilize it again in the morning.
-
+<!-- 
 Our **[Energy Arbitrage Savings Calculator]**(insert calculator) helps you understand how different battery sizes and Time-of-Use (TOU) rates can create savings. Here's how to use it:
 
 - **Battery Usable Capacity**: Enter the usable capacity of your battery in kWh.
@@ -53,7 +55,7 @@ Our **[Energy Arbitrage Savings Calculator]**(insert calculator) helps you under
 - **Summer and Non-Summer Peak Hours**: Enter the number of peak hours during summer and winter when you want to rely on your battery. This is a crucial step, as it determines the hours when you'll be using stored energy instead of drawing from the grid, maximizing your savings.
 - **Average Consumption per Hour**: Enter your average energy consumption per hour in watts.
 
-Click the "Calculate" button to see your total savings per year
+Click the "Calculate" button to see your total savings per year -->
 
 #### **Conclusion**
 
