@@ -1,5 +1,5 @@
 ---
-publishDate: 2023-11-070:00:00Z
+publishDate: 2023-11-07T00:00:00Z
 title: What is the Energy Efficient Home Improvement Credit?
 excerpt: Uncover the essentials of the Energy Efficient Home Improvement Credit and its role in promoting sustainable home upgrades. Learn how this credit can lead to significant energy savings and enhanced home sustainability.
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/EEHU-1-cover-art.png?raw=true
@@ -10,8 +10,6 @@ tags:
   - heat pump water heaters
 metadata:
   canonical: https://investinyourenergy.com/what-is-the-energy-efficient-home-improvement-credit
-  description: Dive into the Energy Efficient Home Improvement Credit and explore how it incentivizes homeowners to adopt eco-friendly upgrades. Understand the benefits, eligibility criteria, and how to effectively utilize this tax incentive for enhancing your home's energy efficiency.
-  keywords: Energy Efficient Home Improvement Credit, sustainable home upgrades, energy savings, eco-friendly living, tax incentives for energy efficiency
 ---
 
 A key component of this legislation is the Energy-Efficient Home Improvement Credit, designed to encourage the adoption of technologies and practices that reduce energy consumption and environmental impact. From heat pumps to insulation enhancements, this credit provides financial support for a variety of upgrades that contribute to a more energy-efficient home. In this guide, we'll explore the details of the Energy-Efficient Home Improvement Credit, helping you understand how to leverage this opportunity to make your home more sustainable and cost-effective.
