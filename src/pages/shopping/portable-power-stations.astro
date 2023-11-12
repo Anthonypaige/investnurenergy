@@ -2,6 +2,7 @@
 import Layout from '~/layouts/PageLayout.astro';
 import Features from '~/components/widgets/Features.astro';
 import Hero from '~/components/widgets/Hero.astro';
+//import CardWidget from '~/components/widgets/CardWidget.astro';
 import PortablePowerNote from '~/components/widgets/PortablePowerNote.astro';
 import Button from '~/components/ui/Button.astro';
 import FeaturedArticles from '~/components/widgets/FeaturedArticles.astro';
@@ -37,6 +38,64 @@ color: red;
   </Hero>
 
 <PortablePowerNote />
+
+<!-- <CardWidget
+ 
+title="Bluetti Power Stations"
+cards={[
+{
+    title: 'Bluetti 300AC +B300',
+    imageSrc: 'https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/bluetti-ac-300.png?raw=true',
+    topSellingPoints: [
+    'LiFePO4 Battery Cells',
+  'User-Friendly Interface',
+  'Solar Compatability',
+  '3.07 kwh Capacity',
+  '3 KW Continuous Output '
+],
+   avgPrice: '$2,700',   
+    shopAmazonButton: { 
+      text: 'Shop Amazon',
+      href: 'https://amzn.to/49B7tOe',
+    }
+  },
+ 
+{
+    title: 'Bluetti 500AC +B300S',
+    imageSrc: 'https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/bluetti-ac-500.png?raw=true',
+    topSellingPoints: [
+  'LiFePO4 Battery Cells',
+  'User-Friendly Interfaces',
+  'Solar Compatibility',
+  '3.07 kwh Capacity',
+  '5 KW Continuous Output '
+],
+   avgPrice: '$4,800',   
+    shopAmazonButton: { 
+      text: 'Shop Amazon',
+      href: 'https://amzn.to/3szbqlF',
+    }
+  },
+
+{
+    title: 'Bluetti EP500 PRO',
+    imageSrc: 'https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/EP-PRO-500.png?raw=true',
+    topSellingPoints: [
+   'LiFePO4 Battery Cells',
+   'User-Friendly Interfaces',
+   'Solar Compatibility',
+   '5.1 kwh Capacity',
+   '5 KW Continuous Output '
+],
+   avgPrice: '$5,800',   
+    shopAmazonButton: { 
+      text: 'Shop Amazon',
+      href: 'https://amzn.to/3uih38a',
+    }
+  },
+]}
+/> -->
+
 
  <!-- DataTables CSS -->
 <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
@@ -78,7 +137,7 @@ color: red;
    }
  ]}
 />
-   
+  
 
 <!-- Responsive Table Wrapper -->
 <div class="flex flex-col overflow-x-auto ml-5 mr-5 sm:ml-20 sm:mr-20">
@@ -136,7 +195,7 @@ color: red;
        <tr class="bg-gray-800 hover:bg-gray-700">
         <td class="sticky left-0 z-10 py-1 px-2 border border-gray-600 flex flex-col items-center justify-center whitespace-nowrap bg-gray-800">
           <img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/bluetti-ac-300.png?raw=true' alt='Bluetti AC300 + B300 System' class="w-12 h-auto mb-2" />
-          <Button href="https://amzn.to/3qes8Wj" variant="primary" target="_blank" text="Shop Now" class="w-5/6 text-sm text-center rounded-full py-1 px-3" />
+          <Button href="https://amzn.to/49B7tOe" variant="primary" target="_blank" text="Shop Now" class="w-5/6 text-sm text-center rounded-full py-1 px-3" />
         </td>
       
      <td class="py-2 px-4 border border-gray-600 text-center break-words">Bluetti AC300 + B300 </td>
@@ -154,7 +213,7 @@ color: red;
     <tr class="bg-gray-800 hover:bg-gray-700">
       <td class="sticky left-0 z-10 py-1 px-2 border border-gray-600 flex flex-col items-center justify-center whitespace-nowrap bg-gray-800">
        <img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/EP-Pro-500.png?raw=true' alt='Bluetti EP 500 PRO' class="w-12 h-auto" />
-       <Button href='https://amzn.to/3qes8Wj' variant="primary" target="_blank" text="Shop Now" class="w-5/6 text-sm text-center rounded-full py-1 px-3" />
+       <Button href='https://amzn.to/3uih38a' variant="primary" target="_blank" text="Shop Now" class="w-5/6 text-sm text-center rounded-full py-1 px-3" />
      </td>
     
       <td class="py-2 px-4 border border-gray-600 text-center break-words">Bluetti EP 500 PRO</td>
@@ -173,7 +232,7 @@ color: red;
   <td class="sticky left-0 z-10 py-1 px-2 border border-gray-600 flex flex-col items-center justify-center whitespace-nowrap bg-gray-800">
     
   <img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/HES-4-cover-art.png?raw=true' alt='Eco Flow Delta Pro Double Up' class="w-12 h-auto" />
-  <Button href='https://amzn.to/46hAzPR' variant="primary" target="_blank" text="Shop Now" class="w-5/6 text-sm text-center rounded-full py-1 px-3" />
+  <Button href='https://amzn.to/3sEFqfT' variant="primary" target="_blank" text="Shop Now" class="w-5/6 text-sm text-center rounded-full py-1 px-3" />
   </td>
     <td class="py-2 px-4 border border-gray-600 text-center break-words">Eco Flow Delta Pro</td>
     <td class="py-2 px-4 border border-gray-600">$3,000</td>
@@ -190,7 +249,7 @@ color: red;
   <td class="sticky left-0 z-10 py-1 px-2 border border-gray-600 flex flex-col items-center justify-center whitespace-nowrap bg-gray-800">
       
       <img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/Delta-pro-double-%20up.png?raw=true' alt='Eco Flow Delta Pro Double Up' class="w-12 h-auto" />
-      <Button href='https://amzn.to/46hAzPR' variant="primary" target="_blank" text="Shop Now" class="w-5/6 text-sm text-center rounded-full py-1 px-3" />
+      <Button href='https://amzn.to/47oTqck' variant="primary" target="_blank" text="Shop Now" class="w-5/6 text-sm text-center rounded-full py-1 px-3" />
     </td>
     <td class="py-2 px-4 border border-gray-600 text-center break-words">Eco Flow Delta Pro X2</td>
     <td class="py-2 px-4 border border-gray-600">$5,900</td>
@@ -210,7 +269,7 @@ color: red;
   <td class="sticky left-0 z-10 py-1 px-2 border border-gray-600 flex flex-col items-center justify-center whitespace-nowrap bg-gray-800">
       
   <img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/lycan-5000.png?raw=true' alt='Renogy Lycan 5000' class="w-12 h-auto" />
-  <Button href='https://amzn.to/45P85fT' variant="primary" target="_blank" text="Shop Now" class="w-5/6 text-sm text-center rounded-full py-1 px-3" />
+  <Button href='https://amzn.to/3QURwef' variant="primary" target="_blank" text="Shop Now" class="w-5/6 text-sm text-center rounded-full py-1 px-3" />
     </td>
   
     <td class="py-2 px-4 border border-gray-600 text-center break-words">Renogy Lycan 5000</td>
@@ -228,7 +287,7 @@ color: red;
   <td class="sticky left-0 z-10 py-1 px-2 border border-gray-600 flex flex-col items-center justify-center whitespace-nowrap bg-gray-800">
       
     <img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/jackery-4000.png?raw=true' alt='Jackery 4000' class="w-12 h-auto" />
-    <Button href='https://amzn.to/3QxGw6w' variant="primary" target="_blank" text="Shop Now" class="w-5/6 text-sm text-center rounded-full py-1 px-3" />
+    <Button href='https://amzn.to/3MHL9Zf' variant="primary" target="_blank" text="Shop Now" class="w-5/6 text-sm text-center rounded-full py-1 px-3" />
     </td>
   
     <td class="py-2 px-4 border border-gray-600 text-center break-words">Jackery 4000</td>
@@ -246,7 +305,7 @@ color: red;
   <td class="sticky left-0 z-10 py-1 px-2 border border-gray-600 flex flex-col items-center justify-center whitespace-nowrap bg-gray-800">
      
   <img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/bluetti-ac-300.png?raw=true' alt='Bluetti AC500 + 300S System' class="w-12 h-auto" />
-  <Button href='https://amzn.to/3FxljmN' variant="primary" target="_blank" text="Shop Now" class="w-5/6 text-sm text-center rounded-full py-1 px-3" />
+  <Button href='https://amzn.to/3szbqlF' variant="primary" target="_blank" text="Shop Now" class="w-5/6 text-sm text-center rounded-full py-1 px-3" />
   </td>
   
   <td class="py-2 px-4 border border-gray-600 text-center break-words">Bluetti AC500 + 300S</td>
@@ -266,7 +325,7 @@ color: red;
     <td class="sticky left-0 z-10 py-1 px-2 border border-gray-600 flex flex-col items-center justify-center whitespace-nowrap bg-gray-800">
   
   <img src='https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/jackery-3000.png?raw=true' alt='Jackery 3000' class="w-12 h-auto" />
-  <Button href='https://amzn.to/3MiaZ61' variant="primary" target="_blank" text="Shop Now" class="w-5/6 text-sm text-center rounded-full py-1 px-3" />
+  <Button href='https://amzn.to/49q2K1w' variant="primary" target="_blank" text="Shop Now" class="w-5/6 text-sm text-center rounded-full py-1 px-3" />
   </td>
   
     <td class="py-2 px-4 border border-gray-600 text-center break-words">Jackery 3000</td>
