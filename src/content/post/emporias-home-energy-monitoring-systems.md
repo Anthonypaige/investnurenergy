@@ -1,5 +1,5 @@
 ---
-publishDate: 2023-10-27T00:00:00Z
+publishDate: 2023-11-01T00:00:00Z
 title: Emporia's Home Energy Monitoring Systems
 excerpt: An Emporia Home Energy Monitoring System can serve as a 'playbook' for transitioning into a smart energy-efficient home.
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/SED-3-cover-art.png?raw=true
@@ -24,9 +24,11 @@ Whether you're considering solar or have already made the transition, Emporia HE
 
 ### **Creating an Energy Efficiency Playbook with 50A Sensors**
 
-Beyond solar preparation, HEMS can serve as a 'playbook' for transitioning into an energy-efficient home. By providing circuit-level monitoring, it offers insights into individual appliance usage. Most major appliances, like those you would want to upgrade and track performance on, use their own dedicated circuit. This essentially allows for 'select-appliance-monitoring,' enabling homeowners to identify energy-hungry appliances and take steps to reduce consumption. Whether through more efficient usage habits or by replacing old, inefficient appliances with energy-saving models, this knowledge can be vital. Understanding the exact power used now helps when comparing it to new purchases, aiding in tracking the ROI on major appliance upgrades like heat pumps or heat pump water heaters.
+Beyond solar preparation, HEMS can serve as a 'playbook' for transitioning into an energy-efficient home. By providing circuit-level monitoring, it offers insights into individual appliance usage. Most major appliances, like those you would want to upgrade and track performance on, use their own dedicated circuit. This essentially allows for 'select-appliance-monitoring,' enabling homeowners to identify energy-hungry appliances and take steps to reduce consumption. 
 
-Emporia offers two options for Vue Energy Monitors with 50A sensors. The Gen 2 [Vue with 8 50A](shopping/affiliate-marketplace) monitoring sensors priced at $125 allows for specific usage or generation detail for eight individual circuits. This is the most popular option and is ideal for homeowners who want to monitor specific circuits, such as HVAC systems, water heaters, or electric vehicle chargers.
+Whether through more efficient usage habits or by replacing old, inefficient appliances with energy-saving models, this knowledge can be vital. Understanding the exact power used now helps when comparing it to new purchases, aiding in tracking the ROI on major appliance upgrades like heat pumps or heat pump water heaters.
+
+Emporia offers two options for Vue Energy Monitors with 50A sensors. The Gen 2 [Vue with 8 50A](https://amzn.to/46avxEs) monitoring sensors priced at $125 allows for specific usage or generation detail for eight individual circuits. This is the most popular option and is ideal for homeowners who want to monitor specific circuits, such as HVAC systems, water heaters, or electric vehicle chargers.
 
 For homes with more circuit breakers, the Gen 2 Vue with 16 50A monitoring sensors priced at $165 offers even more insight. This system provides detailed energy usage data for up to 16 individual circuits, allowing for a more comprehensive understanding of your home's energy consumption.
 
@@ -44,11 +46,11 @@ With Emporia's Smart Plugs, you can:
 
 Serving as the brain of your energy-efficient home, the Emporia App is the central hub that puts control and insights at your fingertips. Emporia's product line goes beyond mere monitoring, offering a complete energy management solution that integrates various components into a cohesive and intelligent ecosystem. It allows homeowners to track energy usage, control smart plugs, schedule EV charging, and monitor solar efficiency.
 
-1.  **Home Energy Storage System**: Emporia's energy storage solutions work in harmony with solar panels and the grid, storing excess energy for use during peak demand times or power outages.
+1. **Home Energy Storage System**: Emporia's energy storage solutions work in harmony with solar panels and the grid, storing excess energy for use during peak demand times or power outages.
 
-2.  **EV Chargers**: [Emporia's EV chargers](shopping/affiliate-marketplace) are designed to integrate seamlessly with the entire ecosystem, offering smart charging solutions that can be managed and monitored through the Emporia App. They're also planning to launch one of the first bidirectional EV chargers in 2024, marking a significant advancement in EV charging technology.
+2. **EV Chargers**: [Emporia's EV chargers](https://amzn.to/49uszNX) are designed to integrate seamlessly with the entire ecosystem, offering smart charging solutions that can be managed and monitored through the Emporia App. They're also planning to launch one of the first bidirectional EV chargers in 2024, marking a significant advancement in EV charging technology.
 
-3.  **Solar Integration**: Emporia's products are solar-ready, allowing for smooth integration with solar power systems. This includes monitoring net metering and optimizing the use of solar energy, ensuring that homeowners can make the most of renewable energy sources.
+3.**Solar Integration**: Emporia's products are solar-ready, allowing for smooth integration with solar power systems. This includes monitoring net metering and optimizing the use of solar energy, ensuring that homeowners can make the most of renewable energy sources.
 
 #### **Conclusion**
 

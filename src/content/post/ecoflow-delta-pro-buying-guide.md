@@ -28,7 +28,7 @@ The extra battery's cost can range from $2000-$2500. However, in this scenario, 
 
 ### **Two EcoFlow Delta Pros with Voltage Hub: Doubling the Power**
 
-For those seeking the pinnacle of power solutions, consider the configuration of [Two EcoFlow Delta Pros](shopping/affiliate-marketplace) paired with a Voltage Hub. This setup maintains the battery system capacity at 7.2kWh, similar to the previous configuration. However, the real game-changer here is the doubling of the AC output power to 7.2KW. This is made possible by each unit being equipped with a 3600W pure sine wave inverter.
+For those seeking the pinnacle of power solutions, consider the configuration of [Two EcoFlow Delta Pros](https://amzn.to/47oTqck) paired with a Voltage Hub. This setup maintains the battery system capacity at 7.2kWh, similar to the previous configuration. However, the real game-changer here is the doubling of the AC output power to 7.2KW. This is made possible by each unit being equipped with a 3600W pure sine wave inverter.
 
 The surge power also sees a significant boost, reaching a staggering 14.4KW. This is due to the combined output power and battery capacity of the two units. Despite the increased power, the charging times remain consistent with the single Delta Pro option. This is because each unit charges separately, maintaining the same AC charging time of 2.7 hours and solar charging time of 2 hours.
 This configuration is priced at $6,000 with a transfer switch, making it the premium option for those who require the utmost in power and performance.
@@ -43,7 +43,7 @@ The Smart Home Panel also converts your home backup battery into a solar battery
 
 The upgrade to the Smart Home Panel will add approximately $1,300 to $1,400 to your investment. However, considering the additional features and capabilities offered by the Smart Home Panel, it's an investment that can pay off in the long run for the right person.
 
-The prices listed are for comparison only and are subject to change, as prices change regularly. You can check pricing and availability at the [Eco Flow main site](http://www.us.ecoflow.com), the [Eco Flow Amazon page](https://amzn.to/3Eqv4m2), or [www.shopsolarkits.com](http://www.shopsolarkits.com). If you're going to want customer service and guidance, you might consider Shop Solar Kits.
+The prices listed are for comparison only and are subject to change, as prices change regularly. You can check pricing and availability at the [Eco Flow main site](http://www.us.ecoflow.com), the [Eco Flow Amazon page](https://amzn.to/47p0Lsu), or [www.shopsolarkits.com](http://www.shopsolarkits.com). If you're going to want customer service and guidance, you might consider Shop Solar Kits.
 
 #### **Conclusion**
 

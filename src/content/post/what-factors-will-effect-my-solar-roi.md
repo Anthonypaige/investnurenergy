@@ -20,7 +20,7 @@ Solar financing is a critical aspect of your solar investment, and it's not just
 
 ### **State-Level Incentives: Enhancing Solar ROI**
 
-State-level incentives are a significant factor in Solar ROI, making the difference between a good idea and a financially sound decision. These incentives, including installation support, net metering, feed-in tariffs, and PBIs, can boost your solar system's cost-effectiveness. However, not all states offer these benefits. If your state lacks the right incentives, waiting might be wise. For a detailed breakdown of these state-level incentives, explore our [Guide to Solar Incentives](insert article). And if you're curious about what's specifically available in your area, the [Database](https://www.dsireusa.org/) of State Incentives for Renewables & Efficiency is the go-to resource to check your availability.
+State-level incentives are a significant factor in Solar ROI, making the difference between a good idea and a financially sound decision. These incentives, including installation support, net metering, feed-in tariffs, and PBIs, can boost your solar system's cost-effectiveness. However, not all states offer these benefits. If your state lacks the right incentives, waiting might be wise. For a detailed breakdown of these state-level incentives, explore our [Guide to Solar Incentives](insert article). And if you're curious about what's specifically available in your area, the [Database of State Incentives](https://www.dsireusa.org/) for Renewables & Efficiency is the go-to resource to check your availability.
 
 ### **Battery Storage and Time-of-Use Rates: Maximizing Solar ROI**
 

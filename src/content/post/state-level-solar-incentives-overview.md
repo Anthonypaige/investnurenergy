@@ -40,7 +40,7 @@ However, the specifics of FiTs can vary widely between states and utility compan
 
 Solar Renewable Energy Certificates (SRECs) are a valuable aspect of solar energy investment. For every 1,000 kilowatt-hours (kWh) of electricity your solar panels produce, you earn one SREC. Many states require utility companies to generate a portion of their electricity from renewable sources, and your SRECs can help them meet these targets. You can sell your SRECs on open markets, much like stocks or bonds, and the price varies based on supply and demand. For example, if your system generates 10 SRECs in a year, and you sell each for $200, that's an extra $2,000 in your pocket.
 
-Websites like the [Database](https://www.dsireusa.org/) of State Incentives for Renewables & Efficiency provide information on SRECs in your state. By understanding and leveraging SRECs, you can enhance your solar ROI, turning your solar system into a revenue-generating asset. If you're lucky enough to live in a state that values SRECs, don't miss out on this opportunity to further capitalize on your solar investment.
+Websites like the [Database of State Incentives](https://www.dsireusa.org/) for Renewables & Efficiency provide information on SRECs in your state. By understanding and leveraging SRECs, you can enhance your solar ROI, turning your solar system into a revenue-generating asset. If you're lucky enough to live in a state that values SRECs, don't miss out on this opportunity to further capitalize on your solar investment.
 
 #### **Conclusion**
 

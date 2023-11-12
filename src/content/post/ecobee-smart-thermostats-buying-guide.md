@@ -16,21 +16,21 @@ If you're shopping for a smart thermostat, you'll likely encounter Ecobee—a ma
 
 ### **Ecobee3 Lite: The Budget-Friendly Smart Thermostat**
 
-The [Ecobee3 Lite](shopping/affiliate-marketplace), priced at an affordable $140, is an Energy Star Certified smart thermostat that promises substantial energy savings. This user-friendly thermostat is designed for DIY installation and offers seamless integration with major smart home ecosystems, including Apple HomeKit. Additionally, it's Wi-Fi connected and compatible with all smart home systems.
+The [Ecobee3 Lite](https://amzn.to/3MGVK6R), priced at an affordable $140, is an Energy Star Certified smart thermostat that promises substantial energy savings. This user-friendly thermostat is designed for DIY installation and offers seamless integration with major smart home ecosystems, including Apple HomeKit. Additionally, it's Wi-Fi connected and compatible with all smart home systems.
 
 #### **Advanced Software Features**
 
 While Ecobee's hardware is impressive, it's the advanced software features that truly add value. All models come equipped with eco+, a sophisticated software that enhances energy savings by learning your routine and suggesting modifications to your thermostat schedule for optimal energy efficiency. Here's what the Ecobee3 Lite, their base model, brings to the table:
 
-1.  **Time of Use**: This feature smartly adjusts your energy consumption based on the time of day, potentially saving you money by minimizing energy use during peak hours when energy costs are higher.
+1.**Time of Use**: This feature smartly adjusts your energy consumption based on the time of day, potentially saving you money by minimizing energy use during peak hours when energy costs are higher.
 
-2.  **Adjust the Temperature for Humidity**: This feature fine-tunes the temperature based on the humidity level detected in your home, ensuring your home always feels like the temperature you've set on your thermostat.
+2.**Adjust the Temperature for Humidity**: This feature fine-tunes the temperature based on the humidity level detected in your home, ensuring your home always feels like the temperature you've set on your thermostat.
 
-3.  **Schedule Assistant**: This feature tailors your thermostat's schedule based on your habits and preferences.
+3.**Schedule Assistant**: This feature tailors your thermostat's schedule based on your habits and preferences.
 
-4.  **Community Energy Savings**: Also known as Demand Response with affiliated utility providers. This feature makes minor temperature adjustments during times of peak energy demand in your community.
+4.**Community Energy Savings**: Also known as Demand Response with affiliated utility providers. This feature makes minor temperature adjustments during times of peak energy demand in your community.
 
-5.  **Smart Home & Away**: This intelligent feature employs geofencing or other techniques to discern whether you're home or away, adjusting your thermostat settings to conserve energy.
+5.**Smart Home & Away**: This intelligent feature employs geofencing or other techniques to discern whether you're home or away, adjusting your thermostat settings to conserve energy.
 
 ### **Ecobee Smart Thermostat Enhanced: The Next Step Up**
 
@@ -38,31 +38,31 @@ Priced at $189, the Smart Thermostat Enhanced model offers a host of advanced fe
 
 #### **Additional Features Over Ecobee3 Lite**
 
-1.  **Larger Touchscreen**: A 50% larger display provides an intuitive user interface.
+1.**Larger Touchscreen**: A 50% larger display provides an intuitive user interface.
 
-2.  **Dual-Band Wi-Fi**: Offers more reliable connectivity.
+2.**Dual-Band Wi-Fi**: Offers more reliable connectivity.
 
-3.  **Radar-Based Occupancy Sensor**: Enhances geofencing capabilities.
+3.**Radar-Based Occupancy Sensor**: Enhances geofencing capabilities.
 
-4.  **Security Hub Compatibility**: Allows the addition of window and door sensors with a monthly security service subscription.
+4.**Security Hub Compatibility**: Allows the addition of window and door sensors with a monthly security service subscription.
 
-5.  **Pause When Open**: If a door or window is left open for 5 minutes, Ecobee will send you an alert and automatically pause your heating or cooling to prevent energy waste.
+5.**Pause When Open**: If a door or window is left open for 5 minutes, Ecobee will send you an alert and automatically pause your heating or cooling to prevent energy waste.
 
 ### **Ecobee Smart Thermostat Premium: The Ultimate Choice**
 
-Retailing at $249, the [Ecobee Premium](shopping/affiliate-marketplace) is Ecobee's flagship model. It encompasses all the features of the Enhanced model, along with a host of additional capabilities.
+Retailing at $249, the [Ecobee Premium](https://amzn.to/3ueei87) is Ecobee's flagship model. It encompasses all the features of the Enhanced model, along with a host of additional capabilities.
 
 #### **Additional Features Over Enhanced Model**
 
-1.  **Integrated Indoor Air Quality Monitor**: Monitors air quality inside your home.
+1.**Integrated Indoor Air Quality Monitor**: Monitors air quality inside your home.
 
-2.  **Smoke Alarm Detection**: Adds an extra layer of safety.
+2.**Smoke Alarm Detection**: Adds an extra layer of safety.
 
-3.  **Spotify & Bluetooth Streaming**: Transform your thermostat into a music player.
+3.**Spotify & Bluetooth Streaming**: Transform your thermostat into a music player.
 
-4.  **Built-in Siri/Alexa**: Facilitates hands-free calling and intercom functionality.
+4.**Built-in Siri/Alexa**: Facilitates hands-free calling and intercom functionality.
 
-5.  **Included Smart Sensor**: Primarily used for occupancy detection.
+5.**Included Smart Sensor**: Primarily used for occupancy detection.
 
 #### **Conclusion**
 

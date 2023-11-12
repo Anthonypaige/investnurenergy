@@ -1,5 +1,5 @@
 ---
-publishDate: 2023-10-30T00:00:00Z
+publishDate: 2023-11-05T00:00:00Z
 title: Bluetti Power Stations Buying Guide
 excerpt: Bluetti has established itself as a global leader in the renewable energy sector, particularly renowned for its portable power stations. Recently, the company has expanded its portfolio to include home energy storage systems.
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/HES-5-cover-art.png?raw=true
@@ -30,11 +30,11 @@ Before we delve deeper into the specifics of each model, it's important to note 
 
 ### **Bluetti AC300 + B300: A Versatile Power Solution**
 
-Priced at only $2600, the Bluetti [AC300 + B300 system](shopping/affiliate-marketplace) offers a lot. It is a versatile power station with a capacity of 3.07kWh. It comes with a 3000-Watt Pure Sine Wave inverter, allowing for an impressive 6 KW of Surge Power and 3KW of Continuous AC Output Power. The AC charging input is 3000W (with a 30A charging cable), allowing for a fairly good charging time of 1.5 hours. They have a DC/solar input of 2400W, which if used at that max would charge the system in a quick 2 hours.
+Priced at only $2600, the Bluetti [AC300 + B300 system](https://amzn.to/49B7tOe) offers a lot. It is a versatile power station with a capacity of 3.07kWh. It comes with a 3000-Watt Pure Sine Wave inverter, allowing for an impressive 6 KW of Surge Power and 3KW of Continuous AC Output Power. The AC charging input is 3000W (with a 30A charging cable), allowing for a fairly good charging time of 1.5 hours. They have a DC/solar input of 2400W, which if used at that max would charge the system in a quick 2 hours.
 
 ### **Bluetti AC500+ B300S: Powering High-Demand Devices**
 
-Priced at $4800, the AC500+ B300S system offers considerable power. While sharing the same battery system capacity as the AC300 + B300S system, it comes with a rather large 5000-Watt Pure Sine Wave inverter. This allows for a robust 10KW Surge power and a very manageable 5KW of Continuous AC Output Power. The AC charging input is 4500W, allowing for a ridiculous 80-minute charge time. They have a higher DC/solar input of 3500W, which if used at that max would charge the system in 1.5 hours.
+Priced at $4800, the [AC500+ B300S](https://amzn.to/3szbqlF) system offers considerable power. While sharing the same battery system capacity as the AC300 + B300S system, it comes with a rather large 5000-Watt Pure Sine Wave inverter. This allows for a robust 10KW Surge power and a very manageable 5KW of Continuous AC Output Power. The AC charging input is 4500W, allowing for a ridiculous 80-minute charge time. They have a higher DC/solar input of 3500W, which if used at that max would charge the system in 1.5 hours.
 
 ### **Bluetti EP500: Your Portable Power Companion**
 
@@ -42,9 +42,9 @@ priced around $4000, the EP500 offers a higher battery system capacity of 5.1kWh
 
 ### **Bluetti EP500 Pro: The Powerhouse**
 
-Priced around $5000, the [Bluetti EP500 Pro](shopping/affiliate-marketplace), like the EP500, offers a higher battery system capacity of 5.1kWh. It comes with a 3000-Watt Pure Sine Wave inverter, allowing for a Continuous AC Output Power of 3KW and a Surge Power of 6KW. The AC charging input is 3000W, allowing for a 1.5-hour charge time. They have a DC/solar input of 2400W, which if used at that max would charge the system in 2 hours.
+Priced around $5000, the [Bluetti EP500 Pro](https://amzn.to/3uih38a), like the EP500, offers a higher battery system capacity of 5.1kWh. It comes with a 3000-Watt Pure Sine Wave inverter, allowing for a Continuous AC Output Power of 3KW and a Surge Power of 6KW. The AC charging input is 3000W, allowing for a 1.5-hour charge time. They have a DC/solar input of 2400W, which if used at that max would charge the system in 2 hours.
 
-The prices listed are for comparison only and are subject to change, as prices change regularly. You can check pricing and availability at the main site at [www.bluettipower.com](http://www.bluettipower.comt) the [Bluetti Power Amazon page](https://amzn.to/3LdoWlf) or [www.shopsolarkits.com](http://www.shopsolarkits.com). If you're going to want customer service and guidance, you might consider Shop Solar Kits.
+The prices listed are for comparison only and are subject to change, as prices change regularly. You can check pricing and availability at the main site at [www.bluettipower.com](http://www.bluettipower.com) the [Bluetti Power Amazon page](https://amzn.to/3u60Bb4) or [www.shopsolarkits.com](http://www.shopsolarkits.com). If you're going to want customer service and guidance, you might consider Shop Solar Kits.
 
 #### **Conclusion**
 
