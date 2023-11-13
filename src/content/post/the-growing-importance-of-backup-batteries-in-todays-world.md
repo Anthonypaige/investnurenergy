@@ -49,13 +49,13 @@ By offering a 30% tax credit under the Inflation Reduction Act, these backup bat
 EcoFlow is a trailblazer in the power station industry, known for its innovative and user-friendly products. The Delta Pro, their flagship model, is a standout in the market, offering high capacity, multiple charging options, and solar panel compatibility. It's designed to provide reliable power for a wide range of devices and appliances, making it an excellent choice for both home backup and outdoor use.
 The Delta Pro's scalability is a notable feature. EcoFlow offers options that allow users to expand their system as their energy needs grow. You can add extra smart batteries or even combine two Delta Pro units for a powerful and practical system. EcoFlow's commitment to sustainable energy solutions is evident in their products. The Delta Pro works exceptionally well with solar panels, allowing users to harness the power of the sun for their energy needs. And they're not stopping at solar - EcoFlow is also planning to launch wind turbines soon, further expanding the renewable energy options for their users.
 
-To view the buying options offered visit the [EcoFlow Amazon page](https://amzn.to/47p0Lsu) or check out our [EcoFlow Delta Pro Buying Guide](ecoflow-delta-pro-buying-guide) for a detailed breakdown of the available choices.
+To view the buying options offered visit the [EcoFlow Amazon page](https://amzn.to/47p0Lsu) or check out our EcoFlow Delta Pro [Buying Guide](https://investinyourenergy.com/ecoflow-delta-pro-buying-guide/) for a detailed breakdown of the available choices.
 
 ### **Bluetti: Versatile Power Solutions**
 
 Known mostly for their Bluetti EP500, a high-capacity portable battery designed more for on-the-go use, Bluetti has also recognized the trend towards home energy management. They offer a line of starter home battery kits eligible for the federal tax credit, like the AC300+B300 3KW system and the AC500+B300S 5KW system. These options can be portable, eligible for tax credits, and expandable with additional smart batteries. Bluetti recently rolled out the New EP500 PRO, a premium model combining the best features for both home and portable use, though currently at a higher price point.
 
-Bluetti's innovative approach offers solutions for those seeking portable power or scalable home backup systems. To explore buying options, you can visit the [Bluetti Amazon page](https://amzn.to/3u60Bb4), or for a detailed breakdown, check out our [Bluetti Power Stations Buying Guide](bluetti-power-stations-buying-guide)
+Bluetti's innovative approach offers solutions for those seeking portable power or scalable home backup systems. To explore buying options, you can visit the [Bluetti Amazon page](https://amzn.to/3u60Bb4), or for a detailed breakdown, check out our [Bluetti Power Stations Buying Guide](https://investinyourenergy.com/bluetti-power-stations-buying-guide/)
 
 #### **Conclusion**
 
