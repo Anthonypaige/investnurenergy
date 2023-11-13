@@ -1,5 +1,5 @@
 ---
-publishDate: 2023-10-19T00:00:00Z
+publishDate: 2023-10-31T00:00:00Z
 title: Tankless Water Heaters are compact efficiency
 excerpt: Bid farewell to the constant energy drain of maintaining a hot water tank. Tankless water heaters deliver hot water precisely when you need it.
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/WTR-3-cover-art.png?raw=true
@@ -36,9 +36,9 @@ Bid farewell to the constant energy drain of maintaining a hot water tank. Tankl
 
 ### **Top Recommended Brands**
 
-- [**Rinnai**](https://amzn.to/3RY2i4t): Renowned for its innovative technology, Rinnai offers models suitable for both residential and commercial use. Their units feature Wi-Fi connectivity for remote monitoring and control.
+- [**Rinnai**](https://amzn.to/49wftzR): Renowned for its innovative technology, Rinnai offers models suitable for both residential and commercial use. Their units feature Wi-Fi connectivity for remote monitoring and control.
 
-- [**Rheem**](https://amzn.to/3Sk2RG3): Rheem specializes in energy-efficient solutions with advanced features like self-modulating technology that adjusts energy usage based on demand.
+- [**Rheem**](https://amzn.to/3G22urW): Rheem specializes in energy-efficient solutions with advanced features like self-modulating technology that adjusts energy usage based on demand.
 
 ### **Additional Considerations**
 

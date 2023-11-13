@@ -20,7 +20,7 @@ Heat pump water heaters (HPWHs) stand out not just for their efficiency but also
 
 But the innovation doesn't stop there. HPWHs are designed with the user in mind. They come equipped with a convenient control panel, a departure from standard electric water heaters. This panel allows homeowners to effortlessly adjust temperature settings and choose between various operating modes. It's this blend of advanced technology and user-friendly controls that make HPWHs a smart choice for the modern homeowner.
 
-### **How to Benefit from Rebates and Credits on Heat Pump Water Heaters**
+### **Rebates and Credits on Heat Pump Water Heaters**
 
 Heat pump water heaters (HPWHs) are more than just a marvel of engineering; they're part of a broader movement towards energy efficiency. Recognized under the Inflation Reduction Act, HPWHs qualify for the Energy Efficient Home Improvement Credit (25C), which covers 30% of the cost up to $2,000.
 
