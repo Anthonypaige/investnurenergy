@@ -1,5 +1,5 @@
 ---
-publishDate: 2023-10-20T00:00:00Z
+publishDate: 2023-11-01T00:00:00Z
 title: What's a Ductless Mini Split Heat Pump?
 excerpt: Uncover the potential of ductless mini-split heat pumps as a modern solution for temperature control in your home. This guide highlights the operational efficiency and the ease of installation that these systems bring to the table.
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/HPQ-3-cover-art.jpg?raw=true
@@ -42,15 +42,15 @@ Ductless Mini Split Heat Pumps are incredibly versatile, offering solutions for 
 
 Certain models of Ductless Mini Split Heat Pumps are covered under the Inflation Reduction Act, including:
 
-**Energy Efficient Home Improvement Credit (25C):** This credit offers 30% of the costs, up to $2000 in tax credits for Energy Star certified Ductless heat pump mini splits with certain efficienct ratings,[you can view here](https://www.energystar.gov/about/federal_tax_credits/air_source_heat_pumps)
+**Energy Efficient Home Improvement Credit (25C):** This credit offers 30% of the costs, up to $2000 in tax credits for Energy Star certified Ductless heat pump mini splits with certain efficienct ratings,you can [view here](https://www.energystar.gov/about/federal_tax_credits/air_source_heat_pumps)
 
-**High-Efficiency Electric Home Rebate Act (HEEHRA)**:Designed for low-income and low to mid-income households, this program can cover between 50%-100% of the upfront costs, depending on your eligibility. Check your eligibility via [**Inflation Reduction Act Eligibility Calculator**](link IRA Caclulator).
+**High-Efficiency Electric Home Rebate Act (HEEHRA)**:Designed for low-income and low to mid-income households, this program can cover between 50%-100% of the upfront costs, depending on your eligibility. Check your eligibility via [**IRA Eligibility Calculator**](https://investinyourenergy.com/).
 
-**State-Level Rebates:** Many state governments and local utilities offer rebates that can be stacked with the federal incentive, providing even more savings on the upfront cost of the unit. To check for eligibility of state-level incentives, you can visit the [Database](www.dsireusa.org)of State Incentives for Renewables & Efficiency.
+**State-Level Rebates:** Many state governments and local utilities offer rebates that can be stacked with the federal incentive, providing even more savings on the upfront cost of the unit. To check for eligibility of state-level incentives, you can visit the [Database of State Incentives](https://www.dsireusa.org/) for Renewables & Efficiency.
 
 ### **DIY Option Mr. Cool**
 
-For those who prefer a hands-on approach, Mr. Cool offers a DIY Ductless Mini Split Heat Pump. This option is particularly appealing for homeowners who want to take control of their climate without professional installation. The DIY aspect aligns well with the growing trend of home automation, giving you personalized control over your home environment. Importantly, the Mr. Cool DIY Mini Split Heat Pump is also eligible for various rebates and tax credits, making it an affordable choice for many budgets. For more information, you can visit [HVAC Direct](https://hvacdirect.com/ductless-mini-splits/diy-mini-split-systems.html).
+For those who prefer a hands-on approach, Mr. Cool offers a DIY Ductless Mini Split Heat Pump. This option is particularly appealing for homeowners who want to take control of their climate without professional installation. The DIY aspect aligns well with the growing trend of home automation, giving you personalized control over your home environment. Importantly, the Mr. Cool DIY Mini Split Heat Pump is also eligible for various rebates and tax credits, making it an affordable choice for many budgets. For more information, you can [visit HVAC Direct](https://hvacdirect.com/ductless-mini-splits/diy-mini-split-systems.html).
 
 #### **Conclusion**
 

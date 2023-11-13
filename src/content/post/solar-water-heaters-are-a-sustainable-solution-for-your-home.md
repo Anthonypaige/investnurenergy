@@ -1,5 +1,5 @@
 ---
-publishDate: 2023-10-25T00:00:00Z
+publishDate: 2023-10-30T00:00:00Z
 title: Solar Water Heaters are a Sustainable Solution for Your Home
 excerpt: Step into the world of solar water heaters, where we guide you through the benefits and considerations of this sustainable home solution.
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/HCE-3-cover-art.png?raw=true
@@ -22,11 +22,11 @@ Solar water heaters tap into the abundant solar energy to heat water for various
 
 When evaluating solar water heaters, two key metrics to consider are the Solar Fraction (SF) and the Solar Energy Factor (SEF).
 
--**Solar Fraction (SF)**: SF is the portion of the total conventional hot water heating load (delivered energy and tank standby losses). A higher SF indicates a greater solar contribution to water heating, reducing the energy required by the backup water heater. The SF varies from 0 to 1.0.
+- **Solar Fraction (SF)**: SF is the portion of the total conventional hot water heating load (delivered energy and tank standby losses). A higher SF indicates a greater solar contribution to water heating, reducing the energy required by the backup water heater. The SF varies from 0 to 1.0.
 
--**Solar Energy Factor (SEF)**: SEF is a measure of the energy efficiency of a solar thermal water heater. It's the energy delivered by the system divided by the electrical or gas energy input into the system. A higher SEF means a more efficient system.
+- **Solar Energy Factor (SEF)**: SEF is a measure of the energy efficiency of a solar thermal water heater. It's the energy delivered by the system divided by the electrical or gas energy input into the system. A higher SEF means a more efficient system.
 
-### **Active Solar Water Heaters: A Closer Look**
+### **Active Solar Water Heaters**
 
 Active solar water heaters come with pumps and control systems that actively circulate water or a heat-transfer fluid. There are two main types:
 
@@ -42,7 +42,7 @@ Active solar water heaters come with pumps and control systems that actively cir
   - **Climate Suitability**: Ideal for colder regions where freezing temperatures are common, as the heat-transfer fluid prevents freezing.
   - **Efficiency**: Highly efficient and often come with well-insulated storage tanks to minimize heat loss.
 
-### **Passive Solar Water Heaters: A Closer Look**
+### **Passive Solar Water Heaters**
 
 Passive systems rely on natural convection rather than pumps to circulate water, making them simpler but generally less efficient. There are two main types:
 
@@ -58,7 +58,7 @@ Passive systems rely on natural convection rather than pumps to circulate water,
   - **Climate Suitability**: Suitable for a variety of climates but may require additional insulation in colder regions.
   - **Efficiency**: More efficient than integral collector-storage systems and have a longer lifespan due to fewer moving parts.
 
-### **The Financial Aspect: Understanding ROI and Savings**
+### **Understanding ROI and Savings**
 
 When it comes to investing in a solar water heater, understanding the financial implications is crucial. Here's a breakdown of the costs and savings you can expect:
 

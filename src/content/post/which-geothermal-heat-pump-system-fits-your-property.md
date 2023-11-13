@@ -1,5 +1,5 @@
 ---
-publishDate: 2023-10-20T00:00:00Z
+publishDate: 2023-10-30T00:00:00Z
 title: Which Geothermal Heat Pump System Fits Your Property?
 excerpt: Explore the world of geothermal heat pump systems and find the perfect fit for your property. Our guide helps you navigate through the essential considerations, ensuring an energy-efficient solution tailored to your needs.
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/Geo-3-cover%20art.png?raw=true
@@ -46,7 +46,7 @@ Remember, these systems are not just about immediate benefits. They're a long-te
 - **Efficiency**: Highly efficient but requires significant clean water volume, making it a specialized solution.
 - **Suitability**: Less common for residential use; best for those with access to abundant clean water, such as wells or rivers.
 
-### **Hybrid Systems: Combining Different Geothermal Resources**
+### **Hybrid Systems**
 
 - **Installation**: Uses different geothermal resources or a combination with outdoor air, offering a versatile approach to heating and cooling.
 - **Cost:** Dependent on the combination of resources used, providing flexibility in budget and design.
@@ -55,4 +55,4 @@ Remember, these systems are not just about immediate benefits. They're a long-te
 
 #### **Conclusion**
 
-Choosing the right geothermal heat pump system for your property is a significant decision that can greatly impact your energy consumption and savings. By understanding the different types of systems and their respective advantages, you can make an informed choice that suits your property's characteristics and your personal needs. Remember, investing in geothermal energy is not just about immediate benefits. It's a long-term commitment to sustainable living and financial savings, backed by the Residential Clean Energy Tax Credit. Make the switch to geothermal energy today and be a part of the solution for a greener, more energy-efficient future.
+Choosing the right geothermal heat pump system for your property is a significant decision that can greatly impact your energy consumption and savings. By understanding the different types of systems and their respective advantages, you can make an informed choice that suits your property's characteristics and your personal needs. Remember, investing in geothermal energy is not just about immediate benefits. It's a long-term commitment to sustainable living and financial savings, backed by the **Residential Clean Energy Tax Credit**. Make the switch to geothermal energy today and be a part of the solution for a greener, more energy-efficient future.

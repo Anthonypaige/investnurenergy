@@ -1,5 +1,5 @@
 ---
-publishDate: 2023-10-28T00:00:00Z
+publishDate: 2023-11-07T00:00:00Z
 title: Devising Your Solar Offset Strategy A Monopoly Game Approach
 excerpt: Stepping into the realm of solar energy with a well-crafted offset strategy allows you to gradually transition to a greener, more sustainable lifestyle.
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/FYI-4-cover-art.png?raw=true
@@ -34,7 +34,7 @@ The Monopoly-to-real-world analogy extends to net metering. Net metering is a bi
 
 The solar offset strategy, which involves a gradual approach rather than a sudden change, becomes more relevant in situations where favorable net-metering or feed-in tariffs are not offered by your utility provider. The moment your utility provider embraces the reality of the situation might be the opportune time for you to increase your offset efforts.
 
-### **Devising Your Solar Offset Strategy: Your Personalized Toolkit**
+### **Crafting Your Solar Offset Strategy**
 
 A solar offset strategy is a well-thought-out plan to gradually reduce your reliance on traditional energy sources, by incorporating solar energy solutions into your home setup. It's about understanding your energy consumption patterns and finding ways to offset this usage with solar energy production. Here, we guide you through the essential tools and steps to create a personalized solar offset strategy:
 

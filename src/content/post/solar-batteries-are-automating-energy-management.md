@@ -1,5 +1,5 @@
 ---
-publishDate: 2023-09-30T00:00:00Z
+publishDate: 2023-10-25T00:00:00Z
 title: Solar Batteries are Automating Energy Management
 excerpt: The evolving landscape of energy consumption demands innovative solutions for optimizing energy use, reducing costs, and alleviating grid strain. Solar batteries are at the forefront of this transformation.
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/SLRB-1-cover-art.png?raw=true

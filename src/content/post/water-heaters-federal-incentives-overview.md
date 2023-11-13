@@ -49,17 +49,17 @@ The Residential Clean Energy Tax Credit (25D) provides a 30% credit on both equi
 
 ### **Energy-Efficient Storage Water Heaters: A Reliable Choice**
 
-#### **Why it's included in the Inflation Reduction Act**
+#### **Why it's included in the IRA**
 
 While they may not offer the substantial savings of other water heater types, upgrading to an Energy Star certified model can still lead to significant savings, particularly when replacing older, less efficient units.
 
 #### **Federal Incentive**
 
-The Energy Efficient Home Improvement Credit (25C) awards a 30% tax credit on the project cost, up to a $600 maximum. For more details you can refer to the [Criteria for Energy Star Certified Storage Water Heaters](https://www.energystar.gov/about/federal_tax_credits/tax_credits_homeowners/water_heaters_natural_gas_oil_propane)
+The Energy Efficient Home Improvement Credit (25C) awards a 30% tax credit on the project cost, up to a $600 maximum. For more details you can refer to the Criteria for Energy Star Certified Storage Water Heaters [here](https://www.energystar.gov/about/federal_tax_credits/tax_credits_homeowners/water_heaters_natural_gas_oil_propane)
 
 ### **State-Level Incentives**
 
-Various state governments and local utilities offer rebates for energy-efficient water heating solutions. Although HPWHs are the most common recipients due to their high efficiency, some states also incentivize tankless and solar water heaters. To find offers in your state, visit the [Database](wwwdsireusa.org) of State Incentives for Renewables & Efficiency.
+Various state governments and local utilities offer rebates for energy-efficient water heating solutions. Although HPWHs are the most common recipients due to their high efficiency, some states also incentivize tankless and solar water heaters. To find offers in your state, visit the [Database of State Incentives](https://www.dsireusa.org/) for Renewables & Efficiency.
 
 #### **Conclusion**
 

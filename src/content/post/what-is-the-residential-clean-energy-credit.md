@@ -1,5 +1,5 @@
 ---
-publishDate: 2023-11-08T00:00:00Z
+publishDate: 2023-11-12T00:00:00Z
 title: What is the Residential Clean Energy Credit?
 excerpt: The Residential Clean Energy Credit is more than just a tax incentive; it's a catalyst for change in the way we approach energy in our homes.
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/HCE-1-cover-art.png?raw=true
@@ -28,7 +28,7 @@ If you're focused on the financial aspects, such as understanding loans and ince
 
 ### **Geothermal Heat Pumps**
 
-Geothermal heat pumps tap into the consistent warmth of the earth's subsurface to provide efficient home heating and cooling. This alternative to traditional HVAC systems is slowly gaining popularity due to its minimal environmental impact and substantial energy savings potential. The Inflation Reduction Act's uncapped credit, coupled with the system's potential to last up to 50 years, positions geothermal energy as a smart, long-term investment. As the technology advances, we can expect a broader adoption of geothermal solutions, contributing significantly to the stability of the power grid. For an in-depth exploration, visit our [geothermal heat pumps page](geothermal-heat-pumps-tapping-into-the-earths-core).
+Geothermal heat pumps tap into the consistent warmth of the earth's subsurface to provide efficient home heating and cooling. This alternative to traditional HVAC systems is slowly gaining popularity due to its minimal environmental impact and substantial energy savings potential. The Inflation Reduction Act's uncapped credit, coupled with the system's potential to last up to 50 years, positions geothermal energy as a smart, long-term investment. As the technology advances, we can expect a broader adoption of geothermal solutions, contributing significantly to the stability of the power grid. For an in-depth exploration, visit our [geothermal heat pumps] page.(geothermal-heat-pumps-tapping-into-the-earths-core).
 
 ### **Residential Wind Turbines**
 

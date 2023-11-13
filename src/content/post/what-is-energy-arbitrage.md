@@ -42,9 +42,16 @@ By charging a home battery system during off-peak hours and using it during peak
 
 Investing in a backup battery solely for energy arbitrage won’t be enough justification on its own. However, when you factor in the benefits of helping the grid, having backup power in case of blackouts, and complementing renewable energy sources like solar and wind, it becomes a valuable and responsible investment.
 
-### **How to Calculate Savings with Energy Arbitrage**
+### **Navigating Energy Arbitrage for Homeowners**
 
-When considering energy arbitrage, the battery size you choose will be crucial. For example, the average family uses around 1200 watts per hour. If they plan to use their battery for 4 hours during the early evening peak demand and another 4 hours during the summer demand block, a 5 kWh sized battery could theoretically suffice. If you have early morning peak hours, you could charge your battery overnight and utilize it again in the morning.
+Understanding energy arbitrage is vital for homeowners looking to optimize their energy costs in the era of Time-of-Use (TOU) rates. To effectively leverage this strategy, consider the following steps:
+
+- **Assess Your Energy Usage**: Familiarize yourself with your household's energy consumption, particularly during peak hours.
+- **Understand TOU Rates**: Review your energy provider’s TOU rates to identify the cost differences between peak and off-peak hours.
+- **Battery Capacity**: Determine the appropriate battery capacity that suits your household's energy needs during peak times.
+- **Potential Savings**: The savings from energy arbitrage can be estimated by considering the rate differences and the amount of energy your battery system will offset during peak hours.
+
+Though the exact savings will vary based on individual usage patterns and local rates, this approach provides a foundational understanding of how energy arbitrage can benefit your household financially and environmentally.
 
 <!--
 Our **[Energy Arbitrage Savings Calculator]**(insert calculator) helps you understand how different battery sizes and Time-of-Use (TOU) rates can create savings. Here's how to use it:

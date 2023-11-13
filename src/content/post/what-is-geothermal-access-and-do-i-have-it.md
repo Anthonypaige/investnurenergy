@@ -1,5 +1,5 @@
 ---
-publishDate: 2023-10-25T00:00:00Z
+publishDate: 2023-11-04T00:00:00Z
 title: What is Geothermal Access and Do I Have It?
 excerpt: Considering a geothermal heat pump system for your home? It's vital to comprehend the elements that can impact the system's efficiency. This guide will walk you through the crucial considerations, enabling you to evaluate the feasibility of a geothermal heat pump system for your property.
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/Geo-2-cover-art.png?raw=true'
@@ -50,7 +50,7 @@ This guide will explore these essential elements, helping you evaluate if your h
 
 - **Water-Assisted Systems**: If there's a sufficient body of water available on or near your property, it can be utilized to assist in creating heat.
 
-To explore the different types of geothermal systems in detail, check out our article on [The Best Geothermal Heat Pump System for Your Property](which-geothermal-heat-pump-system-fits-your-property).
+To explore the different types of geothermal systems in detail, check out our article on The Best Geothermal Heat Pump System [for Your Property](which-geothermal-heat-pump-system-fits-your-property).
 
 ### Local Regulations will have an impact on Geothermal System Installation
 

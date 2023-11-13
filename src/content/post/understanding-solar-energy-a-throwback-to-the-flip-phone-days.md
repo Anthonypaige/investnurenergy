@@ -14,7 +14,7 @@ metadata:
 
 In our previous article, we took you on a journey of understanding solar panel placement optimization, comparing it to the art of sunbathing. Now, let's dive deeper into the world of solar energy. It's a bit like trying to text on a flip phone - a tad more complex than today's smartphone era, but once you understand the basics, it's a game-changer. This article will transport you back to the flip phone era to simplify the intricate concepts of solar energy, battery storage, net metering, and time-of-use rate plans.
 
-### **Time-of-use Rates (TOU): The Evening and Weekend Minutes**
+### **TOU Rates: The Evening and Weekend Minutes**
 
 Remember the days when each call used your precious pool of monthly minutes, and calls made during peak hours consumed more of those minutes? The strategy then was to save non-urgent calls for evenings or weekends when rates were cheaper. This scenario is strikingly similar to Time-of-use rates (TOU) in the energy world.
 
@@ -25,7 +25,7 @@ More importantly, here's where solar storage comes into play. By storing excess 
 If you want to check your enrollment in TOU rates and understand the difference in those rates, you can access your energy data through your utility provider's dedicated app or website. Compare the amount of energy used (measured in kWh) with the corresponding price differences during various times of the day, or you can visit the Department of Energy's guide to [Time Variable pricing](<https://www.energy.gov/femp/demand-response-and-time-variable-pricing-programs#:~:text=Time%2Dvariable%20pricing%20(TVP),for%20any%20given%20customer%20class>) to see what programs your utility provider offers.
 
 By mastering TOU rates and strategically using solar storage, you can optimize your energy usage and save money on your energy bills. To learn
-more on [mastering TOU rates](mastering-time-of-use-rate-strategies-for-smart-energy).
+more check out our article on [mastering TOU rates](mastering-time-of-use-rate-strategies-for-smart-energy).
 
 ### **Net Metering: The Rollover Plan**
 
@@ -49,7 +49,7 @@ Like the safety net of a prepaid card, battery storage offers a sense of energy 
 
 For more on battery storage and how it can enhance your solar energy system, visit [Home Energy Storage.](clean-energy/home-energy-storage)
 
-### **Evolution of Solar Technology: The Leap from Flip Phones to Solar Homes**
+### **The Leap from Flip Phones to Solar Homes**
 
 Just as our mobile phones have progressed from bulky flip phones to today's sleek smartphones, solar technology has also witnessed an astounding evolution. Early photovoltaic cells were cumbersome and inefficient, but with continuous innovation, today's solar panels are highly efficient, compact, and adaptable to various needs. The introduction of intelligent micro-inverters, solar tracking systems, and solar storage batteries mirrors our leap from simple call-and-text mobiles to multi-functional smartphones. As solar technology continues to advance, it only enhances the relevance and importance of understanding concepts like battery storage, net metering, and TOU rates.
 
