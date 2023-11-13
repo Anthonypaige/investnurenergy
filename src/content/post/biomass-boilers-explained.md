@@ -1,5 +1,5 @@
 ---
-publishDate: 2023-10-25T00:00:00Z
+publishDate: 2023-11-07T00:00:00Z
 title: Biomass Boilers Explained
 excerpt: Navigate the world of biomass boilers. Learn how these eco-friendly systems can be a smart choice for your home's energy needs, offering both efficiency and sustainability.
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/EEHU-3-cover-art.png?raw=true
@@ -42,7 +42,7 @@ Additionally, one of the standout advantages of biomass is its storage capabilit
 
 For those interested in a dual-purpose solution, certain biomass boiler systems also come with hot water heating options. This means you can efficiently heat your home and your water supply with the same system, further enhancing your home's overall energy efficiency.
 
-### **Cost Analysis and ROI: A Closer Look**
+### **Cost Analysis and ROI**
 
 - **Initial Costs**: The average cost for installing a biomass boiler is between $8,000 and $15,000. However, thanks to the 25C tax credit, you could save up to $2,000, effectively reducing your initial investment to a range of $6,000 to $13,000.
 

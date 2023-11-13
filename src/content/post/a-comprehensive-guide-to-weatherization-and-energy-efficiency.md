@@ -1,5 +1,5 @@
 ---
-publishDate: 2023-10-15T00:00:00Z
+publishDate: 2023-10-30T00:00:00Z
 title: A Comprehensive Guide to Weatherization and Energy Efficiency
 excerpt: Weatherization is the practice of protecting a building and its interior from the elements, particularly from sunlight, precipitation, and wind.
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/WTHR-1-cover-art.png?raw=true
@@ -55,7 +55,7 @@ Sealing gaps and cracks is a vital yet cost-effective DIY project that can signi
   - **For Gaps up to 1"**: Expanding spray foam is excellent for sealing gaps up to 1 inch.
   - **For Larger Gaps (up to 3")**: This type of foam is also suitable for sealing larger gaps.
 
-For more details, refer to our [Foam Spray Insulation Buying Guide](foam-spray-insulation-buying-guide).
+For more details, refer to our Foam Spray Insulation [Buying Guide](foam-spray-insulation-buying-guide).
 
 ### **Additional DIY Measures for Energy Conservation**
 
@@ -68,12 +68,12 @@ Focusing on certain areas can have a substantial impact on your utility bills by
 
 - **Windows and Doors**:
 
-  - **Windows**: Identify leaks using a candle or incense stick or by feeling for drafts. Seal any gaps with suitable sealants or consider using [Window Insulation Kits](https://amzn.to/3FjOiu9).
+  - **Windows**: Identify leaks using a candle or incense stick or by feeling for drafts. Seal any gaps with suitable sealants or consider using Window Insulation Kits like the ones by [Frost King](https://amzn.to/4798Q4J) or [Duck](https://amzn.to/46c6hxx)
   - **Doors**: Inspect for drafts and gaps and apply weatherstripping and door sweeps to seal any openings.
 
 - **Garages**:
 
-  - **Insulation**: Enhance your garage's insulation using [Garage Door Insulation Kits](https://amzn.to/3FjOl9j) and weather strips. Door sweeps can also be utilized to ensure a tight seal on garage doors.
+  - **Insulation**: Enhance your garage's insulation using Garage Door Insulation Kits like this one from [Reach Barrier](https://amzn.to/47uHtlt) and weather strips. Door sweeps can also be utilized to ensure a tight seal on garage doors.
 
 #### **Conclusion**
 
