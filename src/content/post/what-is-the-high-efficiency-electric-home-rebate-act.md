@@ -24,19 +24,19 @@ The act covers a range of products and services focused on Home Climate and Hous
 
 ### **Home Climate**
 
-- **Heat Pump**: Heating and cooling are responsible for almost half of residential energy costs. Upgrading to a heat pump HVAC system, which produces three times the amount of energy it uses, can significantly reduce heating and cooling costs, making homes more comfortable year-round.
+- **Heat Pumps**: Heating and cooling are responsible for almost half of residential energy costs. Upgrading to a heat pump HVAC system, which produces three times the amount of energy it uses, can significantly reduce heating and cooling costs, making homes more comfortable year-round.
 
-- **Weatherization**: Insulation and Sealant improvements aid in the efficiency of the HVAC unit. Proper insulation helps keep homes warm in winter and cool in summer, cutting energy costs. Learn more about weatherization in our [comprehensive guide](a-comprehensive-guide-to-weatherization-and-energy-efficiency).
+- **Weatherization**: Insulation and Sealant improvements aid in the efficiency of the HVAC unit. Proper insulation helps keep homes warm in winter and cool in summer, cutting energy costs. Learn more about weatherization in our [comprehensive guide](/a-comprehensive-guide-to-weatherization-and-energy-efficiency).
 
 - **Ventilation**: Proper ventilation ensures healthy indoor air quality and aids in the efficiency of the HVAC unit, enhancing overall well-being.
 
-### **Household Essential Appliances**:
-
-- **Hot Water**: Heating water accounts for nearly 20% of residential energy costs.Heat Pump Water Heaters are three times more efficient, lowering water heating expenses.
+### **Household Essential Appliances**
 
 - **Laundry**: Heat Pump Clothes Dryers utilize the same heat pump technology as heat pumps and HPWHs, translating to savings on electricity bills.
 
-- **Cooking**: Electric Stoves and Electric Cooktops offer efficient cooking, reducing energy consumption. Electric Stoves are at least twice as efficient as gas stoves and produce much less waste heat that can make your kitchen uncomfortable in the summer.
+- **Cooking**: Electric Stoves are at least twice as efficient as gas stoves and produce much less waste heat that can make your kitchen uncomfortable in the summer.
+
+- **Water Heating**: Heating water accounts for nearly 20% of residential energy costs.HPWHs are three times more efficient, lowering water heating expenses
 
 These provisions collectively offer up to $14,000 for low-income households and up to $8,000 for moderate-income households.
 
@@ -44,7 +44,7 @@ These provisions collectively offer up to $14,000 for low-income households and 
 
 Wondering how these provisions apply to you? [Rewiring America's IRA Calculator](https://investinyourenergy.com) is a valuable tool to check your eligibility for HEEHRA and the rest of the Inflation Reduction Act. By entering specific details about your home and energy usage, you can get an estimate of the potential rebates and annual savings you could enjoy.
 
-If not covered by HEERA, you’ll more than likely be eligible for the broader Energy Efficient Home Improvement Credit 25C. Visit [Energy Efficient Home Upgrades](energy-efficient-home-upgrades) to learn more.
+If not covered by HEERA, you’ll more than likely be eligible for the broader Energy Efficient Home Improvement Credit 25C. Visit [Energy Efficient Home Upgrades](/energy-efficient/energy-efficient-home-upgrades) to learn more.
 
 Also, many of these items can also be eligible for state rebates, allowing you to stack them. Check the [Database](https://www.dsireusa.org/) of State Incentives for Renewables & Efficiency for your eligibility for state-level rebates.
 
