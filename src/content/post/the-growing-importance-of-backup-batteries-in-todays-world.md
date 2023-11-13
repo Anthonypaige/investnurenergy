@@ -20,7 +20,7 @@ When the term "solar batteries" is mentioned, images of large, sleek, high-tech 
 
 ### **Understanding Energy Arbitrage is the Key**
 
-Energy arbitrage is a savvy strategy that can significantly reduce your electricity bills if you have Time-of-Use (TOU) rates.By storing electricity when it's cheap and using it when prices are high, you can maximize your savings. This approach adds another layer of cost-effectiveness to your backup battery system. For a more in-depth understanding and to use our specialized calculator, check out our [comprehensive guide on energy arbitrage](insert article).
+Energy arbitrage is a savvy strategy that can significantly reduce your electricity bills if you have Time-of-Use (TOU) rates.By storing electricity when it's cheap and using it when prices are high, you can maximize your savings. This approach adds another layer of cost-effectiveness to your backup battery system. For a more in-depth understanding and to use our specialized calculator, check out our [comprehensive guide on energy arbitrage](/what-is-energy-arbitrage).
 
 ### **Decoding Battery Comparison Tables is important**
 

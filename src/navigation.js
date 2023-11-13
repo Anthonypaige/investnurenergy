@@ -93,9 +93,9 @@ export const footerData = {
       title: 'Shopping',
       links: [
         { text: 'Affiliate Marketplace', href: getPermalink('/shopping/affiliate-marketplace') },
-        { text: 'Top Smart Thermostats', href: getPermalink('/shopping/smart-thermostat-comparison-table') },
-        { text: 'Portable Power Stations', href: getPermalink('/shopping/portable-power-stations-comparison-table') },
-        { text: 'Smart EV Chargers', href: getPermalink('/shopping/ev-charger-comparison-table') },
+        { text: 'Top Smart Thermostats', href: getPermalink('/shopping/top-smart-thermostats') },
+        { text: 'Portable Power Stations', href: getPermalink('/shopping/portable-power-stations') },
+        { text: 'Smart EV Chargers', href: getPermalink('/shopping/smart-ev-chargers') },
       ],
     },
   ],
@@ -104,7 +104,7 @@ export const footerData = {
     { text: 'About Us', href: getPermalink('/about-us') },
   ],
   socialLinks: [
-    { ariaLabel: 'X', icon: 'tabler:brand-x', href: '#' },
-    { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: '#https://www.facebook.com/InvestInYourEnergy' },
+    { ariaLabel: 'X', icon: 'tabler:brand-x', href: 'https://twitter.com/investnurenergy' },
+    { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href:'https://www.facebook.com/InvestInYourEnergy' },
   ],
 };

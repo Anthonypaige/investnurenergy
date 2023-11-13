@@ -24,7 +24,7 @@ Whether you're considering solar or have already made the transition, Emporia HE
 
 ### **Creating an Energy Efficiency Playbook with 50A Sensors**
 
-Beyond solar preparation, HEMS can serve as a 'playbook' for transitioning into an energy-efficient home. By providing circuit-level monitoring, it offers insights into individual appliance usage. Most major appliances, like those you would want to upgrade and track performance on, use their own dedicated circuit. This essentially allows for 'select-appliance-monitoring,' enabling homeowners to identify energy-hungry appliances and take steps to reduce consumption. 
+Beyond solar preparation, HEMS can serve as a 'playbook' for transitioning into an energy-efficient home. By providing circuit-level monitoring, it offers insights into individual appliance usage. Most major appliances, like those you would want to upgrade and track performance on, use their own dedicated circuit. This essentially allows for 'select-appliance-monitoring,' enabling homeowners to identify energy-hungry appliances and take steps to reduce consumption.
 
 Whether through more efficient usage habits or by replacing old, inefficient appliances with energy-saving models, this knowledge can be vital. Understanding the exact power used now helps when comparing it to new purchases, aiding in tracking the ROI on major appliance upgrades like heat pumps or heat pump water heaters.
 

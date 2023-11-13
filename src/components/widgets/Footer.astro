@@ -5,7 +5,6 @@ import { getPermalink } from '~/utils/permalinks';
 interface Link {
   text?: string;
   href?: string;
-  ariaLabel?: string; 
   icon?: string;
 }
 
@@ -18,7 +17,6 @@ export interface Props {
   links: Array<Links>;
   secondaryLinks: Array<Link>;
   socialLinks: Array<Link>;
-  footNote?: string;
   theme?: string;
 }
 
@@ -28,7 +26,7 @@ const newLinks = [
       title: 'Tax Code Breakdowns',
       links: [
         { text: 'Home Clean Energy Credit', href: getPermalink('/clean-energy/home-clean-energy-credit') },
-        { text: 'Energy Efficient Home Upgrades', href: getPermalink('/energy-efficient/energy-efficient-home-upgrades') },
+        { text: 'Energy Efficient Upgrades',      href: getPermalink('/energy-efficient/energy-efficient-home-upgrades') },
         { text: 'Energy Efficient Rebates', href: getPermalink('/state-level-rebates/energy-efficient-rebates') },
       ],
     },
@@ -44,9 +42,9 @@ const newLinks = [
     {
      title: 'Other Pages',
       links: [
-        { text: 'Geothermal Energy', href: getPermalink('/clean-energy/geothermal-heat-pumps') },
-        { text: 'Wind Energy', href: getPermalink('/clean-energy/wind-turbines') },
-        { text: 'Heat Pumps', href: getPermalink('/energy-efficient/air-source-heat-pumps') },
+        { text: 'Geothermal Heat Pumps', href: getPermalink('/clean-energy/geothermal-heat-pumps') },
+        { text: 'Wind Turbines', href: getPermalink('/clean-energy/wind-turbines') },
+        { text: 'Air Source Heat Pumps', href: getPermalink('/energy-efficient/air-source-heat-pumps') },
         { text: 'Water Heaters', href: getPermalink('/energy-efficient/energy-efficient-water-heaters') },
       ],
     },
@@ -56,21 +54,20 @@ const newLinks = [
         { text: 'Affiliate Marketplace', href: getPermalink('/shopping/affiliate-marketplace') },
         { text: 'Top Smart Thermostats', href: getPermalink('/shopping/top-smart-thermostats') },
         { text: 'Portable Power Stations', href: getPermalink('/shopping/portable-power-stations') },
-        { text: 'EV Chargers', href: getPermalink('/shopping/smart-ev-chargers') },
+        { text: 'Smart EV Chargers', href: getPermalink('/shopping/smart-ev-chargers') },
       ],
     },
   ];
 
-const siteName = "Invest in Your Energy";
+
 const newSecondaryLinks = [
   { text: 'About Us', href: '/about-us' },
   { text: 'Contact Us', href: '/contact-us' }
 ];
-
 const { socialLinks = [
-  { ariaLabel: 'Follow us on Facebook', href: 'https://www.facebook.com/YourPage', icon: 'facebook' },
-  { ariaLabel: 'Follow us on Twitter', href: 'https://twitter.com/YourHandle', icon: 'twitter' }
-], theme = 'light' } = Astro.props;
+  { href: 'https://www.facebook.com/InvestInYourEnergy', icon: 'facebook' },
+  { href: 'https://twitter.com/investnurenergy', icon: 'twitter' }
+], theme = 'dark' } = Astro.props;
 
 const links = newLinks;
 
@@ -106,12 +103,12 @@ const links = newLinks;
             <div class="dark:text-gray-300 font-medium mb-2">{title}</div>
             {links && Array.isArray(links) && links.length > 0 && (
               <ul class="text-sm">
-                {links.map(({ text, href, ariaLabel }) => (
+                {links.map(({ text, href, }) => (
                   <li class="mb-2">
                     <a
                       class="text-muted hover:text-gray-700 hover:underline dark:text-gray-400 transition duration-150 ease-in-out"
                       href={href || '#'}
-                      aria-label={ariaLabel || ''}
+                  
                     >
                       {text}
                     </a>
@@ -127,11 +124,10 @@ const links = newLinks;
       {
         socialLinks?.length ? (
           <ul class="flex mb-4 md:order-1 -ml-2 md:ml-4 md:mb-0 rtl:ml-0 rtl:-mr-2 rtl:md:ml-0 rtl:md:mr-4">
-            {socialLinks.map(({ ariaLabel, href, icon }) => (
+            {socialLinks.map(({ href, icon }) => (
               <li>
                 <a
                   class="text-muted dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 inline-flex items-center"
-                  aria-label={ariaLabel}
                   href={href}
                 >
                   {icon && <Icon name={icon} class="w-5 h-5" />}

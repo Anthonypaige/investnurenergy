@@ -39,7 +39,7 @@ Weatherization plays a crucial role in energy efficiency by reducing energy cons
 
 ### **The Residential Clean Energy Credit**
 
-Step into the future of sustainable living with the Residential Clean Energy Credit 25D. This federal tax incentive, introduced under the Inflation Reduction Act of 2022, encourages homeowners to invest in clean energy technologies, offering a 30% reduction on eligible costs, with no cap. [Home Clean Energy Credit](investinyourenergy.com/home-clean-energy-credit)
+Step into the future of sustainable living with the Residential Clean Energy Credit 25D. This federal tax incentive, introduced under the Inflation Reduction Act of 2022, encourages homeowners to invest in clean energy technologies, offering a 30% reduction on eligible costs, with no cap. [Home Clean Energy Credit](/clean-energy/home-clean-energy-credit)
 
 #### [**Geothermal Heat Pumps**](https://investinyourenergy.com/clean-energy/geothermal-heat-pumps)
 
