@@ -12,7 +12,7 @@ metadata:
   canonical: https://investinyourenergy.com/what-factors-will-effect-my-solar-roi
 ---
 
-Investing in solar panels is more than a commitment to environmental sustainability; it's a strategic financial decision that can yield significant returns. As the world shifts towards cleaner energy sources, understanding how to maximize the Return on Investment (ROI) of a solar installation becomes paramount. While factors like power usage and living in areas with high energy costs might be beyond your control, there are several controllable elements that can directly influence your Solar ROI. 
+Investing in solar panels is more than a commitment to environmental sustainability; it's a strategic financial decision that can yield significant returns. As the world shifts towards cleaner energy sources, understanding how to maximize the Return on Investment (ROI) of a solar installation becomes paramount. While factors like power usage and living in areas with high energy costs might be beyond your control, there are several controllable elements that can directly influence your Solar ROI.
 
 From choosing the right solar company and taking advantage of incentives to optimizing system efficiency and sizing, these factors play a crucial role in determining the success of your solar investment. In this guide, we'll delve into the key components that impact Solar ROI, providing you with the knowledge and tools to make an informed and profitable decision.
 
@@ -26,7 +26,7 @@ Here's a word of caution: don't rush into a decision without digging deep. Somet
 
 State-level incentives are a significant factor in Solar ROI, making the difference between a good idea and a financially sound decision. These incentives, including installation support, net metering, feed-in tariffs, and performance based incentives (PBIs), can boost your solar system's cost-effectiveness. However, not all states offer these benefits. If your state lacks the right incentives, waiting might be wise.
 
-For a detailed breakdown of these state-level incentives, explore our [Guide to Solar Incentives](insert article). And if you're curious about what's specifically available in your area, the [Database of State Incentives](https://www.dsireusa.org/) for Renewables & Efficiency is the go-to resource to check your availability.
+For a detailed breakdown of these state-level incentives, explore our [Guide to Solar Incentives](/state-level-solar-incentives-overview). And if you're curious about what's specifically available in your area, the [Database of State Incentives](https://www.dsireusa.org/) for Renewables & Efficiency is the go-to resource to check your availability.
 
 ### **Battery Storage and Time-of-Use Rates Synergy**
 
@@ -34,7 +34,7 @@ For a detailed breakdown of these state-level incentives, explore our [Guide to 
 
 ### **Solar Panel Efficiency and Placement**
 
-The efficiency of your solar system hinges on the optimal placement of panels on your roof. Not all areas of a roof are suitable for solar, and some companies may install panels in less-than-ideal locations, leading to only 70% efficiency. Identifying the prime spots on your roof is vital, but it's just the beginning. Coupled with high-quality panels and inverters, strategic placement can significantly increase energy production. Even small efficiency gains, achieved through the right combination of placement and quality components, make a meaningful difference over time. For those new to solar, our [Solar basics](/clean-energy/solr-energy-basics) page offers a beginner's guide to understanding these solar energy concepts.
+The efficiency of your solar system hinges on the optimal placement of panels on your roof. Not all areas of a roof are suitable for solar, and some companies may install panels in less-than-ideal locations, leading to only 70% efficiency. Identifying the prime spots on your roof is vital, but it's just the beginning. Coupled with high-quality panels and inverters, strategic placement can significantly increase energy production. Even small efficiency gains, achieved through the right combination of placement and quality components, make a meaningful difference over time. For those new to solar, our [Solar basics](/clean-energy/solar-energy-basics) page offers a beginner's guide to understanding these solar energy concepts.
 
 If you want to estimate your potential energy production based on location and system specifications, the [NREL PV Watts calculator](https://pvwatts.nrel.gov/) is a valuable tool that provides customized projections.
 
