@@ -10,10 +10,21 @@ const metadata = {
   title: 'Solar Energy Basics: Understanding the Essentials| Invest in Your Energy',
   description: 'Dive into the fundamentals of solar energy with our comprehensive guide. Learn how solar power works, the benefits of solar installation, and how to maximize your investment with the 30% Solar Tax Credit. Discover the key factors in determining solar suitability for your home and explore modern solar technologies, including efficient battery storage systems.',
   keywords: 'solar energy basics, solar power fundamentals, solar installation benefits, solar tax credit, home solar technology',
-  // Add other relevant metadata here
+  imageUrl: 'https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/page-sharing-logos/fyi-page-sharing-logo.png?raw=true',
 };
 
 ---
+<head>
+  <title>{metadata.title}</title>
+  <meta name="description" content={metadata.description} />
+  <meta property="og:title" content={metadata.title} />
+  <meta property="og:description" content={metadata.description} />
+  <meta property="og:image" content={metadata.imageUrl} />
+  <meta property="og:type" content="website" />
+  <!-- Other meta tags -->
+</head>
+
+
 
 <Layout metadata={metadata}>
   <Hero actions={[]} videoSrc="/images/solar-energy-basics-video.mp4">
