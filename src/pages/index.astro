@@ -12,9 +12,21 @@ import FAQs from '~/components/widgets/FAQs.astro';
 const metadata = {
   title: 'Invest in your Energy',
   ignoreTitleTemplate: true,
+  description: 'Our platform serves as a one-stop shop for those looking to invest in their homes energy potential.',
+  imageUrl: 'https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/logo-for-facebook.png?raw=true',
 };
+
 ---
 
+<head>
+  <title>{metadata.title}</title>
+  <meta name="description" content={metadata.description} />
+  <meta property="og:title" content={metadata.title} />
+  <meta property="og:description" content={metadata.description} />
+  <meta property="og:image" content={metadata.imageUrl} />
+  <meta property="og:type" content="website" />
+  <!-- Other meta tags -->
+</head>
 
 
 
