@@ -10,8 +10,22 @@ import AirSourceHeatPumpNote from '~/components/notes/AirSourceHeatPumpNote.astr
 
 const metadata = {
   title: 'Air-Source-Heat Pumps',
+  imageUrl: 'https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/page-sharing-logos/hpq-page-sharing-logo.png?raw=true',
+  description: 'Explore the efficiency of air source heat pumps for eco-friendly heating and cooling. Learn about their benefits, types, and how they work for optimal home comfort.',
+  keywords: 'air source heat pump, whats a heat pump, energy efficient heating, ductless mini splits, eco friendly cooling,',
 };
+
 ---
+
+<head>
+  <title>{metadata.title}</title>
+  <meta name="description" content={metadata.description} />
+  <meta property="og:title" content={metadata.title} />
+  <meta property="og:description" content={metadata.description} />
+  <meta property="og:image" content={metadata.imageUrl} />
+  <meta property="og:type" content="website" />
+  <!-- Other meta tags -->
+</head>
 
 <Layout metadata={metadata}>
   <Hero actions={[]} videoSrc="/images/heat-pump-video.mp4">
@@ -41,63 +55,6 @@ const metadata = {
   ]}
 />
 
-<!-- <CardWidget
- 
-title="Product Cards"
-cards={[
-{
-  title: 'Ecobee Smart Premium',
-  imageSrc: 'https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/THRM-2-cover-art.png?raw=true',
-  topSellingPoints: [
-    'Multi-Platform Compatibility',
-    'Security & Speaker',
-    'Air Quality Monitoring',
-    '$40 Smart Sensor Included',
-    'Advanced-Learning'
-  ],
-  avgPrice: '$225',
-  callToAction: {
-    target: "_blank",
-    text: "Shop Amazon",
-    href: "https://amzn.to/4705a5e",
-  }
-},
-{
-  title: 'Sense Home Energy Monitoring ',
-  imageSrc: 'https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/sense-hems.png?raw=true',
-  topSellingPoints: [
-    'Real-Time Energy Data',
-    'Appliance-Level Monitoring',
-    'Bill Tracking and Goals',
-    'Machine-Learning Detection',
-    'Disaster Avoidance Alerts'
-  ],
-  avgPrice: '$300',
-  callToAction: {
-    target: "_blank",
-    text: "Shop Amazon",
-    href: "/https://amzn.to/3Qau76Y"
-  }
-},
-{
-  title: 'Google Nest Learning ',
-  imageSrc: 'https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/product-images/google-nest%20learning.png?raw=true',
-  topSellingPoints: [
-    'Energy-Saving Smarts',
-    'HVAC Monitoring',
-    'Easy Scheduling',
-    'Advanced Learning',
-    'Nest Renew Support'
-  ],
-  avgPrice: '$225',
-  callToAction: {
-    target: "_blank",
-    text: "Shop Amazon",
-    href: "https://amzn.to/3tNnwYK"
-  },
-  },
-]}
-/> -->
 
 <Features2
   title="Types of Air Source Heat Pumps"

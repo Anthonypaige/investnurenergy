@@ -9,12 +9,22 @@ import FeaturedArticles from '~/components/widgets/FeaturedArticles.astro';
 
 const metadata = {
   title: 'Smart Energy Devices: Enhancing Home Efficiency | Invest in Your Energy',
-  description: 'Discover the world of smart energy devices and how they revolutionize home energy management. Learn about smart thermostats, energy monitors, and IoT-enabled devices that optimize energy usage, reduce costs, and contribute to a sustainable lifestyle.',
-  keywords: 'smart energy devices, home energy management, smart thermostats, energy monitors, smart home, ',
-  // Add other relevant metadata here
+  description: 'Discover the world of smart energy devices and how they revolutionize home energy management. Learn about smart thermostats, home energy monitors, and IoT-enabled devices that optimize energy usage, reduce costs, and contribute to a sustainable lifestyle.',
+  keywords: 'smart energy devices, home energy management, smart thermostats, home energy monitors, smart home, ',
+  imageUrl: 'https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/page-sharing-logos/sed-page-sharing-logo.png?raw=true',
 };
 
 ---
+<head>
+  <title>{metadata.title}</title>
+  <meta name="description" content={metadata.description} />
+  <meta property="og:title" content={metadata.title} />
+  <meta property="og:description" content={metadata.description} />
+  <meta property="og:image" content={metadata.imageUrl} />
+  <meta property="og:type" content="website" />
+  <!-- Other meta tags -->
+</head>
+
 <Layout metadata={metadata}>
   <Hero actions={[]} videoSrc="/images/smart-home-video.mp4">
     <Fragment slot="title">
