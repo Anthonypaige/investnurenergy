@@ -105,6 +105,6 @@ export const footerData = {
   ],
   socialLinks: [
     { ariaLabel: 'X', icon: 'tabler:brand-x', href: 'https://twitter.com/investnurenergy' },
-    { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href:'https://www.facebook.com/InvestInYourEnergy' },
+    { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: 'https://www.facebook.com/InvestInYourEnergy' },
   ],
 };
