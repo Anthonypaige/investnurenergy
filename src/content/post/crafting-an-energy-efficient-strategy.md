@@ -1,5 +1,5 @@
 ---
-publishDate: 2023-11-05T00:00:00Z
+publishDate: 2023-11-11T00:00:00Z
 title: Crafting an Energy Efficiency Strategy
 excerpt: The key is to have a plan. This guide is designed to provide you with the essential information and insights you need to craft a practical and effective energy-saving strategy.
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/EEHU-2-cover-art.png?raw=true

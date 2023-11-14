@@ -1,5 +1,5 @@
 ---
-publishDate: 2023-10-27T00:00:00Z
+publishDate: 2023-11-10T00:00:00Z
 title: Spotlight on the Solar Industry Promoting Transparency and Standards
 excerpt: Unscrupulous firms exploited the lack of consumer awareness, employing aggressive sales maneuvers, adding hidden "dealer fees", and offering unrealistic promises.
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/SLR-2-cover-art.png?raw=true
