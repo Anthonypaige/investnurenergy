@@ -34,11 +34,11 @@ Many of these incentives operate on a first-come, first-served basis. This means
 
 #### **Items Not Covered Under Federal Incentives**
 
-- **Smart Thermostats**: These devices are popular because they allow homeowners to control heating and cooling remotely, optimizing energy usage and reducing bills.
+- **Smart Thermostats**: [These devices](/Shopping/smart-ev-chargers) are popular because they allow homeowners to control heating and cooling remotely, optimizing energy usage and reducing bills.
 
 - **LED Lighting**: Second in popularity, LED lights consume less electricity and have a longer lifespan compared to traditional bulbs, making them a cost-effective choice.
 
-- **Home Energy Monitoring Systems (HEMS)**: As more people are becoming aware of the energy saving possibilties offered by a Home Energy Monitoring System, more states are offering rebates.
+- **Home Energy Monitoring Systems (HEMS)**: As more people are becoming aware of the energy saving possibilties offered by a [Home Energy Monitoring System](home-energy-monitoring-your-guide-to-energy-efficiency), more states are offering rebates.
 
 - **Air Purifiers and Dehumidifiers**: These are popular in areas with air quality issues or high humidity levels.
 
@@ -52,11 +52,13 @@ Many of these incentives operate on a first-come, first-served basis. This means
 
 - **Heat Pump Water Heaters**: These are energy-efficient alternatives to traditional water heaters and are popular due to their long-term cost savings.
 
-- **Ductless Mini Splits and Insulation Products and Services**: These offer both heating and cooling solutions and are popular for their versatility and efficiency.
+- **Ductless Mini Splits**: Favored for their easy installation and efficiency, these systems are a go-to choice for heating and cooling without extensive ductwork
 
-- **Ducted Air Source Heat Pumps**: These are popular in colder climates for their efficient heating capabilities.
+- **Ducted Air Source Heat Pumps**: Offers a comprehensive home heating and cooling solution, these systems are efficient and often supported by both federal and state-level incentives.
 
-- **Battery Storage Technology**: Especially popular in states prone to blackouts, as they provide an emergency power supply.
+- **Insulation Products and Services**: Key for energy conservation, these upgrades are often incentivized at the state level to improve home energy efficiency.
+
+- **Battery Storage Technology**: Highly valued in areas with frequent power outages, these systems are eligible for various incentives due to their role in energy independence.
 
 #### **Conclusion**
 
