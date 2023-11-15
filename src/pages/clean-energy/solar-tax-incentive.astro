@@ -21,7 +21,12 @@ const metadata = {
   <meta property="og:description" content={metadata.description} />
   <!-- <meta property="og:image" content={metadata.imageUrl} /> -->
   <meta property="og:type" content="website" />
-  <!-- Other meta tags -->
+    <!-- Twitter Card meta tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={metadata.title} />
+    <meta name="twitter:description" content={metadata.description} />
+    <!-- <meta name="twitter:image" content={metadata.imageUrl} /> -->
+    <meta name="twitter:image:alt" content="A brief description of the image" />
 </head>
 
 

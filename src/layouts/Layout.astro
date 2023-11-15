@@ -26,19 +26,18 @@ const { language, textDirection } = I18N;
 
   <head>
     <CommonMeta />
-    
     <Favicons />
     <CustomStyles />
     <Metadata {...metadata} />
     <SiteVerification />
+    <BasicScripts />
     <Analytics />
-
   </head>
 
   <body class="antialiased text-default bg-page tracking-tight">
     <slot />
 
-    <BasicScripts />
+
 
 
     <style is:global>
