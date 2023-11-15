@@ -1,7 +1,7 @@
 ---
 publishDate: 2023-11-10T00:00:00Z
 title: What is the High-Efficiency Electric Home Rebate Act?
-excerpt: The High-Efficiency Electric Home Rebate Act (HEEHRA) is a groundbreaking piece of legislation that's part of the larger Inflation Reduction Act. It's designed to make energy-efficient home upgrades more accessible, especially for LMI households.
+excerpt: The High-Efficiency Electric Home Rebate Act (HEEHRA) is a groundbreaking piece of legislation that's part of the larger Inflation Reduction Act. It's designed to make energy-efficient home upgrades more accessible for LMI households.
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/EER-1-cover-art.png?raw=true
 category: Energy Efficient Rebates
 tags:
@@ -16,7 +16,7 @@ Low and Moderate-Income (LMI) households typically bear three times the energy b
 
 ### **What is the High-Efficiency Electric Home Rebate Act?**
 
-The High-Efficiency Electric Home Rebate Act (HEEHRA) is a groundbreaking piece of legislation that's part of the larger Inflation Reduction Act. It's designed to make energy-efficient home upgrades more accessible, especially for LMI households. The act provides a full 100% credit for low-income households earning less than 80% of the state median income, and a 50% point-of-sale rebate for moderate-income households earning between 80% and 150% of the state's median income.
+The High-Efficiency Electric Home Rebate Act (HEEHRA) is a groundbreaking piece of legislation that's part of the larger Inflation Reduction Act. It's designed to make energy-efficient home upgrades more accessiblefo r LMI households. The act provides a full 100% credit for low-income households earning less than 80% of the state median income, and a 50% point-of-sale rebate for moderate-income households earning between 80% and 150% of the state's median income.
 
 ### **What is covered undered the HEEHRA?**
 

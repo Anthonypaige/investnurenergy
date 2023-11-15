@@ -18,9 +18,9 @@ metadata:
 
 Blue Raven Solar entices customers with the alluring offer of **"18 months free, $0 down, no hassle,"** along with the promise of potential savings on utility bills. However, this is where the company's transparency ends and manipulation begins. Contrary to their insinuations, Blue Raven Solar encourages customers to use their tax returns freely, making their bridge loan option appear far more flexible and appealing than it truly is.
 
-##### **The Bridge Loan Trap: A Financial Quicksand**
+#### **The Bridge Loan Trap: A Financial Quicksand**
 
-We've delved into the complexities of solar loans in our previous article on [navigating the pitfalls of solar loans](solar-loans-a-guide-to-avoiding-pitfalls-and-maximizing-benefits), and bridge loans stand out as particularly treacherous. Blue Raven Solar fails to disclose that if the tax credit isn't applied to the bridge loan within the stipulated time frame, the interest rate can soar dramatically. This sudden and unexpected surge in monthly payments can financially cripple homeowners, effectively obliterating any chance of a return on investment (ROI).
+We've delved into the complexities of solar loans in our previous article on [navigating the pitfalls of solar loans](https://investinyourenergy.com/solar-loans-a-guide-to-avoiding-pitfalls-and-maximizing-benefits/), and bridge loans stand out as particularly treacherous. Blue Raven Solar fails to disclose that if the tax credit isn't applied to the bridge loan within the stipulated time frame, the interest rate can soar dramatically. This sudden and unexpected surge in monthly payments can financially cripple homeowners, effectively obliterating any chance of a return on investment (ROI).
 
 By employing these cunning tactics, Blue Raven Solar not only jeopardizes the financial stability of homeowners but also tarnishes the reputation of the solar industry. Their practices serve as a cautionary tale, highlighting the urgent need for consumer awareness and industry regulation.
 
@@ -30,11 +30,11 @@ By employing these cunning tactics, Blue Raven Solar not only jeopardizes the fi
 
 Blue Raven Solar employs the term "net price" in a way that deliberately misleads customers into believing it encompasses all associated costs. What they don't reveal is that this so-called "net price" is bloated with an exorbitant 40% in dealer fees. But the deception doesn't end there.
 
-##### **The Deceptive Inclusion of Interest**
+#### **The Deceptive Inclusion of Interest**
 
 These dealer fees are so strategically inflated that they mimic the amount one would expect to pay in interest over a 25-year loan period. This creates the illusion that the interest is already included in the "net price," leading customers to think they're getting a better deal than they actually are.
 
-##### **The Tax Credit Fallacy**
+#### **The Tax Credit Fallacy**
 
 Furthermore, Blue Raven Solar insinuates that customers can apply the 30% tax credit not just to the upfront cost but also to this inflated interest amount. Not only is this misleading, but it's also not legally permissible. The tax credit is meant for the cost of the solar system itself, not the interest accrued over the life of the loan.
 
