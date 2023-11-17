@@ -43,7 +43,7 @@ const tasksIntegration = () => {
             }
           }
         } catch (err) {
-          console.error("Error in tasksIntegration:", err);
+          console.error('Error in tasksIntegration:', err);
         }
       },
     },
