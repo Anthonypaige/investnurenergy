@@ -86,7 +86,6 @@ const getSite = () => {
     site: undefined,
     base: '/',
     trailingSlash: false,
-
     googleSiteVerificationId: '',
   };
 
@@ -103,8 +102,8 @@ const getMetadata = () => {
     },
     description: '',
     robots: {
-      index: false,
-      follow: false,
+      index: true,
+      follow: true,
     },
     openGraph: {
       type: 'website',
@@ -135,7 +134,7 @@ const getI18N = () => {
 const getAppBlog = () => {
   const _default = {
     isEnabled: false,
-    postsPerPage: 6,
+    postsPerPage: 5,
     post: {
       isEnabled: true,
       permalink: '/blog/%slug%',

@@ -4,7 +4,7 @@ import os from 'node:os';
 const tasksIntegration = () => {
   let config;
   return {
-    name: 'AstroWind:tasks',
+    name: 'Invest in Your Energy:tasks',
 
     hooks: {
       'astro:config:done': async ({ config: cfg }) => {
@@ -43,7 +43,7 @@ const tasksIntegration = () => {
             }
           }
         } catch (err) {
-          /* empty */
+          console.error("Error in tasksIntegration:", err);
         }
       },
     },
