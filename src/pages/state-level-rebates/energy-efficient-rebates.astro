@@ -10,30 +10,31 @@ import FeaturesLink from '~/components/widgets/FeaturesLink.astro';
 
 
 const metadata = {
-  title: 'Energy Efficient Rebates: State-Level Incentives & HEEHRA Details | Invest in Your Energy',
+  title: 'Energy Efficient Rebates | Invest in Your Energy',
   description: 'Explore the latest in state-level energy efficient rebates and High-Efficiency Electric Home Rebate Act (HEEHRA) specifics. Find out how to leverage incentives for various sustainable home improvements to enhance your home’s energy efficiency.',
   keywords: 'state-level energy efficient rebates, High-Efficiency Electric Home Rebate Act, HEEHRA, sustainable home improvements, EV chargers, energy incentives',
   imageUrl: 'https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/page-sharing-logos/eer-page-sharing-logo.png?raw=true',
 };
 
 ---
-<head>
+<!-- <head>
   <title>{metadata.title}</title>
   <meta name="description" content={metadata.description} />
   <meta property="og:title" content={metadata.title} />
   <meta property="og:description" content={metadata.description} />
   <meta property="og:image" content={metadata.imageUrl} />
-  <meta property="og:type" content="website" />
+  <meta property="og:type" content="website" /> -->
     <!-- Twitter Card meta tags -->
-    <meta name="twitter:card" content="summary_large_image" />
+    <!-- <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={metadata.title} />
     <meta name="twitter:description" content={metadata.description} />
     <meta name="twitter:image" content={metadata.imageUrl} />
     <meta name="twitter:image:alt" content="A brief description of the image" />
-</head>
+</head> -->
 
 
   <Layout metadata={metadata}>
+    
     <Hero actions={[]} videoSrc="/images/energy-efficient-rebates-video.mp4">
       <Fragment slot="title">
         <div class="text-left text-3xl sm:text-3xl md:text-5xl lg:text-5xl font-bold leading-tight tracking-tighter mb-4 font-heading">
@@ -131,7 +132,6 @@ items={[
 />
 
 
-
   <!-- Featured Articles Widget ******************* -->
   <FeaturedArticles 
   title="Featured Articles" 
@@ -190,8 +190,6 @@ items={[
   ]}
 />
  
-
-
 <FeaturedArticles 
   title="Featured Articles" 
   articleSlugs={[
@@ -202,7 +200,7 @@ items={[
   ]}
   />
 
-  
+</Layout>
   
   
   

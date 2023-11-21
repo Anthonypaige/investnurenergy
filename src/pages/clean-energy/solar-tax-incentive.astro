@@ -7,30 +7,17 @@ import FAQs from '~/components/widgets/FAQs.astro';
 import SolarTaxIncentiveNote from '~/components/widgets/SolarTaxIncentiveNote.astro';
 
 const metadata = {
-  title: 'Maximize Solar Tax Incentives - A Homeowner’s Guide | Invest in Your Energy',
+  title: 'Maximize Solar Tax Incentives | Invest in Your Energy',
   description: 'Navigate the complexities of solar tax incentives with our comprehensive guide. Learn how to claim a 30% tax credit on solar installations, understand state-level incentives, and maximize your investment in renewable energy. Stay informed about the latest in solar tax credits and rebates to make your transition to solar power both cost-effective and efficient.',
   keywords: 'solar tax incentive, Federal Solar Tax Credit, solar loans, solar panel rebates, homeowner solar benefits',
   
 };
 
 ---
-<head>
-  <title>{metadata.title}</title>
-  <meta name="description" content={metadata.description} />
-  <meta property="og:title" content={metadata.title} />
-  <meta property="og:description" content={metadata.description} />
-  <!-- <meta property="og:image" content={metadata.imageUrl} /> -->
-  <meta property="og:type" content="website" />
-    <!-- Twitter Card meta tags -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content={metadata.title} />
-    <meta name="twitter:description" content={metadata.description} />
-    <!-- <meta name="twitter:image" content={metadata.imageUrl} /> -->
-    <meta name="twitter:image:alt" content="A brief description of the image" />
-</head>
 
 
 <Layout metadata={metadata}>
+
   <Hero actions={[]} videoSrc="/images/solar-tax-incentive-video.mp4">
     <Fragment slot="title">
       <div class="text-left text-3xl sm:text-3xl md:text-4xl lg:text-5xl font-bold leading-tight tracking-tighter mb-4 font-heading mp-20">
@@ -38,8 +25,6 @@ const metadata = {
       </div>
     </Fragment>
   </Hero>
-
-
 
 <SolarTaxIncentiveNote />
 
