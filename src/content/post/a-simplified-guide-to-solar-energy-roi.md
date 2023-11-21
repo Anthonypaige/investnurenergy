@@ -65,8 +65,8 @@ Total Cost With Solar Over 25 Years: Stays the same at $35,054.87.
 
 Now, let's calculate the Solar ROI:
 
-**Solar ROI** = (Total Cost Without Solar - Total Cost With 50% Solar offset - Loan Repayment Amount) / New TRUE Net System cost _ 100
-**Solar ROI** = ($70,109.74 - $35,054.87 - $22,097.50) / $22,097.50 _ 100
+**Solar ROI** = (Total Cost Without Solar - Total Cost With 50% Solar offset - Loan Repayment Amount) / New TRUE Net System cost \_100
+**Solar ROI** = ($70,109.74 - $35,054.87 - $22,097.50) / $22,097.50_100
 **Solar ROI** = 58.64%
 
 So, in this example, considering the 30% federal tax credit and a 5% interest rate over 25 years, the Solar ROI would be 58.64%. This means that over 25 years, you would get a return of 58.64% on your initial investment of $22,097.50 (after tax credit and including the loan repayment).
@@ -75,4 +75,4 @@ So, in this example, considering the 30% federal tax credit and a 5% interest ra
 
 We've aimed to streamline the decision-making process for you, but remember, this is just the starting point. There are additional elements like state incentives, net-metering, and battery storage options that could further influence your Solar Return on Investment (ROI). Plus, be aware of **potential hidden costs** from solar providers, such as dealer fees, which may not be included in a basic ROI calculation.
 
-Now that you understand how to calculate your Solar ROI, you might be wondering how you can maximize it. In our next article, we'll cover [what factors effect your Solar ROI](investinyourenergy.com/what-factors-will-effect-my-solar-roi), we delve into the controllable factors that can help you get the most out of your solar investment.
+Now that you understand how to calculate your Solar ROI, you might be wondering how you can maximize it. In our next article, we'll cover [what factors effect your Solar ROI](https://investinyourenergy.com/what-factors-will-effect-my-solar-roi), we delve into the controllable factors that can help you get the most out of your solar investment.

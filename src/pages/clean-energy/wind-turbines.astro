@@ -8,11 +8,11 @@ import FeaturedArticles from '~/components/widgets/FeaturedArticles.astro';
 
 
 const metadata = {
-  title: 'Residential Wind Turbines: Harnessing Wind Power at Home | Invest in Your Energy',
+  title: 'Residential Wind Turbines: Home Wind Power | Invest in Your Energy',
   description: 'Discover the benefits of residential wind turbines for sustainable home energy. Learn about installation, efficiency, and financial incentives like tax credits for an eco-friendly power solution.',
   keywords: 'residential wind turbines, home wind power, wind turbine installation, renewable energy incentives, sustainable home energy',
-  // Add other relevant metadata here
 };
+
 ---
 <head>
   <title>{metadata.title}</title>
@@ -21,33 +21,45 @@ const metadata = {
   <meta property="og:description" content={metadata.description} />
   <!-- <meta property="og:image" content={metadata.imageUrl} /> -->
   <meta property="og:type" content="website" />
-    <!-- Twitter Card meta tags -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content={metadata.title} />
-    <meta name="twitter:description" content={metadata.description} />
-    <!-- <meta name="twitter:image" content={metadata.imageUrl} /> -->
-    <meta name="twitter:image:alt" content="A brief description of the image" />
+  <!-- Twitter Card meta tags -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content={metadata.title} />
+  <meta name="twitter:description" content={metadata.description} />
+  <!-- <meta name="twitter:image" content={metadata.imageUrl} /> -->
+  <meta name="twitter:image:alt" content="A brief description of the image" />
 </head>
 
-
 <Layout metadata={metadata}>
+  
   <Hero actions={[]} videoSrc="/images/wind-turbine-video.mp4">
-  <Fragment slot="title">
-  <div class="text-right text-3xl sm:text-3xl md:text-4xl lg:text-5xl font-bold leading-tight tracking-tighter mb-4 font-heading" >
-  <div><span class="text-blue-700"> Wind </span> Turbines </div>
-  </div>
-  </Fragment>
+    <div class="video-title-overlay">Wind Turbines</div>
+    <Fragment slot="title">
+      <div class="text-right text-3xl sm:text-3xl md:text-4xl lg:text-5xl font-bold leading-tight tracking-tighter mb-4 font-heading">
+        <div><span class="text-blue-700"> Wind </span> Turbines </div>
+      </div>
+    </Fragment>
   </Hero>
 
+<style>
+.video-title-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 2em;
+  /* Additional styling as needed */
+}
+</style>
 
-
+<!---Wind energy Note Widget -->
 <section>
 <WindTurbineNote />
 </section>
 
 <section class="container mx-auto p-9"></section>
 
-
+<!---Wind energy Mapzoom Widget -->
 <section>
   <WindMapZoom />
 </section>
@@ -86,8 +98,7 @@ const metadata = {
     },
     {
       title: 'What Is the Most Efficient Wind Turbine for Home Use?',
-      description:
-        'When it comes to efficiency, horizontal axis turbines generally outperform their vertical axis counterparts. These turbines can convert up to 59% of wind energy into electricity, which is higher than most other renewable energy sources. Look for models that have been tested and certified for performance to ensure you are getting the most efficient unit.',
+      description:'When it comes to efficiency, horizontal axis turbines generally outperform their vertical axis counterparts. These turbines can convert up to 59% of wind energy into electricity, which is higher than most other renewable energy sources. Look for models that have been tested and certified for performance to ensure you are getting the most efficient unit.',
     },
   ]}
 >
