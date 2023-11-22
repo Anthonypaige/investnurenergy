@@ -9,7 +9,7 @@ tags:
   - EV Chargers
   - State level incentives
 metadata:
-  canonical: https://investinyourenergy.com/state-level-energy-efficient-incentives-overview
+  canonical: https://investinyourenergy.com/state-level-energy-efficient-rebates
 ---
 
 Navigating the landscape of State and Local Energy Efficiency Incentives can be a complex task. From rebates to tax credits, each state offers a unique set of incentives designed to encourage energy-efficient upgrades. This comprehensive guide aims to demystify these incentives, helping you understand eligibility criteria, maximize benefits, and make informed decisions for a more energy-efficient home.
@@ -38,7 +38,7 @@ Many of these incentives operate on a first-come, first-served basis. This means
 
 - **LED Lighting**: Second in popularity, LED lights consume less electricity and have a longer lifespan compared to traditional bulbs, making them a cost-effective choice.
 
-- **Home Energy Monitoring Systems (HEMS)**: As more people are becoming aware of the energy saving possibilties offered by a [Home Energy Monitoring System](home-energy-monitoring-your-guide-to-energy-efficiency), more states are offering rebates.
+- **Home Energy Monitoring Systems (HEMS)**: As more people are becoming aware of the energy saving possibilties offered by a [Home Energy Monitoring System](guide-to-home-energy-monitoring), more states are offering rebates.
 
 - **Air Purifiers and Dehumidifiers**: These are popular in areas with air quality issues or high humidity levels.
 

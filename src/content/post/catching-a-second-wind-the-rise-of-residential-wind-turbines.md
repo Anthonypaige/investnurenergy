@@ -26,7 +26,7 @@ Before installing a wind turbine, it's essential to evaluate your property's sui
 
 - **Site Selection**: Choosing the right site for your wind turbine is vital. Factors such as elevation, obstructions, and proximity to neighbors can affect the turbine's efficiency.
 
-To understand if your home is a good candidate for wind power, check out out article on [residential wind assessment](is-your-home-a-good-candidate-for-residential-wind-power).
+To understand if your home is a good candidate for wind power, check out out article on [residential wind assessment](assessing-your-homes-wind-power).
 
 Consideration of how the wind turbine will integrate with your existing power system, including potential battery storage, is essential for a seamless operation.
 
@@ -38,7 +38,7 @@ Integrating residential wind turbines with a home's power system can reduce depe
 
 ### **Hybrid Wind/Solar Systems: A Consistent and Reliable Power Supply**
 
-A hybrid wind/solar system is a forward-thinking solution that combines the strengths of wind and solar energy. By harnessing the power of the sun during the day and the wind at night, this system ensures a consistent and reliable power supply for your home. When one source is less available, the other compensates, providing energy even in varying weather conditions. This synergy not only enhances energy efficiency but also contributes to grid stability, alleviating peak demand pressures. For an in-depth exploration of hybrid systems, check out our article on [Solar and Wind Hybrid Systems](hybrid-wind-and-solar-systems-are-the-future-of-home-energy).
+A hybrid wind/solar system is a forward-thinking solution that combines the strengths of wind and solar energy. By harnessing the power of the sun during the day and the wind at night, this system ensures a consistent and reliable power supply for your home. When one source is less available, the other compensates, providing energy even in varying weather conditions. This synergy not only enhances energy efficiency but also contributes to grid stability, alleviating peak demand pressures. For an in-depth exploration of hybrid systems, check out our article on [Solar and Wind Hybrid Systems](hybrid-wind-and-solar-systems-are-the-future).
 
 ### **Other Key Factors to Consider**
 

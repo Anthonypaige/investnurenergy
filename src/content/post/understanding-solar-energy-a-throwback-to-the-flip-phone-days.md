@@ -25,7 +25,7 @@ More importantly, here's where solar storage comes into play. By storing excess 
 If you want to check your enrollment in TOU rates and understand the difference in those rates, you can access your energy data through your utility provider's dedicated app or website. Compare the amount of energy used (measured in kWh) with the corresponding price differences during various times of the day, or you can visit the Department of Energy's guide to [Time Variable pricing](<https://www.energy.gov/femp/demand-response-and-time-variable-pricing-programs#:~:text=Time%2Dvariable%20pricing%20(TVP),for%20any%20given%20customer%20class>) to see what programs your utility provider offers.
 
 By mastering TOU rates and strategically using solar storage, you can optimize your energy usage and save money on your energy bills. To learn
-more check out our article on [mastering TOU rates](mastering-time-of-use-rate-strategies-for-smart-energy).
+more check out our article on [mastering TOU rates](mastering-time-of-use-rate-strategies).
 
 ### **Net Metering: The Rollover Plan**
 
@@ -59,4 +59,4 @@ Just as mobile phones evolved from bulky flip phones to sleek smartphones, solar
 
 Understanding solar energy might seem as daunting as mastering texting on a flip phone, but with patience and perseverance, you can unlock its full potential. The innovations in solar technology, such as intelligent micro-inverters and solar storage batteries, enhance our ability to harness renewable energy and underscore the importance of concepts like battery storage, net metering, and Time-of-use (TOU) rates.
 
-Now that you've got the basics down, You can either Learn more about [net metering here](net-metering-harvesting-the-fruits-of-your-solar-investment). Or maybe you're ready to dive into [devising a solar offset strategy?](devising-your-solar-offset-strategy-a-monopoly-game-approach).
+Now that you've got the basics down, You can either Learn more about [net metering here](how-fruitful-can-net-metering-be). Or maybe you're ready to dive into devising a [solar offset strategy?](devising-your-solar-offset-strategy-a-monopoly-game-approach).

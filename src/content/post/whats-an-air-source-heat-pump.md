@@ -9,7 +9,7 @@ tags:
   - Heat Pumps
   - Ductless Mini Splits
 metadata:
-  canonical: https://investinyourenergy.com/air-source-heat-pumps-are-changing-the-game
+  canonical: https://investinyourenergy.com/whats-an-air-source-heat-pump
 ---
 
 Heating and cooling systems are more than just amenities; they're essential to our daily lives, ensuring our homes remain comfortable year-round. Yet, these systems are also one of the largest energy consumers in American households, contributing to nearly 40% of the nation's total energy usage. This significant consumption underscores the urgent need for more energy-efficient alternatives.

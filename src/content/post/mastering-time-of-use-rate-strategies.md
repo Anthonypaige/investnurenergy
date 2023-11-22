@@ -9,7 +9,7 @@ tags:
   - smart energy devices
   - home energy storage
 metadata:
-  canonical: https://investinyourenergy.com/mastering-time-of-use-rate-strategies-for-smart-energy
+  canonical: https://investinyourenergy.com/mastering-time-of-use-rate-strategies
 ---
 
 As we become less reliant on fossil fuels and embrace more electrification the process of updating our decades-old grid becomes paramount. This aging infrastructure, originally not equipped to handle such energy demands, presents a significant challenge. In response, utility companies are adopting a transformative strategy: Time-Variable Pricing (TVP), which accurately reflects the true cost of power by the hour. This collective effort propels us toward a streamlined energy future.

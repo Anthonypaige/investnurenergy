@@ -18,7 +18,7 @@ Transitioning towards a sustainable lifestyle through energy efficiency doesn't 
 
 #### **Deciphering Your Energy Bill**
 
-A crucial first step in energy savings is to decode how your energy provider calculates your bill. If you haven't switched to Time-of-Use (TOU) rates yet, it might be time to consider it. TOU rates vary at different times of the day, presenting an opportunity to shift your energy use to more affordable, off-peak hours, leading to noticeable cost reductions. For a comprehensive understanding and to become adept at these savings strategies, delve into our detailed guide on [Mastering (TOU) Rates](mastering-time-of-use-rate-strategies-for-smart-energy).
+A crucial first step in energy savings is to decode how your energy provider calculates your bill. If you haven't switched to Time-of-Use (TOU) rates yet, it might be time to consider it. TOU rates vary at different times of the day, presenting an opportunity to shift your energy use to more affordable, off-peak hours, leading to noticeable cost reductions. For a comprehensive understanding and to become adept at these savings strategies, delve into our detailed guide on [Mastering (TOU) Rates](mastering-time-of-use-rate-strategies).
 
 #### **Self-Guided Energy Efficiency with HEMS**
 

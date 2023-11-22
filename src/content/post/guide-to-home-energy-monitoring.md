@@ -49,7 +49,7 @@ When it comes to HEMS, two brands that have made a significant impact are Sense 
 
 #### **Sense: Machine Learning for Precise Appliance-Level Monitoring**
 
-Sense brings a high-tech approach to energy monitoring, utilizing machine learning to identify individual appliances based on their unique electrical signatures. Over time, Sense's system learns to recognize these patterns, providing you with appliance-level energy usage data. This detailed monitoring allows homeowners to understand their energy habits better and identify opportunities for energy savings. Sense's most popular product, the Sense Energy Monitor, is priced at $299. They also offer the Sense Solar and Sense Flex models for those with solar power or requiring more customization. Want specifics? Discover more in our [Sense buying guide](senses-home-energy-monitoring-systems) or check out [Sense selections on Amazon](https://amzn.to/49q77cW).
+Sense brings a high-tech approach to energy monitoring, utilizing machine learning to identify individual appliances based on their unique electrical signatures. Over time, Sense's system learns to recognize these patterns, providing you with appliance-level energy usage data. This detailed monitoring allows homeowners to understand their energy habits better and identify opportunities for energy savings. Sense's most popular product, the Sense Energy Monitor, is priced at $299. They also offer the Sense Solar and Sense Flex models for those with solar power or requiring more customization. Want specifics? Discover more in our [Sense buying guide](senses-home-energy-monitoring-system) or check out [Sense selections on Amazon](https://amzn.to/49q77cW).
 
 #### **Emporia Vue 2: Comprehensive Circuit-Level Monitoring for Your Home**
 

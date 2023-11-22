@@ -9,7 +9,7 @@ tags:
   - Heat Pump
   - property assessment
 metadata:
-  canonical: https://investinyourenergy.com/what-is-geothermal-access-and-do-i-have-it
+  canonical: https://investinyourenergy.com/how-to-assess-your-geothermal-access
 ---
 
 Geothermal heat pump systems are more than just an innovative solution for home heating and cooling. By harnessing the Earth's consistent underground temperature, they not only provide energy efficiency and cost savings but also contribute to alleviating grid strain. This is especially vital in an era where energy demands are soaring.

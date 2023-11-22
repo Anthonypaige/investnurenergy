@@ -9,7 +9,7 @@ tags:
   - insulation
   - DIY insulation kits
 metadata:
-  canonical: https://investinyourenergy.com/a-comprehensive-guide-to-weatherization-and-energy-efficiency
+  canonical: https://investinyourenergy.com/comprehensive-guide-to-weatherization
 ---
 
 ### **What is Weatherization**
