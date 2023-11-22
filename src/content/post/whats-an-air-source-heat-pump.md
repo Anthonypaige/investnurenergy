@@ -1,6 +1,6 @@
 ---
-publishDate: 2023-10-20T00:00:00Z
-title: What's a Heat Pump and Why Do I Need to Know
+publishDate: 2023-11-20T00:00:00Z
+title: What's an Air Source Heat Pump?
 excerpt: Rediscover heat pumps, an age-old technology that has been modernized to provide both heating and cooling solutions for your home.
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/HPQ-1-cover-art.png?raw=true
 category: Energy Efficient Home Upgrades

@@ -34,7 +34,7 @@ Many of these incentives operate on a first-come, first-served basis. This means
 
 #### **Items Not Covered Under Federal Incentives**
 
-- **Smart Thermostats**: [These devices](/Shopping/smart-ev-chargers) are popular because they allow homeowners to control heating and cooling remotely, optimizing energy usage and reducing bills.
+- **Smart Thermostats**: [These devices](/Shopping/top-smart-thermostats) are popular because they allow homeowners to control heating and cooling remotely, optimizing energy usage and reducing bills.
 
 - **LED Lighting**: Second in popularity, LED lights consume less electricity and have a longer lifespan compared to traditional bulbs, making them a cost-effective choice.
 

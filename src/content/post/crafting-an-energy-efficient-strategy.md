@@ -1,5 +1,5 @@
 ---
-publishDate: 2023-11-11T00:00:00Z
+publishDate: 2023-11-18T00:00:00Z
 title: Crafting an Energy Efficiency Strategy
 excerpt: The key is to have a plan. This guide is designed to provide you with the essential information and insights you need to craft a practical and effective energy-saving strategy.
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/EEHU-2-cover-art.png?raw=true
@@ -35,15 +35,15 @@ State-level rebates can significantly reduce the cost of energy-efficient applia
 
 Smart thermostats are a key element in modern energy-efficient homes. They give you precise control over your heating and cooling—major contributors to your energy bill. By automating temperature settings and learning your schedule, a smart thermostat can trim your energy use by up to 15%. They're an affordable upgrade, especially with almost every utility provider offering rebates.
 
-If you're shopping for a smart thermostat, check out our Smart Thermostat [Shopping Guide](smart-thermostat-shopping-guide-what-you-need-to-know).
+If you're shopping for a smart thermostat, check out our Smart Thermostat [Shopping Guide](smart-thermostat-shopping-guide).
 
 #### **Smart Insulation Choices for Cost-Effective Comfort**
 
-Insulation is the unsung hero of home energy efficiency, acting as a barrier to keep warmth in during winter and out during summer. Upgrading your home's insulation can be a budget-friendly way to slash your heating and cooling bills. To understand which insulation works best for your space and how it can lead to substantial energy savings, take a look at our detailed [Insulation Guide](a-comprehensive-guide-to-weatherization-and-energy-efficiency).
+Insulation is the unsung hero of home energy efficiency, acting as a barrier to keep warmth in during winter and out during summer. Upgrading your home's insulation can be a budget-friendly way to slash your heating and cooling bills. To understand which insulation works best for your space and how it can lead to substantial energy savings, take a look at our detailed [Insulation Guide](comprehensive-guide-to-weatherization).
 
 #### **Consider a Heat Pump upgrade**
 
-Air Source Heat pumps are the heroes of energy efficiency. They can provide up to three times the energy they consume, making them a smart investment for long-term savings. Plus, they often qualify for both state level rebates as well as the federal credit. Learn more about why air source heat pumps are a game-changer in our [breakdown on Heat Pumps](whats-a-heat-pump-and-why-do-i-need-to-know).
+Air Source Heat pumps are the heroes of energy efficiency. They can provide up to three times the energy they consume, making them a smart investment for long-term savings. Plus, they often qualify for both state level rebates as well as the federal credit. Learn more about why air source heat pumps are a game-changer in our [breakdown on Heat Pumps](whats-an-air-source-heat-pump).
 
 #### **Find a water Heater solution**
 

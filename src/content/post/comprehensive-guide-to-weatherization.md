@@ -1,6 +1,6 @@
 ---
 publishDate: 2023-10-30T00:00:00Z
-title: A Comprehensive Guide to Weatherization and Energy Efficiency
+title: Comprehensive Guide to Weatherization
 excerpt: Weatherization is the practice of protecting a building and its interior from the elements, particularly from sunlight, precipitation, and wind.
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/WTHR-1-cover-art.png?raw=true
 category: Energy Efficient Home Upgrades
