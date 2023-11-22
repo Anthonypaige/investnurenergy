@@ -73,7 +73,7 @@ When exploring solar options, you might encounter challenges such as a lack of s
 
 If you're considering adding solar to your home, now might be the opportune moment to think about an electrical panel upgrade. With the Residential Clean Energy Credit under the Inflation Reduction Act of 2022, combining an electrical panel upgrade with your solar project can net you a **30% tax credit with no upper limit.** This is particularly relevant if you're planning additional electrification in your home, such as installing an EV charger, which requires a dedicated 240V circuit. By aligning these upgrades, you can save both time and money, making the most of the available incentives.
 
-Learn more about the importance of the electrical panel upgrade [here](electrical-panel-upgrades-a-keystone-of-the-inflation-reduction-act).
+Learn more about the importance of the electrical panel upgrade [here](how-do-electrical-panel-upgrades-work-with-the-ira).
 
 #### **Conclusion**
 

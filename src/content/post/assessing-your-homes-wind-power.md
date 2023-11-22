@@ -1,6 +1,6 @@
 ---
 publishDate: 2023-10-15T00:00:00Z
-title: Is Your Home a Good Candidate for Residential Wind Power?
+title: Assessing your Home's Wind Power?
 excerpt: Delve into the world of residential wind power and determine if your home is a suitable candidate. This guide provides insights into the prerequisites and evaluations necessary for a successful wind power installation.
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/WND-2-cover-art.png?raw=true
 category: Home Clean Energy Credit
@@ -9,7 +9,7 @@ tags:
   - clean energy
   - property assessment
 metadata:
-  canonical: https://investinyourenergy.com/is-your-home-a-good-candidate-for-residential-wind-power
+  canonical: https://investinyourenergy.com/assessing-your-homes-wind-power
 ---
 
 Investing in wind power for your home is not just a smart decision, but also an eco-friendly one. With the potential to significantly reduce your energy bills and the added benefit of a 30% tax credit from the U.S. government, wind energy has become an appealing alternative for home power. This guide will assist you in determining if your property is a suitable candidate for wind power utilization.
@@ -34,7 +34,6 @@ A property with high average wind speeds and few obstructions would be an ideal 
 
 The BTMETER BT-100 Handheld Anemometer is a practical tool that plays a crucial role in wind assessment and site placement for wind turbines. This device measures wind speed and direction, providing real-time data that complements the general information provided by wind maps. With this data, you can
 accurately determine the optimal site for your wind turbine.
-
 
 The BTMETER BT-100 is user-friendly, featuring a large, backlit LCD display for clear readings in various light conditions. It offers the flexibility to select your preferred wind speed unit and includes a Beaufort Scale Display for easy comprehension of wind speed.
 

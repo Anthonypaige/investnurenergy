@@ -30,8 +30,8 @@ Heat Pumps offer an excellent alternative to traditional heating and cooling met
 
 Water heating accounts for approximately 20% of our household energy consumption. Under 25C, various options are covered but the two that are most efficient are:
 
-- [**Heat Pump Water Heaters**](https://investinyourenergy.com/heat-pump-water-heaters-are-the-model-of-efficiency): Efficient retrofit upgrades eligible for a 30% tax credit, capped at $2,000. Additional state rebates may apply.
-- [**Tankless Water Heaters**](https://investinyourenergy.com/tankless-water-heaters-are-compact-efficiency): Energy Star Certified, eligible for a 30% tax credit up to $600.
+- [**Heat Pump Water Heaters**](https://investinyourenergy.com/whats-a-heat-pump-water-heater): Efficient retrofit upgrades eligible for a 30% tax credit, capped at $2,000. Additional state rebates may apply.
+- [**Tankless Water Heaters**](https://investinyourenergy.com/is-going-tankless-thankful): Energy Star Certified, eligible for a 30% tax credit up to $600.
 
 #### [**Weatherization**](https://investinyourenergy.com/energy-efficient/weatherization)
 
@@ -41,13 +41,13 @@ Weatherization plays a crucial role in energy efficiency by reducing energy cons
 
 Step into the future of sustainable living with the Residential Clean Energy Credit 25D. This federal tax incentive, introduced under the Inflation Reduction Act of 2022, encourages homeowners to invest in clean energy technologies, offering a 30% reduction on eligible costs, with no cap. [Home Clean Energy Credit](/clean-energy/home-clean-energy-credit)
 
-#### [**Geothermal Heat Pumps**](https://investinyourenergy.com/clean-energy/geothermal-heat-pumps)
+#### **Geothermal Heat Pumps**
 
-Utilizing the earth's constant temperature, geothermal heat pumps offer consistent and efficient heating and cooling. Though more expensive upfront, they can last up to 50 years, offering long-term savings and environmental benefits.
+Utilizing the earth's constant temperature, [geothermal heat pumps](https://investinyourenergy.com/clean-energy/geothermal-heat-pumps) offer consistent and efficient heating and cooling. Though more expensive upfront, they can last up to 50 years, offering long-term savings and environmental benefits.
 
-#### [**Residential Wind Turbines**](https://investinyourenergy.com/clean-energy/wind-turbines)
+#### **Residential Wind Turbines**
 
-Tap into the power of the wind with small wind turbines. These are perfect companions for solar energy, as wind turbines can be used as stand-alone units or to complement your solar system, providing a renewable and clean energy source that reduces reliance on fossil fuels.
+Tap into the power of the wind with [residential wind turbines](https://investinyourenergy.com/clean-energy/wind-turbines). These are perfect companions for solar energy, as wind turbines can be used as stand-alone units or to complement your solar system, providing a renewable and clean energy source that reduces reliance on fossil fuels.
 
 #### **Solar Energy**
 
@@ -56,9 +56,9 @@ Explore the following specialized pages to understand how you can benefit from s
 - [**Solar Tax Incentive**](https://investinyourenergy.com/clean-energy/solar-tax-incentive): Navigate the financial landscape of solar energy with our dedicated page. We help you understand the numbers involved in solar investments, focusing on solar loans, ROI calculations, and offering guidance to make informed buying decisions.
 - [**Solar Basics**](https://investinyourenergy.com/clean-energy/solar-energy-basics): Learn the fundamentals of solar energy, including how to size your system and come up with an offset plan before speaking with sales reps. Understand how solar panels work, how they're installed, and how they can transform your home into a green energy powerhouse.
 
-#### [**Home Energy Storage**](https://investinyourenergy.com/clean-energy/home-energy-storage)
+#### **Home Energy Storage**
 
-Battery technology plays a vital role in clean energy solutions and in alleviating grid pressure.
+[Home Battery technology](https://investinyourenergy.com/clean-energy/home-energy-storage) plays a vital role in clean energy solutions and in alleviating grid pressure.
 
 - **Backup Batteries**: Ensure uninterrupted power with backup batteries. Ideal for emergency backup or energy arbitrage, these systems can also work with solar or be a stand-alone purchase, providing reliability and peace of mind.
 - **Solar Storage**: Enhance your solar system with traditional solar batteries like Tesla. Store excess energy for nighttime use, reduce grid dependence, and optimize your solar investment.
@@ -79,7 +79,7 @@ The Electrification Rebate Act, also known as the [High-Efficiency Electric Home
 
 ### **State-Level Rebates**
 
-[State-level rebates](https://investinyourenergy.com/state-level-energy-efficient-incentives-overview) offer diverse opportunities for homeowners to save on energy-efficient upgrades. These rebates often extend beyond federal incentives, covering additional products and sometimes even combining with federal incentives for greater savings.
+[State-level rebates](https://investinyourenergy.com/state-level-energy-efficient-rebates) offer diverse opportunities for homeowners to save on energy-efficient upgrades. These rebates often extend beyond federal incentives, covering additional products and sometimes even combining with federal incentives for greater savings.
 
 #### **Items Not Included in Federal Tax Incentive Programs**
 

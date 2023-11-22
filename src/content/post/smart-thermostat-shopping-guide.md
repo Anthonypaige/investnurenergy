@@ -64,7 +64,7 @@ These smartest thermostats are generally priced at $200 and above, making them a
 
 When it comes to smart thermostats, choosing the right brand is crucial for ensuring both quality and reliability. Here are the top brands in the smart thermostat industry:
 
-**Google Nest**: The OG of smart thermostats, Google Nest has narrowed it down to two main buying options to cover most household needs. Their "smarter" thermostat is known for its intuitive design and user-friendliness, while their "smartest" model comes with advanced features like learning algorithms and voice control. Both are aesthetically pleasing and packed with functionality. Dive deeper with our Google Nest [Buying Guide](your-comprehensive-google-nest-buying-guide) or check out [Google Nest options on Amazon](https://amzn.to/49zAqdm).
+**Google Nest**: The OG of smart thermostats, Google Nest has narrowed it down to two main buying options to cover most household needs. Their "smarter" thermostat is known for its intuitive design and user-friendliness, while their "smartest" model comes with advanced features like learning algorithms and voice control. Both are aesthetically pleasing and packed with functionality. Dive deeper with our Google Nest [Buying Guide](your-google-nest-buying-guide) or check out [Google Nest options on Amazon](https://amzn.to/49zAqdm).
 
 - **Honeywell Home**: A reliable name in the thermostat industry for decades, Honeywell Home offers an extensive, user-friendly line of smart thermostats in the "smarter" category. Known for their user-friendly designs and touchscreen color displays, these thermostats are a solid choice. [Honeywell Home on Amazon](https://amzn.to/46ahxuC).
 
