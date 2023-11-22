@@ -1,6 +1,6 @@
 ---
 publishDate: 2023-10-31T00:00:00Z
-title: Is going Tankless Thankful? 
+title: Is going Tankless Thankful?
 excerpt: Bid farewell to the constant energy drain of maintaining a hot water tank. Tankless water heaters deliver hot water precisely when you need it.
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/WTR-3-cover-art.png?raw=true
 category: Energy Efficient Home Upgrades

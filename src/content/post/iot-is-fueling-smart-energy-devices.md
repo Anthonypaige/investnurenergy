@@ -32,9 +32,9 @@ Additionally, certain smart thermostats have learning capabilities, meaning they
 
 - **Circuit Level:** Circuit level monitoring takes it a step further. By allowing monitoring at this level, you can identify inefficiencies in specific areas of your home, leading to targeted improvements. This comes in handy since most of your major appliance upgrades would have their own dedicated circuit.
 
-- **Appliance Level:** Appliance level monitoring allows you to analyze the energy usage of individual appliances, empowering you to make informed upgrade decisions. This can be achieved through Machine Learning, which is [the Sense way](senses-home-energy-monitoring-system-driven-by-machine-learning) of appliance level monitoring, or the addition of smart plugs, which is [the Emporia way](emporias-home-energy-monitoring-systems) of appliance level monitoring
+- **Appliance Level:** Appliance level monitoring allows you to analyze the energy usage of individual appliances, empowering you to make informed upgrade decisions. This can be achieved through Machine Learning, which is [the Sense way](senses-home-energy-monitoring-systems) of appliance level monitoring, or the addition of smart plugs, which is [the Emporia way](emporias-home-energy-monitoring-systems) of appliance level monitoring
 
-Want to learn more how Home Energy Monitoring Systems can help you make smarter energy choices? Check out our [article here](home-energy-monitoring-your-guide-to-energy-efficiency).
+Want to learn more how Home Energy Monitoring Systems can help you make smarter energy choices? Check out our guide to [home energy monitoring].(guide-to-home-energy-monitoring).
 
 ### **Smart Plugs**
 

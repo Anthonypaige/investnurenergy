@@ -22,11 +22,11 @@ A crucial first step in energy savings is to decode how your energy provider cal
 
 #### **Self-Guided Energy Efficiency with HEMS**
 
-To optimize your home's energy use, start by locating inefficiencies. You could hire a professional auditor, but a savvy alternative is a Home Energy Management System (HEMS). This smart technology offers detailed insights into your energy consumption, revealing specific areas where you can improve efficiency. While HEMS may not qualify for federal tax credits, they're often eligible for rebates from local utilities. For a thorough understanding of how HEMS can transform your energy usage, explore our detailed article on [Home Energy Monitoring Systems](home-energy-monitoring-your-guide-to-energy-efficiency).
+To optimize your home's energy use, start by locating inefficiencies. You could hire a professional auditor, but a savvy alternative is a Home Energy Management System (HEMS). This smart technology offers detailed insights into your energy consumption, revealing specific areas where you can improve efficiency. While HEMS may not qualify for federal tax credits, they're often eligible for rebates from local utilities. For a thorough understanding of how HEMS can transform your energy usage, explore our detailed article on [Home Energy Monitoring Systems](guide-to-home-energy-monitoring).
 
 #### **Know Your State Level Rebates**
 
-State-level rebates can significantly reduce the cost of energy-efficient appliances and can often be stacked with federal incentives. These rebates are often allocated on a first-come, first-served basis, so prioritize them in your planning. Many even offer immediate value as an instant credit on your power bill. For a deeper dive, read our Overview on [State-Level Rebates](state-level-energy-efficient-incentives-overview). For a comprehensive list, visit the
+State-level rebates can significantly reduce the cost of energy-efficient appliances and can often be stacked with federal incentives. These rebates are often allocated on a first-come, first-served basis, so prioritize them in your planning. Many even offer immediate value as an instant credit on your power bill. For a deeper dive, read our Overview on [State-Level Rebates](state-level-energy-efficient-rebates). For a comprehensive list, visit the
 [Database of State Incentives](https://www.dsireusa.org/). for Renewables & Efficiency
 
 ### **Next, Prioritize Impactful Upgrades**

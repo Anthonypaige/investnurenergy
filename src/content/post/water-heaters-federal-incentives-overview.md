@@ -1,5 +1,5 @@
 ---
-publishDate: 2023-10-18T00:00:00Z
+publishDate: 2023-11-05T00:00:00Z
 title: Water Heaters Federal Incentives Overview
 excerpt: Water heating is a fundamental aspect of our daily routines, encompassing activities from refreshing morning showers to essential tasks like dishwashing.
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/WTR-1-cover-art.png?raw=true
@@ -14,13 +14,13 @@ metadata:
 
 Water heating is a fundamental aspect of our daily routines, encompassing activities from refreshing morning showers to essential tasks like dishwashing. As the global focus shifts towards energy efficiency and sustainability, water heating emerges as a critical area for innovation. Accounting for nearly 20% of a home's energy usage, the choice of a water heating system can significantly influence both your energy bills and environmental footprint. The Inflation Reduction Act of 2022 has initiated federal rebate programs, encouraging homeowners to transition to more efficient water heating solutions. This guide explores various energy-efficient water heaters, their efficiency ratings, and the federal incentives available.
 
-### **Heat Pump Water Heaters: The Future of Sustainable Heating**
+### **Heat Pump Water Heaters**
 
 Heat Pump Water Heaters (HPWH) are a key component of the Inflation Reduction Act, recognized for their exceptional efficiency. They are incorporated in both the Electrification Rebate Act (HEHRA) and the Energy Efficient Home Improvement Credit (25C).
 
-#### **Why it's included in the Inflation Reduction Act**
+#### **Why HPWS are featured in the IRA**
 
-HPWHs, unlike traditional water heaters, extract heat from the surrounding air to heat water, a process that renders them 3-5 times more efficient. Learn more about their advantages in our article on [Heat Pump Water Heaters](heat-pump-water-heaters-are-the-model-of-efficiency).
+HPWHs, unlike traditional water heaters, extract heat from the surrounding air to heat water, a process that renders them 3-5 times more efficient. Learn more about their advantages in our article on [Heat Pump Water Heaters](whats-a-heat-pump-water-heater).
 
 #### **Federal Incentives**
 
@@ -31,7 +31,7 @@ HPWHs, unlike traditional water heaters, extract heat from the surrounding air t
 
 #### **Why it's included in the IRA**
 
-Tankless or on-demand water heaters have surged in popularity due to their energy-saving potential. These units heat water only when needed, eliminating the energy wastage associated with maintaining a hot water tank. Explore more in our article on [Tankless Water Heaters](tankless-water-heaters-are-compact-efficiency).
+Tankless or on-demand water heaters have surged in popularity due to their energy-saving potential. These units heat water only when needed, eliminating the energy wastage associated with maintaining a hot water tank. Explore more in our article on [Tankless Water Heaters](is-going-tankless-thankful).
 
 #### **Federal Incentive**
 
@@ -39,21 +39,21 @@ The **Energy Efficient Home Improvement Credit 25C** grants a 30% tax credit on 
 
 ### **Solar Water Heaters: Sun-Powered Savings**
 
-#### **Why it's included in the IRA**
+#### **Why they are included in the IRA**
 
-Solar water heaters utilize the sun's thermal energy, offering a renewable and efficient solution for water heating. These systems significantly reduce reliance on fossil fuels, fostering a sustainable future. Discover more in our article on [Solar Water Heaters](solar-water-heaters-are-a-sustainable-solution-for-your-home).
+Solar water heaters utilize the sun's thermal energy, offering a renewable and efficient solution for water heating. These systems significantly reduce reliance on fossil fuels, fostering a sustainable future. Discover more in our article on [Solar Water Heaters](are-solar-water-heaters-a-thing-now).
 
-#### **Federal Incentive**
+#### **Federal Tax Credit**
 
 The Residential Clean Energy Tax Credit (25D) provides a 30% credit on both equipment and installation costs, with no upper limit. To qualify, systems must generate at least 50% of their energy from the sun and be certified by the SRCC or a similar state-endorsed entity.
 
-### **Energy-Efficient Storage Water Heaters: A Reliable Choice**
+### **Energy-Efficient Storage Water Heaters**
 
-#### **Why it's included in the IRA**
+#### **Why they're also included in the IRA**
 
 While they may not offer the substantial savings of other water heater types, upgrading to an Energy Star certified model can still lead to significant savings, particularly when replacing older, less efficient units.
 
-#### **Federal Incentive**
+#### **Federal Energy Eficient Credit**
 
 The Energy Efficient Home Improvement Credit (25C) awards a 30% tax credit on the project cost, up to a $600 maximum. For more details you can refer to the Criteria for Energy Star Certified Storage Water Heaters [here](https://www.energystar.gov/about/federal_tax_credits/tax_credits_homeowners/water_heaters_natural_gas_oil_propane)
 

@@ -1,6 +1,6 @@
 ---
 publishDate: 2023-11-03T00:00:00Z
-title: How to Maximize the Federal Solar Tax Credit
+title: How to Maximize the Solar Tax Credit
 excerpt: Learn the art of maximizing your benefits from the Federal Solar Tax Credit. This guide provides insights and strategies on how to extract the most value from this financial incentive.
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/SLR-1-cover-art.png?raw=true
 category: Solar Energy

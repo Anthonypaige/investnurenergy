@@ -1,6 +1,6 @@
 ---
 publishDate: 2023-11-12T00:00:00Z
-title: What is the Residential Clean Energy Credit?
+title: What's the Home Clean Energy Credit?
 excerpt: The Residential Clean Energy Credit is more than just a tax incentive; it's a catalyst for change in the way we approach energy in our homes.
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/HCE-1-cover-art.png?raw=true
 category: Home Clean Energy Credit
@@ -36,7 +36,7 @@ Residential wind turbines are carving out a niche in the clean energy landscape,
 
 ### **Solar Water Heaters**
 
-Solar water heaters are a smart choice for homeowners looking to cut energy costs and boost their emergency preparedness. By harnessing the sun's power, these systems can slash your water heating bills by **50-80%**, offering substantial savings. They're a reliable ally in emergencies, providing hot water without draining your home's energy storage, leaving more power for essentials like heating and cooling. With the Inflation Reduction Act sweetening the deal through incentives, it's an opportune time to consider integrating a solar water heater into your energy setup. To understand the full scope of benefits these systems offer, take a look at our in-depth article on [Solar Water Heaters](solar-water-heaters-are-a-sustainable-solution-for-your-home).
+Solar water heaters are a smart choice for homeowners looking to cut energy costs and boost their emergency preparedness. By harnessing the sun's power, these systems can slash your water heating bills by **50-80%**, offering substantial savings. They're a reliable ally in emergencies, providing hot water without draining your home's energy storage, leaving more power for essentials like heating and cooling. With the Inflation Reduction Act sweetening the deal through incentives, it's an opportune time to consider integrating a solar water heater into your energy setup. To understand the full scope of benefits these systems offer, take a look at our in-depth article on [Solar Water Heaters](are-solar-water-heaters-a-thing-now).
 
 ### **Home Energy Storage**
 

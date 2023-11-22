@@ -1,6 +1,6 @@
 ---
 publishDate: 2023-11-04T00:00:00Z
-title: Sense's Home Energy Monitoring System 
+title: Sense's Home Energy Monitoring System
 excerpt: Central to this solution is the Sense app, a user-friendly dashboard that provides real-time and historical data, tracks energy trends, and allows you to set goals for energy usage.
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/SED-4-cover-art.png?raw=true
 category: Smart Energy Devices

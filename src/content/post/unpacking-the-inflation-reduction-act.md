@@ -1,6 +1,6 @@
 ---
 publishDate: 2023-11-11T00:00:00Z
-title: Unpacking the Inflation Reduction Act 
+title: Unpacking the Inflation Reduction Act
 excerpt: Dive deep into the Inflation Reduction Act of 2022 and discover how it revolutionizes the energy landscape for homeowners, offering incentives for sustainable living.
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/IIYE-1-cover-art.png?raw=true
 category: Inflation Reduction Act

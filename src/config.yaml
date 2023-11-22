@@ -11,7 +11,7 @@ metadata:
   title:
     default: Invest in Your Energy
     template: '%s — Invest in Your Energy'
-  description: "We simplify the Inflation Reduction Act and its benefits for homeowners. Discover how to leverage federal tax credits and state-level rebates for clean energy solutions and energy-efficient home upgrades"
+  description: 'We simplify the Inflation Reduction Act and its benefits for homeowners. Discover how to leverage federal tax credits and state-level rebates for clean energy solutions and energy-efficient home upgrades'
   robots:
     index: true
     follow: true

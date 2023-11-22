@@ -28,7 +28,7 @@ A vital component of the 25C credit, electrical panel upgrades are instrumental 
 
 Heating and cooling systems are the cornerstone of home comfort, accounting for about 50% of a home's energy consumption. This significant percentage underscores the importance of optimizing these systems to enhance energy efficiency and reduce utility bills. The Inflation Reduction Act acknowledges this by incentivizing the adoption of more energy-efficient heating and cooling solutions. Let's delve into the options available:
 
-#### **Heat Pumps**
+#### **Air Source Heat Pumps**
 
 Heat pumps stand as the unsung heroes within the provisions of the Inflation Reduction Act. Their remarkable efficiency, operating at three times the efficiency of traditional heating systems, makes them a smart investment for homeowners keen on reducing their energy footprint. The Act encompasses both ducted and mini-ductless air source heat pumps, offering a substantial credit that covers 30% of the cost, capped at a maximum of $2000. To explore the manifold advantages of heat pump technology, we invite you to visit our dedicated page on [air source heat pumps](energy-efficient/air-source-heat-pumps).
 
@@ -52,11 +52,11 @@ Water heating, encompassing showers, laundry, and dishwashing, constitutes nearl
 
 #### **Heat Pump Water Heaters**
 
-Standing as the zenith of water heater technology, heat pump water heaters offer a remarkable blend of efficiency and performance. These units utilize heat pump technology to heat water, significantly reducing energy consumption compared to traditional water heaters. Learn more about the benefits and potential savings associated with heat pump water heaters in [our guide](heat-pump-water-heaters-are-the-model-of-efficiency).
+Standing as the zenith of water heater technology, heat pump water heaters offer a remarkable blend of efficiency and performance. These units utilize heat pump technology to heat water, significantly reducing energy consumption compared to traditional water heaters. Learn more about the benefits and potential savings associated with heat pump water heaters in [our guide](whats-a-heat-pump-water-heater).
 
 #### **Tankless Water Heaters**
 
-Tankless water heaters have surged in popularity due to their energy-saving potential. Unlike traditional units, they only heat water on demand, eliminating the energy wastage associated with maintaining a tank of hot water. Discover the benefits and features of tankless water heaters [here.](tankless-water-heaters-are-compact-efficiency)
+Tankless water heaters have surged in popularity due to their energy-saving potential. Unlike traditional units, they only heat water on demand, eliminating the energy wastage associated with maintaining a tank of hot water. Discover the benefits and features of tankless water heaters [here.](is-going-tankless-thankful)
 
 ### **Weatherization Measures**
 

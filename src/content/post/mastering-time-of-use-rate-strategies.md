@@ -1,6 +1,6 @@
 ---
 publishDate: 2023-11-12T00:00:00Z
-title: Mastering TOU Rates Strategies for Smart Energy
+title: Mastering TOU Rates Strategies
 excerpt: Equip yourself with strategies to navigate Time-of-Use (TOU) rates effectively. This guide offers insights into optimizing your energy consumption patterns to save on utility bills and alleviate grid pressure.
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/IIYE-2-cover-art.png?raw=true
 category: Inflation Reduction Act

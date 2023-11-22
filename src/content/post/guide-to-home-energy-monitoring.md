@@ -1,6 +1,6 @@
 ---
-publishDate: 2023-11-12T00:00:00Z
-title: Guide to Home Energy Monitoring 
+publishDate: 2023-11-21T00:00:00Z
+title: Guide to Home Energy Monitoring
 excerpt: In today's world, where every household appliance seems to be getting a 'smart' upgrade, it's high time we turned our attention to optimizing the very energy that powers them. Enter Home Energy Monitoring Systems (HEMS).
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/SED-2-cover-art.png?raw=true
 category: Smart Energy Devices
@@ -9,7 +9,7 @@ tags:
   - Smart energy devices
   - TOU rates
 metadata:
-  canonical: https://investinyourenergy.com/home-energy-monitoring-your-guide-to-energy-efficiency
+  canonical: https://investinyourenergy.com/guide-to-home-energy-monitoring
 ---
 
 In today's world, where every household appliance seems to be getting a 'smart' upgrade, it's high time we turned our attention to optimizing the very energy that powers them. Enter Home Energy Monitoring Systems (HEMS), a revolutionary tool that stands at the forefront of home energy efficiency. These sophisticated systems are designed to grant homeowners a detailed glimpse into their daily energy consumption patterns, offering a golden opportunity to seize control of energy usage, curb wasteful habits, and carve out a path to substantial savings.
@@ -49,7 +49,7 @@ When it comes to HEMS, two brands that have made a significant impact are Sense 
 
 #### **Sense: Machine Learning for Precise Appliance-Level Monitoring**
 
-Sense brings a high-tech approach to energy monitoring, utilizing machine learning to identify individual appliances based on their unique electrical signatures. Over time, Sense's system learns to recognize these patterns, providing you with appliance-level energy usage data. This detailed monitoring allows homeowners to understand their energy habits better and identify opportunities for energy savings. Sense's most popular product, the Sense Energy Monitor, is priced at $299. They also offer the Sense Solar and Sense Flex models for those with solar power or requiring more customization. Want specifics? Discover more in our [Sense buying guide](senses-home-energy-monitoring-system-driven-by-machine-learning) or check out [Sense selections on Amazon](https://amzn.to/49q77cW).
+Sense brings a high-tech approach to energy monitoring, utilizing machine learning to identify individual appliances based on their unique electrical signatures. Over time, Sense's system learns to recognize these patterns, providing you with appliance-level energy usage data. This detailed monitoring allows homeowners to understand their energy habits better and identify opportunities for energy savings. Sense's most popular product, the Sense Energy Monitor, is priced at $299. They also offer the Sense Solar and Sense Flex models for those with solar power or requiring more customization. Want specifics? Discover more in our [Sense buying guide](senses-home-energy-monitoring-systems) or check out [Sense selections on Amazon](https://amzn.to/49q77cW).
 
 #### **Emporia Vue 2: Comprehensive Circuit-Level Monitoring for Your Home**
 
