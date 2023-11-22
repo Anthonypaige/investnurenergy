@@ -1,6 +1,6 @@
 ---
 publishDate: 2023-11-12T00:00:00Z
-title: State Level Energy Efficient Incentives Overview
+title: State Level Energy Efficient Rebates
 excerpt: State and local energy efficiency incentives offer a valuable resource for homeowners looking to make sustainable improvements.
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/EER-2-cover-art.png?raw=true
 category: Energy Efficient Rebates

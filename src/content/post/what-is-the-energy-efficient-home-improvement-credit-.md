@@ -60,7 +60,7 @@ Tankless water heaters have surged in popularity due to their energy-saving pote
 
 ### **Weatherization Measures**
 
-Weatherization is a big deal when it comes to the Energy-Efficient Home Improvement Credit. It's all about insulation and sealant, and you can get a credit of 30% of the cost, up to $1200. We're talking everything from batts and rolls to blow-in fibers, rigid boards, expanding spray, and pour-in-place. Even products that help seal up air leaks are included. Proper insulation offers a cost effective solution to an energy efficient home. If you want to learn more check out our [detailed guide](a-comprehensive-guide-to-weatherization-and-energy-efficiency) on insulating your home
+Weatherization is a big deal when it comes to the Energy-Efficient Home Improvement Credit. It's all about insulation and sealant, and you can get a credit of 30% of the cost, up to $1200. We're talking everything from batts and rolls to blow-in fibers, rigid boards, expanding spray, and pour-in-place. Even products that help seal up air leaks are included. Proper insulation offers a cost effective solution to an energy efficient home. If you want to learn more check out our [detailed guide](comprehensive-guide-to-weatherization) on insulating your home
 
 ### **Exterior Doors, Skylights, and Windows**
 

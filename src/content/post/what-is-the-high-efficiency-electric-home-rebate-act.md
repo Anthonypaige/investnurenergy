@@ -26,7 +26,7 @@ The act covers a range of products and services focused on Home Climate and Hous
 
 - **Heat Pumps**: Heating and cooling are responsible for almost half of residential energy costs. Upgrading to an [Air Source Heat Pump](/energy-efficient/air-source-heat-pumps) heat pump HVAC system, which produces three times the amount of energy it uses, can significantly reduce heating and cooling costs, making homes more comfortable year-round.
 
-- **Weatherization**: Insulation and Sealant improvements aid in the efficiency of the HVAC unit. Proper insulation helps keep homes warm in winter and cool in summer, significantly cutting energy costs. Learn more about weatherization in our [comprehensive guide](/a-comprehensive-guide-to-weatherization-and-energy-efficiency).
+- **Weatherization**: Insulation and Sealant improvements aid in the efficiency of the HVAC unit. Proper insulation helps keep homes warm in winter and cool in summer, significantly cutting energy costs. Learn more about weatherization in our [comprehensive guide](/comprehensive-guide-to-weatherization).
 
 - **Ventilation**: Proper ventilation ensures healthy indoor air quality and aids in the efficiency of the HVAC unit, enhancing overall well-being for your home and its occupants.
 

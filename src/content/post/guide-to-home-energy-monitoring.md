@@ -1,6 +1,6 @@
 ---
 publishDate: 2023-11-12T00:00:00Z
-title: Home Energy Monitoring Your guide to Energy Efficiency
+title: Guide to Home Energy Monitoring 
 excerpt: In today's world, where every household appliance seems to be getting a 'smart' upgrade, it's high time we turned our attention to optimizing the very energy that powers them. Enter Home Energy Monitoring Systems (HEMS).
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/SED-2-cover-art.png?raw=true
 category: Smart Energy Devices
@@ -16,7 +16,7 @@ In today's world, where every household appliance seems to be getting a 'smart' 
 
 As we explore further, we'll see how these systems seamlessly integrate with smart home devices, offering real-time insights that enhance energy management. Let's delve into how HEMS can help you cultivate a home that's both intelligent and energy-efficient.
 
-### **Appliance-Level Insights**:
+### **Appliance-Level Insights**
 
 With circuit-level monitoring (that covers your main appliances) or appliance-level monitoring systems, homeowners can gain detailed insights into individual appliance usage. This granular data provides a clear picture of how each appliance contributes to the overall energy consumption of the home.
 
@@ -26,7 +26,7 @@ With circuit-level monitoring (that covers your main appliances) or appliance-le
 - **Playbook for Appliance Upgrades**:
   Knowing which appliances are the most energy-intensive can guide homeowners in making decisions about upgrades. By replacing older, inefficient models with newer energy-saving ones, homeowners can achieve significant energy and cost savings. Once an appliance is upgraded, HEMS allows homeowners to monitor its performance and energy consumption. This provides real-time data on the return on investment, showing homeowners the tangible benefits of their energy-efficient upgrades.
 
-### **Backup Solutions Tailored to Your Needs**:
+### **Backup Solutions Tailored to Your Needs**
 
 HEMS provide invaluable data for sizing a home battery backup system. By identifying the energy consumption of essential items in your home, you can accurately determine the capacity needed for a backup battery. With these insights, homeowners can create customized backup solutions, ensuring that essential systems like refrigeration, heating, or medical equipment operate uninterrupted during power failures.
 

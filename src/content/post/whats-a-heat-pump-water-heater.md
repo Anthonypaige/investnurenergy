@@ -1,6 +1,6 @@
 ---
 publishDate: 2023-10-17T00:00:00Z
-title: Heat Pump Water Heaters are The Model of Efficiency
+title: What's a Heat Pump Water Heater?
 excerpt: Heat pump water heaters (HPWHs) stand out not just for their efficiency but also for their innovative design and user-centric features.
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/WTR-2-cover-art.png?raw=true
 category: Energy Efficient Home Upgrades

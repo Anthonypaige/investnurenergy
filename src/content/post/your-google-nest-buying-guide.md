@@ -1,6 +1,6 @@
 ---
 publishDate: 2023-10-27T00:00:00Z
-title: Your Comprehensive Google Nest Buying Guide
+title: Your Google Nest Buying Guide
 excerpt: This guide aims to help you make an informed decision on which model best suits your home.
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/THRM-3-cover-art.jpg?raw=true
 category: Smart Energy Devices

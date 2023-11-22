@@ -22,7 +22,7 @@ In this article, we will delve into the world of smart energy devices, exploring
 
 Some smart thermostats go beyond basic remote control by communicating with other smart home devices. This interconnectivity allows them to work together to optimize energy consumption, adjusting temperatures based on other factors like outdoor weather or occupancy.
 
-Additionally, certain smart thermostats have learning capabilities, meaning they can adapt to your routines and preferences over time. This "intelligence" helps in automating temperature adjustments, further enhancing energy savings. To learn more check out our comprehensive guide on [smart thermostats](smart-thermostat-shopping-guide-what-you-need-to-know)
+Additionally, certain smart thermostats have learning capabilities, meaning they can adapt to your routines and preferences over time. This "intelligence" helps in automating temperature adjustments, further enhancing energy savings. To learn more check out our comprehensive guide on [smart thermostats](smart-thermostat-shopping-guide)
 
 ### **Home Energy Monitoring Systems**
 

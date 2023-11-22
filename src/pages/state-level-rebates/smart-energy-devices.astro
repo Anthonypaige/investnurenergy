@@ -15,20 +15,7 @@ const metadata = {
 };
 
 ---
-<!-- <head>
-  <title>{metadata.title}</title>
-  <meta name="description" content={metadata.description} />
-  <meta property="og:title" content={metadata.title} />
-  <meta property="og:description" content={metadata.description} />
-  <meta property="og:image" content={metadata.imageUrl} />
-  <meta property="og:type" content="website" /> -->
-    <!-- Twitter Card meta tags -->
-    <!-- <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content={metadata.title} />
-    <meta name="twitter:description" content={metadata.description} />
-    <meta name="twitter:image" content={metadata.imageUrl} />
-    <meta name="twitter:image:alt" content=" a Smart Energy Device logo" />
-</head> -->
+
 
 <Layout metadata={metadata}>
   <Hero actions={[]} videoSrc="/images/smart-home-video.mp4">
@@ -90,23 +77,20 @@ const metadata = {
   }}
 />
 
-
-
-
-
   <!-- Featured Articles Widget ******************* -->
   <FeaturedArticles 
     title="Featured Articles" 
     articleSlugs={[
       'iot-is-fueling-smart-energy-devices',
-      'home-energy-monitoring-your-guide-to-energy-efficiency',
+      'guide-to-home-energy-monitoring',
       'emporias-home-energy-monitoring-systems',
-      'senses-home-energy-monitoring-system-driven-by-machine-learning',
-      'smart-thermostat-shopping-guide-what-you-need-to-know',
+      'senses-home-energy-monitoring-systems',
+      'smart-thermostat-shopping-guide',
       'ecobee-smart-thermostats-buying-guide',
-      'your-comprehensive-google-nest-buying-guide',
+      'your-google-nest-buying-guide',
     ]}
   />
+
   <Steps2
   title="Discover State-Level Energy Rebates"
   subtitle="Your Gateway to Savings with Renewables & Efficiency Incentives"
@@ -136,6 +120,4 @@ const metadata = {
   ]}
   />
   
-
-
 </Layout>
