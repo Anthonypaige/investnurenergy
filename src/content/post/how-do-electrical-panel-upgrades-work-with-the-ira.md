@@ -30,7 +30,7 @@ The Energy Efficient Home Improvement Credit (25C) under the Inflation Reduction
 
 - Comply with the National Electric Code.
 - Have a load capacity of not less than 200 amps.
-- Enable the installation and use of qualified energy efficiency improvements or property.
+- Enable the installation and use of qualified energy      efficiency improvements or property.
 
 Whether you're considering upgrading your HVAC system, installing a Heat Pump, or adding an Energy Star certified appliance, this credit can make your home more energy-efficient and future-ready. For eligibility and application details, refer to [Energy Star’s guidelines](https://www.energystar.gov/about/federal_tax_credits/electric_panel_upgrade). Learn more about 25C at [Energy Efficient Home Upgrades](https://investinyourenergy.com/energy-efficient/energy-efficient-home-upgrades).
 
@@ -50,7 +50,7 @@ The absence of a cap on this credit means you can think big and plan for the fut
 
 ### **High Efficiency Electric Home Rebate Act**
 
-The [Electrification Rebate Act](https://investinyourenergy.com/what-is-the-high-efficiency-electric-home-rebate-act) also known as the High Efficiency Electric Home Rebate Act (HEEHRA), is a significant stride towards energy efficiency in the United States. One of the key provisions of this Act is the financial incentive for electrical panel upgrades.
+The [Electrification Rebate Act](https://investinyourenergy.com/what-we-know-about-heehra) also known as the High Efficiency Electric Home Rebate Act (HEEHRA), is a significant stride towards energy efficiency in the United States. One of the key provisions of this Act is the financial incentive for electrical panel upgrades.
 
 Eligible homes can use the high-efficiency tax credit for panel upgrades and wiring. Low-income households can take advantage of a $4,000 rebate for electrical panels and $2,500 for wiring (or half that for moderate-income households).
 

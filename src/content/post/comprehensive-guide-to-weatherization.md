@@ -26,7 +26,7 @@ Weatherization, often referred to as weatherproofing, is the process of modifyin
 
 - **Energy-Efficient Home Improvement Credit**: This credit facilitates homeowners in claiming up to 30% of the cost, capped at $1200, for a range of weatherization measures. This encompasses various insulation materials and products designed to seal air leaks.
 
-- **HEEHRA**: Tailored for low to moderate-income households, HEEHRA underscores the importance of insulation and sealants. It also encompasses certain ventilation projects. For a detailed breakdown and eligibility criteria, refer to EnergyEfficientRebate.com, where we have a breakdown of what we know about [HEEHRA](what-is-the-high-efficiency-electric-home-rebate-act).
+- **HEEHRA**: Tailored for low to moderate-income households, HEEHRA underscores the importance of insulation and sealants. It also encompasses certain ventilation projects. For a detailed breakdown and eligibility criteria, refer to EnergyEfficientRebate.com, where we have a breakdown of what we know about [HEEHRA](what-we-know-about-heehra).
 
 - **State Level Incentives**: Numerous state governments and local utilities extend rebates for weatherization, recognizing its cost-effectiveness and potential for energy savings. Explore the [Database](https://www.dsireusa.org) of State Incentives for Renewables & Efficiency to discover incentives in your state.
 

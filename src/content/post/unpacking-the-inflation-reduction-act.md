@@ -65,7 +65,7 @@ Explore the following specialized pages to understand how you can benefit from s
 
 ### **Electrification Rebate Act (HEEHRA)**
 
-The Electrification Rebate Act, also known as the [High-Efficiency Electric Home Rebate Act](https://investinyourenergy.com/what-is-the-high-efficiency-electric-home-rebate-act) (HEEHRA), is a groundbreaking initiative aimed at enabling low- and moderate-income (LMI) households across America to electrify their homes. Recognizing that LMI households typically bear three times the energy burden compared to others, HEEHRA seeks to alleviate this by offering:
+The Electrification Rebate Act, also known as the High-Efficiency [Electric Home Rebate Act](https://investinyourenergy.com/what-we-know-about-heehra) (HEEHRA), is a groundbreaking initiative aimed at enabling low- and moderate-income (LMI) households across America to electrify their homes. Recognizing that LMI households typically bear three times the energy burden compared to others, HEEHRA seeks to alleviate this by offering:
 
 - 100% of electrification project costs up to $14,000 for low-income households.
 - 50% of costs up to $14,000 for moderate-income households.

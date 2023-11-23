@@ -1,5 +1,5 @@
 ---
-publishDate: 2023-11-3T00:00:00Z
+publishDate: 2023-11-15T00:00:00Z
 title: Quote the Blue Raven? Nevermore!
 excerpt: Blue Raven Solar not only jeopardizes the financial stability of homeowners but also tarnishes the reputation of the solar industry. Their practices serve as a cautionary tale, highlighting the urgent need for consumer awareness and industry regulation.
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/SLR-7-cover-art.png?raw=true
@@ -20,7 +20,7 @@ Blue Raven Solar entices customers with the alluring offer of **"18 months free,
 
 #### **The Bridge Loan Trap: A Financial Quicksand**
 
-We've delved into the complexities of solar loans in our previous article on [navigating the pitfalls of solar loans](https://investinyourenergy.com/solar-loans-a-guide-to-avoiding-pitfalls-and-maximizing-benefits/), and bridge loans stand out as particularly treacherous. Blue Raven Solar fails to disclose that if the tax credit isn't applied to the bridge loan within the stipulated time frame, the interest rate can soar dramatically. This sudden and unexpected surge in monthly payments can financially cripple homeowners, effectively obliterating any chance of a return on investment (ROI).
+We've delved into the complexities of solar loans in our previous article on [navigating the pitfalls of solar loans](https://investinyourenergy.com/solar-loans-a-guide-to-avoiding-pitfalls), and bridge loans stand out as particularly treacherous. Blue Raven Solar fails to disclose that if the tax credit isn't applied to the bridge loan within the stipulated time frame, the interest rate can soar dramatically. This sudden and unexpected surge in monthly payments can financially cripple homeowners, effectively obliterating any chance of a return on investment (ROI).
 
 By employing these cunning tactics, Blue Raven Solar not only jeopardizes the financial stability of homeowners but also tarnishes the reputation of the solar industry. Their practices serve as a cautionary tale, highlighting the urgent need for consumer awareness and industry regulation.
 
@@ -58,4 +58,6 @@ By taking this stand, we aim to be a part of the solution, encouraging a more et
 
 ### **Conclusion**
 
-The solar industry has the potential to revolutionize how we consume energy, but companies like Blue Raven Solar and SunPower are casting a long, dark shadow over this bright future. Their unethical practices not only exploit consumers but also undermine the credibility of an entire industry. While we could have stayed silent and profited from affiliate marketing relationships with these companies, we chose to speak out. The cost of silence is too high, especially when it comes at the expense of consumer trust and financial well-being. We hope this article serves as a wake-up call for both consumers and the industry at large. It's time to demand better. Blue Raven may be the poster child of unetchial sales tactics in the solar industry, but they're only one brick in the Wall Of Shame. Until all of these companies are washed out or cleaned up unfortunaely the growth in residential solar will continue to stall.
+The solar industry has the potential to revolutionize how we consume energy, but companies like Blue Raven Solar and SunPower are casting a long, dark shadow over this bright future. Their unethical practices not only exploit consumers but also undermine the credibility of an entire industry. While we could have stayed silent and profited from affiliate marketing relationships with these companies, we chose to speak out. The cost of silence is too high, especially when it comes at the expense of consumer trust and financial well-being. We hope this article serves as a wake-up call for both consumers and the industry at large.
+
+It's time to demand better. Blue Raven may be the poster child of unetchial sales tactics in the solar industry, but they're only one brick in the Wall Of Shame. Until all of these companies are washed out or cleaned up unfortunaely the growth in residential solar will continue to stall.

@@ -24,9 +24,9 @@ When it comes to making your home more energy-efficient, financial incentives ca
 
 ### Federal Incentives
 
-- **Electrification Rebates Act (HEEHRA)**: This transformative legislation offers a point-of-sale rebate ranging from 50% to 100% for low- and moderate-income households. It aims to make energy-efficient solutions like ASHPs more accessible.[Read more about HEEHRA](what-is-the-high-efficiency-electric-home-rebate-act).
+- **Electrification Rebates Act (HEEHRA)**: This transformative legislation offers a point-of-sale rebate ranging from 50% to 100% for low- and moderate-income households. It aims to make energy-efficient solutions like ASHPs more accessible.[Read more about HEEHRA](what-we-know-about-heehra).
 
-- **Energy Efficient Home Improvement Credit**: This tax credit covers 30% of the installation cost of an ASHP, up to $2,000. It's available to all taxpayers and offers flexibility for those with multi-story properties. Learn more about the [25C tax credit](what-is-the-energy-efficient-home-improvement-credit).
+- **Energy Efficient Home Improvement Credit**: This tax credit covers 30% of the installation cost of an ASHP, up to $2,000. It's available to all taxpayers and offers flexibility for those with multi-story properties. Learn more about the [25C tax credit](what-is-the-energy-efficient-home-credit).
 
 ### State-Level Rebates
 

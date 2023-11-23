@@ -28,7 +28,7 @@ If the concept of tax liability still feels complex, you can find a more detaile
 
 The Residential Clean Energy Credit's rollover option is a standout feature that offers flexibility and continued savings. If you're unable to utilize the entire credit in one year, this option allows any unused credit to be carried over to the next tax year. It's a safeguard that ensures you won't miss out on potential savings.
 
-However, it's essential to be aware of a potential pitfall. If your solar investment is financed through a solar loan that includes a bridge loan, you must cover that amount until you receive your next credit in the following tax year. Failure to do so could lead to a considerable increase in your interest rate, possibly even doubling it. For more on this, check out [Avoiding Pitfalls of Solar Loans](solar-loans-a-guide-to-avoiding-pitfalls-and-maximizing-benefits).
+However, it's essential to be aware of a potential pitfall. If your solar investment is financed through a solar loan that includes a bridge loan, you must cover that amount until you receive your next credit in the following tax year. Failure to do so could lead to a considerable increase in your interest rate, possibly even doubling it. For more on this, check out [Avoiding Pitfalls of Solar Loans](solar-loans-a-guide-to-avoiding-pitfalls).
 
 ![Super Wide](https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/In-article-images/SLR-7-in-article.png?raw=true)
 

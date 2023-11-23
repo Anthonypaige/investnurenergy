@@ -59,4 +59,4 @@ Just as mobile phones evolved from bulky flip phones to sleek smartphones, solar
 
 Understanding solar energy might seem as daunting as mastering texting on a flip phone, but with patience and perseverance, you can unlock its full potential. The innovations in solar technology, such as intelligent micro-inverters and solar storage batteries, enhance our ability to harness renewable energy and underscore the importance of concepts like battery storage, net metering, and Time-of-use (TOU) rates.
 
-Now that you've got the basics down, You can either Learn more about [net metering here](how-fruitful-can-net-metering-be). Or maybe you're ready to dive into devising a [solar offset strategy?](devising-your-solar-offset-strategy-a-monopoly-game-approach).
+Now that you've got the basics down, You can either Learn more about [net metering here](how-fruitful-can-net-metering-be). Or maybe you're ready to dive into devising a [solar offset strategy?](devising-your-solar-offset-strategy).
