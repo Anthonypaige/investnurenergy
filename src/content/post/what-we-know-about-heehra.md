@@ -1,6 +1,6 @@
 ---
 publishDate: 2023-11-10T00:00:00Z
-title: What is the High-Efficiency Electric Home Rebate Act?
+title: What we know about HEEHRA
 excerpt: The High-Efficiency Electric Home Rebate Act (HEEHRA) is a groundbreaking piece of legislation that's part of the larger Inflation Reduction Act. It's designed to make energy-efficient home upgrades more accessible for LMI households.
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/EER-1-cover-art.png?raw=true
 category: Energy Efficient Rebates

@@ -1,6 +1,6 @@
 ---
 publishDate: 2023-11-10T00:00:00Z
-title: Spotlight on the Solar Industry Promoting Transparency and Standards
+title: Spotlight on the Solar Industry 
 excerpt: Unscrupulous firms exploited the lack of consumer awareness, employing aggressive sales maneuvers, adding hidden "dealer fees", and offering unrealistic promises.
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/SLR-2-cover-art.png?raw=true
 category: Solar Energy
@@ -9,7 +9,7 @@ tags:
   - SEIA
   - solar loans
 metadata:
-  canonical: https://investinyourenergy.com/spotlight-on-solar-industry-promoting-transparency-and-standards
+  canonical: https://investinyourenergy.com/spotlight-on-the-solar-industry
 ---
 
 The solar energy industry, despite its numerous advantages, has often been misunderstood, leading to a negative perception. This unfortunate reputation is largely due to a lack of consumer awareness and the presence of novice installers and deceptive solar loans. However, with the right knowledge and the efforts of organizations like the Solar Energy Industries Association (SEIA), we can promote transparency and set industry standards.

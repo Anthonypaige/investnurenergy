@@ -1,5 +1,5 @@
 ---
-publishDate: 2023-11-04T00:00:00Z
+publishDate: 2023-11-20T00:00:00Z
 title: Sense's Home Energy Monitoring System
 excerpt: Central to this solution is the Sense app, a user-friendly dashboard that provides real-time and historical data, tracks energy trends, and allows you to set goals for energy usage.
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/SED-4-cover-art.png?raw=true
@@ -9,7 +9,7 @@ tags:
   - Machine Learning
   - home Energy Monitoring
 metadata:
-  canonical: https://investinyourenergy.com/senses-home-energy-monitoring-system-driven-by-machine-learning
+  canonical: https://investinyourenergy.com/senses-home-energy-monitoring-system
 ---
 
 Sense Home Energy Monitors are more than just energy tracking devices. These compact devices, connected directly to your home's electrical panel, offer real-time insights into your power usage and solar production. The distinguishing factor is Sense's advanced machine learning technology.

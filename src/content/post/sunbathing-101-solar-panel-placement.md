@@ -1,6 +1,6 @@
 ---
 publishDate: 2023-10-30T00:00:00Z
-title: Sunbathing 101 A Guide to Solar Panel Placement
+title: Sunbathing 101- Solar Panel Placement
 excerpt: Qualifying your home for solar panel installation is like planning the perfect day of sunbathing. Both tasks require a keen understanding of the sun's position and the optimal times to catch its rays.
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/FYI-1-cover-art.png?raw=true
 category: Solar Energy
@@ -8,7 +8,7 @@ tags:
   - solar energy
   - property assessment
 metadata:
-  canonical: https://investinyourenergy.com/sunbathing-101-a-guide-to-solar-panel-placement
+  canonical: https://investinyourenergy.com/sunbathing-101-solar-panel-placement
 ---
 
 Qualifying your home for solar panel installation is like planning the perfect day of sunbathing. Both tasks require a keen understanding of the sun's position and the optimal times to catch its rays. While sunbathing rewards you with a golden tan, understanding solar panel placement and peak sun hours can lead to optimal solar power production. This article is your guide to assessing whether your home is a good candidate for solar energy, helping you navigate the essential factors and tools needed to make an informed decision.

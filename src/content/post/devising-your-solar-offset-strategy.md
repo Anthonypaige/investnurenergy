@@ -1,6 +1,6 @@
 ---
 publishDate: 2023-11-07T00:00:00Z
-title: Devising Your Solar Offset Strategy A Monopoly Game Approach
+title: Devising Your Solar Offset Strategy 
 excerpt: Stepping into the realm of solar energy with a well-crafted offset strategy allows you to gradually transition to a greener, more sustainable lifestyle.
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/FYI-4-cover-art.png?raw=true
 category: Solar Energy
@@ -9,7 +9,7 @@ tags:
   - home energy storage
   - net metering
 metadata:
-  canonical: https://investinyourenergy.com/devising-your-solar-offset-strategy-a-monopoly-game-approach
+  canonical: https://investinyourenergy.com/devising-your-solar-offset-strategy
 ---
 
 Investing in solar energy is more than an ecological decision; it's a strategic move towards energy independence. A solar offset strategy is a planned approach to gradually reduce reliance on traditional energy sources by incorporating solar energy into your home. Think of it as playing a real-life game of Monopoly, where you become the owner of utility sources. By installing solar panels and obtaining the **Permission to Operate (PTO)**, you transition from a mere utility consumer to an energy stakeholder. Essentially, you become a real-life utility owner, setting your energy consumption terms.
