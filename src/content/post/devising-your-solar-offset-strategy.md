@@ -1,6 +1,6 @@
 ---
 publishDate: 2023-11-07T00:00:00Z
-title: Devising Your Solar Offset Strategy 
+title: Devising Your Solar Offset Strategy
 excerpt: Stepping into the realm of solar energy with a well-crafted offset strategy allows you to gradually transition to a greener, more sustainable lifestyle.
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/FYI-4-cover-art.png?raw=true
 category: Solar Energy

@@ -1,6 +1,6 @@
 ---
 publishDate: 2023-11-10T00:00:00Z
-title: Spotlight on the Solar Industry 
+title: Spotlight on the Solar Industry
 excerpt: Unscrupulous firms exploited the lack of consumer awareness, employing aggressive sales maneuvers, adding hidden "dealer fees", and offering unrealistic promises.
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/SLR-2-cover-art.png?raw=true
 category: Solar Energy
