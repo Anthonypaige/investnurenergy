@@ -2,18 +2,9 @@
 import Layout from '~/layouts/PageLayout.astro';
 import Contact from '~/components/widgets/Contact.astro';
 
-
-
-const metadata = {
-  title: 'Contact US',
-  index: false
-};
 ---
 
-<Layout metadata={metadata}>
-  <!-- Hero Widget ******************* -->
-
-  <!-- <Hero tagline="Invest in your Energy" title="Let's Connect!" /> -->
+<Layout>
 <head>
   <Contact
     title="We want to Hear From You!"
@@ -40,5 +31,4 @@ const metadata = {
     description="Our support team typically responds within 24 business hours."
   />
 </head>
-
 </Layout>

@@ -20,7 +20,7 @@ At Back-upBattery.com, we cover leveraging backup batteries and Time-of-Use (TOU
 
 Here at Home Energy Storage we will cover advanced solar batteries that take this buy low sell high game to a new level.Solar batteries capture and store surplus energy from your solar panels. This stored energy can be used when your panels are inactive, allowing you to benefit from lower-cost energy during peak hours.
 
-In the world of energy consumption, understanding Time-of-Use (TOU) rates is key to unlocking substantial savings. Our previous article on [Mastering Time-of-Use Rates](mastering-time-of-use-rate-strategies) provides a comprehensive guide on how to effectively leverage TOU rates to optimize energy usage and costs.
+In the world of energy consumption, understanding Time-of-Use (TOU) rates is key to unlocking substantial savings. Our previous article on [Mastering TOU Rates](mastering-time-of-use-rate-strategies) provides a comprehensive guide on how to effectively leverage TOU rates to optimize energy usage and costs.
 
 ### **Solar Batteries: Your Automated Energy Manager**
 
