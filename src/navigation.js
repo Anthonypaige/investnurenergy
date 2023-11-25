@@ -38,7 +38,7 @@ export const headerData = {
     {
       text: 'Shopping',
       links: [
-        { text: 'Affiliate Marketplace', href: getPermalink('/shopping/affiliate-marketplace') },
+        { text: 'Platform Picks', href: getPermalink('/shopping/platform-picks-for-best-products') },
         { text: 'Top Smart Thermostats', href: getPermalink('/shopping/top-smart-thermostats') },
         { text: 'Smart EV Chargers', href: getPermalink('/shopping/smart-ev-chargers') },
         { text: 'Portable Power Stations', href: getPermalink('/shopping/portable-power-stations') },
@@ -92,7 +92,7 @@ export const footerData = {
     {
       title: 'Shopping',
       links: [
-        { text: 'Affiliate Marketplace', href: getPermalink('/shopping/affiliate-marketplace') },
+        { text: 'Platform Picks', href: getPermalink('/shopping/platform-picks-for-best-products') },
         { text: 'Top Smart Thermostats', href: getPermalink('/shopping/top-smart-thermostats') },
         { text: 'Portable Power Stations', href: getPermalink('/shopping/portable-power-stations') },
         { text: 'Smart EV Chargers', href: getPermalink('/shopping/smart-ev-chargers') },
