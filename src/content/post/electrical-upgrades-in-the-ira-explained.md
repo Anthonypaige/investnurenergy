@@ -1,6 +1,6 @@
 ---
 publishDate: 2023-11-01T00:00:00Z
-title: How do Electrical Panel Upgrades work with the IRA
+title: Electrical Upgrades in the IRA explained
 excerpt: Delve into the critical role of electrical panel upgrades under the Inflation Reduction Act. Understand how these upgrades can be a cornerstone in enhancing energy efficiency and safety in homes.
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/IIYE-3-cover-art.png?raw=true
 category: Inflation Reduction Act
@@ -9,7 +9,7 @@ tags:
   - Inflation Reduction Act
   - home clean energy credit
 metadata:
-  canonical: https://investinyourenergy.com/how-do-electrical-panel-upgrades-work-with-the-ira
+  canonical: https://investinyourenergy.com/electrical-upgrades-in-the-ira-explained
 ---
 
 Embracing a sustainable future involves more than just adopting clean energy technologies; it requires a fundamental shift in our homes' infrastructure. Electrical panel upgrades, recognized by various provisions within the Inflation Reduction Act, are becoming increasingly important in this green transition. They not only accommodate new technologies but also prepare our homes for a future where clean energy is commonplace.

@@ -1,6 +1,6 @@
 ---
 publishDate: 2023-10-30T00:00:00Z
-title: Understanding Solar Energy A Throwback to The Flip Phone Days
+title: Solar Simplified- A Flip Phone Throwback
 excerpt: Understanding solar energy might seem as daunting as mastering texting on a flip phone, but with patience and perseverance, you can unlock its full potential.
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/FYI-2-cover-art.png?raw=true
 category: Solar Energy
@@ -9,7 +9,7 @@ tags:
   - TOU rates
   - Home Energy Storage
 metadata:
-  canonical: https://investinyourenergy.com/understanding-solar-energy-a-throwback-to-the-flip-phone-days
+  canonical: https://investinyourenergy.com/solar-simplified-a-flip-phone-throwback
 ---
 
 In our previous article, we took you on a journey of understanding solar panel placement optimization, comparing it to the art of sunbathing. Now, let's dive deeper into the world of solar energy. It's a bit like trying to text on a flip phone - a tad more complex than today's smartphone era, but once you understand the basics, it's a game-changer. This article will transport you back to the flip phone era to simplify the intricate concepts of solar energy, battery storage, net metering, and time-of-use rate plans.
