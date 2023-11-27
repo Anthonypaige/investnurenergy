@@ -50,7 +50,7 @@ This guide will explore these essential elements, helping you evaluate if your h
 
 - **Water-Assisted Systems**: If there's a sufficient body of water available on or near your property, it can be utilized to assist in creating heat.
 
-To explore the different types of geothermal systems in detail, check out our article on The Best Geothermal Heat Pump System [for Your Property](which-geothermal-heat-pump-system-fits-your-property).
+To explore the different types of geothermal systems in detail, check out our article on The Best Geothermal Heat Pump System [for Your Property](best-geothermal-pump-for-your-home).
 
 ### Local Regulations will have an impact on Geothermal System Installation
 

@@ -30,7 +30,7 @@ For a detailed breakdown of these state-level incentives, explore our [Guide to 
 
 ### **Battery Storage and Time-of-Use Rates Synergy**
 
-[Home Energy Storage](/clean-energy/home-energy-storage) is a strategic component that enhances Solar ROI, allowing you to store excess energy during off-peak hours and use it during peak times. By choosing the right battery that aligns with your needs, budget, and system size, you can maximize savings and efficiency. If you're in a state with less-than-ideal net metering, a well-chosen battery system becomes crucial. Explore our guide, Embracing the Future with [Solar Batteries](solar-batteries-are-automating-energy-management), to master the art of combining TOU rates with battery storage for a sustainable and cost-effective energy solution.
+[Home Energy Storage](/clean-energy/home-energy-storage) is a strategic component that enhances Solar ROI, allowing you to store excess energy during off-peak hours and use it during peak times. By choosing the right battery that aligns with your needs, budget, and system size, you can maximize savings and efficiency. If you're in a state with less-than-ideal net metering, a well-chosen battery system becomes crucial. Explore our guide, Embracing the Future with [Solar Batteries](solar-batteries-grid-smart-solutions), to master the art of combining TOU rates with battery storage for a sustainable and cost-effective energy solution.
 
 ### **Solar Panel Efficiency and Placement**
 

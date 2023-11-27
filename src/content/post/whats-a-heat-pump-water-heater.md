@@ -51,7 +51,7 @@ When considering a heat pump water heater (HPWH), it's essential to understand t
 
 The electrical requirements for installing a heat pump water heater are no different than those for a standard electric tank. Some homes may need an electric panel upgrade to accommodate the new 240V outlet, a task that can be handled by a licensed electrician. The good news is that this electrical panel upgrade can also be included if needed, offering a seamless transition to your new energy-efficient heating solution.
 
-Read more about how [electrical panel upgrades](how-do-electrical-panel-upgrades-work-with-the-ira)can be included with heat pump water heater installations
+Read more about how [electrical panel upgrades](electrical-upgrades-in-the-ira-explained)can be included with heat pump water heater installations
 
 #### **Conclusion**
 
