@@ -32,7 +32,7 @@ Geothermal heat pumps tap into the consistent warmth of the earth's subsurface t
 
 ### **Residential Wind Turbines**
 
-Residential wind turbines are carving out a niche in the clean energy landscape, offering a complementary power source to traditional grid energy. These turbines convert wind into usable electricity, ensuring energy flow during times when solar energy may be scarce, such as during overcast conditions or at night. The synergy between wind and solar energy is particularly beneficial, as wind turbines tend to produce more power during seasons when solar output is lower, thus bridging the gap in household energy needs. Technological strides and tax incentives from the Act are making residential wind turbines a practical choice for homeowners. Learn more on our [Residential Wind Turbines](/clean-energy/wind-turbines) page.
+Residential wind turbines are carving out a niche in the clean energy landscape, offering a complementary power source to traditional grid energy. These turbines convert wind into usable electricity, ensuring energy flow during times when solar energy may be scarce, such as during overcast conditions or at night. The synergy between wind and solar energy is particularly beneficial, as wind turbines tend to produce more power during seasons when solar output is lower, thus bridging the gap in household energy needs. Technological strides and tax incentives from the Act are making residential wind turbines a practical choice for homeowners. Learn more on our [Residential Wind Turbines](/clean-energy/residential-wind-turbines) page.
 
 ### **Solar Water Heaters**
 

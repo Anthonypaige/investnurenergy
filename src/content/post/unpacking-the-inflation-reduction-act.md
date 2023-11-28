@@ -47,7 +47,7 @@ Utilizing the earth's constant temperature, [geothermal heat pumps](https://inve
 
 #### **Residential Wind Turbines**
 
-Tap into the power of the wind with [residential wind turbines](https://investinyourenergy.com/clean-energy/wind-turbines). These are perfect companions for solar energy, as wind turbines can be used as stand-alone units or to complement your solar system, providing a renewable and clean energy source that reduces reliance on fossil fuels.
+Tap into the power of the wind with [residential wind turbines](https://investinyourenergy.com/clean-energy/residential-wind-turbines). These are perfect companions for solar energy, as wind turbines can be used as stand-alone units or to complement your solar system, providing a renewable and clean energy source that reduces reliance on fossil fuels.
 
 #### **Solar Energy**
 
