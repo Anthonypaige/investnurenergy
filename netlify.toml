@@ -79,15 +79,14 @@
   force = true
 
 [[redirects]]
-  from = "https://
-www.back-upbattery.com/*"
-  to = "https://investinyourenergy.com/clean-energy/home-energy-storage.com"
+  from = "https://www.back-upbattery.com/*"
+  to = "https://investinyourenergy.com/clean-energy/home-energy-storage"
   status = 301
   force = true
 
 [[redirects]]
  from = "https://www.efficientenergyrebates.com/*"
-  to = "https://investinyourenergy.com/state-level-rebates/energy-efficient-rebates.com"
+  to = "https://investinyourenergy.com/state-level-rebates/energy-efficient-rebates"
   status = 301
   force = true
 
@@ -98,15 +97,37 @@ www.back-upbattery.com/*"
   force = true 
 
 [[reditects]]
-  from = "www.home-energystorage.com/*"
-  to = "https://investinyourenergy.com/clean-energy/home-energy-storage.com"
+  from = "https://www.home-energystorage.com/*"
+  to = "https://investinyourenergy.com/clean-energy/home-energy-storage"
   status = 301
   force = true 
  
 [[redirects]]
-  from = "www.whatsaheatpump.com/*"
-  to = "https://investinyourenergy.com/energy-efficient/air-source-heat-pumps.com"
+  from = "https://www.whatsaheatpump.com/*"
+  to = "https://investinyourenergy.com/energy-efficient/air-source-heat-pumps"
   status = 301
   force = true
 
+[[redirects]]
+  from = "https://www.weatherizerebates.com/*"
+  to = "https://investinyourenergy.com/energy-efficient/weatherization"
+  status = 301
+  force = true
   
+[[redirects]]
+  from = "https://www.waterheatingrebates.com/*"
+  to = "https://investinyourenergy.com/energy-efficient/energy-efficient-water-heaters"
+  status = 301
+  force = true
+
+  [[redirects]]
+  from = "https://www.geo-thermalpumps.com/*"
+  to = "https://investinyourenergy.com/clean-energy/geothermal-heat-pumps"
+  status = 301
+  force = true
+
+  [[redirects]]
+  from = "https://www.gosolar.fyi/*"
+  to = "https://investinyourenergy.com/clean-energy/solar-energy-basics"
+  status = 301
+  force = true
