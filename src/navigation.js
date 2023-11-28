@@ -5,12 +5,18 @@ export const headerData = {
     {
       text: 'Clean Energy Tax Credits',
       links: [
-        { text: 'Home Clean Energy Credit', href: getPermalink('/clean-energy/home-clean-energy-credit') },
-        { text: 'Home Energy Storage', href: getPermalink('/clean-energy/home-energy-storage') },
-        { text: 'Solar Basics', href: getPermalink('/clean-energy/solar-energy-basics') },
-        { text: 'Solar Tax Incentive', href: getPermalink('/clean-energy/solar-tax-incentive') },
-        { text: 'Geothermal Heat Pumps', href: getPermalink('/clean-energy/geothermal-heat-pumps') },
-        { text: 'Wind Turbines', href: getPermalink('/clean-energy/wind-turbines') },
+        { text: 'Home Clean Energy Credit', 
+        href: getPermalink('/clean-energy/home-clean-energy-credit') },
+        { text: 'Home Energy Storage', 
+        href: getPermalink('/clean-energy/home-energy-storage') },
+        { text: 'Solar Basics', 
+        href: getPermalink('/clean-energy/solar-energy-basics') },
+        { text: 'Solar Tax Incentive', 
+        href: getPermalink('/clean-energy/solar-tax-incentive') },
+        { text: 'Geothermal Heat Pumps', 
+        href: getPermalink('/clean-energy/geothermal-heat-pumps') },
+        { text: 'Wind Turbines', 
+        href: getPermalink('/clean-energy/residential-wind-turbines') },
       ],
     },
     {
@@ -20,12 +26,14 @@ export const headerData = {
           text: 'Energy Efficient Home Upgrades',
           href: getPermalink('/energy-efficient/energy-efficient-home-upgrades'),
         },
-        { text: 'Air Source Heat Pumps', href: getPermalink('/energy-efficient/air-source-heat-pumps') },
+        { text: 'Air Source Heat Pumps', 
+        href: getPermalink('/energy-efficient/air-source-heat-pumps') },
         {
           text: 'Energy Efficient Water Heaters',
           href: getPermalink('/energy-efficient/energy-efficient-water-heaters'),
         },
-        { text: 'Weatherization', href: getPermalink('/energy-efficient/weatherization') },
+        { text: 'Weatherization', 
+        href: getPermalink('/energy-efficient/weatherization') },
       ],
     },
     {
@@ -60,12 +68,14 @@ export const footerData = {
     {
       title: 'Tax Code Breakdowns',
       links: [
-        { text: 'Home Clean Energy Credit', href: getPermalink('/clean-energy/home-clean-energy-credit') },
+        { text: 'Home Clean Energy Credit', 
+        href: getPermalink('/clean-energy/home-clean-energy-credit') },
         {
           text: 'Energy Efficient Home Upgrades',
           href: getPermalink('/energyefficient/energy-efficient-home-upgrades'),
         },
-        { text: 'Energy Efficient Rebates', href: getPermalink('/energy-efficient-rebates/energy-efficient-rebates') },
+        { text: 'Energy Efficient Rebates', 
+        href: getPermalink('/energy-efficient-rebates/energy-efficient-rebates') },
       ],
     },
     {
@@ -80,11 +90,13 @@ export const footerData = {
     {
       title: 'Home Improvements',
       links: [
-        { text: 'Geothermal Heat Pumps', href: getPermalink('/clean-energy/geothermal-heat-pumps') },
-        { text: 'Wind Turbines', href: getPermalink('/clean-energy/wind-turbines') },
-        { text: 'Air Source Heat Pumps', href: getPermalink('/energy-efficient/air-source-heat-pumps') },
-        {
-          text: 'Energy Efficient Water Heaters',
+        { text: 'Geothermal Heat Pumps', 
+        href: getPermalink('/clean-energy/geothermal-heat-pumps') },
+        { text: 'Wind Turbines', 
+        href: getPermalink('/clean-energy/residential-wind-turbines') },
+        { text: 'Air Source Heat Pumps', 
+        href: getPermalink('/energy-efficient/air-source-heat-pumps') },
+        { text: 'Energy Efficient Water Heaters',
           href: getPermalink('/energy-efficient/energy-efficient-water-heaters'),
         },
       ],

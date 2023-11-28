@@ -8,10 +8,12 @@ import Hero from '~/components/widgets/Hero.astro';
 const metadata = {
   title: 'Energy Efficient Water Heaters',
   description: 'Explore the benefits of energy-efficient water heaters at Invest in Your Energy. Learn how upgrading to heat pump, tankless, or solar water heaters can significantly reduce your energy bills and carbon footprint. Find out about the latest in water heating technology, including smart features and design efficiencies, and how you can leverage tax credits and rebates for Explore the benefits of energy-efficient water heaters at Invest in Your Energy. Learn how upgrading to heat pump, tankless, or solar water heaters can significantly reduce your energy bills Find out about the latest in water heating technology, and how you can leverage tax credits and rebates for sustainable home improvements',
+  canonical: 'https://investinyourenergy.com/energy-efficient/energy-efficient-water-heaters'
 };
 ---
 
 <Layout metadata={metadata}>
+
   <Hero actions={[]} videoSrc="/images/water-heater-video.mp4">
     <Fragment slot="title">
       <div class="text-center text-2xl sm:text-2xl md:text-3xl lg:text-5xl font-bold leading-tight tracking-tighter mb-4 font-heading">
@@ -77,7 +79,6 @@ const metadata = {
   ]}
  />
 
- 
 <!-- Water Heaters (WTR) Featured Articles Widget -->
 <FeaturedArticles 
   title="Featured Articles" 
