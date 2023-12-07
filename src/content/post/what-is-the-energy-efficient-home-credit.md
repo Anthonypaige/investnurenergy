@@ -1,5 +1,5 @@
 ---
-publishDate: 2023-11-07T00:00:00Z
+publishDate: 2023-12-07T00:00:00Z
 title: What is the Energy Efficient Home Credit?
 excerpt: Uncover the essentials of the Energy Efficient Home Improvement Credit and its role in promoting sustainable home upgrades. Learn how this credit can lead to significant energy savings and enhanced home sustainability.
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/EEHU-1-cover-art.png?raw=true
