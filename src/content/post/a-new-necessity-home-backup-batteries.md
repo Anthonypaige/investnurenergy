@@ -1,6 +1,6 @@
 ---
-publishDate: 2023-11-11T00:00:00Z
-title: A New necessity- Home Backup Batteries
+publishDate: 2023-12-7T00:00:00Z
+title: A New Necessity- Home Backup Batteries
 excerpt: Explore the critical role of backup batteries in ensuring reliable home energy. Learn how the Inflation Reduction Act and energy arbitrage make these systems a smart investment for modern homeowners.
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/HES-1-cover-art.jpg?raw=true
 category: Home Energy Storage
