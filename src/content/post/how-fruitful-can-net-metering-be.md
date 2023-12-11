@@ -1,6 +1,6 @@
 ---
 publishDate: 2023-10-15T00:00:00Z
-title: How fruitful can Net Metering be?
+title: How Fruitful can Net Metering be?
 excerpt: Net metering can be a fruitful endeavor, much like owning a tree that produces a bountiful harvest. It allows you to offset the cost of the power you draw from the grid, reducing your monthly electricity bills.
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/FYI-3-cover-art.png?raw=true
 category: Solar Energy
