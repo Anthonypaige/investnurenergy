@@ -133,7 +133,7 @@
   force = true
 
   [[redirects]]
-  from = "https://www./windelectricsystems.com/*"
+  from = "https://www./windelectricsystem.com/*"
   to = "https://investinyourenergy.com/clean-energy/residential-wind-turbines"
   status = 301
   force = true
