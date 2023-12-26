@@ -1,7 +1,7 @@
 ---
-publishDate: 2023-10-15T00:00:00Z
-title: Assessing your Home's Wind Power?
-excerpt: Delve into the world of residential wind power and determine if your home is a suitable candidate. This guide provides insights into the prerequisites and evaluations necessary for a successful wind power installation.
+publishDate: 2023-12-15T00:00:00Z
+title: Assessing your Home's Wind Power
+excerpt: Delve into the world of residential wind power and determine if your home is a suitable candidate. This guide provides insights into the prerequisites and evaluations necessary for a successful home wind turbine installation.
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/WND-2-cover-art.png?raw=true
 category: Home Clean Energy Credit
 tags:
@@ -14,7 +14,7 @@ metadata:
 
 Investing in wind power for your home is not just a smart decision, but also an eco-friendly one. With the potential to significantly reduce your energy bills and the added benefit of a 30% tax credit from the U.S. government, wind energy has become an appealing alternative for home power. This guide will assist you in determining if your property is a suitable candidate for wind power utilization.
 
-### **Understanding Wind Potential Maps The First Step to Wind Power**
+### **First Step- Understanding Residential Wind Potential**
 
 The U.S. Department of Energy's Wind Exchange provides a map that gives a snapshot of the average annual wind speed at a height of 30 meters across the United States. The colors on the map represent different wind speeds, measured in meters per second. The warmer the color, the higher the wind speed, and the greater the potential for wind energy generation.
 
@@ -22,9 +22,9 @@ Wind speed is a critical factor as the power available in the wind is proportion
 
 ![Super wide](https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/page-art/WND-map-page-art.png?raw=true)
 
-For a more detailed look at wind resources in your specific area, head over to the Wind [Exchange's Residential Maps and Data page](https://windexchange.energy.gov/maps-data?category=residential) This tool allows you to zoom in on your location and get a more precise idea of the wind resources available to you. However, these maps are just the starting point. They provide a general idea of wind potential, but other factors also significantly influence the feasibility and performance of a wind turbine.
+For a more detailed look at wind resources in your specific area, head over to the Wind Exchange's Residential [Maps and Data page](https://windexchange.energy.gov/maps-data?category=residential) This tool allows you to zoom in on your location and get a more precise idea of the wind resources available to you. However, these maps are just the starting point. They provide a general idea of wind potential, but other factors also significantly influence the feasibility and performance of a wind turbine.
 
-### **Assessing Your Property for a Wind Turbine?**
+### **Assessing Your Property for a Wind Turbine**
 
 A detailed wind assessment is necessary to determine if your property is a good candidate for a wind turbine. This involves analyzing your site's average wind speed and direction, considering the local topography, and any potential obstructions.
 
@@ -41,4 +41,4 @@ Moreover, the BTMETER BT-100 is not just about measuring wind speed and directio
 
 #### **Conclusion**
 
-Investing in residential wind turbines is a decision that requires careful consideration and planning. From understanding wind potential maps to conducting a detailed wind assessment of your property, each step plays a crucial role in ensuring the success of your wind energy project. Tools like the BTMETER BT-100 Digital Anemometer can provide valuable data to assist in your decision-making process. Remember, the goal is to find the perfect balance where wind resources and site location converge to maximize the transformation of wind into usable electricity. With the right approach, you can harness the power of the wind to create a sustainable and cost-effective energy solution for your home.
+Investing in residential wind turbines is a decision that requires careful consideration and planning. From understanding wind potential maps to conducting a detailed wind assessment of your property, each step plays a crucial role in ensuring the success of your wind energy project. Remember, the goal is to find the perfect balance where wind resources and site location converge to maximize the transformation of wind into usable electricity. With the right approach, you can harness the power of the wind to create a sustainable and cost-effective energy solution for your home.
