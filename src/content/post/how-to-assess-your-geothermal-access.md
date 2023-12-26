@@ -1,5 +1,5 @@
 ---
-publishDate: 2023-11-04T00:00:00Z
+publishDate: 2023-12-19T00:00:00Z
 title: How to Asses your Geothermal Access
 excerpt: Considering a geothermal heat pump system for your home? It's vital to comprehend the elements that can impact the system's efficiency. This guide will walk you through the crucial considerations, enabling you to evaluate the feasibility of a geothermal heat pump system for your property.
 image: https://github.com/Anthonypaige/investnurenergy/blob/main/public/images/cover-art/Geo-2-cover-art.png?raw=true'
@@ -20,7 +20,7 @@ Determining if a geothermal system is right for your property requires careful c
 
 This guide will explore these essential elements, helping you evaluate if your home is a suitable candidate for this renewable energy technology.
 
-### Geothermal Potential: Geothermal Gradient and Ground Temperature
+### Geothermal Potential
 
 - **Map Overview**: The map below offers a glimpse into the geothermal potential across the United States. The color gradations represent the heat flow from the Earth's core to the surface, measured in milliwatts per square meter. The warmer the color, the higher the heat flow, and the greater the geothermal potential.
 
@@ -30,19 +30,19 @@ This guide will explore these essential elements, helping you evaluate if your h
 
 - **Additional Resources**: For a more detailed view, visit the [U.S. Energy Atlas Interactive Map](https://atlas.eia.gov/datasets/eia::geothermal-potential/explore).
 
-### Soil Composition Plays a Significant Role in Heat Transfer
+### Soil Composition's Role in Geothermal Potential
 
 - **Heat Transfer Properties**: The type of soil on your property significantly influences the heat transfer rate of a geothermal system. For example, soils with high clay content tend to have superior heat transfer properties than sandy soils.
 
 - **Soil Composition Resources**: You can check your soil composition using the [Web Soil Survey](https://websoilsurvey.sc.egov.usda.gov/) provided by the United States Department of Agriculture.
 
-### Soil Moisture Plays a Vital Role in Heat Conduction
+### Soil Moisture and Heat Conduction
 
-- **Importance of Soil Moisture**: Soil moisture plays a vital role in the efficiency of a geothermal system. Moist soils conduct heat better than dry soils.
+- **Importance of Soil Moisture**: Soil moisture plays a vital role in the efficiency of a geothermal heat pump system. Moist soils conduct heat better than dry soils.
 
 - **Soil Moisture Resources**: The[National Water and Climate Center](https://www.wcc.nrcs.usda.gov/) provides resources to check soil moisture levels in your area.
 
-### Land Availability is A Crucial Factor in Geothermal System Feasibility
+### Property Assessment for Geothermal Systems
 
 - **Horizontal Systems**: If your property has ample space, horizontal installation could be an option. This option is often less expensive but demands more surface area.
 
@@ -52,7 +52,7 @@ This guide will explore these essential elements, helping you evaluate if your h
 
 To explore the different types of geothermal systems in detail, check out our article on The Best Geothermal Heat Pump System [for Your Property](best-geothermal-pump-for-your-home).
 
-### Local Regulations will have an impact on Geothermal System Installation
+### Local Regulations impact on Geothermal Installation
 
 - **Regulatory Considerations**: Local regulations can significantly affect the installation of geothermal systems. Some areas may have restrictions on drilling depths, water usage for open-loop systems, or even specific zoning laws.
 
