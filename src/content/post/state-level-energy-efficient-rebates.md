@@ -26,7 +26,7 @@ Reading the fine print is crucial.Each state has its own set of incentives, whic
 
 **Example**: you might decide to install a DIY mini-split system, assuming you can claim a federal tax credit and stack it with a $1,000 rebate from your local utility provider. However, after completing the work, you discover that the utility's rebate required the system to be installed by a licensed HVAC contractor. Now, you're ineligible for the $1,000 rebate you were counting on. Always read the terms and conditions to avoid such pitfalls.
 
-### **First-Come, First-Served: Act Now for Maximum Savings**
+### **First-Come, First-Served Basis**
 
 Many of these incentives operate on a first-come, first-served basis. This means that the funds allocated for these programs can run out quickly. Acting swiftly can increase your chances of receiving substantial rebates, reducing the overall costs of your energy-efficient upgrades.
 
